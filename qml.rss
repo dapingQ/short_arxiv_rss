@@ -7,171 +7,41 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2025 05:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 05:00:01 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Multi-Objective Mobile Damped Wave Algorithm (MOMDWA): A Novel Approach For Quantum System Control</title>
-      <link>https://arxiv.org/abs/2502.05228</link>
-      <description>arXiv:2502.05228v1 Announce Type: new 
-Abstract: In this paper, we introduce a novel multi-objective optimization algorithm, the Multi-Objective Mobile Damped Wave Algorithm (MOMDWA), specifically designed to address complex quantum control problems. Our approach extends the capabilities of the original Mobile Damped Wave Algorithm (MDWA) by incorporating multiple objectives, enabling a more comprehensive optimization process. We applied MOMDWA to three quantum control scenarios, focusing on optimizing the balance between control fidelity, energy consumption, and control smoothness. The results demonstrate that MOMDWA significantly enhances quantum control efficiency and robustness, achieving high fidelity while minimizing energy use and ensuring smooth control pulses. This advancement offers a valuable tool for quantum computing and other domains requiring precise, multi-objective control.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.05228v1</guid>
+      <title>Effcient classical error correction for parity encoded spin systems</title>
+      <link>https://arxiv.org/abs/2502.07170</link>
+      <description>arXiv:2502.07170v1 Announce Type: new 
+Abstract: Fast solvers for combinatorial optimization problems (COPs) have attracted engineering interest in various industrial and social applications. Quantum annealing (QA) has emerged as a promising candidate and significant efforts have been dedicated to its development. Since COP is encoded in the Ising interaction between logical spins, its realization requires a spin system with all-to-all connectivity, which poses technical difficulties in the physical implementation of large-scale QA devices. W. Lechner, P. Hauke, and P. Zoller proposed parity-encoding (PE) architecture, consisting of a larger system of physical spins with only local connectivities between them, to avoid this diffculty in the near future QA device development. They suggested that this architecture not only reduces implementation diffculties and improves scalability, but also has intrinsic fault tolerance because logical spins are redundantly and nonlocally encoded into the physical spins. Nevertheless, it remains unclear how these advantageous features can be exploited. This paper addresses how to correct errors in a spin readout of PE architecture. Our work is based on the close connection between PE architecture and classical low-density parity-check (LDPC) codes. We have shown that independent and identically distributed errors in a spin readout can be corrected by a very simple decoding algorithm that can be regarded as a bit flipping (BF) algorithm for the LDPC codes. The BF algorithm was shown to have comparable performance to the belief propagation (BP) decoding algorithm. Furthermore, it is suggested that the introduction of post-readout BF decoding reduces the total computational cost and improves the performance of the global optimal solution search using the PE architecture. We believe that our results indicate that the PE architecture is a promising platform for near-term QA devices.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.07170v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.SY</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Juntao Yu, Jiaquan Yu, Dedai Wei, Xinye Sha, Shengwei Fu, Miuyu Qiu, Yurun Jin, Kaichen Ouyang</dc:creator>
+      <dc:creator>Yoshihiro Nambu</dc:creator>
     </item>
     <item>
-      <title>Quantum automated learning with provable and explainable trainability</title>
-      <link>https://arxiv.org/abs/2502.05264</link>
-      <description>arXiv:2502.05264v1 Announce Type: new 
-Abstract: Machine learning is widely believed to be one of the most promising practical applications of quantum computing. Existing quantum machine learning schemes typically employ a quantum-classical hybrid approach that relies crucially on gradients of model parameters. Such an approach lacks provable convergence to global minima and will become infeasible as quantum learning models scale up. Here, we introduce quantum automated learning, where no variational parameter is involved and the training process is converted to quantum state preparation. In particular, we encode training data into unitary operations and iteratively evolve a random initial state under these unitaries and their inverses, with a target-oriented perturbation towards higher prediction accuracy sandwiched in between. Under reasonable assumptions, we rigorously prove that the evolution converges exponentially to the desired state corresponding to the global minimum of the loss function. We show that such a training process can be understood from the perspective of preparing quantum states by imaginary time evolution, where the data-encoded unitaries together with target-oriented perturbations would train the quantum learning model in an automated fashion. We further prove that the quantum automated learning paradigm features good generalization ability with the generalization error upper bounded by the ratio between a logarithmic function of the Hilbert space dimension and the number of training samples. In addition, we carry out extensive numerical simulations on real-life images and quantum data to demonstrate the effectiveness of our approach and validate the assumptions. Our results establish an unconventional quantum learning strategy that is gradient-free with provable and explainable trainability, which would be crucial for large-scale practical applications of quantum computing in machine learning scenarios.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.05264v1</guid>
-      <category>quant-ph</category>
+      <title>Hyper Compressed Fine-Tuning of Large Foundation Models with Quantum Inspired Adapters</title>
+      <link>https://arxiv.org/abs/2502.06916</link>
+      <description>arXiv:2502.06916v1 Announce Type: cross 
+Abstract: Fine-tuning pre-trained large foundation models for specific tasks has become increasingly challenging due to the computational and storage demands associated with full parameter updates. Parameter-Efficient Fine-Tuning (PEFT) methods address this issue by updating only a small subset of model parameters using adapter modules. In this work, we propose \emph{Quantum-Inspired Adapters}, a PEFT approach inspired by Hamming-weight preserving quantum circuits from quantum machine learning literature. These models can be both expressive and parameter-efficient by operating in a combinatorially large space while simultaneously preserving orthogonality in weight parameters. We test our proposed adapters by adapting large language models and large vision transformers on benchmark datasets. Our method can achieve 99.2\% of the performance of existing fine-tuning methods such LoRA with a 44x parameter compression on language understanding datasets like GLUE and VTAB. Compared to existing orthogonal fine-tuning methods such as OFT or BOFT, we achieve 98\% relative performance with 25x fewer parameters. This demonstrates competitive performance paired with a significant reduction in trainable parameters. Through ablation studies, we determine that combining multiple Hamming-weight orders with orthogonality and matrix compounding are essential for performant fine-tuning. Our findings suggest that Quantum-Inspired Adapters offer a promising direction for efficient adaptation of language and vision models in resource-constrained environments.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.06916v1</guid>
+      <category>cs.LG</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Qi Ye, Shuangyue Geng, Zizhao Han, Weikang Li, L. -M. Duan, Dong-Ling Deng</dc:creator>
-    </item>
-    <item>
-      <title>Exponential Separation Criteria for Quantum Iterative Power Algorithms</title>
-      <link>https://arxiv.org/abs/2502.05506</link>
-      <description>arXiv:2502.05506v1 Announce Type: new 
-Abstract: In the vast field of Quantum Optimization, Quantum Iterative Power Algorithms (QIPA) has been introduced recently with a promise of exponential speedup over an already established and well-known method, the variational Quantum Imaginary Time Evolution (varQITE) algorithm. Since the convergence and error of varQITE are known, the promise of QIPA also implied certain collapses in the complexity hierarchy - such as NP $\subseteq$ BQP, as we show in our study. However the original article of QIPA explicitly states the algorithm does not cause any collapses. In this study we prove that these collapses indeed do not occur, and with that, prove that the promised exponential separation is practically unachievable. We do so by introducing criteria for the exponential separation between QIPA that uses a double exponential function and varQITE, and then showing how these criteria require certain properties in problem instances. After that we introduce a preprocessing step that enforces problems to satisfy these criteria, and then we show that the algorithmic error blows up exponentially for these instances, as there is an inverse polynomial term between speedup and the error. Despite the theoretical results, we also show that practically relevant polynomial enhancement is still possible, and show experimental results on a small problem instance, where we used our preprocessing step to achieve the improvement.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.05506v1</guid>
+      <category>eess.SP</category>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Andr\'as Cz\'egel, Bogl\'arka G. -T\'oth</dc:creator>
-    </item>
-    <item>
-      <title>Detection of Physiological Data Tampering Attacks with Quantum Machine Learning</title>
-      <link>https://arxiv.org/abs/2502.05966</link>
-      <description>arXiv:2502.05966v1 Announce Type: new 
-Abstract: The widespread use of cloud-based medical devices and wearable sensors has made physiological data susceptible to tampering. These attacks can compromise the reliability of healthcare systems which can be critical and life-threatening. Detection of such data tampering is of immediate need. Machine learning has been used to detect anomalies in datasets but the performance of Quantum Machine Learning (QML) is still yet to be evaluated for physiological sensor data. Thus, our study compares the effectiveness of QML for detecting physiological data tampering, focusing on two types of white-box attacks: data poisoning and adversarial perturbation. The results show that QML models are better at identifying label-flipping attacks, achieving accuracy rates of 75%-95% depending on the data and attack severity. This superior performance is due to the ability of quantum algorithms to handle complex and high-dimensional data. However, both QML and classical models struggle to detect more sophisticated adversarial perturbation attacks, which subtly alter data without changing its statistical properties. Although QML performed poorly against this attack with around 45%-65% accuracy, it still outperformed classical algorithms in some cases.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.05966v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Md. Saif Hassan Onim, Himanshu Thapliyal</dc:creator>
-    </item>
-    <item>
-      <title>Advance sharing for stabilizer-based quantum secret sharing schemes</title>
-      <link>https://arxiv.org/abs/2502.06247</link>
-      <description>arXiv:2502.06247v1 Announce Type: new 
-Abstract: In stabilizer-based quantum secret sharing schemes, it is known that some shares can be distributed to participants before a secret is given to the dealer. This distribution is known as advance sharing. It is already known that a set of shares is advance shareable only if it is a forbidden set. However, it was not known whether any forbidden set is advance shareable. We provide an example of a set of shares such that it is a forbidden set but is not advance shareable in the previous scheme. Furthermore, we propose a quantum secret sharing scheme for quantum secrets such that any forbidden set is advance shareable.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06247v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CR</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mamoru Shibata</dc:creator>
-    </item>
-    <item>
-      <title>Conditioning through indifference in quantum mechanics</title>
-      <link>https://arxiv.org/abs/2502.06249</link>
-      <description>arXiv:2502.06249v1 Announce Type: new 
-Abstract: We can learn (more) about the state a quantum system is in through measurements. We look at how to describe the uncertainty about a quantum system's state conditional on executing such measurements. We show that by exploiting the interplay between desirability, coherence and indifference, a general rule for conditioning can be derived. We then apply this rule to conditioning on measurement outcomes, and show how it generalises to conditioning on a set of measurement outcomes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06249v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>math.PR</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Keano De Vos, Gert de Cooman</dc:creator>
-    </item>
-    <item>
-      <title>Application of quantum machine learning using quantum kernel algorithms on multiclass neuron M type classification</title>
-      <link>https://arxiv.org/abs/2502.06281</link>
-      <description>arXiv:2502.06281v1 Announce Type: new 
-Abstract: The functional characterization of different neuronal types has been a longstanding and crucial challenge. With the advent of physical quantum computers, it has become possible to apply quantum machine learning algorithms to translate theoretical research into practical solutions. Previous studies have shown the advantages of quantum algorithms on artificially generated datasets, and initial experiments with small binary classification problems have yielded comparable outcomes to classical algorithms. However, it is essential to investigate the potential quantum advantage using real-world data. To the best of our knowledge, this study is the first to propose the utilization of quantum systems to classify neuron morphologies, thereby enhancing our understanding of the performance of automatic multiclass neuron classification using quantum kernel methods. We examined the influence of feature engineering on classification accuracy and found that quantum kernel methods achieved similar performance to classical methods, with certain advantages observed in various configurations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06281v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <arxiv:DOI>10.1038/s41598-023-38558-z</arxiv:DOI>
-      <arxiv:journal_reference>Sci Rep 13, 11541 (2023)</arxiv:journal_reference>
-      <dc:creator>Xavier Vasques, Hanhee Paik, Laura Cif</dc:creator>
-    </item>
-    <item>
-      <title>A Linearly Convergent Algorithm for Computing the Petz-Augustin Information</title>
-      <link>https://arxiv.org/abs/2502.06399</link>
-      <description>arXiv:2502.06399v1 Announce Type: new 
-Abstract: We propose an iterative algorithm for computing the Petz-Augustin information of order $\alpha\in(1/2,1)\cup(1,\infty)$. The optimization error is guaranteed to converge at a rate of $O\left(\vert 1-1/\alpha \vert^T\right)$, where $T$ is the number of iterations. Let $n$ denote the cardinality of the input alphabet of the classical-quantum channel, and $d$ the dimension of the quantum states. The algorithm has an initialization time complexity of $O\left(n d^{3}\right)$ and a per-iteration time complexity of $O\left(n d^{2}+d^3\right)$. To the best of our knowledge, this is the first algorithm for computing the Petz-Augustin information with a non-asymptotic convergence guarantee.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06399v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>math.OC</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Chun-Neng Chu, Wei-Fu Tseng, Yen-Huan Li</dc:creator>
-    </item>
-    <item>
-      <title>Convex Split Lemma without Inequalities</title>
-      <link>https://arxiv.org/abs/2502.06526</link>
-      <description>arXiv:2502.06526v1 Announce Type: new 
-Abstract: We introduce a refinement to the convex split lemma by replacing the max mutual information with the collision mutual information, transforming the inequality into an equality. This refinement yields tighter achievability bounds for quantum source coding tasks, including state merging and state splitting. Furthermore, we derive a universal upper bound on the smoothed max mutual information, where "universal" signifies that the bound depends exclusively on R\'enyi entropies and is independent of the system's dimensions. This result has significant implications for quantum information processing, particularly in applications such as the reverse quantum Shannon theorem.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06526v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math-ph</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Gilad Gour</dc:creator>
-    </item>
-    <item>
-      <title>Cumulant Structures of Entanglement Entropy</title>
-      <link>https://arxiv.org/abs/2502.05371</link>
-      <description>arXiv:2502.05371v1 Announce Type: cross 
-Abstract: We present a new method to derive exact cumulant expressions of any order of von Neumann entropy over Hilbert-Schmidt ensemble. The new method uncovers hidden cumulant structures that decouple each cumulant in a summation-free manner into its lower-order joint cumulants involving families of ancillary statistics. Importantly, the new method is able to avoid the seemingly inevitable task of simplifying nested summations of increasing difficulty that prevents the existing method in the literature to obtain higher-order cumulants.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.05371v1</guid>
-      <category>math-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Youyi Huang, Lu Wei</dc:creator>
-    </item>
-    <item>
-      <title>Conditioning and AGM-like belief change in the Desirability-Indifference framework</title>
-      <link>https://arxiv.org/abs/2502.06235</link>
-      <description>arXiv:2502.06235v1 Announce Type: cross 
-Abstract: We show how the AGM framework for belief change (expansion, revision, contraction) can be extended to deal with conditioning in the so-called Desirability-Indifference framework, based on abstract notions of accepting and rejecting options, as well as on abstract notions of events. This level of abstraction allows us to deal simultaneously with classical and quantum probability theory.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06235v1</guid>
-      <category>cs.AI</category>
-      <category>math.PR</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 11 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kathelijne Coussement, Gert de Cooman, Keano De Vos</dc:creator>
+      <dc:creator>Snehal Raj, Brian Coyle</dc:creator>
     </item>
   </channel>
 </rss>

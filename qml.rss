@@ -7,41 +7,55 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Feb 2025 05:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 05:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 13 Feb 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Effcient classical error correction for parity encoded spin systems</title>
-      <link>https://arxiv.org/abs/2502.07170</link>
-      <description>arXiv:2502.07170v1 Announce Type: new 
-Abstract: Fast solvers for combinatorial optimization problems (COPs) have attracted engineering interest in various industrial and social applications. Quantum annealing (QA) has emerged as a promising candidate and significant efforts have been dedicated to its development. Since COP is encoded in the Ising interaction between logical spins, its realization requires a spin system with all-to-all connectivity, which poses technical difficulties in the physical implementation of large-scale QA devices. W. Lechner, P. Hauke, and P. Zoller proposed parity-encoding (PE) architecture, consisting of a larger system of physical spins with only local connectivities between them, to avoid this diffculty in the near future QA device development. They suggested that this architecture not only reduces implementation diffculties and improves scalability, but also has intrinsic fault tolerance because logical spins are redundantly and nonlocally encoded into the physical spins. Nevertheless, it remains unclear how these advantageous features can be exploited. This paper addresses how to correct errors in a spin readout of PE architecture. Our work is based on the close connection between PE architecture and classical low-density parity-check (LDPC) codes. We have shown that independent and identically distributed errors in a spin readout can be corrected by a very simple decoding algorithm that can be regarded as a bit flipping (BF) algorithm for the LDPC codes. The BF algorithm was shown to have comparable performance to the belief propagation (BP) decoding algorithm. Furthermore, it is suggested that the introduction of post-readout BF decoding reduces the total computational cost and improves the performance of the global optimal solution search using the PE architecture. We believe that our results indicate that the PE architecture is a promising platform for near-term QA devices.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.07170v1</guid>
+      <title>A unifying account of warm start guarantees for patches of quantum landscapes</title>
+      <link>https://arxiv.org/abs/2502.07889</link>
+      <description>arXiv:2502.07889v1 Announce Type: new 
+Abstract: Barren plateaus are fundamentally a statement about quantum loss landscapes on average but there can, and generally will, exist patches of barren plateau landscapes with substantial gradients. Previous work has studied certain classes of parameterized quantum circuits and found example regions where gradients vanish at worst polynomially in system size. Here we present a general bound that unifies all these previous cases and that can tackle physically-motivated ans\"atze that could not be analyzed previously. Concretely, we analytically prove a lower-bound on the variance of the loss that can be used to show that in a non-exponentially narrow region around a point with curvature the loss variance cannot decay exponentially fast. This result is complemented by numerics and an upper-bound that suggest that any loss function with a barren plateau will have exponentially vanishing gradients in any constant radius subregion. Our work thus suggests that while there are hopes to be able to warm-start variational quantum algorithms, any initialization strategy that cannot get increasingly close to the region of attraction with increasing problem size is likely inadequate.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.07889v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <category>stat.ML</category>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yoshihiro Nambu</dc:creator>
+      <dc:creator>Hela Mhiri, Ricard Puig, Sacha Lerch, Manuel S. Rudolph, Thiparat Chotibut, Supanut Thanasilp, Zo\"e Holmes</dc:creator>
     </item>
     <item>
-      <title>Hyper Compressed Fine-Tuning of Large Foundation Models with Quantum Inspired Adapters</title>
-      <link>https://arxiv.org/abs/2502.06916</link>
-      <description>arXiv:2502.06916v1 Announce Type: cross 
-Abstract: Fine-tuning pre-trained large foundation models for specific tasks has become increasingly challenging due to the computational and storage demands associated with full parameter updates. Parameter-Efficient Fine-Tuning (PEFT) methods address this issue by updating only a small subset of model parameters using adapter modules. In this work, we propose \emph{Quantum-Inspired Adapters}, a PEFT approach inspired by Hamming-weight preserving quantum circuits from quantum machine learning literature. These models can be both expressive and parameter-efficient by operating in a combinatorially large space while simultaneously preserving orthogonality in weight parameters. We test our proposed adapters by adapting large language models and large vision transformers on benchmark datasets. Our method can achieve 99.2\% of the performance of existing fine-tuning methods such LoRA with a 44x parameter compression on language understanding datasets like GLUE and VTAB. Compared to existing orthogonal fine-tuning methods such as OFT or BOFT, we achieve 98\% relative performance with 25x fewer parameters. This demonstrates competitive performance paired with a significant reduction in trainable parameters. Through ablation studies, we determine that combining multiple Hamming-weight orders with orthogonality and matrix compounding are essential for performant fine-tuning. Our findings suggest that Quantum-Inspired Adapters offer a promising direction for efficient adaptation of language and vision models in resource-constrained environments.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.06916v1</guid>
-      <category>cs.LG</category>
+      <title>Temporal Model On Quantum Logic</title>
+      <link>https://arxiv.org/abs/2502.07817</link>
+      <description>arXiv:2502.07817v1 Announce Type: cross 
+Abstract: This paper introduces a unified theoretical framework for modeling temporal memory dynamics, combining concepts from temporal logic, memory decay models, and hierarchical contexts. The framework formalizes the evolution of propositions over time using linear and branching temporal models, incorporating exponential decay (Ebbinghaus forgetting curve) and reactivation mechanisms via Bayesian updating. The hierarchical organization of memory is represented using directed acyclic graphs to model recall dependencies and interference. Novel insights include feedback dynamics, recursive influences in memory chains, and the integration of entropy-based recall efficiency. This approach provides a foundation for understanding memory processes across cognitive and computational domains.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.07817v1</guid>
       <category>cs.AI</category>
-      <category>eess.SP</category>
+      <category>math.LO</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 12 Feb 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Snehal Raj, Brian Coyle</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <arxiv:DOI>10.5281/zenodo.14742203</arxiv:DOI>
+      <dc:creator>Francesco D'Agostino</dc:creator>
+    </item>
+    <item>
+      <title>The Observational Partial Order of Causal Structures with Latent Variables</title>
+      <link>https://arxiv.org/abs/2502.07891</link>
+      <description>arXiv:2502.07891v1 Announce Type: cross 
+Abstract: For two causal structures with the same set of visible variables, one is said to observationally dominate the other if the set of distributions over the visible variables realizable by the first contains the set of distributions over the visible variables realizable by the second. Knowing such dominance relations is useful for adjudicating between these structures given observational data. We here consider the problem of determining the partial order of equivalence classes of causal structures with latent variables relative to observational dominance. We provide a complete characterization of the dominance order in the case of three visible variables, and a partial characterization in the case of four visible variables. Our techniques also help to identify which observational equivalence classes have a set of realizable distributions that is characterized by nontrivial inequality constraints, analogous to Bell inequalities and instrumental inequalities. We find evidence that as one increases the number of visible variables, the equivalence classes satisfying nontrivial inequality constraints become ubiquitous. (Because such classes are the ones for which there can be a difference in the distributions that are quantumly and classically realizable, this implies that the potential for quantum-classical gaps is also ubiquitous.) Furthermore, we find evidence that constraint-based causal discovery algorithms that rely solely on conditional independence constraints have a significantly weaker distinguishing power among observational equivalence classes than algorithms that go beyond these (i.e., algorithms that also leverage nested Markov constraints and inequality constraints).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.07891v1</guid>
+      <category>stat.ML</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 13 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Marina Maciel Ansanelli, Elie Wolfe, Robert W. Spekkens</dc:creator>
     </item>
   </channel>
 </rss>

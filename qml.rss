@@ -7,96 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 05:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 05:00:01 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
+    <pubDate>Sat, 22 Feb 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>The Complexity of Local Stoquastic Hamiltonians on 2D Lattices</title>
-      <link>https://arxiv.org/abs/2502.14244</link>
-      <description>arXiv:2502.14244v1 Announce Type: new 
-Abstract: We show the 2-Local Stoquastic Hamiltonian problem on a 2D square lattice is StoqMA-complete. We achieve this by extending the spatially sparse circuit construction of Oliveira and Terhal, as well as the perturbative gadgets of Bravyi, DiVincenzo, Oliveira, and Terhal. Our main contributions demonstrate StoqMA circuits can be made spatially sparse and that geometrical, stoquastic-preserving, perturbative gadgets can be constructed.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14244v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Gabriel Waite, Michael J. Bremner</dc:creator>
-    </item>
-    <item>
-      <title>Towards efficient quantum algorithms for diffusion probability models</title>
-      <link>https://arxiv.org/abs/2502.14252</link>
-      <description>arXiv:2502.14252v1 Announce Type: new 
-Abstract: A diffusion probabilistic model (DPM) is a generative model renowned for its ability to produce high-quality outputs in tasks such as image and audio generation. However, training DPMs on large, high-dimensional datasets such as high-resolution images or audio incurs significant computational, energy, and hardware costs. In this work, we introduce efficient quantum algorithms for implementing DPMs through various quantum ODE solvers. These algorithms highlight the potential of quantum Carleman linearization for diverse mathematical structures, leveraging state-of-the-art quantum linear system solvers (QLSS) or linear combination of Hamiltonian simulations (LCHS). Specifically, we focus on two approaches: DPM-solver-$k$ which employs exact $k$-th order derivatives to compute a polynomial approximation of $\epsilon_\theta(x_\lambda,\lambda)$; and UniPC which uses finite difference of $\epsilon_\theta(x_\lambda,\lambda)$ at different points $(x_{s_m}, \lambda_{s_m})$ to approximate higher-order derivatives. As such, this work represents one of the most direct and pragmatic applications of quantum algorithms to large-scale machine learning models, presumably talking substantial steps towards demonstrating the practical utility of quantum computing.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14252v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yunfei Wang, Ruoxi Jiang, Yingda Fan, Xiaowei Jia, Jens Eisert, Junyu Liu, Jin-Peng Liu</dc:creator>
-    </item>
-    <item>
-      <title>Purest Quantum State Identification</title>
-      <link>https://arxiv.org/abs/2502.14334</link>
-      <description>arXiv:2502.14334v1 Announce Type: new 
-Abstract: Precise identification of quantum states under noise constraints is essential for quantum information processing. In this study, we generalize the classical best arm identification problem to quantum domains, designing methods for identifying the purest one within $K$ unknown $n$-qubit quantum states using $N$ samples. %, with direct applications in quantum computation and quantum communication. We propose two distinct algorithms: (1) an algorithm employing incoherent measurements, achieving error $\exp\left(- \Omega\left(\frac{N H_1}{\log(K) 2^n }\right) \right)$, and (2) an algorithm utilizing coherent measurements, achieving error $\exp\left(- \Omega\left(\frac{N H_2}{\log(K) }\right) \right)$, highlighting the power of quantum memory. Furthermore, we establish a lower bound by proving that all strategies with fixed two-outcome incoherent POVM must suffer error probability exceeding $ \exp\left( - O\left(\frac{NH_1}{2^n}\right)\right)$. This framework provides concrete design principles for overcoming sampling bottlenecks in quantum technologies.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14334v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yingqi Yu, Honglin Chen, Jun Wu, Wei Xie, Xiangyang Li</dc:creator>
-    </item>
-    <item>
-      <title>Discovering highly efficient low-weight quantum error-correcting codes with reinforcement learning</title>
-      <link>https://arxiv.org/abs/2502.14372</link>
-      <description>arXiv:2502.14372v1 Announce Type: new 
-Abstract: The realization of scalable fault-tolerant quantum computing is expected to hinge on quantum error-correcting codes. In the quest for more efficient quantum fault tolerance, a critical code parameter is the weight of measurements that extract information about errors to enable error correction: as higher measurement weights require higher implementation costs and introduce more errors, it is important in code design to optimize measurement weight. This underlies the surging interest in quantum low-density parity-check (qLDPC) codes, the study of which has primarily focused on the asymptotic (large-code-limit) properties. In this work, we introduce a versatile and computationally efficient approach to stabilizer code weight reduction based on reinforcement learning (RL), which produces new low-weight codes that substantially outperform the state of the art in practically relevant parameter regimes, extending significantly beyond previously accessible small distances. For example, our approach demonstrates savings in physical qubit overhead compared to existing results by 1 to 2 orders of magnitude for weight 6 codes and brings the overhead into a feasible range for near-future experiments. We also investigate the interplay between code parameters using our RL framework, offering new insights into the potential efficiency and power of practically viable coding strategies. Overall, our results demonstrate how RL can effectively advance the crucial yet challenging problem of quantum code discovery and thereby facilitate a faster path to the practical implementation of fault-tolerant quantum technologies.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14372v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Austin Yubo He, Zi-Wen Liu</dc:creator>
-    </item>
-    <item>
-      <title>Provable Quantum Algorithm Advantage for Gaussian Process Quadrature</title>
-      <link>https://arxiv.org/abs/2502.14467</link>
-      <description>arXiv:2502.14467v1 Announce Type: cross 
-Abstract: The aim of this paper is to develop novel quantum algorithms for Gaussian process quadrature methods. Gaussian process quadratures are numerical integration methods where Gaussian processes are used as functional priors for the integrands to capture the uncertainty arising from the sparse function evaluations. Quantum computers have emerged as potential replacements for classical computers, offering exponential reductions in the computational complexity of machine learning tasks. In this paper, we combine Gaussian process quadratures and quantum computing by proposing a quantum low-rank Gaussian process quadrature method based on a Hilbert space approximation of the Gaussian process kernel and enhancing the quadrature using a quantum circuit. The method combines the quantum phase estimation algorithm with the quantum principal component analysis technique to extract information up to a desired rank. Then, Hadamard and SWAP tests are implemented to find the expected value and variance that determines the quadrature. We use numerical simulations of a quantum computer to demonstrate the effectiveness of the method. Furthermore, we provide a theoretical complexity analysis that shows a polynomial advantage over classical Gaussian process quadrature methods. The code is available at https://github.com/cagalvisf/Quantum_HSGPQ.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14467v1</guid>
-      <category>stat.CO</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Cristian A. Galvis-Florez, Ahmad Farooq, Simo S\"arkk\"a</dc:creator>
-    </item>
-    <item>
-      <title>Classical and quantum Coxeter codes: Extending the Reed-Muller family</title>
-      <link>https://arxiv.org/abs/2502.14746</link>
-      <description>arXiv:2502.14746v1 Announce Type: cross 
-Abstract: We introduce a class of binary linear codes that generalizes the Reed-Muller family by replacing the group $\mathbb{Z}_2^m$ with an arbitrary finite Coxeter group. Similar to the Reed-Muller codes, this class is closed under duality and has rate determined by a Gaussian distribution. We also construct quantum CSS codes arising from the Coxeter codes, which admit transversal logical operators outside of the Clifford group.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.14746v1</guid>
-      <category>cs.IT</category>
-      <category>math.CO</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Nolan J. Coble, Alexander Barg</dc:creator>
-    </item>
   </channel>
 </rss>

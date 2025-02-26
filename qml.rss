@@ -7,27 +7,75 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Feb 2025 05:00:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 05:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 25 Feb 2025 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>MetaSym: A Symplectic Meta-learning Framework for Physical Intelligence</title>
-      <link>https://arxiv.org/abs/2502.16667</link>
-      <description>arXiv:2502.16667v1 Announce Type: cross 
-Abstract: Scalable and generalizable physics-aware deep learning has long been considered a significant challenge with various applications across diverse domains ranging from robotics to molecular dynamics. Central to almost all physical systems are symplectic forms, the geometric backbone that underpins fundamental invariants like energy and momentum. In this work, we introduce a novel deep learning architecture, MetaSym. In particular, MetaSym combines a strong symplectic inductive bias obtained from a symplectic encoder and an autoregressive decoder with meta-attention. This principled design ensures that core physical invariants remain intact while allowing flexible, data-efficient adaptation to system heterogeneities. We benchmark MetaSym on highly varied datasets such as a high-dimensional spring mesh system (Otness et al., 2021), an open quantum system with dissipation and measurement backaction, and robotics-inspired quadrotor dynamics. Our results demonstrate superior performance in modeling dynamics under few-shot adaptation, outperforming state-of-the-art baselines with far larger models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.16667v1</guid>
-      <category>cs.LG</category>
-      <category>cs.RO</category>
-      <category>physics.comp-ph</category>
+      <title>Expressive equivalence of classical and quantum restricted Boltzmann machines</title>
+      <link>https://arxiv.org/abs/2502.17562</link>
+      <description>arXiv:2502.17562v1 Announce Type: new 
+Abstract: Quantum computers offer the potential for efficiently sampling from complex probability distributions, attracting increasing interest in generative modeling within quantum machine learning. This surge in interest has driven the development of numerous generative quantum models, yet their trainability and scalability remain significant challenges. A notable example is a quantum restricted Boltzmann machine (QRBM), which is based on the Gibbs state of a parameterized non-commuting Hamiltonian. While QRBMs are expressive, their non-commuting Hamiltonians make gradient evaluation computationally demanding, even on fault-tolerant quantum computers. In this work, we propose a semi-quantum restricted Boltzmann machine (sqRBM), a model designed for classical data that mitigates the challenges associated with previous QRBM proposals. The sqRBM Hamiltonian is commuting in the visible subspace while remaining non-commuting in the hidden subspace. This structure allows us to derive closed-form expressions for both output probabilities and gradients. Leveraging these analytical results, we demonstrate that sqRBMs share a close relationship with classical restricted Boltzmann machines (RBM). Our theoretical analysis predicts that, to learn a given probability distribution, an RBM requires three times as many hidden units as an sqRBM, while both models have the same total number of parameters. We validate these findings through numerical simulations involving up to 100 units. Our results suggest that sqRBMs could enable practical quantum machine learning applications in the near future by significantly reducing quantum resource requirements.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.17562v1</guid>
       <category>quant-ph</category>
-      <pubDate>Tue, 25 Feb 2025 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Maria Demidik, Cenk T\"uys\"uz, Nico Piatkowski, Michele Grossi, Karl Jansen</dc:creator>
+    </item>
+    <item>
+      <title>Solving the Traveling Salesman Problem via Different Quantum Computing Architectures</title>
+      <link>https://arxiv.org/abs/2502.17725</link>
+      <description>arXiv:2502.17725v1 Announce Type: new 
+Abstract: We study the application of emerging photonic and quantum computing architectures to solving the Traveling Salesman Problem (TSP), a well-known NP-hard optimization problem. We investigate several approaches: Simulated Annealing (SA), Quadratic Unconstrained Binary Optimization (QUBO-Ising) methods implemented on quantum annealers and Optical Coherent Ising Machines, as well as the Quantum Approximate Optimization Algorithm (QAOA) and the Quantum Phase Estimation (QPE) algorithm on gate-based quantum computers.
+  QAOA and QPE were tested on the IBM Quantum platform. The QUBO-Ising method was explored using the D-Wave quantum annealer, which operates on superconducting Josephson junctions, and the QCI Dirac machine, a nonlinear optoelectronic Ising machine. Gate-based quantum computers demonstrated accurate results for small TSP instances in simulation. However, real quantum devices are hindered by noise and limited scalability. Circuit complexity grows with problem size, restricting performance to TSP instances with a maximum of 6 nodes.
+  In contrast, Ising-based architectures show improved scalability for larger problem sizes. SQUID-based Ising machines can handle TSP instances with up to 12 nodes, while nonlinear optoelectronic Ising machines extend this capability to 18 nodes. Nevertheless, the solutions tend to be suboptimal due to hardware limitations and challenges in achieving ground state convergence as the problem size increases. Despite these limitations, Ising machines demonstrate significant time advantages over classical methods, making them a promising candidate for solving larger-scale TSPs efficiently.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.17725v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Venkat Padmasola, Zhaotong Li, Rupak Chatterjee, Wesley Dyk</dc:creator>
+    </item>
+    <item>
+      <title>Pauli measurements are not optimal for single-copy tomography</title>
+      <link>https://arxiv.org/abs/2502.18170</link>
+      <description>arXiv:2502.18170v1 Announce Type: new 
+Abstract: Quantum state tomography is a fundamental problem in quantum computing. Given $n$ copies of an unknown $N$-qubit state $\rho \in \mathbb{C}^{d \times d},d=2^N$, the goal is to learn the state up to an accuracy $\epsilon$ in trace distance, with at least probability 0.99. We are interested in the copy complexity, the minimum number of copies of $\rho$ needed to fulfill the task.
+  Pauli measurements have attracted significant attention due to their ease of implementation in limited settings. The best-known upper bound is $O(\frac{N \cdot 12^N}{\epsilon^2})$, and no non-trivial lower bound is known besides the general single-copy lower bound $\Omega(\frac{8^n}{\epsilon^2})$, achieved by hard-to-implement structured POVMs such as MUB, SIC-POVM, and uniform POVM.
+  We have made significant progress on this long-standing problem. We first prove a stronger upper bound of $O(\frac{10^N}{\epsilon^2})$. To complement it with a lower bound of $\Omega(\frac{9.118^N}{\epsilon^2})$, which holds under adaptivity. To our knowledge, this demonstrates the first known separation between Pauli measurements and structured POVMs.
+  The new lower bound is a consequence of a novel framework for adaptive quantum state tomography with measurement constraints. The main advantage over prior methods is that we can use measurement-dependent hard instances to prove tight lower bounds for Pauli measurements. Moreover, we connect the copy-complexity lower bound to the eigenvalues of the measurement information channel, which governs the measurement's capacity to distinguish states. To demonstrate the generality of the new framework, we obtain tight-bounds for adaptive quantum tomography with $k$-outcome measurements, where we recover existing results and establish new ones.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.18170v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jayadev Acharya, Abhilash Dharmavarapu, Yuhan Liu, Nengkun Yu</dc:creator>
+    </item>
+    <item>
+      <title>Effective Field Neural Network</title>
+      <link>https://arxiv.org/abs/2502.17665</link>
+      <description>arXiv:2502.17665v1 Announce Type: cross 
+Abstract: In recent years, with the rapid development of machine learning, physicists have been exploring its new applications in solving or alleviating the curse of dimensionality in many-body problems. In order to accurately reflect the underlying physics of the problem, domain knowledge must be encoded into the machine learning algorithms. In this work, inspired by field theory, we propose a new set of machine learning models called effective field neural networks (EFNNs) that can automatically and efficiently capture important many-body interactions through multiple self-refining processes. Taking the classical $3$-spin infinite-range model and the quantum double exchange model as case studies, we explicitly demonstrate that EFNNs significantly outperform fully-connected deep neural networks (DNNs) and the effective model. Furthermore, with the help of convolution operations, the EFNNs learned in a small system can be seamlessly used in a larger system without additional training and the relative errors even decrease, which further demonstrates the efficacy of EFNNs in representing core physical behaviors.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.17665v1</guid>
+      <category>physics.comp-ph</category>
+      <category>cond-mat.str-el</category>
+      <category>cs.AI</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Pranav Vaidhyanathan, Aristotelis Papatheodorou, Mark T. Mitchison, Natalia Ares, Ioannis Havoutis</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xi Liu, Yujun Zhao, Chun Yu Wan, Yang Zhang, Junwei Liu</dc:creator>
     </item>
   </channel>
 </rss>

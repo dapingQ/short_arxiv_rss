@@ -7,75 +7,53 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Feb 2025 05:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 05:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Expressive equivalence of classical and quantum restricted Boltzmann machines</title>
-      <link>https://arxiv.org/abs/2502.17562</link>
-      <description>arXiv:2502.17562v1 Announce Type: new 
-Abstract: Quantum computers offer the potential for efficiently sampling from complex probability distributions, attracting increasing interest in generative modeling within quantum machine learning. This surge in interest has driven the development of numerous generative quantum models, yet their trainability and scalability remain significant challenges. A notable example is a quantum restricted Boltzmann machine (QRBM), which is based on the Gibbs state of a parameterized non-commuting Hamiltonian. While QRBMs are expressive, their non-commuting Hamiltonians make gradient evaluation computationally demanding, even on fault-tolerant quantum computers. In this work, we propose a semi-quantum restricted Boltzmann machine (sqRBM), a model designed for classical data that mitigates the challenges associated with previous QRBM proposals. The sqRBM Hamiltonian is commuting in the visible subspace while remaining non-commuting in the hidden subspace. This structure allows us to derive closed-form expressions for both output probabilities and gradients. Leveraging these analytical results, we demonstrate that sqRBMs share a close relationship with classical restricted Boltzmann machines (RBM). Our theoretical analysis predicts that, to learn a given probability distribution, an RBM requires three times as many hidden units as an sqRBM, while both models have the same total number of parameters. We validate these findings through numerical simulations involving up to 100 units. Our results suggest that sqRBMs could enable practical quantum machine learning applications in the near future by significantly reducing quantum resource requirements.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.17562v1</guid>
+      <title>Cylindrical and M\"obius Quantum Codes for Asymmetric Pauli Errors</title>
+      <link>https://arxiv.org/abs/2502.19089</link>
+      <description>arXiv:2502.19089v1 Announce Type: new 
+Abstract: In the implementation of quantum information systems, one type of Pauli error, such as phase-flip errors, may occur more frequently than others, like bit-flip errors. For this reason, quantum error-correcting codes that handle asymmetric errors are critical to mitigating the impact of such impairments. To this aim, several asymmetric quantum codes have been proposed. These include variants of surface codes like the XZZX and ZZZY surface codes, tailored to preserve quantum information in the presence of error asymmetries. In this work, we propose two classes of Calderbank, Shor and Steane (CSS) topological codes, referred to as cylindrical and M\"obius codes, particular cases of the fiber bundle family. Cylindrical codes maintain a fully planar structure, while M\"obius codes are quasi-planar, with minimal non-local qubit interactions. We construct these codes employing the algebraic chain complexes formalism, providing theoretical upper bounds for the logical error rate. Our results demonstrate that cylindrical and M\"obius codes outperform standard surface codes when using the minimum weight perfect matching (MWPM) decoder.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.19089v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Maria Demidik, Cenk T\"uys\"uz, Nico Piatkowski, Michele Grossi, Karl Jansen</dc:creator>
-    </item>
-    <item>
-      <title>Solving the Traveling Salesman Problem via Different Quantum Computing Architectures</title>
-      <link>https://arxiv.org/abs/2502.17725</link>
-      <description>arXiv:2502.17725v1 Announce Type: new 
-Abstract: We study the application of emerging photonic and quantum computing architectures to solving the Traveling Salesman Problem (TSP), a well-known NP-hard optimization problem. We investigate several approaches: Simulated Annealing (SA), Quadratic Unconstrained Binary Optimization (QUBO-Ising) methods implemented on quantum annealers and Optical Coherent Ising Machines, as well as the Quantum Approximate Optimization Algorithm (QAOA) and the Quantum Phase Estimation (QPE) algorithm on gate-based quantum computers.
-  QAOA and QPE were tested on the IBM Quantum platform. The QUBO-Ising method was explored using the D-Wave quantum annealer, which operates on superconducting Josephson junctions, and the QCI Dirac machine, a nonlinear optoelectronic Ising machine. Gate-based quantum computers demonstrated accurate results for small TSP instances in simulation. However, real quantum devices are hindered by noise and limited scalability. Circuit complexity grows with problem size, restricting performance to TSP instances with a maximum of 6 nodes.
-  In contrast, Ising-based architectures show improved scalability for larger problem sizes. SQUID-based Ising machines can handle TSP instances with up to 12 nodes, while nonlinear optoelectronic Ising machines extend this capability to 18 nodes. Nevertheless, the solutions tend to be suboptimal due to hardware limitations and challenges in achieving ground state convergence as the problem size increases. Despite these limitations, Ising machines demonstrate significant time advantages over classical methods, making them a promising candidate for solving larger-scale TSPs efficiently.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.17725v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Venkat Padmasola, Zhaotong Li, Rupak Chatterjee, Wesley Dyk</dc:creator>
-    </item>
-    <item>
-      <title>Pauli measurements are not optimal for single-copy tomography</title>
-      <link>https://arxiv.org/abs/2502.18170</link>
-      <description>arXiv:2502.18170v1 Announce Type: new 
-Abstract: Quantum state tomography is a fundamental problem in quantum computing. Given $n$ copies of an unknown $N$-qubit state $\rho \in \mathbb{C}^{d \times d},d=2^N$, the goal is to learn the state up to an accuracy $\epsilon$ in trace distance, with at least probability 0.99. We are interested in the copy complexity, the minimum number of copies of $\rho$ needed to fulfill the task.
-  Pauli measurements have attracted significant attention due to their ease of implementation in limited settings. The best-known upper bound is $O(\frac{N \cdot 12^N}{\epsilon^2})$, and no non-trivial lower bound is known besides the general single-copy lower bound $\Omega(\frac{8^n}{\epsilon^2})$, achieved by hard-to-implement structured POVMs such as MUB, SIC-POVM, and uniform POVM.
-  We have made significant progress on this long-standing problem. We first prove a stronger upper bound of $O(\frac{10^N}{\epsilon^2})$. To complement it with a lower bound of $\Omega(\frac{9.118^N}{\epsilon^2})$, which holds under adaptivity. To our knowledge, this demonstrates the first known separation between Pauli measurements and structured POVMs.
-  The new lower bound is a consequence of a novel framework for adaptive quantum state tomography with measurement constraints. The main advantage over prior methods is that we can use measurement-dependent hard instances to prove tight lower bounds for Pauli measurements. Moreover, we connect the copy-complexity lower bound to the eigenvalues of the measurement information channel, which governs the measurement's capacity to distinguish states. To demonstrate the generality of the new framework, we obtain tight-bounds for adaptive quantum tomography with $k$-outcome measurements, where we recover existing results and establish new ones.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.18170v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Jayadev Acharya, Abhilash Dharmavarapu, Yuhan Liu, Nengkun Yu</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Lorenzo Valentini, Diego Forlivesi, Marco Chiani</dc:creator>
     </item>
     <item>
-      <title>Effective Field Neural Network</title>
-      <link>https://arxiv.org/abs/2502.17665</link>
-      <description>arXiv:2502.17665v1 Announce Type: cross 
-Abstract: In recent years, with the rapid development of machine learning, physicists have been exploring its new applications in solving or alleviating the curse of dimensionality in many-body problems. In order to accurately reflect the underlying physics of the problem, domain knowledge must be encoded into the machine learning algorithms. In this work, inspired by field theory, we propose a new set of machine learning models called effective field neural networks (EFNNs) that can automatically and efficiently capture important many-body interactions through multiple self-refining processes. Taking the classical $3$-spin infinite-range model and the quantum double exchange model as case studies, we explicitly demonstrate that EFNNs significantly outperform fully-connected deep neural networks (DNNs) and the effective model. Furthermore, with the help of convolution operations, the EFNNs learned in a small system can be seamlessly used in a larger system without additional training and the relative errors even decrease, which further demonstrates the efficacy of EFNNs in representing core physical behaviors.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2502.17665v1</guid>
-      <category>physics.comp-ph</category>
-      <category>cond-mat.str-el</category>
+      <title>Quantum Annealing Feature Selection on Light-weight Medical Image Datasets</title>
+      <link>https://arxiv.org/abs/2502.19201</link>
+      <description>arXiv:2502.19201v1 Announce Type: new 
+Abstract: We investigate the use of quantum computing algorithms on real quantum hardware to tackle the computationally intensive task of feature selection for light-weight medical image datasets. Feature selection is often formulated as a k of n selection problem, where the complexity grows binomially with increasing k and n. As problem sizes grow, classical approaches struggle to scale efficiently. Quantum computers, particularly quantum annealers, are well-suited for such problems, offering potential advantages in specific formulations. We present a method to solve larger feature selection instances than previously presented on commercial quantum annealers. Our approach combines a linear Ising penalty mechanism with subsampling and thresholding techniques to enhance scalability. The method is tested in a toy problem where feature selection identifies pixel masks used to reconstruct small-scale medical images. The results indicate that quantum annealing-based feature selection is effective for this simplified use case, demonstrating its potential in high-dimensional optimization tasks. However, its applicability to broader, real-world problems remains uncertain, given the current limitations of quantum computing hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.19201v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Merlin A. Nau, Luca A. Nutricati, Bruno Camino, Paul A. Warburton, Andreas K. Maier</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Machine Learning in Precision Medicine and Drug Discovery -- A Game Changer for Tailored Treatments?</title>
+      <link>https://arxiv.org/abs/2502.18639</link>
+      <description>arXiv:2502.18639v1 Announce Type: cross 
+Abstract: The digitization of healthcare presents numerous challenges, including the complexity of biological systems, vast data generation, and the need for personalized treatment plans. Traditional computational methods often fall short, leading to delayed and sometimes ineffective diagnoses and treatments. Quantum Computing (QC) and Quantum Machine Learning (QML) offer transformative advancements with the potential to revolutionize medicine. This paper summarizes areas where QC promises unprecedented computational power, enabling faster, more accurate diagnostics, personalized treatments, and enhanced drug discovery processes. However, integrating quantum technologies into precision medicine also presents challenges, including errors in algorithms and high costs. We show that mathematically-based techniques for specifying, developing, and verifying software (formal methods) can enhance the reliability and correctness of QC. By providing a rigorous mathematical framework, formal methods help to specify, develop, and verify systems with high precision. In genomic data analysis, formal specification languages can precisely (1) define the behavior and properties of quantum algorithms designed to identify genetic markers associated with diseases. Model checking tools can systematically explore all possible states of the algorithm to (2) ensure it behaves correctly under all conditions, while theorem proving techniques provide mathematical (3) proof that the algorithm meets its specified properties, ensuring accuracy and reliability. Additionally, formal optimization techniques can (4) enhance the efficiency and performance of quantum algorithms by reducing resource usage, such as the number of qubits and gate operations. Therefore, we posit that formal methods can significantly contribute to enabling QC to realize its full potential as a game changer in precision medicine.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2502.18639v1</guid>
+      <category>cs.ET</category>
       <category>cs.AI</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 26 Feb 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Xi Liu, Yujun Zhao, Chun Yu Wan, Yang Zhang, Junwei Liu</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Markus Bertl, Alan Mott, Salvatore Sinno, Bhavika Bhalgamiya</dc:creator>
     </item>
   </channel>
 </rss>

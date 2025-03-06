@@ -7,82 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Mar 2025 05:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 05:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>QCS-ADME: Quantum Circuit Search for Drug Property Prediction with Imbalanced Data and Regression Adaptation</title>
-      <link>https://arxiv.org/abs/2503.01927</link>
-      <description>arXiv:2503.01927v1 Announce Type: new 
-Abstract: The biomedical field is beginning to explore the use of quantum machine learning (QML) for tasks traditionally handled by classical machine learning, especially in predicting ADME (absorption, distribution, metabolism, and excretion) properties, which are essential in drug evaluation. However, ADME tasks pose unique challenges for existing quantum computing systems (QCS) frameworks, as they involve both classification with unbalanced dataset and regression problems. These dual requirements make it necessary to adapt and refine current QCS frameworks to effectively address the complexities of ADME predictions. We propose a novel training-free scoring mechanism to evaluate QML circuit performance on imbalanced classification and regression tasks. Our mechanism demonstrates significant correlation between scoring metrics and test performance on imbalanced classification tasks. Additionally, we develop methods to quantify continuous similarity relationships between quantum states, enabling performance prediction for regression tasks. This represents the first comprehensive approach to searching and evaluating QCS circuits specifically for regression applications. Validation on representative ADME tasks-one imbalanced classification and one regression-demonstrates moderate positive correlation between our scoring metrics and circuit performance, significantly outperforming baseline scoring methods that show negligible correlation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.01927v1</guid>
+      <title>Adaptive Entanglement Routing with Deep Q-Networks in Quantum Networks</title>
+      <link>https://arxiv.org/abs/2503.02895</link>
+      <description>arXiv:2503.02895v1 Announce Type: new 
+Abstract: The quantum internet holds transformative potential for global communication by harnessing the principles of quantum information processing. Despite significant advancements in quantum communication technologies, the efficient distribution of critical resources, such as qubits, remains a persistent and unresolved challenge. Conventional approaches often fall short of achieving optimal resource allocation, underscoring the necessity for more effective solutions. This study proposes a novel reinforcement learning-based adaptive entanglement routing framework designed to enable resource allocation tailored to the specific demands of quantum applications. The introduced QuDQN model utilizes reinforcement learning to optimize the management of quantum networks, allocate resources efficiently, and enhance entanglement routing. The model integrates key considerations, including fidelity requirements, network topology, qubit capacity, and request demands.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.02895v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kangyu Zheng, Tianfan Fu, Zhiding Liang</dc:creator>
+      <dc:creator>Lamarana Jallow, Majid Iqbal Khan</dc:creator>
     </item>
     <item>
-      <title>How to compute the volume in low dimension?</title>
-      <link>https://arxiv.org/abs/2503.02207</link>
-      <description>arXiv:2503.02207v1 Announce Type: new 
-Abstract: Estimating the volume of a convex body is a canonical problem in theoretical computer science. Its study has led to major advances in randomized algorithms, Markov chain theory, and computational geometry. In particular, determining the query complexity of volume estimation to a membership oracle has been a longstanding open question. Most of the previous work focuses on the high-dimensional limit. In this work, we tightly characterize the deterministic, randomized and quantum query complexity of this problem in the high-precision limit, i.e., when the dimension is constant.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.02207v1</guid>
+      <title>Bounding the computational power of bosonic systems</title>
+      <link>https://arxiv.org/abs/2503.03600</link>
+      <description>arXiv:2503.03600v1 Announce Type: new 
+Abstract: Bosonic quantum systems operate in an infinite-dimensional Hilbert space, unlike discrete-variable quantum systems. This distinct mathematical structure leads to fundamental differences in quantum information processing, such as an exponentially greater complexity of state tomography [MMB+24] or a factoring algorithm in constant space [BCCRK24]. Yet, it remains unclear whether this structural difference of bosonic systems may also translate to a practical computational advantage over finite-dimensional quantum computers. Here we take a step towards answering this question by showing that universal bosonic quantum computations can be simulated in exponential time on a classical computer, significantly improving the best previous upper bound requiring exponential memory [CJMM24]. In complexity-theoretic terms, we improve the best upper bound on $\textsf{CVBQP}$ from $\textsf{EXPSPACE}$ to $\textsf{EXP}$. This result is achieved using a simulation strategy based on finite energy cutoffs and approximate coherent state decompositions. While we propose ways to potentially refine this bound, we also present arguments supporting the plausibility of an exponential computational advantage of bosonic quantum computers over their discrete-variable counterparts. Furthermore, we emphasize the role of circuit energy as a resource and discuss why it may act as the fundamental bottleneck in realizing this advantage in practical implementations.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.03600v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Arjan Cornelissen, Simon Apers, Sander Gribling</dc:creator>
-    </item>
-    <item>
-      <title>Towards Heisenberg limit without critical slowing down via quantum reinforcement learning</title>
-      <link>https://arxiv.org/abs/2503.02210</link>
-      <description>arXiv:2503.02210v1 Announce Type: new 
-Abstract: Critical ground states of quantum many-body systems have emerged as vital resources for quantum-enhanced sensing. Traditional methods to prepare these states often rely on adiabatic evolution, which may diminish the quantum sensing advantage. In this work, we propose a quantum reinforcement learning (QRL)-enhanced critical sensing protocol for quantum many-body systems with exotic phase diagrams. Starting from product states and utilizing QRL-discovered gate sequences, we explore sensing accuracy in the presence of unknown external magnetic fields, covering both local and global regimes. Our results demonstrate that QRL-learned sequences reach the finite quantum speed limit and generalize effectively across systems of arbitrary size, ensuring accuracy regardless of preparation time. This method can robustly achieve Heisenberg and super-Heisenberg limits, even in noisy environments with practical Pauli measurements. Our study highlights the efficacy of QRL in enabling precise quantum state preparation, thereby advancing scalable, high-accuracy quantum critical sensing.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.02210v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hang Xu, Tailong Xiao, Jingzheng Huang, Ming He, Jianping Fan, Guihua Zeng</dc:creator>
+      <dc:creator>Varun Upreti, Ulysse Chabaud</dc:creator>
     </item>
     <item>
-      <title>CQ CNN: A Hybrid Classical Quantum Convolutional Neural Network for Alzheimer's Disease Detection Using Diffusion Generated and U Net Segmented 3D MRI</title>
-      <link>https://arxiv.org/abs/2503.02345</link>
-      <description>arXiv:2503.02345v1 Announce Type: new 
-Abstract: The detection of Alzheimer disease (AD) from clinical MRI data is an active area of research in medical imaging. Recent advances in quantum computing, particularly the integration of parameterized quantum circuits (PQCs) with classical machine learning architectures, offer new opportunities to develop models that may outperform traditional methods. However, quantum machine learning (QML) remains in its early stages and requires further experimental analysis to better understand its behavior and limitations. In this paper, we propose an end to end hybrid classical quantum convolutional neural network (CQ CNN) for AD detection using clinically formatted 3D MRI data. Our approach involves developing a framework to make 3D MRI data usable for machine learning, designing and training a brain tissue segmentation model (Skull Net), and training a diffusion model to generate synthetic images for the minority class. Our converged models exhibit potential quantum advantages, achieving higher accuracy in fewer epochs than classical models. The proposed beta8 3 qubit model achieves an accuracy of 97.50%, surpassing state of the art (SOTA) models while requiring significantly fewer computational resources. In particular, the architecture employs only 13K parameters (0.48 MB), reducing the parameter count by more than 99.99% compared to current SOTA models. Furthermore, the diffusion-generated data used to train our quantum models, in conjunction with real samples, preserve clinical structural standards, representing a notable first in the field of QML. We conclude that CQCNN architecture like models, with further improvements in gradient optimization techniques, could become a viable option and even a potential alternative to classical models for AD detection, especially in data limited and resource constrained clinical settings.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.02345v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.CV</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mominul Islam, Mohammad Junayed Hasan, M. R. C. Mahdy</dc:creator>
-    </item>
-    <item>
-      <title>A Note on the Complexity of the Spectral Gap Problem</title>
-      <link>https://arxiv.org/abs/2503.02747</link>
-      <description>arXiv:2503.02747v1 Announce Type: new 
-Abstract: The problem of estimating the spectral gap of a local Hamiltonian is known to be contained in the class $P^{QMA[log]}$: polynomial time with access to a logarithmic number of QMA queries. The problem was shown to be hard for $P^{UQMA[log]}$, a weaker class, under Turing reductions by Gharibian and Yirka [arXiv:1606.05626].
-  I give a brief proof that the Spectral Gap problem is QMA-hard under a many-one (Karp) reduction. Consequently, the problem is $P^{QMA[log]}$-complete under truth-table reductions.
-  It remains open to characterize the complexity of the Spectral Gap problem under many-one reductions. I conjecture that the problem belongs to a strict subclass of $P^{QMA[log]}$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.02747v1</guid>
-      <category>quant-ph</category>
+      <title>Towards a complexity-theoretic dichotomy for TQFT invariants</title>
+      <link>https://arxiv.org/abs/2503.02945</link>
+      <description>arXiv:2503.02945v1 Announce Type: cross 
+Abstract: We show that for any fixed $(2+1)$-dimensional TQFT over $\mathbb{C}$ of either Turaev-Viro-Barrett-Westbury or Reshetikhin-Turaev type, the problem of (exactly) computing its invariants on closed 3-manifolds is either solvable in polynomial time, or else it is $\#\mathsf{P}$-hard to (exactly) contract certain tensors that are built from the TQFT's fusion category. Our proof is an application of a dichotomy result of Cai and Chen [J. ACM, 2017] concerning weighted constraint satisfaction problems over $\mathbb{C}$. We leave for future work the issue of reinterpreting the conditions of Cai and Chen that distinguish between the two cases (i.e. $\#\mathsf{P}$-hard tensor contractions vs. polynomial time invariants) in terms of fusion categories. We expect that with more effort, our reduction can be improved so that one gets a dichotomy directly for TQFTs' invariants of 3-manifolds rather than more general tensors built from the TQFT's fusion category.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.02945v1</guid>
+      <category>math.QA</category>
       <category>cs.CC</category>
-      <pubDate>Wed, 05 Mar 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
+      <category>math.GT</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Justin Yirka</dc:creator>
+      <dc:creator>Nicolas Bridges (Purdue), Eric Samperton (Purdue)</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Non-Linear Bandit Optimization</title>
+      <link>https://arxiv.org/abs/2503.03023</link>
+      <description>arXiv:2503.03023v1 Announce Type: cross 
+Abstract: We study non-linear bandit optimization where the learner maximizes a black-box function with zeroth order function oracle, which has been successfully applied in many critical applications such as drug discovery and hyperparameter tuning. Existing works have showed that with the aid of quantum computing, it is possible to break the $\Omega(\sqrt{T})$ regret lower bound in classical settings and achieve the new $O(\mathrm{poly}\log T)$ upper bound. However, they usually assume that the objective function sits within the reproducing kernel Hilbert space and their algorithms suffer from the curse of dimensionality. In this paper, we propose the new Q-NLB-UCB algorithm which uses the novel parametric function approximation technique and enjoys performance improvement due to quantum fast-forward and quantum Monte Carlo mean estimation. We prove that the regret bound of Q-NLB-UCB is not only $O(\mathrm{poly}\log T)$ but also input dimension-free, making it applicable for high-dimensional tasks. At the heart of our analyses are a new quantum regression oracle and a careful construction of parameter uncertainty region. Our algorithm is also validated for its efficiency on both synthetic and real-world tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.03023v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Zakaria Shams Siam, Chaowen Guan, Chong Liu</dc:creator>
     </item>
   </channel>
 </rss>

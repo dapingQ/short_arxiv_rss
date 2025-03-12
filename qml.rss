@@ -7,67 +7,95 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Mar 2025 04:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Mar 2025 04:00:03 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 11 Mar 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Bypassing orthogonalization in the quantum DPP sampler</title>
-      <link>https://arxiv.org/abs/2503.05906</link>
-      <description>arXiv:2503.05906v1 Announce Type: new 
-Abstract: Given an $n\times r$ matrix $X$ of rank $r$, consider the problem of sampling $r$ integers $\mathtt{C}\subset \{1, \dots, n\}$ with probability proportional to the squared determinant of the rows of $X$ indexed by $\mathtt{C}$. The distribution of $\mathtt{C}$ is called a projection determinantal point process (DPP). The vanilla classical algorithm to sample a DPP works in two steps, an orthogonalization in $\mathcal{O}(nr^2)$ and a sampling step of the same cost. The bottleneck of recent quantum approaches to DPP sampling remains that preliminary orthogonalization step. For instance, (Kerenidis and Prakash, 2022) proposed an algorithm with the same $\mathcal{O}(nr^2)$ orthogonalization, followed by a $\mathcal{O}(nr)$ classical step to find the gates in a quantum circuit. The classical $\mathcal{O}(nr^2)$ orthogonalization thus still dominates the cost. Our first contribution is to reduce preprocessing to normalizing the columns of $X$, obtaining $\mathsf{X}$ in $\mathcal{O}(nr)$ classical operations. We show that a simple circuit inspired by the formalism of Kerenidis et al., 2022 samples a DPP of a type we had never encountered in applications, which is different from our target DPP. Plugging this circuit into a rejection sampling routine, we recover our target DPP after an expected $1/\det \mathsf{X}^\top\mathsf{X} = 1/a$ preparations of the quantum circuit. Using amplitude amplification, our second contribution is to boost the acceptance probability from $a$ to $1-a$ at the price of a circuit depth of $\mathcal{O}(r\log n/\sqrt{a})$ and $\mathcal{O}(\log n)$ extra qubits. Prepending a fast, sketching-based classical approximation of $a$, we obtain a pipeline to sample a projection DPP on a quantum computer, where the former $\mathcal{O}(nr^2)$ preprocessing bottleneck has been replaced by the $\mathcal{O}(nr)$ cost of normalizing the columns and the cost of our approximation of $a$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.05906v1</guid>
+      <title>Multi-Objective Routing Optimization Using Coherent Ising Machine in Wireless Multihop Networks</title>
+      <link>https://arxiv.org/abs/2503.07924</link>
+      <description>arXiv:2503.07924v1 Announce Type: new 
+Abstract: Multi-objective combinatorial optimization in wireless communication networks is a challenging task, particularly for large-scale and diverse topologies. Recent advances in quantum computing offer promising solutions for such problems. Coherent Ising Machines (CIM), a quantum-inspired algorithm, leverages the quantum properties of coherent light, enabling faster convergence to the ground state. This paper applies CIM to multi-objective routing optimization in wireless multi-hop networks. We formulate the routing problem as a Quadratic Unconstrained Binary Optimization (QUBO) problem and map it onto an Ising model, allowing CIM to solve it. CIM demonstrates strong scalability across diverse network topologies without requiring topology-specific adjustments, overcoming the limitations of traditional quantum algorithms like Quantum Approximate Optimization Algorithm (QAOA) and Variational Quantum Eigensolver (VQE). Our results show that CIM provides feasible and near-optimal solutions for networks containing hundreds of nodes and thousands of edges. Additionally, a complexity analysis highlights CIM's increasing efficiency as network size grows</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.07924v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.CO</category>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Micha\"el Fanuel, R\'emi Bardenet</dc:creator>
-    </item>
-    <item>
-      <title>A quantum annealing approach to graph node embedding</title>
-      <link>https://arxiv.org/abs/2503.06332</link>
-      <description>arXiv:2503.06332v1 Announce Type: new 
-Abstract: Node embedding is a key technique for representing graph nodes as vectors while preserving structural and relational properties, which enables machine learning tasks like feature extraction, clustering, and classification. While classical methods such as DeepWalk, node2vec, and graph convolutional networks learn node embeddings by capturing structural and relational patterns in graphs, they often require significant computational resources and struggle with scalability on large graphs. Quantum computing provides a promising alternative for graph-based learning by leveraging quantum effects and introducing novel optimization approaches. Variational quantum circuits and quantum kernel methods have been explored for embedding tasks, but their scalability remains limited due to the constraints of noisy intermediate-scale quantum (NISQ) hardware. In this paper, we investigate quantum annealing (QA) as an alternative approach that mitigates key challenges associated with quantum gate-based models. We propose several formulations of the node embedding problem as a quadratic unconstrained binary optimization (QUBO) instance, making it compatible with current quantum annealers such as those developed by D-Wave. We implement our algorithms on a D-Wave quantum annealer and evaluate their performance on graphs with up to 100 nodes and embedding dimensions of up to 5. Our findings indicate that QA is a viable approach for graph-based learning, providing a scalable and efficient alternative to previous quantum embedding techniques.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.06332v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Hristo N. Djidjev</dc:creator>
+      <dc:creator>Yu-Xuan Lin, Chu-Yao Xu, Chuan Wang</dc:creator>
     </item>
     <item>
-      <title>Quantum-like cognition and decision making in the light of quantum measurement theory</title>
-      <link>https://arxiv.org/abs/2503.05859</link>
-      <description>arXiv:2503.05859v1 Announce Type: cross 
-Abstract: We characterize the class of quantum measurements that matches the applications of quantum theory to cognition (and decision making) - quantum-like modeling. Projective measurements describe the canonical measurements of the basic observables of quantum physics. However, the combinations of the basic cognitive effects, such as the question order and response replicability effects, cannot be described by projective measurements. We motivate the use of the special class of quantum measurements, namely {\it sharp repeatable non-projective measurements} - ${\cal SR\bar{P}}. $ This class is practically unused in quantum physics. Thus, physics and cognition explore different parts of quantum measurement theory. Quantum-like modeling isn't automatic borrowing of the quantum formalism. Exploring the class ${\cal SR\bar{P}}$ highlights the role of {\it noncommutativity of the state update maps generated by measurement back action.} Thus, ``non-classicality'' in quantum physics as well as quantum-like modeling for cognition is based on two different types of noncommutativity, of operators (observables) and instruments (state update maps): {\it observable-noncommutativity} vs. {\it state update-noncommutativity}. We speculate that distinguishing quantum-like properties of the cognitive effects are the expressions of the latter, or possibly both.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.05859v1</guid>
-      <category>cs.AI</category>
-      <category>physics.bio-ph</category>
+      <title>Efficient and Accurate Estimation of Lipschitz Constants for Hybrid Quantum-Classical Decision Models</title>
+      <link>https://arxiv.org/abs/2503.07992</link>
+      <description>arXiv:2503.07992v1 Announce Type: new 
+Abstract: In this paper, we propose a novel framework for efficiently and accurately estimating Lipschitz constants in hybrid quantum-classical decision models. Our approach integrates classical neural network with quantum variational circuits to address critical issues in learning theory such as fairness verification, robust training, and generalization.
+  By a unified convex optimization formulation, we extend existing classical methods to capture the interplay between classical and quantum layers. This integrated strategy not only provide a tight bound on the Lipschitz constant but also improves computational efficiency with respect to the previous methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.07992v1</guid>
       <category>quant-ph</category>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Miho Fuyama, Andrei Khrennikov, Masanao Ozawa</dc:creator>
+      <category>cs.AI</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Sajjad Hashemian, Mohammad Saeed Arvenaghi</dc:creator>
     </item>
     <item>
-      <title>On the Minimum Distances of Finite-Length Lifted Product Quantum LDPC Codes</title>
-      <link>https://arxiv.org/abs/2503.07567</link>
-      <description>arXiv:2503.07567v1 Announce Type: cross 
-Abstract: Quantum error correction (QEC) is critical for practical realization of fault-tolerant quantum computing, and recently proposed families of quantum low-density parity-check (QLDPC) code are prime candidates for advanced QEC hardware architectures and implementations. This paper focuses on the finite-length QLDPC code design criteria, specifically aimed at constructing degenerate quasi-cyclic symmetric lifted-product (LP-QLDPC) codes. We describe the necessary conditions such that the designed LP-QLDPC codes are guaranteed to have a minimum distance strictly greater than the minimum weight stabilizer generators, ensuring superior error correction performance on quantum channels. The focus is on LP-QLDPC codes built from quasi-cyclic base codes belonging to the class of type-I protographs, and the necessary constraints are efficiently expressed in terms of the row and column indices of the base code. Specifically, we characterize the combinatorial constraints on the classical quasi-cyclic base matrices that guarantee construction of degenerate LP-QLDPC codes. Minimal examples and illustrations are provided to demonstrate the usefulness and effectiveness of the code construction approach. The row and column partition constraints derived in the paper simplify the design of degenerate LP-QLDPC codes and can be incorporated into existing classical and quantum code design approaches.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.07567v1</guid>
+      <title>Energy Scale Degradation in Sparse Quantum Solvers: A Barrier to Quantum Utility</title>
+      <link>https://arxiv.org/abs/2503.08303</link>
+      <description>arXiv:2503.08303v1 Announce Type: new 
+Abstract: Quantum computing offers a promising route for tackling hard optimization problems by encoding them as Ising models. However, sparse qubit connectivity requires the use of minor-embedding, mapping logical qubits onto chains of physical qubits, which necessitates stronger intra-chain coupling to maintain consistency. This elevated coupling strength forces a rescaling of the Hamiltonian due to hardware-imposed limits on the allowable ranges of coupling strengths, reducing the energy gaps between competing states, thus, degrading the solver's performance. Here, we introduce a theoretical model that quantifies this degradation. We show that as the connectivity degree increases, the effective temperature rises as a polynomial function, resulting in a success probability that decays exponentially. Our analysis further establishes worst-case bounds on the energy scale degradation based on the inverse conductance of chain subgraphs, revealing two most important drivers of chain strength, \textit{chain volume} and \textit{chain connectivity}. Our findings indicate that achieving quantum advantage is inherently challenging. Experiments on D-Wave quantum annealers validate these findings, highlighting the need for hardware with improved connectivity and optimized scale-aware embedding algorithms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.08303v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Thang N. Dinh, Cao P. Cong</dc:creator>
+    </item>
+    <item>
+      <title>A Quantum Neural Network Transfer-Learning Model for Forecasting Problems with Continuous and Discrete Variables</title>
+      <link>https://arxiv.org/abs/2503.07633</link>
+      <description>arXiv:2503.07633v1 Announce Type: cross 
+Abstract: This study introduces a continuous-variable quantum neural network (CV-QNN) model designed as a transfer-learning approach for forecasting problems. The proposed quantum technique features a simple structure with only eight trainable parameters, a single quantum layer with two wires to create entanglement, and ten quantum gates, hence the name QNNet10, effectively mimicking the functionality of classical neural networks. A notable aspect is that the quantum network achieves high accuracy with random initialization after a single iteration. This pretrained model is innovative as it requires no training or parameter tuning when applied to new datasets, allowing for parameter freezing while enabling the addition of a final layer for fine-tuning. Additionally, an equivalent discrete-variable quantum neural network (DV-QNN) is presented, structured similarly to the CV model. However, analysis shows that the two-wire DV model does not significantly enhance performance. As a result, a four-wire DV model is proposed, achieving comparable results but requiring a larger and more complex structure with additional gates. The pretrained model is applied to five forecasting problems of varying sizes, demonstrating its effectiveness.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.07633v1</guid>
+      <category>cs.LG</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Ismael Abdulrahman</dc:creator>
+    </item>
+    <item>
+      <title>Transforming Traditional Neural Networks into Neuromorphic Quantum-Cognitive Models: A Tutorial with Applications</title>
+      <link>https://arxiv.org/abs/2503.07681</link>
+      <description>arXiv:2503.07681v1 Announce Type: cross 
+Abstract: Quantum technologies are increasingly pervasive, underpinning the operation of numerous electronic, optical and medical devices. Today, we are also witnessing rapid advancements in quantum computing and communication. However, access to quantum technologies in computation remains largely limited to professionals in research organisations and high-tech industries. This paper demonstrates how traditional neural networks can be transformed into neuromorphic quantum models, enabling anyone with a basic understanding of undergraduate-level machine learning to create quantum-inspired models that mimic the functioning of the human brain -- all using a standard laptop. We present several examples of these quantum machine learning transformations and explore their potential applications, aiming to make quantum technology more accessible and practical for broader use. The examples discussed in this paper include quantum-inspired analogues of feedforward neural networks, recurrent neural networks, Echo State Network reservoir computing and Bayesian neural networks, demonstrating that a quantum approach can both optimise the training process and equip the models with certain human-like cognitive characteristics.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.07681v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Milan Maksimovic, Ivan S. Maksymov</dc:creator>
+    </item>
+    <item>
+      <title>Simultaneous Decoding of Classical Coset Codes over $3-$User Quantum Interference Channel : New Achievable Rate Regions</title>
+      <link>https://arxiv.org/abs/2503.07804</link>
+      <description>arXiv:2503.07804v1 Announce Type: cross 
+Abstract: We undertake a Shannon theoretic study of the problem of communicating classical information over a $3-$user quantum interference channel (QIC) and focus on characterizing inner bounds. In our previous work, we had demonstrated that coding strategies based on coset codes can yield strictly larger inner bounds. Adopting the powerful technique of \textit{tilting}, \textit{smoothing} and \textit{augmentation} discovered by Sen recently, and combining with our coset code strategy we derive a new inner bound to the classical-quantum capacity region of a $3-$user QIC. The derived inner bound subsumes all current known bounds.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.07804v1</guid>
       <category>cs.IT</category>
       <category>math.IT</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 11 Mar 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Nithin Raveendran, David Declercq, Bane Vasi\'c</dc:creator>
+      <dc:creator>Fatma Gouiaa, Arun Padakandla</dc:creator>
     </item>
   </channel>
 </rss>

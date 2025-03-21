@@ -7,40 +7,94 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Mar 2025 04:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 04:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 20 Mar 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Natural Quantization of Neural Networks</title>
-      <link>https://arxiv.org/abs/2503.15482</link>
-      <description>arXiv:2503.15482v1 Announce Type: new 
-Abstract: We propose a natural quantization of a standard neural network, where the neurons correspond to qubits and the activation functions are implemented via quantum gates and measurements. The simplest quantized neural network corresponds to applying single-qubit rotations, with the rotation angles being dependent on the weights and measurement outcomes of the previous layer. This realization has the advantage of being smoothly tunable from the purely classical limit with no quantum uncertainty (thereby reproducing the classical neural network exactly) to a quantum case, where superpositions introduce an intrinsic uncertainty in the network. We benchmark this architecture on a subset of the standard MNIST dataset and find a regime of "quantum advantage," where the validation error rate in the quantum realization is smaller than that in the classical model. We also consider another approach where quantumness is introduced via weak measurements of ancilla qubits entangled with the neuron qubits. This quantum neural network also allows for smooth tuning of the degree of quantumness by controlling an entanglement angle, $g$, with $g=\frac\pi 2$ replicating the classical regime. We find that validation error is also minimized within the quantum regime in this approach. We also observe a quantum transition, with sharp loss of the quantum network's ability to learn at a critical point $g_c$. The proposed quantum neural networks are readily realizable in present-day quantum computers on commercial datasets.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.15482v1</guid>
+      <title>Most continuous-variable cluster states are too entangled to be useless</title>
+      <link>https://arxiv.org/abs/2503.15698</link>
+      <description>arXiv:2503.15698v1 Announce Type: new 
+Abstract: We define absolutely maximal entanglement (AME) in continuous-variable (CV) systems and show that, in stark contrast to qudit systems, this entanglement is generic among infinitely squeezed Gaussian states. In particular, we show that CV cluster states are generically AME and provide explicit constructions using Cauchy, Vandermonde, totally positive, and real-block-code generator matrices. Finitely squeezed versions of CV AME states give rise to open-destination multi-party CV teleportation, CV quantum secret sharing, CV majority-agreed key distribution, Gaussian perfect-tensor networks on arbitrary geometries, and Gaussian multi-unitary circuits.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.15698v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.dis-nn</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 20 Mar 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Richard Barney, Djamil Lakhdar-Hamina, Victor Galitski</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>James I. Kwon, Anthony J. Brady, Victor V. Albert</dc:creator>
     </item>
     <item>
-      <title>HQNN-FSP: A Hybrid Classical-Quantum Neural Network for Regression-Based Financial Stock Market Prediction</title>
-      <link>https://arxiv.org/abs/2503.15403</link>
-      <description>arXiv:2503.15403v1 Announce Type: cross 
-Abstract: Financial time-series forecasting remains a challenging task due to complex temporal dependencies and market fluctuations. This study explores the potential of hybrid quantum-classical approaches to assist in financial trend prediction by leveraging quantum resources for improved feature representation and learning. A custom Quantum Neural Network (QNN) regressor is introduced, designed with a novel ansatz tailored for financial applications. Two hybrid optimization strategies are proposed: (1) a sequential approach where classical recurrent models (RNN/LSTM) extract temporal dependencies before quantum processing, and (2) a joint learning framework that optimizes classical and quantum parameters simultaneously. Systematic evaluation using TimeSeriesSplit, k-fold cross-validation, and predictive error analysis highlights the ability of these hybrid models to integrate quantum computing into financial forecasting workflows. The findings demonstrate how quantum-assisted learning can contribute to financial modeling, offering insights into the practical role of quantum resources in time-series analysis.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.15403v1</guid>
-      <category>q-fin.ST</category>
+      <title>Extending the HNLS Condition to Robust Quantum Metrology</title>
+      <link>https://arxiv.org/abs/2503.15743</link>
+      <description>arXiv:2503.15743v1 Announce Type: new 
+Abstract: Quantum sensing holds great promise for high-precision magnetic field measurements. However, its performance is significantly limited by noise. In this work, we develop a quantum sensing protocol to estimate a parameter $\theta$, associated with a magnetic field, under full-rank Markovian noise. Our approach uses a probe state constructed from a CSS code that evolves under the parameter's Hamiltonian for a short time, but without any active error correction. Then we measure the code's $\hat{X}$ stabilizers to infer $\theta$. Given $N$ copies of the probe state, we derive the probability that all stabilizer measurements return $+1$, which depends on $\theta$. The uncertainty in $\theta$ (estimated from these measurements) is bounded by a new quantity, the Robustness Bound, which characterizes how the structure of the quantum code affects the Quantum Fisher Information of the measurement. Using this bound, we establish a strong no-go result: a nontrivial CSS code can achieve Heisenberg scaling if and only if the Hamiltonian is orthogonal to the span of the noise channel's Lindblad operators. This result extends the well-known HNLS condition under infinite rounds of error correction to the robust quantum sensing setting that does not use active error correction. Our finding suggests fundamental limitations in the use of linear quantum codes for dephased magnetic field sensing applications both in the near-term robust sensing regime and in the long-term fault tolerant era.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.15743v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Oskar Novak, Narayanan Rengaswamy</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing variational quantum algorithms by balancing training on classical and quantum hardware</title>
+      <link>https://arxiv.org/abs/2503.16361</link>
+      <description>arXiv:2503.16361v1 Announce Type: new 
+Abstract: Quantum computers offer a promising route to tackling problems that are classically intractable such as in prime-factorization, solving large-scale linear algebra and simulating complex quantum systems, but require fault-tolerant quantum hardware. On the other hand, variational quantum algorithms (VQAs) have the potential to provide a near-term route to quantum utility or advantage, and is usually constructed by using parametrized quantum circuits (PQCs) in combination with a classical optimizer for training. Although VQAs have been proposed for a multitude of tasks such as ground-state estimation, combinatorial optimization and unitary compilation, there remain major challenges in its trainability and resource costs on quantum hardware. Here we address these challenges by adopting Hardware Efficient and dynamical LIe algebra Supported Ansatz (HELIA), and propose two training schemes that combine an existing g-sim method (that uses the underlying group structure of the operators) and the Parameter-Shift Rule (PSR). Our improvement comes from distributing the resources required for gradient estimation and training to both classical and quantum hardware. We numerically test our proposal for ground-state estimation using Variational Quantum Eigensolver (VQE) and classification of quantum phases using quantum neural networks. Our methods show better accuracy and success of trials, and also need fewer calls to the quantum hardware on an average than using only PSR (upto 60% reduction), that runs exclusively on quantum hardware. We also numerically demonstrate the capability of HELIA in mitigating barren plateaus, paving the way for training large-scale quantum models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.16361v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Rahul Bhowmick, Harsh Wadhwa, Avinash Singh, Tania Sidana, Quoc Hoan Tran, Krishna Kumar Sabapathy</dc:creator>
+    </item>
+    <item>
+      <title>Using machine learning to map simulated noisy and laser-limited multidimensional spectra to molecular electronic couplings</title>
+      <link>https://arxiv.org/abs/2503.15706</link>
+      <description>arXiv:2503.15706v1 Announce Type: cross 
+Abstract: Two-dimensional electronic spectroscopy (2DES) has enabled significant discoveries in both biological and synthetic energy-transducing systems. Although deriving chemical information from 2DES is a complex task, machine learning (ML) offers exciting opportunities to translate complicated spectroscopic data into physical insight. Recent studies have found that neural networks (NNs) can map simulated multidimensional spectra to molecular-scale properties with high accuracy. However, simulations often do not capture experimental factors that influence real spectra, including noise and suboptimal pulse resonance conditions, bringing into question the experimental utility of NNs trained on simulated data. Here, we show how factors associated with experimental 2D spectral data influence the ability of NNs to map simulated 2DES spectra onto underlying intermolecular electronic couplings. By systematically introducing multisourced noise into a library of 356000 simulated 2D spectra, we show that noise does not hamper NN performance for spectra exceeding threshold signal-to-noise ratios (SNR) (&gt; 6.6 if background noise dominates vs. &gt; 2.5 for intensity-dependent noise). In stark contrast to human-based analyses of 2DES data, we find that the NN accuracy improves significantly (ca. 84% $\rightarrow$ 96%) when the data are constrained by the bandwidth and center frequency of the pump pulses. This result is consistent with the NN learning the optical trends described by Kasha's theory of molecular excitons. Our findings convey positive prospects for adapting simulation-trained NNs to extract molecular properties from inherently imperfect experimental 2DES data. More broadly, we propose that machine-learned perspectives of nonlinear spectroscopic data may produce unique and, perhaps, counterintuitive guidelines for experimental design.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.15706v1</guid>
+      <category>physics.chem-ph</category>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 20 Mar 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jonathan D. Schultz, Kelsey A. Parker, Bashir Sbaiti, David N. Beratan</dc:creator>
+    </item>
+    <item>
+      <title>HiQ-Lip: The First Quantum-Classical Hierarchical Method for Global Lipschitz Constant Estimation of ReLU Networks</title>
+      <link>https://arxiv.org/abs/2503.16342</link>
+      <description>arXiv:2503.16342v1 Announce Type: cross 
+Abstract: Estimating the global Lipschitz constant of neural networks is crucial for understanding and improving their robustness and generalization capabilities. However, precise calculations are NP-hard, and current semidefinite programming (SDP) methods face challenges such as high memory usage and slow processing speeds. In this paper, we propose \textbf{HiQ-Lip}, a hybrid quantum-classical hierarchical method that leverages Coherent Ising Machines (CIMs) to estimate the global Lipschitz constant. We tackle the estimation by converting it into a Quadratic Unconstrained Binary Optimization (QUBO) problem and implement a multilevel graph coarsening and refinement strategy to adapt to the constraints of contemporary quantum hardware. Our experimental evaluations on fully connected neural networks demonstrate that HiQ-Lip not only provides estimates comparable to state-of-the-art methods but also significantly accelerates the computation process. In specific tests involving two-layer neural networks with 256 hidden neurons, HiQ-Lip doubles the solving speed and offers more accurate upper bounds than the existing best method, LiPopt. These findings highlight the promising utility of small-scale quantum devices in advancing the estimation of neural network robustness.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.16342v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Prashant Kumar Choudhary, Nouhaila Innan, Muhammad Shafique, Rajeev Singh</dc:creator>
+      <dc:creator>Haoqi He, Yan Xiao</dc:creator>
+    </item>
+    <item>
+      <title>Probabilistic Quantum SVM Training on Ising Machine</title>
+      <link>https://arxiv.org/abs/2503.16363</link>
+      <description>arXiv:2503.16363v1 Announce Type: cross 
+Abstract: Quantum computing holds significant potential to accelerate machine learning algorithms, especially in solving optimization problems like those encountered in Support Vector Machine (SVM) training. However, current QUBO-based Quantum SVM (QSVM) methods rely solely on binary optimal solutions, limiting their ability to identify fuzzy boundaries in data. Additionally, the limited qubit count in contemporary quantum devices constrains training on larger datasets. In this paper, we propose a probabilistic quantum SVM training framework suitable for Coherent Ising Machines (CIMs). By formulating the SVM training problem as a QUBO model, we leverage CIMs' energy minimization capabilities and introduce a Boltzmann distribution-based probabilistic approach to better approximate optimal SVM solutions, enhancing robustness. To address qubit limitations, we employ batch processing and multi-batch ensemble strategies, enabling small-scale quantum devices to train SVMs on larger datasets and support multi-class classification tasks via a one-vs-one approach. Our method is validated through simulations and real-machine experiments on binary and multi-class datasets. On the banknote binary classification dataset, our CIM-based QSVM, utilizing an energy-based probabilistic approach, achieved up to 20% higher accuracy compared to the original QSVM, while training up to $10^4$ times faster than simulated annealing methods. Compared with classical SVM, our approach either matched or reduced training time. On the IRIS three-class dataset, our improved QSVM outperformed existing QSVM models in all key metrics. As quantum technology advances, increased qubit counts are expected to further enhance QSVM performance relative to classical SVM.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.16363v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Haoqi He, Yan Xiao</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,55 +7,41 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Mar 2025 04:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 04:00:17 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 25 Mar 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 26 Mar 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Long-term excitation energy transfer predicted by a modified convolutional neural networks in the FMO complexes</title>
-      <link>https://arxiv.org/abs/2503.17430</link>
-      <description>arXiv:2503.17430v1 Announce Type: cross 
-Abstract: In machine learning (ML), the risk of recursive strategies overfitting historical data has driven the development of convolutional neural networks (CNNs) in simulating quantum dissipative dynamics. In this work, we propose an efficient CNNs scheme incorporating novel redundant time-functions to predict 100 picosecond (ps) excitation energy transfer (EET) in Fenna-Matthews-Olson (FMO) complexes, in which the original time $t$ is normalized by mapping it to the [0, 1] range, allowing different functions focus on distinct time intervals, thereby effectively capturing the multi-timescale characteristics of EET dynamics. This method simplifies optimization and enhances learning efficiency, and demonstrate the superior accuracy, robustness, and efficiency of our approach in predicting quantum dissipative dynamics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.17430v1</guid>
-      <category>physics.chem-ph</category>
+      <title>Quantum Complex-Valued Self-Attention Model</title>
+      <link>https://arxiv.org/abs/2503.19002</link>
+      <description>arXiv:2503.19002v1 Announce Type: new 
+Abstract: The self-attention mechanism has revolutionized classical machine learning, yet its quantum counterpart remains underexplored in fully harnessing the representational power of quantum states. Current quantum self-attention models exhibit a critical limitation by neglecting the indispensable phase information inherent in quantum systems when compressing attention weights into real-valued overlaps. To address this fundamental gap, we propose the Quantum Complex-Valued Self-Attention Model (QCSAM), the first framework that explicitly leverages complex-valued similarities between quantum states to capture both amplitude and phase relationships. Simultaneously, we enhance the standard Linear Combination of Unitaries (LCUs) method by introducing a Complex LCUs (CLCUs) framework that natively supports complex-valued coefficients. This framework enables the weighting of corresponding quantum values using fixed quantum complex self-attention weights, while also supporting trainable complex-valued parameters for value aggregation and quantum multi-head attention. Experimental evaluations on MNIST and Fashion-MNIST demonstrate our model's superiority over recent quantum self-attention architectures including QKSAN, QSAN, and GQHAN, with multi-head configurations showing consistent advantages over single-head variants. We systematically evaluate model scalability through qubit configurations ranging from 3 to 8 qubits and multi-class classification tasks spanning 2 to 4 categories. Through comprehensive ablation studies, we establish the critical advantage of complex-valued quantum attention weights over real-valued alternatives.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.19002v1</guid>
+      <category>quant-ph</category>
       <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Yi-Meng Huang, Zi-Ran Zhao, Shun-Cai Zhao</dc:creator>
-    </item>
-    <item>
-      <title>Dataset Distillation for Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2503.17935</link>
-      <description>arXiv:2503.17935v1 Announce Type: cross 
-Abstract: Training Quantum Neural Networks (QNNs) on large amount of classical data can be both time consuming as well as expensive. Higher amount of training data would require higher number of gradient descent steps to reach convergence. This, in turn would imply that the QNN will require higher number of quantum executions, thereby driving up its overall execution cost. In this work, we propose performing the dataset distillation process for QNNs, where we use a novel quantum variant of classical LeNet model containing residual connection and trainable Hermitian observable in the Parametric Quantum Circuit (PQC) of the QNN. This approach yields highly informative yet small number of training data at similar performance as the original data. We perform distillation for MNIST and Cifar-10 datasets, and on comparison with classical models observe that both the datasets yield reasonably similar post-inferencing accuracy on quantum LeNet (91.9% MNIST, 50.3% Cifar-10) compared to classical LeNet (94% MNIST, 54% Cifar-10). We also introduce a non-trainable Hermitian for ensuring stability in the distillation process and note marginal reduction of up to 1.8% (1.3%) for MNIST (Cifar-10) dataset.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.17935v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Koustubh Phalak, Junde Li, Swaroop Ghosh</dc:creator>
-    </item>
-    <item>
-      <title>Umlaut information</title>
-      <link>https://arxiv.org/abs/2503.18910</link>
-      <description>arXiv:2503.18910v1 Announce Type: cross 
-Abstract: The sphere-packing bound quantifies the error exponent for noisy channel coding for rates above a critical value. Here, we study the zero-rate limit of the sphere-packing bound and show that it has an intriguing single-letter form, which we call the umlaut information of the channel, inspired by the lautum information introduced by Palomar and Verd\'u. Unlike the latter quantity, we show that the umlaut information is additive for parallel uses of channels. We show that it has a twofold operational interpretation: as the zero-rate error exponent of non-signalling-assisted coding on the one hand, and as the zero-rate error exponent of list decoding in the large list limit on the other.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2503.18910v1</guid>
-      <category>cs.IT</category>
-      <category>math-ph</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 25 Mar 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Filippo Girardi, Aadil Oufkir, Bartosz Regula, Marco Tomamichel, Mario Berta, Ludovico Lami</dc:creator>
+      <dc:creator>Fu Chen, Qinglin Zhao, Li Feng, Longfei Tang, Yangbin Lin, Haitao Huang</dc:creator>
+    </item>
+    <item>
+      <title>Geometric Meta-Learning via Coupled Ricci Flow: Unifying Knowledge Representation and Quantum Entanglement</title>
+      <link>https://arxiv.org/abs/2503.19867</link>
+      <description>arXiv:2503.19867v1 Announce Type: cross 
+Abstract: This paper establishes a unified framework integrating geometric flows with deep learning through three fundamental innovations. First, we propose a thermodynamically coupled Ricci flow that dynamically adapts parameter space geometry to loss landscape topology, formally proved to preserve isometric knowledge embedding (Theorem~\ref{thm:isometric}). Second, we derive explicit phase transition thresholds and critical learning rates (Theorem~\ref{thm:critical}) through curvature blowup analysis, enabling automated singularity resolution via geometric surgery (Lemma~\ref{lem:surgery}). Third, we establish an AdS/CFT-type holographic duality (Theorem~\ref{thm:ads}) between neural networks and conformal field theories, providing entanglement entropy bounds for regularization design. Experiments demonstrate 2.1$\times$ convergence acceleration and 63\% topological simplification while maintaining $\mathcal{O}(N\log N)$ complexity, outperforming Riemannian baselines by 15.2\% in few-shot accuracy. Theoretically, we prove exponential stability (Theorem~\ref{thm:converge}) through a new Lyapunov function combining Perelman entropy with Wasserstein gradient flows, fundamentally advancing geometric deep learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2503.19867v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>eess.SP</category>
+      <category>math.GT</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Ming Lei, Christophe Baehr</dc:creator>
     </item>
   </channel>
 </rss>

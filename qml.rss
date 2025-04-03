@@ -7,83 +7,39 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Quantum Generative Models for Image Generation: Insights from MNIST and MedMNIST</title>
-      <link>https://arxiv.org/abs/2504.00034</link>
-      <description>arXiv:2504.00034v1 Announce Type: new 
-Abstract: Research on quantum generative models is currently in its early exploratory stages, with very few established methodologies. In this paper, we propose a novel hybrid quantum generative model based on variational quantum circuits for image generation tasks, introducing innovative noise techniques specifically tailored for quantum computation. Our approach utilizes two distinctive noise strategies: quantum-generated noise inherent to quantum circuits, and a newly developed noise scheduling method, applying different noise levels strategically across time steps during the training process. Experiments conducted on MNIST and MedMNIST datasets demonstrate that our hybrid quantum model, combined with these specialized noise techniques, achieves promising results, suggesting improved generative performance compared to baseline quantum generative approaches. This exploratory work lays a critical foundation and opens new avenues for advancing quantum generative modeling research.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.00034v1</guid>
+      <title>K-P Quantum Neural Networks</title>
+      <link>https://arxiv.org/abs/2504.01673</link>
+      <description>arXiv:2504.01673v1 Announce Type: new 
+Abstract: We present an extension of K-P time-optimal quantum control solutions using global Cartan $KAK$ decompositions for geodesic-based solutions. Extending recent time-optimal \emph{constant-$\theta$} control results, we integrate Cartan methods into equivariant quantum neural network (EQNN) for quantum control tasks. We show that a finite-depth limited EQNN ansatz equipped with Cartan layers can replicate the constant-$\theta$ sub-Riemannian geodesics for K-P problems. We demonstrate how for certain classes of control problem on Riemannian symmetric spaces, gradient-based training using an appropriate cost function converges to certain global time-optimal solutions when satisfying simple regularity conditions. This generalises prior geometric control theory methods and clarifies how optimal geodesic estimation can be performed in quantum machine learning contexts.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.01673v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Chi-Sheng Chen, Wei An Hou, Siang-Wei Hu, Zhen-Sheng Cai</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Elija Perrier</dc:creator>
     </item>
     <item>
-      <title>Lower Bounds on Pauli Manipulation Detection Codes</title>
-      <link>https://arxiv.org/abs/2504.00357</link>
-      <description>arXiv:2504.00357v1 Announce Type: new 
-Abstract: We present a lower bound for Pauli Manipulation Detection (PMD) codes, which enables the detection of every Pauli error with high probability and can be used to construct quantum erasure and tamper-detection codes. Our lower bound reveals the first trade-off between the error and the redundancy parameters in PMD codes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.00357v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CR</category>
+      <title>Linear Time Iterative Decoders for Hypergraph-Product and Lifted-Product Codes</title>
+      <link>https://arxiv.org/abs/2504.01728</link>
+      <description>arXiv:2504.01728v1 Announce Type: cross 
+Abstract: Quantum low-density parity-check (QLDPC) codes with asymptotically non-zero rates are prominent candidates for achieving fault-tolerant quantum computation, primarily due to their syndrome-measurement circuit's low operational depth. Numerous studies advocate for the necessity of fast decoders to fully harness the capabilities of QLDPC codes, thus driving the focus towards designing low-complexity iterative decoders. However, empirical investigations indicate that such iterative decoders are susceptible to having a high error floor while decoding QLDPC codes. The main objective of this paper is to analyze the decoding failures of the \emph{hypergraph-product} and \emph{lifted-product} codes and to design decoders that mitigate these failures, thus achieving a reduced error floor. The suboptimal performance of these codes can predominantly be ascribed to two structural phenomena: (1) stabilizer-induced trapping sets, which are subgraphs formed by stabilizers, and (2) classical trapping sets, which originate from the classical codes utilized in the construction of hypergraph-product and lifted-product codes. The dynamics of stabilizer-induced trapping sets is examined and a straightforward modification of iterative decoders is proposed to circumvent these trapping sets. Moreover, this work proposes a systematic methodology for designing decoders that can circumvent classical trapping sets in both hypergraph product and lifted product codes, from decoders capable of avoiding their trapping set in the parent classical LDPC code. When decoders that can avoid stabilizer-induced trapping sets are run in parallel with those that can mitigate the effect of classical TS, the logical error rate improves significantly in the error-floor region.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.01728v1</guid>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Keiya Ichikawa, Kenji Yasunaga</dc:creator>
-    </item>
-    <item>
-      <title>CopyQNN: Quantum Neural Network Extraction Attack under Varying Quantum Noise</title>
-      <link>https://arxiv.org/abs/2504.00366</link>
-      <description>arXiv:2504.00366v1 Announce Type: new 
-Abstract: Quantum Neural Networks (QNNs) have shown significant value across domains, with well-trained QNNs representing critical intellectual property often deployed via cloud-based QNN-as-a-Service (QNNaaS) platforms. Recent work has examined QNN model extraction attacks using classical and emerging quantum strategies. These attacks involve adversaries querying QNNaaS platforms to obtain labeled data for training local substitute QNNs that replicate the functionality of cloud-based models. However, existing approaches have largely overlooked the impact of varying quantum noise inherent in noisy intermediate-scale quantum (NISQ) computers, limiting their effectiveness in real-world settings. To address this limitation, we propose the CopyQNN framework, which employs a three-step data cleaning method to eliminate noisy data based on its noise sensitivity. This is followed by the integration of contrastive and transfer learning within the quantum domain, enabling efficient training of substitute QNNs using a limited but cleaned set of queried data. Experimental results on NISQ computers demonstrate that a practical implementation of CopyQNN significantly outperforms state-of-the-art QNN extraction attacks, achieving an average performance improvement of 8.73% across all tasks while reducing the number of required queries by 90x, with only a modest increase in hardware overhead.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.00366v1</guid>
       <category>quant-ph</category>
-      <category>cs.CR</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Zhenxiao Fu, Leyi Zhao, Xuhong Zhang, Yilun Xu, Gang Huang, Fan Chen</dc:creator>
-    </item>
-    <item>
-      <title>CNOT-Optimal Clifford Synthesis as SAT</title>
-      <link>https://arxiv.org/abs/2504.00634</link>
-      <description>arXiv:2504.00634v1 Announce Type: new 
-Abstract: Clifford circuit optimization is an important step in the quantum compilation pipeline. Major compilers employ heuristic approaches. While they are fast, their results are often suboptimal. Minimization of noisy gates, like 2-qubit CNOT gates, is crucial for practical computing. Exact approaches have been proposed to fill the gap left by heuristic approaches. Among these are SAT based approaches that optimize gate count or depth, but they suffer from scalability issues. Further, they do not guarantee optimality on more important metrics like CNOT count or CNOT depth. A recent work proposed an exhaustive search only on Clifford circuits in a certain normal form to guarantee CNOT count optimality. But an exhaustive approach cannot scale beyond 6 qubits.
-  In this paper, we incorporate search restricted to Clifford normal forms in a SAT encoding to guarantee CNOT count optimality. By allowing parallel plans, we propose a second SAT encoding that optimizes CNOT depth. By taking advantage of flexibility in SAT based approaches, we also handle connectivity restrictions in hardware platforms, and allow for qubit relabeling. We have implemented the above encodings and variations in our open source tool Q-Synth.
-  In experiments, our encodings significantly outperform existing SAT approaches on random Clifford circuits. We consider practical VQE and Feynman benchmarks to compare with TKET and Qiskit compilers. In all-to-all connectivity, we observe reductions up to 32.1% in CNOT count and 48.1% in CNOT depth. Overall, we observe better results than TKET in the CNOT count and depth. We also experiment with connectivity restrictions of major quantum platforms. Compared to Qiskit, we observe up to 30.3% CNOT count and 35.9% CNOT depth further reduction.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.00634v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Irfansha Shaik, Jaco van de Pol</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Methods for Managing Ambiguity in Natural Language Processing</title>
-      <link>https://arxiv.org/abs/2504.00040</link>
-      <description>arXiv:2504.00040v1 Announce Type: cross 
-Abstract: The Categorical Compositional Distributional (DisCoCat) framework models meaning in natural language using the mathematical framework of quantum theory, expressed as formal diagrams. DisCoCat diagrams can be associated with tensor networks and quantum circuits. DisCoCat diagrams have been connected to density matrices in various contexts in Quantum Natural Language Processing (QNLP). Previous use of density matrices in QNLP entails modelling ambiguous words as probability distributions over more basic words (the word \texttt{queen}, e.g., might mean the reigning queen or the chess piece). In this article, we investigate using probability distributions over processes to account for syntactic ambiguity in sentences. The meanings of these sentences are represented by density matrices. We show how to create probability distributions on quantum circuits that represent the meanings of sentences and explain how this approach generalises tasks from the literature. We conduct an experiment to validate the proposed theory.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.00040v1</guid>
-      <category>cs.CL</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Jurek Eisinger, Ward Gauderis, Lin de Huybrecht, Geraint A. Wiggins</dc:creator>
+      <dc:creator>Asit Kumar Pradhan, Nithin Raveendran, Narayanan Rengaswamy, Bane Vasi\'c</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,39 +7,97 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Apr 2025 04:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>K-P Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2504.01673</link>
-      <description>arXiv:2504.01673v1 Announce Type: new 
-Abstract: We present an extension of K-P time-optimal quantum control solutions using global Cartan $KAK$ decompositions for geodesic-based solutions. Extending recent time-optimal \emph{constant-$\theta$} control results, we integrate Cartan methods into equivariant quantum neural network (EQNN) for quantum control tasks. We show that a finite-depth limited EQNN ansatz equipped with Cartan layers can replicate the constant-$\theta$ sub-Riemannian geodesics for K-P problems. We demonstrate how for certain classes of control problem on Riemannian symmetric spaces, gradient-based training using an appropriate cost function converges to certain global time-optimal solutions when satisfying simple regularity conditions. This generalises prior geometric control theory methods and clarifies how optimal geodesic estimation can be performed in quantum machine learning contexts.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.01673v1</guid>
+      <title>Quantum algorithms through graph composition</title>
+      <link>https://arxiv.org/abs/2504.02115</link>
+      <description>arXiv:2504.02115v1 Announce Type: new 
+Abstract: In this work, we introduce the graph composition framework, a generalization of the st-connectivity framework for generating quantum algorithms, where the availability of each of the graph's edges is computed by a span program. We provide an exact characterization of the resulting witness sizes in terms of effective resistances of related graphs. We also provide less-powerful, but easier-to-use upper bounds on these witness sizes. We give generic time-efficient implementations of algorithms generated through the graph composition framework, in the quantum read-only memory model, which is a weaker assumption than the more common quantum random-access model. Along the way, we simplify the span program algorithm, and remove the dependence of its analysis on the effective spectral gap lemma.
+  We unify the quantum algorithmic frameworks that are based on span programs or the quantum adversary bound. In particular, we show how the st-connectivity framework subsumes the learning graph framework, the weighted-decision-tree framework, and a zero-error version of the latter. We show that the graph composition framework subsumes part of the quantum divide and conquer framework, and that it is itself subsumed by the multidimensional quantum walk framework. Moreover, we show that the weighted-decision-tree complexity is quadratically related to deterministic query complexity, and to the GT-bound with polynomial exponent 3/2. For the latter, we also provide a matching separation.
+  We apply our techniques to give improved algorithms for various string-search problems, namely the Dyck-language recognition problem of depth 3, the 3-increasing subsequence problem, and the OR $\circ$ pSEARCH problem. We also simplify existing quantum algorithms for the space-efficient directed st-connectivity problem, the pattern-matching problem and the infix-search problem.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02115v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
+      <category>cs.CC</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Elija Perrier</dc:creator>
+      <dc:creator>Arjan Cornelissen</dc:creator>
     </item>
     <item>
-      <title>Linear Time Iterative Decoders for Hypergraph-Product and Lifted-Product Codes</title>
-      <link>https://arxiv.org/abs/2504.01728</link>
-      <description>arXiv:2504.01728v1 Announce Type: cross 
-Abstract: Quantum low-density parity-check (QLDPC) codes with asymptotically non-zero rates are prominent candidates for achieving fault-tolerant quantum computation, primarily due to their syndrome-measurement circuit's low operational depth. Numerous studies advocate for the necessity of fast decoders to fully harness the capabilities of QLDPC codes, thus driving the focus towards designing low-complexity iterative decoders. However, empirical investigations indicate that such iterative decoders are susceptible to having a high error floor while decoding QLDPC codes. The main objective of this paper is to analyze the decoding failures of the \emph{hypergraph-product} and \emph{lifted-product} codes and to design decoders that mitigate these failures, thus achieving a reduced error floor. The suboptimal performance of these codes can predominantly be ascribed to two structural phenomena: (1) stabilizer-induced trapping sets, which are subgraphs formed by stabilizers, and (2) classical trapping sets, which originate from the classical codes utilized in the construction of hypergraph-product and lifted-product codes. The dynamics of stabilizer-induced trapping sets is examined and a straightforward modification of iterative decoders is proposed to circumvent these trapping sets. Moreover, this work proposes a systematic methodology for designing decoders that can circumvent classical trapping sets in both hypergraph product and lifted product codes, from decoders capable of avoiding their trapping set in the parent classical LDPC code. When decoders that can avoid stabilizer-induced trapping sets are run in parallel with those that can mitigate the effect of classical TS, the logical error rate improves significantly in the error-floor region.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.01728v1</guid>
+      <title>HQCC: A Hybrid Quantum-Classical Classifier with Adaptive Structure</title>
+      <link>https://arxiv.org/abs/2504.02167</link>
+      <description>arXiv:2504.02167v1 Announce Type: new 
+Abstract: Parameterized Quantum Circuits (PQCs) with fixed structures severely degrade the performance of Quantum Machine Learning (QML). To address this, a Hybrid Quantum-Classical Classifier (HQCC) is proposed. It opens a practical way to advance QML in the Noisy Intermediate-Scale Quantum (NISQ) era by adaptively optimizing the PQC through a Long Short-Term Memory (LSTM) driven dynamic circuit generator, utilizing a local quantum filter for scalable feature extraction, and exploiting architectural plasticity to balance the entanglement depth and noise robustness. We realize the HQCC on the TensorCircuit platform and run simulations on the MNIST and Fashion MNIST datasets, achieving up to 97.12\% accuracy on MNIST and outperforming several alternative methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02167v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ren-Xin Zhao, Xinze Tong, Shi Wang</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Deep Sets and Sequences</title>
+      <link>https://arxiv.org/abs/2504.02241</link>
+      <description>arXiv:2504.02241v1 Announce Type: new 
+Abstract: This paper introduces the quantum deep sets model, expanding the quantum machine learning tool-box by enabling the possibility of learning variadic functions using quantum systems. A couple of variants are presented for this model. The first one focuses on mapping sets to quantum systems through state vector averaging: each element of the set is mapped to a quantum state, and the quantum state of the set is the average of the corresponding quantum states of its elements. This approach allows the definition of a permutation-invariant variadic model. The second variant is useful for ordered sets, i.e., sequences, and relies on optimal coherification of tristochastic tensors that implement products of mixed states: each element of the set is mapped to a density matrix, and the quantum state of the set is the product of the corresponding density matrices of its elements. Such variant can be relevant in tasks such as natural language processing. The resulting quantum state in any of the variants is then processed to realise a function that solves a machine learning task such as classification, regression or density estimation. Through synthetic problem examples, the efficacy and versatility of quantum deep sets and sequences (QDSs) is demonstrated.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02241v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Vladimir Vargas-Calder\'on</dc:creator>
+    </item>
+    <item>
+      <title>Steiner Traveling Salesman Problem with Quantum Annealing</title>
+      <link>https://arxiv.org/abs/2504.02388</link>
+      <description>arXiv:2504.02388v1 Announce Type: new 
+Abstract: The Steiner Traveling Salesman Problem (STSP) is a variant of the classical Traveling Salesman Problem. The STSP involves incorporating steiner nodes, which are extra nodes not originally part of the required visit set but that can be added to the route to enhance the overall solution and minimize the total travel cost. Given the NP-hard nature of the STSP, we propose a quantum approach to address it. Specifically, we employ quantum annealing using D-Wave's hardware to explore its potential for solving this problem. To enhance computational feasibility, we develop a preprocessing method that effectively reduces the network size. Our experimental results demonstrate that this reduction technique significantly decreases the problem complexity, making the Quadratic Unconstrained Binary Optimization formulation, the standard input for quantum annealers, better suited for existing quantum hardware. Furthermore, the results highlight the potential of quantum annealing as a promising and innovative approach for solving the STSP.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02388v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.ET</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Alessia Ciacco, Francesca Guerriero, Eneko Osaba</dc:creator>
+    </item>
+    <item>
+      <title>Bacon-Shor Board Games</title>
+      <link>https://arxiv.org/abs/2504.02749</link>
+      <description>arXiv:2504.02749v1 Announce Type: new 
+Abstract: We identify a period-4 measurement schedule for the checks of the Bacon-Shor code that fully covers spacetime with constant-weight detectors, and is numerically observed to provide the code with a threshold. Unlike previous approaches, our method does not rely on code concatenation and instead arises as the solution to a coloring game on a square grid. Under a uniform circuit-level noise model, we observe a threshold of approximately $0.3\%$ when decoding with minimum weight perfect matching, and we conjecture that this could be improved using a more tailored decoder.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02749v1</guid>
+      <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>M. Sohaib Alam, Jiajun Chen, Thomas R. Scruby</dc:creator>
+    </item>
+    <item>
+      <title>Beating full state tomography for unentangled spectrum estimation</title>
+      <link>https://arxiv.org/abs/2504.02785</link>
+      <description>arXiv:2504.02785v1 Announce Type: new 
+Abstract: How many copies of a mixed state $\rho \in \mathbb{C}^{d \times d}$ are needed to learn its spectrum? To date, the best known algorithms for spectrum estimation require as many copies as full state tomography, suggesting the possibility that learning a state's spectrum might be as difficult as learning the entire state. We show that this is not the case in the setting of unentangled measurements, by giving a spectrum estimation algorithm that uses $n = O(d^3\cdot (\log\log(d) / \log(d))^4 )$ copies of $\rho$, which is asymptotically fewer than the $n = \Omega(d^3)$ copies necessary for full state tomography. Our algorithm is inspired by the technique of local moment matching from classical statistics, and shows how it can be applied in the quantum setting.
+  As an important subroutine in our spectrum estimation algorithm, we give an estimator of the $k$-th moment $\operatorname{tr}(\rho^k)$ which performs unentangled measurements and uses $O(d^{3-2/k})$ copies of $\rho$ in order to achieve a constant multiplicative error. This directly translates to an additive-error estimator of quantum Renyi entropy of order $k$ with the same number of copies.
+  Finally, we present numerical evidence that the sample complexity of spectrum estimation can only improve over full state tomography by a sub-polynomial factor. Specifically, for spectrum learning with fully entangled measurements, we run simulations which suggest a lower bound of $\Omega(d^{2 - \gamma})$ copies for any constant $\gamma &gt; 0$. From this, we conclude the current best lower bound of $\Omega(d)$ is likely not tight.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.02785v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Asit Kumar Pradhan, Nithin Raveendran, Narayanan Rengaswamy, Bane Vasi\'c</dc:creator>
+      <dc:creator>Angelos Pelecanos, Xinyu Tan, Ewin Tang, John Wright</dc:creator>
     </item>
   </channel>
 </rss>

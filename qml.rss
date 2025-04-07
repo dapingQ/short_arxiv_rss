@@ -7,12 +7,83 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Apr 2025 04:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 04:00:06 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 06 Apr 2025 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Superresolution imaging with entanglement-enhanced telescopy</title>
+      <link>https://arxiv.org/abs/2504.03117</link>
+      <description>arXiv:2504.03117v1 Announce Type: new 
+Abstract: Long-baseline interferometry will be possible using pre-shared entanglement between two telescope sites to mimic the standard phase-scanning interferometer, but without physical beam combination. We show that spatial-mode sorting at each telescope, along with pre-shared entanglement, can be used to realize the most general multimode interferometry on light collected by any number of telescopes, enabling achieving quantitative-imaging performance at the ultimate limit pursuant to the baseline as afforded by quantum theory. We work out an explicit example involving two telescopes imaging two point sources.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.03117v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Isack Padilla, Aqil Sajjad, Babak N. Saif, Saikat Guha</dc:creator>
+    </item>
+    <item>
+      <title>Detecting underdetermination in parameterized quantum circuits</title>
+      <link>https://arxiv.org/abs/2504.03315</link>
+      <description>arXiv:2504.03315v1 Announce Type: new 
+Abstract: A central question in machine learning is how reliable the predictions of a trained model are. Reliability includes the identification of instances for which a model is likely not to be trusted based on an analysis of the learning system itself. Such unreliability for an input may arise from the model family providing a variety of hypotheses consistent with the training data, which can vastly disagree in their predictions on that particular input point. This is called the underdetermination problem, and it is important to develop methods to detect it. With the emergence of quantum machine learning (QML) as a prospective alternative to classical methods for certain learning problems, the question arises to what extent they are subject to underdetermination and whether similar techniques as those developed for classical models can be employed for its detection. In this work, we first provide an overview of concepts from Safe AI and reliability, which in particular received little attention in QML. We then explore the use of a method based on local second-order information for the detection of underdetermination in parameterized quantum circuits through numerical experiments. We further demonstrate that the approach is robust to certain levels of shot noise. Our work contributes to the body of literature on Safe Quantum AI, which is an emerging field of growing importance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.03315v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Marie Kempkes, Jakob Spiegelberg, Evert van Nieuwenburg, Vedran Dunjko</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Search with In-Place Queries</title>
+      <link>https://arxiv.org/abs/2504.03620</link>
+      <description>arXiv:2504.03620v1 Announce Type: new 
+Abstract: Quantum query complexity is typically characterized in terms of XOR queries |x,y&gt; to |x,y+f(x)&gt; or phase queries, which ensure that even queries to non-invertible functions are unitary. When querying a permutation, another natural model is unitary: in-place queries |x&gt; to |f(x)&gt;.
+  Some problems are known to require exponentially fewer in-place queries than XOR queries, but no separation has been shown in the opposite direction. A candidate for such a separation was the problem of inverting a permutation over N elements. This task, equivalent to unstructured search in the context of permutations, is solvable with $O(\sqrt{N})$ XOR queries but was conjectured to require $\Omega(N)$ in-place queries.
+  We refute this conjecture by designing a quantum algorithm for Permutation Inversion using $O(\sqrt{N})$ in-place queries. Our algorithm achieves the same speedup as Grover's algorithm despite the inability to efficiently uncompute queries or perform straightforward oracle-controlled reflections.
+  Nonetheless, we show that there are indeed problems which require fewer XOR queries than in-place queries. We introduce a subspace-conversion problem called Function Erasure that requires 1 XOR query and $\Theta(\sqrt{N})$ in-place queries. Then, we build on a recent extension of the quantum adversary method to characterize exact conditions for a decision problem to exhibit such a separation, and we propose a candidate problem.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.03620v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Blake Holman, Ronak Ramachandran, Justin Yirka</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Speedups for Markov Chain Monte Carlo Methods with Application to Optimization</title>
+      <link>https://arxiv.org/abs/2504.03626</link>
+      <description>arXiv:2504.03626v1 Announce Type: new 
+Abstract: We propose quantum algorithms that provide provable speedups for Markov Chain Monte Carlo (MCMC) methods commonly used for sampling from probability distributions of the form $\pi \propto e^{-f}$, where $f$ is a potential function. Our first approach considers Gibbs sampling for finite-sum potentials in the stochastic setting, employing an oracle that provides gradients of individual functions. In the second setting, we consider access only to a stochastic evaluation oracle, allowing simultaneous queries at two points of the potential function under the same stochastic parameter. By introducing novel techniques for stochastic gradient estimation, our algorithms improve the gradient and evaluation complexities of classical samplers, such as Hamiltonian Monte Carlo (HMC) and Langevin Monte Carlo (LMC) in terms of dimension, precision, and other problem-dependent parameters. Furthermore, we achieve quantum speedups in optimization, particularly for minimizing non-smooth and approximately convex functions that commonly appear in empirical risk minimization problems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.03626v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>math.OC</category>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Guneykan Ozgul, Xiantao Li, Mehrdad Mahdavi, Chunhao Wang</dc:creator>
+    </item>
+    <item>
+      <title>Optimizing Quantum Circuits via ZX Diagrams using Reinforcement Learning and Graph Neural Networks</title>
+      <link>https://arxiv.org/abs/2504.03429</link>
+      <description>arXiv:2504.03429v1 Announce Type: cross 
+Abstract: Quantum computing is currently strongly limited by the impact of noise, in particular introduced by the application of two-qubit gates. For this reason, reducing the number of two-qubit gates is of paramount importance on noisy intermediate-scale quantum hardware. To advance towards more reliable quantum computing, we introduce a framework based on ZX calculus, graph-neural networks and reinforcement learning for quantum circuit optimization. By combining reinforcement learning and tree search, our method addresses the challenge of selecting optimal sequences of ZX calculus rewrite rules. Instead of relying on existing heuristic rules for minimizing circuits, our method trains a novel reinforcement learning policy that directly operates on ZX-graphs, therefore allowing us to search through the space of all possible circuit transformations to find a circuit significantly minimizing the number of CNOT gates. This way we can scale beyond hard-coded rules towards discovering arbitrary optimization rules. We demonstrate our method's competetiveness with state-of-the-art circuit optimizers and generalization capabilities on large sets of diverse random circuits.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.03429v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 07 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Alexander Mattick, Maniraman Periyasamy, Christian Ufrecht, Abhishek Y. Dubey, Christopher Mutschler, Axel Plinge, Daniel D. Scherer</dc:creator>
+    </item>
   </channel>
 </rss>

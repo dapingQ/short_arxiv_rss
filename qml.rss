@@ -7,124 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Apr 2025 04:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 11 Apr 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>A Geometric-Aware Perspective and Beyond: Hybrid Quantum-Classical Machine Learning Methods</title>
-      <link>https://arxiv.org/abs/2504.06328</link>
-      <description>arXiv:2504.06328v1 Announce Type: new 
-Abstract: Geometric Machine Learning (GML) has shown that respecting non-Euclidean geometry in data spaces can significantly improve performance over naive Euclidean assumptions. In parallel, Quantum Machine Learning (QML) has emerged as a promising paradigm that leverages superposition, entanglement, and interference within quantum state manifolds for learning tasks. This paper offers a unifying perspective by casting QML as a specialized yet more expressive branch of GML. We argue that quantum states, whether pure or mixed, reside on curved manifolds (e.g., projective Hilbert spaces or density-operator manifolds), mirroring how covariance matrices inhabit the manifold of symmetric positive definite (SPD) matrices or how image sets occupy Grassmann manifolds. However, QML also benefits from purely quantum properties, such as entanglement-induced curvature, that can yield richer kernel structures and more nuanced data embeddings.
-  We illustrate these ideas with published and newly discussed results, including hybrid classical -quantum pipelines for diabetic foot ulcer classification and structural health monitoring. Despite near-term hardware limitations that constrain purely quantum solutions, hybrid architectures already demonstrate tangible benefits by combining classical manifold-based feature extraction with quantum embeddings. We present a detailed mathematical treatment of the geometrical underpinnings of quantum states, emphasizing parallels to classical Riemannian geometry and manifold-based optimization. Finally, we outline open research challenges and future directions, including Quantum Large Language Models (LLMs), quantum reinforcement learning, and emerging hardware approaches, demonstrating how synergizing GML and QML principles can unlock the next generation of machine intelligence.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06328v1</guid>
+      <title>Evaluating Parameter-Based Training Performance of Neural Networks and Variational Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2504.07273</link>
+      <description>arXiv:2504.07273v1 Announce Type: new 
+Abstract: In recent years, neural networks (NNs) have driven significant advances in machine learning. However, as tasks grow more complex, NNs often require large numbers of trainable parameters, which increases computational and energy demands. Variational quantum circuits (VQCs) offer a promising alternative: they leverage quantum mechanics to capture intricate relationships and typically need fewer parameters. In this work, we evaluate NNs and VQCs on simple supervised and reinforcement learning tasks, examining models with different parameter sizes. We simulate VQCs and execute selected parts of the training process on real quantum hardware to approximate actual training times. Our results show that VQCs can match NNs in performance while using significantly fewer parameters, despite longer training durations. As quantum technology and algorithms advance, and VQC architectures improve, we posit that VQCs could become advantageous for certain machine learning tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.07273v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Azadeh Alavia, Hossein Akhoundib, Fatemeh Kouchmeshkib, Mojtaba Mahmoodianc, Sanduni Jayasinghec, Yongli Rena, Abdolrahman Alavi</dc:creator>
-    </item>
-    <item>
-      <title>Evaluating Mutation Techniques in Genetic Algorithm-Based Quantum Circuit Synthesis</title>
-      <link>https://arxiv.org/abs/2504.06413</link>
-      <description>arXiv:2504.06413v1 Announce Type: new 
-Abstract: Quantum computing leverages the unique properties of qubits and quantum parallelism to solve problems intractable for classical systems, offering unparalleled computational potential. However, the optimization of quantum circuits remains critical, especially for noisy intermediate-scale quantum (NISQ) devices with limited qubits and high error rates. Genetic algorithms (GAs) provide a promising approach for efficient quantum circuit synthesis by automating optimization tasks. This work examines the impact of various mutation strategies within a GA framework for quantum circuit synthesis. By analyzing how different mutations transform circuits, it identifies strategies that enhance efficiency and performance. Experiments utilized a fitness function emphasizing fidelity, while accounting for circuit depth and T operations, to optimize circuits with four to six qubits. Comprehensive hyperparameter testing revealed that combining delete and swap strategies outperformed other approaches, demonstrating their effectiveness in developing robust GA-based quantum circuit optimizers.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06413v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Michael K\"olle, Tom Bintener, Maximilian Zorn, Gerhard Stenzel, Leo S\"unkel, Thomas Gabor, Claudia Linnhoff-Popien</dc:creator>
+      <dc:creator>Michael K\"olle, Alexander Feist, Jonas Stein, Sebastian W\"olckert, Claudia Linnhoff-Popien</dc:creator>
     </item>
     <item>
-      <title>Tight bounds on depth-2 QAC-circuits computing parity</title>
-      <link>https://arxiv.org/abs/2504.06433</link>
-      <description>arXiv:2504.06433v1 Announce Type: new 
-Abstract: We show that the parity of more than three non-target input bits cannot be computed by QAC-circuits of depth-2, not even uncleanly, regardless of the number of ancilla qubits. This result is incomparable with other recent lower bounds on constant-depth QAC-circuits by Rosenthal [ICTS~2021,arXiv:2008.07470] and uses different techniques which may be of independent interest:
-  1. We show that all members of a certain class of multivariate polynomials are irreducible. The proof applies a technique of Shpilka &amp; Volkovich [STOC 2008]. 2. We give a tight-in-some-sense characterization of when a multiqubit CZ gate creates or removes entanglement from the state it is applied to.
-  The current paper strengthens an earlier version of the paper [arXiv:2005.12169].</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06433v1</guid>
+      <title>Learning to erase quantum states: thermodynamic implications of quantum learning theory</title>
+      <link>https://arxiv.org/abs/2504.07341</link>
+      <description>arXiv:2504.07341v1 Announce Type: new 
+Abstract: The energy cost of erasing quantum states depends on our knowledge of the states. We show that learning algorithms can acquire such knowledge to erase many copies of an unknown state at the optimal energy cost. This is proved by showing that learning can be made fully reversible and has no fundamental energy cost itself. With simple counting arguments, we relate the energy cost of erasing quantum states to their complexity, entanglement, and magic. We further show that the constructed erasure protocol is computationally efficient when learning is efficient. Conversely, under standard cryptographic assumptions, we prove that the optimal energy cost cannot be achieved efficiently in general. These results also enable efficient work extraction based on learning. Together, our results establish a concrete connection between quantum learning theory and thermodynamics, highlighting the physical significance of learning processes and enabling efficient learning-based protocols for thermodynamic tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.07341v1</guid>
       <category>quant-ph</category>
+      <category>cond-mat.stat-mech</category>
       <category>cs.CC</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Stephen Fenner, Daniel Grier, Daniel Pad\'e, Thomas Thierauf</dc:creator>
-    </item>
-    <item>
-      <title>Continuous-Variable Quantum Encoding Techniques: A Comparative Study of Embedding Techniques and Their Impact on Machine Learning Performance</title>
-      <link>https://arxiv.org/abs/2504.06497</link>
-      <description>arXiv:2504.06497v1 Announce Type: new 
-Abstract: This study explores the intersection of continuous-variable quantum computing (CVQC) and classical machine learning, focusing on CVQC data encoding techniques, including Displacement encoding and squeezing encoding, alongside Instantaneous Quantum Polynomial (IQP) encoding from discrete quantum computing. We perform an extensive empirical analysis to assess the impact of these encoding methods on classical machine learning models, such as Logistic Regression, Support Vector Machines, K-Nearest Neighbors, and ensemble methods like Random Forest and LightGBM. Our findings indicate that CVQC-based encoding methods significantly enhance feature expressivity, resulting in improved classification accuracy and F1 scores, especially in high-dimensional and complex datasets. However, these improvements come with varying computational costs, which depend on the complexity of the encoding and the architecture of the machine learning models. Additionally, we examine the trade-off between quantum expressibility and classical learnability, offering valuable insights into the practical feasibility of incorporating these quantum encodings into real-world applications. This study contributes to the growing body of research on quantum-classical hybrid learning, emphasizing the role of CVQC in advancing quantum data representation and its integration into classical machine learning workflows.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06497v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Minati Rath, Hema Date</dc:creator>
-    </item>
-    <item>
-      <title>Quantum neural networks facilitating quantum state classification</title>
-      <link>https://arxiv.org/abs/2504.06622</link>
-      <description>arXiv:2504.06622v1 Announce Type: new 
-Abstract: The classification of quantum states into distinct classes poses a significant challenge. In this study, we address this problem using quantum neural networks in combination with a problem-inspired circuit and customised as well as predefined ans\"{a}tz. To facilitate the resource-efficient quantum state classification, we construct the dataset of quantum states using the proposed problem-inspired circuit. The problem-inspired circuit incorporates two-qubit parameterised unitary gates of varying entangling power, which is further integrated with the ans\"{a}tz, developing an entire quantum neural network. To demonstrate the capability of the selected ans\"{a}tz, we visualise the mitigated barren plateaus. The designed quantum neural network demonstrates the efficiency in binary and multi-class classification tasks. This work establishes a foundation for the classification of multi-qubit quantum states and offers the potential for generalisation to multi-qubit pure quantum states.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06622v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Diksha Sharma, Vivek Balasaheb Sabale, Thirumalai M., Atul Kumar</dc:creator>
-    </item>
-    <item>
-      <title>More-efficient Quantum Multivariate Mean Value Estimator from Generalized Grover Gate</title>
-      <link>https://arxiv.org/abs/2504.06940</link>
-      <description>arXiv:2504.06940v1 Announce Type: new 
-Abstract: In this work, we present an efficient algorithm for multivariate mean value estimation. Our algorithm outperforms previous work by polylog factors and nearly saturates the known lower bound. We find an algorithm that uses $O\left(n \log \frac{d}{\delta}\right)$ to achieve precision $\frac{\sqrt{\text{tr } \Sigma}}{n}$ in $\lVert \rVert_\infty$ norm and hence $\frac{\sqrt{d \text{ tr } \Sigma}}{n}$ in $\lVert \rVert_2$ norm, where $d$ is the dimension and $\Sigma$ is the covariance matrix. We also presented another algorithm that uses smaller memory but costs an extra $d^\frac{1}{4}$ in complexity. The idea originates from the previous observations that the Grover gate, when generalized to allow for arbitrary phases instead of $\pm 1$, becomes a good mean value estimator in some mathematical notion. The only remaining $\log \frac{d}{\delta}$ as opposed to $\log \frac{1}{\delta}$ is due to the phase estimation primitive we employed, which so far is the only major known method to tackle the problem. Our results demonstrates that our methodology with generalized Grover gate can be used locate the optimal algorithm, without polylog overhead, for different taks relating to mean value estimation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.06940v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Letian Tang</dc:creator>
-    </item>
-    <item>
-      <title>Assumption-free fidelity bounds for hardware noise characterization</title>
-      <link>https://arxiv.org/abs/2504.07010</link>
-      <description>arXiv:2504.07010v1 Announce Type: new 
-Abstract: In the Quantum Supremacy regime, quantum computers may overcome classical machines on several tasks if we can estimate, mitigate, or correct unavoidable hardware noise. Estimating the error requires classical simulations, which become unfeasible in the Quantum Supremacy regime. We leverage Machine Learning data-driven approaches and Conformal Prediction, a Machine Learning uncertainty quantification tool known for its mild assumptions and finite-sample validity, to find theoretically valid upper bounds of the fidelity between noiseless and noisy outputs of quantum devices. Under reasonable extrapolation assumptions, the proposed scheme applies to any Quantum Computing hardware, does not require modeling the device's noise sources, and can be used when classical simulations are unavailable, e.g. in the Quantum Supremacy regime.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.07010v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Nicolo Colombo</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Reverse Shannon Theorem Revisited</title>
-      <link>https://arxiv.org/abs/2504.07068</link>
-      <description>arXiv:2504.07068v1 Announce Type: new 
-Abstract: Reverse Shannon theorems concern the use of noiseless channels to simulate noisy ones. This is dual to the usual noisy channel coding problem, where a noisy (classical or quantum) channel is used to simulate a noiseless one. The Quantum Reverse Shannon Theorem is extensively studied by Bennett and co-authors in [IEEE Trans. Inf. Theory, 2014]. They present two distinct theorems, each tailored to classical and quantum channel simulations respectively, explaining the fact that these theorems remain incomparable due to the fundamentally different nature of correlations they address. The authors leave as an open question the challenge of formulating a unified theorem that could encompass the principles of both and unify them. We unify these two theorems into a single, comprehensive theorem, extending it to the most general case by considering correlations with a general mixed-state reference system. Furthermore, we unify feedback and non-feedback theorems by simulating a general side information system at the encoder side.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.07068v1</guid>
-      <category>quant-ph</category>
       <category>cs.IT</category>
+      <category>cs.LG</category>
       <category>math.IT</category>
-      <pubDate>Thu, 10 Apr 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Haimeng Zhao, Yuzhen Zhang, John Preskill</dc:creator>
+    </item>
+    <item>
+      <title>Automating quantum feature map design via large language models</title>
+      <link>https://arxiv.org/abs/2504.07396</link>
+      <description>arXiv:2504.07396v1 Announce Type: new 
+Abstract: Quantum feature maps are a key component of quantum machine learning, encoding classical data into quantum states to exploit the expressive power of high-dimensional Hilbert spaces. Despite their theoretical promise, designing quantum feature maps that offer practical advantages over classical methods remains an open challenge. In this work, we propose an agentic system that autonomously generates, evaluates, and refines quantum feature maps using large language models. The system consists of five component: Generation, Storage, Validation, Evaluation, and Review. Using these components, it iteratively improves quantum feature maps. Experiments on the MNIST dataset show that it can successfully discover and refine feature maps without human intervention. The best feature map generated outperforms existing quantum baselines and achieves competitive accuracy compared to classical kernels across MNIST, Fashion-MNIST, and CIFAR-10. Our approach provides a framework for exploring dataset-adaptive quantum features and highlights the potential of LLM-driven automation in quantum algorithm design.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.07396v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Zahra Baghali Khanian, Debbie Leung</dc:creator>
+      <dc:creator>Kenya Sakka, Kosuke Mitarai, Keisuke Fujii</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,39 +7,83 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Apr 2025 04:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 04:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 30 Apr 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Provably faster randomized and quantum algorithms for k-means clustering via uniform sampling</title>
-      <link>https://arxiv.org/abs/2504.20982</link>
-      <description>arXiv:2504.20982v1 Announce Type: new 
-Abstract: The $k$-means algorithm (Lloyd's algorithm) is a widely used method for clustering unlabeled data. A key bottleneck of the $k$-means algorithm is that each iteration requires time linear in the number of data points, which can be expensive in big data applications. This was improved in recent works proposing quantum and quantum-inspired classical algorithms to approximate the $k$-means algorithm locally, in time depending only logarithmically on the number of data points (along with data dependent parameters) [$q$-means: A quantum algorithm for unsupervised machine learning; Kerenidis, Landman, Luongo, and Prakash, NeurIPS 2019; Do you know what $q$-means?, Doriguello, Luongo, Tang]. In this work, we describe a simple randomized mini-batch $k$-means algorithm and a quantum algorithm inspired by the classical algorithm. We prove worse-case guarantees that significantly improve upon the bounds for previous algorithms. Our improvements are due to a careful use of uniform sampling, which preserves certain symmetries of the $k$-means problem that are not preserved in previous algorithms that use data norm-based sampling.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.20982v1</guid>
+      <title>QAOA Parameter Transferability for Maximum Independent Set using Graph Attention Networks</title>
+      <link>https://arxiv.org/abs/2504.21135</link>
+      <description>arXiv:2504.21135v1 Announce Type: new 
+Abstract: The quantum approximate optimization algorithm (QAOA) is one of the promising variational approaches of quantum computing to solve combinatorial optimization problems. In QAOA, variational parameters need to be optimized by solving a series of nonlinear, nonconvex optimization programs. In this work, we propose a QAOA parameter transfer scheme using Graph Attention Networks (GAT) to solve Maximum Independent Set (MIS) problems. We prepare optimized parameters for graphs of 12 and 14 vertices and use GATs to transfer their parameters to larger graphs. Additionally, we design a hybrid distributed resource-aware algorithm for MIS (HyDRA-MIS), which decomposes large problems into smaller ones that can fit onto noisy intermediate-scale quantum (NISQ) computers. We integrate our GAT-based parameter transfer approach to HyDRA-MIS and demonstrate competitive results compared to KaMIS, a state-of-the-art classical MIS solver, on graphs with several thousands vertices.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.21135v1</guid>
       <category>quant-ph</category>
-      <category>cs.DS</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 30 Apr 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Tyler Chen, Archan Ray, Akshay Seshadri, Dylan Herman, Bao Bach, Pranav Deshpande, Abhishek Som, Niraj Kumar, Marco Pistoia</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Hanjing Xu, Xiaoyuan Liu, Alex Pothen, Ilya Safro</dc:creator>
     </item>
     <item>
-      <title>Hybrid Quantum Recurrent Neural Network For Remaining Useful Life Prediction</title>
-      <link>https://arxiv.org/abs/2504.20823</link>
-      <description>arXiv:2504.20823v1 Announce Type: cross 
-Abstract: Predictive maintenance in aerospace heavily relies on accurate estimation of the remaining useful life of jet engines. In this paper, we introduce a Hybrid Quantum Recurrent Neural Network frame- work, combining Quantum Long Short-Term Memory layers with classical dense layers for Remaining Useful Life forecasting on NASA's Commercial Modular Aero-Propulsion System Simulation dataset. Each Quantum Long Short-Term Memory gate replaces conventional linear transformations with Quantum Depth-Infused circuits, allowing the network to learn high-frequency components more effectively. Experimental results demonstrate that, despite having fewer trainable parameters, the Hybrid Quantum Recurrent Neural Network achieves up to a 5% improvement over a Recurrent Neural Network based on stacked Long Short-Term Memory layers in terms of mean root mean squared error and mean absolute error. Moreover, a thorough comparison of our method with established techniques, including Random Forest, Convolutional Neural Network, and Multilayer Perceptron, demonstrates that our approach, which achieves a Root Mean Squared Error of 15.46, surpasses these baselines by approximately 13.68%, 16.21%, and 7.87%, respectively. Nevertheless, it remains outperformed by certain advanced joint architectures. Our findings highlight the poten- tial of hybrid quantum-classical approaches for robust time-series forecasting under limited data conditions, offering new avenues for enhancing reliability in predictive maintenance tasks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.20823v1</guid>
-      <category>cs.LG</category>
+      <title>Efficient Quantum-Safe Homomorphic Encryption for Quantum Computer Programs</title>
+      <link>https://arxiv.org/abs/2504.21235</link>
+      <description>arXiv:2504.21235v1 Announce Type: new 
+Abstract: We present a lattice-based scheme for homomorphic evaluation of quantum programs and proofs that remains secure against quantum adversaries. Classical homomorphic encryption is lifted to the quantum setting by replacing composite-order groups with Module Learning-With-Errors (MLWE) lattices and by generalizing polynomial functors to bounded natural super functors (BNSFs). A secret depolarizing BNSF mask hides amplitudes, while each quantum state is stored as an MLWE ciphertext pair. We formalize security with the qIND-CPA game that allows coherent access to the encryption oracle and give a four-hybrid reduction to decisional MLWE.
+  The design also covers practical issues usually left open. A typed QC-bridge keeps classical bits produced by measurements encrypted yet still usable as controls, with weak-measurement semantics for expectation-value workloads. Encrypted Pauli twirls add circuit privacy. If a fixed knowledge base is needed, its axioms are shipped as MLWE "capsules"; the evaluator can use them but cannot read them. A rho-calculus driver schedules encrypted tasks across several QPUs and records an auditable trace on an RChain-style ledger.
+  Performance analysis shows that the extra lattice arithmetic fits inside today's QPU idle windows: a 100-qubit, depth-10^3 teleportation-based proof runs in about 10 ms, the public key (seed only) is 32 bytes, and even a CCA-level key stays below 300 kB. A photonic Dirac-3 prototype that executes homomorphic teleportation plus knowledge-base-relative amplitude checks appears feasible with current hardware. These results indicate that fully homomorphic, knowledge-base-aware quantum reasoning is compatible with near-term quantum clouds and standard post-quantum security assumptions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.21235v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 30 Apr 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ben Goertzel</dc:creator>
+    </item>
+    <item>
+      <title>A note on the quantum Wielandt inequality</title>
+      <link>https://arxiv.org/abs/2504.21638</link>
+      <description>arXiv:2504.21638v1 Announce Type: new 
+Abstract: In this note, we show how to extend operator algebraic methods introduced by Rahaman to prove that the index of primitivity of any primitive Schwarz map is at most $2(D-1)^2$, where $D$ is the dimension of the underlying matrix algebra. This inequality was first proved by Rahaman for Schwarz maps which were both unital and trace preserving. We show here that the assumption of unitality is automatic (up to normalization) for primitive Schwarz maps, but, in general, not all primitive unital Schwarz maps are trace preserving. Therefore, the precise purpose of this note is to showcase how to apply the proof of Rahaman to arbitrary primitive Schwarz maps. As a corollary of this theorem, we show that the index of primitivity of any primitive 2-positive map is at most $2(D-1)^2$, so in particular this bound holds for arbitrary primitive completely positive maps. We briefly discuss of how this relates to a conjecture of Perez-Garcia, Verstraete, Wolf and Cirac concerning properties of parent Hamiltonians of matrix product states.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.21638v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>math.OA</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Owen Ekblad</dc:creator>
+    </item>
+    <item>
+      <title>On the Efficacy of the Peeling Decoder for the Quantum Expander Code</title>
+      <link>https://arxiv.org/abs/2504.21845</link>
+      <description>arXiv:2504.21845v1 Announce Type: new 
+Abstract: The problem of recovering from qubit erasures has recently gained attention as erasures occur in many physical systems such as photonic systems, trapped ions, superconducting qubits and circuit quantum electrodynamics. While several linear-time decoders for error correction are known, their error-correcting capability is limited to half the minimum distance of the code, whereas erasure correction allows one to go beyond this limit. As in the classical case, stopping sets pose a major challenge in designing efficient erasure decoders for quantum LDPC codes. In this paper, we show through simulation, that an attractive alternative here, is the use of quantum expander codes in conjunction with the peeling decoder that has linear complexity. We also discuss additional techniques including small-set-flip decoding, that can be applied following the peeling operation, to improve decoding performance and their associated complexity.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.21845v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jefrin Sharmitha Prabhu, Abhinav Vaishya, Shobhit Bhatnagar, Aryaman Manish Kolhe, V. Lalitha, P. Vijay Kumar</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Hypothesis Testing Lemma for Deterministic Identification over Quantum Channels</title>
+      <link>https://arxiv.org/abs/2504.20991</link>
+      <description>arXiv:2504.20991v1 Announce Type: cross 
+Abstract: In our previous work, we presented the Hypothesis Testing Lemma, a key tool that establishes sufficient conditions for the existence of good deterministic identification (DI) codes for memoryless channels with finite output, but arbitrary input alphabets. In this work, we provide a full quantum analogue of this lemma, which shows that the existence of a DI code in the quantum setting follows from a suitable packing in a modified space of output quantum states. Specifically, we demonstrate that such a code can be constructed using product states derived from this packing. This result enables us to tighten the capacity lower bound for DI over quantum channels beyond the simultaneous decoding approach. In particular, we can now express these bounds solely in terms of the Minkowski dimension of a certain state space, giving us new insights to better understand the nature of the protocol, and the separation between simultaneous and non-simultaneous codes. We extend the discussion with a particular channel example for which we can construct an optimum code.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.20991v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Olga Tsurkan, Aleksandra Konstantinova, Aleksandr Sedykh, Dmitrii Zhiganov, Arsenii Senokosov, Daniil Tarpanov, Matvei Anoshin, Leonid Fedichkin</dc:creator>
+      <dc:creator>Pau Colomer, Christian Deppe, Holger Boche, Andreas Winter</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,83 +7,73 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 May 2025 04:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>QAOA Parameter Transferability for Maximum Independent Set using Graph Attention Networks</title>
-      <link>https://arxiv.org/abs/2504.21135</link>
-      <description>arXiv:2504.21135v1 Announce Type: new 
-Abstract: The quantum approximate optimization algorithm (QAOA) is one of the promising variational approaches of quantum computing to solve combinatorial optimization problems. In QAOA, variational parameters need to be optimized by solving a series of nonlinear, nonconvex optimization programs. In this work, we propose a QAOA parameter transfer scheme using Graph Attention Networks (GAT) to solve Maximum Independent Set (MIS) problems. We prepare optimized parameters for graphs of 12 and 14 vertices and use GATs to transfer their parameters to larger graphs. Additionally, we design a hybrid distributed resource-aware algorithm for MIS (HyDRA-MIS), which decomposes large problems into smaller ones that can fit onto noisy intermediate-scale quantum (NISQ) computers. We integrate our GAT-based parameter transfer approach to HyDRA-MIS and demonstrate competitive results compared to KaMIS, a state-of-the-art classical MIS solver, on graphs with several thousands vertices.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.21135v1</guid>
+      <title>Can a Quantum Support Vector Machine algorithm be utilized to identify Key Biomarkers from Multi-Omics data of COVID19 patients?</title>
+      <link>https://arxiv.org/abs/2505.00037</link>
+      <description>arXiv:2505.00037v1 Announce Type: new 
+Abstract: Identifying key biomarkers for COVID-19 from high-dimensional multi-omics data is critical for advancing both diagnostic and pathogenesis research. In this study, we evaluated the applicability of the Quantum Support Vector Machine (QSVM) algorithm for biomarker-based classification of COVID-19. Proteomic and metabolomic biomarkers from two independent datasets were ranked by importance using ridge regression and grouped accordingly. The top- and bottom-ranked biomarker sets were then used to train and evaluate both classical SVM (CSVM) and QSVM models, serving as predictive and negative control inputs, respectively. The QSVM was implemented with multiple quantum kernels, including amplitude encoding, angle encoding, the ZZ feature map, and the projected quantum kernel. Across various experimental settings, QSVM consistently achieved classification performance that was comparable to or exceeded that of CSVM, while reflecting the importance rankings by ridge regression. Although the experiments were conducted in numerical simulation, our findings highlight the potential of QSVM as a promising approach for multi-omics data analysis in biomedical research.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.00037v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+      <category>q-bio.QM</category>
+      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Hanjing Xu, Xiaoyuan Liu, Alex Pothen, Ilya Safro</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Junggu Choi, Chansu Yu, Kyle L. Jung, Suan-Sin Foo, Weiqiang Chen, Suzy AA Comhair, Serpil C. Erzurum, Lara Jehi, Jae U. Jung</dc:creator>
     </item>
     <item>
-      <title>Efficient Quantum-Safe Homomorphic Encryption for Quantum Computer Programs</title>
-      <link>https://arxiv.org/abs/2504.21235</link>
-      <description>arXiv:2504.21235v1 Announce Type: new 
-Abstract: We present a lattice-based scheme for homomorphic evaluation of quantum programs and proofs that remains secure against quantum adversaries. Classical homomorphic encryption is lifted to the quantum setting by replacing composite-order groups with Module Learning-With-Errors (MLWE) lattices and by generalizing polynomial functors to bounded natural super functors (BNSFs). A secret depolarizing BNSF mask hides amplitudes, while each quantum state is stored as an MLWE ciphertext pair. We formalize security with the qIND-CPA game that allows coherent access to the encryption oracle and give a four-hybrid reduction to decisional MLWE.
-  The design also covers practical issues usually left open. A typed QC-bridge keeps classical bits produced by measurements encrypted yet still usable as controls, with weak-measurement semantics for expectation-value workloads. Encrypted Pauli twirls add circuit privacy. If a fixed knowledge base is needed, its axioms are shipped as MLWE "capsules"; the evaluator can use them but cannot read them. A rho-calculus driver schedules encrypted tasks across several QPUs and records an auditable trace on an RChain-style ledger.
-  Performance analysis shows that the extra lattice arithmetic fits inside today's QPU idle windows: a 100-qubit, depth-10^3 teleportation-based proof runs in about 10 ms, the public key (seed only) is 32 bytes, and even a CCA-level key stays below 300 kB. A photonic Dirac-3 prototype that executes homomorphic teleportation plus knowledge-base-relative amplitude checks appears feasible with current hardware. These results indicate that fully homomorphic, knowledge-base-aware quantum reasoning is compatible with near-term quantum clouds and standard post-quantum security assumptions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.21235v1</guid>
+      <title>Toward Practical Quantum Machine Learning: A Novel Hybrid Quantum LSTM for Fraud Detection</title>
+      <link>https://arxiv.org/abs/2505.00137</link>
+      <description>arXiv:2505.00137v1 Announce Type: new 
+Abstract: We present a novel hybrid quantum-classical neural network architecture for fraud detection that integrates a classical Long Short-Term Memory (LSTM) network with a variational quantum circuit. By leveraging quantum phenomena such as superposition and entanglement, our model enhances the feature representation of sequential transaction data, capturing complex non-linear patterns that are challenging for purely classical models. A comprehensive data preprocessing pipeline is employed to clean, encode, balance, and normalize a credit card fraud dataset, ensuring a fair comparison with baseline models. Notably, our hybrid approach achieves per-epoch training times in the range of 45-65 seconds, which is significantly faster than similar architectures reported in the literature, where training typically requires several minutes per epoch. Both classical and quantum gradients are jointly optimized via a unified backpropagation procedure employing the parameter-shift rule for the quantum parameters. Experimental evaluations demonstrate competitive improvements in accuracy, precision, recall, and F1 score relative to a conventional LSTM baseline. These results underscore the promise of hybrid quantum-classical techniques in advancing the efficiency and performance of fraud detection systems.
+  Keywords: Hybrid Quantum-Classical Neural Networks, Quantum Computing, Fraud Detection, Hybrid Quantum LSTM, Variational Quantum Circuit, Parameter-Shift Rule, Financial Risk Analysis</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.00137v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Rushikesh Ubale, Sujan K. K., Sangram Deshpande, Gregory T. Byrd</dc:creator>
+    </item>
+    <item>
+      <title>On estimating the quantum $\ell_{\alpha}$ distance</title>
+      <link>https://arxiv.org/abs/2505.00457</link>
+      <description>arXiv:2505.00457v1 Announce Type: new 
+Abstract: We study the computational complexity of estimating the quantum $\ell_{\alpha}$ distance ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$, defined via the Schatten $\alpha$-norm $\|A\|_{\alpha} = \mathrm{tr}(|A|^{\alpha})^{1/\alpha}$, given $\operatorname{poly}(n)$-size state-preparation circuits of $n$-qubit quantum states $\rho_0$ and $\rho_1$. This quantity serves as a lower bound on the trace distance for $\alpha &gt; 1$. For any constant $\alpha &gt; 1$, we develop an efficient rank-independent quantum estimator for ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$ with time complexity $\operatorname{poly}(n)$, achieving an exponential speedup over the prior best results of $\exp(n)$ due to Wang, Guan, Liu, Zhang, and Ying (TIT 2024). Our improvement leverages efficiently computable uniform polynomial approximations of signed positive power functions within quantum singular value transformation, thereby eliminating the dependence on the rank of the quantum states.
+  Our quantum algorithm reveals a dichotomy in the computational complexity of the Quantum State Distinguishability Problem with Schatten $\alpha$-norm (QSD$_{\alpha}$), which involves deciding whether ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$ is at least $2/5$ or at most $1/5$. This dichotomy arises between the cases of constant $\alpha &gt; 1$ and $\alpha=1$:
+  - For any $1+\Omega(1) \leq \alpha \leq O(1)$, QSD$_{\alpha}$ is $\mathsf{BQP}$-complete.
+  - For any $1 \leq \alpha \leq 1+\frac{1}{n}$, QSD$_{\alpha}$ is $\mathsf{QSZK}$-complete, implying that no efficient quantum estimator for $\mathrm{T}_\alpha(\rho_0,\rho_1)$ exists unless $\mathsf{BQP} = \mathsf{QSZK}$.
+  The hardness results follow from reductions based on new rank-dependent inequalities for the quantum $\ell_{\alpha}$ distance with $1\leq \alpha \leq \infty$, which are of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.00457v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yupan Liu, Qisheng Wang</dc:creator>
+    </item>
+    <item>
+      <title>Learning to Learn with Quantum Optimization via Quantum Neural Networks</title>
+      <link>https://arxiv.org/abs/2505.00561</link>
+      <description>arXiv:2505.00561v1 Announce Type: new 
+Abstract: Quantum Approximate Optimization Algorithms (QAOA) promise efficient solutions to classically intractable combinatorial optimization problems by harnessing shallow-depth quantum circuits. Yet, their performance and scalability often hinge on effective parameter optimization, which remains nontrivial due to rugged energy landscapes and hardware noise. In this work, we introduce a quantum meta-learning framework that combines quantum neural networks, specifically Quantum Long Short-Term Memory (QLSTM) architectures, with QAOA. By training the QLSTM optimizer on smaller graph instances, our approach rapidly generalizes to larger, more complex problems, substantially reducing the number of iterations required for convergence. Through comprehensive benchmarks on Max-Cut and Sherrington-Kirkpatrick model instances, we demonstrate that QLSTM-based optimizers converge faster and achieve higher approximation ratios compared to classical baselines, thereby offering a robust pathway toward scalable quantum optimization in the NISQ era.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.00561v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ben Goertzel</dc:creator>
-    </item>
-    <item>
-      <title>A note on the quantum Wielandt inequality</title>
-      <link>https://arxiv.org/abs/2504.21638</link>
-      <description>arXiv:2504.21638v1 Announce Type: new 
-Abstract: In this note, we show how to extend operator algebraic methods introduced by Rahaman to prove that the index of primitivity of any primitive Schwarz map is at most $2(D-1)^2$, where $D$ is the dimension of the underlying matrix algebra. This inequality was first proved by Rahaman for Schwarz maps which were both unital and trace preserving. We show here that the assumption of unitality is automatic (up to normalization) for primitive Schwarz maps, but, in general, not all primitive unital Schwarz maps are trace preserving. Therefore, the precise purpose of this note is to showcase how to apply the proof of Rahaman to arbitrary primitive Schwarz maps. As a corollary of this theorem, we show that the index of primitivity of any primitive 2-positive map is at most $2(D-1)^2$, so in particular this bound holds for arbitrary primitive completely positive maps. We briefly discuss of how this relates to a conjecture of Perez-Garcia, Verstraete, Wolf and Cirac concerning properties of parent Hamiltonians of matrix product states.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.21638v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>math.OA</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Owen Ekblad</dc:creator>
-    </item>
-    <item>
-      <title>On the Efficacy of the Peeling Decoder for the Quantum Expander Code</title>
-      <link>https://arxiv.org/abs/2504.21845</link>
-      <description>arXiv:2504.21845v1 Announce Type: new 
-Abstract: The problem of recovering from qubit erasures has recently gained attention as erasures occur in many physical systems such as photonic systems, trapped ions, superconducting qubits and circuit quantum electrodynamics. While several linear-time decoders for error correction are known, their error-correcting capability is limited to half the minimum distance of the code, whereas erasure correction allows one to go beyond this limit. As in the classical case, stopping sets pose a major challenge in designing efficient erasure decoders for quantum LDPC codes. In this paper, we show through simulation, that an attractive alternative here, is the use of quantum expander codes in conjunction with the peeling decoder that has linear complexity. We also discuss additional techniques including small-set-flip decoding, that can be applied following the peeling operation, to improve decoding performance and their associated complexity.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.21845v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jefrin Sharmitha Prabhu, Abhinav Vaishya, Shobhit Bhatnagar, Aryaman Manish Kolhe, V. Lalitha, P. Vijay Kumar</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Hypothesis Testing Lemma for Deterministic Identification over Quantum Channels</title>
-      <link>https://arxiv.org/abs/2504.20991</link>
-      <description>arXiv:2504.20991v1 Announce Type: cross 
-Abstract: In our previous work, we presented the Hypothesis Testing Lemma, a key tool that establishes sufficient conditions for the existence of good deterministic identification (DI) codes for memoryless channels with finite output, but arbitrary input alphabets. In this work, we provide a full quantum analogue of this lemma, which shows that the existence of a DI code in the quantum setting follows from a suitable packing in a modified space of output quantum states. Specifically, we demonstrate that such a code can be constructed using product states derived from this packing. This result enables us to tighten the capacity lower bound for DI over quantum channels beyond the simultaneous decoding approach. In particular, we can now express these bounds solely in terms of the Minkowski dimension of a certain state space, giving us new insights to better understand the nature of the protocol, and the separation between simultaneous and non-simultaneous codes. We extend the discussion with a particular channel example for which we can construct an optimum code.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.20991v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 01 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Pau Colomer, Christian Deppe, Holger Boche, Andreas Winter</dc:creator>
+      <dc:creator>Kuan-Cheng Chen, Hiromichi Matsuyama, Wei-Hao Huang</dc:creator>
     </item>
   </channel>
 </rss>

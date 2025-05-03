@@ -7,73 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 May 2025 04:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 May 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 03 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
-    <item>
-      <title>Can a Quantum Support Vector Machine algorithm be utilized to identify Key Biomarkers from Multi-Omics data of COVID19 patients?</title>
-      <link>https://arxiv.org/abs/2505.00037</link>
-      <description>arXiv:2505.00037v1 Announce Type: new 
-Abstract: Identifying key biomarkers for COVID-19 from high-dimensional multi-omics data is critical for advancing both diagnostic and pathogenesis research. In this study, we evaluated the applicability of the Quantum Support Vector Machine (QSVM) algorithm for biomarker-based classification of COVID-19. Proteomic and metabolomic biomarkers from two independent datasets were ranked by importance using ridge regression and grouped accordingly. The top- and bottom-ranked biomarker sets were then used to train and evaluate both classical SVM (CSVM) and QSVM models, serving as predictive and negative control inputs, respectively. The QSVM was implemented with multiple quantum kernels, including amplitude encoding, angle encoding, the ZZ feature map, and the projected quantum kernel. Across various experimental settings, QSVM consistently achieved classification performance that was comparable to or exceeded that of CSVM, while reflecting the importance rankings by ridge regression. Although the experiments were conducted in numerical simulation, our findings highlight the potential of QSVM as a promising approach for multi-omics data analysis in biomedical research.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.00037v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>q-bio.QM</category>
-      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Junggu Choi, Chansu Yu, Kyle L. Jung, Suan-Sin Foo, Weiqiang Chen, Suzy AA Comhair, Serpil C. Erzurum, Lara Jehi, Jae U. Jung</dc:creator>
-    </item>
-    <item>
-      <title>Toward Practical Quantum Machine Learning: A Novel Hybrid Quantum LSTM for Fraud Detection</title>
-      <link>https://arxiv.org/abs/2505.00137</link>
-      <description>arXiv:2505.00137v1 Announce Type: new 
-Abstract: We present a novel hybrid quantum-classical neural network architecture for fraud detection that integrates a classical Long Short-Term Memory (LSTM) network with a variational quantum circuit. By leveraging quantum phenomena such as superposition and entanglement, our model enhances the feature representation of sequential transaction data, capturing complex non-linear patterns that are challenging for purely classical models. A comprehensive data preprocessing pipeline is employed to clean, encode, balance, and normalize a credit card fraud dataset, ensuring a fair comparison with baseline models. Notably, our hybrid approach achieves per-epoch training times in the range of 45-65 seconds, which is significantly faster than similar architectures reported in the literature, where training typically requires several minutes per epoch. Both classical and quantum gradients are jointly optimized via a unified backpropagation procedure employing the parameter-shift rule for the quantum parameters. Experimental evaluations demonstrate competitive improvements in accuracy, precision, recall, and F1 score relative to a conventional LSTM baseline. These results underscore the promise of hybrid quantum-classical techniques in advancing the efficiency and performance of fraud detection systems.
-  Keywords: Hybrid Quantum-Classical Neural Networks, Quantum Computing, Fraud Detection, Hybrid Quantum LSTM, Variational Quantum Circuit, Parameter-Shift Rule, Financial Risk Analysis</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.00137v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Rushikesh Ubale, Sujan K. K., Sangram Deshpande, Gregory T. Byrd</dc:creator>
-    </item>
-    <item>
-      <title>On estimating the quantum $\ell_{\alpha}$ distance</title>
-      <link>https://arxiv.org/abs/2505.00457</link>
-      <description>arXiv:2505.00457v1 Announce Type: new 
-Abstract: We study the computational complexity of estimating the quantum $\ell_{\alpha}$ distance ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$, defined via the Schatten $\alpha$-norm $\|A\|_{\alpha} = \mathrm{tr}(|A|^{\alpha})^{1/\alpha}$, given $\operatorname{poly}(n)$-size state-preparation circuits of $n$-qubit quantum states $\rho_0$ and $\rho_1$. This quantity serves as a lower bound on the trace distance for $\alpha &gt; 1$. For any constant $\alpha &gt; 1$, we develop an efficient rank-independent quantum estimator for ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$ with time complexity $\operatorname{poly}(n)$, achieving an exponential speedup over the prior best results of $\exp(n)$ due to Wang, Guan, Liu, Zhang, and Ying (TIT 2024). Our improvement leverages efficiently computable uniform polynomial approximations of signed positive power functions within quantum singular value transformation, thereby eliminating the dependence on the rank of the quantum states.
-  Our quantum algorithm reveals a dichotomy in the computational complexity of the Quantum State Distinguishability Problem with Schatten $\alpha$-norm (QSD$_{\alpha}$), which involves deciding whether ${\mathrm{T}_\alpha}(\rho_0,\rho_1)$ is at least $2/5$ or at most $1/5$. This dichotomy arises between the cases of constant $\alpha &gt; 1$ and $\alpha=1$:
-  - For any $1+\Omega(1) \leq \alpha \leq O(1)$, QSD$_{\alpha}$ is $\mathsf{BQP}$-complete.
-  - For any $1 \leq \alpha \leq 1+\frac{1}{n}$, QSD$_{\alpha}$ is $\mathsf{QSZK}$-complete, implying that no efficient quantum estimator for $\mathrm{T}_\alpha(\rho_0,\rho_1)$ exists unless $\mathsf{BQP} = \mathsf{QSZK}$.
-  The hardness results follow from reductions based on new rank-dependent inequalities for the quantum $\ell_{\alpha}$ distance with $1\leq \alpha \leq \infty$, which are of independent interest.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.00457v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.DS</category>
-      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yupan Liu, Qisheng Wang</dc:creator>
-    </item>
-    <item>
-      <title>Learning to Learn with Quantum Optimization via Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2505.00561</link>
-      <description>arXiv:2505.00561v1 Announce Type: new 
-Abstract: Quantum Approximate Optimization Algorithms (QAOA) promise efficient solutions to classically intractable combinatorial optimization problems by harnessing shallow-depth quantum circuits. Yet, their performance and scalability often hinge on effective parameter optimization, which remains nontrivial due to rugged energy landscapes and hardware noise. In this work, we introduce a quantum meta-learning framework that combines quantum neural networks, specifically Quantum Long Short-Term Memory (QLSTM) architectures, with QAOA. By training the QLSTM optimizer on smaller graph instances, our approach rapidly generalizes to larger, more complex problems, substantially reducing the number of iterations required for convergence. Through comprehensive benchmarks on Max-Cut and Sherrington-Kirkpatrick model instances, we demonstrate that QLSTM-based optimizers converge faster and achieve higher approximation ratios compared to classical baselines, thereby offering a robust pathway toward scalable quantum optimization in the NISQ era.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.00561v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Fri, 02 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kuan-Cheng Chen, Hiromichi Matsuyama, Wei-Hao Huang</dc:creator>
-    </item>
   </channel>
 </rss>

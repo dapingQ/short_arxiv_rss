@@ -7,30 +7,38 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 May 2025 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 06 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 07 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Packaged Quantum States for Gauge-Invariant Quantum Computation and Communication</title>
-      <link>https://arxiv.org/abs/2505.02205</link>
-      <description>arXiv:2505.02205v1 Announce Type: new 
-Abstract: Packaged quantum states are gauge-invariant states in which all internal quantum numbers (IQNs) form an inseparable block. This feature gives rise to novel packaged entanglements that encompass all IQNs, which is important both for fundamental physics and for quantum technology. Here we develop a framework for gauge-invariant quantum information processing based on packaged quantum states. We propose the necessary and sufficient conditions for a valid packaged superposition state of a single particle and multi-particle. We then present the details of constructing gauge-invariant packaged qubits (or qudits), packaged gates, and packaged circuits (which commute with the total charge operator). These serve as alternative foundation for gauge-invariant quantum information science. We then adapt conventional quantum error-correction codes, quantum algorithms, and quantum communication protocols to the ($d \times D$)-dimensional hybrid-packaged subspace. This high-dimensional hybrid-packaged subspace is flexible for pruning and scaling to match available physics systems. Thus, packaged quantum information processing becomes feasible and testable. 
-Our results show that the gauge-invariant packaged quantum states may provide a possible route toward robust, fault-tolerant, and secure quantum technologies.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.02205v1</guid>
+      <title>HMAE: Self-Supervised Few-Shot Learning for Quantum Spin Systems</title>
+      <link>https://arxiv.org/abs/2505.03140</link>
+      <description>arXiv:2505.03140v1 Announce Type: new 
+Abstract: Quantum machine learning for spin and molecular systems faces critical challenges of scarce labeled data and computationally expensive simulations. To address these limitations, we introduce Hamiltonian-Masked Autoencoding (HMAE), a novel self-supervised framework that pre-trains transformers on unlabeled quantum Hamiltonians, enabling efficient few-shot transfer learning. Unlike random masking approaches, HMAE employs a physics-informed strategy based on quantum information theory to selectively mask Hamiltonian terms based on their physical significance. Experiments on 12,500 quantum Hamiltonians (60% real-world, 40% synthetic) demonstrate that HMAE achieves 85.3% $\pm$ 1.5% accuracy in phase classification and 0.15 $\pm$ 0.02 eV MAE in ground state energy prediction with merely 10 labeled examples - a statistically significant improvement (p &lt; 0.01) over classical graph neural networks (78.1% $\pm$ 2.1%) and quantum neural networks (76.8% $\pm$ 2.3%). Our method's primary advantage is exceptional sample efficiency - reducing required labeled examples by 3-5x compared to baseline methods - though we emphasize that ground truth values for fine-tuning and evaluation still require exact diagonalization or tensor networks. We explicitly acknowledge that our current approach is limited to small quantum systems (specifically limited to 12 qubits during training, with limited extension to 16-20 qubits in testing) and that, while promising within this regime, this size restriction prevents immediate application to larger systems of practical interest in materials science and quantum chemistry.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.03140v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>hep-th</category>
-      <category>math-ph</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Tue, 06 May 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ibne Farabi Shihab, Sanjeda Akter, Anuj Sharma</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Feature Space of a Qubit Coupled to an Arbitrary Bath</title>
+      <link>https://arxiv.org/abs/2505.03397</link>
+      <description>arXiv:2505.03397v1 Announce Type: new 
+Abstract: Qubit control protocols have traditionally leveraged a characterisation of the qubit-bath coupling via its power spectral density. Previous work proposed the inference of noise operators that characterise the influence of a classical bath using a grey-box approach that combines deep neural networks with physics-encoded layers. This overall structure is complex and poses challenges in scaling and real-time operations. Here, we show that no expensive neural networks are needed and that this noise operator description admits an efficient parameterisation. We refer to the resulting parameter space as the \textit{quantum feature space} of the qubit dynamics resulting from the coupled bath. We show that the Euclidean distance defined over the quantum feature space provides an effective method for classifying noise processes in the presence of a given set of controls. Using the quantum feature space as the input space for a simple machine learning algorithm (random forest, in this case), we demonstrate that it can effectively classify the stationarity and the broad class of noise processes perturbing a qubit. Finally, we explore how control pulse parameters map to the quantum feature space.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.03397v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 07 May 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Rongchao Ma</dc:creator>
+      <dc:creator>Chris Wise, Akram Youssry, Alberto Peruzzo, Jo Plested, Matt Woolley</dc:creator>
     </item>
   </channel>
 </rss>

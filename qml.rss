@@ -7,25 +7,107 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 May 2025 04:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 08 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Explaining Anomalies with Tensor Networks</title>
-      <link>https://arxiv.org/abs/2505.03911</link>
-      <description>arXiv:2505.03911v1 Announce Type: cross 
-Abstract: Tensor networks, a class of variational quantum many-body wave functions have attracted considerable research interest across many disciplines, including classical machine learning. Recently, Aizpurua et al. demonstrated explainable anomaly detection with matrix product states on a discrete-valued cyber-security task, using quantum-inspired methods to gain insight into the learned model and detected anomalies. Here, we extend this framework to real-valued data domains. We furthermore introduce tree tensor networks for the task of explainable anomaly detection. We demonstrate these methods with three benchmark problems, show adequate predictive performance compared to several baseline models and both tensor network architectures' ability to explain anomalous samples. We thereby extend the application of tensor networks to a broader class of potential problems and open a pathway for future extensions to more complex tensor network architectures.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.03911v1</guid>
-      <category>cs.LG</category>
+      <title>Quantum QSAR for drug discovery</title>
+      <link>https://arxiv.org/abs/2505.04648</link>
+      <description>arXiv:2505.04648v1 Announce Type: new 
+Abstract: Quantitative Structure-Activity Relationship (QSAR) modeling is key in drug discovery, but classical methods face limitations when handling high-dimensional data and capturing complex molecular interactions. This research proposes enhancing QSAR techniques through Quantum Support Vector Machines (QSVMs), which leverage quantum computing principles to process information Hilbert spaces. By using quantum data encoding and quantum kernel functions, we aim to develop more accurate and efficient predictive models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.04648v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 08 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Hans Hohenfeld, Marius Beuerle, Elie Mounzer</dc:creator>
+      <category>cs.LG</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Alejandro Giraldo, Daniel Ruiz, Mariano Caruso, Guido Bellomo</dc:creator>
+    </item>
+    <item>
+      <title>Quantum-Inspired Optimization Process for Data Imputation</title>
+      <link>https://arxiv.org/abs/2505.04841</link>
+      <description>arXiv:2505.04841v1 Announce Type: new 
+Abstract: Data imputation is a critical step in data pre-processing, particularly for datasets with missing or unreliable values. This study introduces a novel quantum-inspired imputation framework evaluated on the UCI Diabetes dataset, which contains biologically implausible missing values across several clinical features. The method integrates Principal Component Analysis (PCA) with quantum-assisted rotations, optimized through gradient-free classical optimizers -COBYLA, Simulated Annealing, and Differential Evolution to reconstruct missing values while preserving statistical fidelity. Reconstructed values are constrained within +/-2 standard deviations of original feature distributions, avoiding unrealistic clustering around central tendencies. This approach achieves a substantial and statistically significant improvement, including an average reduction of over 85% in Wasserstein distance and Kolmogorov-Smirnov test p-values between 0.18 and 0.22, compared to p-values &gt; 0.99 in classical methods such as Mean, KNN, and MICE. The method also eliminates zero-value artifacts and enhances the realism and variability of imputed data. By combining quantum-inspired transformations with a scalable classical framework, this methodology provides a robust solution for imputation tasks in domains such as healthcare and AI pipelines, where data quality and integrity are crucial.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.04841v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Nishikanta Mohanty, Bikash K. Behera, Badsah Mukherjee, Christopher Ferrie</dc:creator>
+    </item>
+    <item>
+      <title>GroverGPT-2: Simulating Grover's Algorithm via Chain-of-Thought Reasoning and Quantum-Native Tokenization</title>
+      <link>https://arxiv.org/abs/2505.04880</link>
+      <description>arXiv:2505.04880v1 Announce Type: new 
+Abstract: Quantum computing offers theoretical advantages over classical computing for specific tasks, yet the boundary of practical quantum advantage remains an open question. To investigate this boundary, it is crucial to understand whether, and how, classical machines can learn and simulate quantum algorithms. Recent progress in large language models (LLMs) has demonstrated strong reasoning abilities, prompting exploration into their potential for this challenge. In this work, we introduce GroverGPT-2, an LLM-based method for simulating Grover's algorithm using Chain-of-Thought (CoT) reasoning and quantum-native tokenization. Building on its predecessor, GroverGPT-2 performs simulation directly from quantum circuit representations while producing logically structured and interpretable outputs. Our results show that GroverGPT-2 can learn and internalize quantum circuit logic through efficient processing of quantum-native tokens, providing direct evidence that classical models like LLMs can capture the structure of quantum algorithms. Furthermore, GroverGPT-2 outputs interleave circuit data with natural language, embedding explicit reasoning into the simulation. This dual capability positions GroverGPT-2 as a prototype for advancing machine understanding of quantum algorithms and modeling quantum circuit logic. We also identify an empirical scaling law for GroverGPT-2 with increasing qubit numbers, suggesting a path toward scalable classical simulation. These findings open new directions for exploring the limits of classical simulatability, enhancing quantum education and research, and laying groundwork for future foundation models in quantum computing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.04880v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Min Chen, Jinglei Cheng, Pingzhi Li, Haoran Wang, Tianlong Chen, Junyu Liu</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing the Dynamic Range of Quantum Sensing via Quantum Circuit Learning</title>
+      <link>https://arxiv.org/abs/2505.04958</link>
+      <description>arXiv:2505.04958v1 Announce Type: new 
+Abstract: Quantum metrology is a promising application of quantum technologies, enabling the precise measurement of weak external fields at a local scale. In typical quantum sensing protocols, a qubit interacts with an external field, and the amplitude of the field is estimated by analyzing the expectation value of a measured observable. Sensitivity can, in principle, be enhanced by increasing the number of qubits within a fixed volume, thereby maintaining spatial resolution. However, at high qubit densities, inter-qubit interactions induce complex many-body dynamics, resulting in multiple oscillations in the expectation value of the observable even for small field amplitudes. This ambiguity reduces the dynamic range of the sensing protocol. We propose a method to overcome the limitation in quantum metrology by adopting a quantum circuit learning framework using a parameterized quantum circuit to approximate a target function by optimizing the circuit parameters. In our method, after the qubits interact with the external field, we apply a sequence of parameterized quantum gates and measure a suitable observable. By optimizing the gate parameters, the expectation value is trained to exhibit a monotonic response within a target range of field amplitudes, thereby eliminating multiple oscillations and enhancing the dynamic range. This method offers a strategy for improving quantum sensing performance in dense qubit systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.04958v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.mes-hall</category>
+      <category>stat.ML</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Hideaki Kawaguchi, Yuichiro Mori, Takahiko Satoh, Yuichiro Matsuzaki</dc:creator>
+    </item>
+    <item>
+      <title>Overcoming Dimensional Factorization Limits in Discrete Diffusion Models through Quantum Joint Distribution Learning</title>
+      <link>https://arxiv.org/abs/2505.05151</link>
+      <description>arXiv:2505.05151v1 Announce Type: new 
+Abstract: This study explores quantum-enhanced discrete diffusion models to overcome classical limitations in learning high-dimensional distributions. We rigorously prove that classical discrete diffusion models, which calculate per-dimension transition probabilities to avoid exponential computational cost, exhibit worst-case linear scaling of Kullback-Leibler (KL) divergence with data dimension. To address this, we propose a Quantum Discrete Denoising Diffusion Probabilistic Model (QD3PM), which enables joint probability learning through diffusion and denoising in exponentially large Hilbert spaces. By deriving posterior states through quantum Bayes' theorem, similar to the crucial role of posterior probabilities in classical diffusion models, and by learning the joint probability, we establish a solid theoretical foundation for quantum-enhanced diffusion models. For denoising, we design a quantum circuit using temporal information for parameter sharing and learnable classical-data-controlled rotations for encoding. Exploiting joint distribution learning, our approach enables single-step sampling from pure noise, eliminating iterative requirements of existing models. Simulations demonstrate the proposed model's superior accuracy in modeling complex distributions compared to factorization methods. Hence, this paper establishes a new theoretical paradigm in generative models by leveraging the quantum advantage in joint distribution learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.05151v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chuangtao Chen, Qinglin Zhao, MengChu Zhou, Zhimin He, Haozhen Situ</dc:creator>
+    </item>
+    <item>
+      <title>Gap-preserving reductions and RE-completeness of independent set games</title>
+      <link>https://arxiv.org/abs/2505.05253</link>
+      <description>arXiv:2505.05253v1 Announce Type: new 
+Abstract: In complexity theory, gap-preserving reductions play a crucial role in studying hardness of approximation and in analyzing the relative complexity of multiprover interactive proof systems. In the quantum setting, multiprover interactive proof systems with entangled provers correspond to gapped promise problems for nonlocal games, and the recent result MIP$^*$=RE (Ji et al., arXiv:2001.04383) shows that these are in general undecidable. However, the relative complexity of problems within MIP$^*$ is still not well-understood, as establishing gap-preserving reductions in the quantum setting presents new challenges. In this paper, we introduce a framework to study such reductions and use it to establish MIP$^*$-completeness of the gapped promise problem for the natural class of independent set games. In such a game, the goal is to determine whether a given graph contains an independent set of a specified size. We construct families of independent set games with constant question size for which the gapped promise problem is undecidable. In contrast, the same problem is decidable in polynomial time in the classical setting. To carry out our reduction, we establish a new stability theorem, which could be of independent interest, allowing us to perturb families of almost PVMs to genuine PVMs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.05253v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>math.OA</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Laura Man\v{c}inska, Pieter Spaas, Taro Spirig</dc:creator>
+    </item>
+    <item>
+      <title>Operator-Level Quantum Acceleration of Non-Logconcave Sampling</title>
+      <link>https://arxiv.org/abs/2505.05301</link>
+      <description>arXiv:2505.05301v1 Announce Type: new 
+Abstract: Sampling from probability distributions of the form $\sigma \propto e^{-\beta V}$, where $V$ is a continuous potential, is a fundamental task across physics, chemistry, biology, computer science, and statistics. However, when $V$ is non-convex, the resulting distribution becomes non-logconcave, and classical methods such as Langevin dynamics often exhibit poor performance. We introduce the first quantum algorithm that provably accelerates a broad class of continuous-time sampling dynamics. For Langevin dynamics, our method encodes the target Gibbs measure into the amplitudes of a quantum state, identified as the kernel of a block matrix derived from a factorization of the Witten Laplacian operator. This connection enables Gibbs sampling via singular value thresholding and yields the first provable quantum advantage with respect to the Poincar\'e constant in the non-logconcave setting. Building on this framework, we further develop the first quantum algorithm that accelerates replica exchange Langevin diffusion, a widely used method for sampling from complex, rugged energy landscapes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.05301v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>math.OC</category>
+      <pubDate>Fri, 09 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jiaqi Leng, Zhiyan Ding, Zherui Chen, Lin Lin</dc:creator>
     </item>
   </channel>
 </rss>

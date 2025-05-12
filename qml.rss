@@ -7,12 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 May 2025 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 11 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 12 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Efficient Quantum Convolutional Neural Networks for Image Classification: Overcoming Hardware Constraints</title>
+      <link>https://arxiv.org/abs/2505.05957</link>
+      <description>arXiv:2505.05957v1 Announce Type: new 
+Abstract: While classical convolutional neural networks (CNNs) have revolutionized image classification, the emergence of quantum computing presents new opportunities for enhancing neural network architectures. Quantum CNNs (QCNNs) leverage quantum mechanical properties and hold potential to outperform classical approaches. However, their implementation on current noisy intermediate-scale quantum (NISQ) devices remains challenging due to hardware limitations. In our research, we address this challenge by introducing an encoding scheme that significantly reduces the input dimensionality. We demonstrate that a primitive QCNN architecture with 49 qubits is sufficient to directly process $28\times 28$ pixel MNIST images, eliminating the need for classical dimensionality reduction pre-processing. Additionally, we propose an automated framework based on expressibility, entanglement, and complexity characteristics to identify the building blocks of QCNNs, parameterized quantum circuits (PQCs). Our approach demonstrates advantages in accuracy and convergence speed with a similar parameter count compared to both hybrid QCNNs and classical CNNs. We validated our experiments on IBM's Heron r2 quantum processor, achieving $96.08\%$ classification accuracy, surpassing the $71.74\%$ benchmark of traditional approaches under identical training conditions. These results represent one of the first implementations of image classifications on real quantum hardware and validate the potential of quantum computing in this area.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.05957v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CV</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 12 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Peter R\"oseler, Oliver Schaudt, Helmut Berg, Christian Bauckhage, Matthias Koch</dc:creator>
+    </item>
+    <item>
+      <title>Advancing Finite-Length Quantum Error Correction Using Generalized Bicycle Codes</title>
+      <link>https://arxiv.org/abs/2505.06157</link>
+      <description>arXiv:2505.06157v1 Announce Type: new 
+Abstract: Generalized bicycle (GB) codes have emerged as a promising class of quantum error-correcting codes with practical decoding capabilities. While numerous asymptotically good quantum codes and quantum low-density parity-check code constructions have been proposed, their finite block-length performance often remains unquantified. In this work, we demonstrate that GB codes exhibit comparable or superior error correction performance in finite-length settings, particularly when designed with higher or unrestricted row weights. Leveraging their flexible construction, GB codes can be tailored to achieve high rates while maintaining efficient decoding. We evaluate GB codes against other leading quantum code families, such as quantum Tanner codes and single-parity-check product codes, highlighting their versatility in practical finite-length applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2505.06157v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 12 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Olai \AA. Mostad, Hsuan-Yin Lin, Eirik Rosnes, De-Shih Lee, Ching-Yi Lai</dc:creator>
+    </item>
+    <item>
+      <title>Modular Debiasing: A Robust Method for Quantum Randomness Extraction</title>
+      <link>https://arxiv.org/abs/2504.18585</link>
+      <description>arXiv:2504.18585v2 Announce Type: cross 
+Abstract: We propose a novel modular debiasing technique applicable to any discrete random source, addressing the fundamental challenge of reliably extracting high-quality randomness from inherently imperfect physical processes. The method involves summing the outcomes of multiple independent trials from a biased source and reducing the sum modulo the number of possible outcomes, $m$. We provide a rigorous theoretical framework, utilizing probability generating functions and roots of unity, demonstrating that this simple operation guarantees the exponential convergence of the output distribution to the ideal uniform distribution over $\{0, 1, \dots, m-1\}$. A key theoretical result is the method's remarkable robustness: convergence is proven for any initial bias (provided all outcomes have non-zero probability) and, crucially, is maintained even under non-stationary conditions or time-dependent noise, which are common in physical systems. Analytical bounds quantify this exponential rate of convergence, and are empirically validated by numerical simulations. This technique's simplicity, strong theoretical guarantees, robustness, and data efficiency make it particularly well-suited for practical implementation in quantum settings, such as spatial photon-detection-based Quantum Random Number Generators (QRNGs), offering an efficient method for extracting high-quality randomness resilient to experimental imperfections. This work contributes a valuable tool to the field of Quantum Information Science.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.18585v2</guid>
+      <category>physics.data-an</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>math.PR</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 12 May 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Eduardo Gueron</dc:creator>
+    </item>
   </channel>
 </rss>

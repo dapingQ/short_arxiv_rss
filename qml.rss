@@ -7,99 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 May 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 May 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 17 May 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>Differentiable Quantum Architecture Search in Quantum-Enhanced Neural Network Parameter Generation</title>
-      <link>https://arxiv.org/abs/2505.09653</link>
-      <description>arXiv:2505.09653v1 Announce Type: new 
-Abstract: The rapid advancements in quantum computing (QC) and machine learning (ML) have led to the emergence of quantum machine learning (QML), which integrates the strengths of both fields. Among QML approaches, variational quantum circuits (VQCs), also known as quantum neural networks (QNNs), have shown promise both empirically and theoretically. However, their broader adoption is hindered by reliance on quantum hardware during inference. Hardware imperfections and limited access to quantum devices pose practical challenges. To address this, the Quantum-Train (QT) framework leverages the exponential scaling of quantum amplitudes to generate classical neural network parameters, enabling inference without quantum hardware and achieving significant parameter compression. Yet, designing effective quantum circuit architectures for such quantum-enhanced neural programmers remains non-trivial and often requires expertise in quantum information science. In this paper, we propose an automated solution using differentiable optimization. Our method jointly optimizes both conventional circuit parameters and architectural parameters in an end-to-end manner via automatic differentiation. We evaluate the proposed framework on classification, time-series prediction, and reinforcement learning tasks. Simulation results show that our method matches or outperforms manually designed QNN architectures. This work offers a scalable and automated pathway for designing QNNs that can generate classical neural network parameters across diverse applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.09653v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
-      <category>cs.NE</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Samuel Yen-Chi Chen, Chen-Yu Liu, Kuan-Cheng Chen, Wei-Jia Huang, Yen-Jui Chang, Wei-Hao Huang</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Computing and AI: Perspectives on Advanced Automation in Science and Engineering</title>
-      <link>https://arxiv.org/abs/2505.10012</link>
-      <description>arXiv:2505.10012v1 Announce Type: new 
-Abstract: Recent advances in artificial intelligence (AI) and quantum computing are accelerating automation in scientific and engineering processes, fundamentally reshaping research methodologies. This perspective highlights parallels between scientific automation and established Computer-Aided Engineering (CAE) practices, introducing Quantum CAE as a framework that leverages quantum algorithms for simulation, optimization, and machine learning within engineering design. Practical implementations of Quantum CAE are illustrated through case studies for combinatorial optimization problems. Further discussions include advancements toward higher automation levels, highlighting the critical role of specialized AI agents proficient in quantum algorithm design. The integration of quantum computing with AI raises significant questions about the collaborative dynamics among human scientists and engineers, AI systems, and quantum computational resources, underscoring a transformative future for automated discovery and innovation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.10012v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Tadashi Kadowaki</dc:creator>
-    </item>
-    <item>
-      <title>Role of scrambling and noise in temporal information processing with quantum systems</title>
-      <link>https://arxiv.org/abs/2505.10080</link>
-      <description>arXiv:2505.10080v1 Announce Type: new 
-Abstract: Scrambling quantum systems have been demonstrated as effective substrates for temporal information processing. While their role in providing rich feature maps has been widely studied, a theoretical understanding of their performance in temporal tasks is still lacking. Here we consider a general quantum reservoir processing framework that captures a broad range of physical computing models with quantum systems. We examine the scalability and memory retention of the model with scrambling reservoirs modelled by high-order unitary designs in both noiseless and noisy settings. In the former regime, we show that measurement readouts become exponentially concentrated with increasing reservoir size, yet strikingly do not worsen with the reservoir iterations. Thus, while repeatedly reusing a small scrambling reservoir with quantum data might be viable, scaling up the problem size deteriorates generalization unless one can afford an exponential shot overhead. In contrast, the memory of early inputs and initial states decays exponentially in both reservoir size and reservoir iterations. In the noisy regime, we also prove exponential memory decays with iterations for local noisy channels. Proving these results required us to introduce new proof techniques for bounding concentration in temporal quantum learning models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.10080v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.dis-nn</category>
-      <category>cs.LG</category>
-      <category>cs.NE</category>
-      <category>stat.ML</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Weijie Xiong, Zo\"e Holmes, Armando Angrisani, Yudai Suzuki, Thiparat Chotibut, Supanut Thanasilp</dc:creator>
-    </item>
-    <item>
-      <title>On the quantum computational complexity of classical linear dynamics with geometrically local interactions: Dequantization and universality</title>
-      <link>https://arxiv.org/abs/2505.10445</link>
-      <description>arXiv:2505.10445v1 Announce Type: new 
-Abstract: The simulation of large-scale classical systems in exponentially small space on quantum computers has gained attention. The prior work demonstrated that a quantum algorithm offers an exponential speedup over any classical algorithm in simulating classical dynamics with long-range interactions. However, many real-world classical systems, such as those arising from partial differential equations, exhibit only local interactions. The question remains whether quantum algorithms can still provide exponential speedup under this condition. In this work, we thoroughly characterize the computational complexity of quantum algorithms for simulating such geometrically local systems. First, we dequantize the quantum algorithm for simulating short-time (polynomial-time) dynamics of such systems. This implies that the problem of simulating this dynamics does not yield any exponential quantum advantage. Second, we show that quantum algorithms for short-time dynamics have the same computational complexity as polynomial-time probabilistic classical computation. Third, we show that the computational complexity of quantum algorithms for long-time (exponential-time) dynamics is captured by exponential-time and polynomial-space quantum computation. This suggests a super-polynomial time advantage when restricting the computation to polynomial-space, or an exponential space advantage otherwise. This work offers new insights into the complexity of classical dynamics governed by partial differential equations, providing a pathway for achieving quantum advantage in practical problems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.10445v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kazuki Sakamoto, Keisuke Fujii</dc:creator>
-    </item>
-    <item>
-      <title>Optimal normalization in quantum-classical hybrid models for anti-cancer drug response prediction</title>
-      <link>https://arxiv.org/abs/2505.10037</link>
-      <description>arXiv:2505.10037v1 Announce Type: cross 
-Abstract: Quantum-classical Hybrid Machine Learning (QHML) models are recognized for their robust performance and high generalization ability even for relatively small datasets. These qualities offer unique advantages for anti-cancer drug response prediction, where the number of available samples is typically small. However, such hybrid models appear to be very sensitive to the data encoding used at the interface of a neural network and a quantum circuit, with suboptimal choices leading to stability issues. To address this problem, we propose a novel strategy that uses a normalization function based on a moderated gradient version of the $\tanh$. This method transforms the outputs of the neural networks without concentrating them at the extreme value ranges. Our idea was evaluated on a dataset of gene expression and drug response measurements for various cancer cell lines, where we compared the prediction performance of a classical deep learning model and several QHML models. These results confirmed that QHML performed better than the classical models when data was optimally normalized. This study opens up new possibilities for biomedical data analysis using quantum computers.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.10037v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Takafumi Ito, Lysenko Artem, Tatsuhiko Tsunoda</dc:creator>
-    </item>
-    <item>
-      <title>QuXAI: Explainers for Hybrid Quantum Machine Learning Models</title>
-      <link>https://arxiv.org/abs/2505.10167</link>
-      <description>arXiv:2505.10167v1 Announce Type: cross 
-Abstract: The emergence of hybrid quantum-classical machine learning (HQML) models opens new horizons of computational intelligence but their fundamental complexity frequently leads to black box behavior that undermines transparency and reliability in their application. Although XAI for quantum systems still in its infancy, a major research gap is evident in robust global and local explainability approaches that are designed for HQML architectures that employ quantized feature encoding followed by classical learning. The gap is the focus of this work, which introduces QuXAI, an framework based upon Q-MEDLEY, an explainer for explaining feature importance in these hybrid systems. Our model entails the creation of HQML models incorporating quantum feature maps, the use of Q-MEDLEY, which combines feature based inferences, preserving the quantum transformation stage and visualizing the resulting attributions. Our result shows that Q-MEDLEY delineates influential classical aspects in HQML models, as well as separates their noise, and competes well against established XAI techniques in classical validation settings. Ablation studies more significantly expose the virtues of the composite structure used in Q-MEDLEY. The implications of this work are critically important, as it provides a route to improve the interpretability and reliability of HQML models, thus promoting greater confidence and being able to engage in safer and more responsible use of quantum-enhanced AI technology.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2505.10167v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 16 May 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Saikat Barua, Mostafizur Rahman, Shehenaz Khaled, Md Jafor Sadek, Rafiul Islam, Shahnewaz Siddique</dc:creator>
-    </item>
   </channel>
 </rss>

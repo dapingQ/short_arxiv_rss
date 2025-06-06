@@ -7,109 +7,70 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jun 2025 04:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jun 2025 04:00:14 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Investigating Quantum Feature Maps in Quantum Support Vector Machines for Lung Cancer Classification</title>
-      <link>https://arxiv.org/abs/2506.03272</link>
-      <description>arXiv:2506.03272v1 Announce Type: new 
-Abstract: In recent years, quantum machine learning has emerged as a promising intersection between quantum physics and artificial intelligence, particularly in domains requiring advanced pattern recognition such as healthcare. This study investigates the effectiveness of Quantum Support Vector Machines (QSVM), which leverage quantum mechanical phenomena like superposition and entanglement to construct high-dimensional Hilbert spaces for data classification. Focusing on lung cancer diagnosis, a concrete and critical healthcare application, we analyze how different quantum feature maps influence classification performance. Using a real-world dataset of 309 patient records with significant class imbalance (39 non-cancer vs. 270 cancer cases), we constructed six balanced subsets for robust evaluation. QSVM models were implemented using Qiskit and executed on the qasm simulator, employing three distinct quantum feature maps: ZFeatureMap, ZZFeatureMap, and PauliFeatureMap. Performance was assessed using accuracy, precision, recall, specificity, and F1-score. Results show that the PauliFeatureMap consistently outperformed the others, achieving perfect classification in three subsets and strong performance overall. These findings demonstrate how quantum computational principles can be harnessed to enhance diagnostic capabilities, reinforcing the importance of physics-based modeling in emerging AI applications within healthcare.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03272v1</guid>
+      <title>TQml Simulator: Optimized Simulation of Quantum Machine Learning</title>
+      <link>https://arxiv.org/abs/2506.04891</link>
+      <description>arXiv:2506.04891v1 Announce Type: new 
+Abstract: Hardware-efficient circuits employed in Quantum Machine Learning are typically composed of alternating layers of uniformly applied gates. High-speed numerical simulators for such circuits are crucial for advancing research in this field. In this work, we numerically benchmark universal and gate-specific techniques for simulating the action of layers of gates on quantum state vectors, aiming to accelerate the overall simulation of Quantum Machine Learning algorithms. Our analysis shows that the optimal simulation method for a given layer of gates depends on the number of qubits involved, and that a tailored combination of techniques can yield substantial performance gains in the forward and backward passes for a given circuit. Building on these insights, we developed a numerical simulator, named TQml Simulator, that employs the most efficient simulation method for each layer in a given circuit. We evaluated TQml Simulator on circuits constructed from standard gate sets, such as rotations and CNOTs, as well as on native gates from IonQ and IBM quantum processing units. In most cases, our simulator outperforms equivalent Pennylane's default.qubit simulator by approximately 2- to 100-fold, depending on the circuit, the number of qubits, the batch size of the input data, and the hardware used.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.04891v1</guid>
       <category>quant-ph</category>
+      <category>cs.ET</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.PF</category>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>My Youssef El Hafidi, Achraf Toufah, Mohamed Achraf Kadim</dc:creator>
+      <dc:creator>Viacheslav Kuzmin, Basil Kyriacou, Mateusz Papierz, Mo Kordzanganeh, Alexey Melnikov</dc:creator>
     </item>
     <item>
-      <title>Flagged Extensions and Numerical Simulations for Quantum Channel Capacity: Bridging Theory and Computation</title>
-      <link>https://arxiv.org/abs/2506.03429</link>
-      <description>arXiv:2506.03429v1 Announce Type: new 
-Abstract: I will investigate the capacities of noisy quantum channels through a combined analytical and numerical approach. First, I introduce novel flagged extension techniques that embed a channel into a higher-dimensional space, enabling single-letter upper bounds on quantum and private capacities. My results refine previous bounds and clarify noise thresholds beyond which quantum transmission vanishes. Second, I present a simulation framework that uses coherent information to estimate channel capacities in practice, focusing on two canonical examples: the amplitude damping channel (which we confirm is degradable and thus single-letter) and the depolarizing channel (whose capacity requires multi-letter superadditivity). By parameterizing input qubit states on the Bloch sphere, I numerically pinpoint the maximum coherent information for each channel and validate the flagged extension bounds. Notably, I capture the abrupt transition to zero capacity at high noise and observe superadditivity for moderate noise levels.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03429v1</guid>
+      <title>Upper bound for the Holevo quantity arising from the fundamental entropic inequality</title>
+      <link>https://arxiv.org/abs/2506.05335</link>
+      <description>arXiv:2506.05335v1 Announce Type: new 
+Abstract: We show how the fundamental entropic inequality proved recently in [arXiv:2408.15306] can be used to obtain a quite accurate upper bound on the Holevo quantity of a discrete ensemble of quantum states expressed via the probabilities and the metric characteristics of this ensembles.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.05335v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
+      <category>math-ph</category>
       <category>math.IT</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
+      <category>math.MP</category>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Vahid Nourozi</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>M. E. Shirokov</dc:creator>
     </item>
     <item>
-      <title>Computational Complexity of Non-Hermitian Quantum Systems</title>
-      <link>https://arxiv.org/abs/2506.03435</link>
-      <description>arXiv:2506.03435v1 Announce Type: new 
-Abstract: We analyze the computational power of non-Hermitian quantum dynamics, i.e., conditional time evolutions that arise when a quantum system is monitored and one postselects on a particular measurement record. We establish an approximate equivalence between post-selection and arbitrary non-Hermitian Hamiltonians. Namely, first we establish hardness in the following sense: Let $U=e^{-iHt}$ be an NH gate on $n$ qubits whose smallest and largest singular values differ by at least $2^{-\text{poly}(n)}$. Together with any universal set of unitary gates, the ability to apply such a gate lets one efficiently emulate postselection. The resulting model decides every language in PostBQP; hence, under standard complexity conjectures, fully scalable NH quantum computers are unlikely to be engineered. Second, we establish upper bounds which show that conversely, any non-Hermitian evolution can be written as a unitary on a system-meter pair followed by postselecting the meter. This ``purification'' is compact -- it introduces only $O(\delta^{2})$ Trotter error per time step $\delta$ -- so any NH model whose purification lies in a strongly simulable unitary family (e.g., Clifford, matchgate, or low-bond-dimension tensor-network circuits) remains efficiently simulable. Thus, non-Hermitian physics neither guarantees a quantum advantage nor precludes efficient classical simulation: its complexity is controlled by the singular-value radius of the evolution operator and by the structure of its unitary purification.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03435v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Brian Barch, Daniel Lidar</dc:creator>
-    </item>
-    <item>
-      <title>RhoDARTS: Differentiable Quantum Architecture Search with Density Matrix Simulations</title>
-      <link>https://arxiv.org/abs/2506.03697</link>
-      <description>arXiv:2506.03697v1 Announce Type: new 
-Abstract: Variational Quantum Algorithms (VQAs) are a promising approach for leveraging powerful Noisy Intermediate-Scale Quantum (NISQ) computers. When applied to machine learning tasks, VQAs give rise to NISQ-compatible Quantum Neural Networks (QNNs), which have been shown to outperform classical neural networks with a similar number of trainable parameters. While the quantum circuit structures of VQAs for physics simulations are determined by the physical properties of the systems, identifying effective QNN architectures for general machine learning tasks is a difficult challenge due to the lack of domain-specific priors. Indeed, existing Quantum Architecture Search (QAS) algorithms, adaptations of classical neural architecture search techniques, often overlook the inherent quantum nature of the circuits they produce. By approaching QAS from the ground-up and from a quantum perspective, we resolve this limitation by proposing $\rho$DARTS, a differentiable QAS algorithm that models the search process as the evolution of a quantum mixed state, emerging from the search space of quantum architectures. We validate our method by finding circuits for state initialization, Hamiltonian optimization, and image classification. Further, we demonstrate better convergence against existing QAS techniques and show improved robustness levels to noise.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03697v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Swagat Kumar, Jan-Nico Zaech, Colin Michael Wilmott, Luc Van Gool</dc:creator>
-    </item>
-    <item>
-      <title>Towards Quantum Operator-Valued Kernels</title>
-      <link>https://arxiv.org/abs/2506.03779</link>
-      <description>arXiv:2506.03779v1 Announce Type: new 
-Abstract: Quantum kernels are reproducing kernel functions built using quantum-mechanical principles and are studied with the aim of outperforming their classical counterparts. The enthusiasm for quantum kernel machines has been tempered by recent studies that have suggested that quantum kernels could not offer speed-ups when learning on classical data. However, most of the research in this area has been devoted to scalar-valued kernels in standard classification or regression settings for which classical kernel methods are efficient and effective, leaving very little room for improvement with quantum kernels. This position paper argues that quantum kernel research should focus on more expressive kernel classes. We build upon recent advances in operator-valued kernels, and propose guidelines for investigating quantum kernels. This should help to design a new generation of quantum kernel machines and fully explore their potentials.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03779v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Hachem Kadri, Joachim Tomasi, Yuka Hashimoto, Sandrine Anthoine</dc:creator>
-    </item>
-    <item>
-      <title>Estimation of the reduced density matrix and entanglement entropies using autoregressive networks</title>
-      <link>https://arxiv.org/abs/2506.04170</link>
-      <description>arXiv:2506.04170v1 Announce Type: new 
-Abstract: We present an application of autoregressive neural networks to Monte Carlo simulations of quantum spin chains using the correspondence with classical two-dimensional spin systems. We use a hierarchy of neural networks capable of estimating conditional probabilities of consecutive spins to evaluate elements of reduced density matrices directly. Using the Ising chain as an example, we calculate the continuum limit of the ground state's von Neumann and R\'enyi bipartite entanglement entropies of an interval built of up to 5 spins. We demonstrate that our architecture is able to estimate all the needed matrix elements with just a single training for a fixed time discretization and lattice volume. Our method can be applied to other types of spin chains, possibly with defects, as well as to estimating entanglement entropies of thermal states at non-zero temperature.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.04170v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
-      <category>cs.LG</category>
-      <category>hep-lat</category>
-      <category>hep-th</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Piotr Bia{\l}as, Piotr Korcyl, Tomasz Stebel, Dawid Zapolski</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Cognition Machine Learning for Forecasting Chromosomal Instability</title>
-      <link>https://arxiv.org/abs/2506.03199</link>
-      <description>arXiv:2506.03199v1 Announce Type: cross 
-Abstract: The accurate prediction of chromosomal instability from the morphology of circulating tumor cells (CTCs) enables real-time detection of CTCs with high metastatic potential in the context of liquid biopsy diagnostics. However, it presents a significant challenge due to the high dimensionality and complexity of single-cell digital pathology data. Here, we introduce the application of Quantum Cognition Machine Learning (QCML), a quantum-inspired computational framework, to estimate morphology-predicted chromosomal instability in CTCs from patients with metastatic breast cancer. QCML leverages quantum mechanical principles to represent data as state vectors in a Hilbert space, enabling context-aware feature modeling, dimensionality reduction, and enhanced generalization without requiring curated feature selection. QCML outperforms conventional machine learning methods when tested on out of sample verification CTCs, achieving higher accuracy in identifying predicted large-scale state transitions (pLST) status from CTC-derived morphology features. These preliminary findings support the application of QCML as a novel machine learning tool with superior performance in high-dimensional, low-sample-size biomedical contexts. QCML enables the simulation of cognition-like learning for the identification of biologically meaningful prediction of chromosomal instability from CTC morphology, offering a novel tool for CTC classification in liquid biopsy.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.03199v1</guid>
-      <category>q-bio.QM</category>
+      <title>Kernel $k$-Medoids as General Vector Quantization</title>
+      <link>https://arxiv.org/abs/2506.04786</link>
+      <description>arXiv:2506.04786v1 Announce Type: cross 
+Abstract: Vector Quantization (VQ) is a widely used technique in machine learning and data compression, valued for its simplicity and interpretability. Among hard VQ methods, $k$-medoids clustering and Kernel Density Estimation (KDE) approaches represent two prominent yet seemingly unrelated paradigms -- one distance-based, the other rooted in probability density matching. In this paper, we investigate their connection through the lens of Quadratic Unconstrained Binary Optimization (QUBO). We compare a heuristic QUBO formulation for $k$-medoids, which balances centrality and diversity, with a principled QUBO derived from minimizing Maximum Mean Discrepancy in KDE-based VQ. Surprisingly, we show that the KDE-QUBO is a special case of the $k$-medoids-QUBO under mild assumptions on the kernel's feature map. This reveals a deeper structural relationship between these two approaches and provides new insight into the geometric interpretation of the weighting parameters used in QUBO formulations for VQ.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.04786v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Thore Gerlach, Sascha M\"ucke, Christian Bauckhage</dc:creator>
+    </item>
+    <item>
+      <title>A Unified Framework for Provably Efficient Algorithms to Estimate Shapley Values</title>
+      <link>https://arxiv.org/abs/2506.05216</link>
+      <description>arXiv:2506.05216v1 Announce Type: cross 
+Abstract: Shapley values have emerged as a critical tool for explaining which features impact the decisions made by machine learning models. However, computing exact Shapley values is difficult, generally requiring an exponential (in the feature dimension) number of model evaluations. To address this, many model-agnostic randomized estimators have been developed, the most influential and widely used being the KernelSHAP method (Lundberg &amp; Lee, 2017). While related estimators such as unbiased KernelSHAP (Covert &amp; Lee, 2021) and LeverageSHAP (Musco &amp; Witter, 2025) are known to satisfy theoretical guarantees, bounds for KernelSHAP have remained elusive. We describe a broad and unified framework that encompasses KernelSHAP and related estimators constructed using both with and without replacement sampling strategies. We then prove strong non-asymptotic theoretical guarantees that apply to all estimators from our framework. This provides, to the best of our knowledge, the first theoretical guarantees for KernelSHAP and sheds further light on tradeoffs between existing estimators. Through comprehensive benchmarking on small and medium dimensional datasets for Decision-Tree models, we validate our approach against exact Shapley values, consistently achieving low mean squared error with modest sample sizes. Furthermore, we make specific implementation improvements to enable scalability of our methods to high-dimensional datasets. Our methods, tested on datasets such MNIST and CIFAR10, provide consistently better results compared to the KernelSHAP library.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.05216v1</guid>
+      <category>cs.LG</category>
+      <category>cs.DS</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Giuseppe Di Caro, Vahagn Kirakosyan, Alexander G. Abanov, Luca Candelori, Nadine Hartmann, Ernest T. Lam, Kharen Musaelian, Ryan Samson, Dario Villani, Martin T. Wells, Richard J. Wenstrup, Mengjia Xu</dc:creator>
+      <dc:creator>Tyler Chen, Akshay Seshadri, Mattia J. Villani, Pradeep Niroula, Shouvanik Chakrabarti, Archan Ray, Pranav Deshpande, Romina Yalovetzky, Marco Pistoia, Niraj Kumar</dc:creator>
     </item>
   </channel>
 </rss>

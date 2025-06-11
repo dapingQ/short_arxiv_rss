@@ -7,99 +7,97 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jun 2025 04:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jun 2025 04:00:03 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Quantum accessible information and classical entropy inequalities</title>
-      <link>https://arxiv.org/abs/2506.06700</link>
-      <description>arXiv:2506.06700v1 Announce Type: new 
-Abstract: Computing accessible information for an ensemble of quantum states is a basic problem in quantum information theory. The optimality criterion recently obtained in [7], when applied to specific ensembles of states, leads to nontrivial tight lower bounds for the Shannon entropy that are discrete relatives of the famous log-Sobolev inequality. In this light, the hypothesis of globally information-optimal measurement for an ensemble of equiangular equiprobable states (quantum pyramids) put forward and numerically substantiated in [2] is reconsidered and the corresponding tight entropy inequalities are proposed. We prove these inequalities in the cases of state ensembles corresponding to acute or flat pyramids, thus providing the proof of the hypothesis concerning the globally information-optimal observable.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.06700v1</guid>
+      <title>Systematic and Efficient Construction of Quadratic Unconstrained Binary Optimization Forms for High-order and Dense Interactions</title>
+      <link>https://arxiv.org/abs/2506.08448</link>
+      <description>arXiv:2506.08448v1 Announce Type: new 
+Abstract: Quantum Annealing (QA) can efficiently solve combinatorial optimization problems whose objective functions are represented by Quadratic Unconstrained Binary Optimization (QUBO) formulations. For broader applicability of QA, quadratization methods are used to transform higher-order problems into QUBOs. However, quadratization methods for complex problems involving Machine Learning (ML) remain largely unknown. In these problems, strong nonlinearity and dense interactions prevent conventional methods from being applied. Therefore, we model target functions by the sum of rectified linear unit bases, which not only have the ability of universal approximation, but also have an equivalent quadratic-polynomial representation. In this study, the proof of concept is verified both numerically and analytically. In addition, by combining QA with the proposed quadratization, we design a new black-box optimization scheme, in which ML surrogate regressors are inputted to QA after the quadratization process.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08448v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math-ph</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>A. S. Holevo, A. V. Utkin</dc:creator>
-    </item>
-    <item>
-      <title>Depth-Optimal Quantum Layout Synthesis as SAT</title>
-      <link>https://arxiv.org/abs/2506.06752</link>
-      <description>arXiv:2506.06752v1 Announce Type: new 
-Abstract: Quantum circuits consist of gates applied to qubits. Current quantum hardware platforms impose connectivity restrictions on binary CX gates. Hence, Layout Synthesis is an important step to transpile quantum circuits before they can be executed. Since CX gates are noisy, it is important to reduce the CX count or CX depth of the mapped circuits.
-  We provide a new and efficient encoding of Quantum-circuit Layout Synthesis in SAT. Previous SAT encodings focused on gate count and CX-gate count. Our encoding instead guarantees that we find mapped circuits with minimal circuit depth or minimal CX-gate depth. We use incremental SAT solving and parallel plans for an efficient encoding. This results in speedups of more than 10-100x compared to OLSQ2, which guarantees depth-optimality. But minimizing depth still takes more time than minimizing gate count with Q-Synth.
-  We correlate the noise reduction achieved by simulating circuits after (CX)-count and (CX)-depth reduction. We find that minimizing for CX-count correlates better with reducing noise than minimizing for CX-depth. However, taking into account both CX-count and CX-depth provides the best noise reduction.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.06752v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Anna B. Jakobsen, Anders B. Clausen, Jaco van de Pol, Irfansha Shaik</dc:creator>
+      <dc:creator>Hyakka Nakada, Shu Tanaka</dc:creator>
     </item>
     <item>
-      <title>Quantum SAT Problems with Finite Sets of Projectors are Complete for a Plethora of Classes</title>
-      <link>https://arxiv.org/abs/2506.07244</link>
-      <description>arXiv:2506.07244v1 Announce Type: new 
-Abstract: Previously, all known variants of the Quantum Satisfiability (QSAT) problem, i.e. deciding whether a $k$-local ($k$-body) Hamiltonian is frustration-free, could be classified as being either in $\mathsf{P}$; or complete for $\mathsf{NP}$, $\mathsf{MA}$, or $\mathsf{QMA_1}$. Here, we demonstrate new qubit variants of this problem that are complete for $\mathsf{BQP_1}$, $\mathsf{coRP}$, $\mathsf{QCMA}$, $\mathsf{PI(coRP,NP)}$, $\mathsf{PI(BQP_1,NP)}$, $\mathsf{PI(BQP_1,MA)}$, $\mathsf{SoPU(coRP,NP)}$, $\mathsf{SoPU(BQP_1,NP)}$, and $\mathsf{SoPU(BQP_1,MA)}$. Our result implies that a complete classification of quantum constraint satisfaction problems (QCSPs), analogous to Schaefer's dichotomy theorem for classical CSPs, must either include these 13 classes, or otherwise show that some are equal. Additionally, our result showcases two new types of QSAT problems that can be decided efficiently, as well as the first nontrivial $\mathsf{BQP_1}$-complete problem. We first prove there are qudit QSAT problems that are complete for $\mathsf{BQP_1}$, $\mathsf{coRP}$, and $\mathsf{QCMA}$ by re-defining elements of the circuit-to-Hamiltonian transformation. We then show that any QCSP can be reduced to a problem in qubits while maintaining the same complexity - something believed not to be possible classically. The remaining six problems are obtained by considering "sums" and "products" of the first seven QSAT problems. Before this work, the QSAT problems generated in this way resulted in complete problems for $\mathsf{PI}$ and $\mathsf{SoPU}$ classes that were trivially equal to other known classes. We thus commence the study of these new and seemingly nontrivial classes. While [Meiburg, 2021] first sought to prove completeness for the first three classes, we note that his constructions are flawed. Here, we rework them and obtain improvements on the required qudit dimensionality.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.07244v1</guid>
+      <title>The interplay of robustness and generalization in quantum machine learning</title>
+      <link>https://arxiv.org/abs/2506.08455</link>
+      <description>arXiv:2506.08455v1 Announce Type: new 
+Abstract: While adversarial robustness and generalization have individually received substantial attention in the recent literature on quantum machine learning, their interplay is much less explored. In this chapter, we address this interplay for variational quantum models, which were recently proposed as function approximators in supervised learning. We discuss recent results quantifying both robustness and generalization via Lipschitz bounds, which explicitly depend on model parameters. Thus, they give rise to a regularization-based training approach for robust and generalizable quantum models, highlighting the importance of trainable data encoding strategies. The practical implications of the theoretical results are demonstrated with an application to time series analysis.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08455v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ricardo Rivera Cardoso, Alex Meiburg, Daniel Nagaj</dc:creator>
+      <dc:creator>Julian Berberich, Tobias Fellner, Christian Holm</dc:creator>
     </item>
     <item>
-      <title>A weighted quantum ensemble of homogeneous quantum classifiers</title>
-      <link>https://arxiv.org/abs/2506.07810</link>
-      <description>arXiv:2506.07810v1 Announce Type: new 
-Abstract: Ensemble methods in machine learning aim to improve prediction accuracy by combining multiple models. This is achieved by ensuring diversity among predictors to capture different data aspects. Homogeneous ensembles use identical models, achieving diversity through different data subsets, and weighted-average ensembles assign higher influence to more accurate models through a weight learning procedure. We propose a method to achieve a weighted homogeneous quantum ensemble using quantum classifiers with indexing registers for data encoding. This approach leverages instance-based quantum classifiers, enabling feature and training point subsampling through superposition and controlled unitaries, and allowing for a quantum-parallel execution of diverse internal classifiers with different data compositions in superposition. The method integrates a learning process involving circuit execution and classical weight optimization, for a trained ensemble execution with weights encoded in the circuit at test-time. Empirical evaluation demonstrate the effectiveness of the proposed method, offering insights into its performance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.07810v1</guid>
+      <title>Solving excited states for long-range interacting trapped ions with neural networks</title>
+      <link>https://arxiv.org/abs/2506.08594</link>
+      <description>arXiv:2506.08594v1 Announce Type: new 
+Abstract: The computation of excited states in strongly interacting quantum many-body systems is of fundamental importance. Yet, it is notoriously challenging due to the exponential scaling of the Hilbert space dimension with the system size. Here, we introduce a neural network-based algorithm that can simultaneously output multiple low-lying excited states of a quantum many-body spin system in an accurate and efficient fashion. This algorithm, dubbed the neural quantum excited-state (NQES) algorithm, requires no explicit orthogonalization of the states and is generally applicable to higher dimensions. We demonstrate, through concrete examples including the Haldane-Shastry model with all-to-all interactions, that the NQES algorithm is capable of efficiently computing multiple excited states and their related observable expectations. In addition, we apply the NQES algorithm to two classes of long-range interacting trapped-ion systems in a two-dimensional Wigner crystal. For non-decaying all-to-all interactions with alternating signs, our computed low-lying excited states bear spatial correlation patterns similar to those of the ground states, which closely match recent experimental observations that the quasi-adiabatically prepared state accurately reproduces analytical ground-state correlations. For a system of up to 300 ions with power-law decaying antiferromagnetic interactions, we successfully uncover its gap scaling and correlation features. Our results establish a scalable and efficient algorithm for computing excited states of interacting quantum many-body systems, which holds potential applications ranging from benchmarking quantum devices to photoisomerization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08594v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.dis-nn</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yixuan Ma, Chang Liu, Weikang Li, Shun-Yao Zhang, L. -M. Duan, Yukai Wu, Dong-Ling Deng</dc:creator>
+    </item>
+    <item>
+      <title>Superposed Parameterised Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2506.08749</link>
+      <description>arXiv:2506.08749v1 Announce Type: new 
+Abstract: Quantum machine learning has shown promise for high-dimensional data analysis, yet many existing approaches rely on linear unitary operations and shared trainable parameters across outputs. These constraints limit expressivity and scalability relative to the multi-layered, non-linear architectures of classical deep networks. We introduce superposed parameterised quantum circuits to overcome these limitations. By combining flip-flop quantum random-access memory with repeat-until-success protocols, a superposed parameterised quantum circuit embeds an exponential number of parameterised sub-models in a single circuit and induces polynomial activation functions through amplitude transformations and post-selection. We provide an analytic description of the architecture, showing how multiple parameter sets are trained in parallel while non-linear amplitude transformations broaden representational power beyond conventional quantum kernels. Numerical experiments underscore these advantages: on a 1D step-function regression a two-qubit superposed parameterised quantum circuit cuts the mean-squared error by three orders of magnitude versus a parameter-matched variational baseline; on a 2D star-shaped two-dimensional classification task, introducing a quadratic activation lifts accuracy to 81.4% and reduces run-to-run variance three-fold. These results position superposed parameterised quantum circuits as a hardware-efficient route toward deeper, more versatile parameterised quantum circuits capable of learning complex decision boundaries.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08749v1</guid>
       <category>quant-ph</category>
       <category>cs.ET</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.NE</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Emiliano Tolotti, Enrico Blanzieri, Davide Pastorello</dc:creator>
+      <dc:creator>Viktoria Patapovich, Mo Kordzanganeh, Alexey Melnikov</dc:creator>
     </item>
     <item>
-      <title>Deep reinforcement learning for near-deterministic preparation of cubic- and quartic-phase gates in photonic quantum computing</title>
-      <link>https://arxiv.org/abs/2506.07859</link>
-      <description>arXiv:2506.07859v1 Announce Type: new 
-Abstract: Cubic-phase states are a sufficient resource for universal quantum computing over continuous variables. We present results from numerical experiments in which deep neural networks are trained via reinforcement learning to control a quantum optical circuit for generating cubic-phase states, with an average success rate of 96%. The only non-Gaussian resource required is photon-number-resolving measurements. We also show that the exact same resources enable the direct generation of a quartic-phase gate, with no need for a cubic gate decomposition.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.07859v1</guid>
+      <title>Quantum Adiabatic Generation of Human-Like Passwords</title>
+      <link>https://arxiv.org/abs/2506.08917</link>
+      <description>arXiv:2506.08917v1 Announce Type: new 
+Abstract: Generative Artificial Intelligence (GenAI) for Natural Language Processing (NLP) is the predominant AI technology to date. An important perspective for Quantum Computing (QC) is the question whether QC has the potential to reduce the vast resource requirements for training and operating GenAI models. While large-scale generative NLP tasks are currently out of reach for practical quantum computers, the generation of short semantic structures such as passwords is not. Generating passwords that mimic real user behavior has many applications, for example to test an authentication system against realistic threat models. Classical password generation via deep learning have recently been investigated with significant progress in their ability to generate novel, realistic password candidates. In the present work we investigate the utility of adiabatic quantum computers for this task. More precisely, we study different encodings of token strings and propose novel approaches based on the Quadratic Unconstrained Binary Optimization (QUBO) and the Unit-Disk Maximum Independent Set (UD-MIS) problems. Our approach allows us to estimate the token distribution from data and adiabatically prepare a quantum state from which we eventually sample the generated passwords via measurements. Our results show that relatively small samples of 128 passwords, generated on the QuEra Aquila 256-qubit neutral atom quantum computer, contain human-like passwords such as "Tunas200992" or "teedem28iglove".</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08917v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Amanuel Anteneh L\'eandre Brunel, Carlos Gonz\'alez-Arciniegas, Olivier Pfister</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Sascha M\"ucke, Raoul Heese, Thore Gerlach, David Biesner, Loong Kuan Lee, Nico Piatkowski</dc:creator>
     </item>
     <item>
-      <title>Skewness of von Neumann entropy over Bures-Hall random states</title>
-      <link>https://arxiv.org/abs/2506.06663</link>
-      <description>arXiv:2506.06663v1 Announce Type: cross 
-Abstract: We study the degree of entanglement, as measured by von Neumann entropy, of bipartite systems over the Bures-Hall ensemble. Closed-form expressions of the first two cumulants of von Neumann entropy over the ensemble have been recently derived in the literature. In this paper, we focus on its skewness by calculating the third cumulant that describes the degree of asymmetry of the distribution. The main result is an exact closed-form formula of the third cumulant, which leads to a more accurate approximation to the distribution of von Neumann entropy. The key to obtaining the result lies on finding a dozen of new summation identities in simplifying a large number of finite summations involving polygamma functions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.06663v1</guid>
-      <category>math-ph</category>
+      <title>Reed-Muller Codes for Quantum Pauli and Multiple Access Channels</title>
+      <link>https://arxiv.org/abs/2506.08651</link>
+      <description>arXiv:2506.08651v1 Announce Type: cross 
+Abstract: Reed-Muller (RM) codes have undergone significant analytical advancements over the past decade, particularly for binary memoryless symmetric (BMS) channels. We extend the scope of RM codes development and analysis to multiple-access channels (MACs) and quantum Pauli channels, leveraging a unified approach. Specifically, we first derive the achievable rate region for RM codes on so-called Q-MACs, a class of MACs with additive correlated noise. This is achieved via a generalization of the bending and boosting arguments defined in arXiv:2304.02509. We then put forward a connection between the rate region of these QMACs and quantum RM codes designed for Pauli noise channels. This connection highlights a universality property of quantum RM codes, demonstrating their rate-optimal performance across a range of channel parameters, rather than for a single Pauli channel.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.08651v1</guid>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <category>math.MP</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Linfeng Wei, Youyi Huang, Lu Wei</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Dina Abdelhadi, Colin Sandon, Emmanuel Abbe, Ruediger Urbanke</dc:creator>
     </item>
   </channel>
 </rss>

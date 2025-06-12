@@ -7,97 +7,69 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2025 04:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jun 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Systematic and Efficient Construction of Quadratic Unconstrained Binary Optimization Forms for High-order and Dense Interactions</title>
-      <link>https://arxiv.org/abs/2506.08448</link>
-      <description>arXiv:2506.08448v1 Announce Type: new 
-Abstract: Quantum Annealing (QA) can efficiently solve combinatorial optimization problems whose objective functions are represented by Quadratic Unconstrained Binary Optimization (QUBO) formulations. For broader applicability of QA, quadratization methods are used to transform higher-order problems into QUBOs. However, quadratization methods for complex problems involving Machine Learning (ML) remain largely unknown. In these problems, strong nonlinearity and dense interactions prevent conventional methods from being applied. Therefore, we model target functions by the sum of rectified linear unit bases, which not only have the ability of universal approximation, but also have an equivalent quadratic-polynomial representation. In this study, the proof of concept is verified both numerically and analytically. In addition, by combining QA with the proposed quadratization, we design a new black-box optimization scheme, in which ML surrogate regressors are inputted to QA after the quadratization process.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08448v1</guid>
+      <title>Devanagari Digit Recognition using Quantum Machine Learning</title>
+      <link>https://arxiv.org/abs/2506.09069</link>
+      <description>arXiv:2506.09069v1 Announce Type: new 
+Abstract: Handwritten digit recognition in regional scripts, such as Devanagari, is crucial for multilingual document digitization, educational tools, and the preservation of cultural heritage. The script's complex structure and limited annotated datasets pose significant challenges to conventional models. This paper introduces the first hybrid quantum-classical architecture for Devanagari handwritten digit recognition, combining a convolutional neural network (CNN) for spatial feature extraction with a 10-qubit variational quantum circuit (VQC) for quantum-enhanced classification. Trained and evaluated on the Devanagari Handwritten Character Dataset (DHCD), the proposed model achieves a state-of-the-art test accuracy for quantum implementation of 99.80% and a test loss of 0.2893, with an average per-class F1-score of 0.9980. Compared to equivalent classical CNNs, our model demonstrates superior accuracy with significantly fewer parameters and enhanced robustness. By leveraging quantum principles such as superposition and entanglement, this work establishes a novel benchmark for regional script recognition, highlighting the promise of quantum machine learning (QML) in real-world, low-resource language settings.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.09069v1</guid>
       <category>quant-ph</category>
+      <category>cs.CV</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Sahaj Raj Malla</dc:creator>
+    </item>
+    <item>
+      <title>Complexity of Contextuality</title>
+      <link>https://arxiv.org/abs/2506.09133</link>
+      <description>arXiv:2506.09133v1 Announce Type: new 
+Abstract: Generalized contextuality is a hallmark of nonclassical theories like quantum mechanics. Yet, three fundamental computational problems concerning its decidability and complexity remain open. First, determining the complexity of deciding if a theory admits a noncontextual ontological model; Second, determining the complexity of deciding if such a model is possible for a specific dimension $k$; Third, efficiently computing the smallest such model when it exists, given that finding the smallest ontological model is NP-hard. We address the second problem by presenting an algorithm derived from a geometric formulation and its reduction to the intermediate simplex problem in computational geometry. We find that the complexity of deciding the existence of a noncontextual ontological model of dimension $k$ is at least exponential in the dimension of the theory and at most exponential in $k$. This, in turn, implies that computing the smallest noncontextual ontological model is inefficient in general. Finally, we demonstrate the fundamental difference between finding the smallest noncontextual ontological model and the smallest ontological model using an explicit example wherein the respective minimum ontic sizes are five and four.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.09133v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.CG</category>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Hyakka Nakada, Shu Tanaka</dc:creator>
+      <dc:creator>Theodoros Yianni, Farid Shahandeh</dc:creator>
     </item>
     <item>
-      <title>The interplay of robustness and generalization in quantum machine learning</title>
-      <link>https://arxiv.org/abs/2506.08455</link>
-      <description>arXiv:2506.08455v1 Announce Type: new 
-Abstract: While adversarial robustness and generalization have individually received substantial attention in the recent literature on quantum machine learning, their interplay is much less explored. In this chapter, we address this interplay for variational quantum models, which were recently proposed as function approximators in supervised learning. We discuss recent results quantifying both robustness and generalization via Lipschitz bounds, which explicitly depend on model parameters. Thus, they give rise to a regularization-based training approach for robust and generalizable quantum models, highlighting the importance of trainable data encoding strategies. The practical implications of the theoretical results are demonstrated with an application to time series analysis.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08455v1</guid>
-      <category>quant-ph</category>
+      <title>MetaTT: A Global Tensor-Train Adapter for Parameter-Efficient Fine-Tuning</title>
+      <link>https://arxiv.org/abs/2506.09105</link>
+      <description>arXiv:2506.09105v1 Announce Type: cross 
+Abstract: We present MetaTT, a unified Tensor Train (TT) adapter framework for global low-rank fine-tuning of pre-trained transformers. Unlike LoRA, which fine-tunes each weight matrix independently, MetaTT uses a single shared TT to factorize all transformer sub-modules -- query, key, value, projection, and feed-forward layers -- by indexing the structural axes like layer and matrix type, and optionally heads and tasks. For a given rank, while LoRA adds parameters proportional to the product across modes, MetaTT only adds parameters proportional to the sum across modes leading to a significantly compressed final adapter. Our benchmarks compare MetaTT with LoRA along with recent state-of-the-art matrix and tensor decomposition based fine-tuning schemes. We observe that when tested on standard language modeling benchmarks, MetaTT leads to the most reduction in the parameters while maintaining similar accuracy to LoRA and even outperforming other tensor-based methods. Unlike CP or other rank-factorizations, the TT ansatz benefits from mature optimization routines -- e.g., DMRG-style rank adaptive minimization in addition to Adam, which we find simplifies training. Because new modes can be appended cheaply, MetaTT naturally extends to shared adapters across many tasks without redesigning the core tensor.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.09105v1</guid>
       <category>cs.LG</category>
-      <category>cs.SY</category>
-      <category>eess.SY</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Julian Berberich, Tobias Fellner, Christian Holm</dc:creator>
-    </item>
-    <item>
-      <title>Solving excited states for long-range interacting trapped ions with neural networks</title>
-      <link>https://arxiv.org/abs/2506.08594</link>
-      <description>arXiv:2506.08594v1 Announce Type: new 
-Abstract: The computation of excited states in strongly interacting quantum many-body systems is of fundamental importance. Yet, it is notoriously challenging due to the exponential scaling of the Hilbert space dimension with the system size. Here, we introduce a neural network-based algorithm that can simultaneously output multiple low-lying excited states of a quantum many-body spin system in an accurate and efficient fashion. This algorithm, dubbed the neural quantum excited-state (NQES) algorithm, requires no explicit orthogonalization of the states and is generally applicable to higher dimensions. We demonstrate, through concrete examples including the Haldane-Shastry model with all-to-all interactions, that the NQES algorithm is capable of efficiently computing multiple excited states and their related observable expectations. In addition, we apply the NQES algorithm to two classes of long-range interacting trapped-ion systems in a two-dimensional Wigner crystal. For non-decaying all-to-all interactions with alternating signs, our computed low-lying excited states bear spatial correlation patterns similar to those of the ground states, which closely match recent experimental observations that the quasi-adiabatically prepared state accurately reproduces analytical ground-state correlations. For a system of up to 300 ions with power-law decaying antiferromagnetic interactions, we successfully uncover its gap scaling and correlation features. Our results establish a scalable and efficient algorithm for computing excited states of interacting quantum many-body systems, which holds potential applications ranging from benchmarking quantum devices to photoisomerization.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08594v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.dis-nn</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yixuan Ma, Chang Liu, Weikang Li, Shun-Yao Zhang, L. -M. Duan, Yukai Wu, Dong-Ling Deng</dc:creator>
-    </item>
-    <item>
-      <title>Superposed Parameterised Quantum Circuits</title>
-      <link>https://arxiv.org/abs/2506.08749</link>
-      <description>arXiv:2506.08749v1 Announce Type: new 
-Abstract: Quantum machine learning has shown promise for high-dimensional data analysis, yet many existing approaches rely on linear unitary operations and shared trainable parameters across outputs. These constraints limit expressivity and scalability relative to the multi-layered, non-linear architectures of classical deep networks. We introduce superposed parameterised quantum circuits to overcome these limitations. By combining flip-flop quantum random-access memory with repeat-until-success protocols, a superposed parameterised quantum circuit embeds an exponential number of parameterised sub-models in a single circuit and induces polynomial activation functions through amplitude transformations and post-selection. We provide an analytic description of the architecture, showing how multiple parameter sets are trained in parallel while non-linear amplitude transformations broaden representational power beyond conventional quantum kernels. Numerical experiments underscore these advantages: on a 1D step-function regression a two-qubit superposed parameterised quantum circuit cuts the mean-squared error by three orders of magnitude versus a parameter-matched variational baseline; on a 2D star-shaped two-dimensional classification task, introducing a quadratic activation lifts accuracy to 81.4% and reduces run-to-run variance three-fold. These results position superposed parameterised quantum circuits as a hardware-efficient route toward deeper, more versatile parameterised quantum circuits capable of learning complex decision boundaries.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08749v1</guid>
       <category>quant-ph</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
-      <category>cs.NE</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Viktoria Patapovich, Mo Kordzanganeh, Alexey Melnikov</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Adiabatic Generation of Human-Like Passwords</title>
-      <link>https://arxiv.org/abs/2506.08917</link>
-      <description>arXiv:2506.08917v1 Announce Type: new 
-Abstract: Generative Artificial Intelligence (GenAI) for Natural Language Processing (NLP) is the predominant AI technology to date. An important perspective for Quantum Computing (QC) is the question whether QC has the potential to reduce the vast resource requirements for training and operating GenAI models. While large-scale generative NLP tasks are currently out of reach for practical quantum computers, the generation of short semantic structures such as passwords is not. Generating passwords that mimic real user behavior has many applications, for example to test an authentication system against realistic threat models. Classical password generation via deep learning have recently been investigated with significant progress in their ability to generate novel, realistic password candidates. In the present work we investigate the utility of adiabatic quantum computers for this task. More precisely, we study different encodings of token strings and propose novel approaches based on the Quadratic Unconstrained Binary Optimization (QUBO) and the Unit-Disk Maximum Independent Set (UD-MIS) problems. Our approach allows us to estimate the token distribution from data and adiabatically prepare a quantum state from which we eventually sample the generated passwords via measurements. Our results show that relatively small samples of 128 passwords, generated on the QuEra Aquila 256-qubit neutral atom quantum computer, contain human-like passwords such as "Tunas200992" or "teedem28iglove".</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08917v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Sascha M\"ucke, Raoul Heese, Thore Gerlach, David Biesner, Loong Kuan Lee, Nico Piatkowski</dc:creator>
-    </item>
-    <item>
-      <title>Reed-Muller Codes for Quantum Pauli and Multiple Access Channels</title>
-      <link>https://arxiv.org/abs/2506.08651</link>
-      <description>arXiv:2506.08651v1 Announce Type: cross 
-Abstract: Reed-Muller (RM) codes have undergone significant analytical advancements over the past decade, particularly for binary memoryless symmetric (BMS) channels. We extend the scope of RM codes development and analysis to multiple-access channels (MACs) and quantum Pauli channels, leveraging a unified approach. Specifically, we first derive the achievable rate region for RM codes on so-called Q-MACs, a class of MACs with additive correlated noise. This is achieved via a generalization of the bending and boosting arguments defined in arXiv:2304.02509. We then put forward a connection between the rate region of these QMACs and quantum RM codes designed for Pauli noise channels. This connection highlights a universality property of quantum RM codes, demonstrating their rate-optimal performance across a range of channel parameters, rather than for a single Pauli channel.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.08651v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Dina Abdelhadi, Colin Sandon, Emmanuel Abbe, Ruediger Urbanke</dc:creator>
+      <dc:creator>Javier Lopez-Piqueres, Pranav Deshpande, Archan Ray, Mattia J. Villani, Marco Pistoia, Niraj Kumar</dc:creator>
+    </item>
+    <item>
+      <title>Guided Graph Compression for Quantum Graph Neural Networks</title>
+      <link>https://arxiv.org/abs/2506.09862</link>
+      <description>arXiv:2506.09862v1 Announce Type: cross 
+Abstract: Graph Neural Networks (GNNs) are effective for processing graph-structured data but face challenges with large graphs due to high memory requirements and inefficient sparse matrix operations on GPUs. Quantum Computing (QC) offers a promising avenue to address these issues and inspires new algorithmic approaches. In particular, Quantum Graph Neural Networks (QGNNs) have been explored in recent literature. However, current quantum hardware limits the dimension of the data that can be effectively encoded. Existing approaches either simplify datasets manually or use artificial graph datasets. This work introduces the Guided Graph Compression (GGC) framework, which uses a graph autoencoder to reduce both the number of nodes and the dimensionality of node features. The compression is guided to enhance the performance of a downstream classification task, which can be applied either with a quantum or a classical classifier. The framework is evaluated on the Jet Tagging task, a classification problem of fundamental importance in high energy physics that involves distinguishing particle jets initiated by quarks from those by gluons. The GGC is compared against using the autoencoder as a standalone preprocessing step and against a baseline classical GNN classifier. Our numerical results demonstrate that GGC outperforms both alternatives, while also facilitating the testing of novel QGNN ansatzes on realistic datasets.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.09862v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>hep-ex</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Mikel Casals, Vasilis Belis, Elias F. Combarro, Eduard Alarc\'on, Sofia Vallecorsa, Michele Grossi</dc:creator>
     </item>
   </channel>
 </rss>

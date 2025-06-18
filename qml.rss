@@ -7,155 +7,55 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jun 2025 04:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 04:00:03 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 18 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Optimized Amplitude Amplification for Quantum State Preparation</title>
-      <link>https://arxiv.org/abs/2506.12017</link>
-      <description>arXiv:2506.12017v1 Announce Type: new 
-Abstract: In this paper, we present an algorithm for preparing quantum states of the form $\sum_{i=0}^{n-1} \alpha_i |i\rangle$, where the coefficients $\alpha_i$ are specified by a quantum oracle. Our method achieves this task twice as fast as the best existing algorithm known to the authors. Such state preparation is essential for quantum algorithms that process large classical inputs, including matrix inversion and linear system solvers. The standard approach relies on amplitude amplification, a process that may require multiple, time-consuming oracle queries. Consequently, reducing the number of queries - and thereby the overall time complexity can lead to significant performance improvements in practice.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12017v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Artem Chernikov, Karina Zakharova, Sergey Sysoev</dc:creator>
-    </item>
-    <item>
-      <title>Improved Ground State Estimation in Quantum Field Theories via Normalising Flow-Assisted Neural Quantum States</title>
-      <link>https://arxiv.org/abs/2506.12128</link>
-      <description>arXiv:2506.12128v1 Announce Type: new 
-Abstract: We propose a hybrid variational framework that enhances Neural Quantum States (NQS) with a Normalising Flow-based sampler to improve the expressivity and trainability of quantum many-body wavefunctions. Our approach decouples the sampling task from the variational ansatz by learning a continuous flow model that targets a discretised, amplitude-supported subspace of the Hilbert space. This overcomes limitations of Markov Chain Monte Carlo (MCMC) and autoregressive methods, especially in regimes with long-range correlations and volume-law entanglement. Applied to the transverse-field Ising model with both short- and long-range interactions, our method achieves comparable ground state energy errors with state-of-the-art matrix product states and lower energies than autoregressive NQS. For systems up to 50 spins, we demonstrate high accuracy and robust convergence across a wide range of coupling strengths, including regimes where competing methods fail. Our results showcase the utility of flow-assisted sampling as a scalable tool for quantum simulation and offer a new approach toward learning expressive quantum states in high-dimensional Hilbert spaces.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12128v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>hep-lat</category>
-      <category>hep-ph</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Vishal S. Ngairangbam, Michael Spannowsky, Timur Sypchenko</dc:creator>
-    </item>
-    <item>
-      <title>OSI Stack Redesign for Quantum Networks: Requirements, Technologies, Challenges, and Future Directions</title>
-      <link>https://arxiv.org/abs/2506.12195</link>
-      <description>arXiv:2506.12195v1 Announce Type: new 
-Abstract: Quantum communication is poised to become a foundational element of next-generation networking, offering transformative capabilities in security, entanglement-based connectivity, and computational offloading. However, the classical OSI model-designed for deterministic and error-tolerant systems-cannot support quantum-specific phenomena such as coherence fragility, probabilistic entanglement, and the no-cloning theorem. This paper provides a comprehensive survey and proposes an architectural redesign of the OSI model for quantum networks in the context of 7G. We introduce a Quantum-Converged OSI stack by extending the classical model with Layer 0 (Quantum Substrate) and Layer 8 (Cognitive Intent), supporting entanglement, teleportation, and semantic orchestration via LLMs and QML. Each layer is redefined to incorporate quantum mechanisms such as enhanced MAC protocols, fidelity-aware routing, and twin-based applications. This survey consolidates over 150 research works from IEEE, ACM, MDPI, arXiv, and Web of Science (2018-2025), classifying them by OSI layer, enabling technologies such as QKD, QEC, PQC, and RIS, and use cases such as satellite QKD, UAV swarms, and quantum IoT. A taxonomy of cross-layer enablers-such as hybrid quantum-classical control, metadata-driven orchestration, and blockchain-integrated quantum trust-is provided, along with simulation tools including NetSquid, QuNetSim, and QuISP. We present several domain-specific applications, including quantum healthcare telemetry, entangled vehicular networks, and satellite mesh overlays. An evaluation framework is proposed based on entropy throughput, coherence latency, and entanglement fidelity. Key future directions include programmable quantum stacks, digital twins, and AI-defined QNet agents, laying the groundwork for a scalable, intelligent, and quantum-compliant OSI framework for 7G and beyond.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12195v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CR</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>cs.NI</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shakil Ahmed, Muhammad Kamran Saeed, Ashfaq Khokhar</dc:creator>
-    </item>
-    <item>
-      <title>Component Based Quantum Machine Learning Explainability</title>
-      <link>https://arxiv.org/abs/2506.12378</link>
-      <description>arXiv:2506.12378v1 Announce Type: new 
-Abstract: Explainable ML algorithms are designed to provide transparency and insight into their decision-making process. Explaining how ML models come to their prediction is critical in fields such as healthcare and finance, as it provides insight into how models can help detect bias in predictions and help comply with GDPR compliance in these fields. QML leverages quantum phenomena such as entanglement and superposition, offering the potential for computational speedup and greater insights compared to classical ML. However, QML models also inherit the black-box nature of their classical counterparts, requiring the development of explainability techniques to be applied to these QML models to help understand why and how a particular output was generated.
-  This paper will explore the idea of creating a modular, explainable QML framework that splits QML algorithms into their core components, such as feature maps, variational circuits (ansatz), optimizers, kernels, and quantum-classical loops. Each component will be analyzed using explainability techniques, such as ALE and SHAP, which have been adapted to analyse the different components of these QML algorithms. By combining insights from these parts, the paper aims to infer explainability to the overall QML model.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12378v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Barra White, Krishnendu Guha</dc:creator>
-    </item>
-    <item>
-      <title>Noise tolerance via reinforcement: Learning a reinforced quantum dynamics</title>
-      <link>https://arxiv.org/abs/2506.12418</link>
-      <description>arXiv:2506.12418v1 Announce Type: new 
-Abstract: The performance of quantum simulations heavily depends on the efficiency of noise mitigation techniques and error correction algorithms. Reinforcement has emerged as a powerful strategy to enhance the performance of learning and optimization algorithms. In this study, we demonstrate that reinforced quantum dynamics can exhibit significant robustness against interactions with a noisy environment. We study a quantum annealing process where, through reinforcement, the system is encouraged to maintain its current state or follow a noise-free evolution. A learning algorithm is employed to find a concise approximation of this reinforced dynamics, reducing the total evolution time and, consequently, the system's exposure to noisy interactions. This approach also avoids the complexities associated with implementing quantum feedback in such algorithms. The efficacy of our method is demonstrated through numerical simulations of reinforced quantum annealing with one- and two-qubit systems under Pauli noise.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12418v1</guid>
+      <title>Connecting phases of matter to the flatness of the loss landscape in analog variational quantum algorithms</title>
+      <link>https://arxiv.org/abs/2506.13865</link>
+      <description>arXiv:2506.13865v1 Announce Type: new 
+Abstract: Variational quantum algorithms (VQAs) promise near-term quantum advantage, yet parametrized quantum states commonly built from the digital gate-based approach often suffer from scalability issues such as barren plateaus, where the loss landscape becomes flat. We study an analog VQA ans\"atze composed of $M$ quenches of a disordered Ising chain, whose dynamics is native to several quantum simulation platforms. By tuning the disorder strength we place each quench in either a thermalized phase or a many-body-localized (MBL) phase and analyse (i) the ans\"atze's expressivity and (ii) the scaling of loss variance. Numerics shows that both phases reach maximal expressivity at large $M$, but barren plateaus emerge at far smaller $M$ in the thermalized phase than in the MBL phase. Exploiting this gap, we propose an MBL initialisation strategy: initialise the ans\"atze in the MBL regime at intermediate quench $M$, enabling an initial trainability while retaining sufficient expressivity for subsequent optimization. The results link quantum phases of matter and VQA trainability, and provide practical guidelines for scaling analog-hardware VQAs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.13865v1</guid>
       <category>quant-ph</category>
       <category>cond-mat.dis-nn</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.NE</category>
+      <category>stat.ML</category>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Abolfazl Ramezanpour</dc:creator>
+      <dc:creator>Kasidit Srimahajariyapong, Supanut Thanasilp, Thiparat Chotibut</dc:creator>
     </item>
     <item>
-      <title>Solving tricky quantum optics problems with assistance from (artificial) intelligence</title>
-      <link>https://arxiv.org/abs/2506.12770</link>
-      <description>arXiv:2506.12770v1 Announce Type: new 
-Abstract: The capabilities of modern artificial intelligence (AI) as a ``scientific collaborator'' are explored by engaging it with three nuanced problems in quantum optics: state populations in optical pumping, resonant transitions between decaying states (the Burshtein effect), and degenerate mirrorless lasing. Through iterative dialogue, the authors observe that AI models--when prompted and corrected--can reason through complex scenarios, refine their answers, and provide expert-level guidance, closely resembling the interaction with an adept colleague. The findings highlight that AI democratizes access to sophisticated modeling and analysis, shifting the focus in scientific practice from technical mastery to the generation and testing of ideas, and reducing the time for completing research tasks from days to minutes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12770v1</guid>
+      <title>Hamiltonian Formalism for Comparing Quantum and Classical Intelligence</title>
+      <link>https://arxiv.org/abs/2506.14456</link>
+      <description>arXiv:2506.14456v1 Announce Type: new 
+Abstract: The prospect of AGI instantiated on quantum substrates motivates the development of mathematical frameworks that enable direct comparison of their operation in classical and quantum environments. To this end, we introduce a Hamiltonian formalism for describing classical and quantum AGI tasks as a means of contrasting their interaction with the environment. We propose a decomposition of AGI dynamics into Hamiltonian generators for core functions such as induction, reasoning, recursion, learning, measurement, and memory. This formalism aims to contribute to the development of a precise mathematical language for how quantum and classical agents differ via environmental interaction.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.14456v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>physics.atom-ph</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Manas Pandey, Bharath Hebbe Madhusudhana, Saikat Ghosh, Dmitry Budker</dc:creator>
-    </item>
-    <item>
-      <title>Quantum AGI: Ontological Foundations</title>
-      <link>https://arxiv.org/abs/2506.13134</link>
-      <description>arXiv:2506.13134v1 Announce Type: new 
-Abstract: We examine the implications of quantum foundations for AGI, focusing on how seminal results such as Bell's theorems (non-locality), the Kochen-Specker theorem (contextuality) and no-cloning theorem problematise practical implementation of AGI in quantum settings. We introduce a novel information-theoretic taxonomy distinguishing between classical AGI and quantum AGI and show how quantum mechanics affects fundamental features of agency. We show how quantum ontology may change AGI capabilities, both via affording computational advantages and via imposing novel constraints.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.13134v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Elija Perrier, Michael Timothy Bennett</dc:creator>
+      <dc:creator>Elija Perrier</dc:creator>
     </item>
     <item>
-      <title>A Two-stage Optimization Method for Wide-range Single-electron Quantum Magnetic Sensing</title>
-      <link>https://arxiv.org/abs/2506.13469</link>
-      <description>arXiv:2506.13469v1 Announce Type: new 
-Abstract: Quantum magnetic sensing based on spin systems has emerged as a new paradigm for detecting ultra-weak magnetic fields with unprecedented sensitivity, revitalizing applications in navigation, geo-localization, biology, and beyond. At the heart of quantum magnetic sensing, from the protocol perspective, lies the design of optimal sensing parameters to manifest and then estimate the underlying signals of interest (SoI). Existing studies on this front mainly rely on adaptive algorithms based on black-box AI models or formula-driven principled searches. However, when the SoI spans a wide range and the quantum sensor has physical constraints, these methods may fail to converge efficiently or optimally, resulting in prolonged interrogation times and reduced sensing accuracy. In this work, we report the design of a new protocol using a two-stage optimization method. In the 1st Stage, a Bayesian neural network with a fixed set of sensing parameters is used to narrow the range of SoI. In the 2nd Stage, a federated reinforcement learning agent is designed to fine-tune the sensing parameters within a reduced search space. The proposed protocol is developed and evaluated in a challenging context of single-shot readout of an NV-center electron spin under a constrained total sensing time budget; and yet it achieves significant improvements in both accuracy and resource efficiency for wide-range D.C. magnetic field estimation compared to the state of the art.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.13469v1</guid>
+      <title>Union-Intersection Union-Find for Decoding Depolarizing Errors in Topological Codes</title>
+      <link>https://arxiv.org/abs/2506.14745</link>
+      <description>arXiv:2506.14745v1 Announce Type: new 
+Abstract: In this paper, we introduce the Union-Intersection Union-Find (UIUF) algorithm for decoding depolarizing errors in topological codes, combining the strengths of iterative and standard Union-Find (UF) decoding. While iterative UF improves performance at moderate error rates, it lacks an error correction guarantee. To address this, we develop UIUF, which maintains the enhanced performance of iterative UF while ensuring error correction up to half the code distance. Through simulations under code capacity, phenomenological, and biased noise models, we show that UIUF significantly outperforms UF, reducing the logical error rate by over an order of magnitude (at around $10^{-5}$). Moreover, UIUF achieves lower logical error rates than the Minimum Weight Perfect Matching (MWPM) decoder on rotated surface codes under both the code capacity and phenomenological noise models, while preserving efficient linear-time complexity.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.14745v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Shiqian Guo, Jianqing Liu, Thinh Le, Huaiyu Dai</dc:creator>
-    </item>
-    <item>
-      <title>Learning Best Paths in Quantum Networks</title>
-      <link>https://arxiv.org/abs/2506.12462</link>
-      <description>arXiv:2506.12462v1 Announce Type: cross 
-Abstract: Quantum networks (QNs) transmit delicate quantum information across noisy quantum channels. Crucial applications, like quantum key distribution (QKD) and distributed quantum computation (DQC), rely on efficient quantum information transmission. Learning the best path between a pair of end nodes in a QN is key to enhancing such applications. This paper addresses learning the best path in a QN in the online learning setting. We explore two types of feedback: "link-level" and "path-level". Link-level feedback pertains to QNs with advanced quantum switches that enable link-level benchmarking. Path-level feedback, on the other hand, is associated with basic quantum switches that permit only path-level benchmarking. We introduce two online learning algorithms, BeQuP-Link and BeQuP-Path, to identify the best path using link-level and path-level feedback, respectively. To learn the best path, BeQuP-Link benchmarks the critical links dynamically, while BeQuP-Path relies on a subroutine, transferring path-level observations to estimate link-level parameters in a batch manner. We analyze the quantum resource complexity of these algorithms and demonstrate that both can efficiently and, with high probability, determine the best path. Finally, we perform NetSquid-based simulations and validate that both algorithms accurately and efficiently identify the best path.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.12462v1</guid>
-      <category>cs.NI</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Xuchuang Wang, Maoli Liu, Xutong Liu, Zhuohua Li, Mohammad Hajiesmaili, John C. S. Lui, Don Towsley</dc:creator>
-    </item>
-    <item>
-      <title>Imaging at the quantum limit with convolutional neural networks</title>
-      <link>https://arxiv.org/abs/2506.13488</link>
-      <description>arXiv:2506.13488v1 Announce Type: cross 
-Abstract: Deep neural networks have been shown to achieve exceptional performance for computer vision tasks like image recognition, segmentation, and reconstruction or denoising. Here, we evaluate the ultimate performance limits of deep convolutional neural network models for image reconstruction, by comparing them against the standard quantum limit set by shot-noise and the Heisenberg limit on precision. We train U-Net models on images of natural objects illuminated with coherent states of light, and find that the average mean-squared error of the reconstructions can surpass the standard quantum limit, and in some cases reaches the Heisenberg limit. Further, we train models on well-parameterized images for which we can calculate the quantum Cram\'er-Rao bound to determine the minimum possible measurable variance of an estimated parameter for a given probe state. We find the mean-squared error of the model predictions reaches these bounds calculated for the parameters, across a variety of parameterized images. These results suggest that deep convolutional neural networks can learn to become the optimal estimators allowed by the laws of physics, performing parameter estimation and image reconstruction at the ultimate possible limits of precision for the case of classical illumination of the object.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.13488v1</guid>
-      <category>cs.LG</category>
-      <category>physics.optics</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Andrew H. Proppe, Aaron Z. Goldberg, Guillaume Thekkadath, Noah Lupu-Gladstein, Kyle M. Jordan, Philip J. Bustard, Fr\'ed\'eric Bouchard, Duncan England, Khabat Heshami, Jeff S. Lundeen, Benjamin J. Sussman</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Tzu-Hao Lin, Ching-Yi Lai</dc:creator>
     </item>
   </channel>
 </rss>

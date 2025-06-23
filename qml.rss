@@ -7,12 +7,141 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Jun 2025 04:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 04:00:25 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 22 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
+    <item>
+      <title>Quantum Fisher-Preconditioned Reinforcement Learning: From Single-Qubit Control to Rayleigh-Fading Link Adaptation</title>
+      <link>https://arxiv.org/abs/2506.15753</link>
+      <description>arXiv:2506.15753v1 Announce Type: new 
+Abstract: In this letter, we propose Quantum-Preconditioned Policy Gradient (QPPG), a natural gradient-based algorithm for link adaptation that whitens policy updates using the full inverse quantum Fisher information with Tikhonov regularization. QPPG bridges classical and quantum geometry, achieving stable learning even under noise. Evaluated on classical and quantum environments, including noisy single-qubit Gym tasks and Rayleigh-fading channels, QPPG converges 4 times faster than REINFORCE and sustains a 1 dB gain under uncertainty. It reaches a 90 percent return in one hundred episodes with high noise robustness, showcasing the advantages of full QFI-based preconditioning for scalable quantum reinforcement learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.15753v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Oluwaseyi Giwa, Muhammad Ahmed Mohsin, Muhammad Ali Jamshed</dc:creator>
+    </item>
+    <item>
+      <title>Compilation, Optimization, Error Mitigation, and Machine Learning in Quantum Algorithms</title>
+      <link>https://arxiv.org/abs/2506.15760</link>
+      <description>arXiv:2506.15760v1 Announce Type: new 
+Abstract: This paper discusses the compilation, optimization, and error mitigation of quantum algorithms, essential steps to execute real-world quantum algorithms. Quantum algorithms running on a hybrid platform with QPU and CPU/GPU take advantage of existing high-performance computing power with quantum-enabled exponential speedups. The proposed approximate quantum Fourier transform (AQFT) for quantum algorithm optimization improves the circuit execution on top of an exponential speed-ups the quantum Fourier transform has provided.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.15760v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <arxiv:DOI>10.5121/csit.2025.150501</arxiv:DOI>
+      <arxiv:journal_reference>Computer Science &amp; Information Technology (CS &amp; IT) ISSN : 2231 - 5403 Volume 15, Number 05, March 2025</arxiv:journal_reference>
+      <dc:creator>Shuangbao Paul Wang, Jianzhou Mao, Eric Sakk</dc:creator>
+    </item>
+    <item>
+      <title>Superconducting Qubit Readout Using Next-Generation Reservoir Computing</title>
+      <link>https://arxiv.org/abs/2506.15771</link>
+      <description>arXiv:2506.15771v1 Announce Type: new 
+Abstract: Quantum processors require rapid and high-fidelity simultaneous measurements of many qubits. While superconducting qubits are among the leading modalities toward a useful quantum processor, their readout remains a bottleneck. Traditional approaches to processing measurement data often struggle to account for crosstalk present in frequency-multiplexed readout, the preferred method to reduce the resource overhead. Recent approaches to address this challenge use neural networks to improve the state-discrimination fidelity. However, they are computationally expensive to train and evaluate, resulting in increased latency and poor scalability as the number of qubits increases. We present an alternative machine learning approach based on next-generation reservoir computing that constructs polynomial features from the measurement signals and maps them to the corresponding qubit states. This method is highly parallelizable, avoids the costly nonlinear activation functions common in neural networks, and supports real-time training, enabling fast evaluation, adaptability, and scalability. Despite its lower computational complexity, our reservoir approach is able to maintain high qubit-state-discrimination fidelity. Relative to traditional methods, our approach achieves error reductions of up to 50% and 11% on single- and five-qubit datasets, respectively, and delivers up to 2.5x crosstalk reduction on the five-qubit dataset. Compared with recent machine-learning methods, evaluating our model requires 100x fewer multiplications for single-qubit and 2.5x fewer for five-qubit models. This work demonstrates that reservoir computing can enhance qubit-state discrimination while maintaining scalability for future quantum processors.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.15771v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Robert Kent, Benjamin Lienhard, Gregory Lafyatis, Daniel J. Gauthier</dc:creator>
+    </item>
+    <item>
+      <title>Graph-Cover-based Characterization of the Bethe Partition Function of Double-Edge Factor Graphs</title>
+      <link>https://arxiv.org/abs/2506.16250</link>
+      <description>arXiv:2506.16250v1 Announce Type: new 
+Abstract: For standard factor graphs (S-FGs) with non-negative real-valued local functions, Vontobel provided a combinatorial characterization of the Bethe approximation of the partition function, also known as the Bethe partition function, using finite graph covers. The proof of this characterization, i.e., the graph-cover theorem for S-FGs, heavily relied on the method of types.
+  In this paper, we study double-edge factor graphs (DE-FGs), a class of factor graphs where each local function takes complex values and satisfies some positive semi-definiteness constraints. DE-FGs and their partition functions are particularly relevant for quantum information processing. Approximating the partition function of a DE-FG is more difficult than for an S-FG, as it involves summing complex values instead of non-negative real values. We develop the sum-product algorithm (SPA) fixed-point-based Bethe approximation of the partition function. However, one cannot directly apply the method of types to prove a similar combinatorial characterization as in the case of S-FGs.
+  We provide a combinatorial characterization of the Bethe partition function in terms of finite graph covers for a class of DE-FGs that satisfy a specific, easily checkable condition. Towards proving this characterization, we apply a suitable loop-calculus transform (LCT) to these graphs. Originally, the LCT was introduced by Chertkov and Chernyak as a special linear transform for S-FGs and later extended by Mori. Our proposed LCT is applicable for both DE-FGs and S-FGs and generalizes prior versions by handling zero-valued SPA fixed-point message components, which are common in DE-FGs.
+  Supported by numerical results, we conjecture that this combinatorial characterization of the Bethe partition function in terms of finite graph covers holds more broadly for DE-FGs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16250v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Yuwen Huang, Pascal O. Vontobel</dc:creator>
+    </item>
+    <item>
+      <title>Feedback-driven recurrent quantum neural network universality</title>
+      <link>https://arxiv.org/abs/2506.16332</link>
+      <description>arXiv:2506.16332v1 Announce Type: new 
+Abstract: Quantum reservoir computing uses the dynamics of quantum systems to process temporal data, making it particularly well-suited for learning with noisy intermediate-scale quantum devices. Early experimental proposals, such as the restarting and rewinding protocols, relied on repeating previous steps of the quantum map to avoid backaction. However, this approach compromises real-time processing and increases computational overhead. Recent developments have introduced alternative protocols that address these limitations. These include online, mid-circuit measurement, and feedback techniques, which enable real-time computation while preserving the input history. Among these, the feedback protocol stands out for its ability to process temporal information with comparatively fewer components. Despite this potential advantage, the theoretical foundations of feedback-based quantum reservoir computing remain underdeveloped, particularly with regard to the universality and the approximation capabilities of this approach. This paper addresses this issue by presenting a recurrent quantum neural network architecture that extends a class of existing feedforward models to a dynamic, feedback-driven reservoir setting. We provide theoretical guarantees for variational recurrent quantum neural networks, including approximation bounds and universality results. Notably, our analysis demonstrates that the model is universal with linear readouts, making it both powerful and experimentally accessible. These results pave the way for practical and theoretically grounded quantum reservoir computing with real-time processing capabilities.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16332v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Lukas Gonon, Rodrigo Mart\'inez-Pe\~na, Juan-Pablo Ortega</dc:creator>
+    </item>
+    <item>
+      <title>Physical complexity and black hole quantum computers</title>
+      <link>https://arxiv.org/abs/2506.16527</link>
+      <description>arXiv:2506.16527v1 Announce Type: new 
+Abstract: The ultimate limits of computation are not just logical, but physical. We investigate the physical resources -- time, energy, entropy, and free energy -- required to perform computational work. We apply the resulting measures of physical complexity to conventional electronic computers, to quantum computers, to biological systems, to black holes, and to the universe itself, with implications for artificial intelligence development where biological efficiency limits suggest new computational paradigms beyond current digital architectures.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16527v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Michele Reilly, Seth Lloyd</dc:creator>
+    </item>
+    <item>
+      <title>Quantum versus Classical Separation in Simultaneous Number-on-Forehead Communication</title>
+      <link>https://arxiv.org/abs/2506.16804</link>
+      <description>arXiv:2506.16804v1 Announce Type: new 
+Abstract: Quantum versus classical separation plays a central role in understanding the advantages of quantum computation. In this paper, we present the first exponential separation between quantum and bounded-error randomized communication complexity in a variant of the Number-on-Forehead (NOF) model. Namely, the three-player Simultaneous Number-on-Forehead model. Specifically, we introduce the Gadgeted Hidden Matching Problem and show that it can be solved using only $O(\log n)$ simultaneous quantum communication. In contrast, any simultaneous randomized protocol requires $\Omega(n^{1/16})$ communication.
+  On the technical side, a key obstacle in separating quantum and classical communication in NOF models is that all known randomized NOF lower bound tools, such as the discrepancy method, typically apply to both randomized and quantum protocols. In this regard, our technique provides a new method for proving randomized lower bounds in the NOF setting and may be of independent interest beyond the separation result.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16804v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Guangxu Yang, Jiapeng Zhang</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing Expressivity of Quantum Neural Networks Based on the SWAP test</title>
+      <link>https://arxiv.org/abs/2506.16938</link>
+      <description>arXiv:2506.16938v1 Announce Type: new 
+Abstract: Parameterized quantum circuits represent promising architectures for machine learning applications, yet many lack clear connections to classical models, potentially limiting their ability to translate the wide success of classical neural networks to the quantum realm. We examine a specific type of quantum neural network (QNN) built exclusively from SWAP test circuits, and discuss its mathematical equivalence to a classical two-layer feedforward network with quadratic activation functions under amplitude encoding. Our analysis across classical real-world and synthetic datasets reveals that while this architecture can successfully learn many practical tasks, it exhibits fundamental expressivity limitations due to violating the universal approximation theorem, particularly failing on harder problems like the parity check function. To address this limitation, we introduce a circuit modification using generalized SWAP test circuits that effectively implements classical neural networks with product layers. This enhancement enables successful learning of parity check functions in arbitrary dimensions which we analytically argue to be impossible for the original architecture beyond two dimensions regardless of network size. Our results establish a framework for enhancing QNN expressivity through classical task analysis and demonstrate that our SWAP test-based architecture offers broad representational capacity, suggesting potential promise also for quantum learning tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16938v1</guid>
+      <category>quant-ph</category>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Sebastian Nagies, Emiliano Tolotti, Davide Pastorello, Enrico Blanzieri</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Artificial Intelligence for Secure Autonomous Vehicle Navigation: An Architectural Proposal</title>
+      <link>https://arxiv.org/abs/2506.16000</link>
+      <description>arXiv:2506.16000v1 Announce Type: cross 
+Abstract: Navigation is a very crucial aspect of autonomous vehicle ecosystem which heavily relies on collecting and processing large amounts of data in various states and taking a confident and safe decision to define the next vehicle maneuver. In this paper, we propose a novel architecture based on Quantum Artificial Intelligence by enabling quantum and AI at various levels of navigation decision making and communication process in Autonomous vehicles : Quantum Neural Networks for multimodal sensor fusion, Nav-Q for Quantum reinforcement learning for navigation policy optimization and finally post-quantum cryptographic protocols for secure communication. Quantum neural networks uses quantum amplitude encoding to fuse data from various sensors like LiDAR, radar, camera, GPS and weather etc., This approach gives a unified quantum state representation between heterogeneous sensor modalities. Nav-Q module processes the fused quantum states through variational quantum circuits to learn optimal navigation policies under swift dynamic and complex conditions. Finally, post quantum cryptographic protocols are used to secure communication channels for both within vehicle communication and V2X (Vehicle to Everything) communications and thus secures the autonomous vehicle communication from both classical and quantum security threats. Thus, the proposed framework addresses fundamental challenges in autonomous vehicles navigation by providing quantum performance and future proof security. Index Terms Quantum Computing, Autonomous Vehicles, Sensor Fusion</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.16000v1</guid>
+      <category>cs.ET</category>
+      <category>cs.AI</category>
+      <category>cs.RO</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Hemanth Kannamarlapudi, Sowmya Chintalapudi</dc:creator>
+    </item>
   </channel>
 </rss>

@@ -7,55 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Jun 2025 04:00:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 28 Jun 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>Quantum Reinforcement Learning Trading Agent for Sector Rotation in the Taiwan Stock Market</title>
-      <link>https://arxiv.org/abs/2506.20930</link>
-      <description>arXiv:2506.20930v1 Announce Type: new 
-Abstract: We propose a hybrid quantum-classical reinforcement learning framework for sector rotation in the Taiwan stock market. Our system employs Proximal Policy Optimization (PPO) as the backbone algorithm and integrates both classical architectures (LSTM, Transformer) and quantum-enhanced models (QNN, QRWKV, QASA) as policy and value networks. An automated feature engineering pipeline extracts financial indicators from capital share data to ensure consistent model input across all configurations. Empirical backtesting reveals a key finding: although quantum-enhanced models consistently achieve higher training rewards, they underperform classical models in real-world investment metrics such as cumulative return and Sharpe ratio. This discrepancy highlights a core challenge in applying reinforcement learning to financial domains -- namely, the mismatch between proxy reward signals and true investment objectives. Our analysis suggests that current reward designs may incentivize overfitting to short-term volatility rather than optimizing risk-adjusted returns. This issue is compounded by the inherent expressiveness and optimization instability of quantum circuits under Noisy Intermediate-Scale Quantum (NISQ) constraints. We discuss the implications of this reward-performance gap and propose directions for future improvement, including reward shaping, model regularization, and validation-based early stopping. Our work offers a reproducible benchmark and critical insights into the practical challenges of deploying quantum reinforcement learning in real-world finance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.20930v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>q-fin.CP</category>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Chi-Sheng Chen, Xinyu Zhang, Ya-Chuan Chen</dc:creator>
-    </item>
-    <item>
-      <title>Lower Bounds on Relative Error Quantum Compression and Classical Shadows</title>
-      <link>https://arxiv.org/abs/2506.21345</link>
-      <description>arXiv:2506.21345v1 Announce Type: new 
-Abstract: We study the question of how much classical communication is needed when Alice is given a classical description of a quantum state $|\psi\rangle$ for Bob to recover any expectation value $\langle \psi | M |\psi\rangle$ given an observable $M$ with $M$ Hermitian and $||M||_{\text{op}} \leq 1$. This task, whose study was initiated by Raz (ACM 1999) and more recently investigated by Gosset and Smolin (TQC 2019), can be thought of as a fully classical version of the pure state case of the well-known classical shadows problem in quantum learning theory. We show how the hardness of these two seemingly distinct problems are connected.
-  We first consider the relative error version of the communication question and prove a lower bound of $\Omega(\sqrt{2^{n}}\epsilon^{-2})$ on the one-way randomized classical communication, improving upon an additive error lower bound of $\Omega(\sqrt{2^{n}})$ as shown by Gosset and Smolin. Notably, we show that this lower bound holds not only for the set of all observables but also when restricted to just the class of Pauli observables. This fact implies a $\Omega(\sqrt{2^{n}})$ versus $O(\text{poly}(n))$ separation in the compression size between the relative and additive error settings for non-adaptive Pauli classical shadows with classical memory.
-  Extending this framework, we prove randomized communication lower bounds for other relative error one-way classical communication tasks: an $\Omega(2^{n}\epsilon^{-2})$ lower bound when instead Alice is given an observable and Bob is given a quantum state and they are asked to estimate the expectation value, an $\Omega(\sqrt{n}\epsilon^{-2})$ lower bound when restricted to Paulis, and an $\Omega(\sqrt{2^{n}}\epsilon^{-2})$ lower bound when Alice and Bob are both given quantum states and asked to estimate the inner product.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.21345v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kaushik Sankar</dc:creator>
-    </item>
-    <item>
-      <title>HybridQ: Hybrid Classical-Quantum Generative Adversarial Network for Skin Disease Image Generation</title>
-      <link>https://arxiv.org/abs/2506.21015</link>
-      <description>arXiv:2506.21015v1 Announce Type: cross 
-Abstract: Machine learning-assisted diagnosis is gaining traction in skin disease detection, but training effective models requires large amounts of high-quality data. Skin disease datasets often suffer from class imbalance, privacy concerns, and object bias, making data augmentation essential. While classical generative models are widely used, they demand extensive computational resources and lengthy training time. Quantum computing offers a promising alternative, but existing quantum-based image generation methods can only yield grayscale low-quality images. Through a novel classical-quantum latent space fusion technique, our work overcomes this limitation and introduces the first classical-quantum generative adversarial network (GAN) capable of generating color medical images. Our model outperforms classical deep convolutional GANs and existing hybrid classical-quantum GANs in both image generation quality and classification performance boost when used as data augmentation. Moreover, the performance boost is comparable with that achieved using state-of-the-art classical generative models, yet with over 25 times fewer parameters and 10 times fewer training epochs. Such results suggest a promising future for quantum image generation as quantum hardware advances. Finally, we demonstrate the robust performance of our model on real IBM quantum machine with hardware noise.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.21015v1</guid>
-      <category>cs.CV</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Qingyue Jiao, Kangyu Zheng, Yiyu Shi, Zhiding Liang</dc:creator>
-    </item>
   </channel>
 </rss>

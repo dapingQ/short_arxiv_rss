@@ -7,85 +7,84 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jun 2025 04:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 04:00:18 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Adversarial Threats in Quantum Machine Learning: A Survey of Attacks and Defenses</title>
-      <link>https://arxiv.org/abs/2506.21842</link>
-      <description>arXiv:2506.21842v1 Announce Type: new 
-Abstract: Quantum Machine Learning (QML) integrates quantum computing with classical machine learning, primarily to solve classification, regression and generative tasks. However, its rapid development raises critical security challenges in the Noisy Intermediate-Scale Quantum (NISQ) era. This chapter examines adversarial threats unique to QML systems, focusing on vulnerabilities in cloud-based deployments, hybrid architectures, and quantum generative models. Key attack vectors include model stealing via transpilation or output extraction, data poisoning through quantum-specific perturbations, reverse engineering of proprietary variational quantum circuits, and backdoor attacks. Adversaries exploit noise-prone quantum hardware and insufficiently secured QML-as-a-Service (QMLaaS) workflows to compromise model integrity, ownership, and functionality. Defense mechanisms leverage quantum properties to counter these threats. Noise signatures from training hardware act as non-invasive watermarks, while hardware-aware obfuscation techniques and ensemble strategies disrupt cloning attempts. Emerging solutions also adapt classical adversarial training and differential privacy to quantum settings, addressing vulnerabilities in quantum neural networks and generative architectures. However, securing QML requires addressing open challenges such as balancing noise levels for reliability and security, mitigating cross-platform attacks, and developing quantum-classical trust frameworks. This chapter summarizes recent advances in attacks and defenses, offering a roadmap for researchers and practitioners to build robust, trustworthy QML systems resilient to evolving adversarial landscapes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.21842v1</guid>
+      <title>Spectral Bias in Variational Quantum Machine Learning</title>
+      <link>https://arxiv.org/abs/2506.22555</link>
+      <description>arXiv:2506.22555v1 Announce Type: new 
+Abstract: In this work, we investigate the phenomenon of spectral bias in quantum machine learning, where, in classical settings, models tend to fit low-frequency components of a target function earlier during training than high-frequency ones, demonstrating a frequency-dependent rate of convergence. We study this effect specifically in parameterised quantum circuits (PQCs). Leveraging the established formulation of PQCs as Fourier series, we prove that spectral bias in this setting arises from the ``redundancy'' of the Fourier coefficients, which denotes the number of terms in the analytical form of the model contributing to the same frequency component. The choice of data encoding scheme dictates the degree of redundancy for a Fourier coefficient. We find that the magnitude of the Fourier coefficients' gradients during training strongly correlates with the coefficients' redundancy. We then further demonstrate this empirically with three different encoding schemes. Additionally, we demonstrate that PQCs with greater redundancy exhibit increased robustness to random perturbations in their parameters at the corresponding frequencies. We investigate how design choices affect the ability of PQCs to learn Fourier sums, focusing on parameter initialization scale and entanglement structure, finding large initializations and low-entanglement schemes tend to slow convergence.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.22555v1</guid>
       <category>quant-ph</category>
-      <category>cs.CR</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Archisman Ghosh, Satwik Kundu, Swaroop Ghosh</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Callum Duffy, Marcin Jastrzebski</dc:creator>
     </item>
     <item>
-      <title>Robust quantum reservoir computers for forecasting chaotic dynamics: generalized synchronization and stability</title>
-      <link>https://arxiv.org/abs/2506.22335</link>
-      <description>arXiv:2506.22335v1 Announce Type: new 
-Abstract: We show that recurrent quantum reservoir computers (QRCs) and their recurrence-free architectures (RF-QRCs) are robust tools for learning and forecasting chaotic dynamics from time-series data. First, we formulate and interpret quantum reservoir computers as coupled dynamical systems, where the reservoir acts as a response system driven by training data; in other words, quantum reservoir computers are generalized-synchronization (GS) systems. Second, we show that quantum reservoir computers can learn chaotic dynamics and their invariant properties, such as Lyapunov spectra, attractor dimensions, and geometric properties such as the covariant Lyapunov vectors. This analysis is enabled by deriving the Jacobian of the quantum reservoir update. Third, by leveraging tools from generalized synchronization, we provide a method for designing robust quantum reservoir computers. We propose the criterion $GS=ESP$: GS implies the echo state property (ESP), and vice versa. We analytically show that RF-QRCs, by design, fulfill $GS=ESP$. Finally, we analyze the effect of simulated noise. We find that dissipation from noise enhances the robustness of quantum reservoir computers. Numerical verifications on systems of different dimensions support our conclusions. This work opens opportunities for designing robust quantum machines for chaotic time series forecasting on near-term quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.22335v1</guid>
+      <title>Tensor Train Quantum State Tomography using Compressed Sensing</title>
+      <link>https://arxiv.org/abs/2506.23560</link>
+      <description>arXiv:2506.23560v1 Announce Type: new 
+Abstract: Quantum state tomography (QST) is a fundamental technique for estimating the state of a quantum system from measured data and plays a crucial role in evaluating the performance of quantum devices. However, standard estimation methods become impractical due to the exponential growth of parameters in the state representation. In this work, we address this challenge by parameterizing the state using a low-rank block tensor train decomposition and demonstrate that our approach is both memory- and computationally efficient. This framework applies to a broad class of quantum states that can be well approximated by low-rank decompositions, including pure states, nearly pure states, and ground states of Hamiltonians.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.23560v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>nlin.CD</category>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <category>eess.SP</category>
+      <category>math.OC</category>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Osama Ahmed, Felix Tennie, Luca Magri</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Shakir Showkat Sofi, Charlotte Vermeylen, Lieven De Lathauwer</dc:creator>
     </item>
     <item>
-      <title>QuKAN: A Quantum Circuit Born Machine approach to Quantum Kolmogorov Arnold Networks</title>
-      <link>https://arxiv.org/abs/2506.22340</link>
-      <description>arXiv:2506.22340v1 Announce Type: new 
-Abstract: Kolmogorov Arnold Networks (KANs), built upon the Kolmogorov Arnold representation theorem (KAR), have demonstrated promising capabilities in expressing complex functions with fewer neurons. This is achieved by implementing learnable parameters on the edges instead of on the nodes, unlike traditional networks such as Multi-Layer Perceptrons (MLPs). However, KANs potential in quantum machine learning has not yet been well explored. In this work, we present an implementation of these KAN architectures in both hybrid and fully quantum forms using a Quantum Circuit Born Machine (QCBM). We adapt the KAN transfer using pre-trained residual functions, thereby exploiting the representational power of parametrized quantum circuits. In the hybrid model we combine classical KAN components with quantum subroutines, while the fully quantum version the entire architecture of the residual function is translated to a quantum model. We demonstrate the feasibility, interpretability and performance of the proposed Quantum KAN (QuKAN) architecture.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.22340v1</guid>
+      <title>Optimal Quantum Algorithm for Estimating Fidelity to a Pure State</title>
+      <link>https://arxiv.org/abs/2506.23650</link>
+      <description>arXiv:2506.23650v1 Announce Type: new 
+Abstract: We present an optimal quantum algorithm for fidelity estimation between two quantum states when one of them is pure. In particular, the (square root) fidelity of a mixed state to a pure state can be estimated to within additive error $\varepsilon$ by using $\Theta(1/\varepsilon)$ queries to their state-preparation circuits, achieving a quadratic speedup over the folklore $O(1/\varepsilon^2)$. Our approach is technically simple, and can moreover estimate the quantity $\sqrt{\operatorname{tr}(\rho\sigma^2)}$ that is not common in the literature. To the best of our knowledge, this is the first query-optimal approach to fidelity estimation involving mixed states.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.23650v1</guid>
       <category>quant-ph</category>
-      <category>cs.CV</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yannick Werner, Akash Malemath, Mengxi Liu, Vitor Fortes Rey, Nikolaos Palaiodimopoulos, Paul Lukowicz, Maximilian Kiefer-Emmanouilidis</dc:creator>
+      <dc:creator>Wang Fang, Qisheng Wang</dc:creator>
     </item>
     <item>
-      <title>Multi-agent Markov Entanglement</title>
-      <link>https://arxiv.org/abs/2506.02385</link>
-      <description>arXiv:2506.02385v2 Announce Type: cross 
-Abstract: Value decomposition has long been a fundamental technique in multi-agent dynamic programming and reinforcement learning (RL). Specifically, the value function of a global state $(s_1,s_2,\ldots,s_N)$ is often approximated as the sum of local functions: $V(s_1,s_2,\ldots,s_N)\approx\sum_{i=1}^N V_i(s_i)$. This approach traces back to the index policy in restless multi-armed bandit problems and has found various applications in modern RL systems. However, the theoretical justification for why this decomposition works so effectively remains underexplored.
-  In this paper, we uncover the underlying mathematical structure that enables value decomposition. We demonstrate that a multi-agent Markov decision process (MDP) permits value decomposition if and only if its transition matrix is not "entangled" -- a concept analogous to quantum entanglement in quantum physics. Drawing inspiration from how physicists measure quantum entanglement, we introduce how to measure the "Markov entanglement" for multi-agent MDPs and show that this measure can be used to bound the decomposition error in general multi-agent MDPs.
-  Using the concept of Markov entanglement, we proved that a widely-used class of index policies is weakly entangled and enjoys a sublinear $\mathcal O(\sqrt{N})$ scale of decomposition error for $N$-agent systems. Finally, we show how Markov entanglement can be efficiently estimated in practice, providing practitioners with an empirical proxy for the quality of value decomposition.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.02385v2</guid>
-      <category>cs.LG</category>
+      <title>SQUASH: A SWAP-Based Quantum Attack to Sabotage Hybrid Quantum Neural Networks</title>
+      <link>https://arxiv.org/abs/2506.24081</link>
+      <description>arXiv:2506.24081v1 Announce Type: new 
+Abstract: We propose a circuit-level attack, SQUASH, a SWAP-Based Quantum Attack to sabotage Hybrid Quantum Neural Networks (HQNNs) for classification tasks. SQUASH is executed by inserting SWAP gate(s) into the variational quantum circuit of the victim HQNN. Unlike conventional noise-based or adversarial input attacks, SQUASH directly manipulates the circuit structure, leading to qubit misalignment and disrupting quantum state evolution. This attack is highly stealthy, as it does not require access to training data or introduce detectable perturbations in input states. Our results demonstrate that SQUASH significantly degrades classification performance, with untargeted SWAP attacks reducing accuracy by up to 74.08\% and targeted SWAP attacks reducing target class accuracy by up to 79.78\%. These findings reveal a critical vulnerability in HQNN implementations, underscoring the need for more resilient architectures against circuit-level adversarial interventions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.24081v1</guid>
       <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Rahul Kumar, Wenqi Wei, Ying Mao, Junaid Farooq, Ying Wang, Juntao Chen</dc:creator>
+    </item>
+    <item>
+      <title>Seeding neural network quantum states with tensor network states</title>
+      <link>https://arxiv.org/abs/2506.23550</link>
+      <description>arXiv:2506.23550v1 Announce Type: cross 
+Abstract: We find an efficient approach to approximately convert matrix product states (MPSs) into restricted Boltzmann machine wave functions consisting of a multinomial hidden unit through a canonical polyadic (CP) decomposition of the MPSs. This method allows us to generate well-behaved initial neural network quantum states for quantum many-body ground-state calculations in polynomial time of the number of variational parameters and systematically shorten the distance between the initial states and the ground states with increasing the rank of the CP decomposition. We demonstrate the efficiency of our method by taking the transverse-field Ising model as an example and discuss possible applications of our method to more general quantum many-body systems in which the ground-state wave functions possess complex nodal structures.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2506.23550v1</guid>
+      <category>cond-mat.str-el</category>
+      <category>cs.LG</category>
+      <category>cs.NA</category>
+      <category>math.NA</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 01 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shuze Chen, Tianyi Peng</dc:creator>
-    </item>
-    <item>
-      <title>Boosting Classification with Quantum-Inspired Augmentations</title>
-      <link>https://arxiv.org/abs/2506.22241</link>
-      <description>arXiv:2506.22241v1 Announce Type: cross 
-Abstract: Understanding the impact of small quantum gate perturbations, which are common in quantum digital devices but absent in classical computers, is crucial for identifying potential advantages in quantum machine learning. While these perturbations are typically seen as detrimental to quantum computation, they can actually enhance performance by serving as a natural source of data augmentation. Additionally, they can often be efficiently simulated on classical hardware, enabling quantum-inspired approaches to improve classical machine learning methods. In this paper, we investigate random Bloch sphere rotations, which are fundamental SU(2) transformations, as a simple yet effective quantum-inspired data augmentation technique. Unlike conventional augmentations such as flipping, rotating, or cropping, quantum transformations lack intuitive spatial interpretations, making their application to tasks like image classification less straightforward. While common quantum augmentation methods rely on applying quantum models or trainable quanvolutional layers to classical datasets, we focus on the direct application of small-angle Bloch rotations and their effect on classical data. Using the large-scale ImageNet dataset, we demonstrate that our quantum-inspired augmentation method improves image classification performance, increasing Top-1 accuracy by 3%, Top-5 accuracy by 2.5%, and the F$_1$ score from 8% to 12% compared to standard classical augmentation methods. Finally, we examine the use of stronger unitary augmentations. Although these transformations preserve information in principle, they result in visually unrecognizable images with potential applications for privacy computations. However, we show that our augmentation approach and simple SU(2) transformations do not enhance differential privacy and discuss the implications of this limitation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.22241v1</guid>
-      <category>cs.CV</category>
-      <category>cond-mat.dis-nn</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Matthias Tsch\"ope, Vitor Fortes Rey, Sogo Pierre Sanon, Paul Lukowicz, Nikolaos Palaiodimopoulos, Maximilian Kiefer-Emmanouilidis</dc:creator>
+      <dc:creator>Ryui Kaneko, Shimpei Goto</dc:creator>
     </item>
   </channel>
 </rss>

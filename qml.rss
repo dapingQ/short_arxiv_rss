@@ -7,67 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jul 2025 04:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Fully Parallelized BP Decoding for Quantum LDPC Codes Can Outperform BP-OSD</title>
-      <link>https://arxiv.org/abs/2507.00254</link>
-      <description>arXiv:2507.00254v1 Announce Type: new 
-Abstract: In this work, we propose a lightweight decoder based solely on belief-propagation (BP), augmented with a speculative post-processing strategy inspired by classical Chase decoding. Our method identifies unreliable bits via BP oscillation statistics, generates a set of modified test patterns, and decodes them in parallel using low-iteration BP. We demonstrate that our approach can achieve logical error rates comparable to or even better than BP-OSD, but has lower latency over its parallelization for a variety of bivariate bicycle codes, which significantly reduces decoding complexity.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.00254v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ming Wang, Ang Li, Frank Mueller</dc:creator>
-    </item>
-    <item>
-      <title>Logarithmic Depth Decomposition of Approximate Multi-Controlled Single-Qubit Gates Without Ancilla Qubits</title>
-      <link>https://arxiv.org/abs/2507.00400</link>
-      <description>arXiv:2507.00400v1 Announce Type: new 
-Abstract: The synthesis of quantum operators involves decomposing general quantum gates into the gate set supported by a given quantum device. Multi-controlled gates are essential components in this process. In this work, we present improved decompositions of multi-controlled NOT gates with logarithmic depth using a single ancilla qubit, while also reducing the constant factors in the circuit depth compared to previous work. We optimize a previously proposed decomposition of multi-target, multi-controlled special unitary SU(2) gates by identifying the presence of a conditionally clean qubit. Additionally, we introduce the best-known decomposition of multi-controlled approximate unitary U(2) gates without using ancilla qubits. This approach significantly reduces the overall circuit depth and CNOT count while preserving an adjustable error parameter, yielding a more efficient and scalable solution for synthesizing large controlled-unitary gates. Our method is particularly suitable for both NISQ and fault-tolerant quantum architectures. All software developed in this project is freely available.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.00400v1</guid>
+      <title>Hardness of Quantum Distribution Learning and Quantum Cryptography</title>
+      <link>https://arxiv.org/abs/2507.01292</link>
+      <description>arXiv:2507.01292v1 Announce Type: new 
+Abstract: The existence of one-way functions (OWFs) forms the minimal assumption in classical cryptography. However, this is not necessarily the case in quantum cryptography. One-way puzzles (OWPuzzs), introduced by Khurana and Tomer, provide a natural quantum analogue of OWFs. The existence of OWPuzzs implies $PP\neq BQP$, while the converse remains open. In classical cryptography, the analogous problem-whether OWFs can be constructed from $P \neq NP$-has long been studied from the viewpoint of hardness of learning. Hardness of learning in various frameworks (including PAC learning) has been connected to OWFs or to $P \neq NP$. In contrast, no such characterization previously existed for OWPuzzs. In this paper, we establish the first complete characterization of OWPuzzs based on the hardness of a well-studied learning model: distribution learning. Specifically, we prove that OWPuzzs exist if and only if proper quantum distribution learning is hard on average. A natural question that follows is whether the worst-case hardness of proper quantum distribution learning can be derived from $PP \neq BQP$. If so, and a worst-case to average-case hardness reduction is achieved, it would imply OWPuzzs solely from $PP \neq BQP$. However, we show that this would be extremely difficult: if worst-case hardness is PP-hard (in a black-box reduction), then $SampBQP \neq SampBPP$ follows from the infiniteness of the polynomial hierarchy. Despite that, we show that $PP \neq BQP$ is equivalent to another standard notion of hardness of learning: agnostic. We prove that $PP \neq BQP$ if and only if agnostic quantum distribution learning with respect to KL divergence is hard. As a byproduct, we show that hardness of agnostic quantum distribution learning with respect to statistical distance against $PPT^{\Sigma_3^P}$ learners implies $SampBQP \neq SampBPP$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.01292v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.CR</category>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Jefferson D. S. Silva, Adenilton J. da Silva</dc:creator>
-    </item>
-    <item>
-      <title>Quantum k-SAT Related Hypergraph Problems</title>
-      <link>https://arxiv.org/abs/2506.17066</link>
-      <description>arXiv:2506.17066v1 Announce Type: cross 
-Abstract: The Quantum k-SAT problem is the quantum generalization of the k-SAT problem. It is the problem whether a given local Hamiltonian is frustration-free. Frustration-free means that the ground state of the k-local Hamiltonian minimizes the energy of every local interaction term simultaneously. This is a central question in quantum physics and a canonical QMA_1-complete problem. The Quantum k-SAT problem is not as well studied as the classical k-SAT problem in terms of special tractable cases, approximation algorithms and parameterized complexity. In this paper, we will give a graph-theoretic study of the Quantum k-SAT problem with the structures core and radius. These hypergraph structures are important to solve the Quantum k-SAT problem. We can solve a Quantum k-SAT instance in polynomial time if the derived hypergraph has a core of size n-m+a, where a is a constant, and the radius is at most logarithmic. If it exists, we can find a core of size n-m+a with the best possible radius in polynomial time, whereas finding a general minimum core with minimal radius is NP-hard.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2506.17066v1</guid>
-      <category>cs.CC</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Simon-Luca Kremer, Dorian Rudolph, Sevag Gharibian</dc:creator>
+      <dc:creator>Taiga Hiroka, Min-Hsiu Hsieh, Tomoyuki Morimae</dc:creator>
     </item>
     <item>
-      <title>Quantum Inspired Encoding Strategies for Machine Learning Models: Proposing and Evaluating Instance Level, Global Discrete, and Class Conditional Representations</title>
-      <link>https://arxiv.org/abs/2507.00019</link>
-      <description>arXiv:2507.00019v1 Announce Type: cross 
-Abstract: In this study, we propose, evaluate and compare three quantum inspired data encoding strategies, Instance Level Strategy (ILS), Global Discrete Strategy (GDS) and Class Conditional Value Strategy (CCVS), for transforming classical data into quantum data for use in pure classical machine learning models. The primary objective is to reduce high encoding time while ensuring correct encoding values and analyzing their impact on classification performance. The Instance Level Strategy treats each row of dataset independently; mimics local quantum states. Global Discrete Value Based encoding strategy maps all unique feature values across the full dataset to quantum states uniformly. In contrast, the Class conditional Value based encoding strategy encodes unique values separately for each class, preserving class dependent information.
-  We apply these encoding strategies to a classification task and assess their impact on en-coding efficiency, correctness, model accuracy, and computational cost. By analyzing the trade offs between encoding time, precision, and predictive performance, this study provides insights into optimizing quantum inspired data transformations for classical machine learning workflows.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.00019v1</guid>
+      <title>Generative flow-based warm start of the variational quantum eigensolver</title>
+      <link>https://arxiv.org/abs/2507.01726</link>
+      <description>arXiv:2507.01726v1 Announce Type: new 
+Abstract: Hybrid quantum-classical algorithms like the variational quantum eigensolver (VQE) show promise for quantum simulations on near-term quantum devices, but are often limited by complex objective functions and expensive optimization procedures. Here, we propose Flow-VQE, a generative framework leveraging conditional normalizing flows with parameterized quantum circuits to efficiently generate high-quality variational parameters. By embedding a generative model into the VQE optimization loop through preference-based training, Flow-VQE enables quantum gradient-free optimization and offers a systematic approach for parameter transfer, accelerating convergence across related problems through warm-started optimization. We compare Flow-VQE to a number of standard benchmarks through numerical simulations on molecular systems, including hydrogen chains, water, ammonia, and benzene. We find that Flow-VQE outperforms baseline optimization algorithms, achieving computational accuracy with fewer circuit evaluations (improvements range from modest to more than two orders of magnitude) and, when used to warm-start the optimization of new systems, accelerates subsequent fine-tuning by up to 50-fold compared with Hartree--Fock initialization. Therefore, we believe Flow-VQE can become a pragmatic and versatile paradigm for leveraging generative modeling to reduce the costs of variational quantum algorithms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.01726v1</guid>
+      <category>quant-ph</category>
+      <category>physics.chem-ph</category>
+      <category>stat.ML</category>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Hang Zou, Martin Rahm, Anton Frisk Kockum, Simon Olsson</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Machine Learning in Transportation: A Case Study of Pedestrian Stress Modelling</title>
+      <link>https://arxiv.org/abs/2507.01235</link>
+      <description>arXiv:2507.01235v1 Announce Type: cross 
+Abstract: Quantum computing has opened new opportunities to tackle complex machine learning tasks, for instance, high-dimensional data representations commonly required in intelligent transportation systems. We explore quantum machine learning to model complex skin conductance response (SCR) events that reflect pedestrian stress in a virtual reality road crossing experiment. For this purpose, Quantum Support Vector Machine (QSVM) with an eight-qubit ZZ feature map and a Quantum Neural Network (QNN) using a Tree Tensor Network ansatz and an eight-qubit ZZ feature map, were developed on Pennylane. The dataset consists of SCR measurements along with features such as the response amplitude and elapsed time, which have been categorized into amplitude-based classes. The QSVM achieved good training accuracy, but had an overfitting problem, showing a low test accuracy of 45% and therefore impacting the reliability of the classification model. The QNN model reached a higher test accuracy of 55%, making it a better classification model than the QSVM and the classic versions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.01235v1</guid>
       <category>cs.LG</category>
-      <category>cs.AI</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Minati Rath, Hema Date</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bara Rababa, Bilal Farooq</dc:creator>
+    </item>
+    <item>
+      <title>Surrogate Modeling via Factorization Machine and Ising Model with Enhanced Higher-Order Interaction Learning</title>
+      <link>https://arxiv.org/abs/2507.01389</link>
+      <description>arXiv:2507.01389v1 Announce Type: cross 
+Abstract: Recently, a surrogate model was proposed that employs a factorization machine to approximate the underlying input-output mapping of the original system, with quantum annealing used to optimize the resulting surrogate function. Inspired by this approach, we propose an enhanced surrogate model that incorporates additional slack variables into both the factorization machine and its associated Ising representation thereby unifying what was by design a two-step process into a single, integrated step. During the training phase, the slack variables are iteratively updated, enabling the model to account for higher-order feature interactions. We apply the proposed method to the task of predicting drug combination effects. Experimental results indicate that the introduction of slack variables leads to a notable improvement of performance. Our algorithm offers a promising approach for building efficient surrogate models that exploit potential quantum advantages.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.01389v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Anbang Wang, Dunbo Cai, Yu Zhang, Yangqing Huang, Xiangyang Feng, Zhihong Zhang</dc:creator>
     </item>
   </channel>
 </rss>

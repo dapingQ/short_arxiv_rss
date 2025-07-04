@@ -7,66 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Jul 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 04 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Hardness of Quantum Distribution Learning and Quantum Cryptography</title>
-      <link>https://arxiv.org/abs/2507.01292</link>
-      <description>arXiv:2507.01292v1 Announce Type: new 
-Abstract: The existence of one-way functions (OWFs) forms the minimal assumption in classical cryptography. However, this is not necessarily the case in quantum cryptography. One-way puzzles (OWPuzzs), introduced by Khurana and Tomer, provide a natural quantum analogue of OWFs. The existence of OWPuzzs implies $PP\neq BQP$, while the converse remains open. In classical cryptography, the analogous problem-whether OWFs can be constructed from $P \neq NP$-has long been studied from the viewpoint of hardness of learning. Hardness of learning in various frameworks (including PAC learning) has been connected to OWFs or to $P \neq NP$. In contrast, no such characterization previously existed for OWPuzzs. In this paper, we establish the first complete characterization of OWPuzzs based on the hardness of a well-studied learning model: distribution learning. Specifically, we prove that OWPuzzs exist if and only if proper quantum distribution learning is hard on average. A natural question that follows is whether the worst-case hardness of proper quantum distribution learning can be derived from $PP \neq BQP$. If so, and a worst-case to average-case hardness reduction is achieved, it would imply OWPuzzs solely from $PP \neq BQP$. However, we show that this would be extremely difficult: if worst-case hardness is PP-hard (in a black-box reduction), then $SampBQP \neq SampBPP$ follows from the infiniteness of the polynomial hierarchy. Despite that, we show that $PP \neq BQP$ is equivalent to another standard notion of hardness of learning: agnostic. We prove that $PP \neq BQP$ if and only if agnostic quantum distribution learning with respect to KL divergence is hard. As a byproduct, we show that hardness of agnostic quantum distribution learning with respect to statistical distance against $PPT^{\Sigma_3^P}$ learners implies $SampBQP \neq SampBPP$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.01292v1</guid>
+      <title>Selective Feature Re-Encoded Quantum Convolutional Neural Network with Joint Optimization for Image Classification</title>
+      <link>https://arxiv.org/abs/2507.02086</link>
+      <description>arXiv:2507.02086v1 Announce Type: new 
+Abstract: Quantum Machine Learning (QML) has seen significant advancements, driven by recent improvements in Noisy Intermediate-Scale Quantum (NISQ) devices. Leveraging quantum principles such as entanglement and superposition, quantum convolutional neural networks (QCNNs) have demonstrated promising results in classifying both quantum and classical data. This study examines QCNNs in the context of image classification and proposes a novel strategy to enhance feature processing and a QCNN architecture for improved classification accuracy. First, a selective feature re-encoding strategy is proposed, which directs the quantum circuits to prioritize the most informative features, thereby effectively navigating the crucial regions of the Hilbert space to find the optimal solution space. Secondly, a novel parallel-mode QCNN architecture is designed to simultaneously incorporate features extracted by two classical methods, Principal Component Analysis (PCA) and Autoencoders, within a unified training scheme. The joint optimization involved in the training process allows the QCNN to benefit from complementary feature representations, enabling better mutual readjustment of model parameters. To assess these methodologies, comprehensive experiments have been performed using the widely used MNIST and Fashion MNIST datasets for binary classification tasks. Experimental findings reveal that the selective feature re-encoding method significantly improves the quantum circuit's feature processing capability and performance. Furthermore, the jointly optimized parallel QCNN architecture consistently outperforms the individual QCNN models and the traditional ensemble approach involving independent learning followed by decision fusion, confirming its superior accuracy and generalization capabilities.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.02086v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.CR</category>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Taiga Hiroka, Min-Hsiu Hsieh, Tomoyuki Morimae</dc:creator>
+      <dc:creator>Shaswata Mahernob Sarkar, Sheikh Iftekhar Ahmed, Jishnu Mahmud, Shaikh Anowarul Fattah, Gaurav Sharma</dc:creator>
     </item>
     <item>
-      <title>Generative flow-based warm start of the variational quantum eigensolver</title>
-      <link>https://arxiv.org/abs/2507.01726</link>
-      <description>arXiv:2507.01726v1 Announce Type: new 
-Abstract: Hybrid quantum-classical algorithms like the variational quantum eigensolver (VQE) show promise for quantum simulations on near-term quantum devices, but are often limited by complex objective functions and expensive optimization procedures. Here, we propose Flow-VQE, a generative framework leveraging conditional normalizing flows with parameterized quantum circuits to efficiently generate high-quality variational parameters. By embedding a generative model into the VQE optimization loop through preference-based training, Flow-VQE enables quantum gradient-free optimization and offers a systematic approach for parameter transfer, accelerating convergence across related problems through warm-started optimization. We compare Flow-VQE to a number of standard benchmarks through numerical simulations on molecular systems, including hydrogen chains, water, ammonia, and benzene. We find that Flow-VQE outperforms baseline optimization algorithms, achieving computational accuracy with fewer circuit evaluations (improvements range from modest to more than two orders of magnitude) and, when used to warm-start the optimization of new systems, accelerates subsequent fine-tuning by up to 50-fold compared with Hartree--Fock initialization. Therefore, we believe Flow-VQE can become a pragmatic and versatile paradigm for leveraging generative modeling to reduce the costs of variational quantum algorithms.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.01726v1</guid>
+      <title>Designs from magic-augmented Clifford circuits</title>
+      <link>https://arxiv.org/abs/2507.02828</link>
+      <description>arXiv:2507.02828v1 Announce Type: new 
+Abstract: We introduce magic-augmented Clifford circuits -- architectures in which Clifford circuits are preceded and/or followed by constant-depth circuits of non-Clifford (``magic") gates -- as a resource-efficient way to realize approximate $k$-designs, with reduced circuit depth and usage of magic. We prove that shallow Clifford circuits, when augmented with constant-depth circuits of magic gates, can generate approximate unitary and state $k$-designs with $\epsilon$ relative error. The total circuit depth for these constructions on $N$ qubits is $O(\log (N/\epsilon)) +2^{O(k\log k)}$ in one dimension and $O(\log\log(N/\epsilon))+2^{O(k\log k)}$ in all-to-all circuits using ancillas, which improves upon previous results for small $k \geq 4$. Furthermore, our construction of relative-error state $k$-designs only involves states with strictly local magic. The required number of magic gates is parametrically reduced when considering $k$-designs with bounded additive error. As an example, we show that shallow Clifford circuits followed by $O(k^2)$ single-qubit magic gates, independent of system size, can generate an additive-error state $k$-design. We develop a classical statistical mechanics description of our random circuit architectures, which provides a quantitative understanding of the required depth and number of magic gates for additive-error state $k$-designs. We also prove no-go theorems for various architectures to generate designs with bounded relative error.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.02828v1</guid>
       <category>quant-ph</category>
-      <category>physics.chem-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cond-mat.stat-mech</category>
+      <category>cond-mat.str-el</category>
+      <category>cs.IT</category>
+      <category>hep-th</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Hang Zou, Martin Rahm, Anton Frisk Kockum, Simon Olsson</dc:creator>
+      <dc:creator>Yuzhen Zhang, Sagar Vijay, Yingfei Gu, Yimu Bao</dc:creator>
     </item>
     <item>
-      <title>Quantum Machine Learning in Transportation: A Case Study of Pedestrian Stress Modelling</title>
-      <link>https://arxiv.org/abs/2507.01235</link>
-      <description>arXiv:2507.01235v1 Announce Type: cross 
-Abstract: Quantum computing has opened new opportunities to tackle complex machine learning tasks, for instance, high-dimensional data representations commonly required in intelligent transportation systems. We explore quantum machine learning to model complex skin conductance response (SCR) events that reflect pedestrian stress in a virtual reality road crossing experiment. For this purpose, Quantum Support Vector Machine (QSVM) with an eight-qubit ZZ feature map and a Quantum Neural Network (QNN) using a Tree Tensor Network ansatz and an eight-qubit ZZ feature map, were developed on Pennylane. The dataset consists of SCR measurements along with features such as the response amplitude and elapsed time, which have been categorized into amplitude-based classes. The QSVM achieved good training accuracy, but had an overfitting problem, showing a low test accuracy of 45% and therefore impacting the reliability of the classification model. The QNN model reached a higher test accuracy of 55%, making it a better classification model than the QSVM and the classic versions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.01235v1</guid>
-      <category>cs.LG</category>
+      <title>Solving the Hubbard model with Neural Quantum States</title>
+      <link>https://arxiv.org/abs/2507.02644</link>
+      <description>arXiv:2507.02644v1 Announce Type: cross 
+Abstract: The rapid development of neural quantum states (NQS) has established it as a promising framework for studying quantum many-body systems. In this work, by leveraging the cutting-edge transformer-based architectures and developing highly efficient optimization algorithms, we achieve the state-of-the-art results for the doped two-dimensional (2D) Hubbard model, arguably the minimum model for high-Tc superconductivity. Interestingly, we find different attention heads in the NQS ansatz can directly encode correlations at different scales, making it capable of capturing long-range correlations and entanglements in strongly correlated systems. With these advances, we establish the half-filled stripe in the ground state of 2D Hubbard model with the next nearest neighboring hoppings, consistent with experimental observations in cuprates. Our work establishes NQS as a powerful tool for solving challenging many-fermions systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.02644v1</guid>
+      <category>cond-mat.str-el</category>
+      <category>cs.AI</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Bara Rababa, Bilal Farooq</dc:creator>
-    </item>
-    <item>
-      <title>Surrogate Modeling via Factorization Machine and Ising Model with Enhanced Higher-Order Interaction Learning</title>
-      <link>https://arxiv.org/abs/2507.01389</link>
-      <description>arXiv:2507.01389v1 Announce Type: cross 
-Abstract: Recently, a surrogate model was proposed that employs a factorization machine to approximate the underlying input-output mapping of the original system, with quantum annealing used to optimize the resulting surrogate function. Inspired by this approach, we propose an enhanced surrogate model that incorporates additional slack variables into both the factorization machine and its associated Ising representation thereby unifying what was by design a two-step process into a single, integrated step. During the training phase, the slack variables are iteratively updated, enabling the model to account for higher-order feature interactions. We apply the proposed method to the task of predicting drug combination effects. Experimental results indicate that the introduction of slack variables leads to a notable improvement of performance. Our algorithm offers a promising approach for building efficient surrogate models that exploit potential quantum advantages.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.01389v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Anbang Wang, Dunbo Cai, Yu Zhang, Yangqing Huang, Xiangyang Feng, Zhihong Zhang</dc:creator>
+      <dc:creator>Yuntian Gu, Wenrui Li, Heng Lin, Bo Zhan, Ruichen Li, Yifei Huang, Di He, Yantao Wu, Tao Xiang, Mingpu Qin, Liwei Wang, Dingshun Lv</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,56 +7,71 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jul 2025 04:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Jul 2025 04:00:12 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Sequence-Model-Guided Measurement Selection for Quantum State Learning</title>
-      <link>https://arxiv.org/abs/2507.09891</link>
-      <description>arXiv:2507.09891v1 Announce Type: new 
-Abstract: Characterization of quantum systems from experimental data is a central problem in quantum science and technology. But which measurements should be used to gather data in the first place? While optimal measurement choices can be worked out for small quantum systems, the optimization becomes intractable as the system size grows large. To address this problem, we introduce a deep neural network with a sequence model architecture that searches for efficient measurement choices in a data-driven, adaptive manner. The model can be applied to a variety of tasks, including the prediction of linear and nonlinear properties of quantum states, as well as state clustering and state tomography tasks. In all these tasks, we find that the measurement choices identified by our neural network consistently outperform the uniformly random choice. Intriguingly, for topological quantum systems, our model tends to recommend measurements at the system's boundaries, even when the task is to predict bulk properties. This behavior suggests that the neural network may have independently discovered a connection between boundaries and bulk, without having been provided any built-in knowledge of quantum physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.09891v1</guid>
+      <title>Formal Verification of Variational Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2507.10635</link>
+      <description>arXiv:2507.10635v1 Announce Type: new 
+Abstract: Variational quantum circuits (VQCs) are a central component of many quantum machine learning algorithms, offering a hybrid quantum-classical framework that, under certain aspects, can be considered similar to classical deep neural networks. A shared aspect is, for instance, their vulnerability to adversarial inputs, small perturbations that can lead to incorrect predictions. While formal verification techniques have been extensively developed for classical models, no comparable framework exists for certifying the robustness of VQCs. Here, we present the first in-depth theoretical and practical study of the formal verification problem for VQCs. Inspired by abstract interpretation methods used in deep learning, we analyze the applicability and limitations of interval-based reachability techniques in the quantum setting. We show that quantum-specific aspects, such as state normalization, introduce inter-variable dependencies that challenge existing approaches. We investigate these issues by introducing a novel semantic framework based on abstract interpretation, where the verification problem for VQCs can be formally defined, and its complexity analyzed. Finally, we demonstrate our approach on standard verification benchmarks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.10635v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.PL</category>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Jiaxin Huang, Yan Zhu, Giulio Chiribella, Ya-Dong Wu</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Nicola Assolini, Luca Marzari, Isabella Mastroeni, Alessandra di Pierro</dc:creator>
     </item>
     <item>
-      <title>Fault-Tolerant Quantum Error Correction for Constant-Excitation Stabilizer Codes under Coherent Noise</title>
-      <link>https://arxiv.org/abs/2507.10395</link>
-      <description>arXiv:2507.10395v1 Announce Type: new 
-Abstract: Collective coherent noise poses challenges for fault-tolerant quantum error correction (FTQEC), as it falls outside the usual stochastic noise models. While constant excitation (CE) codes can naturally avoid coherent noise, a complete fault-tolerant framework for the use of these codes under realistic noise models has been elusive. Here, we introduce a complete fault-tolerant architecture for CE CSS codes based on dual-rail concatenation. After showing that transversal CNOT gates violate CE code constraints, we introduce CE-preserving logical CNOT gates and modified Shor- and Steane-type syndrome extraction schemes using zero-controlled NOT gates and CE-compatible ancilla. This enables fault-tolerant syndrome-extraction circuits fully compatible with CE constraints. We also present an extended stabilizer simulation algorithm that efficiently tracks both stochastic and collective coherent noise. Using our framework, we identify minimal CE codes, including the $[[12,1,3]]$ and $[[14,3,3]]$ codes, and demonstrate that the $[[12,1,3]]$ code achieves strong performance under coherent noise. Our results establish the first complete FTQEC framework for CE codes, demonstrating their robustness to coherent noise. This highlights the potential of CE codes as a possible solution for quantum processors dominated by collective coherent noise.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.10395v1</guid>
+      <title>Stochastic Entanglement Configuration for Constructive Entanglement Topologies in Quantum Machine Learning with Application to Cardiac MRI</title>
+      <link>https://arxiv.org/abs/2507.11401</link>
+      <description>arXiv:2507.11401v1 Announce Type: new 
+Abstract: Efficient entanglement strategies are essential for advancing variational quantum circuits (VQCs) for quantum machine learning (QML). However, most current approaches use fixed entanglement topologies that are not adaptive to task requirements, limiting potential gains over classical models. We introduce a novel stochastic entanglement configuration method that systematically generates diverse entanglement topologies to identify a subspace of constructive entanglement configurations, defined as entanglement topologies that boost hybrid model performance (e.g., classification accuracy) beyond classical baselines. Each configuration is encoded as a stochastic binary matrix, denoting directed entanglement between qubits. This enables scalable exploration of the hyperspace of candidate entanglement topologies using entanglement density and per-qubit constraints as key metrics. We define unconstrained and constrained sampling modes, controlling entanglement per qubit. Using our method, 400 stochastic configurations were generated and evaluated in a hybrid QML for cardiac MRI disease classification. We identified 64 (16%) novel constructive entanglement configurations that consistently outperformed the classical baseline. Ensemble aggregation of top-performing configurations achieved ~0.92 classification accuracy, exceeding the classical model (~0.87) by over 5%. Compared to four conventional topologies (ring, nearest neighbor, no entanglement, fully entangled), none surpassed the classical baseline (maximum accuracy ~0.82), while our configurations delivered up to ~20% higher accuracy. Thus, highlighting the robustness and generalizability of the identified constructive entanglements.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.11401v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CV</category>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Mehri Mehrnia, Mohammed S. M. Elbaz</dc:creator>
+    </item>
+    <item>
+      <title>Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding</title>
+      <link>https://arxiv.org/abs/2507.11534</link>
+      <description>arXiv:2507.11534v1 Announce Type: new 
+Abstract: In this study, we report that quantum quasi-cyclic low-density parity-check codes decoded via joint belief propagation (BP) exhibit steep error-rate curves, despite the presence of error floors. To the best of our knowledge, this is the first observation of such threshold-like behavior for quantum codes with non-vanishing coding rate, excluding those decoded with non-binary BP decoders. Moreover, we find that dominant error events contributing to the error floor typically involve only a small number of bits. These findings suggest that the error floor is caused by trapping sets -- specific subgraph structures in the Tanner graph -- and indicate that identifying and avoiding such structures may lead to further reduction of the error floor.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.11534v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ching-Yi Lai, Pei-Hao Liou, Yingkai Ouyang</dc:creator>
+      <dc:creator>Daiki Komoto, Kenta Kasai</dc:creator>
     </item>
     <item>
-      <title>Surprisingly High Redundancy in Electronic Structure Data</title>
-      <link>https://arxiv.org/abs/2507.09001</link>
-      <description>arXiv:2507.09001v1 Announce Type: cross 
-Abstract: Machine Learning (ML) models for electronic structure rely on large datasets generated through expensive Kohn-Sham Density Functional Theory simulations. This study reveals a surprisingly high level of redundancy in such datasets across various material systems, including molecules, simple metals, and complex alloys. Our findings challenge the prevailing assumption that large, exhaustive datasets are necessary for accurate ML predictions of electronic structure. We demonstrate that even random pruning can substantially reduce dataset size with minimal loss in predictive accuracy, while a state-of-the-art coverage-based pruning strategy retains chemical accuracy and model generalizability using up to 100-fold less data and reducing training time by threefold or more. By contrast, widely used importance-based pruning methods, which eliminate seemingly redundant data, can catastrophically fail at higher pruning factors, possibly due to the significant reduction in data coverage. This heretofore unexplored high degree of redundancy in electronic structure data holds the potential to identify a minimal, essential dataset representative of each material class.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.09001v1</guid>
-      <category>cond-mat.mtrl-sci</category>
-      <category>cond-mat.dis-nn</category>
+      <title>Functional Neural Wavefunction Optimization</title>
+      <link>https://arxiv.org/abs/2507.10835</link>
+      <description>arXiv:2507.10835v1 Announce Type: cross 
+Abstract: We propose a framework for the design and analysis of optimization algorithms in variational quantum Monte Carlo, drawing on geometric insights into the corresponding function space. The framework translates infinite-dimensional optimization dynamics into tractable parameter-space algorithms through a Galerkin projection onto the tangent space of the variational ansatz. This perspective unifies existing methods such as stochastic reconfiguration and Rayleigh-Gauss-Newton, provides connections to classic function-space algorithms, and motivates the derivation of novel algorithms with geometrically principled hyperparameter choices. We validate our framework with numerical experiments demonstrating its practical relevance through the accurate estimation of ground-state energies for several prototypical models in condensed matter physics modeled with neural network wavefunctions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.10835v1</guid>
+      <category>cond-mat.str-el</category>
       <category>cs.LG</category>
+      <category>math.OC</category>
       <category>physics.comp-ph</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Sazzad Hossain, Ponkrshnan Thiagarajan, Shashank Pathrudkar, Stephanie Taylor, Abhijeet S. Gangan, Amartya S. Banerjee, Susanta Ghosh</dc:creator>
+      <dc:creator>Victor Armegioiu, Juan Carrasquilla, Siddhartha Mishra, Johannes M\"uller, Jannes Nys, Marius Zeinhofer, Hang Zhang</dc:creator>
     </item>
   </channel>
 </rss>

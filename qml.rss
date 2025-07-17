@@ -7,71 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Jul 2025 04:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Formal Verification of Variational Quantum Circuits</title>
-      <link>https://arxiv.org/abs/2507.10635</link>
-      <description>arXiv:2507.10635v1 Announce Type: new 
-Abstract: Variational quantum circuits (VQCs) are a central component of many quantum machine learning algorithms, offering a hybrid quantum-classical framework that, under certain aspects, can be considered similar to classical deep neural networks. A shared aspect is, for instance, their vulnerability to adversarial inputs, small perturbations that can lead to incorrect predictions. While formal verification techniques have been extensively developed for classical models, no comparable framework exists for certifying the robustness of VQCs. Here, we present the first in-depth theoretical and practical study of the formal verification problem for VQCs. Inspired by abstract interpretation methods used in deep learning, we analyze the applicability and limitations of interval-based reachability techniques in the quantum setting. We show that quantum-specific aspects, such as state normalization, introduce inter-variable dependencies that challenge existing approaches. We investigate these issues by introducing a novel semantic framework based on abstract interpretation, where the verification problem for VQCs can be formally defined, and its complexity analyzed. Finally, we demonstrate our approach on standard verification benchmarks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.10635v1</guid>
+      <title>Quantum Machine Learning in Multi-Qubit Phase-Space Part I: Foundations</title>
+      <link>https://arxiv.org/abs/2507.12117</link>
+      <description>arXiv:2507.12117v1 Announce Type: new 
+Abstract: Quantum machine learning (QML) seeks to exploit the intrinsic properties of quantum mechanical systems, including superposition, coherence, and quantum entanglement for classical data processing. However, due to the exponential growth of the Hilbert space, QML faces practical limits in classical simulations with the state-vector representation of quantum system. On the other hand, phase-space methods offer an alternative by encoding quantum states as quasi-probability functions. Building on prior work in qubit phase-space and the Stratonovich-Weyl (SW) correspondence, we construct a closed, composable dynamical formalism for one- and many-qubit systems in phase-space. This formalism replaces the operator algebra of the Pauli group with function dynamics on symplectic manifolds, and recasts the curse of dimensionality in terms of harmonic support on a domain that scales linearly with the number of qubits. It opens a new route for QML based on variational modelling over phase-space.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12117v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>cs.PL</category>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Nicola Assolini, Luca Marzari, Isabella Mastroeni, Alessandra di Pierro</dc:creator>
+      <dc:creator>Timothy Heightman, Edward Jiang, Ruth Mora-Soto, Maciej Lewenstein, Marcin P{\l}odzie\'n</dc:creator>
     </item>
     <item>
-      <title>Stochastic Entanglement Configuration for Constructive Entanglement Topologies in Quantum Machine Learning with Application to Cardiac MRI</title>
-      <link>https://arxiv.org/abs/2507.11401</link>
-      <description>arXiv:2507.11401v1 Announce Type: new 
-Abstract: Efficient entanglement strategies are essential for advancing variational quantum circuits (VQCs) for quantum machine learning (QML). However, most current approaches use fixed entanglement topologies that are not adaptive to task requirements, limiting potential gains over classical models. We introduce a novel stochastic entanglement configuration method that systematically generates diverse entanglement topologies to identify a subspace of constructive entanglement configurations, defined as entanglement topologies that boost hybrid model performance (e.g., classification accuracy) beyond classical baselines. Each configuration is encoded as a stochastic binary matrix, denoting directed entanglement between qubits. This enables scalable exploration of the hyperspace of candidate entanglement topologies using entanglement density and per-qubit constraints as key metrics. We define unconstrained and constrained sampling modes, controlling entanglement per qubit. Using our method, 400 stochastic configurations were generated and evaluated in a hybrid QML for cardiac MRI disease classification. We identified 64 (16%) novel constructive entanglement configurations that consistently outperformed the classical baseline. Ensemble aggregation of top-performing configurations achieved ~0.92 classification accuracy, exceeding the classical model (~0.87) by over 5%. Compared to four conventional topologies (ring, nearest neighbor, no entanglement, fully entangled), none surpassed the classical baseline (maximum accuracy ~0.82), while our configurations delivered up to ~20% higher accuracy. Thus, highlighting the robustness and generalizability of the identified constructive entanglements.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.11401v1</guid>
+      <title>BenchRL-QAS: Benchmarking reinforcement learning algorithms for quantum architecture search</title>
+      <link>https://arxiv.org/abs/2507.12189</link>
+      <description>arXiv:2507.12189v1 Announce Type: new 
+Abstract: We introduce BenchRL-QAS, a unified benchmarking framework for systematically evaluating reinforcement learning (RL) algorithms in quantum architecture search (QAS) across diverse variational quantum algorithm tasks and system sizes ranging from 2- to 8-qubit. Our study benchmarks nine RL agents including both value-based and policy-gradient methods on representative quantum problems such as variational quantum eigensolver, variational quantum state diagonalization, quantum classification, and state preparation, spanning both noiseless and realistic noisy regimes. We propose a weighted ranking metric that balances accuracy, circuit depth, gate count, and computational efficiency, enabling fair and comprehensive comparison. Our results first reveal that RL-based quantum classifier outperforms baseline variational classifiers. Then we conclude that no single RL algorithm is universally optimal when considering a set of QAS tasks; algorithmic performance is highly context-dependent, varying with task structure, qubit count, and noise. This empirical finding provides strong evidence for the "no free lunch" principle in RL-based quantum circuit design and highlights the necessity of tailored algorithm selection and systematic benchmarking for advancing quantum circuit synthesis. This work represents the most comprehensive RL-QAS benchmarking effort to date, and BenchRL-QAS along with all experimental data are made publicly available to support reproducibility and future research https://github.com/azhar-ikhtiarudin/bench-rlqas.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12189v1</guid>
       <category>quant-ph</category>
-      <category>cs.CV</category>
-      <category>cs.ET</category>
+      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Mehri Mehrnia, Mohammed S. M. Elbaz</dc:creator>
-    </item>
-    <item>
-      <title>Sharp Error-Rate Transitions in Quantum QC-LDPC Codes under Joint BP Decoding</title>
-      <link>https://arxiv.org/abs/2507.11534</link>
-      <description>arXiv:2507.11534v1 Announce Type: new 
-Abstract: In this study, we report that quantum quasi-cyclic low-density parity-check codes decoded via joint belief propagation (BP) exhibit steep error-rate curves, despite the presence of error floors. To the best of our knowledge, this is the first observation of such threshold-like behavior for quantum codes with non-vanishing coding rate, excluding those decoded with non-binary BP decoders. Moreover, we find that dominant error events contributing to the error floor typically involve only a small number of bits. These findings suggest that the error floor is caused by trapping sets -- specific subgraph structures in the Tanner graph -- and indicate that identifying and avoiding such structures may lead to further reduction of the error floor.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.11534v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.PF</category>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Daiki Komoto, Kenta Kasai</dc:creator>
+      <dc:creator>Azhar Ikhtiarudin, Aditi Das, Param Thakkar, Akash Kundu</dc:creator>
     </item>
     <item>
-      <title>Functional Neural Wavefunction Optimization</title>
-      <link>https://arxiv.org/abs/2507.10835</link>
-      <description>arXiv:2507.10835v1 Announce Type: cross 
-Abstract: We propose a framework for the design and analysis of optimization algorithms in variational quantum Monte Carlo, drawing on geometric insights into the corresponding function space. The framework translates infinite-dimensional optimization dynamics into tractable parameter-space algorithms through a Galerkin projection onto the tangent space of the variational ansatz. This perspective unifies existing methods such as stochastic reconfiguration and Rayleigh-Gauss-Newton, provides connections to classic function-space algorithms, and motivates the derivation of novel algorithms with geometrically principled hyperparameter choices. We validate our framework with numerical experiments demonstrating its practical relevance through the accurate estimation of ground-state energies for several prototypical models in condensed matter physics modeled with neural network wavefunctions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.10835v1</guid>
-      <category>cond-mat.str-el</category>
+      <title>Surrogate Quantum Circuit Design for the Lattice Boltzmann Collision Operator</title>
+      <link>https://arxiv.org/abs/2507.12256</link>
+      <description>arXiv:2507.12256v1 Announce Type: new 
+Abstract: Direct numerical simulation of turbulent flows at high Reynolds numbers remains a major challenge for traditional computational fluid dynamics (CFD) tools running on classical computer hardware. This has motivated growing interest in quantum algorithms for CFD to enable flow simulations on quantum computers. The reason being that these computers are expected to deliver potential speed-ups for certain problems. One promising quantum CFD approach is a fully quantum implementation of the lattice Boltzmann method called QLBM. Although efficient quantum routines are now available for the streaming step, implementing the nonlinear, irreversible collision step with a low depth circuit that avoids additional ancilla qubits, probabilistic post-selection and repeated executions remains a significant challenge. In this study, we address this challenge by introducing a framework for learning a surrogate quantum circuit (SQC) that approximates the full Bhatnagar Gross Krook (BGK) collision operator for the D2Q9 lattice. The four qubit circuit is trained to respect the physical properties of the BGK collision operator, including mass and momentum conservation, D8 equivariance and scale equivariance. When compiled to the gate set used by IBM Heron processor under the assumption of full qubit connectivity, the 15 block SQC requires only 2,430 native gates and uses neither ancilla qubits nor post-selection or repeated executions. Moreover, its depth is independent of the grid resolution, as collision is a local operation that can exploit quantum parallelism to its full extent. We validate the SQC on two benchmark flows, the Taylor Green vortex decay and the lid driven cavity, demonstrating that it accurately captures vortex dissipation and flow recirculation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12256v1</guid>
+      <category>quant-ph</category>
       <category>cs.LG</category>
-      <category>math.OC</category>
       <category>physics.comp-ph</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Victor Armegioiu, Juan Carrasquilla, Siddhartha Mishra, Johannes M\"uller, Jannes Nys, Marius Zeinhofer, Hang Zhang</dc:creator>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Monica L\u{a}c\u{a}tu\c{s}, Matthias M\"oller</dc:creator>
     </item>
   </channel>
 </rss>

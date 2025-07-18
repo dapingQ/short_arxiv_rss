@@ -7,56 +7,54 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jul 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jul 2025 04:00:10 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 18 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Quantum Machine Learning in Multi-Qubit Phase-Space Part I: Foundations</title>
-      <link>https://arxiv.org/abs/2507.12117</link>
-      <description>arXiv:2507.12117v1 Announce Type: new 
-Abstract: Quantum machine learning (QML) seeks to exploit the intrinsic properties of quantum mechanical systems, including superposition, coherence, and quantum entanglement for classical data processing. However, due to the exponential growth of the Hilbert space, QML faces practical limits in classical simulations with the state-vector representation of quantum system. On the other hand, phase-space methods offer an alternative by encoding quantum states as quasi-probability functions. Building on prior work in qubit phase-space and the Stratonovich-Weyl (SW) correspondence, we construct a closed, composable dynamical formalism for one- and many-qubit systems in phase-space. This formalism replaces the operator algebra of the Pauli group with function dynamics on symplectic manifolds, and recasts the curse of dimensionality in terms of harmonic support on a domain that scales linearly with the number of qubits. It opens a new route for QML based on variational modelling over phase-space.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.12117v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Timothy Heightman, Edward Jiang, Ruth Mora-Soto, Maciej Lewenstein, Marcin P{\l}odzie\'n</dc:creator>
-    </item>
-    <item>
-      <title>BenchRL-QAS: Benchmarking reinforcement learning algorithms for quantum architecture search</title>
-      <link>https://arxiv.org/abs/2507.12189</link>
-      <description>arXiv:2507.12189v1 Announce Type: new 
-Abstract: We introduce BenchRL-QAS, a unified benchmarking framework for systematically evaluating reinforcement learning (RL) algorithms in quantum architecture search (QAS) across diverse variational quantum algorithm tasks and system sizes ranging from 2- to 8-qubit. Our study benchmarks nine RL agents including both value-based and policy-gradient methods on representative quantum problems such as variational quantum eigensolver, variational quantum state diagonalization, quantum classification, and state preparation, spanning both noiseless and realistic noisy regimes. We propose a weighted ranking metric that balances accuracy, circuit depth, gate count, and computational efficiency, enabling fair and comprehensive comparison. Our results first reveal that RL-based quantum classifier outperforms baseline variational classifiers. Then we conclude that no single RL algorithm is universally optimal when considering a set of QAS tasks; algorithmic performance is highly context-dependent, varying with task structure, qubit count, and noise. This empirical finding provides strong evidence for the "no free lunch" principle in RL-based quantum circuit design and highlights the necessity of tailored algorithm selection and systematic benchmarking for advancing quantum circuit synthesis. This work represents the most comprehensive RL-QAS benchmarking effort to date, and BenchRL-QAS along with all experimental data are made publicly available to support reproducibility and future research https://github.com/azhar-ikhtiarudin/bench-rlqas.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.12189v1</guid>
+      <title>Quantum Transfer Learning to Boost Dementia Detection</title>
+      <link>https://arxiv.org/abs/2507.12485</link>
+      <description>arXiv:2507.12485v1 Announce Type: new 
+Abstract: Dementia is a devastating condition with profound implications for individuals, families, and healthcare systems. Early and accurate detection of dementia is critical for timely intervention and improved patient outcomes. While classical machine learning and deep learning approaches have been explored extensively for dementia prediction, these solutions often struggle with high-dimensional biomedical data and large-scale datasets, quickly reaching computational and performance limitations. To address this challenge, quantum machine learning (QML) has emerged as a promising paradigm, offering faster training and advanced pattern recognition capabilities. This work aims to demonstrate the potential of quantum transfer learning (QTL) to enhance the performance of a weak classical deep learning model applied to a binary classification task for dementia detection. Besides, we show the effect of noise on the QTL-based approach, investigating the reliability and robustness of this method. Using the OASIS 2 dataset, we show how quantum techniques can transform a suboptimal classical model into a more effective solution for biomedical image classification, highlighting their potential impact on advancing healthcare technology.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12485v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
       <category>cs.LG</category>
-      <category>cs.PF</category>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Azhar Ikhtiarudin, Aditi Das, Param Thakkar, Akash Kundu</dc:creator>
+      <dc:creator>Sounak Bhowmik, Talita Perciano, Himanshu Thapliyal</dc:creator>
     </item>
     <item>
-      <title>Surrogate Quantum Circuit Design for the Lattice Boltzmann Collision Operator</title>
-      <link>https://arxiv.org/abs/2507.12256</link>
-      <description>arXiv:2507.12256v1 Announce Type: new 
-Abstract: Direct numerical simulation of turbulent flows at high Reynolds numbers remains a major challenge for traditional computational fluid dynamics (CFD) tools running on classical computer hardware. This has motivated growing interest in quantum algorithms for CFD to enable flow simulations on quantum computers. The reason being that these computers are expected to deliver potential speed-ups for certain problems. One promising quantum CFD approach is a fully quantum implementation of the lattice Boltzmann method called QLBM. Although efficient quantum routines are now available for the streaming step, implementing the nonlinear, irreversible collision step with a low depth circuit that avoids additional ancilla qubits, probabilistic post-selection and repeated executions remains a significant challenge. In this study, we address this challenge by introducing a framework for learning a surrogate quantum circuit (SQC) that approximates the full Bhatnagar Gross Krook (BGK) collision operator for the D2Q9 lattice. The four qubit circuit is trained to respect the physical properties of the BGK collision operator, including mass and momentum conservation, D8 equivariance and scale equivariance. When compiled to the gate set used by IBM Heron processor under the assumption of full qubit connectivity, the 15 block SQC requires only 2,430 native gates and uses neither ancilla qubits nor post-selection or repeated executions. Moreover, its depth is independent of the grid resolution, as collision is a local operation that can exploit quantum parallelism to its full extent. We validate the SQC on two benchmark flows, the Taylor Green vortex decay and the lid driven cavity, demonstrating that it accurately captures vortex dissipation and flow recirculation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.12256v1</guid>
+      <title>Sporadic Federated Learning Approach in Quantum Environment to Tackle Quantum Noise</title>
+      <link>https://arxiv.org/abs/2507.12492</link>
+      <description>arXiv:2507.12492v1 Announce Type: new 
+Abstract: Quantum Federated Learning (QFL) is an emerging paradigm that combines quantum computing and federated learning (FL) to enable decentralized model training while maintaining data privacy over quantum networks. However, quantum noise remains a significant barrier in QFL, since modern quantum devices experience heterogeneous noise levels due to variances in hardware quality and sensitivity to quantum decoherence, resulting in inadequate training performance. To address this issue, we propose SpoQFL, a novel QFL framework that leverages sporadic learning to mitigate quantum noise heterogeneity in distributed quantum systems. SpoQFL dynamically adjusts training strategies based on noise fluctuations, enhancing model robustness, convergence stability, and overall learning efficiency. Extensive experiments on real-world datasets demonstrate that SpoQFL significantly outperforms conventional QFL approaches, achieving superior training performance and more stable convergence.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12492v1</guid>
       <category>quant-ph</category>
+      <category>cs.AI</category>
       <category>cs.LG</category>
-      <category>physics.comp-ph</category>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <dc:creator>Ratun Rahman, Atit Pokharel, Dinh C. Nguyen</dc:creator>
+    </item>
+    <item>
+      <title>QSpark: Towards Reliable Qiskit Code Generation</title>
+      <link>https://arxiv.org/abs/2507.12642</link>
+      <description>arXiv:2507.12642v1 Announce Type: cross 
+Abstract: Quantum circuits must be error-resilient, yet LLMs like Granite-20B-Code and StarCoder often output flawed Qiskit code. We fine-tuned a 32 B model with two RL methods, Group Relative Policy Optimization (GRPO) and Odds-Ratio Preference Optimization (ORPO), using a richly annotated synthetic dataset. On the Qiskit HumanEval benchmark, ORPO reaches 56.29\% Pass@1 ($\approx+10$ pp over Granite-8B-QK) and GRPO hits 49\%, both beating all general-purpose baselines; on the original HumanEval they score 65.90\% and 63.00\%. GRPO excels on basic tasks (42/54), ORPO on intermediate ones (41/68), and neither solves the five advanced tasks, highlighting clear gains yet room for progress in AI-assisted quantum programming.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.12642v1</guid>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Monica L\u{a}c\u{a}tu\c{s}, Matthias M\"oller</dc:creator>
+      <dc:creator>Kiana Kheiri, Aamna Aamir, Andriy Miranskyy, Chen Ding</dc:creator>
     </item>
   </channel>
 </rss>

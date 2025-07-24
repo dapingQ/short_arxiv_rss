@@ -7,79 +7,69 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Jul 2025 04:00:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Jul 2025 04:00:12 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 24 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Automated Design of Structured Variational Quantum Circuits with Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2507.16001</link>
-      <description>arXiv:2507.16001v1 Announce Type: new 
-Abstract: Variational Quantum Algorithms (VQAs) are among the most promising approaches for leveraging near-term quantum hardware, yet their effectiveness strongly depends on the design of the underlying circuit ansatz, which is typically constructed with heuristic methods. In this work, we represent the synthesis of variational quantum circuits as a sequential decision-making problem, where gates are added iteratively in order to optimize an objective function, and we introduce two reinforcement learning-based methods, RLVQC Global and RLVQC Block, tailored to combinatorial optimization problems. RLVQC Block creates ansatzes that generalize the Quantum Approximate Optimization Algorithm (QAOA), by discovering a two-qubits block that is applied to all the interacting qubit pairs. While RLVQC Global further generalizes the ansatz and adds gates unconstrained by the structure of the interacting qubits. Both methods adopt the Proximal Policy Optimization (PPO) algorithm and use empirical measurement outcomes as state observations to guide the agent. We evaluate the proposed methods on a broad set of QUBO instances derived from classical graph-based optimization problems. Our results show that both RLVQC methods exhibit strong results with RLVQC Block consistently outperforming QAOA and generally surpassing RLVQC Global. While RLVQC Block produces circuits with depth comparable to QAOA, the Global variant is instead able to find significantly shorter ones. These findings suggest that reinforcement learning methods can be an effective tool to discover new ansatz structures tailored for specific problems and that the most effective circuit design strategy lies between rigid predefined architectures and completely unconstrained ones, offering a favourable trade-off between structure and adaptability.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.16001v1</guid>
+      <title>Computational Performance Bounds Prediction in Quantum Computing with Unstable Noise</title>
+      <link>https://arxiv.org/abs/2507.17043</link>
+      <description>arXiv:2507.17043v1 Announce Type: new 
+Abstract: Quantum computing has significantly advanced in recent years, boasting devices with hundreds of quantum bits (qubits), hinting at its potential quantum advantage over classical computing. Yet, noise in quantum devices poses significant barriers to realizing this supremacy. Understanding noise's impact is crucial for reproducibility and application reuse; moreover, the next-generation quantum-centric supercomputing essentially requires efficient and accurate noise characterization to support system management (e.g., job scheduling), where ensuring correct functional performance (i.e., fidelity) of jobs on available quantum devices can even be higher-priority than traditional objectives. However, noise fluctuates over time, even on the same quantum device, which makes predicting the computational bounds for on-the-fly noise is vital. Noisy quantum simulation can offer insights but faces efficiency and scalability issues. In this work, we propose a data-driven workflow, namely QuBound, to predict computational performance bounds. It decomposes historical performance traces to isolate noise sources and devises a novel encoder to embed circuit and noise information processed by a Long Short-Term Memory (LSTM) network. For evaluation, we compare QuBound with a state-of-the-art learning-based predictor, which only generates a single performance value instead of a bound. Experimental results show that the result of the existing approach falls outside of performance bounds, while all predictions from our QuBound with the assistance of performance decomposition better fit the bounds. Moreover, QuBound can efficiently produce practical bounds for various circuits with over 106 speedup over simulation; in addition, the range from QuBound is over 10x narrower than the state-of-the-art analytical approach.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.17043v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Gloria Turati, Simone Foder\`a, Riccardo Nembrini, Maurizio Ferrari Dacrema, Paolo Cremonesi</dc:creator>
-    </item>
-    <item>
-      <title>Minor Embedding for Quantum Annealing with Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2507.16004</link>
-      <description>arXiv:2507.16004v1 Announce Type: new 
-Abstract: Quantum Annealing (QA) is a quantum computing paradigm for solving combinatorial optimization problems formulated as Quadratic Unconstrained Binary Optimization (QUBO) problems. An essential step in QA is minor embedding, which maps the problem graph onto the sparse topology of the quantum processor. This process is computationally expensive and scales poorly with increasing problem size and hardware complexity. Existing heuristics are often developed for specific problem graphs or hardware topologies and are difficult to generalize. Reinforcement Learning (RL) offers a promising alternative by treating minor embedding as a sequential decision-making problem, where an agent learns to construct minor embeddings by iteratively mapping the problem variables to the hardware qubits. We propose a RL-based approach to minor embedding using a Proximal Policy Optimization agent, testing its ability to embed both fully connected and randomly generated problem graphs on two hardware topologies, Chimera and Zephyr. The results show that our agent consistently produces valid minor embeddings, with reasonably efficient number of qubits, in particular on the more modern Zephyr topology. Our proposed approach is also able to scale to moderate problem sizes and adapts well to different graph structures, highlighting RL's potential as a flexible and general-purpose framework for minor embedding in QA.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.16004v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Riccardo Nembrini, Maurizio Ferrari Dacrema, Paolo Cremonesi</dc:creator>
-    </item>
-    <item>
-      <title>Meta-learning of Gibbs states for many-body Hamiltonians with applications to Quantum Boltzmann Machines</title>
-      <link>https://arxiv.org/abs/2507.16373</link>
-      <description>arXiv:2507.16373v1 Announce Type: new 
-Abstract: The preparation of quantum Gibbs states is a fundamental challenge in quantum computing, essential for applications ranging from modeling open quantum systems to quantum machine learning. Building on the Meta-Variational Quantum Eigensolver framework proposed by Cervera-Lierta et al.(2021) and a problem driven ansatz design, we introduce two meta-learning algorithms: Meta-Variational Quantum Thermalizer (Meta-VQT) and Neural Network Meta-VQT (NN-Meta VQT) for efficient thermal state preparation of parametrized Hamiltonians on Noisy Intermediate-Scale Quantum (NISQ) devices. Meta-VQT utilizes a fully quantum ansatz, while NN Meta-VQT integrates a quantum classical hybrid architecture. Both leverage collective optimization over training sets to generalize Gibbs state preparation to unseen parameters. We validate our methods on upto 8-qubit Transverse Field Ising Model and the 2-qubit Heisenberg model with all field terms, demonstrating efficient thermal state generation beyond training data. For larger systems, we show that our meta-learned parameters when combined with appropriately designed ansatz serve as warm start initializations, significantly outperforming random initializations in the optimization tasks. Furthermore, a 3- qubit Kitaev ring example showcases our algorithm's effectiveness across finite-temperature crossover regimes. Finally, we apply our algorithms to train a Quantum Boltzmann Machine (QBM) on a 2-qubit Heisenberg model with all field terms, achieving enhanced training efficiency, improved Gibbs state accuracy, and a 30-fold runtime speedup over existing techniques such as variational quantum imaginary time (VarQITE)-based QBM highlighting the scalability and practicality of meta-algorithm-based QBMs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.16373v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ruchira V Bhat, Rahul Bhowmick, Avinash Singh, Krishna Kumar Sabapathy</dc:creator>
+      <dc:creator>Jinyang Li, Samudra Dasgupta, Yuhong Song, Lei Yang, Travis Humble, Weiwen Jiang</dc:creator>
     </item>
     <item>
-      <title>Adaptive Bayesian Single-Shot Quantum Sensing</title>
-      <link>https://arxiv.org/abs/2507.16477</link>
-      <description>arXiv:2507.16477v1 Announce Type: new 
-Abstract: Quantum sensing harnesses the unique properties of quantum systems to enable precision measurements of physical quantities such as time, magnetic and electric fields, acceleration, and gravitational gradients well beyond the limits of classical sensors. However, identifying suitable sensing probes and measurement schemes can be a classically intractable task, as it requires optimizing over Hilbert spaces of high dimension. In variational quantum sensing, a probe quantum system is generated via a parameterized quantum circuit (PQC), exposed to an unknown physical parameter through a quantum channel, and measured to collect classical data. PQCs and measurements are typically optimized using offline strategies based on frequentist learning criteria. This paper introduces an adaptive protocol that uses Bayesian inference to optimize the sensing policy via the maximization of the active information gain. The proposed variational methodology is tailored for non-asymptotic regimes where a single probe can be deployed in each time step, and is extended to support the fusion of estimates from multiple quantum sensing agents.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.16477v1</guid>
+      <title>Quantum Secret Sharing with Classical and Quantum Shares</title>
+      <link>https://arxiv.org/abs/2507.17364</link>
+      <description>arXiv:2507.17364v1 Announce Type: new 
+Abstract: In quantum secret sharing, a quantum secret state is mapped to multiple shares such that shares from qualified sets can recover the secret state and shares from other forbidden sets reveal nothing about the secret state; we study the setting where there are both classical shares and quantum shares. We show that the quantum secret sharing problem with both classical and quantum shares is feasible if and only if any two qualified sets have some quantum share in common. Next, for threshold quantum secret sharing where there are $N_1$ classical shares, $N_2$ quantum shares and qualified sets consist of any $K_1$ (or more) classical shares and any $K_2 &gt; N_2/2$ (or more) quantum shares, we show that to share $1$ qubit secret, each classical share needs to be at least $2$ bits and each quantum share needs to be at least $1$ qubit. Finally, we characterize the minimum share sizes for quantum secret sharing with at most $2$ classical shares and at most $2$ quantum shares. The converse proofs rely on quantum information inequalities and the achievable schemes use classical secret sharing, (encrypted) quantum secret sharing with only quantum shares, superdense coding, treating quantum digits as classical digits, and their various combinations.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.17364v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>eess.SP</category>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ivana Nikoloska, Ruud Van Sloun, Osvaldo Simeone</dc:creator>
+      <dc:creator>Hua Sun</dc:creator>
     </item>
     <item>
-      <title>Computational aspects of the trace norm contraction coefficient</title>
-      <link>https://arxiv.org/abs/2507.16737</link>
-      <description>arXiv:2507.16737v1 Announce Type: new 
-Abstract: We show that approximating the trace norm contraction coefficient of a quantum channel within a constant factor is NP-hard. Equivalently, this shows that determining the optimal success probability for encoding a bit in a quantum system undergoing noise is NP-hard. This contrasts with the classical analogue of this problem that can clearly by solved efficiently. Our hardness results also hold for deciding if the contraction coefficient is equal to 1. As a consequence, we show that deciding if a non-commutative graph has an independence number of at least 2 is NP-hard. In addition, we establish a converging hierarchy of semidefinite programming upper bounds on the contraction coefficient.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.16737v1</guid>
+      <title>Demonstration of Efficient Predictive Surrogates for Large-scale Quantum Processors</title>
+      <link>https://arxiv.org/abs/2507.17470</link>
+      <description>arXiv:2507.17470v1 Announce Type: new 
+Abstract: The ongoing development of quantum processors is driving breakthroughs in scientific discovery. Despite this progress, the formidable cost of fabricating large-scale quantum processors means they will remain rare for the foreseeable future, limiting their widespread application. To address this bottleneck, we introduce the concept of predictive surrogates, which are classical learning models designed to emulate the mean-value behavior of a given quantum processor with provably computational efficiency. In particular, we propose two predictive surrogates that can substantially reduce the need for quantum processor access in diverse practical scenarios. To demonstrate their potential in advancing digital quantum simulation, we use these surrogates to emulate a quantum processor with up to 20 programmable superconducting qubits, enabling efficient pre-training of variational quantum eigensolvers for families of transverse-field Ising models and identification of non-equilibrium Floquet symmetry-protected topological phases. Experimental results reveal that the predictive surrogates not only reduce measurement overhead by orders of magnitude, but can also surpass the performance of conventional, quantum-resource-intensive approaches. Collectively, these findings establish predictive surrogates as a practical pathway to broadening the impact of advanced quantum processors.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.17470v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Idris Delsol, Omar Fawzi, Jan Kochanowski, Akshay Ramachandran</dc:creator>
+      <dc:creator>Wei-You Liao, Yuxuan Du, Xinbiao Wang, Tian-Ci Tian, Yong Luo, Bo Du, Dacheng Tao, He-Liang Huang</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing Quantum Federated Learning with Fisher Information-Based Optimization</title>
+      <link>https://arxiv.org/abs/2507.17580</link>
+      <description>arXiv:2507.17580v1 Announce Type: cross 
+Abstract: Federated Learning (FL) has become increasingly popular across different sectors, offering a way for clients to work together to train a global model without sharing sensitive data. It involves multiple rounds of communication between the global model and participating clients, which introduces several challenges like high communication costs, heterogeneous client data, prolonged processing times, and increased vulnerability to privacy threats. In recent years, the convergence of federated learning and parameterized quantum circuits has sparked significant research interest, with promising implications for fields such as healthcare and finance. By enabling decentralized training of quantum models, it allows clients or institutions to collaboratively enhance model performance and outcomes while preserving data privacy. Recognizing that Fisher information can quantify the amount of information that a quantum state carries under parameter changes, thereby providing insight into its geometric and statistical properties. We intend to leverage this property to address the aforementioned challenges. In this work, we propose a Quantum Federated Learning (QFL) algorithm that makes use of the Fisher information computed on local client models, with data distributed across heterogeneous partitions. This approach identifies the critical parameters that significantly influence the quantum model's performance, ensuring they are preserved during the aggregation process. Our research assessed the effectiveness and feasibility of QFL by comparing its performance against other variants, and exploring the benefits of incorporating Fisher information in QFL settings. Experimental results on ADNI and MNIST datasets demonstrate the effectiveness of our approach in achieving better performance and robustness against the quantum federated averaging method.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.17580v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.DC</category>
+      <category>cs.ET</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Amandeep Singh Bhatia, Sabre Kais</dc:creator>
     </item>
   </channel>
 </rss>

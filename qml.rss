@@ -7,59 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Jul 2025 04:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 04:00:21 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Unconditional Pseudorandomness against Shallow Quantum Circuits</title>
-      <link>https://arxiv.org/abs/2507.18796</link>
-      <description>arXiv:2507.18796v1 Announce Type: new 
-Abstract: Quantum computational pseudorandomness has emerged as a fundamental notion that spans connections to complexity theory, cryptography and fundamental physics. However, all known constructions of efficient quantum-secure pseudorandom objects rely on complexity theoretic assumptions.
-  In this work, we establish the first unconditionally secure efficient pseudorandom constructions against shallow-depth quantum circuit classes. We prove that:
-  $\bullet$ Any quantum state 2-design yields unconditional pseudorandomness against both $\mathsf{QNC}^0$ circuits with arbitrarily many ancillae and $\mathsf{AC}^0\circ\mathsf{QNC}^0$ circuits with nearly linear ancillae.
-  $\bullet$ Random phased subspace states, where the phases are picked using a 4-wise independent function, are unconditionally pseudoentangled against the above circuit classes.
-  $\bullet$ Any unitary 2-design yields unconditionally secure parallel-query pseudorandom unitaries against geometrically local $\mathsf{QNC}^0$ adversaries, even with limited $\mathsf{AC}^0$ postprocessing.
-  Our indistinguishability results for 2-designs stand in stark contrast to the standard setting of quantum pseudorandomness against $\mathsf{BQP}$ circuits, wherein they can be distinguishable from Haar random ensembles using more than two copies or queries. Our work demonstrates that quantum computational pseudorandomness can be achieved unconditionally for natural classes of restricted adversaries, opening new directions in quantum complexity theory.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.18796v1</guid>
+      <title>PennyCoder: Efficient Domain-Specific LLMs for PennyLane-Based Quantum Code Generation</title>
+      <link>https://arxiv.org/abs/2507.19562</link>
+      <description>arXiv:2507.19562v1 Announce Type: new 
+Abstract: The growing demand for robust quantum programming frameworks has unveiled a critical limitation: current large language model (LLM) based quantum code assistants heavily rely on remote APIs, introducing challenges related to privacy, latency, and excessive usage costs. Addressing this gap, we propose PennyCoder, a novel lightweight framework for quantum code generation, explicitly designed for local and embedded deployment to enable on-device quantum programming assistance without external API dependence. PennyCoder leverages a fine-tuned version of the LLaMA 3.1-8B model, adapted through parameter-efficient Low-Rank Adaptation (LoRA) techniques combined with domain-specific instruction tuning optimized for the specialized syntax and computational logic of quantum programming in PennyLane, including tasks in quantum machine learning and quantum reinforcement learning. Unlike prior work focused on cloud-based quantum code generation, our approach emphasizes device-native operability while maintaining high model efficacy. We rigorously evaluated PennyCoder over a comprehensive quantum programming dataset, achieving 44.3% accuracy with our fine-tuned model (compared to 33.7% for the base LLaMA 3.1-8B and 40.1% for the RAG-augmented baseline), demonstrating a significant improvement in functional correctness.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.19562v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Soumik Ghosh, Sathyawageeswar Subramanian, Wei Zhan</dc:creator>
-    </item>
-    <item>
-      <title>Graph Neural Network-Based Predictor for Optimal Quantum Hardware Selection</title>
-      <link>https://arxiv.org/abs/2507.19093</link>
-      <description>arXiv:2507.19093v1 Announce Type: new 
-Abstract: The growing variety of quantum hardware technologies, each with unique peculiarities such as connectivity and native gate sets, creates challenges when selecting the best platform for executing a specific quantum circuit. This selection process usually involves a brute-force approach: compiling the circuit on various devices and evaluating performance based on factors such as circuit depth and gate fidelity. However, this method is computationally expensive and does not scale well as the number of available quantum processors increases. In this work, we propose a Graph Neural Network (GNN)-based predictor that automates hardware selection by analyzing the Directed Acyclic Graph (DAG) representation of a quantum circuit. Our study evaluates 498 quantum circuits (up to 27 qubits) from the MQT Bench dataset, compiled using Qiskit on four devices: three superconducting quantum processors (IBM-Kyiv, IBM-Brisbane, IBM-Sherbrooke) and one trapped-ion processor (IONQ-Forte). Performance is estimated using a metric that integrates circuit depth and gate fidelity, resulting in a dataset where 93 circuits are optimally compiled on the trapped-ion device, while the remaining circuits prefer superconducting platforms. By exploiting graph-based machine learning, our approach avoids extracting the circuit features for the model evaluation but directly embeds it as a graph, significantly accelerating the optimal target decision-making process and maintaining all the information. Experimental results prove 94.4% accuracy and an 85.5% F1 score for the minority class, effectively predicting the best compilation target. The developed code is publicly available on GitHub (https://github.com/antotu/GNN-Model-Quantum-Predictor).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.19093v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Antonio Tudisco, Deborah Volpe, Giacomo Orlandi, Giovanna Turvani</dc:creator>
+      <dc:creator>Abdul Basit, Minghao Shao, Muhammad Haider Asif, Nouhaila Innan, Muhammad Kashif, Alberto Marchisio, Muhammad Shafique</dc:creator>
     </item>
     <item>
-      <title>Adaptive Neural Quantum States: A Recurrent Neural Network Perspective</title>
-      <link>https://arxiv.org/abs/2507.18700</link>
-      <description>arXiv:2507.18700v1 Announce Type: cross 
-Abstract: Neural-network quantum states (NQS) are powerful neural-network ans\"atzes that have emerged as promising tools for studying quantum many-body physics through the lens of the variational principle. These architectures are known to be systematically improvable by increasing the number of parameters. Here we demonstrate an Adaptive scheme to optimize NQSs, through the example of recurrent neural networks (RNN), using a fraction of the computation cost while reducing training fluctuations and improving the quality of variational calculations targeting ground states of prototypical models in one- and two-spatial dimensions. This Adaptive technique reduces the computational cost through training small RNNs and reusing them to initialize larger RNNs. This work opens up the possibility for optimizing graphical processing unit (GPU) resources deployed in large-scale NQS simulations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.18700v1</guid>
-      <category>cond-mat.dis-nn</category>
-      <category>cond-mat.str-el</category>
-      <category>cs.LG</category>
-      <category>physics.comp-ph</category>
+      <title>Quantum Reinforcement Learning by Adaptive Non-local Observables</title>
+      <link>https://arxiv.org/abs/2507.19629</link>
+      <description>arXiv:2507.19629v1 Announce Type: new 
+Abstract: Hybrid quantum-classical frameworks leverage quantum computing for machine learning; however, variational quantum circuits (VQCs) are limited by the need for local measurements. We introduce an adaptive non-local observable (ANO) paradigm within VQCs for quantum reinforcement learning (QRL), jointly optimizing circuit parameters and multi-qubit measurements. The ANO-VQC architecture serves as the function approximator in Deep Q-Network (DQN) and Asynchronous Advantage Actor-Critic (A3C) algorithms. On multiple benchmark tasks, ANO-VQC agents outperform baseline VQCs. Ablation studies reveal that adaptive measurements enhance the function space without increasing circuit depth. Our results demonstrate that adaptive multi-qubit observables can enable practical quantum advantages in reinforcement learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.19629v1</guid>
       <category>quant-ph</category>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Hsin-Yi Lin, Samuel Yen-Chi Chen, Huan-Hsin Tseng, Shinjae Yoo</dc:creator>
+    </item>
+    <item>
+      <title>Quantum-Informed Machine Learning for Chaotic Systems</title>
+      <link>https://arxiv.org/abs/2507.19861</link>
+      <description>arXiv:2507.19861v1 Announce Type: new 
+Abstract: Learning the behaviour of chaotic systems remains challenging due to instability in long-term predictions and difficulties in accurately capturing invariant statistical properties. While quantum machine learning offers a promising route to efficiently capture physical properties from high-dimensional data, its practical deployment is hindered by current hardware noise and limited scalability. We introduce a quantum-informed machine learning framework for learning partial differential equations, with an application focus on chaotic systems. A quantum circuit Born machine is employed to learn the invariant properties of chaotic dynamical systems, achieving substantial memory efficiency by representing these complex physical statistics with a compact set of trainable circuit parameters. This approach reduces the data storage requirement by over two orders of magnitude compared to the raw simulation data. The resulting statistical quantum-informed prior is then incorporated into a Koopman-based auto-regressive model to address issues such as gradient vanishing or explosion, while maintaining long-term statistical fidelity. The framework is evaluated on three representative systems: the Kuramoto-Sivashinsky equation, two-dimensional Kolmogorov flow and turbulent channel flow. In all cases, the quantum-informed model achieves superior performance compared to its classical counterparts without quantum priors. This hybrid architecture offers a practical route for learning dynamical systems using near-term quantum hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.19861v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Maida Wang, Xiao Xue, Peter V. Coveney</dc:creator>
+    </item>
+    <item>
+      <title>An Efficient Alternating Minimization Algorithm for Computing Quantum Rate-Distortion Function</title>
+      <link>https://arxiv.org/abs/2507.19920</link>
+      <description>arXiv:2507.19920v1 Announce Type: cross 
+Abstract: We consider the computation of the entanglement-assisted quantum rate-distortion function, which plays a central role in quantum information theory. We propose an efficient alternating minimization algorithm based on the Lagrangian analysis. Instead of fixing the multiplier corresponding to the distortion constraint, we update the multiplier in each iteration. Hence the algorithm solves the original problem itself, rather than the Lagrangian relaxation of it. Moreover, all the other variables are iterated in closed form without solving multi-dimensional nonlinear equations or multivariate optimization problems. Numerical experiments show the accuracy of our proposed algorithm and its improved efficiency over existing methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.19920v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Jake McNaughton, Mohamed Hibat-Allah</dc:creator>
+      <dc:creator>Lingyi Chen, Deheng Yuan, Wenyi Zhang, Hao Wu, Huihui Wu</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,129 +7,85 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jul 2025 04:00:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 04:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Benchmarking a Tunable Quantum Neural Network on Trapped-Ion and Superconducting Hardware</title>
-      <link>https://arxiv.org/abs/2507.21222</link>
-      <description>arXiv:2507.21222v1 Announce Type: new 
-Abstract: We implement a quantum generalization of a neural network on trapped-ion and IBM superconducting quantum computers to classify MNIST images, a common benchmark in computer vision. The network feedforward involves qubit rotations whose angles depend on the results of measurements in the previous layer. The network is trained via simulation, but inference is performed experimentally on quantum hardware. The classical-to-quantum correspondence is controlled by an interpolation parameter, $a$, which is zero in the classical limit. Increasing $a$ introduces quantum uncertainty into the measurements, which is shown to improve network performance at moderate values of the interpolation parameter. We then focus on particular images that fail to be classified by a classical neural network but are detected correctly in the quantum network. For such borderline cases, we observe strong deviations from the simulated behavior. We attribute this to physical noise, which causes the output to fluctuate between nearby minima of the classification energy landscape. Such strong sensitivity to physical noise is absent for clear images. We further benchmark physical noise by inserting additional single-qubit and two-qubit gate pairs into the neural network circuits. Our work provides a springboard toward more complex quantum neural networks on current devices: while the approach is rooted in standard classical machine learning, scaling up such networks may prove classically non-simulable and could offer a route to near-term quantum advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.21222v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.dis-nn</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Djamil Lakhdar-Hamina, Xingxin Liu, Richard Barney, Sarah H. Miller, Alaina M. Green, Norbert M. Linke, Victor Galitski</dc:creator>
-    </item>
-    <item>
-      <title>An em algorithm for quantum Boltzmann machines</title>
-      <link>https://arxiv.org/abs/2507.21569</link>
-      <description>arXiv:2507.21569v1 Announce Type: new 
-Abstract: We develop a quantum version of the em algorithm for training quantum Boltzmann machines. The em algorithm is an information-geometric extension of the well-known expectation-maximization (EM) algorithm, offering a structured alternative to gradient-based methods with potential advantages in stability and convergence. We implement the algorithm on a semi-quantum restricted Boltzmann machine, where quantum effects are confined to the hidden layer. This structure enables analytical update rules while preserving quantum expressivity. Numerical experiments on benchmark datasets show that the proposed method achieves stable learning and outperforms gradient-based training in several cases. These results demonstrate the potential of information-geometric optimization for quantum machine learning, particularly in settings where standard methods struggle due to non-commutativity or vanishing gradients.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.21569v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Takeshi Kimura, Kohtaro Kato, Masahito Hayashi</dc:creator>
-    </item>
-    <item>
-      <title>Data-driven quantum Koopman method for simulating nonlinear dynamics</title>
-      <link>https://arxiv.org/abs/2507.21890</link>
-      <description>arXiv:2507.21890v1 Announce Type: new 
-Abstract: Quantum computation offers potential exponential speedups for simulating certain physical systems, but its application to nonlinear dynamics is inherently constrained by the requirement of unitary evolution. We propose the quantum Koopman method (QKM), a data-driven framework that bridges this gap through transforming nonlinear dynamics into linear unitary evolution in higher-dimensional observable spaces. Leveraging the Koopman operator theory to achieve a global linearization, our approach maps system states into a hierarchy of Hilbert spaces using a deep autoencoder. Within the linearized embedding spaces, the state representation is decomposed into modulus and phase components, and the evolution is governed by a set of unitary Koopman operators that act exclusively on the phase. These operators are constructed from diagonal Hamiltonians with coefficients learned from data, a structure designed for efficient implementation on quantum hardware. This architecture enables direct multi-step prediction, and the operator's computational complexity scales logarithmically with the observable space dimension. The QKM is validated across diverse nonlinear systems. Its predictions maintain relative errors below 6% for reaction-diffusion systems and shear flows, and capture key statistics in 2D turbulence. This work establishes a practical pathway for quantum-accelerated simulation of nonlinear phenomena, exploring a framework built on the synergy between deep learning for global linearization and quantum algorithms for unitary dynamics evolution.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.21890v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>physics.comp-ph</category>
-      <category>physics.flu-dyn</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Baoyang Zhang, Zhen Lu, Yaomin Zhao, Yue Yang</dc:creator>
-    </item>
-    <item>
-      <title>Pauli Measurements Are Near-Optimal for Single-Qubit Tomography</title>
-      <link>https://arxiv.org/abs/2507.22001</link>
-      <description>arXiv:2507.22001v1 Announce Type: new 
-Abstract: We provide the first non-trivial lower bounds for single-qubit tomography algorithms and show that at least ${\Omega}\left(\frac{10^N}{\sqrt{N} \varepsilon^2}\right)$ copies are required to learn an $N$-qubit state $\rho\in\mathbb{C}^{d\times d},d=2^N$ to within $\varepsilon$ trace distance. Pauli measurements, the most commonly used single-qubit measurement scheme, have recently been shown to require at most $O\left(\frac{10^N}{\varepsilon^2}\right)$ copies for this problem. Combining these results, we nearly settle the long-standing question of the complexity of single-qubit tomography.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22001v1</guid>
-      <category>quant-ph</category>
+      <title>Approximating the quantum value of an LCS game is RE-hard</title>
+      <link>https://arxiv.org/abs/2507.22444</link>
+      <description>arXiv:2507.22444v1 Announce Type: cross 
+Abstract: We generalize H\r{a}stad's long-code test for projection games and show that it remains complete and sound against entangled provers.
+  Combined with a result of Dong et al. \cite{Dong25}, which establishes that $\MIP^*=\RE$ with constant-length answers, we derive that $\LIN^*_{1-\epsilon,s}=\RE$, for some $1/2&lt; s&lt;1$ and for every sufficiently small $\epsilon&gt;0$, where LIN refers to linearity (over $\mathbb{F}_2$) of the verifier predicate. Achieving the same result with $\epsilon=0$ would imply the existence of a non-hyperlinear group.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22444v1</guid>
       <category>cs.CC</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jayadev Acharya, Abhilash Dharmavarapu, Yuhan Liu, Nengkun Yu</dc:creator>
-    </item>
-    <item>
-      <title>Supervised Quantum Image Processing</title>
-      <link>https://arxiv.org/abs/2507.22039</link>
-      <description>arXiv:2507.22039v1 Announce Type: new 
-Abstract: In the era of big data and artificial intelligence, the increasing volume of data and the demand to solve more and more complex computational challenges are two driving forces for improving the efficiency of data storage, processing and analysis. Quantum image processing (QIP) is an interdisciplinary field between quantum information science and image processing, which has the potential to alleviate some of these challenges by leveraging the power of quantum computing. In this work, we compare and examine the compression properties of four different Quantum Image Representations (QImRs): namely, Tensor Network Representation (TNR), Flexible Representation of Quantum Image (FRQI), Novel Enhanced Quantum Representation NEQR, and Quantum Probability Image Encoding (QPIE). Our simulations show that FRQI performs a higher compression of image information than TNR, NEQR, and QPIE. Furthermore, we investigate the trade-off between accuracy and memory in binary classification problems, evaluating the performance of quantum kernels based on QImRs compared to the classical linear kernel. Our results indicate that quantum kernels provide comparable classification average accuracy but require exponentially fewer resources for image storage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22039v1</guid>
+      <category>math-ph</category>
+      <category>math.MP</category>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.CV</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Marco Parigi, Mehran Khosrojerdi, Filippo Caruso, Leonardo Banchi</dc:creator>
-    </item>
-    <item>
-      <title>On the Generalization of Kitaev Codes as Generalized Bicycle Codes</title>
-      <link>https://arxiv.org/abs/2504.18360</link>
-      <description>arXiv:2504.18360v1 Announce Type: cross 
-Abstract: Surface codes have historically been the dominant choice for quantum error correction due to their superior error threshold performance. However, recently, a new class of Generalized Bicycle (GB) codes, constructed from binary circulant matrices with three non-zero elements per row, achieved comparable performance with fewer physical qubits and higher encoding efficiency.
-  In this article, we focus on a subclass of GB codes, which are constructed from pairs of binary circulant matrices with two non-zero elements per row.
-  We introduce a family of codes that generalizes both standard and optimized Kitaev codes for which we have a lower bound on their minimum distance, ensuring performance better than standard Kitaev codes. These codes exhibit parameters of the form $ [| 2n , 2, \geq \sqrt{n} |] $ where $ n$ is a factor of $ 1 + d^2 $. For code lengths below 200, our analysis yields $21$ codes, including $7$ codes from Pryadko and Wang's database, and unveils $14$ new codes with enhanced minimum distance compared to standard Kitaev codes. Among these, $3$ surpass all previously known weight-4 GB codes for distances $4$, $8$, and $12$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.18360v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Fran\c{c}ois Arnault, Philippe Gaborit, Nicolas Saussay</dc:creator>
+      <dc:creator>Aviv Taller, Thomas Vidick</dc:creator>
     </item>
     <item>
-      <title>Quantum Geometry of Data</title>
-      <link>https://arxiv.org/abs/2507.21135</link>
-      <description>arXiv:2507.21135v1 Announce Type: cross 
-Abstract: We demonstrate how Quantum Cognition Machine Learning (QCML) encodes data as quantum geometry. In QCML, features of the data are represented by learned Hermitian matrices, and data points are mapped to states in Hilbert space. The quantum geometry description endows the dataset with rich geometric and topological structure - including intrinsic dimension, quantum metric, and Berry curvature - derived directly from the data. QCML captures global properties of data, while avoiding the curse of dimensionality inherent in local methods. We illustrate this on a number of synthetic and real-world examples. Quantum geometric representation of QCML could advance our understanding of cognitive phenomena within the framework of quantum cognition.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.21135v1</guid>
-      <category>cs.LG</category>
+      <title>Quantum-assisted Gaussian process regression using random Fourier features</title>
+      <link>https://arxiv.org/abs/2507.22629</link>
+      <description>arXiv:2507.22629v1 Announce Type: cross 
+Abstract: Probabilistic machine learning models are distinguished by their ability to integrate prior knowledge of noise statistics, smoothness parameters, and training data uncertainty. A common approach involves modeling data with Gaussian processes; however, their computational complexity quickly becomes intractable as the training dataset grows. To address this limitation, we introduce a quantum-assisted algorithm for sparse Gaussian process regression based on the random Fourier feature kernel approximation. We start by encoding the data matrix into a quantum state using a multi-controlled unitary operation, which encodes the classical representation of the random Fourier features matrix used for kernel approximation. We then employ a quantum principal component analysis along with a quantum phase estimation technique to extract the spectral decomposition of the kernel matrix. We apply a conditional rotation operator to the ancillary qubit based on the eigenvalue. We then use Hadamard and swap tests to compute the mean and variance of the posterior Gaussian distribution. We achieve a polynomial-order computational speedup relative to the classical method.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22629v1</guid>
+      <category>stat.CO</category>
       <category>quant-ph</category>
       <category>stat.ML</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Alexander G. Abanov, Luca Candelori, Harold C. Steinacker, Martin T. Wells, Jerome R. Busemeyer, Cameron J. Hogan, Vahagn Kirakosyan, Nicola Marzari, Sunil Pinnamaneni, Dario Villani, Mengjia Xu, Kharen Musaelian</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Cristian A. Galvis-Florez, Ahmad Farooq, Simo S\"arkk\"a</dc:creator>
     </item>
     <item>
-      <title>(2,2)-GB Codes: Classification and Comparison with weight-4 Surface Codes</title>
-      <link>https://arxiv.org/abs/2507.21237</link>
-      <description>arXiv:2507.21237v1 Announce Type: cross 
-Abstract: Generalized Bicycle (GB) codes offer a compelling alternative to surface codes for quantum error correction. This paper focuses on (2,2)-Generalized Bicycle codes, constructed from pairs of binary circulant matrices with two non-zero elements per row. Leveraging a lower bound on their minimum distance, we construct three novel infinite families of optimal (2,2)-GB codes with parameters [[ 2n^2, 2, n ]], [[ 4r^2, 2, 2r ]], and [[(2t + 1)^2 + 1, 2, 2t + 1 ]]. These families match the performance of Kitaev's toric code and the best 2D weight-4 surface codes, reaching known theoretical limits. In particular, the second family breaks a long-held belief by providing optimal even-distance GB codes, previously deemed impossible.
-  All are CSS codes derived from Cayley graphs. Recognizing that standard equivalence relations do not preserve their CSS structure, we introduce a CSS-preserving equivalence relation for rigorous comparison of Cayley graph-based CSS codes. Under this framework, the first two families are inequivalent to all previously known optimal weight-4 2D surface codes, while the third family is equivalent to the best-known odd-distance 2D surface code.
-  Finally, we classify all extremal, non-equivalent (2,2)-GB codes with length below 200 and present a comparison table with existing notable 2D weight-4 surface codes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.21237v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
+      <title>Enhanced Prediction of CAR T-Cell Cytotoxicity with Quantum-Kernel Methods</title>
+      <link>https://arxiv.org/abs/2507.22710</link>
+      <description>arXiv:2507.22710v1 Announce Type: cross 
+Abstract: Chimeric antigen receptor (CAR) T-cells are T-cells engineered to recognize and kill specific tumor cells. Through their extracellular domains, CAR T-cells bind tumor cell antigens which triggers CAR T activation and proliferation. These processes are regulated by co-stimulatory domains present in the intracellular region of the CAR T-cell. Through integrating novel signaling components into the co-stimulatory domains, it is possible to modify CAR T-cell phenotype. Identifying and experimentally testing new CAR constructs based on libraries of co-stimulatory domains is nontrivial given the vast combinatorial space defined by such libraries. This leads to a highly data constrained, poorly explored combinatorial problem, where the experiments undersample all possible combinations. We propose a quantum approach using a Projected Quantum Kernel (PQK) to address this challenge. PQK operates by embedding classical data into a high dimensional Hilbert space and employs a kernel method to measure sample similarity. Using 61 qubits on a gate-based quantum computer, we demonstrate the largest PQK application to date and an enhancement in the classification performance over purely classical machine learning methods for CAR T cytotoxicity prediction. Importantly, we show improved learning for specific signaling domains and domain positions, particularly where there was lower information highlighting the potential for quantum computing in data-constrained problems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22710v1</guid>
+      <category>cs.LG</category>
+      <category>q-bio.QM</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Fran\c{c}ois Arnault, Philippe Gaborit, Nicolas Saussay</dc:creator>
+      <dc:creator>Filippo Utro, Meltem Tolunay, Kahn Rhrissorrakrai, Tanvi P. Gujarati, Jie Shi, Sara Capponi, Mirko Amico, Nate Earnest-Noble, Laxmi Parida</dc:creator>
+    </item>
+    <item>
+      <title>DO-EM: Density Operator Expectation Maximization</title>
+      <link>https://arxiv.org/abs/2507.22786</link>
+      <description>arXiv:2507.22786v1 Announce Type: cross 
+Abstract: Density operators, quantum generalizations of probability distributions, are gaining prominence in machine learning due to their foundational role in quantum computing. Generative modeling based on density operator models (\textbf{DOMs}) is an emerging field, but existing training algorithms -- such as those for the Quantum Boltzmann Machine -- do not scale to real-world data, such as the MNIST dataset. The Expectation-Maximization algorithm has played a fundamental role in enabling scalable training of probabilistic latent variable models on real-world datasets. \textit{In this paper, we develop an Expectation-Maximization framework to learn latent variable models defined through \textbf{DOMs} on classical hardware, with resources comparable to those used for probabilistic models, while scaling to real-world data.} However, designing such an algorithm is nontrivial due to the absence of a well-defined quantum analogue to conditional probability, which complicates the Expectation step. To overcome this, we reformulate the Expectation step as a quantum information projection (QIP) problem and show that the Petz Recovery Map provides a solution under sufficient conditions. Using this formulation, we introduce the Density Operator Expectation Maximization (DO-EM) algorithm -- an iterative Minorant-Maximization procedure that optimizes a quantum evidence lower bound. We show that the \textbf{DO-EM} algorithm ensures non-decreasing log-likelihood across iterations for a broad class of models. Finally, we present Quantum Interleaved Deep Boltzmann Machines (\textbf{QiDBMs}), a \textbf{DOM} that can be trained with the same resources as a DBM. When trained with \textbf{DO-EM} under Contrastive Divergence, a \textbf{QiDBM} outperforms larger classical DBMs in image generation on the MNIST dataset, achieving a 40--60\% reduction in the Fr\'echet Inception Distance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22786v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Adit Vishnu, Abhay Shastry, Dhruva Kashyap, Chiranjib Bhattacharyya</dc:creator>
+    </item>
+    <item>
+      <title>A Bit of Freedom Goes a Long Way: Classical and Quantum Algorithms for Reinforcement Learning under a Generative Model</title>
+      <link>https://arxiv.org/abs/2507.22854</link>
+      <description>arXiv:2507.22854v1 Announce Type: cross 
+Abstract: We propose novel classical and quantum online algorithms for learning finite-horizon and infinite-horizon average-reward Markov Decision Processes (MDPs). Our algorithms are based on a hybrid exploration-generative reinforcement learning (RL) model wherein the agent can, from time to time, freely interact with the environment in a generative sampling fashion, i.e., by having access to a "simulator". By employing known classical and new quantum algorithms for approximating optimal policies under a generative model within our learning algorithms, we show that it is possible to avoid several paradigms from RL like "optimism in the face of uncertainty" and "posterior sampling" and instead compute and use optimal policies directly, which yields better regret bounds compared to previous works. For finite-horizon MDPs, our quantum algorithms obtain regret bounds which only depend logarithmically on the number of time steps $T$, thus breaking the $O(\sqrt{T})$ classical barrier. This matches the time dependence of the prior quantum works of Ganguly et al. (arXiv'23) and Zhong et al. (ICML'24), but with improved dependence on other parameters like state space size $S$ and action space size $A$. For infinite-horizon MDPs, our classical and quantum bounds still maintain the $O(\sqrt{T})$ dependence but with better $S$ and $A$ factors. Nonetheless, we propose a novel measure of regret for infinite-horizon MDPs with respect to which our quantum algorithms have $\operatorname{poly}\log{T}$ regret, exponentially better compared to classical algorithms. Finally, we generalise all of our results to compact state spaces.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22854v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>math.OC</category>
+      <category>quant-ph</category>
+      <category>stat.ML</category>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Andris Ambainis, Joao F. Doriguello, Debbie Lim</dc:creator>
     </item>
   </channel>
 </rss>

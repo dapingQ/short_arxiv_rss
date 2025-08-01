@@ -7,85 +7,41 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Jul 2025 04:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Approximating the quantum value of an LCS game is RE-hard</title>
-      <link>https://arxiv.org/abs/2507.22444</link>
-      <description>arXiv:2507.22444v1 Announce Type: cross 
-Abstract: We generalize H\r{a}stad's long-code test for projection games and show that it remains complete and sound against entangled provers.
-  Combined with a result of Dong et al. \cite{Dong25}, which establishes that $\MIP^*=\RE$ with constant-length answers, we derive that $\LIN^*_{1-\epsilon,s}=\RE$, for some $1/2&lt; s&lt;1$ and for every sufficiently small $\epsilon&gt;0$, where LIN refers to linearity (over $\mathbb{F}_2$) of the verifier predicate. Achieving the same result with $\epsilon=0$ would imply the existence of a non-hyperlinear group.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22444v1</guid>
+      <title>Improved Simulation of Asynchronous Entanglement Distribution in Noisy Quantum Networks</title>
+      <link>https://arxiv.org/abs/2507.22992</link>
+      <description>arXiv:2507.22992v1 Announce Type: new 
+Abstract: This work introduces a lightweight simulation framework for evaluating asynchronous entanglement distribution protocols under realistic error models. We focus on two contemporary protocols: sequential, where entanglement is established one node at a time, and parallel, where all nodes attempt to generate entanglement simultaneously. We evaluate the performance of each protocol using two key metrics: the fidelity of distributed entangled states, and the hashing rate, a measure of entanglement efficiency. These metrics are compared between both protocols across a range of network sizes and noise parameters. We demonstrate that the parallel protocol consistently outperforms the sequential, particularly in the hashing rate metric due to reduced runtime, suggesting that parallel protocols are a strong candidate for a realizable quantum Internet. Our framework offers an accessible and scalable tool for evaluating entanglement distribution strategies, by reducing the simulation of complex quantum processes to simple memory time calculations.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.22992v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>physics.optics</category>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Emma Hughes, William Munizzi, Prineha Narang</dc:creator>
+    </item>
+    <item>
+      <title>Amplitude amplification and estimation require inverses</title>
+      <link>https://arxiv.org/abs/2507.23787</link>
+      <description>arXiv:2507.23787v1 Announce Type: new 
+Abstract: We prove that the generic quantum speedups for brute-force search and counting only hold when the process we apply them to can be efficiently inverted. The algorithms speeding up these problems, amplitude amplification and amplitude estimation, assume the ability to apply a state preparation unitary $U$ and its inverse $U^\dagger$; we give problem instances based on trace estimation where no algorithm which uses only $U$ beats the naive, quadratically slower approach. Our proof of this is simple and goes through the compressed oracle method introduced by Zhandry. Since these two subroutines are responsible for the ubiquity of the quadratic "Grover" speedup in quantum algorithms, our result explains why such speedups are far harder to come by in the settings of quantum learning, metrology, and sensing. In these settings, $U$ models the evolution of an experimental system, so implementing $U^\dagger$ can be much harder -- tantamount to reversing time within the system. Our result suggests a dichotomy: without inverse access, quantum speedups are scarce; with it, quantum speedups abound.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2507.23787v1</guid>
+      <category>quant-ph</category>
       <category>cs.CC</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Aviv Taller, Thomas Vidick</dc:creator>
-    </item>
-    <item>
-      <title>Quantum-assisted Gaussian process regression using random Fourier features</title>
-      <link>https://arxiv.org/abs/2507.22629</link>
-      <description>arXiv:2507.22629v1 Announce Type: cross 
-Abstract: Probabilistic machine learning models are distinguished by their ability to integrate prior knowledge of noise statistics, smoothness parameters, and training data uncertainty. A common approach involves modeling data with Gaussian processes; however, their computational complexity quickly becomes intractable as the training dataset grows. To address this limitation, we introduce a quantum-assisted algorithm for sparse Gaussian process regression based on the random Fourier feature kernel approximation. We start by encoding the data matrix into a quantum state using a multi-controlled unitary operation, which encodes the classical representation of the random Fourier features matrix used for kernel approximation. We then employ a quantum principal component analysis along with a quantum phase estimation technique to extract the spectral decomposition of the kernel matrix. We apply a conditional rotation operator to the ancillary qubit based on the eigenvalue. We then use Hadamard and swap tests to compute the mean and variance of the posterior Gaussian distribution. We achieve a polynomial-order computational speedup relative to the classical method.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22629v1</guid>
-      <category>stat.CO</category>
-      <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.DS</category>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Cristian A. Galvis-Florez, Ahmad Farooq, Simo S\"arkk\"a</dc:creator>
-    </item>
-    <item>
-      <title>Enhanced Prediction of CAR T-Cell Cytotoxicity with Quantum-Kernel Methods</title>
-      <link>https://arxiv.org/abs/2507.22710</link>
-      <description>arXiv:2507.22710v1 Announce Type: cross 
-Abstract: Chimeric antigen receptor (CAR) T-cells are T-cells engineered to recognize and kill specific tumor cells. Through their extracellular domains, CAR T-cells bind tumor cell antigens which triggers CAR T activation and proliferation. These processes are regulated by co-stimulatory domains present in the intracellular region of the CAR T-cell. Through integrating novel signaling components into the co-stimulatory domains, it is possible to modify CAR T-cell phenotype. Identifying and experimentally testing new CAR constructs based on libraries of co-stimulatory domains is nontrivial given the vast combinatorial space defined by such libraries. This leads to a highly data constrained, poorly explored combinatorial problem, where the experiments undersample all possible combinations. We propose a quantum approach using a Projected Quantum Kernel (PQK) to address this challenge. PQK operates by embedding classical data into a high dimensional Hilbert space and employs a kernel method to measure sample similarity. Using 61 qubits on a gate-based quantum computer, we demonstrate the largest PQK application to date and an enhancement in the classification performance over purely classical machine learning methods for CAR T cytotoxicity prediction. Importantly, we show improved learning for specific signaling domains and domain positions, particularly where there was lower information highlighting the potential for quantum computing in data-constrained problems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22710v1</guid>
-      <category>cs.LG</category>
-      <category>q-bio.QM</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Filippo Utro, Meltem Tolunay, Kahn Rhrissorrakrai, Tanvi P. Gujarati, Jie Shi, Sara Capponi, Mirko Amico, Nate Earnest-Noble, Laxmi Parida</dc:creator>
-    </item>
-    <item>
-      <title>DO-EM: Density Operator Expectation Maximization</title>
-      <link>https://arxiv.org/abs/2507.22786</link>
-      <description>arXiv:2507.22786v1 Announce Type: cross 
-Abstract: Density operators, quantum generalizations of probability distributions, are gaining prominence in machine learning due to their foundational role in quantum computing. Generative modeling based on density operator models (\textbf{DOMs}) is an emerging field, but existing training algorithms -- such as those for the Quantum Boltzmann Machine -- do not scale to real-world data, such as the MNIST dataset. The Expectation-Maximization algorithm has played a fundamental role in enabling scalable training of probabilistic latent variable models on real-world datasets. \textit{In this paper, we develop an Expectation-Maximization framework to learn latent variable models defined through \textbf{DOMs} on classical hardware, with resources comparable to those used for probabilistic models, while scaling to real-world data.} However, designing such an algorithm is nontrivial due to the absence of a well-defined quantum analogue to conditional probability, which complicates the Expectation step. To overcome this, we reformulate the Expectation step as a quantum information projection (QIP) problem and show that the Petz Recovery Map provides a solution under sufficient conditions. Using this formulation, we introduce the Density Operator Expectation Maximization (DO-EM) algorithm -- an iterative Minorant-Maximization procedure that optimizes a quantum evidence lower bound. We show that the \textbf{DO-EM} algorithm ensures non-decreasing log-likelihood across iterations for a broad class of models. Finally, we present Quantum Interleaved Deep Boltzmann Machines (\textbf{QiDBMs}), a \textbf{DOM} that can be trained with the same resources as a DBM. When trained with \textbf{DO-EM} under Contrastive Divergence, a \textbf{QiDBM} outperforms larger classical DBMs in image generation on the MNIST dataset, achieving a 40--60\% reduction in the Fr\'echet Inception Distance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22786v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Adit Vishnu, Abhay Shastry, Dhruva Kashyap, Chiranjib Bhattacharyya</dc:creator>
-    </item>
-    <item>
-      <title>A Bit of Freedom Goes a Long Way: Classical and Quantum Algorithms for Reinforcement Learning under a Generative Model</title>
-      <link>https://arxiv.org/abs/2507.22854</link>
-      <description>arXiv:2507.22854v1 Announce Type: cross 
-Abstract: We propose novel classical and quantum online algorithms for learning finite-horizon and infinite-horizon average-reward Markov Decision Processes (MDPs). Our algorithms are based on a hybrid exploration-generative reinforcement learning (RL) model wherein the agent can, from time to time, freely interact with the environment in a generative sampling fashion, i.e., by having access to a "simulator". By employing known classical and new quantum algorithms for approximating optimal policies under a generative model within our learning algorithms, we show that it is possible to avoid several paradigms from RL like "optimism in the face of uncertainty" and "posterior sampling" and instead compute and use optimal policies directly, which yields better regret bounds compared to previous works. For finite-horizon MDPs, our quantum algorithms obtain regret bounds which only depend logarithmically on the number of time steps $T$, thus breaking the $O(\sqrt{T})$ classical barrier. This matches the time dependence of the prior quantum works of Ganguly et al. (arXiv'23) and Zhong et al. (ICML'24), but with improved dependence on other parameters like state space size $S$ and action space size $A$. For infinite-horizon MDPs, our classical and quantum bounds still maintain the $O(\sqrt{T})$ dependence but with better $S$ and $A$ factors. Nonetheless, we propose a novel measure of regret for infinite-horizon MDPs with respect to which our quantum algorithms have $\operatorname{poly}\log{T}$ regret, exponentially better compared to classical algorithms. Finally, we generalise all of our results to compact state spaces.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2507.22854v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>math.OC</category>
-      <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Thu, 31 Jul 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Andris Ambainis, Joao F. Doriguello, Debbie Lim</dc:creator>
+      <dc:creator>Ewin Tang, John Wright</dc:creator>
     </item>
   </channel>
 </rss>

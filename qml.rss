@@ -7,97 +7,38 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Aug 2025 04:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 04:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 06 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Proof of Hiding Conjecture in Gaussian Boson Sampling</title>
-      <link>https://arxiv.org/abs/2508.00983</link>
-      <description>arXiv:2508.00983v1 Announce Type: new 
-Abstract: Gaussian boson sampling (GBS) is a promising protocol for demonstrating quantum computational advantage. One of the key steps for proving classical hardness of GBS is the so-called ``hiding conjecture'', which asserts that one can ``hide'' a complex Gaussian matrix as a submatrix of the outer product of Haar unitary submatrices in total variation distance. In this paper, we prove the hiding conjecture for input states with the maximal number of squeezed states, which is a setup that has recently been realized experimentally [Madsen et al., Nature 606, 75 (2022)]. In this setting, the hiding conjecture states that a $o(\sqrt{M})\times o(\sqrt{M})$ submatrix of an $M\times M$ circular orthogonal ensemble (COE) random matrix can be well-approximated by a complex Gaussian matrix in total variation distance as $M\to\infty$. This is the first rigorous proof of the hiding property for GBS in the experimentally relevant regime, and puts the argument for hardness of classically simulating GBS with a maximal number of squeezed states on a comparable level to that of the conventional boson sampling of [Aaronson and Arkhipov, Theory Comput. 9, 143 (2013)].</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.00983v1</guid>
+      <title>Thermodynamic Signature of Logical Depth in Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2508.03203</link>
+      <description>arXiv:2508.03203v1 Announce Type: new 
+Abstract: We demonstrate that the internal logical structure of a quantum circuit can leave a distinct thermodynamic signature under progressive decoherence. By comparing deep, conditionally branching circuits with shallow, uniform counterparts-while controlling for overall halting probability and physical resources-we show that branching architectures induce greater entropy flow into the environment. This effect is captured by a logical depth factor $L_d$, which quantifies entropy accumulation during environmental interactions. We validate our framework through detailed analysis of two 4-branch quantum circuits, demonstrating greater entropy production with $L_d \approx 1.615$ for conditional versus uniform architectures. An ancilla-based experimental protocol using controlled-phase gates provides a concrete pathway for detecting these thermodynamic signatures on current quantum platforms. Our results establish logical depth as a physically measurable quantity with implications for circuit design, compilation strategies, and verification protocols.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.03203v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Laura Shou, Sarah H. Miller, Victor Galitski</dc:creator>
-    </item>
-    <item>
-      <title>TensoMeta-VQC: A Tensor-Train-Guided Meta-Learning Framework for Robust and Scalable Variational Quantum Computing</title>
-      <link>https://arxiv.org/abs/2508.01116</link>
-      <description>arXiv:2508.01116v1 Announce Type: new 
-Abstract: Variational Quantum Computing (VQC) faces fundamental barriers in scalability, primarily due to barren plateaus and quantum noise sensitivity. To address these challenges, we introduce TensoMeta-VQC, a novel tensor-train (TT)-guided meta-learning framework designed to improve the robustness and scalability of VQC significantly. Our framework fully delegates the generation of quantum circuit parameters to a classical TT network, effectively decoupling optimization from quantum hardware. This innovative parameterization mitigates gradient vanishing, enhances noise resilience through structured low-rank representations, and facilitates efficient gradient propagation. Based on Neural Tangent Kernel and statistical learning theory, our rigorous theoretical analyses establish strong guarantees on approximation capability, optimization stability, and generalization performance. Extensive empirical results across quantum dot classification, Max-Cut optimization, and molecular quantum simulation tasks demonstrate that TensoMeta-VQC consistently achieves superior performance and robust noise tolerance, establishing it as a principled pathway toward practical and scalable VQC on near-term quantum devices.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.01116v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jun Qi, Chao-Han Yang, Pin-Yu Chen, Min-Hsiu Hsieh</dc:creator>
+      <dc:creator>Issam Ibnouhsein</dc:creator>
     </item>
     <item>
-      <title>Distributed fault-tolerant quantum memories over a 2xL array of qubit modules</title>
-      <link>https://arxiv.org/abs/2508.01879</link>
-      <description>arXiv:2508.01879v1 Announce Type: new 
-Abstract: We propose an architecture for a quantum memory distributed over a $2 \times L$ array of modules equipped with a cyclic shift implemented via flying qubits. The logical information is distributed across the first row of $L$ modules and quantum error correction is executed using ancilla modules on the second row equipped with a cyclic shift. This work proves that quantum LDPC codes such as BB codes can maintain their performance in a distributed setting while using solely one simple connector: a cyclic shift. We propose two strategies to perform quantum error correction on a $2 \times L$ module array: (i) The cyclic layout which applies to any stabilizer codes, whereas previous results for qubit arrays are limited to CSS codes. (ii) The sparse cyclic layout, specific to bivariate bicycle (BB) codes. For the $[[144,12,12]]$ BB code, using the sparse cyclic layout we obtain a quantum memory with $12$ logical qubits distributed over $12$ modules, containing $12$ physical qubits each. We propose physical implementations of this architecture using flying qubits, that can be faithfully transported, and include qubits encoded in ions, neutral atoms, electrons or photons. We performed numerical simulations when modules are long ion chains and when modules are single-qubit arrays of ions showing that the distributed BB code achieves a logical error rate below $2 \cdot 10^{-6}$ when the physical error rate is $10^{-3}$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.01879v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Edwin Tham, Min Ye, Ilia Khait, John Gamble, Nicolas Delfosse</dc:creator>
-    </item>
-    <item>
-      <title>Enhancement of Quantum Semi-Supervised Learning via Improved Laplacian and Poisson Methods</title>
-      <link>https://arxiv.org/abs/2508.02054</link>
-      <description>arXiv:2508.02054v1 Announce Type: new 
-Abstract: This paper develops a hybrid quantum approach for graph-based semi-supervised learning to enhance performance in scenarios where labeled data is scarce. We introduce two enhanced quantum models, the Improved Laplacian Quantum Semi-Supervised Learning (ILQSSL) and the Improved Poisson Quantum Semi-Supervised Learning (IPQSSL), that incorporate advanced label propagation strategies within variational quantum circuits. These models utilize QR decomposition to embed graph structure directly into quantum states, thereby enabling more effective learning in low-label settings. We validate our methods across four benchmark datasets like Iris, Wine, Heart Disease, and German Credit Card -- and show that both ILQSSL and IPQSSL consistently outperform leading classical semi-supervised learning algorithms, particularly under limited supervision. Beyond standard performance metrics, we examine the effect of circuit depth and qubit count on learning quality by analyzing entanglement entropy and Randomized Benchmarking (RB). Our results suggest that while some level of entanglement improves the model's ability to generalize, increased circuit complexity may introduce noise that undermines performance on current quantum hardware. Overall, the study highlights the potential of quantum-enhanced models for semi-supervised learning, offering practical insights into how quantum circuits can be designed to balance expressivity and stability. These findings support the role of quantum machine learning in advancing data-efficient classification, especially in applications constrained by label availability and hardware limitations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.02054v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Hamed Gholipour, Farid Bozorgnia, Hamzeh Mohammadigheymasi, Kailash Hambarde, Javier Mancilla, Hugo Proenca, Joao Neves, Moharram Challenger</dc:creator>
-    </item>
-    <item>
-      <title>Superior resilience to poisoning and amenability to unlearning in quantum machine learning</title>
-      <link>https://arxiv.org/abs/2508.02422</link>
-      <description>arXiv:2508.02422v1 Announce Type: new 
-Abstract: The reliability of artificial intelligence hinges on the integrity of its training data, a foundation often compromised by noise and corruption. Here, through a comparative study of classical and quantum neural networks on both classical and quantum data, we reveal a fundamental difference in their response to data corruption. We find that classical models exhibit brittle memorization, leading to a failure in generalization. In contrast, quantum models demonstrate remarkable resilience, which is underscored by a phase transition-like response to increasing label noise, revealing a critical point beyond which the model's performance changes qualitatively. We further establish and investigate the field of quantum machine unlearning, the process of efficiently forcing a trained model to forget corrupting influences. We show that the brittle nature of the classical model forms rigid, stubborn memories of erroneous data, making efficient unlearning challenging, while the quantum model is significantly more amenable to efficient forgetting with approximate unlearning methods. Our findings establish that quantum machine learning can possess a dual advantage of intrinsic resilience and efficient adaptability, providing a promising paradigm for the trustworthy and robust artificial intelligence of the future.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.02422v1</guid>
+      <title>Quantum Neural Network applications to Protein Binding Affinity Predictions</title>
+      <link>https://arxiv.org/abs/2508.03446</link>
+      <description>arXiv:2508.03446v1 Announce Type: new 
+Abstract: Binding energy is a fundamental thermodynamic property that governs molecular interactions, playing a crucial role in fields such as healthcare and the natural sciences. It is particularly relevant in drug development, vaccine design, and other biomedical applications. Over the years, various methods have been developed to estimate protein binding energy, ranging from experimental techniques to computational approaches, with machine learning making significant contributions to this field. Although classical computing has demonstrated strong results in constructing predictive models, the variation of quantum computing for machine learning has emerged as a promising alternative. Quantum neural networks (QNNs) have gained traction as a research focus, raising the question of their potential advantages in predicting binding energies. To investigate this potential, this study explored the feasibility of QNNs for this task by proposing thirty variations of multilayer perceptron-based quantum neural networks. These variations span three distinct architectures, each incorporating ten different quantum circuits to configure their quantum layers. The performance of these quantum models was compared with that of a state-of-the-art classical multilayer perceptron-based artificial neural network, evaluating both accuracy and training time. A primary dataset was used for training, while two additional datasets containing entirely unseen samples were employed for testing. Results indicate that the quantum models achieved approximately 20% higher accuracy on one unseen dataset, although their accuracy was lower on the other datasets. Notably, quantum models exhibited training times several orders of magnitude shorter than their classical counterparts, highlighting their potential for efficient protein binding energy prediction.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.03446v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yu-Qin Chen, Shi-Xin Zhang</dc:creator>
-    </item>
-    <item>
-      <title>Forrelation is Extremally Hard</title>
-      <link>https://arxiv.org/abs/2508.02514</link>
-      <description>arXiv:2508.02514v1 Announce Type: new 
-Abstract: The Forrelation problem is a central problem that demonstrates an exponential separation between quantum and classical capabilities. In this problem, given query access to $n$-bit Boolean functions $f$ and $g$, the goal is to estimate the Forrelation function $\mathrm{forr}(f,g)$, which measures the correlation between $g$ and the Fourier transform of $f$.
-  In this work we provide a new linear algebraic perspective on the Forrelation problem, as opposed to prior analytic approaches. We establish a connection between the Forrelation problem and bent Boolean functions and through this connection, analyze an extremal version of the Forrelation problem where the goal is to distinguish between extremal instances of Forrelation, namely $(f,g)$ with $\mathrm{forr}(f,g)=1$ and $\mathrm{forr}(f,g)=-1$.
-  We show that this problem can be solved with one quantum query and success probability one, yet requires $\tilde{\Omega}\left(2^{n/4}\right)$ classical randomized queries, even for algorithms with a one-third failure probability, highlighting the remarkable power of one exact quantum query. We also study a restricted variant of this problem where the inputs $f,g$ are computable by small classical circuits and show classical hardness under cryptographic assumptions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.02514v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 05 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Uma Girish, Rocco Servedio</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Erico Souza Teixeira, Lucas Barros Fernandes, Yara Rodrigues In\'acio</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,85 +7,68 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 Aug 2025 04:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 04:00:14 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>QuProFS: An Evolutionary Training-free Approach to Efficient Quantum Feature Map Search</title>
-      <link>https://arxiv.org/abs/2508.07104</link>
-      <description>arXiv:2508.07104v1 Announce Type: new 
-Abstract: The quest for effective quantum feature maps for data encoding presents significant challenges, particularly due to the flat training landscapes and lengthy training processes associated with parameterised quantum circuits. To address these issues, we propose an evolutionary training-free quantum architecture search (QAS) framework that employs circuit-based heuristics focused on trainability, hardware robustness, generalisation ability, expressivity, complexity, and kernel-target alignment. By ranking circuit architectures with various proxies, we reduce evaluation costs and incorporate hardware-aware circuits to enhance robustness against noise. We evaluate our approach on classification tasks (using quantum support vector machine) across diverse datasets using both artificial and quantum-generated datasets. Our approach demonstrates competitive accuracy on both simulators and real quantum hardware, surpassing state-of-the-art QAS methods in terms of sampling efficiency and achieving up to a 2x speedup in architecture search runtime.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.07104v1</guid>
+      <title>Subsampling Factorization Machine Annealing</title>
+      <link>https://arxiv.org/abs/2508.08778</link>
+      <description>arXiv:2508.08778v1 Announce Type: new 
+Abstract: Quantum computing and machine learning are state-of-the-art technologies which have been investigated intensively in both academia and industry. The hybrid technology of these two ingredients is expected to be a powerful tool to solve complex problems in many branches of science and engineering such as combinatorial optimization problems and accelerate the creation of next-generation technologies. In this work, we develop an algorithm to solve a black-box optimization problem by improving Factorization Machine Annealing (FMA) such that the training of a machine learning model called Factorization Machine is performed not by a full dataset but by a subdataset which is sampled from a full dataset: Subsampling Factorization Machine Annealing (SFMA). According to such a probabilistic training process, the performance of FMA on exploring a solution space gets enhanced. As a result, SFMA exhibits balanced performance of exploration and exploitation which we call exploitation-exploration functionality. We conduct numerical benchmarking tests to compare the performance of SFMA with that of FMA. Consequently, SFMA certainly exhibits the exploration-exploitation functionality and outperforms FMA in speed and accuracy. In addition, the performance of SFMA can be further improved by sequentially using two subsampling datasets with different sizes such that the size of the latter dataset is substantially smaller than the former. Such a substantial reduction not only enhances the exploration performance of SFMA but also enables us to run it with correspondingly low computational cost even for a large-scale problem. These results indicate the effectiveness of SFMA in a certain class of black-box optimization problems of significant size: the potential scalability of SFMA in solving large-scale problems with correspondingly low computational cost.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.08778v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yaswitha Gujju, Romain Harang, Chao Li, Tetsuo Shibuya, Qibin Zhao</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yusuke Hama, Tadashi Kadowaki</dc:creator>
     </item>
     <item>
-      <title>Graded Quantum Codes: From Weighted Algebraic Geometry to Homological Chain Complexes</title>
-      <link>https://arxiv.org/abs/2508.07542</link>
-      <description>arXiv:2508.07542v1 Announce Type: new 
-Abstract: We introduce graded quantum codes, unifying two classes of quantum error-correcting codes. The first, quantum weighted algebraic geometry (AG) codes, derives from rational points on hypersurfaces in weighted projective spaces over finite fields. This extends classical AG codes by adding weighted degrees and singularities, enabling self-orthogonal codes via the CSS method with improved distances using algebraic structures and invariants like weighted heights.The second class arises from chain complexes of graded vector spaces, generalizing homological quantum codes to include torsion and multiple gradings. This produces low-density parity-check codes with parameters based on homology ranks, including examples from knot invariants and quantum rotors.
-  A shared grading leads to a refined Singleton bound: $d \leq \frac{n - k + 2}{2} - \frac{\epsilon}{2}$, where $\epsilon &gt; 0$ reflects entropy adjustments from geometric singularities and defects. The bound holds partially for simple orbifolds and is supported by examples over small fields.
-  Applications include post-quantum cryptography, fault-tolerant quantum computing, and optimization via graded neural networks, linking algebraic geometry, homological algebra, and quantum information.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.07542v1</guid>
+      <title>A Brief Introduction to Quantum Query Complexity</title>
+      <link>https://arxiv.org/abs/2508.08852</link>
+      <description>arXiv:2508.08852v1 Announce Type: new 
+Abstract: Quantum query complexity is a fundamental model for analyzing the computational power of quantum algorithms. It has played a key role in characterizing quantum speedups, from early breakthroughs such as Grover's and Simon's algorithms to more recent developments in quantum cryptography and complexity theory. This document provides a structured introduction to quantum query lower bounds, focusing on four major techniques: the hybrid method, the polynomial method, the recording method, and the adversary method. Each method is developed from first principles and illustrated through canonical problems. Additionally, the document discusses how the adversary method can be used to derive upper bounds, highlighting its dual role in quantum query complexity. The goal is to offer a self-contained exposition accessible to readers with a basic background in quantum computing, while also serving as an entry point for researchers interested in the study of quantum lower bounds.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.08852v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
+      <category>cs.CC</category>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Tony Shaska</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yassine Hamoudi</dc:creator>
     </item>
     <item>
-      <title>Composable Quantum Fault-Tolerance</title>
-      <link>https://arxiv.org/abs/2508.08246</link>
-      <description>arXiv:2508.08246v1 Announce Type: new 
-Abstract: Proving threshold theorems for fault-tolerant quantum computation is a burdensome endeavor with many moving parts that come together in relatively formulaic but lengthy ways. It is difficult and rare to combine elements from multiple papers into a single formal threshold proof, due to the use of different measures of fault-tolerance. In this work, we introduce composable fault-tolerance, a framework that decouples the probabilistic analysis of the noise distribution from the combinatorial analysis of circuit correctness, and enables threshold proofs to compose independently analyzed gadgets easily and rigorously. Within this framework, we provide a library of standard and commonly used gadgets such as memory and logic implemented by constant-depth circuits for quantum low-density parity check codes and distillation. As sample applications, we explicitly write down a threshold proof for computation with surface code and re-derive the constant space-overhead fault-tolerant scheme of Gottesman using gadgets from this library. We expect that future fault-tolerance proofs may focus on the analysis of novel techniques while leaving the standard components to the composable fault-tolerance framework, with the formal proof following the intuitive ``napkin math'' exactly.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.08246v1</guid>
+      <title>Constrained free energy minimization for the design of thermal states and stabilizer thermodynamic systems</title>
+      <link>https://arxiv.org/abs/2508.09103</link>
+      <description>arXiv:2508.09103v1 Announce Type: new 
+Abstract: A quantum thermodynamic system is described by a Hamiltonian and a list of conserved, non-commuting charges, and a fundamental goal is to determine the minimum energy of the system subject to constraints on the charges. Recently, [Liu et al., arXiv:2505.04514] proposed first- and second-order classical and hybrid quantum-classical algorithms for solving a dual chemical potential maximization problem, and they proved that these algorithms converge to global optima by means of gradient-ascent approaches. In this paper, we benchmark these algorithms on several problems of interest in thermodynamics, including one- and two-dimensional quantum Heisenberg models with nearest and next-to-nearest neighbor interactions and with the charges set to the total $x$, $y$, and $z$ magnetizations. We also offer an alternative compelling interpretation of these algorithms as methods for designing ground and thermal states of controllable Hamiltonians, with potential applications in molecular and material design. Furthermore, we introduce stabilizer thermodynamic systems as thermodynamic systems based on stabilizer codes, with the Hamiltonian constructed from a given code's stabilizer operators and the charges constructed from the code's logical operators. We benchmark the aforementioned algorithms on several examples of stabilizer thermodynamic systems, including those constructed from the one-to-three-qubit repetition code, the perfect one-to-five-qubit code, and the two-to-four-qubit error-detecting code. Finally, we observe that the aforementioned hybrid quantum-classical algorithms, when applied to stabilizer thermodynamic systems, can serve as alternative methods for encoding qubits into stabilizer codes at a fixed temperature, and we provide an effective method for warm-starting these encoding algorithms whenever a single qubit is encoded into multiple physical qubits.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09103v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Zhiyang He, Quynh T. Nguyen, Christopher A. Pattison</dc:creator>
-    </item>
-    <item>
-      <title>Local Diffusion Models and Phases of Data Distributions</title>
-      <link>https://arxiv.org/abs/2508.06614</link>
-      <description>arXiv:2508.06614v1 Announce Type: cross 
-Abstract: As a class of generative artificial intelligence frameworks inspired by statistical physics, diffusion models have shown extraordinary performance in synthesizing complicated data distributions through a denoising process gradually guided by score functions. Real-life data, like images, is often spatially structured in low-dimensional spaces. However, ordinary diffusion models ignore this local structure and learn spatially global score functions, which are often computationally expensive. In this work, we introduce a new perspective on the phases of data distributions, which provides insight into constructing local denoisers with reduced computational costs. We define two distributions as belonging to the same data distribution phase if they can be mutually connected via spatially local operations such as local denoisers. Then, we show that the reverse denoising process consists of an early trivial phase and a late data phase, sandwiching a rapid phase transition where local denoisers must fail. To diagnose such phase transitions, we prove an information-theoretic bound on the fidelity of local denoisers based on conditional mutual information, and conduct numerical experiments in a real-world dataset. This work suggests simpler and more efficient architectures of diffusion models: far from the phase transition point, we can use small local neural networks to compute the score function; global neural networks are only necessary around the narrow time interval of phase transitions. This result also opens up new directions for studying phases of data distributions, the broader science of generative artificial intelligence, and guiding the design of neural networks inspired by physics concepts.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.06614v1</guid>
-      <category>cs.LG</category>
       <category>cond-mat.stat-mech</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Fangjun Hu, Guangkuo Liu, Yifan Zhang, Xun Gao</dc:creator>
+      <category>cs.LG</category>
+      <category>math.OC</category>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Michele Minervini, Madison Chin, Jacob Kupperman, Nana Liu, Ivy Luo, Meghan Ly, Soorya Rethinasamy, Kathie Wang, Mark M. Wilde</dc:creator>
     </item>
     <item>
-      <title>Frequency-Domain Analysis of Time-Dependent Multiomic Data in Progressive Neurodegenerative Diseases: A Proposed Quantum-Classical Hybrid Approach with Quaternionic Extensions</title>
-      <link>https://arxiv.org/abs/2508.07948</link>
-      <description>arXiv:2508.07948v1 Announce Type: cross 
-Abstract: Progressive neurodegenerative diseases, including Alzheimer's disease (AD), multiple sclerosis (MS), Parkinson's disease (PD), and amyotrophic lateral sclerosis (ALS), exhibit complex, nonlinear trajectories that challenge deterministic modeling. Traditional time-domain analyses of multiomic and neuroimaging data often fail to capture hidden oscillatory patterns, limiting predictive accuracy. We propose a theoretical mathematical framework that transforms time-series data into frequency or s-domain using Fourier and Laplace transforms, models neuronal dynamics via Hamiltonian formulations, and employs quantum-classical hybrid computing with variational quantum eigensolvers (VQE) for enhanced pattern detection. This theoretical construct serves as a foundation for future empirical works in quantum-enhanced analysis of neurodegenerative diseases. We extend this to quaternionic representations with three imaginary axes ($i, j, k$) to model multistate Hamiltonians in multifaceted disorders, drawing from quantum neuromorphic computing to capture entangled neural dynamics \citep{Pehle2020, Emani2019}. This approach leverages quantum advantages in handling high-dimensional amplitude-phase data, enabling outlier detection and frequency signature analysis. Potential clinical applications include identifying high-risk patients with rapid progression or therapy resistance using s-domain biomarkers, supported by quantum machine learning (QML) precedents achieving up to 99.89% accuracy in Alzheimer's classification \citep{Belay2024, Bhowmik2025}. This framework aims to lay the groundwork for redefining precision medicine for neurodegenerative diseases through future validations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.07948v1</guid>
-      <category>cs.ET</category>
+      <title>Generalized Bicycle Codes with Low Connectivity: Minimum Distance Bounds and Hook Errors</title>
+      <link>https://arxiv.org/abs/2508.09082</link>
+      <description>arXiv:2508.09082v1 Announce Type: cross 
+Abstract: We present new upper and lower bounds on the minimum distance of certain generalized bicycle (GB) codes beyond the reach of techniques for classical codes capable of even capturing the true minimum distance for some cases. These bounds are then applied to illustrate the existence and analyze two highly degenerate GB code families with parameters $[[d^2+1,2,d]]$ for odd $d \geq 3$ and $[[d^2,2,d]]$ for even $d \geq 4$, both having the property that each check qubit is connected to exactly four data qubits similar to surface codes. For the odd-distance family, we analyze the structure of low-weight logical Pauli operators and demonstrate the existence of a fault-tolerant logical CNOT gate between the two logical qubits, achievable through a simple relabeling of data qubits. We further construct a syndrome extraction pattern for both families that does not imply minimum distance reduction arising from extraction circuit faults that propagate from the check qubits to the data qubits. Finally, we numerically evaluate their logical error rates under a code capacity depolarizing noise model using the belief propagation ordered statistics decoding (BP-OSD) and minimum-weight perfect-matching (MWPM) decoders, yielding thresholds of approximately $14-16\%$ for the odd and even families, very similar to those of rotated surface codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09082v1</guid>
       <category>cs.IT</category>
-      <category>cs.LG</category>
+      <category>cs.DM</category>
       <category>math.IT</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>John D. Mayfield M. D. Ph. D. M. Sc</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Reza Dastbasteh, Olatz Sanz Larrarte, Arun John Moncy, Pedro M. Crespo, Josu Etxezarreta Martinez, Ruben M. Otxoa</dc:creator>
     </item>
   </channel>
 </rss>

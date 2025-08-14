@@ -7,68 +7,99 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2025 04:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 04:00:17 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Subsampling Factorization Machine Annealing</title>
-      <link>https://arxiv.org/abs/2508.08778</link>
-      <description>arXiv:2508.08778v1 Announce Type: new 
-Abstract: Quantum computing and machine learning are state-of-the-art technologies which have been investigated intensively in both academia and industry. The hybrid technology of these two ingredients is expected to be a powerful tool to solve complex problems in many branches of science and engineering such as combinatorial optimization problems and accelerate the creation of next-generation technologies. In this work, we develop an algorithm to solve a black-box optimization problem by improving Factorization Machine Annealing (FMA) such that the training of a machine learning model called Factorization Machine is performed not by a full dataset but by a subdataset which is sampled from a full dataset: Subsampling Factorization Machine Annealing (SFMA). According to such a probabilistic training process, the performance of FMA on exploring a solution space gets enhanced. As a result, SFMA exhibits balanced performance of exploration and exploitation which we call exploitation-exploration functionality. We conduct numerical benchmarking tests to compare the performance of SFMA with that of FMA. Consequently, SFMA certainly exhibits the exploration-exploitation functionality and outperforms FMA in speed and accuracy. In addition, the performance of SFMA can be further improved by sequentially using two subsampling datasets with different sizes such that the size of the latter dataset is substantially smaller than the former. Such a substantial reduction not only enhances the exploration performance of SFMA but also enables us to run it with correspondingly low computational cost even for a large-scale problem. These results indicate the effectiveness of SFMA in a certain class of black-box optimization problems of significant size: the potential scalability of SFMA in solving large-scale problems with correspondingly low computational cost.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.08778v1</guid>
+      <title>Quantum-Efficient Reinforcement Learning Solutions for Last-Mile On-Demand Delivery</title>
+      <link>https://arxiv.org/abs/2508.09183</link>
+      <description>arXiv:2508.09183v1 Announce Type: new 
+Abstract: Quantum computation has demonstrated a promising alternative to solving the NP-hard combinatorial problems. Specifically, when it comes to optimization, classical approaches become intractable to account for large-scale solutions. Specifically, we investigate quantum computing to solve the large-scale Capacitated Pickup and Delivery Problem with Time Windows (CPDPTW). In this regard, a Reinforcement Learning (RL) framework augmented with a Parametrized Quantum Circuit (PQC) is designed to minimize the travel time in a realistic last-mile on-demand delivery. A novel problem-specific encoding quantum circuit with an entangling and variational layer is proposed. Moreover, Proximal Policy Optimization (PPO) and Quantum Singular Value Transformation (QSVT) are designed for comparison through numerical experiments, highlighting the superiority of the proposed method in terms of the scale of the solution and training complexity while incorporating the real-world constraints.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09183v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yusuke Hama, Tadashi Kadowaki</dc:creator>
-    </item>
-    <item>
-      <title>A Brief Introduction to Quantum Query Complexity</title>
-      <link>https://arxiv.org/abs/2508.08852</link>
-      <description>arXiv:2508.08852v1 Announce Type: new 
-Abstract: Quantum query complexity is a fundamental model for analyzing the computational power of quantum algorithms. It has played a key role in characterizing quantum speedups, from early breakthroughs such as Grover's and Simon's algorithms to more recent developments in quantum cryptography and complexity theory. This document provides a structured introduction to quantum query lower bounds, focusing on four major techniques: the hybrid method, the polynomial method, the recording method, and the adversary method. Each method is developed from first principles and illustrated through canonical problems. Additionally, the document discusses how the adversary method can be used to derive upper bounds, highlighting its dual role in quantum query complexity. The goal is to offer a self-contained exposition accessible to readers with a basic background in quantum computing, while also serving as an entry point for researchers interested in the study of quantum lower bounds.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.08852v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yassine Hamoudi</dc:creator>
-    </item>
-    <item>
-      <title>Constrained free energy minimization for the design of thermal states and stabilizer thermodynamic systems</title>
-      <link>https://arxiv.org/abs/2508.09103</link>
-      <description>arXiv:2508.09103v1 Announce Type: new 
-Abstract: A quantum thermodynamic system is described by a Hamiltonian and a list of conserved, non-commuting charges, and a fundamental goal is to determine the minimum energy of the system subject to constraints on the charges. Recently, [Liu et al., arXiv:2505.04514] proposed first- and second-order classical and hybrid quantum-classical algorithms for solving a dual chemical potential maximization problem, and they proved that these algorithms converge to global optima by means of gradient-ascent approaches. In this paper, we benchmark these algorithms on several problems of interest in thermodynamics, including one- and two-dimensional quantum Heisenberg models with nearest and next-to-nearest neighbor interactions and with the charges set to the total $x$, $y$, and $z$ magnetizations. We also offer an alternative compelling interpretation of these algorithms as methods for designing ground and thermal states of controllable Hamiltonians, with potential applications in molecular and material design. Furthermore, we introduce stabilizer thermodynamic systems as thermodynamic systems based on stabilizer codes, with the Hamiltonian constructed from a given code's stabilizer operators and the charges constructed from the code's logical operators. We benchmark the aforementioned algorithms on several examples of stabilizer thermodynamic systems, including those constructed from the one-to-three-qubit repetition code, the perfect one-to-five-qubit code, and the two-to-four-qubit error-detecting code. Finally, we observe that the aforementioned hybrid quantum-classical algorithms, when applied to stabilizer thermodynamic systems, can serve as alternative methods for encoding qubits into stabilizer codes at a fixed temperature, and we provide an effective method for warm-starting these encoding algorithms whenever a single qubit is encoded into multiple physical qubits.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.09103v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
+      <category>cs.AI</category>
       <category>cs.LG</category>
       <category>math.OC</category>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Michele Minervini, Madison Chin, Jacob Kupperman, Nana Liu, Ivy Luo, Meghan Ly, Soorya Rethinasamy, Kathie Wang, Mark M. Wilde</dc:creator>
+      <arxiv:journal_reference>In the proceedings of 2025 IEEE Quantum Artificial Intelligence Conference</arxiv:journal_reference>
+      <dc:creator>Farzan Moosavi, Bilal Farooq</dc:creator>
     </item>
     <item>
-      <title>Generalized Bicycle Codes with Low Connectivity: Minimum Distance Bounds and Hook Errors</title>
-      <link>https://arxiv.org/abs/2508.09082</link>
-      <description>arXiv:2508.09082v1 Announce Type: cross 
-Abstract: We present new upper and lower bounds on the minimum distance of certain generalized bicycle (GB) codes beyond the reach of techniques for classical codes capable of even capturing the true minimum distance for some cases. These bounds are then applied to illustrate the existence and analyze two highly degenerate GB code families with parameters $[[d^2+1,2,d]]$ for odd $d \geq 3$ and $[[d^2,2,d]]$ for even $d \geq 4$, both having the property that each check qubit is connected to exactly four data qubits similar to surface codes. For the odd-distance family, we analyze the structure of low-weight logical Pauli operators and demonstrate the existence of a fault-tolerant logical CNOT gate between the two logical qubits, achievable through a simple relabeling of data qubits. We further construct a syndrome extraction pattern for both families that does not imply minimum distance reduction arising from extraction circuit faults that propagate from the check qubits to the data qubits. Finally, we numerically evaluate their logical error rates under a code capacity depolarizing noise model using the belief propagation ordered statistics decoding (BP-OSD) and minimum-weight perfect-matching (MWPM) decoders, yielding thresholds of approximately $14-16\%$ for the odd and even families, very similar to those of rotated surface codes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.09082v1</guid>
-      <category>cs.IT</category>
-      <category>cs.DM</category>
-      <category>math.IT</category>
+      <title>Quantum-Enhanced Generative Adversarial Networks: Comparative Analysis of Classical and Hybrid Quantum-Classical Generative Adversarial Networks</title>
+      <link>https://arxiv.org/abs/2508.09209</link>
+      <description>arXiv:2508.09209v1 Announce Type: new 
+Abstract: Generative adversarial networks (GANs) have emerged as a powerful paradigm for producing high-fidelity data samples, yet their performance is constrained by the quality of latent representations, typically sampled from classical noise distributions. This study investigates hybrid quantum-classical GANs (HQCGANs) in which a quantum generator, implemented via parameterised quantum circuits, produces latent vectors for a classical discriminator. We evaluate a classical GAN alongside three HQCGAN variants with 3, 5, and 7 qubits, using Qiskit's AerSimulator with realistic noise models to emulate near-term quantum devices. The binary MNIST dataset (digits 0 and 1) is used to align with the low-dimensional latent spaces imposed by current quantum hardware. Models are trained for 150 epochs and assessed with Frechet Inception Distance (FID) and Kernel Inception Distance (KID). Results show that while the classical GAN achieved the best scores, the 7-qubit HQCGAN produced competitive performance, narrowing the gap in later epochs, whereas the 3-qubit model exhibited earlier convergence limitations. Efficiency analysis indicates only moderate training time increases despite quantum sampling overhead. These findings validate the feasibility of noisy quantum circuits as latent priors in GAN architectures, highlighting their potential to enhance generative modelling within the constraints of the noisy intermediate-scale quantum (NISQ) era.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09209v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Reza Dastbasteh, Olatz Sanz Larrarte, Arun John Moncy, Pedro M. Crespo, Josu Etxezarreta Martinez, Ruben M. Otxoa</dc:creator>
+      <dc:creator>Kun Ming Goh</dc:creator>
+    </item>
+    <item>
+      <title>Parallel repetition of expanded, and multiplayer, Quantum games: anchoring, optimal values, generalized error bounds, dependency-breaking as symmetry-breaking</title>
+      <link>https://arxiv.org/abs/2508.09380</link>
+      <description>arXiv:2508.09380v1 Announce Type: new 
+Abstract: We demonstrate that parallel repetition of the multiplayer anchored optimal value, $\omega \big( G_{\bot} \big)^{\otimes n}$, decays exponentially. Central to our approach are several probabilistic computations, pertaining to: (1) the computation of expected values for quantifying how the winning probability of the game is likely to change under the anchoring transformation; (2) the computation of positive operator valued measurements, which can be placed into direct correspondence with several probabilistically defined quantities; (3) the computation of Relative, and Relative-min entropies; (4) and lastly, the computation of generalized error bounds, which have previously been analyzed by the author in several multiplayer game-theoretic settings (arXiv: 2505.06322, and arXiv: 2507.03035). This work builds upon observations originally provided by Bavarian, Vidick, and Yuen (arXiv: 1509.07466).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09380v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>math.PR</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Pete Rigas</dc:creator>
+    </item>
+    <item>
+      <title>On the Generalization Limits of Quantum Generative Adversarial Networks with Pure State Generators</title>
+      <link>https://arxiv.org/abs/2508.09844</link>
+      <description>arXiv:2508.09844v1 Announce Type: new 
+Abstract: We investigate the capabilities of Quantum Generative Adversarial Networks (QGANs) in image generations tasks. Our analysis centers on fully quantum implementations of both the generator and discriminator. Through extensive numerical testing of current main architectures, we find that QGANs struggle to generalize across datasets, converging on merely the average representation of the training data. When the output of the generator is a pure-state, we analytically derive a lower bound for the discriminator quality given by the fidelity between the pure-state output of the generator and the target data distribution, thereby providing a theoretical explanation for the limitations observed in current models. Our findings reveal fundamental challenges in the generalization capabilities of existing quantum generative models. While our analysis focuses on QGANs, the results carry broader implications for the performance of related quantum generative models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09844v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Jasmin Frkatovic, Akash Malemath, Ivan Kankeu, Yannick Werner, Matthias Tsch\"ope, Vitor Fortes Rey, Sungho Suh, Paul Lukowicz, Nikolaos Palaiodimopoulos, Maximilian Kiefer-Emmanouilidis</dc:creator>
+    </item>
+    <item>
+      <title>Improving quantum communication rates with permutation-invariant codes</title>
+      <link>https://arxiv.org/abs/2508.09978</link>
+      <description>arXiv:2508.09978v1 Announce Type: new 
+Abstract: In this work we improve the quantum communication rates of various quantum channels of interest using permutation-invariant quantum codes. We focus in particular on parametrized families of quantum channels and aim to improve bounds on their quantum capacity threshold, defined as the lowest noise level at which the quantum capacity of the channel family vanishes. These thresholds are important quantities as they mark the noise level up to which faithful quantum communication is theoretically possible. Our method exploits the fact that independent and identically distributed quantum channels preserve any permutation symmetry present at the input. The resulting symmetric output states can be described succinctly using the representation theory of the symmetric and general linear groups, which we use to derive an efficient algorithm for computing the channel coherent information of a permutation-invariant code. Our approach allows us to evaluate coherent information values for a large number of channel copies, e.g., at least 100 channel copies for qubit channels. We apply this method to various physically relevant channel models, including general Pauli channels, the dephrasure channel, the generalized amplitude damping channel, and the damping-dephasing channel. For each channel family we obtain improved lower bounds on their quantum capacities. For example, for the 2-Pauli and BB84 channel families we significantly improve the best known quantum capacity thresholds derived in [Fern, Whaley 2008]. These threshold improvements are achieved using a repetition code-like input state with non-orthogonal code states, which we further analyze in our representation-theoretic framework.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09978v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Sujeet Bhalerao, Felix Leditzky</dc:creator>
+    </item>
+    <item>
+      <title>Blockchain Network Analysis using Quantum Inspired Graph Neural Networks &amp; Ensemble Models</title>
+      <link>https://arxiv.org/abs/2508.09237</link>
+      <description>arXiv:2508.09237v1 Announce Type: cross 
+Abstract: In the rapidly evolving domain of financial technology, the detection of illicit transactions within blockchain networks remains a critical challenge, necessitating robust and innovative solutions. This work proposes a novel approach by combining Quantum Inspired Graph Neural Networks (QI-GNN) with flexibility of choice of an Ensemble Model using QBoost or a classic model such as Random Forrest Classifier. This system is tailored specifically for blockchain network analysis in anti-money laundering (AML) efforts. Our methodology to design this system incorporates a novel component, a Canonical Polyadic (CP) decomposition layer within the graph neural network framework, enhancing its capability to process and analyze complex data structures efficiently. Our technical approach has undergone rigorous evaluation against classical machine learning implementations, achieving an F2 score of 74.8% in detecting fraudulent transactions. These results highlight the potential of quantum-inspired techniques, supplemented by the structural advancements of the CP layer, to not only match but potentially exceed traditional methods in complex network analysis for financial security. The findings advocate for a broader adoption and further exploration of quantum-inspired algorithms within the financial sector to effectively combat fraud.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.09237v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Luigi D'Amico, Daniel De Rosso, Ninad Dixit, Raul Salles de Padua, Samuel Palmer, Samuel Mugel, Rom\'an Or\'us, Holger Eble, Ali Abedi</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,29 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Aug 2025 04:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 04:00:07 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 20 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 21 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>Adversarially robust quantum state learning and testing</title>
-      <link>https://arxiv.org/abs/2508.13959</link>
-      <description>arXiv:2508.13959v1 Announce Type: new 
-Abstract: Quantum state learning is a fundamental problem in physics and computer science. As near-term quantum devices are error-prone, it is important to design error-resistant algorithms. Apart from device errors, other unexpected factors could also affect the algorithm, such as careless human read-out error, or even a malicious hacker deliberately altering the measurement results. Thus, we want our algorithm to work even in the worst case when things go against our favor.
-  We consider the practical setting of single-copy measurements and propose the $\gamma$-adversarial corruption model where an imaginary adversary can arbitrarily change $\gamma$-fraction of the measurement outcomes. This is stronger than the $\gamma$-bounded SPAM noise model, where the post-measurement state changes by at most $\gamma$ in trace distance. Under our stronger model of corruption, we design an algorithm using non-adaptive measurements that can learn an unknown rank-$r$ state up to $\tilde{O}(\gamma\sqrt{r})$ in trace distance, provided that the number of copies is sufficiently large. We further prove an information-theoretic lower bound of $\Omega(\gamma\sqrt{r})$ for non-adaptive measurements, demonstrating the optimality of our algorithm. Our upper and lower bounds also hold for quantum state testing, where the goal is to test whether an unknown state is equal to a given state or far from it.
-  Our results are intriguingly optimistic and pessimistic at the same time. For general states, the error is dimension-dependent and $\gamma\sqrt{d}$ in the worst case, meaning that only corrupting a very small fraction ($1/\sqrt{d}$) of the outcomes could totally destroy any non-adaptive learning algorithm. However, for constant-rank states that are useful in many quantum algorithms, it is possible to achieve dimension-independent error, even in the worst-case adversarial setting.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.13959v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Maryam Aliakbarpour, Vladimir Braverman, Nai-Hui Chia, Yuhan Liu</dc:creator>
-    </item>
   </channel>
 </rss>

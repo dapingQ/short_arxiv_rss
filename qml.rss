@@ -7,85 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Aug 2025 04:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Aug 2025 04:00:01 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 23 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>Robust and Efficient Quantum Reservoir Computing with Discrete Time Crystal</title>
-      <link>https://arxiv.org/abs/2508.15230</link>
-      <description>arXiv:2508.15230v1 Announce Type: new 
-Abstract: The rapid development of machine learning and quantum computing has placed quantum machine learning at the forefront of research. However, existing quantum machine learning algorithms based on quantum variational algorithms face challenges in trainability and noise robustness. In order to address these challenges, we introduce a gradient-free, noise-robust quantum reservoir computing algorithm that harnesses discrete time crystal dynamics as a reservoir. We first calibrate the memory, nonlinear, and information scrambling capacities of the quantum reservoir, revealing their correlation with dynamical phases and non-equilibrium phase transitions. We then apply the algorithm to the binary classification task and establish a comparative quantum kernel advantage. For ten-class classification, both noisy simulations and experimental results on superconducting quantum processors match ideal simulations, demonstrating the enhanced accuracy with increasing system size and confirming the topological noise robustness. Our work presents the first experimental demonstration of quantum reservoir computing for image classification based on digital quantum simulation. It establishes the correlation between quantum many-body non-equilibrium phase transitions and quantum machine learning performance, providing new design principles for quantum reservoir computing and broader quantum machine learning algorithms in the NISQ era.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.15230v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Da Zhang, Xin Li, Yibin Guo, Haifeng Yu, Yirong Jin, Zhang-Qi Yin</dc:creator>
-    </item>
-    <item>
-      <title>Colour Codes Reach Surface Code Performance using Vibe Decoding</title>
-      <link>https://arxiv.org/abs/2508.15743</link>
-      <description>arXiv:2508.15743v1 Announce Type: new 
-Abstract: Two-dimensional quantum colour codes hold significant promise for quantum error correction, offering advantages such as planar connectivity and low overhead logical gates. Despite their theoretical appeal, the practical deployment of these codes faces challenges due to complex decoding requirements compared to surface codes. This paper introduces vibe decoding which, for the first time, brings colour code performance on par with the surface code under practical decoding. Our approach leverages an ensemble of belief propagation decoders - each executing a distinct serial message passing schedule - combined with localised statistics post-processing. We refer to this combined protocol as VibeLSD. The VibeLSD decoder is highly versatile: our numerical results show it outperforms all practical existing colour code decoders across various syndrome extraction schemes, noise models, and error rates. By estimating qubit footprints through quantum memory simulations, we show that colour codes can operate with overhead that is comparable to, and in some cases lower than, that of the surface code. This, combined with the fact that localised statistics decoding is a parallel algorithm, makes VibeLSD suitable for implementation on specialised hardware for real-time decoding. Our results establish the colour code as a practical architecture for near-term quantum hardware, providing improved compilation efficiency for both Clifford and non-Clifford gates without incurring additional qubit overhead relative to the surface code.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.15743v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Stergios Koutsioumpas, Tamas Noszko, Hasan Sayginel, Mark Webster, Joschka Roffe</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Long Short-term Memory with Differentiable Architecture Search</title>
-      <link>https://arxiv.org/abs/2508.14955</link>
-      <description>arXiv:2508.14955v1 Announce Type: cross 
-Abstract: Recent advances in quantum computing and machine learning have given rise to quantum machine learning (QML), with growing interest in learning from sequential data. Quantum recurrent models like QLSTM are promising for time-series prediction, NLP, and reinforcement learning. However, designing effective variational quantum circuits (VQCs) remains challenging and often task-specific. To address this, we propose DiffQAS-QLSTM, an end-to-end differentiable framework that optimizes both VQC parameters and architecture selection during training. Our results show that DiffQAS-QLSTM consistently outperforms handcrafted baselines, achieving lower loss across diverse test settings. This approach opens the door to scalable and adaptive quantum sequence learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.14955v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
-      <category>cs.NE</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Samuel Yen-Chi Chen, Prayag Tiwari</dc:creator>
-    </item>
-    <item>
-      <title>Investigation of D-Wave quantum annealing for training Restricted Boltzmann Machines and mitigating catastrophic forgetting</title>
-      <link>https://arxiv.org/abs/2508.15697</link>
-      <description>arXiv:2508.15697v1 Announce Type: cross 
-Abstract: Modest statistical differences between the sampling performances of the D-Wave quantum annealer (QA) and the classical Markov Chain Monte Carlo (MCMC), when applied to Restricted Boltzmann Machines (RBMs), are explored to explain, and possibly address, the absence of significant and consistent improvements in RBM trainability when the D-Wave sampling was used in previous investigations. A novel hybrid sampling approach, combining the classical and the QA contributions, is investigated as a promising way to benefit from the modest differences between the two sampling methods. No improvements in the RBM training are achieved in this work, thereby suggesting that the differences between the QA-based and MCMC sampling, mainly found in the medium-to-low probability regions of the distribution, which are less important for the quality of the sample, are insufficient to benefit the training. Difficulties in achieving sufficiently high quality of embedding RBMs into the lattice of the newer generation of D-Wave hardware could be further complicating the task. On the other hand, the ability to generate samples of sufficient variety from lower-probability parts of the distribution has a potential to benefit other machine learning applications, such as the mitigation of catastrophic forgetting (CF) during incremental learning. The feasibility of using QA-generated patterns of desirable classes for CF mitigation by the generative replay is demonstrated in this work for the first time. While the efficiency of the CF mitigation using the D-Wave QA was comparable to that of the classical mitigation, both the speed of generating a large number of distinct desirable patterns and the potential for further improvement make this approach promising for a variety of challenging machine learning applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.15697v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Abdelmoula El-Yazizi, Yaroslav Koshka</dc:creator>
-    </item>
-    <item>
-      <title>End-to-End Analysis of Charge Stability Diagrams with Transformers</title>
-      <link>https://arxiv.org/abs/2508.15710</link>
-      <description>arXiv:2508.15710v1 Announce Type: cross 
-Abstract: Transformer models and end-to-end learning frameworks are rapidly revolutionizing the field of artificial intelligence. In this work, we apply object detection transformers to analyze charge stability diagrams in semiconductor quantum dot arrays, a key task for achieving scalability with spin-based quantum computing. Specifically, our model identifies triple points and their connectivity, which is crucial for virtual gate calibration, charge state initialization, drift correction, and pulse sequencing. We show that it surpasses convolutional neural networks in performance on three different spin qubit architectures, all without the need for retraining. In contrast to existing approaches, our method significantly reduces complexity and runtime, while enhancing generalizability. The results highlight the potential of transformer-based end-to-end learning frameworks as a foundation for a scalable, device- and architecture-agnostic tool for control and tuning of quantum dot devices.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.15710v1</guid>
-      <category>cond-mat.mes-hall</category>
-      <category>cond-mat.mtrl-sci</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Rahul Marchand, Lucas Schorling, Cornelius Carlsson, Jonas Schuff, Barnaby van Straaten, Taylor L. Patti, Federico Fedele, Joshua Ziegler, Parth Girdhar, Pranav Vaidhyanathan, Natalia Ares</dc:creator>
-    </item>
   </channel>
 </rss>

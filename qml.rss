@@ -7,30 +7,38 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Aug 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 04:00:10 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 25 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Optimal Hamiltonian for a quantum state with finite entropy</title>
-      <link>https://arxiv.org/abs/2508.16575</link>
-      <description>arXiv:2508.16575v1 Announce Type: new 
-Abstract: We consider the following task: how for a given quantum state $\rho$ to find a grounded Hamiltonian $H$ such that $\mathrm{Tr}H\rho\leq E_0&lt;+\infty$ in such a way that the von Neumann entropy of the Gibbs state $\gamma_H(E)$ corresponding to a given energy $E&gt;0$ be as small as possible.
-  We show that for any mixed state $\rho$ with finite entropy and any $E&gt;0$ there is a unique solution $H(\rho,E_0,E)$ of the above problem which we call optimal Hamiltonian for this state. Explicit expressions for $H(\rho,E_0,E)$ and $S(\gamma_H(E))$ with $H=H(\rho,E_0,E)$ are obtained. Several examples are considered.
-  A brief overview of possible applications is given (with the intention to give a detailed description in a separate article).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.16575v1</guid>
+      <title>Entanglement Detection with Quantum-inspired Kernels and SVMs</title>
+      <link>https://arxiv.org/abs/2508.17909</link>
+      <description>arXiv:2508.17909v1 Announce Type: new 
+Abstract: This work presents a machine learning approach based on support vector machines (SVMs) for quantum entanglement detection. Particularly, we focus in bipartite systems of dimensions 3x3, 4x4, and 5x5, where the positive partial transpose criterion (PPT) provides only partial characterization. Using SVMs with quantum-inspired kernels we develop a classification scheme that distinguishes between separable states, PPT-detectable entangled states, and entangled states that evade PPT detection. Our method achieves increasing accuracy with system dimension, reaching 80%, 90%, and nearly 100% for 3x3, 4x4, and 5x5 systems, respectively. Our results show that principal component analysis significantly enhances performance for small training sets. The study reveals important practical considerations regarding purity biases in the generation of data for this problem and examines the challenges of implementing these techniques on near-term quantum hardware. Our results establish machine learning as a powerful complement to traditional entanglement detection methods, particularly for higher-dimensional systems where conventional approaches become inadequate. The findings highlight key directions for future research, including hybrid quantum-classical implementations and improved data generation protocols to overcome current limitations.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.17909v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math-ph</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>M. E. Shirokov</dc:creator>
+      <dc:creator>Ana Mart\'inez-Sabiote, Michalis Skotiniotis, Jara J. Bermejo-Vega, Daniel Manzano, Carlos Cano</dc:creator>
+    </item>
+    <item>
+      <title>Hybrid Quantum-Classical Learning for Multiclass Image Classification</title>
+      <link>https://arxiv.org/abs/2508.18161</link>
+      <description>arXiv:2508.18161v1 Announce Type: new 
+Abstract: This study explores the challenge of improving multiclass image classification through quantum machine-learning techniques. It explores how the discarded qubit states of Noisy Intermediate-Scale Quantum (NISQ) quantum convolutional neural networks (QCNNs) can be leveraged alongside a classical classifier to improve classification performance. Current QCNNs discard qubit states after pooling; yet, unlike classical pooling, these qubits often remain entangled with the retained ones, meaning valuable correlated information is lost. We experiment with recycling this information and combining it with the conventional measurements from the retained qubits. Accordingly, we propose a hybrid quantum-classical architecture that couples a modified QCNN with fully connected classical layers. Two shallow fully connected (FC) heads separately process measurements from retained and discarded qubits, whose outputs are ensembled before a final classification layer. Joint optimisation with a classical cross-entropy loss allows both quantum and classical parameters to adapt coherently. The method outperforms comparable lightweight models on MNIST, Fashion-MNIST and OrganAMNIST. These results indicate that reusing discarded qubit information is a promising approach for future hybrid quantum-classical models and may extend to tasks beyond image classification.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.18161v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Shuchismita Anwar, Sowmitra Das, Muhammad Iqbal Hossain, Jishnu Mahmud</dc:creator>
     </item>
   </channel>
 </rss>

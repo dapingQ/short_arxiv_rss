@@ -7,38 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Aug 2025 04:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 27 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Entanglement Detection with Quantum-inspired Kernels and SVMs</title>
-      <link>https://arxiv.org/abs/2508.17909</link>
-      <description>arXiv:2508.17909v1 Announce Type: new 
-Abstract: This work presents a machine learning approach based on support vector machines (SVMs) for quantum entanglement detection. Particularly, we focus in bipartite systems of dimensions 3x3, 4x4, and 5x5, where the positive partial transpose criterion (PPT) provides only partial characterization. Using SVMs with quantum-inspired kernels we develop a classification scheme that distinguishes between separable states, PPT-detectable entangled states, and entangled states that evade PPT detection. Our method achieves increasing accuracy with system dimension, reaching 80%, 90%, and nearly 100% for 3x3, 4x4, and 5x5 systems, respectively. Our results show that principal component analysis significantly enhances performance for small training sets. The study reveals important practical considerations regarding purity biases in the generation of data for this problem and examines the challenges of implementing these techniques on near-term quantum hardware. Our results establish machine learning as a powerful complement to traditional entanglement detection methods, particularly for higher-dimensional systems where conventional approaches become inadequate. The findings highlight key directions for future research, including hybrid quantum-classical implementations and improved data generation protocols to overcome current limitations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.17909v1</guid>
+      <title>Vectorized Attention with Learnable Encoding for Quantum Transformer</title>
+      <link>https://arxiv.org/abs/2508.18464</link>
+      <description>arXiv:2508.18464v1 Announce Type: new 
+Abstract: Vectorized quantum block encoding provides a way to embed classical data into Hilbert space, offering a pathway for quantum models, such as Quantum Transformers (QT), that replace classical self-attention with quantum circuit simulations to operate more efficiently. Current QTs rely on deep parameterized quantum circuits (PQCs), rendering them vulnerable to QPU noise, and thus hindering their practical performance. In this paper, we propose the Vectorized Quantum Transformer (VQT), a model that supports ideal masked attention matrix computation through quantum approximation simulation and efficient training via vectorized nonlinear quantum encoder, yielding shot-efficient and gradient-free quantum circuit simulation (QCS) and reduced classical sampling overhead. In addition, we demonstrate an accuracy comparison for IBM and IonQ in quantum circuit simulation and competitive results in benchmarking natural language processing tasks on IBM state-of-the-art and high-fidelity Kingston QPU. Our noise intermediate-scale quantum friendly VQT approach unlocks a novel architecture for end-to-end machine learning in quantum computing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.18464v1</guid>
       <category>quant-ph</category>
+      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ana Mart\'inez-Sabiote, Michalis Skotiniotis, Jara J. Bermejo-Vega, Daniel Manzano, Carlos Cano</dc:creator>
-    </item>
-    <item>
-      <title>Hybrid Quantum-Classical Learning for Multiclass Image Classification</title>
-      <link>https://arxiv.org/abs/2508.18161</link>
-      <description>arXiv:2508.18161v1 Announce Type: new 
-Abstract: This study explores the challenge of improving multiclass image classification through quantum machine-learning techniques. It explores how the discarded qubit states of Noisy Intermediate-Scale Quantum (NISQ) quantum convolutional neural networks (QCNNs) can be leveraged alongside a classical classifier to improve classification performance. Current QCNNs discard qubit states after pooling; yet, unlike classical pooling, these qubits often remain entangled with the retained ones, meaning valuable correlated information is lost. We experiment with recycling this information and combining it with the conventional measurements from the retained qubits. Accordingly, we propose a hybrid quantum-classical architecture that couples a modified QCNN with fully connected classical layers. Two shallow fully connected (FC) heads separately process measurements from retained and discarded qubits, whose outputs are ensembled before a final classification layer. Joint optimisation with a classical cross-entropy loss allows both quantum and classical parameters to adapt coherently. The method outperforms comparable lightweight models on MNIST, Fashion-MNIST and OrganAMNIST. These results indicate that reusing discarded qubit information is a promising approach for future hybrid quantum-classical models and may extend to tasks beyond image classification.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.18161v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Shuchismita Anwar, Sowmitra Das, Muhammad Iqbal Hossain, Jishnu Mahmud</dc:creator>
+      <dc:creator>Ziqing Guo, Ziwen Pan, Alex Khan, Jan Balewski</dc:creator>
+    </item>
+    <item>
+      <title>Universal Dynamics with Globally Controlled Analog Quantum Simulators</title>
+      <link>https://arxiv.org/abs/2508.19075</link>
+      <description>arXiv:2508.19075v1 Announce Type: new 
+Abstract: Analog quantum simulators with global control fields have emerged as powerful platforms for exploring complex quantum phenomena. Recent breakthroughs, such as the coherent control of thousands of atoms, highlight the growing potential for quantum applications at scale. Despite these advances, a fundamental theoretical question remains unresolved: to what extent can such systems realize universal quantum dynamics under global control? Here we establish a necessary and sufficient condition for universal quantum computation using only global pulse control, proving that a broad class of analog quantum simulators is, in fact, universal. We further extend this framework to fermionic and bosonic systems, including modern platforms such as ultracold atoms in optical superlattices. Crucially, to connect the theoretical possibility with experimental reality, we introduce a new control technique into the experiment - direct quantum optimal control. This method enables the synthesis of complex effective Hamiltonians and allows us to incorporate realistic hardware constraints. To show its practical power, we experimentally engineer three-body interactions outside the blockade regime and demonstrate topological dynamics on a Rydberg atom array. Using the new control framework, we overcome key experimental challenges, including hardware limitations and atom position fluctuations in the non-blockade regime, by identifying smooth, short-duration pulses that achieve high-fidelity dynamics. Experimental measurements reveal dynamical signatures of symmetry-protected-topological edge modes, confirming both the expressivity and feasibility of our approach. Our work opens a new avenue for quantum simulation beyond native hardware Hamiltonians, enabling the engineering of effective multi-body interactions and advancing the frontier of quantum information processing with globally-controlled analog platforms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.19075v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.quant-gas</category>
+      <category>cond-mat.str-el</category>
+      <category>cs.LG</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Hong-Ye Hu, Abigail McClain Gomez, Liyuan Chen, Aaron Trowbridge, Andy J. Goldschmidt, Zachary Manchester, Frederic T. Chong, Arthur Jaffe, Susanne F. Yelin</dc:creator>
+    </item>
+    <item>
+      <title>Breaking Through Barren Plateaus: Reinforcement Learning Initializations for Deep Variational Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2508.18514</link>
+      <description>arXiv:2508.18514v1 Announce Type: cross 
+Abstract: Variational Quantum Algorithms (VQAs) have gained prominence as a viable framework for exploiting near-term quantum devices in applications ranging from optimization and chemistry simulation to machine learning. However, the effectiveness of VQAs is often constrained by the so-called barren plateau problem, wherein gradients diminish exponentially as system size or circuit depth increases, thereby hindering training. In this work, we propose a reinforcement learning (RL)-based initialization strategy to alleviate the barren plateau issue by reshaping the initial parameter landscape to avoid regions prone to vanishing gradients. In particular, we explore several RL algorithms (Deterministic Policy Gradient, Soft Actor-Critic, and Proximal Policy Optimization, etc.) to generate the circuit parameters (treated as actions) that minimize the VQAs cost function before standard gradient-based optimization. By pre-training with RL in this manner, subsequent optimization using methods such as gradient descent or Adam proceeds from a more favorable initial state. Extensive numerical experiments under various noise conditions and tasks consistently demonstrate that the RL-based initialization method significantly enhances both convergence speed and final solution quality. Moreover, comparisons among different RL algorithms highlight that multiple approaches can achieve comparable performance gains, underscoring the flexibility and robustness of our method. These findings shed light on a promising avenue for integrating machine learning techniques into quantum algorithm design, offering insights into how RL-driven parameter initialization can accelerate the scalability and practical deployment of VQAs. Opening up a promising path for the research community in machine learning for quantum, especially barren plateau problems in VQAs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.18514v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yifeng Peng, Xinyi Li, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang</dc:creator>
     </item>
   </channel>
 </rss>

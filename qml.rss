@@ -7,65 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Aug 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 04:00:12 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 28 Aug 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Quantum Entanglement as Super-Confounding: From Bell's Theorem to Robust Machine Learning</title>
-      <link>https://arxiv.org/abs/2508.19327</link>
-      <description>arXiv:2508.19327v1 Announce Type: new 
-Abstract: Bell's theorem reveals a profound conflict between quantum mechanics and local realism, a conflict we reinterpret through the modern lens of causal inference. We propose and computationally validate a framework where quantum entanglement acts as a "super-confounding" resource, generating correlations that violate the classical causal bounds set by Bell's inequalities. This work makes three key contributions: First, we establish a physical hierarchy of confounding (Quantum &gt; Classical) and introduce Confounding Strength (CS) to quantify this effect. Second, we provide a circuit-based implementation of the quantum $\mathcal{DO}$-calculus to distinguish causality from spurious correlation. Finally, we apply this calculus to a quantum machine learning problem, where causal feature selection yields a statistically significant 11.3% average absolute improvement in model robustness. Our framework bridges quantum foundations and causal AI, offering a new, practical perspective on quantum correlations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.19327v1</guid>
+      <title>Differentially Private Federated Quantum Learning via Quantum Noise</title>
+      <link>https://arxiv.org/abs/2508.20310</link>
+      <description>arXiv:2508.20310v1 Announce Type: new 
+Abstract: Quantum federated learning (QFL) enables collaborative training of quantum machine learning (QML) models across distributed quantum devices without raw data exchange. However, QFL remains vulnerable to adversarial attacks, where shared QML model updates can be exploited to undermine information privacy. In the context of noisy intermediate-scale quantum (NISQ) devices, a key question arises: How can inherent quantum noise be leveraged to enforce differential privacy (DP) and protect model information during training and communication? This paper explores a novel DP mechanism that harnesses quantum noise to safeguard quantum models throughout the QFL process. By tuning noise variance through measurement shots and depolarizing channel strength, our approach achieves desired DP levels tailored to NISQ constraints. Simulations demonstrate the framework's effectiveness by examining the relationship between differential privacy budget and noise parameters, as well as the trade-off between security and training accuracy. Additionally, we demonstrate the framework's robustness against an adversarial attack designed to compromise model performance using adversarial examples, with evaluations based on critical metrics such as accuracy on adversarial examples, confidence scores for correct predictions, and attack success rates. The results reveal a tunable trade-off between privacy and robustness, providing an efficient solution for secure QFL on NISQ devices with significant potential for reliable quantum computing applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.20310v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Pilsung Kang</dc:creator>
-    </item>
-    <item>
-      <title>Is data-efficient learning feasible with quantum models?</title>
-      <link>https://arxiv.org/abs/2508.19437</link>
-      <description>arXiv:2508.19437v1 Announce Type: new 
-Abstract: The importance of analyzing nontrivial datasets when testing quantum machine learning (QML) models is becoming increasingly prominent in literature, yet a cohesive framework for understanding dataset characteristics remains elusive. In this work, we concentrate on the size of the dataset as an indicator of its complexity and explores the potential for QML models to demonstrate superior data-efficiency compared to classical models, particularly through the lens of quantum kernel methods (QKMs). We provide a method for generating semi-artificial fully classical datasets, on which we show one of the first evidence of the existence of classical datasets where QKMs require less data during training. Additionally, our study introduces a new analytical tool to the QML domain, derived for classical kernel methods, which can be aimed at investigating the classical-quantum gap. Our empirical results reveal that QKMs can achieve low error rates with less training data compared to classical counterparts. Furthermore, our method allows for the generation of datasets with varying properties, facilitating further investigation into the characteristics of real-world datasets that may be particularly advantageous for QKMs. We also show that the predicted performance from the analytical tool we propose - a generalization metric from classical domain - show great alignment empirical evidence, which fills the gap previously existing in the field. We pave a way to a comprehensive exploration of dataset complexities, providing insights into how these complexities influence QML performance relative to traditional methods. This research contributes to a deeper understanding of the generalization benefits of QKM models and potentially a broader family of QML models, setting the stage for future advancements in the field.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.19437v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Alona Sakhnenko, Christian B. Mendl, Jeanette M. Lorenz</dc:creator>
-    </item>
-    <item>
-      <title>Quantum-Classical Hybrid Molecular Autoencoder for Advancing Classical Decoding</title>
-      <link>https://arxiv.org/abs/2508.19394</link>
-      <description>arXiv:2508.19394v1 Announce Type: cross 
-Abstract: Although recent advances in quantum machine learning (QML) offer significant potential for enhancing generative models, particularly in molecular design, a large array of classical approaches still face challenges in achieving high fidelity and validity. In particular, the integration of QML with sequence-based tasks, such as Simplified Molecular Input Line Entry System (SMILES) string reconstruction, remains underexplored and usually suffers from fidelity degradation. In this work, we propose a hybrid quantum-classical architecture for SMILES reconstruction that integrates quantum encoding with classical sequence modeling to improve quantum fidelity and classical similarity. Our approach achieves a quantum fidelity of approximately 84% and a classical reconstruction similarity of 60%, surpassing existing quantum baselines. Our work lays a promising foundation for future QML applications, striking a balance between expressive quantum representations and classical sequence models and catalyzing broader research on quantum-aware sequence models for molecular and drug discovery.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.19394v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Afrar Jahin, Yi Pan, Yingfeng Wang, Tianming Liu, Wei Zhang</dc:creator>
+      <dc:creator>Atit Pokharel, Ratun Rahman, Shaba Shaon, Thomas Morris, Dinh C. Nguyen</dc:creator>
     </item>
     <item>
-      <title>Quantum latent distributions in deep generative models</title>
-      <link>https://arxiv.org/abs/2508.19857</link>
-      <description>arXiv:2508.19857v1 Announce Type: cross 
-Abstract: Many successful families of generative models leverage a low-dimensional latent distribution that is mapped to a data distribution. Though simple latent distributions are commonly used, it has been shown that more sophisticated distributions can improve performance. For instance, recent work has explored using the distributions produced by quantum processors and found empirical improvements. However, when latent space distributions produced by quantum processors can be expected to improve performance, and whether these improvements are reproducible, are open questions that we investigate in this work. We prove that, under certain conditions, these "quantum latent distributions" enable generative models to produce data distributions that classical latent distributions cannot efficiently produce. We also provide actionable intuitions to identify when such quantum advantages may arise in real-world settings. We perform benchmarking experiments on both a synthetic quantum dataset and the QM9 molecular dataset, using both simulated and real photonic quantum processors. Our results demonstrate that quantum latent distributions can lead to improved generative performance in GANs compared to a range of classical baselines. We also explore diffusion and flow matching models, identifying architectures compatible with quantum latent distributions. This work confirms that near-term quantum processors can expand the capabilities of deep generative models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2508.19857v1</guid>
-      <category>cs.LG</category>
+      <title>Quantum Verifiable Rewards for Post-Training Qiskit Code Assistant</title>
+      <link>https://arxiv.org/abs/2508.20907</link>
+      <description>arXiv:2508.20907v1 Announce Type: new 
+Abstract: Qiskit is an open-source quantum computing framework that allows users to design, simulate, and run quantum circuits on real quantum hardware. We explore post-training techniques for LLMs to assist in writing Qiskit code. We introduce quantum verification as an effective method for ensuring code quality and executability on quantum hardware. To support this, we developed a synthetic data pipeline that generates quantum problem-unit test pairs and used it to create preference data for aligning LLMs with DPO. Additionally, we trained models using GRPO, leveraging quantum-verifiable rewards provided by the quantum hardware. Our best-performing model, combining DPO and GRPO, surpasses the strongest open-source baselines on the challenging Qiskit-HumanEval-hard benchmark.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.20907v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Nicolas Dupuis, Adarsh Tiwari, Youssef Mroueh, David Kremer, Ismael Faro, Juan Cruz-Benito</dc:creator>
+    </item>
+    <item>
+      <title>QIP $ \subseteq $ AM(2QCFA)</title>
+      <link>https://arxiv.org/abs/2508.21020</link>
+      <description>arXiv:2508.21020v1 Announce Type: new 
+Abstract: The class of languages having polynomial-time classical or quantum interactive proof systems ($\mathsf{IP}$ or $\mathsf{QIP}$, respectively) is identical to $\mathsf{PSPACE}$. We show that $\mathsf{PSPACE}$ (and so $\mathsf{QIP}$) is subset of $\mathsf{AM(2QCFA)}$, the class of languages having Arthur-Merlin proof systems where the verifiers are two-way finite automata with quantum and classical states (2QCFAs) communicating with the provers classically. Our protocols use only rational-valued quantum transitions and run in double-exponential expected time. Moreover, the member strings are accepted with probability 1 (i.e., perfect-completeness).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.21020v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.FL</category>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Abuzer Yakary{\i}lmaz</dc:creator>
+    </item>
+    <item>
+      <title>QAgent: An LLM-based Multi-Agent System for Autonomous OpenQASM programming</title>
+      <link>https://arxiv.org/abs/2508.20134</link>
+      <description>arXiv:2508.20134v1 Announce Type: cross 
+Abstract: Noisy Intermediate-Scale Quantum (NISQ) devices have begun to exhibit early quantum advantages on classically intractable problems, spanning physics simulations to Gaussian boson sampling. Yet, realizing these benefits remains challenging for non-experts, primarily due to the complexities of programming in Open Quantum Assembly Language (OpenQASM). Although Large Language Model (LLM)-based agents have shown promise in automating classical programming workflows, their quantum counterparts have largely been restricted to specialized tasks such as quantum chemistry or error correction. In this paper, we present QAgent, an LLM-powered multi-agent system that fully automates OpenQASM programming. By integrating task planning, in-context few-shot learning, retrieval-augmented generation (RAG) for long-term context, predefined generation tools, and chain-of-thought (CoT) reasoning, the agents systematically improve both compilation and functional correctness. Our evaluations demonstrate substantial improvements: across multiple LLMs of varying sizes, QAgent enhances the accuracy of QASM code generation by 71.6\% compared to previous static LLM-based approaches. We envision this multi-agent system as a key enabler for democratizing quantum programming, bridging expertise gaps, and accelerating the practical adoption of quantum computing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2508.20134v1</guid>
+      <category>cs.AI</category>
+      <category>cs.ET</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Omar Bacarreza, Thorin Farnsworth, Alexander Makarovskiy, Hugo Wallner, Tessa Hicks, Santiago Sempere-Llagostera, John Price, Robert J. A. Francis-Jones, William R. Clements</dc:creator>
+      <dc:creator>Zhenxiao Fu, Fan Chen, Lei Jiang</dc:creator>
     </item>
   </channel>
 </rss>

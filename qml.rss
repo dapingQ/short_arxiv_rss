@@ -7,181 +7,76 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Sep 2025 04:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 04 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>The rotation-invariant Hamiltonian problem is QMA$_{\rm EXP}$-complete</title>
-      <link>https://arxiv.org/abs/2509.00161</link>
-      <description>arXiv:2509.00161v1 Announce Type: new 
-Abstract: In this work, we study a variant of the local Hamiltonian problem where we restrict to Hamiltonians that live on a lattice and are invariant under translations and rotations of the lattice. In the one-dimensional case this problem is known to be QMA$_{\rm EXP}$-complete. On the other hand, if we fix the lattice length then in the high-dimensional limit the ground state becomes unentangled due to arguments from mean-field theory. We take steps towards understanding this complexity spectrum by studying a problem that is intermediate between these two extremes. Namely, we consider the regime where the lattice dimension is arbitrary but fixed and the lattice length is scaled. We prove that this rotation-invariant Hamiltonian problem is QMA$_{\rm EXP}$-complete answering an open question of [Gottesman, Irani 2013]. This characterizes a broad parameter range in which these rotation-invariant Hamiltonians have high computational complexity.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00161v1</guid>
+      <title>Programmable Quantum Matter: Heralding Large Cluster States in Driven Inhomogeneous Spin Ensembles</title>
+      <link>https://arxiv.org/abs/2509.02992</link>
+      <description>arXiv:2509.02992v1 Announce Type: new 
+Abstract: Atom-like emitters in solids are promising platforms for quantum sensing and information processing, but inhomogeneities in the emitter fine structure complicate quantum control. We present a framework that leverages this diversity to reduce the resources for generating optically heralded spin cluster states across $N_q$ emitters from the conventional order $O(N_q)$ to $O(1)$ in ensembles of $N_q \sim 10$-$100$. An optimized pulse sequence simultaneously corrects pulse-length and detuning errors, achieving single-qubit gate fidelities exceeding $99.99\%$ for errors (normalized relative to the Rabi drive strength) up to 0.3, while maintaining fidelities above $99\%$ for errors as large as 0.4. Applied as a Carr-Purcell-Meiboom-Gill (CPMG) dynamical decoupling protocol to the dominant noise spectrum of silicon-vacancy centers in diamond, it enhances ensemble coherence times by over $7\times$ compared to interleaved bang-bang based CPMG. For state-of-the-art dilution refrigerators, global resonant optimal decoupling across $N_q$ spins sharply reduces heating, addressing the trade-off between the spin coherence and scaling to $N_q \gg 1$. We further introduce a modified single-photon entanglement protocol with an efficient algorithm for deterministic entanglement compilation. Depending on the decoupling time window, our method yields order $O(10^2$-$10^4)$ more entanglement links than bang-bang sequences, with theoretical guarantees of order $\Omega(N_q)$ unique links, improvable by control tuning. Together, these techniques provide scalable tools - including global control, phase denoising, remote entanglement, and compilation - for robust quantum computing architectures with heterogeneous spin ensembles.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.02992v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jon Nelson, Daniel Gottesman</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Circuits for Quantum Convolutions: A Quantum Convolutional Autoencoder</title>
-      <link>https://arxiv.org/abs/2509.00637</link>
-      <description>arXiv:2509.00637v1 Announce Type: new 
-Abstract: Quantum machine learning deals with leveraging quantum theory with classic machine learning algorithms. Current research efforts study the advantages of using quantum mechanics or quantum information theory to accelerate learning time or convergence. Other efforts study data transformations in the quantum information space to evaluate robustness and performance boosts. This paper focuses on processing input data using randomized quantum circuits that act as quantum convolutions producing new representations that can be used in a convolutional network. Experimental results suggest that the performance is comparable to classic convolutional neural networks, and in some instances, using quantum convolutions can accelerate convergence.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00637v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Javier Orduz, Pablo Rivas, Erich Baker</dc:creator>
-    </item>
-    <item>
-      <title>It's-A-Me, Quantum Mario: Scalable Quantum Reinforcement Learning with Multi-Chip Ensembles</title>
-      <link>https://arxiv.org/abs/2509.00713</link>
-      <description>arXiv:2509.00713v1 Announce Type: new 
-Abstract: Quantum reinforcement learning (QRL) promises compact function approximators with access to vast Hilbert spaces, but its practical progress is slowed by NISQ-era constraints such as limited qubits and noise accumulation. We introduce a multi-chip ensemble framework using multiple small Quantum Convolutional Neural Networks (QCNNs) to overcome these constraints. Our approach partitions complex, high-dimensional observations from the Super Mario Bros environment across independent quantum circuits, then classically aggregates their outputs within a Double Deep Q-Network (DDQN) framework. This modular architecture enables QRL in complex environments previously inaccessible to quantum agents, achieving superior performance and learning stability compared to classical baselines and single-chip quantum models. The multi-chip ensemble demonstrates enhanced scalability by reducing information loss from dimensionality reduction while remaining implementable on near-term quantum hardware, providing a practical pathway for applying QRL to real-world problems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00713v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Junghoon Justin Park, Huan-Hsin Tseng, Shinjae Yoo, Samuel Yen-Chi Chen, Jiook Cha</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Causality: Resolving Simpson's Paradox with $\mathcal{DO}$-Calculus</title>
-      <link>https://arxiv.org/abs/2509.00744</link>
-      <description>arXiv:2509.00744v1 Announce Type: new 
-Abstract: Distinguishing correlation from causation is a fundamental challenge in machine intelligence, often representing a critical barrier to building robust and trustworthy systems. While Pearl's $\mathcal{DO}$-calculus provides a rigorous framework for causal inference, a parallel challenge lies in its physical implementation. Here, we apply and experimentally validate a quantum algorithmic framework for performing causal interventions. Our approach maps causal networks onto quantum circuits where probabilistic links are encoded by controlled-rotation gates, and interventions are realized by a structural remodeling of the circuit -- a physical analogue to Pearl's ``graph surgery''. We demonstrate the method's efficacy by resolving Simpson's Paradox in a 3-qubit model, and show its scalability by quantifying confounding bias in a 10-qubit healthcare simulation. Critically, we provide a proof-of-principle experimental validation on an IonQ Aria quantum computer, successfully reproducing the paradox and its resolution in the presence of real-world noise. This work establishes a practical pathway for quantum causal inference, offering a new computational tool to address deep-rooted challenges in algorithmic fairness and explainable AI (XAI).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00744v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Pilsung Kang</dc:creator>
-    </item>
-    <item>
-      <title>Exploring Quantum Machine Learning for Weather Forecasting</title>
-      <link>https://arxiv.org/abs/2509.01422</link>
-      <description>arXiv:2509.01422v1 Announce Type: new 
-Abstract: Weather forecasting plays a crucial role in supporting strategic decisions across various sectors, including agriculture, renewable energy production, and disaster management. However, the inherently dynamic and chaotic behavior of the atmosphere presents significant challenges to conventional predictive models. On the other hand, introducing quantum computing simulation techniques to the forecasting problems constitutes a promising alternative to overcome these challenges. In this context, this work explores the emerging intersection between quantum machine learning (QML) and climate forecasting. We present the implementation of a Quantum Neural Network (QNN) trained on real meteorological data from NASA's Prediction of Worldwide Energy Resources (POWER) database. The results show that QNN has the potential to outperform a classical Recurrent Neural Network (RNN) in terms of accuracy and adaptability to abrupt data shifts, particularly in wind speed prediction. Despite observed nonlinearities and architectural sensitivities, the QNN demonstrated robustness in handling temporal variability and faster convergence in temperature prediction. These findings highlight the potential of quantum models in short and medium term climate prediction, while also revealing key challenges and future directions for optimization and broader applicability.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.01422v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Maria Helo\'isa F. da Silva, Gleydson F. de Jesus, Christiano M. S. Nascimento, Val\'eria L. da Silva, Clebson Cruz</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Machine Learning for UAV Swarm Intrusion Detection</title>
-      <link>https://arxiv.org/abs/2509.01812</link>
-      <description>arXiv:2509.01812v1 Announce Type: new 
-Abstract: Intrusion detection in unmanned-aerial-vehicle (UAV) swarms is complicated by high mobility, non-stationary traffic, and severe class imbalance. Leveraging a 120 k-flow simulation corpus that covers five attack types, we benchmark three quantum-machine-learning (QML) approaches - quantum kernels, variational quantum neural networks (QNNs), and hybrid quantum-trained neural networks (QT-NNs) - against strong classical baselines. All models consume an 8-feature flow representation and are evaluated under identical preprocessing, balancing, and noise-model assumptions. We analyse the influence of encoding strategy, circuit depth, qubit count, and shot noise, reporting accuracy, macro-F1, ROC-AUC, Matthews correlation, and quantum-resource footprints. Results reveal clear trade-offs: quantum kernels and QT-NNs excel in low-data, nonlinear regimes, while deeper QNNs suffer from trainability issues, and CNNs dominate when abundant data offset their larger parameter count. The complete codebase and dataset partitions are publicly released to enable reproducible QML research in network security.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.01812v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.SY</category>
-      <category>eess.SY</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kuan-Cheng Chen, Samuel Yen-Chi Chen, Tai-Yue Li, Chen-Yu Liu, Kin K. Leung</dc:creator>
-    </item>
-    <item>
-      <title>QUBO-based training for VQAs on Quantum Annealers</title>
-      <link>https://arxiv.org/abs/2509.01821</link>
-      <description>arXiv:2509.01821v1 Announce Type: new 
-Abstract: Quantum annealers provide an effective framework for solving large-scale combinatorial optimization problems. This work presents a novel methodology for training Variational Quantum Algorithms (VQAs) by reformulating the parameter optimization task as a Quadratic Unconstrained Binary Optimization (QUBO) problem. Unlike traditional gradient-based methods, our approach directly leverages the Hamiltonian of the chosen VQA ansatz and employs an adaptive, metaheuristic optimization scheme. This optimization strategy provides a rich set of configurable parameters which enables the adaptation to specific problem characteristics and available computational resources. The proposed framework is generalizable to arbitrary Hamiltonians and integrates a recursive refinement strategy to progressively approximate high-quality solutions.
-  Experimental evaluations demonstrate the feasibility of the method and its ability to significantly reduce computational overhead compared to classical and evolutionary optimizers, while achieving comparable or superior solution quality. These findings suggest that quantum annealers can serve as a scalable alternative to classical optimizers for VQA training, particularly in scenarios affected by barren plateaus and noisy gradient estimates, and open new possibilities for hybrid quantum gate - quantum annealing - classical optimization models in near-term quantum computing.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.01821v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ernesto Acosta, Guillermo Botella, Carlos Cano</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Statistical Witness Indistinguishability</title>
-      <link>https://arxiv.org/abs/2509.01945</link>
-      <description>arXiv:2509.01945v1 Announce Type: new 
-Abstract: Statistical witness indistinguishability is a relaxation of statistical zero-knowledge which guarantees that the transcript of an interactive proof reveals no information about which valid witness the prover used to generate it. In this paper we define and initiate the study of QSWI, the class of problems with quantum statistically witness indistinguishable proofs.
-  Using inherently quantum techniques from Kobayashi (TCC 2008), we prove that any problem with an honest-verifier quantum statistically witness indistinguishable proof has a 3-message public-coin malicious-verifier quantum statistically witness indistinguishable proof. There is no known analogue of this result for classical statistical witness indistinguishability. As a corollary, our result implies SWI is contained in QSWI.
-  Additionally, we extend the work of Bitansky et al. (STOC 2023) to show that quantum batch proofs imply quantum statistically witness indistinguishable proofs with inverse-polynomial witness indistinguishability error.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.01945v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.CR</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Shafik Nassar, Ronak Ramachandran</dc:creator>
-    </item>
-    <item>
-      <title>LLM-QUBO: An End-to-End Framework for Automated QUBO Transformation from Natural Language Problem Descriptions</title>
-      <link>https://arxiv.org/abs/2509.00099</link>
-      <description>arXiv:2509.00099v1 Announce Type: cross 
-Abstract: Quantum annealing offers a promising paradigm for solving NP-hard combinatorial optimization problems, but its practical application is severely hindered by two challenges: the complex, manual process of translating problem descriptions into the requisite Quadratic Unconstrained Binary Optimization (QUBO) format and the scalability limitations of current quantum hardware. To address these obstacles, we propose a novel end-to-end framework, LLM-QUBO, that automates this entire formulation-to-solution pipeline. Our system leverages a Large Language Model (LLM) to parse natural language, automatically generating a structured mathematical representation. To overcome hardware limitations, we integrate a hybrid quantum-classical Benders' decomposition method. This approach partitions the problem, compiling the combinatorial complex master problem into a compact QUBO format, while delegating linearly structured sub-problems to classical solvers. The correctness of the generated QUBO and the scalability of the hybrid approach are validated using classical solvers, establishing a robust performance baseline and demonstrating the framework's readiness for quantum hardware. Our primary contribution is a synergistic computing paradigm that bridges classical AI and quantum computing, addressing key challenges in the practical application of optimization problem. This automated workflow significantly reduces the barrier to entry, providing a viable pathway to transform quantum devices into accessible accelerators for large-scale, real-world optimization challenges.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00099v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Huixiang Zhang, Mahzabeen Emu, Salimur Choudhury</dc:creator>
-    </item>
-    <item>
-      <title>Enhanced R\'{e}nyi Entropy-Based Post-Quantum Key Agreement with Provable Security and Information-Theoretic Guarantees</title>
-      <link>https://arxiv.org/abs/2509.00104</link>
-      <description>arXiv:2509.00104v1 Announce Type: cross 
-Abstract: This paper presents an enhanced post-quantum key agreement protocol based on R\'{e}nyi entropy, addressing vulnerabilities in the original construction while preserving information-theoretic security properties. We develop a theoretical framework leveraging entropy-preserving operations and secret-shared verification to achieve provable security against quantum adversaries. Through entropy amplification techniques and quantum-resistant commitments, the protocol establishes $2^{128}$ quantum security guarantees under the quantum random oracle model. Key innovations include a confidentiality-preserving verification mechanism using distributed polynomial commitments, tightened min-entropy bounds with guaranteed non-negativity, and composable security proofs in the quantum universal composability framework. Unlike computational approaches, our method provides information-theoretic security without hardness assumptions while maintaining polynomial complexity. Theoretical analysis demonstrates resilience against known quantum attack vectors, including Grover-accelerated brute force and quantum memory attacks. The protocol achieves parameterization for 128-bit quantum security with efficient $\mathcal{O}(n^2)$ communication complexity. Extensions to secure multiparty computation and quantum network applications are established, providing a foundation for long-term cryptographic security. All security claims are derived from mathematical proofs; this theoretical work presents no experimental validation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00104v1</guid>
-      <category>cs.CR</category>
+      <category>cs.ET</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Ruopengyu Xu, Chenglian Liu</dc:creator>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Pratyush Anand, Louis Follet, Odiel Hooybergs, Dirk R. Englund</dc:creator>
     </item>
     <item>
-      <title>Solving Optimal Power Flow using a Variational Quantum Approach</title>
-      <link>https://arxiv.org/abs/2509.00341</link>
-      <description>arXiv:2509.00341v1 Announce Type: cross 
-Abstract: The optimal power flow (OPF) is a large-scale optimization problem that is central in the operation of electric power systems. Although it can be posed as a nonconvex quadratically constrained quadratic program, the complexity of modern-day power grids raises scalability and optimality challenges. In this context, this work proposes a variational quantum paradigm for solving the OPF. We encode primal variables through the state of a parameterized quantum circuit (PQC), and dual variables through the probability mass function associated with a second PQC. The Lagrangian function can thus be expressed as scaled expectations of quantum observables. An OPF solution can be found by minimizing/maximizing the Lagrangian over the parameters of the first/second PQC. We pursue saddle points of the Lagrangian in a hybrid fashion. Gradients of the Lagrangian are estimated using the two PQCs, while PQC parameters are updated classically using a primal-dual method. We propose permuting primal variables so that OPF observables are expressed in a banded form, allowing them to be measured efficiently. Numerical tests on the IEEE 57-node power system using Pennylane's simulator corroborate that the proposed doubly variational quantum framework can find high-quality OPF solutions. Although showcased for the OPF, this framework features a broader scope, including conic programs with numerous variables and constraints, problems defined over sparse graphs, and training quantum machine learning models to satisfy constraints.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.00341v1</guid>
-      <category>eess.SY</category>
+      <title>Identifiability and minimality bounds of quantum and post-quantum models of classical stochastic processes</title>
+      <link>https://arxiv.org/abs/2509.03004</link>
+      <description>arXiv:2509.03004v1 Announce Type: new 
+Abstract: To make sense of the world around us, we develop models, constructed to enable us to replicate, describe, and explain the behaviours we see. Focusing on the broad case of sequences of correlated random variables, i.e., classical stochastic processes, we tackle the question of determining whether or not two different models produce the same observable behavior. This is the problem of identifiability. Curiously, the physics of the model need not correspond to the physics of the observations; recent work has shown that it is even advantageous -- in terms of memory and thermal efficiency -- to employ quantum models to generate classical stochastic processes. We resolve the identifiability problem in this regime, providing a means to compare any two models of a classical process, be the models classical, quantum, or `post-quantum', by mapping them to a canonical `generalized' hidden Markov model. Further, this enables us to place (sometimes tight) bounds on the minimal dimension required of a quantum model to generate a given classical stochastic process.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.03004v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.stat-mech</category>
+      <category>cs.CL</category>
+      <category>cs.FL</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Paul M. Riechers, Thomas J. Elliott</dc:creator>
+    </item>
+    <item>
+      <title>Learning AC Power Flow Solutions using a Data-Dependent Variational Quantum Circuit</title>
+      <link>https://arxiv.org/abs/2509.03495</link>
+      <description>arXiv:2509.03495v1 Announce Type: new 
+Abstract: Interconnection studies require solving numerous instances of the AC load or power flow (AC PF) problem to simulate diverse scenarios as power systems navigate the ongoing energy transition. To expedite such studies, this work leverages recent advances in quantum computing to find or predict AC PF solutions using a variational quantum circuit (VQC). VQCs are trainable models that run on modern-day noisy intermediate-scale quantum (NISQ) hardware to accomplish elaborate optimization and machine learning (ML) tasks. Our first contribution is to pose a single instance of the AC PF as a nonlinear least-squares fit over the VQC trainable parameters (weights) and solve it using a hybrid classical/quantum computing approach. The second contribution is to feed PF specifications as features into a data-embedded VQC and train the resultant quantum ML (QML) model to predict general PF solutions. The third contribution is to develop a novel protocol to efficiently measure AC-PF quantum observables by exploiting the graph structure of a power network. Preliminary numerical tests indicate that the proposed VQC models attain enhanced prediction performance over a deep neural network despite using much fewer weights. The proposed quantum AC-PF framework sets the foundations for addressing more elaborate grid tasks via quantum computing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.03495v1</guid>
+      <category>quant-ph</category>
       <category>cs.LG</category>
       <category>cs.SY</category>
+      <category>eess.SY</category>
       <category>math.OC</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Thinh Viet Le, Mark M. Wilde, Vassilis Kekatos</dc:creator>
+      <dc:creator>Thinh Viet Le, Md Obaidur Rahman, Vassilis Kekatos</dc:creator>
     </item>
     <item>
-      <title>Quantum-based QoE Optimization in Advanced Cellular Networks: Integration and Cloud Gaming Use Case</title>
-      <link>https://arxiv.org/abs/2509.01008</link>
-      <description>arXiv:2509.01008v1 Announce Type: cross 
-Abstract: This work explores the integration of Quantum Machine Learning (QML) and Quantum-Inspired (QI) techniques for optimizing end-to-end (E2E) network services in telecommunication systems, particularly focusing on 5G networks and beyond. The application of QML and QI algorithms is investigated, comparing their performance with classical Machine Learning (ML) approaches. The present study employs a hybrid framework combining quantum and classical computing leveraging the strengths of QML and QI, without the penalty of quantum hardware availability. This is particularized for the optimization of the Quality of Experience (QoE) over cellular networks. The framework comprises an estimator for obtaining the expected QoE based on user metrics, service settings, and cell configuration, and an optimizer that uses the estimation to choose the best cell and service configuration. Although the approach is applicable to any QoE-based network management, its implementation is particularized for the optimization of network configurations for Cloud Gaming services. Then, it is evaluated via performance metrics such as accuracy and model loading and inference times for the estimator, and time to solution and solution score for the optimizer. The results indicate that QML models achieve similar or superior accuracy to classical ML models for estimation, while decreasing inference and loading times. Furthermore, potential for better performance is observed for higher-dimensional data, highlighting promising results for higher complexity problems. Thus, the results demonstrate the promising potential of QML in advancing network optimization, although challenges related to data availability and integration complexities between quantum and classical ML are identified as future research lines.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.01008v1</guid>
-      <category>cs.NI</category>
-      <category>cs.LG</category>
+      <title>Information-Theoretic Lower Bounds for Approximating Monomials via Optimal Quantum Tsallis Entropy Estimation</title>
+      <link>https://arxiv.org/abs/2509.03496</link>
+      <description>arXiv:2509.03496v1 Announce Type: new 
+Abstract: This paper reveals a conceptually new connection from information theory to approximation theory via quantum algorithms for entropy estimation. Specifically, we provide an information-theoretic lower bound $\Omega(\sqrt{n})$ on the approximate degree of the monomial $x^n$, compared to the analytic lower bounds shown in Newman and Rivlin (Aequ. Math. 1976) via Fourier analysis and in Sachdeva and Vishnoi (Found. Trends Theor. Comput. Sci. 2014) via the Markov brothers' inequality. This is done by relating the polynomial approximation of monomials to quantum Tsallis entropy estimation. This further implies a quantum algorithm that estimates to within additive error $\varepsilon$ the Tsallis entropy of integer order $q \geq 2$ of an unknown probability distribution $p$ or an unknown quantum state $\rho$, using $\widetilde \Theta(\frac{1}{\sqrt{q}\varepsilon})$ queries to the quantum oracle that produces a sample from $p$ or prepares a copy of $\rho$, improving the prior best $O(\frac{1}{\varepsilon})$ via the Shift test due to Ekert, Alves, Oi, Horodecki, Horodecki and Kwek (Phys. Rev. Lett. 2002). To the best of our knowledge, this is the first quantum entropy estimator with optimal query complexity (up to polylogarithmic factors) for all parameters simultaneously.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.03496v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.CC</category>
+      <category>cs.IT</category>
+      <category>math.CA</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Fatma Chaouech, Javier Villegas, Ant\'onio Pereira, Carlos Baena, Sergio Fortes, Raquel Barco, Dominic Gribben, Mohammad Dib, Alba Villarino, Aser Cortines, Rom\'an Or\'us</dc:creator>
+      <dc:creator>Qisheng Wang</dc:creator>
     </item>
   </channel>
 </rss>

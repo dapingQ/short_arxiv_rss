@@ -7,12 +7,81 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Sep 2025 04:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 04:00:17 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 07 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Histogram Driven Amplitude Embedding for Qubit Efficient Quantum Image Compression</title>
+      <link>https://arxiv.org/abs/2509.04849</link>
+      <description>arXiv:2509.04849v1 Announce Type: new 
+Abstract: This work introduces a compact and hardware efficient method for compressing color images using near term quantum devices. The approach segments the image into fixed size blocks called bixels, and computes the total intensity within each block. A global histogram with B bins is then constructed from these block intensities, and the normalized square roots of the bin counts are encoded as amplitudes into an n qubit quantum state. Amplitude embedding is performed using PennyLane and executed on real IBM Quantum hardware. The resulting state is measured to reconstruct the histogram, enabling approximate recovery of block intensities and full image reassembly. The method maintains a constant qubit requirement based solely on the number of histogram bins, independent of the resolution of the image. By adjusting B, users can control the trade off between fidelity and resource usage. Empirical results demonstrate high quality reconstructions using as few as 5 to 7 qubits, significantly outperforming conventional pixel level encodings in terms of qubit efficiency and validating the practical application of the method for current NISQ era quantum systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.04849v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CV</category>
+      <category>cs.ET</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Sahil Tomar, Sandeep Kumar</dc:creator>
+    </item>
+    <item>
+      <title>RobQFL: Robust Quantum Federated Learning in Adversarial Environment</title>
+      <link>https://arxiv.org/abs/2509.04914</link>
+      <description>arXiv:2509.04914v1 Announce Type: new 
+Abstract: Quantum Federated Learning (QFL) merges privacy-preserving federation with quantum computing gains, yet its resilience to adversarial noise is unknown. We first show that QFL is as fragile as centralized quantum learning. We propose Robust Quantum Federated Learning (RobQFL), embedding adversarial training directly into the federated loop. RobQFL exposes tunable axes: client coverage $\gamma$ (0-100\%), perturbation scheduling (fixed-$\varepsilon$ vs $\varepsilon$-mixes), and optimization (fine-tune vs scratch), and distils the resulting $\gamma \times \varepsilon$ surface into two metrics: Accuracy-Robustness Area and Robustness Volume. On 15-client simulations with MNIST and Fashion-MNIST, IID and Non-IID conditions, training only 20-50\% clients adversarially boosts $\varepsilon \leq 0.1$ accuracy $\sim$15 pp at $&lt; 2$ pp clean-accuracy cost; fine-tuning adds 3-5 pp. With $\geq$75\% coverage, a moderate $\varepsilon$-mix is optimal, while high-$\varepsilon$ schedules help only at 100\% coverage. Label-sorted non-IID splits halve robustness, underscoring data heterogeneity as a dominant risk.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.04914v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Walid El Maouaki, Nouhaila Innan, Alberto Marchisio, Taoufik Said, Muhammad Shafique, Mohamed Bennai</dc:creator>
+    </item>
+    <item>
+      <title>Artificial intelligence for representing and characterizing quantum systems</title>
+      <link>https://arxiv.org/abs/2509.04923</link>
+      <description>arXiv:2509.04923v1 Announce Type: new 
+Abstract: Efficient characterization of large-scale quantum systems, especially those produced by quantum analog simulators and megaquop quantum computers, poses a central challenge in quantum science due to the exponential scaling of the Hilbert space with respect to system size. Recent advances in artificial intelligence (AI), with its aptitude for high-dimensional pattern recognition and function approximation, have emerged as a powerful tool to address this challenge. A growing body of research has leveraged AI to represent and characterize scalable quantum systems, spanning from theoretical foundations to experimental realizations. Depending on how prior knowledge and learning architectures are incorporated, the integration of AI into quantum system characterization can be categorized into three synergistic paradigms: machine learning, and, in particular, deep learning and language models. This review discusses how each of these AI paradigms contributes to two core tasks in quantum systems characterization: quantum property prediction and the construction of surrogates for quantum states. These tasks underlie diverse applications, from quantum certification and benchmarking to the enhancement of quantum algorithms and the understanding of strongly correlated phases of matter. Key challenges and open questions are also discussed, together with future prospects at the interface of AI and quantum science.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.04923v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yuxuan Du, Yan Zhu, Yuan-Hang Zhang, Min-Hsiu Hsieh, Patrick Rebentrost, Weibo Gao, Ya-Dong Wu, Jens Eisert, Giulio Chiribella, Dacheng Tao, Barry C. Sanders</dc:creator>
+    </item>
+    <item>
+      <title>Exploring an implementation of quantum learning pipeline for support vector machines</title>
+      <link>https://arxiv.org/abs/2509.04983</link>
+      <description>arXiv:2509.04983v1 Announce Type: new 
+Abstract: This work presents a fully quantum approach to support vector machine (SVM) learning by integrating gate-based quantum kernel methods with quantum annealing-based optimization. We explore the construction of quantum kernels using various feature maps and qubit configurations, evaluating their suitability through Kernel-Target Alignment (KTA). The SVM dual problem is reformulated as a Quadratic Unconstrained Binary Optimization (QUBO) problem, enabling its solution via quantum annealers. Our experiments demonstrate that a high degree of alignment in the kernel and an appropriate regularization parameter lead to competitive performance, with the best model achieving an F1-score of 90%. These results highlight the feasibility of an end-to-end quantum learning pipeline and the potential of hybrid quantum architectures in quantum high-performance computing (QHPC) contexts.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.04983v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Mario Bifulco, Luca Roversi</dc:creator>
+    </item>
+    <item>
+      <title>QCA-MolGAN: Quantum Circuit Associative Molecular GAN with Multi-Agent Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2509.05051</link>
+      <description>arXiv:2509.05051v1 Announce Type: new 
+Abstract: Navigating the vast chemical space of molecular structures to design novel drug molecules with desired target properties remains a central challenge in drug discovery. Recent advances in generative models offer promising solutions. This work presents a novel quantum circuit Born machine (QCBM)-enabled Generative Adversarial Network (GAN), called QCA-MolGAN, for generating drug-like molecules. The QCBM serves as a learnable prior distribution, which is associatively trained to define a latent space aligning with high-level features captured by the GANs discriminator. Additionally, we integrate a novel multi-agent reinforcement learning network to guide molecular generation with desired targeted properties, optimising key metrics such as quantitative estimate of drug-likeness (QED), octanol-water partition coefficient (LogP) and synthetic accessibility (SA) scores in conjunction with one another. Experimental results demonstrate that our approach enhances the property alignment of generated molecules with the multi-agent reinforcement learning agents effectively balancing chemical properties.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.05051v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Aaron Mark Thomas, Yu-Cheng Chen, Hubert Okadome Valencia, Sharu Theresa Jose, Ronin Wu</dc:creator>
+    </item>
   </channel>
 </rss>

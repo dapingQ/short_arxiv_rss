@@ -7,81 +7,99 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Sep 2025 04:00:17 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Sep 2025 04:00:01 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Histogram Driven Amplitude Embedding for Qubit Efficient Quantum Image Compression</title>
-      <link>https://arxiv.org/abs/2509.04849</link>
-      <description>arXiv:2509.04849v1 Announce Type: new 
-Abstract: This work introduces a compact and hardware efficient method for compressing color images using near term quantum devices. The approach segments the image into fixed size blocks called bixels, and computes the total intensity within each block. A global histogram with B bins is then constructed from these block intensities, and the normalized square roots of the bin counts are encoded as amplitudes into an n qubit quantum state. Amplitude embedding is performed using PennyLane and executed on real IBM Quantum hardware. The resulting state is measured to reconstruct the histogram, enabling approximate recovery of block intensities and full image reassembly. The method maintains a constant qubit requirement based solely on the number of histogram bins, independent of the resolution of the image. By adjusting B, users can control the trade off between fidelity and resource usage. Empirical results demonstrate high quality reconstructions using as few as 5 to 7 qubits, significantly outperforming conventional pixel level encodings in terms of qubit efficiency and validating the practical application of the method for current NISQ era quantum systems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.04849v1</guid>
+      <title>Another generalization of Hadamard test: Optimal sample complexities for learning functions on the unitary group</title>
+      <link>https://arxiv.org/abs/2509.05710</link>
+      <description>arXiv:2509.05710v1 Announce Type: new 
+Abstract: Estimating properties of unknown unitary operations is a fundamental task in quantum information science. While full unitary tomography requires a number of samples to the unknown unitary scaling linearly with the dimension (implying exponentially with the number of qubits), estimating specific functions of a unitary can be significantly more efficient. In this paper, we present a unified framework for the sample-efficient estimation of arbitrary square integrable functions $f: \mathbf{U}(d) \to \mathbb{C}$, using only access to the controlled-unitary operation. We first provide a tight characterization of the optimal sample complexity when the accuracy is measured by the averaged bias over the unitary $\mathbf{U}(d)$. We then construct a sample-efficient estimation algorithm that becomes optimal under the Probably Approximately Correct (PAC) learning criterion for various classes of functions.
+  Applications include optimal estimation of matrix elements of irreducible representations, the trace, determinant, and general polynomial functions on $\mathbf{U}(d)$. Our technique generalize the Hadamard test and leverage tools from representation theory, yielding both lower and upper bound on sample complexity.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.05710v1</guid>
       <category>quant-ph</category>
-      <category>cs.CV</category>
-      <category>cs.ET</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.CC</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Sahil Tomar, Sandeep Kumar</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Daiki Suruga</dc:creator>
     </item>
     <item>
-      <title>RobQFL: Robust Quantum Federated Learning in Adversarial Environment</title>
-      <link>https://arxiv.org/abs/2509.04914</link>
-      <description>arXiv:2509.04914v1 Announce Type: new 
-Abstract: Quantum Federated Learning (QFL) merges privacy-preserving federation with quantum computing gains, yet its resilience to adversarial noise is unknown. We first show that QFL is as fragile as centralized quantum learning. We propose Robust Quantum Federated Learning (RobQFL), embedding adversarial training directly into the federated loop. RobQFL exposes tunable axes: client coverage $\gamma$ (0-100\%), perturbation scheduling (fixed-$\varepsilon$ vs $\varepsilon$-mixes), and optimization (fine-tune vs scratch), and distils the resulting $\gamma \times \varepsilon$ surface into two metrics: Accuracy-Robustness Area and Robustness Volume. On 15-client simulations with MNIST and Fashion-MNIST, IID and Non-IID conditions, training only 20-50\% clients adversarially boosts $\varepsilon \leq 0.1$ accuracy $\sim$15 pp at $&lt; 2$ pp clean-accuracy cost; fine-tuning adds 3-5 pp. With $\geq$75\% coverage, a moderate $\varepsilon$-mix is optimal, while high-$\varepsilon$ schedules help only at 100\% coverage. Label-sorted non-IID splits halve robustness, underscoring data heterogeneity as a dominant risk.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.04914v1</guid>
+      <title>Quantum spatial best-arm identification via quantum walks</title>
+      <link>https://arxiv.org/abs/2509.05890</link>
+      <description>arXiv:2509.05890v1 Announce Type: new 
+Abstract: Quantum reinforcement learning has emerged as a framework combining quantum computation with sequential decision-making, and applications to the multi-armed bandit (MAB) problem have been reported. The graph bandit problem extends the MAB setting by introducing spatial constraints, yet quantum approaches remain limited. We propose a quantum algorithm for best-arm identification in graph bandits, termed Quantum Spatial Best-Arm Identification (QSBAI). The method employs quantum walks to encode superpositions over graph-constrained actions, extending amplitude amplification and generalizing the Quantum BAI algorithm via Szegedy's walk framework. This establishes a link between Grover-type search and reinforcement learning tasks with structural restrictions. We analyze complete and bipartite graphs, deriving the maximal success probability of identifying the best arm and the time step at which it is achieved. Our results highlight the potential of quantum walks to accelerate exploration in constrained environments and extend the applicability of quantum algorithms for decision-making.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.05890v1</guid>
       <category>quant-ph</category>
+      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Tomoki Yamagami, Etsuo Segawa, Takatomo Mihana, Andr\'e R\"ohm, Atsushi Uchida, Ryoichi Horisaki</dc:creator>
+    </item>
+    <item>
+      <title>The Efficiency Frontier: Classical Shadows versus Quantum Footage</title>
+      <link>https://arxiv.org/abs/2509.06218</link>
+      <description>arXiv:2509.06218v1 Announce Type: new 
+Abstract: Interfacing quantum and classical processors is an important subroutine in full-stack quantum algorithms. The so-called "classical shadow" method efficiently extracts essential classical information from quantum states, enabling the prediction of many properties of a quantum system from only a few measurements. However, for a small number of highly non-local observables, or when classical post-processing power is limited, the classical shadow method is not always the most efficient choice. Here, we address this issue quantitatively by performing a full-stack resource analysis that compares classical shadows with ``quantum footage," which refers to direct quantum measurement. Under certain assumptions, our analysis illustrates a boundary of download efficiency between classical shadows and quantum footage. For observables expressed as linear combinations of Pauli matrices, the classical shadow method outperforms direct measurement when the number of observables is large and the Pauli weight is small. For observables in the form of large Hermitian sparse matrices, the classical shadow method shows an advantage when the number of observables, the sparsity of the matrix, and the number of qubits fall within a certain range. The key parameters influencing this behavior include the number of qubits $n$, observables $M$, sparsity $k$, Pauli weight $w$, accuracy requirement $\epsilon$, and failure tolerance $\delta$. We also compare the resource consumption of the two methods on different types of quantum computers and identify break-even points where the classical shadow method becomes more efficient, which vary depending on the hardware. This paper opens a new avenue for quantitatively designing optimal strategies for hybrid quantum-classical tomography and provides practical insights for selecting the most suitable quantum measurement approach in real-world applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.06218v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>stat.ML</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Walid El Maouaki, Nouhaila Innan, Alberto Marchisio, Taoufik Said, Muhammad Shafique, Mohamed Bennai</dc:creator>
+      <dc:creator>Shuowei Ma, Junyu Liu</dc:creator>
     </item>
     <item>
-      <title>Artificial intelligence for representing and characterizing quantum systems</title>
-      <link>https://arxiv.org/abs/2509.04923</link>
-      <description>arXiv:2509.04923v1 Announce Type: new 
-Abstract: Efficient characterization of large-scale quantum systems, especially those produced by quantum analog simulators and megaquop quantum computers, poses a central challenge in quantum science due to the exponential scaling of the Hilbert space with respect to system size. Recent advances in artificial intelligence (AI), with its aptitude for high-dimensional pattern recognition and function approximation, have emerged as a powerful tool to address this challenge. A growing body of research has leveraged AI to represent and characterize scalable quantum systems, spanning from theoretical foundations to experimental realizations. Depending on how prior knowledge and learning architectures are incorporated, the integration of AI into quantum system characterization can be categorized into three synergistic paradigms: machine learning, and, in particular, deep learning and language models. This review discusses how each of these AI paradigms contributes to two core tasks in quantum systems characterization: quantum property prediction and the construction of surrogates for quantum states. These tasks underlie diverse applications, from quantum certification and benchmarking to the enhancement of quantum algorithms and the understanding of strongly correlated phases of matter. Key challenges and open questions are also discussed, together with future prospects at the interface of AI and quantum science.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.04923v1</guid>
+      <title>Single-Shot Decoding of Biased-Tailored Quantum LDPC Codes</title>
+      <link>https://arxiv.org/abs/2509.06316</link>
+      <description>arXiv:2509.06316v1 Announce Type: new 
+Abstract: Quantum processors are often affected by biased noise and noisy readout, which reduce reliability and reproducibility. This work combines two complementary strategies to address these challenges. The first is bias tailoring, which aligns stabilizers with the dominant error type. The second is single-shot (SS) decoding, which uses metachecks to identify measurement faults from just one noisy round. We implement these ideas in a four-dimensional lifted hypergraph product (4D-LHP) code constructed from quasi-cyclic protograph seeds. Simulation results show that bias tailoring lowers the word-error rate (WER) by 20-60 percent across realistic Z:X bias ratios (from 1:1 up to 1000:1), with the largest improvements at moderate bias. When measurement noise is present, a single SS round recovers more than one third of the performance lost to readout errors. Moreover, metachecks identify over 99.8 percent of faulty syndromes, providing near-complete fault visibility even with limited correction power. Together, these findings demonstrate that 4D-LHP codes maintain strong resilience under realistic noise, making them promising candidates for integration into orchestrated QPU-CPU workflows.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.06316v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Devon Campbell</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing Fault-Tolerant Surface Code Decoding with Iterative Lattice Reweighting</title>
+      <link>https://arxiv.org/abs/2509.06756</link>
+      <description>arXiv:2509.06756v1 Announce Type: new 
+Abstract: Efficient and realistic error decoding is crucial for fault-tolerant quantum computation (FTQC) on near-term devices. While decoding is a classical post-processing task, its effectiveness depends on accurately modeling quantum noise, which is hardware-dependent. In particular, correlated bit-flip ($X$) and phase-flip ($Z$) errors often arise under circuit-level noise. We introduce the Iterative Reweighting Minimum-Weight Perfect Matching (IRMWPM) decoder, which systematically incorporates such correlations to enhance quantum error correction. Our method leverages fault-detection patterns to guide reweighting: correlated $X$ and $Z$ detection events are identified, and their conditional probabilities update weights on the primal and dual lattices. This iterative procedure improves handling of realistic error propagation in a hardware-agnostic yet noise-aware manner. We prove that IRMWPM converges in finite time while preserving the distance guarantee of MWPM. Numerical results under circuit-level noise show substantial improvements. For distances $\geq 17$ and physical error rates $\leq 0.001$, IRMWPM reduces logical error rates by over 20x with only a few iterations. It also raises the accuracy threshold from 1% to 1.16%, making it practical for near-term real-time decoding. Extrapolated estimates suggest that to reach logical error rate $10^{-16}$, IRMWPM requires distance $d=31$, while standard MWPM needs $d=50$, implying a major reduction in qubit overhead.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.06756v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yi Tian, Yi-Cong Zheng, Xiaoting Wang, Ching-Yi Lai</dc:creator>
+    </item>
+    <item>
+      <title>Learning spatially structured open quantum dynamics with regional-attention transformers</title>
+      <link>https://arxiv.org/abs/2509.06871</link>
+      <description>arXiv:2509.06871v1 Announce Type: new 
+Abstract: Simulating the dynamics of open quantum systems with spatial structure and external control is an important challenge in quantum information science. Classical numerical solvers for such systems require integrating coupled master and field equations, which is computationally demanding for simulation and optimization tasks and often precluding real-time use in network-scale simulations or feedback control. We introduce a regional attention-based neural architecture that learns the spatiotemporal dynamics of structured open quantum systems. The model incorporates translational invariance of physical laws as an inductive bias to achieve scalable complexity, and supports conditioning on time-dependent global control parameters. We demonstrate learning on two representative systems: a driven dissipative single qubit and an electromagnetically induced transparency (EIT) quantum memory. The model achieves high predictive fidelity under both in-distribution and out-of-distribution control protocols, and provides substantial acceleration up to three orders of magnitude over numerical solvers. These results demonstrate that the architecture establishes a general surrogate modeling framework for spatially structured open quantum dynamics, with immediate relevance to large-scale quantum network simulation, quantum repeater and protocol design, real-time experimental optimization, and scalable device modeling across diverse light-matter platforms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.06871v1</guid>
+      <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
+      <category>physics.atom-ph</category>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yuxuan Du, Yan Zhu, Yuan-Hang Zhang, Min-Hsiu Hsieh, Patrick Rebentrost, Weibo Gao, Ya-Dong Wu, Jens Eisert, Giulio Chiribella, Dacheng Tao, Barry C. Sanders</dc:creator>
-    </item>
-    <item>
-      <title>Exploring an implementation of quantum learning pipeline for support vector machines</title>
-      <link>https://arxiv.org/abs/2509.04983</link>
-      <description>arXiv:2509.04983v1 Announce Type: new 
-Abstract: This work presents a fully quantum approach to support vector machine (SVM) learning by integrating gate-based quantum kernel methods with quantum annealing-based optimization. We explore the construction of quantum kernels using various feature maps and qubit configurations, evaluating their suitability through Kernel-Target Alignment (KTA). The SVM dual problem is reformulated as a Quadratic Unconstrained Binary Optimization (QUBO) problem, enabling its solution via quantum annealers. Our experiments demonstrate that a high degree of alignment in the kernel and an appropriate regularization parameter lead to competitive performance, with the best model achieving an F1-score of 90%. These results highlight the feasibility of an end-to-end quantum learning pipeline and the potential of hybrid quantum architectures in quantum high-performance computing (QHPC) contexts.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.04983v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mario Bifulco, Luca Roversi</dc:creator>
-    </item>
-    <item>
-      <title>QCA-MolGAN: Quantum Circuit Associative Molecular GAN with Multi-Agent Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2509.05051</link>
-      <description>arXiv:2509.05051v1 Announce Type: new 
-Abstract: Navigating the vast chemical space of molecular structures to design novel drug molecules with desired target properties remains a central challenge in drug discovery. Recent advances in generative models offer promising solutions. This work presents a novel quantum circuit Born machine (QCBM)-enabled Generative Adversarial Network (GAN), called QCA-MolGAN, for generating drug-like molecules. The QCBM serves as a learnable prior distribution, which is associatively trained to define a latent space aligning with high-level features captured by the GANs discriminator. Additionally, we integrate a novel multi-agent reinforcement learning network to guide molecular generation with desired targeted properties, optimising key metrics such as quantitative estimate of drug-likeness (QED), octanol-water partition coefficient (LogP) and synthetic accessibility (SA) scores in conjunction with one another. Experimental results demonstrate that our approach enhances the property alignment of generated molecules with the multi-agent reinforcement learning agents effectively balancing chemical properties.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.05051v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Aaron Mark Thomas, Yu-Cheng Chen, Hubert Okadome Valencia, Sharu Theresa Jose, Ronin Wu</dc:creator>
+      <dc:creator>Dounan Du, Eden Figueroa</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,99 +7,98 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Sep 2025 04:00:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 04:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Another generalization of Hadamard test: Optimal sample complexities for learning functions on the unitary group</title>
-      <link>https://arxiv.org/abs/2509.05710</link>
-      <description>arXiv:2509.05710v1 Announce Type: new 
-Abstract: Estimating properties of unknown unitary operations is a fundamental task in quantum information science. While full unitary tomography requires a number of samples to the unknown unitary scaling linearly with the dimension (implying exponentially with the number of qubits), estimating specific functions of a unitary can be significantly more efficient. In this paper, we present a unified framework for the sample-efficient estimation of arbitrary square integrable functions $f: \mathbf{U}(d) \to \mathbb{C}$, using only access to the controlled-unitary operation. We first provide a tight characterization of the optimal sample complexity when the accuracy is measured by the averaged bias over the unitary $\mathbf{U}(d)$. We then construct a sample-efficient estimation algorithm that becomes optimal under the Probably Approximately Correct (PAC) learning criterion for various classes of functions.
-  Applications include optimal estimation of matrix elements of irreducible representations, the trace, determinant, and general polynomial functions on $\mathbf{U}(d)$. Our technique generalize the Hadamard test and leverage tools from representation theory, yielding both lower and upper bound on sample complexity.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.05710v1</guid>
+      <title>A Quantum Bagging Algorithm with Unsupervised Base Learners for Label Corrupted Datasets</title>
+      <link>https://arxiv.org/abs/2509.07040</link>
+      <description>arXiv:2509.07040v1 Announce Type: new 
+Abstract: The development of noise-resilient quantum machine learning (QML) algorithms is critical in the noisy intermediate-scale quantum (NISQ) era. In this work, we propose a quantum bagging framework that uses QMeans clustering as the base learner to reduce prediction variance and enhance robustness to label noise. Unlike bagging frameworks built on supervised learners, our method leverages the unsupervised nature of QMeans, combined with quantum bootstrapping via QRAM-based sampling and bagging aggregation through majority voting. Through extensive simulations on both noisy classification and regression tasks, we demonstrate that the proposed quantum bagging algorithm performs comparably to its classical counterpart using KMeans while exhibiting greater resilience to label corruption than supervised bagging methods. This highlights the potential of unsupervised quantum bagging in learning from unreliable data.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07040v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Daiki Suruga</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Neeshu Rathi, Sanjeev Kumar</dc:creator>
     </item>
     <item>
-      <title>Quantum spatial best-arm identification via quantum walks</title>
-      <link>https://arxiv.org/abs/2509.05890</link>
-      <description>arXiv:2509.05890v1 Announce Type: new 
-Abstract: Quantum reinforcement learning has emerged as a framework combining quantum computation with sequential decision-making, and applications to the multi-armed bandit (MAB) problem have been reported. The graph bandit problem extends the MAB setting by introducing spatial constraints, yet quantum approaches remain limited. We propose a quantum algorithm for best-arm identification in graph bandits, termed Quantum Spatial Best-Arm Identification (QSBAI). The method employs quantum walks to encode superpositions over graph-constrained actions, extending amplitude amplification and generalizing the Quantum BAI algorithm via Szegedy's walk framework. This establishes a link between Grover-type search and reinforcement learning tasks with structural restrictions. We analyze complete and bipartite graphs, deriving the maximal success probability of identifying the best arm and the time step at which it is achieved. Our results highlight the potential of quantum walks to accelerate exploration in constrained environments and extend the applicability of quantum algorithms for decision-making.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.05890v1</guid>
+      <title>From Classical Data to Quantum Advantage -- Quantum Policy Evaluation on Quantum Hardware</title>
+      <link>https://arxiv.org/abs/2509.07614</link>
+      <description>arXiv:2509.07614v1 Announce Type: new 
+Abstract: Quantum policy evaluation (QPE) is a reinforcement learning (RL) algorithm which is quadratically more efficient than an analogous classical Monte Carlo estimation. It makes use of a direct quantum mechanical realization of a finite Markov decision process, in which the agent and the environment are modeled by unitary operators and exchange states, actions, and rewards in superposition. Previously, the quantum environment has been implemented and parametrized manually for an illustrative benchmark using a quantum simulator. In this paper, we demonstrate how these environment parameters can be learned from a batch of classical observational data through quantum machine learning (QML) on quantum hardware. The learned quantum environment is then applied in QPE to also compute policy evaluations on quantum hardware. Our experiments reveal that, despite challenges such as noise and short coherence times, the integration of QML and QPE shows promising potential for achieving quantum advantage in RL.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07614v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Tomoki Yamagami, Etsuo Segawa, Takatomo Mihana, Andr\'e R\"ohm, Atsushi Uchida, Ryoichi Horisaki</dc:creator>
-    </item>
-    <item>
-      <title>The Efficiency Frontier: Classical Shadows versus Quantum Footage</title>
-      <link>https://arxiv.org/abs/2509.06218</link>
-      <description>arXiv:2509.06218v1 Announce Type: new 
-Abstract: Interfacing quantum and classical processors is an important subroutine in full-stack quantum algorithms. The so-called "classical shadow" method efficiently extracts essential classical information from quantum states, enabling the prediction of many properties of a quantum system from only a few measurements. However, for a small number of highly non-local observables, or when classical post-processing power is limited, the classical shadow method is not always the most efficient choice. Here, we address this issue quantitatively by performing a full-stack resource analysis that compares classical shadows with ``quantum footage," which refers to direct quantum measurement. Under certain assumptions, our analysis illustrates a boundary of download efficiency between classical shadows and quantum footage. For observables expressed as linear combinations of Pauli matrices, the classical shadow method outperforms direct measurement when the number of observables is large and the Pauli weight is small. For observables in the form of large Hermitian sparse matrices, the classical shadow method shows an advantage when the number of observables, the sparsity of the matrix, and the number of qubits fall within a certain range. The key parameters influencing this behavior include the number of qubits $n$, observables $M$, sparsity $k$, Pauli weight $w$, accuracy requirement $\epsilon$, and failure tolerance $\delta$. We also compare the resource consumption of the two methods on different types of quantum computers and identify break-even points where the classical shadow method becomes more efficient, which vary depending on the hardware. This paper opens a new avenue for quantitatively designing optimal strategies for hybrid quantum-classical tomography and provides practical insights for selecting the most suitable quantum measurement approach in real-world applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.06218v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shuowei Ma, Junyu Liu</dc:creator>
+      <arxiv:DOI>10.1109/QCE65121.2025.10306</arxiv:DOI>
+      <dc:creator>Daniel Hein, Simon Wiedemann, Markus Baumann, Patrik Felbinger, Justin Klein, Maximilian Schieder, Jonas Stein, Dani\"elle Schuman, Thomas Cope, Steffen Udluft</dc:creator>
     </item>
     <item>
-      <title>Single-Shot Decoding of Biased-Tailored Quantum LDPC Codes</title>
-      <link>https://arxiv.org/abs/2509.06316</link>
-      <description>arXiv:2509.06316v1 Announce Type: new 
-Abstract: Quantum processors are often affected by biased noise and noisy readout, which reduce reliability and reproducibility. This work combines two complementary strategies to address these challenges. The first is bias tailoring, which aligns stabilizers with the dominant error type. The second is single-shot (SS) decoding, which uses metachecks to identify measurement faults from just one noisy round. We implement these ideas in a four-dimensional lifted hypergraph product (4D-LHP) code constructed from quasi-cyclic protograph seeds. Simulation results show that bias tailoring lowers the word-error rate (WER) by 20-60 percent across realistic Z:X bias ratios (from 1:1 up to 1000:1), with the largest improvements at moderate bias. When measurement noise is present, a single SS round recovers more than one third of the performance lost to readout errors. Moreover, metachecks identify over 99.8 percent of faulty syndromes, providing near-complete fault visibility even with limited correction power. Together, these findings demonstrate that 4D-LHP codes maintain strong resilience under realistic noise, making them promising candidates for integration into orchestrated QPU-CPU workflows.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.06316v1</guid>
+      <title>Variational Quantum Circuits in Offline Contextual Bandit Problems</title>
+      <link>https://arxiv.org/abs/2509.07633</link>
+      <description>arXiv:2509.07633v1 Announce Type: new 
+Abstract: This paper explores the application of variational quantum circuits (VQCs) for solving offline contextual bandit problems in industrial optimization tasks. Using the Industrial Benchmark (IB) environment, we evaluate the performance of quantum regression models against classical models. Our findings demonstrate that quantum models can effectively fit complex reward functions, identify optimal configurations via particle swarm optimization (PSO), and generalize well in noisy and sparse datasets. These results provide a proof of concept for utilizing VQCs in offline contextual bandit problems and highlight their potential in industrial optimization tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07633v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Devon Campbell</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <arxiv:DOI>10.1109/QCE65121.2025.00190</arxiv:DOI>
+      <dc:creator>Lukas Schulte, Daniel Hein, Steffen Udluft, Thomas A. Runkler</dc:creator>
     </item>
     <item>
-      <title>Enhancing Fault-Tolerant Surface Code Decoding with Iterative Lattice Reweighting</title>
-      <link>https://arxiv.org/abs/2509.06756</link>
-      <description>arXiv:2509.06756v1 Announce Type: new 
-Abstract: Efficient and realistic error decoding is crucial for fault-tolerant quantum computation (FTQC) on near-term devices. While decoding is a classical post-processing task, its effectiveness depends on accurately modeling quantum noise, which is hardware-dependent. In particular, correlated bit-flip ($X$) and phase-flip ($Z$) errors often arise under circuit-level noise. We introduce the Iterative Reweighting Minimum-Weight Perfect Matching (IRMWPM) decoder, which systematically incorporates such correlations to enhance quantum error correction. Our method leverages fault-detection patterns to guide reweighting: correlated $X$ and $Z$ detection events are identified, and their conditional probabilities update weights on the primal and dual lattices. This iterative procedure improves handling of realistic error propagation in a hardware-agnostic yet noise-aware manner. We prove that IRMWPM converges in finite time while preserving the distance guarantee of MWPM. Numerical results under circuit-level noise show substantial improvements. For distances $\geq 17$ and physical error rates $\leq 0.001$, IRMWPM reduces logical error rates by over 20x with only a few iterations. It also raises the accuracy threshold from 1% to 1.16%, making it practical for near-term real-time decoding. Extrapolated estimates suggest that to reach logical error rate $10^{-16}$, IRMWPM requires distance $d=31$, while standard MWPM needs $d=50$, implying a major reduction in qubit overhead.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.06756v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yi Tian, Yi-Cong Zheng, Xiaoting Wang, Ching-Yi Lai</dc:creator>
-    </item>
-    <item>
-      <title>Learning spatially structured open quantum dynamics with regional-attention transformers</title>
-      <link>https://arxiv.org/abs/2509.06871</link>
-      <description>arXiv:2509.06871v1 Announce Type: new 
-Abstract: Simulating the dynamics of open quantum systems with spatial structure and external control is an important challenge in quantum information science. Classical numerical solvers for such systems require integrating coupled master and field equations, which is computationally demanding for simulation and optimization tasks and often precluding real-time use in network-scale simulations or feedback control. We introduce a regional attention-based neural architecture that learns the spatiotemporal dynamics of structured open quantum systems. The model incorporates translational invariance of physical laws as an inductive bias to achieve scalable complexity, and supports conditioning on time-dependent global control parameters. We demonstrate learning on two representative systems: a driven dissipative single qubit and an electromagnetically induced transparency (EIT) quantum memory. The model achieves high predictive fidelity under both in-distribution and out-of-distribution control protocols, and provides substantial acceleration up to three orders of magnitude over numerical solvers. These results demonstrate that the architecture establishes a general surrogate modeling framework for spatially structured open quantum dynamics, with immediate relevance to large-scale quantum network simulation, quantum repeater and protocol design, real-time experimental optimization, and scalable device modeling across diverse light-matter platforms.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.06871v1</guid>
+      <title>Toward Quantum Utility in Finance: A Robust Data-Driven Algorithm for Asset Clustering</title>
+      <link>https://arxiv.org/abs/2509.07766</link>
+      <description>arXiv:2509.07766v1 Announce Type: new 
+Abstract: Clustering financial assets based on return correlations is a fundamental task in portfolio optimization and statistical arbitrage. However, classical clustering methods often fall short when dealing with signed correlation structures, typically requiring lossy transformations and heuristic assumptions such as a fixed number of clusters. In this work, we apply the Graph-based Coalition Structure Generation algorithm (GCS-Q) to directly cluster signed, weighted graphs without relying on such transformations. GCS-Q formulates each partitioning step as a QUBO problem, enabling it to leverage quantum annealing for efficient exploration of exponentially large solution spaces. We validate our approach on both synthetic and real-world financial data, benchmarking against state-of-the-art classical algorithms such as SPONGE and k-Medoids. Our experiments demonstrate that GCS-Q consistently achieves higher clustering quality, as measured by Adjusted Rand Index and structural balance penalties, while dynamically determining the number of clusters. These results highlight the practical utility of near-term quantum computing for graph-based unsupervised learning in financial applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07766v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <category>physics.atom-ph</category>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Dounan Du, Eden Figueroa</dc:creator>
+      <dc:creator>Shivam Sharma, Supreeth Mysore Venkatesh, Pushkin Kachroo</dc:creator>
+    </item>
+    <item>
+      <title>Existence and nonexistence of commutativity gadgets for entangled CSPs</title>
+      <link>https://arxiv.org/abs/2509.07835</link>
+      <description>arXiv:2509.07835v1 Announce Type: new 
+Abstract: Commutativity gadgets allow NP-hardness proofs for classical constraint satisfaction problems (CSPs) to be carried over to undecidability proofs for the corresponding entangled CSPs. This has been done, for instance, for NP-complete boolean CSPs and 3-colouring in the work of Culf and Mastel. For many CSPs over larger alphabets, including $k$-colouring when $k \geq 4$, it is not known whether or not commutativity gadgets exist, or if the entangled CSP is decidable. In this paper, we study commutativity gadgets and prove the first known obstruction to their existence. We do this by extending the definition of the quantum automorphism group of a graph to the quantum endomorphism monoid of a CSP, and showing that a CSP with non-classical quantum endomorphism monoid does not admit a commutativity gadget. In particular, this shows that no commutativity gadget exists for $k$-colouring when $k \geq 4$. However, we construct a commutativity gadget for an alternate way of presenting $k$-colouring as a nonlocal game, the oracular setting.
+  Furthermore, we prove an easy to check sufficient condition for the quantum endomorphism monoid to be non-classical, extending a result of Schmidt for the quantum automorphism group of a graph, and use this to give examples of CSPs that do not admit a commutativity gadget. We also show that existence of oracular commutativity gadgets is preserved under categorical powers of graphs; existence of commutativity gadgets and oracular commutativity gadgets is equivalent for graphs with no four-cycle; and that the odd cycles and the odd graphs have a commutative quantum endomorphism monoid, leaving open the possibility that they might admit a commutativity gadget.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07835v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>math.OA</category>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Eric Culf, Josse van Dobben de Bruyn, Matthijs Vernooij, Peter Zeman</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Computing for Large-scale Network Optimization: Opportunities and Challenges</title>
+      <link>https://arxiv.org/abs/2509.07773</link>
+      <description>arXiv:2509.07773v1 Announce Type: cross 
+Abstract: The complexity of large-scale 6G-and-beyond networks demands innovative approaches for multi-objective optimization over vast search spaces, a task often intractable. Quantum computing (QC) emerges as a promising technology for efficient large-scale optimization. We present our vision of leveraging QC to tackle key classes of problems in future mobile networks. By analyzing and identifying common features, particularly their graph-centric representation, we propose a unified strategy involving QC algorithms. Specifically, we outline a methodology for optimization using quantum annealing as well as quantum reinforcement learning. Additionally, we discuss the main challenges that QC algorithms and hardware must overcome to effectively optimize future networks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.07773v1</guid>
+      <category>cs.NI</category>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
+      <category>eess.SP</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Sebastian Macaluso, Giovanni Geraci, El\'ias F. Combarro, Sergi Abadal, Ioannis Arapakis, Sofia Vallecorsa, Eduard Alarc\'on</dc:creator>
     </item>
   </channel>
 </rss>

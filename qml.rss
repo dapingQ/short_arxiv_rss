@@ -7,98 +7,83 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Sep 2025 04:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 04:00:03 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>A Quantum Bagging Algorithm with Unsupervised Base Learners for Label Corrupted Datasets</title>
-      <link>https://arxiv.org/abs/2509.07040</link>
-      <description>arXiv:2509.07040v1 Announce Type: new 
-Abstract: The development of noise-resilient quantum machine learning (QML) algorithms is critical in the noisy intermediate-scale quantum (NISQ) era. In this work, we propose a quantum bagging framework that uses QMeans clustering as the base learner to reduce prediction variance and enhance robustness to label noise. Unlike bagging frameworks built on supervised learners, our method leverages the unsupervised nature of QMeans, combined with quantum bootstrapping via QRAM-based sampling and bagging aggregation through majority voting. Through extensive simulations on both noisy classification and regression tasks, we demonstrate that the proposed quantum bagging algorithm performs comparably to its classical counterpart using KMeans while exhibiting greater resilience to label corruption than supervised bagging methods. This highlights the potential of unsupervised quantum bagging in learning from unreliable data.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07040v1</guid>
+      <title>RAPID Quantum Detection and Demodulation of Covert Communications: Breaking the Noise Limit with Solid-State Spin Sensors</title>
+      <link>https://arxiv.org/abs/2509.08171</link>
+      <description>arXiv:2509.08171v1 Announce Type: new 
+Abstract: We introduce a comprehensive framework for the detection and demodulation of covert electromagnetic signals using solid-state spin sensors. Our approach, named RAPID, is a two-stage hybrid strategy that leverages nitrogen-vacancy (NV) centers to operate below the classical noise floor employing a robust adaptive policy via imitation and distillation. We first formulate the joint detection and estimation task as a unified stochastic optimal control problem, optimizing a composite Bayesian risk objective under realistic physical constraints. The RAPID algorithm solves this by first computing a robust, non-adaptive baseline protocol grounded in the quantum Fisher information matrix (QFIM), and then using this baseline to warm-start an online, adaptive policy learned via deep reinforcement learning (Soft Actor-Critic). This method dynamically optimizes control pulses, interrogation times, and measurement bases to maximize information gain while actively suppressing non-Markovian noise and decoherence. Numerical simulations demonstrate that the protocol achieves a significant sensitivity gain over static methods, maintains high estimation precision in correlated noise environments, and, when applied to sensor arrays, enables coherent quantum beamforming that achieves Heisenberg-like scaling in precision. This work establishes a theoretically rigorous and practically viable pathway for deploying quantum sensors in security-critical applications such as electronic warfare and covert surveillance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.08171v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Neeshu Rathi, Sanjeev Kumar</dc:creator>
-    </item>
-    <item>
-      <title>From Classical Data to Quantum Advantage -- Quantum Policy Evaluation on Quantum Hardware</title>
-      <link>https://arxiv.org/abs/2509.07614</link>
-      <description>arXiv:2509.07614v1 Announce Type: new 
-Abstract: Quantum policy evaluation (QPE) is a reinforcement learning (RL) algorithm which is quadratically more efficient than an analogous classical Monte Carlo estimation. It makes use of a direct quantum mechanical realization of a finite Markov decision process, in which the agent and the environment are modeled by unitary operators and exchange states, actions, and rewards in superposition. Previously, the quantum environment has been implemented and parametrized manually for an illustrative benchmark using a quantum simulator. In this paper, we demonstrate how these environment parameters can be learned from a batch of classical observational data through quantum machine learning (QML) on quantum hardware. The learned quantum environment is then applied in QPE to also compute policy evaluations on quantum hardware. Our experiments reveal that, despite challenges such as noise and short coherence times, the integration of QML and QPE shows promising potential for achieving quantum advantage in RL.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07614v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <arxiv:DOI>10.1109/QCE65121.2025.10306</arxiv:DOI>
-      <dc:creator>Daniel Hein, Simon Wiedemann, Markus Baumann, Patrik Felbinger, Justin Klein, Maximilian Schieder, Jonas Stein, Dani\"elle Schuman, Thomas Cope, Steffen Udluft</dc:creator>
-    </item>
-    <item>
-      <title>Variational Quantum Circuits in Offline Contextual Bandit Problems</title>
-      <link>https://arxiv.org/abs/2509.07633</link>
-      <description>arXiv:2509.07633v1 Announce Type: new 
-Abstract: This paper explores the application of variational quantum circuits (VQCs) for solving offline contextual bandit problems in industrial optimization tasks. Using the Industrial Benchmark (IB) environment, we evaluate the performance of quantum regression models against classical models. Our findings demonstrate that quantum models can effectively fit complex reward functions, identify optimal configurations via particle swarm optimization (PSO), and generalize well in noisy and sparse datasets. These results provide a proof of concept for utilizing VQCs in offline contextual bandit problems and highlight their potential in industrial optimization tasks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07633v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <arxiv:DOI>10.1109/QCE65121.2025.00190</arxiv:DOI>
-      <dc:creator>Lukas Schulte, Daniel Hein, Steffen Udluft, Thomas A. Runkler</dc:creator>
-    </item>
-    <item>
-      <title>Toward Quantum Utility in Finance: A Robust Data-Driven Algorithm for Asset Clustering</title>
-      <link>https://arxiv.org/abs/2509.07766</link>
-      <description>arXiv:2509.07766v1 Announce Type: new 
-Abstract: Clustering financial assets based on return correlations is a fundamental task in portfolio optimization and statistical arbitrage. However, classical clustering methods often fall short when dealing with signed correlation structures, typically requiring lossy transformations and heuristic assumptions such as a fixed number of clusters. In this work, we apply the Graph-based Coalition Structure Generation algorithm (GCS-Q) to directly cluster signed, weighted graphs without relying on such transformations. GCS-Q formulates each partitioning step as a QUBO problem, enabling it to leverage quantum annealing for efficient exploration of exponentially large solution spaces. We validate our approach on both synthetic and real-world financial data, benchmarking against state-of-the-art classical algorithms such as SPONGE and k-Medoids. Our experiments demonstrate that GCS-Q consistently achieves higher clustering quality, as measured by Adjusted Rand Index and structural balance penalties, while dynamically determining the number of clusters. These results highlight the practical utility of near-term quantum computing for graph-based unsupervised learning in financial applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07766v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Shivam Sharma, Supreeth Mysore Venkatesh, Pushkin Kachroo</dc:creator>
-    </item>
-    <item>
-      <title>Existence and nonexistence of commutativity gadgets for entangled CSPs</title>
-      <link>https://arxiv.org/abs/2509.07835</link>
-      <description>arXiv:2509.07835v1 Announce Type: new 
-Abstract: Commutativity gadgets allow NP-hardness proofs for classical constraint satisfaction problems (CSPs) to be carried over to undecidability proofs for the corresponding entangled CSPs. This has been done, for instance, for NP-complete boolean CSPs and 3-colouring in the work of Culf and Mastel. For many CSPs over larger alphabets, including $k$-colouring when $k \geq 4$, it is not known whether or not commutativity gadgets exist, or if the entangled CSP is decidable. In this paper, we study commutativity gadgets and prove the first known obstruction to their existence. We do this by extending the definition of the quantum automorphism group of a graph to the quantum endomorphism monoid of a CSP, and showing that a CSP with non-classical quantum endomorphism monoid does not admit a commutativity gadget. In particular, this shows that no commutativity gadget exists for $k$-colouring when $k \geq 4$. However, we construct a commutativity gadget for an alternate way of presenting $k$-colouring as a nonlocal game, the oracular setting.
-  Furthermore, we prove an easy to check sufficient condition for the quantum endomorphism monoid to be non-classical, extending a result of Schmidt for the quantum automorphism group of a graph, and use this to give examples of CSPs that do not admit a commutativity gadget. We also show that existence of oracular commutativity gadgets is preserved under categorical powers of graphs; existence of commutativity gadgets and oracular commutativity gadgets is equivalent for graphs with no four-cycle; and that the odd cycles and the odd graphs have a commutative quantum endomorphism monoid, leaving open the possibility that they might admit a commutativity gadget.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07835v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>math.OA</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Eric Culf, Josse van Dobben de Bruyn, Matthijs Vernooij, Peter Zeman</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Computing for Large-scale Network Optimization: Opportunities and Challenges</title>
-      <link>https://arxiv.org/abs/2509.07773</link>
-      <description>arXiv:2509.07773v1 Announce Type: cross 
-Abstract: The complexity of large-scale 6G-and-beyond networks demands innovative approaches for multi-objective optimization over vast search spaces, a task often intractable. Quantum computing (QC) emerges as a promising technology for efficient large-scale optimization. We present our vision of leveraging QC to tackle key classes of problems in future mobile networks. By analyzing and identifying common features, particularly their graph-centric representation, we propose a unified strategy involving QC algorithms. Specifically, we outline a methodology for optimization using quantum annealing as well as quantum reinforcement learning. Additionally, we discuss the main challenges that QC algorithms and hardware must overcome to effectively optimize future networks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.07773v1</guid>
-      <category>cs.NI</category>
-      <category>cs.IT</category>
       <category>cs.LG</category>
       <category>eess.SP</category>
-      <category>math.IT</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Amirhossein Taherpour, Abbas Taherpour, Tamer Khattab</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing Sum Capacity via Quantum and No-Signaling Cooperation Between Transmitters</title>
+      <link>https://arxiv.org/abs/2509.08219</link>
+      <description>arXiv:2509.08219v1 Announce Type: new 
+Abstract: We consider a communication scenario over a discrete memoryless interference channel or multiple access channel without feedback, where transmitters exploit classical, quantum, or no-signaling cooperation. In this scenario, several previous works have shown that the sum capacities of channels involving pseudo-telepathy games can be enhanced by quantum or no-signaling cooperation. However, a full characterization of which channels admit such an improvement remains open. By focusing on the common characteristics of previously studied channels, we propose a broader class of channels for which quantum or no-signaling cooperation increases the sum capacity. Channels in this class are associated with a pseudo-telepathy game, with channel inputs specified as tuples of questions and answers from the game. In addition, when the channel inputs satisfy the winning condition of the game, the channel decomposes into parallel weakly symmetric sub-channels and is less noisy compared to the case when the inputs do not meet the winning condition.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.08219v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Sebastian Macaluso, Giovanni Geraci, El\'ias F. Combarro, Sergi Abadal, Ioannis Arapakis, Sofia Vallecorsa, Eduard Alarc\'on</dc:creator>
+      <dc:creator>Seung-Hyun Nam, Hyun-Young Park, Jiyoung Yun, Ashutosh Rai, Si-Hyeon Lee, Joonwoo Bae</dc:creator>
+    </item>
+    <item>
+      <title>LLM-Guided Ans\"atze Design for Quantum Circuit Born Machines in Financial Generative Modeling</title>
+      <link>https://arxiv.org/abs/2509.08385</link>
+      <description>arXiv:2509.08385v1 Announce Type: new 
+Abstract: Quantum generative modeling using quantum circuit Born machines (QCBMs) shows promising potential for practical quantum advantage. However, discovering ans\"atze that are both expressive and hardware-efficient remains a key challenge, particularly on noisy intermediate-scale quantum (NISQ) devices. In this work, we introduce a prompt-based framework that leverages large language models (LLMs) to generate hardware-aware QCBM architectures. Prompts are conditioned on qubit connectivity, gate error rates, and hardware topology, while iterative feedback, including Kullback-Leibler (KL) divergence, circuit depth, and validity, is used to refine the circuits. We evaluate our method on a financial modeling task involving daily changes in Japanese government bond (JGB) interest rates. Our results show that the LLM-generated ans\"atze are significantly shallower and achieve superior generative performance compared to the standard baseline when executed on real IBM quantum hardware using 12 qubits. These findings demonstrate the practical utility of LLM-driven quantum architecture search and highlight a promising path toward robust, deployable generative models for near-term quantum devices.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.08385v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yaswitha Gujju, Romain Harang, Tetsuo Shibuya</dc:creator>
+    </item>
+    <item>
+      <title>Robust Belief-State Policy Learning for Quantum Network Routing Under Decoherence and Time-Varying Conditions</title>
+      <link>https://arxiv.org/abs/2509.08654</link>
+      <description>arXiv:2509.08654v1 Announce Type: new 
+Abstract: This paper presents a feature-based Partially Observable Markov Decision Process (POMDP) framework for quantum network routing, combining belief-state planning with Graph Neural Networks (GNNs) to address partial observability, decoherence, and scalability challenges in dynamic quantum systems. Our approach encodes complex quantum network dynamics, including entanglement degradation and time-varying channel noise, into a low-dimensional feature space, enabling efficient belief updates and scalable policy learning. The core of our framework is a hybrid GNN-POMDP architecture that processes graph-structured representations of entangled links to learn routing policies, coupled with a noise-adaptive mechanism that fuses POMDP belief updates with GNN outputs for robust decision making. We provide a theoretical analysis establishing guarantees for belief convergence, policy improvement, and robustness to noise. Experiments on simulated quantum networks with up to 100 nodes demonstrate significant improvements in routing fidelity and entanglement delivery rates compared to state-of-the-art baselines, particularly under high decoherence and nonstationary conditions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.08654v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>cs.NI</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Amirhossein Taherpour, Abbas Taherpour, Tamer Khattab</dc:creator>
+    </item>
+    <item>
+      <title>QCardEst/QCardCorr: Quantum Cardinality Estimation and Correction</title>
+      <link>https://arxiv.org/abs/2509.08817</link>
+      <description>arXiv:2509.08817v1 Announce Type: new 
+Abstract: Cardinality estimation is an important part of query optimization in DBMS. We develop a Quantum Cardinality Estimation (QCardEst) approach using Quantum Machine Learning with a Hybrid Quantum-Classical Network. We define a compact encoding for turning SQL queries into a quantum state, which requires only qubits equal to the number of tables in the query. This allows the processing of a complete query with a single variational quantum circuit (VQC) on current hardware. In addition, we compare multiple classical post-processing layers to turn the probability vector output of VQC into a cardinality value. We introduce Quantum Cardinality Correction QCardCorr, which improves classical cardinality estimators by multiplying the output with a factor generated by a VQC to improve the cardinality estimation. With QCardCorr, we have an improvement over the standard PostgreSQL optimizer of 6.37 times for JOB-light and 8.66 times for STATS. For JOB-light we even outperform MSCN by a factor of 3.47.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.08817v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.DB</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Tobias Winker, Jinghua Groppe, Sven Groppe</dc:creator>
     </item>
   </channel>
 </rss>

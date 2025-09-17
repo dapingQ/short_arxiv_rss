@@ -7,126 +7,83 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Sep 2025 04:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Sep 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Parameter estimation with uncertainty quantification from continuous measurement data using neural network ensembles</title>
-      <link>https://arxiv.org/abs/2509.10756</link>
-      <description>arXiv:2509.10756v1 Announce Type: new 
-Abstract: We show that ensembles of deep neural networks, called deep ensembles, can be used to perform quantum parameter estimation while also providing a means for quantifying uncertainty in parameter estimates, which is a key advantage of using Bayesian inference for parameter estimation. These models are shown to be more robust to noise in the measurement results used to perform the parameter estimation as well as noise in the data used to train them. We also show that much less data is needed to achieve comparable performance to Bayesian inference based estimation, which is known to reach the ultimate precision limit as more data is collected, than was used in previous proposals.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.10756v1</guid>
-      <category>quant-ph</category>
+      <title>Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) for Diabetes Risk Prediction</title>
+      <link>https://arxiv.org/abs/2509.12259</link>
+      <description>arXiv:2509.12259v1 Announce Type: cross 
+Abstract: The Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) is an innovative machine learning framework that harnesses quantum-inspired techniques to predict diabetes risk with exceptional accuracy and efficiency. Utilizing the PIMA Indians Diabetes dataset augmented with 2,000 synthetic samples to mitigate class imbalance (total: 2,768 samples, 1,949 positives), QISICGM integrates a self-improving concept graph with a stacked ensemble comprising Random Forests (RF), Extra Trees (ET), transformers, convolutional neural networks (CNNs), and feed-forward neural networks (FFNNs). This approach achieves an out-of-fold (OOF) F1 score of 0.8933 and an AUC of 0.8699, outperforming traditional methods. Quantum inspired elements, such as phase feature mapping and neighborhood sequence modeling, enrich feature representations, enabling CPU-efficient inference at 8.5 rows per second. This paper presents a detailed architecture, theoretical foundations, code insights, and performance evaluations, including visualizations from the outputs subfolder. The open-source implementation (v1.0.0) is available at https://github.com/keninayoung/QISICGM, positioning QISICGM as a potential benchmark for AI-assisted clinical triage in diabetes and beyond. Ultimately, this work emphasizes trustworthy AI through calibration, interpretability, and open-source reproducibility.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.12259v1</guid>
       <category>cs.LG</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Amanuel Anteneh</dc:creator>
-    </item>
-    <item>
-      <title>Erasing Classical Memory with Quantum Fluctuations: Shannon Information Entropy of Reverse Quantum Annealing</title>
-      <link>https://arxiv.org/abs/2509.10927</link>
-      <description>arXiv:2509.10927v1 Announce Type: new 
-Abstract: Quantum annealers can provide non-local optimization by tunneling between states in a process that ideally eliminates memory of the initial configuration. We study the crossover between memory loss and retention due to quantum fluctuations, in a transverse Ising model on odd numbered antiferromagnetic rings of thousands of spins with periodic boundary conditions, by performing reverse quantum annealing experiments on three programmable superconducting flux qubit quantum annealers. After initializing the spins to contain a single domain wall, we then expose it to quantum fluctuations by turning on the transverse Zeeman energy. We characterize the crossover between memory retention at low transverse field, and memory loss at high transverse field by extracting the Shannon information entropy of magnetic domain wall distributions. We demonstrate a clear crossover in memory retention, and its dependence on hardware platform and simulation time. Our approach establishes a general probe of the interplay between quantum fluctuations and memory.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.10927v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
-      <category>cond-mat.str-el</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Elijah Pelofske, Cristiano Nisoli</dc:creator>
-    </item>
-    <item>
-      <title>Investigating the Lottery Ticket Hypothesis for Variational Quantum Circuits</title>
-      <link>https://arxiv.org/abs/2509.11190</link>
-      <description>arXiv:2509.11190v1 Announce Type: new 
-Abstract: Quantum computing is an emerging field in computer science that has seen considerable progress in recent years, especially in machine learning. By harnessing the principles of quantum physics, it can surpass the limitations of classical algorithms. However, variational quantum circuits (VQCs), which rely on adjustable parameters, often face the barren plateau phenomenon, hindering optimization. The Lottery Ticket Hypothesis (LTH) is a recent concept in classical machine learning that has led to notable improvements in parameter efficiency for neural networks. It states that within a large network, a smaller, more efficient subnetwork, or ''winning ticket,'' can achieve comparable performance, potentially circumventing plateau challenges. In this work, we investigate whether this idea can apply to VQCs. We show that the weak LTH holds for VQCs, revealing winning tickets that retain just 26.0\% of the original parameters. For the strong LTH, where a pruning mask is learned without any training, we discovered a winning ticket in a binary VQC, achieving 100\% accuracy with only 45\% of the weights. These findings indicate that LTH may mitigate barren plateaus by reducing parameter counts while preserving performance, thus enhancing the efficiency of VQCs in quantum machine learning tasks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.11190v1</guid>
-      <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Michael K\"olle, Leonhard Klingert, Julian Sch\"onberger, Philipp Altmann, Tobias Rohe, Claudia Linnhoff-Popien</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Architecture Search for Solving Quantum Machine Learning Tasks</title>
-      <link>https://arxiv.org/abs/2509.11198</link>
-      <description>arXiv:2509.11198v1 Announce Type: new 
-Abstract: Quantum computing leverages quantum mechanics to address computational problems in ways that differ fundamentally from classical approaches. While current quantum hardware remains error-prone and limited in scale, Variational Quantum Circuits offer a noise-resilient framework suitable for today's devices. The performance of these circuits strongly depends on the underlying architecture of their parameterized quantum components. Identifying efficient, hardware-compatible quantum circuit architectures -- known as Quantum Architecture Search (QAS) -- is therefore essential. Manual QAS is complex and error-prone, motivating efforts to automate it. Among various automated strategies, Reinforcement Learning (RL) remains underexplored, particularly in Quantum Machine Learning contexts. This work introduces RL-QAS, a framework that applies RL to discover effective circuit architectures for classification tasks. We evaluate RL-QAS using the Iris and binary MNIST datasets. The agent autonomously discovers low-complexity circuit designs that achieve high test accuracy. Our results show that RL is a viable approach for automated architecture search in quantum machine learning. However, applying RL-QAS to more complex tasks will require further refinement of the search strategy and performance evaluation mechanisms.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.11198v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Michael K\"olle, Simon Salfer, Tobias Rohe, Philipp Altmann, Claudia Linnhoff-Popien</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Graph Attention Networks: Trainable Quantum Encoders for Inductive Graph Learning</title>
-      <link>https://arxiv.org/abs/2509.11390</link>
-      <description>arXiv:2509.11390v1 Announce Type: new 
-Abstract: We introduce Quantum Graph Attention Networks (QGATs) as trainable quantum encoders for inductive learning on graphs, extending the Quantum Graph Neural Networks (QGNN) framework. QGATs leverage parameterized quantum circuits to encode node features and neighborhood structures, with quantum attention mechanisms modulating the contribution of each neighbor via dynamically learned unitaries. This allows for expressive, locality-aware quantum representations that can generalize across unseen graph instances. We evaluate our approach on the QM9 dataset, targeting the prediction of various chemical properties. Our experiments compare classical and quantum graph neural networks-with and without attention layers-demonstrating that attention consistently improves performance in both paradigms. Notably, we observe that quantum attention yields increasing benefits as graph size grows, with QGATs significantly outperforming their non-attentive quantum counterparts on larger molecular graphs. Furthermore, for smaller graphs, QGATs achieve predictive accuracy comparable to classical GAT models, highlighting their viability as expressive quantum encoders. These results show the potential of quantum attention mechanisms to enhance the inductive capacity of QGNN in chemistry and beyond.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.11390v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Arthur M. Faria, Mehdi Djellabi, Igor O. Sokolov, Savvas Varsamopoulos</dc:creator>
-    </item>
-    <item>
-      <title>Optimal single-mode squeezing for beam displacement sensing</title>
-      <link>https://arxiv.org/abs/2509.11457</link>
-      <description>arXiv:2509.11457v1 Announce Type: new 
-Abstract: Estimation of an optical beam's transverse displacement is a canonical imaging problem fundamental to numerous optical imaging and sensing tasks. Quantum enhancements to the measurement precision in this problem have been studied extensively. However, previous studies have neither accounted for diffraction loss in full generality, nor have they addressed how to jointly optimize the spatial mode and the balance between squeezing and coherent amplitude. Here we show that, in the small-displacement limit, the seemingly intractable infinite-spatial-mode problem can be reduced to a compact three-mode interaction framework. We quantify the improvement afforded by an optimized single-spatial-mode Gaussian-state probe over the optimal classical laser probe, and show that a two-spatial-mode homodyne receiver is asymptotically optimal for the former in the limit of high probe energy. Our findings reveal a strategy for identifying quantum-optimal probes in the presence of generic multimode linear probe-target interaction and photon loss.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.11457v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Wenhua He, Christos N. Gagatsos, Dalziel J. Wilson, Saikat Guha</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Noise Tomography with Physics-Informed Neural Networks</title>
-      <link>https://arxiv.org/abs/2509.11911</link>
-      <description>arXiv:2509.11911v1 Announce Type: new 
-Abstract: Characterizing the environmental interactions of quantum systems is a critical bottleneck in the development of robust quantum technologies. Traditional tomographic methods are often data-intensive and struggle with scalability. In this work, we introduce a novel framework for performing Lindblad tomography using Physics-Informed Neural Networks (PINNs). By embedding the Lindblad master equation directly into the neural network's loss function, our approach simultaneously learns the quantum state's evolution and infers the underlying dissipation parameters from sparse, time-series measurement data. Our results show that PINNs can reconstruct both the system dynamics and the functional form of unknown noise parameters, presenting a sample-efficient and scalable solution for quantum device characterization. Ultimately, our method produces a fully-differentiable digital twin of a noisy quantum system by learning its governing master equation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.11911v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>physics.comp-ph</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Antonin Sulc</dc:creator>
-    </item>
-    <item>
-      <title>Contextuality, Holonomy and Discrete Fiber Bundles in Group-Valued Boltzmann Machines</title>
-      <link>https://arxiv.org/abs/2509.10536</link>
-      <description>arXiv:2509.10536v1 Announce Type: cross 
-Abstract: We propose a geometric extension of restricted Boltzmann machines (RBMs) by allowing weights to take values in abstract groups such as \( \mathrm{GL}_n(\mathbb{R}) \), \( \mathrm{SU}(2) \), or even infinite-dimensional operator groups. This generalization enables the modeling of complex relational structures, including projective transformations, spinor dynamics, and functional symmetries, with direct applications to vision, language, and quantum learning.
-  A central contribution of this work is the introduction of a \emph{contextuality index} based on group-valued holonomies computed along cycles in the RBM graph. This index quantifies the global inconsistency or "curvature" induced by local weights, generalizing classical notions of coherence, consistency, and geometric flatness. We establish links with sheaf-theoretic contextuality, gauge theory, and noncommutative geometry, and provide numerical and diagrammatic examples in both finite and infinite dimensions.
-  This framework opens novel directions in AI, from curvature-aware learning architectures to topological regularization in uncertain or adversarial environments.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.10536v1</guid>
-      <category>cs.LG</category>
-      <category>physics.data-an</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jean-Pierre Magnot</dc:creator>
+      <dc:creator>Kenneth G. Young II</dc:creator>
+    </item>
+    <item>
+      <title>Prediction of Stocks Index Price using Quantum GANs</title>
+      <link>https://arxiv.org/abs/2509.12286</link>
+      <description>arXiv:2509.12286v1 Announce Type: cross 
+Abstract: This paper investigates the application of Quantum Generative Adversarial Networks (QGANs) for stock price prediction. Financial markets are inherently complex, marked by high volatility and intricate patterns that traditional models often fail to capture. QGANs, leveraging the power of quantum computing, offer a novel approach by combining the strengths of generative models with quantum machine learning techniques. We implement a QGAN model tailored for stock price prediction and evaluate its performance using historical stock market data. Our results demonstrate that QGANs can generate synthetic data closely resembling actual market behavior, leading to enhanced prediction accuracy. The experiment was conducted using the Stocks index price data and the AWS Braket SV1 simulator for training the QGAN circuits. The quantum-enhanced model outperforms classical Long Short-Term Memory (LSTM) and GAN models in terms of convergence speed and prediction accuracy. This research represents a key step toward integrating quantum computing in financial forecasting, offering potential advantages in speed and precision over traditional methods. The findings suggest important implications for traders, financial analysts, and researchers seeking advanced tools for market analysis.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.12286v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Sangram Deshpande, Gopal Ramesh Dahale, Sai Nandan Morapakula, Uday Wad</dc:creator>
+    </item>
+    <item>
+      <title>Neural-Quantum-States Impurity Solver for Quantum Embedding Problems</title>
+      <link>https://arxiv.org/abs/2509.12431</link>
+      <description>arXiv:2509.12431v1 Announce Type: cross 
+Abstract: Neural quantum states (NQS) have emerged as a promising approach to solve second-quantised Hamiltonians, because of their scalability and flexibility. In this work, we design and benchmark an NQS impurity solver for the quantum embedding methods, focusing on the ghost Gutzwiller Approximation (gGA) framework. We introduce a graph transformer-based NQS framework able to represent arbitrarily connected impurity orbitals and develop an error control mechanism to stabilise iterative updates throughout the quantum embedding loops. We validate the accuracy of our approach with benchmark gGA calculations of the Anderson Lattice Model, yielding results in excellent agreement with the exact diagonalisation impurity solver. Finally, our analysis of the computational budget reveals the method's principal bottleneck to be the high-accuracy sampling of physical observables required by the embedding loop, rather than the NQS variational optimisation, directly highlighting the critical need for more efficient inference techniques.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.12431v1</guid>
+      <category>cond-mat.str-el</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Yinzhanghao Zhou, Tsung-Han Lee, Ao Chen, Nicola Lanat\`a, Hong Guo</dc:creator>
+    </item>
+    <item>
+      <title>Large Language Model Scaling Laws for Neural Quantum States in Quantum Chemistry</title>
+      <link>https://arxiv.org/abs/2509.12679</link>
+      <description>arXiv:2509.12679v1 Announce Type: cross 
+Abstract: Scaling laws have been used to describe how large language model (LLM) performance scales with model size, training data size, or amount of computational resources. Motivated by the fact that neural quantum states (NQS) has increasingly adopted LLM-based components, we seek to understand NQS scaling laws, thereby shedding light on the scalability and optimal performance--resource trade-offs of NQS ansatze. In particular, we identify scaling laws that predict the performance, as measured by absolute error and V-score, for transformer-based NQS as a function of problem size in second-quantized quantum chemistry applications. By performing analogous compute-constrained optimization of the obtained parametric curves, we find that the relationship between model size and training time is highly dependent on loss metric and ansatz, and does not follow the approximately linear relationship found for language models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.12679v1</guid>
+      <category>cs.LG</category>
+      <category>cs.CE</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Oliver Knitter, Dan Zhao, Stefan Leichenauer, Shravan Veerapaneni</dc:creator>
+    </item>
+    <item>
+      <title>QDFlow: A Python package for physics simulations of quantum dot devices</title>
+      <link>https://arxiv.org/abs/2509.13298</link>
+      <description>arXiv:2509.13298v1 Announce Type: cross 
+Abstract: Recent advances in machine learning (ML) have accelerated progress in calibrating and operating quantum dot (QD) devices. However, most ML approaches rely on access to large, high-quality labeled datasets for training, benchmarking, and validation, with labels capturing key features in the data. Obtaining such datasets experimentally is challenging due to limited data availability and the labor-intensive nature of labeling. QDFlow is an open-source physics simulator for multi-QD arrays that generates realistic synthetic data with ground-truth labels. QDFlow combines a self-consistent Thomas-Fermi solver, a dynamic capacitance model, and flexible noise modules to produce charge stability diagrams and ray-based data closely resembling experiments. With extensive tunable parameters and customizable noise models, QDFlow supports the creation of large, diverse datasets for ML development, benchmarking, and quantum device research.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13298v1</guid>
+      <category>cond-mat.mes-hall</category>
+      <category>cs.CV</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Donovan L. Buterakos, Sandesh S. Kalantre, Joshua Ziegler, Jacob M Taylor, Justyna P. Zwolak</dc:creator>
     </item>
   </channel>
 </rss>

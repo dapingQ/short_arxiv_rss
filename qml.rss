@@ -7,83 +7,108 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Sep 2025 04:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 04:00:17 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) for Diabetes Risk Prediction</title>
-      <link>https://arxiv.org/abs/2509.12259</link>
-      <description>arXiv:2509.12259v1 Announce Type: cross 
-Abstract: The Quantum-Inspired Stacked Integrated Concept Graph Model (QISICGM) is an innovative machine learning framework that harnesses quantum-inspired techniques to predict diabetes risk with exceptional accuracy and efficiency. Utilizing the PIMA Indians Diabetes dataset augmented with 2,000 synthetic samples to mitigate class imbalance (total: 2,768 samples, 1,949 positives), QISICGM integrates a self-improving concept graph with a stacked ensemble comprising Random Forests (RF), Extra Trees (ET), transformers, convolutional neural networks (CNNs), and feed-forward neural networks (FFNNs). This approach achieves an out-of-fold (OOF) F1 score of 0.8933 and an AUC of 0.8699, outperforming traditional methods. Quantum inspired elements, such as phase feature mapping and neighborhood sequence modeling, enrich feature representations, enabling CPU-efficient inference at 8.5 rows per second. This paper presents a detailed architecture, theoretical foundations, code insights, and performance evaluations, including visualizations from the outputs subfolder. The open-source implementation (v1.0.0) is available at https://github.com/keninayoung/QISICGM, positioning QISICGM as a potential benchmark for AI-assisted clinical triage in diabetes and beyond. Ultimately, this work emphasizes trustworthy AI through calibration, interpretability, and open-source reproducibility.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.12259v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
+      <title>Computational complexity of Berry phase estimation in topological phases of matter</title>
+      <link>https://arxiv.org/abs/2509.13423</link>
+      <description>arXiv:2509.13423v1 Announce Type: new 
+Abstract: The Berry phase is a fundamental quantity in the classification of topological phases of matter. In this paper, we present a new quantum algorithm and several complexity-theoretical results for the Berry phase estimation (BPE) problems. Our new quantum algorithm achieves BPE in a more general setting than previously known quantum algorithms, with a theoretical guarantee. For the complexity-theoretic results, we consider three cases. First, we prove $\mathsf{BQP}$-completeness when we are given a guiding state that has a large overlap with the ground state. This result establishes an exponential quantum speedup for estimating the Berry phase. Second, we prove $\mathsf{dUQMA}$-completeness when we have \textit{a priori} bound for ground state energy. Here, $\mathsf{dUQMA}$ is a variant of the unique witness version of $\mathsf{QMA}$ (i.e., $\mathsf{UQMA}$), which we introduce in this paper, and this class precisely captures the complexity of BPE without the known guiding state. Remarkably, this problem turned out to be the first natural problem contained in both $\mathsf{UQMA}$ and $\mathsf{co}$-$\mathsf{UQMA}$. Third, we show $\mathsf{P}^{\mathsf{dUQMA[log]}}$-hardness and containment in $\mathsf{P}^{\mathsf{PGQMA[log]}}$ when we have no additional assumption. These results advance the role of quantum computing in the study of topological phases of matter and provide a pathway for clarifying the connection between topological phases of matter and computational complexity.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13423v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cond-mat.str-el</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ryu Hayakawa, Kazuki Sakamoto, Chusei Kiumi</dc:creator>
+    </item>
+    <item>
+      <title>Learning quantum many-body data locally: A provably scalable framework</title>
+      <link>https://arxiv.org/abs/2509.13705</link>
+      <description>arXiv:2509.13705v1 Announce Type: new 
+Abstract: Machine learning (ML) holds great promise for extracting insights from complex quantum many-body data obtained in quantum experiments. This approach can efficiently solve certain quantum problems that are classically intractable, suggesting potential advantages of harnessing quantum data. However, addressing large-scale problems still requires significant amounts of data beyond the limited computational resources of near-term quantum devices. We propose a scalable ML framework called Geometrically Local Quantum Kernel (GLQK), designed to efficiently learn quantum many-body experimental data by leveraging the exponential decay of correlations, a phenomenon prevalent in noncritical systems. In the task of learning an unknown polynomial of quantum expectation values, we rigorously prove that GLQK substantially improves polynomial sample complexity in the number of qubits $n$, compared to the existing shadow kernel, by constructing a feature space from local quantum information at the correlation length scale. This improvement is particularly notable when each term of the target polynomial involves few local subsystems. Remarkably, for translationally symmetric data, GLQK achieves constant sample complexity, independent of $n$. We numerically demonstrate its high scalability in two learning tasks on quantum many-body phenomena. These results establish new avenues for utilizing experimental data to advance the understanding of quantum many-body physics.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13705v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.stat-mech</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Koki Chinzei, Quoc Hoan Tran, Norifumi Matsumoto, Yasuhiro Endo, Hirotaka Oshima</dc:creator>
+    </item>
+    <item>
+      <title>Learning Minimal Representations of Many-Body Physics from Snapshots of a Quantum Simulator</title>
+      <link>https://arxiv.org/abs/2509.13821</link>
+      <description>arXiv:2509.13821v1 Announce Type: new 
+Abstract: Analog quantum simulators provide access to many-body dynamics beyond the reach of classical computation. However, extracting physical insights from experimental data is often hindered by measurement noise, limited observables, and incomplete knowledge of the underlying microscopic model. Here, we develop a machine learning approach based on a variational autoencoder (VAE) to analyze interference measurements of tunnel-coupled one-dimensional Bose gases, which realize the sine-Gordon quantum field theory. Trained in an unsupervised manner, the VAE learns a minimal latent representation that strongly correlates with the equilibrium control parameter of the system. Applied to non-equilibrium protocols, the latent space uncovers signatures of frozen-in solitons following rapid cooling, and reveals anomalous post-quench dynamics not captured by conventional correlation-based methods. These results demonstrate that generative models can extract physically interpretable variables directly from noisy and sparse experimental data, providing complementary probes of equilibrium and non-equilibrium physics in quantum simulators. More broadly, our work highlights how machine learning can supplement established field-theoretical techniques, paving the way for scalable, data-driven discovery in quantum many-body systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13821v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Frederik M{\o}ller, Gabriel Fern\'andez-Fern\'andez, Thomas Schweigler, Paulin de Schoulepnikoff, J\"org Schmiedmayer, Gorka Mu\~noz-Gil</dc:creator>
+    </item>
+    <item>
+      <title>A Tight Quantum Algorithm for Multiple Collision Search</title>
+      <link>https://arxiv.org/abs/2509.13909</link>
+      <description>arXiv:2509.13909v1 Announce Type: new 
+Abstract: Searching for collisions in random functions is a fundamental computational problem, with many applications in symmetric and asymmetric cryptanalysis. When one searches for a single collision, the known quantum algorithms match the query lower bound. This is not the case for the problem of finding multiple collisions, despite its regular appearance as a sub-component in sieving-type algorithms.
+  At EUROCRYPT 2019, Liu and Zhandry gave a query lower bound $\Omega(2^{m/3 + 2k/3})$ for finding $2^k$ collisions in a random function with m-bit output. At EUROCRYPT 2023, Bonnetain et al. gave a quantum algorithm matching this bound for a large range of $m$ and $k$, but not all admissible values. Like many previous collision-finding algorithms, theirs is based on the MNRS quantum walk framework, but it chains the walks by reusing the state after outputting a collision.
+  In this paper, we give a new algorithm that tackles the remaining non-optimal range, closing the problem. Our algorithm is tight (up to a polynomial factor) in queries, and also in time under a quantum RAM assumption. The idea is to extend the chained walk to a regime in which several collisions are returned at each step, and the ``walks'' themselves only perform a single diffusion layer.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13909v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xavier Bonnetain, Johanna Loyer, Andr\'e Schrottenloher, Yixin Shen</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Variational Activation Functions Empower Kolmogorov-Arnold Networks</title>
+      <link>https://arxiv.org/abs/2509.14026</link>
+      <description>arXiv:2509.14026v1 Announce Type: new 
+Abstract: Variational quantum circuits (VQCs) are central to quantum machine learning, while recent progress in Kolmogorov-Arnold networks (KANs) highlights the power of learnable activation functions. We unify these directions by introducing quantum variational activation functions (QVAFs), realized through single-qubit data re-uploading circuits called DatA Re-Uploading ActivatioNs (DARUANs). We show that DARUAN with trainable weights in data pre-processing possesses an exponentially growing frequency spectrum with data repetitions, enabling an exponential reduction in parameter size compared with Fourier-based activations without loss of expressivity. Embedding DARUAN into KANs yields quantum-inspired KANs (QKANs), which retain the interpretability of KANs while improving their parameter efficiency, expressivity, and generalization. We further introduce two novel techniques to enhance scalability, feasibility and computational efficiency, such as layer extension and hybrid QKANs (HQKANs) as drop-in replacements of multi-layer perceptrons (MLPs) for feed-forward networks in large-scale models. We provide theoretical analysis and extensive experiments on function regression, image classification, and autoregressive generative language modeling, demonstrating the efficiency and scalability of QKANs. DARUANs and QKANs offer a promising direction for advancing quantum machine learning on both noisy intermediate-scale quantum (NISQ) hardware and classical quantum simulators.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.14026v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jiun-Cheng Jiang, Morris Yu-Chao Huang, Tianlong Chen, Hsi-Sheng Goan</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Reinforcement Learning-Guided Diffusion Model for Image Synthesis via Hybrid Quantum-Classical Generative Model Architectures</title>
+      <link>https://arxiv.org/abs/2509.14163</link>
+      <description>arXiv:2509.14163v1 Announce Type: new 
+Abstract: Diffusion models typically employ static or heuristic classifier-free guidance (CFG) schedules, which often fail to adapt across timesteps and noise conditions. In this work, we introduce a quantum reinforcement learning (QRL) controller that dynamically adjusts CFG at each denoising step. The controller adopts a hybrid quantum--classical actor--critic architecture: a shallow variational quantum circuit (VQC) with ring entanglement generates policy features, which are mapped by a compact multilayer perceptron (MLP) into Gaussian actions over $\Delta$CFG, while a classical critic estimates value functions. The policy is optimized using Proximal Policy Optimization (PPO) with Generalized Advantage Estimation (GAE), guided by a reward that balances classification confidence, perceptual improvement, and action regularization. Experiments on CIFAR-10 demonstrate that our QRL policy improves perceptual quality (LPIPS, PSNR, SSIM) while reducing parameter count compared to classical RL actors and fixed schedules. Ablation studies on qubit number and circuit depth reveal trade-offs between accuracy and efficiency, and extended evaluations confirm robust generation under long diffusion schedules.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.14163v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Chi-Sheng Chen, En-Jui Kuo</dc:creator>
+    </item>
+    <item>
+      <title>Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment</title>
+      <link>https://arxiv.org/abs/2509.13818</link>
+      <description>arXiv:2509.13818v1 Announce Type: cross 
+Abstract: Quantum Machine Learning (QML) offers a new paradigm for addressing complex financial problems intractable for classical methods. This work specifically tackles the challenge of few-shot credit risk assessment, a critical issue in inclusive finance where data scarcity and imbalance limit the effectiveness of conventional models. To address this, we design and implement a novel hybrid quantum-classical workflow. The methodology first employs an ensemble of classical machine learning models (Logistic Regression, Random Forest, XGBoost) for intelligent feature engineering and dimensionality reduction. Subsequently, a Quantum Neural Network (QNN), trained via the parameter-shift rule, serves as the core classifier. This framework was evaluated through numerical simulations and deployed on the Quafu Quantum Cloud Platform's ScQ-P21 superconducting processor. On a real-world credit dataset of 279 samples, our QNN achieved a robust average AUC of 0.852 +/- 0.027 in simulations and yielded an impressive AUC of 0.88 in the hardware experiment. This performance surpasses a suite of classical benchmarks, with a particularly strong result on the recall metric. This study provides a pragmatic blueprint for applying quantum computing to data-constrained financial scenarios in the NISQ era and offers valuable empirical evidence supporting its potential in high-stakes applications like inclusive finance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.13818v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kenneth G. Young II</dc:creator>
-    </item>
-    <item>
-      <title>Prediction of Stocks Index Price using Quantum GANs</title>
-      <link>https://arxiv.org/abs/2509.12286</link>
-      <description>arXiv:2509.12286v1 Announce Type: cross 
-Abstract: This paper investigates the application of Quantum Generative Adversarial Networks (QGANs) for stock price prediction. Financial markets are inherently complex, marked by high volatility and intricate patterns that traditional models often fail to capture. QGANs, leveraging the power of quantum computing, offer a novel approach by combining the strengths of generative models with quantum machine learning techniques. We implement a QGAN model tailored for stock price prediction and evaluate its performance using historical stock market data. Our results demonstrate that QGANs can generate synthetic data closely resembling actual market behavior, leading to enhanced prediction accuracy. The experiment was conducted using the Stocks index price data and the AWS Braket SV1 simulator for training the QGAN circuits. The quantum-enhanced model outperforms classical Long Short-Term Memory (LSTM) and GAN models in terms of convergence speed and prediction accuracy. This research represents a key step toward integrating quantum computing in financial forecasting, offering potential advantages in speed and precision over traditional methods. The findings suggest important implications for traders, financial analysts, and researchers seeking advanced tools for market analysis.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.12286v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Sangram Deshpande, Gopal Ramesh Dahale, Sai Nandan Morapakula, Uday Wad</dc:creator>
-    </item>
-    <item>
-      <title>Neural-Quantum-States Impurity Solver for Quantum Embedding Problems</title>
-      <link>https://arxiv.org/abs/2509.12431</link>
-      <description>arXiv:2509.12431v1 Announce Type: cross 
-Abstract: Neural quantum states (NQS) have emerged as a promising approach to solve second-quantised Hamiltonians, because of their scalability and flexibility. In this work, we design and benchmark an NQS impurity solver for the quantum embedding methods, focusing on the ghost Gutzwiller Approximation (gGA) framework. We introduce a graph transformer-based NQS framework able to represent arbitrarily connected impurity orbitals and develop an error control mechanism to stabilise iterative updates throughout the quantum embedding loops. We validate the accuracy of our approach with benchmark gGA calculations of the Anderson Lattice Model, yielding results in excellent agreement with the exact diagonalisation impurity solver. Finally, our analysis of the computational budget reveals the method's principal bottleneck to be the high-accuracy sampling of physical observables required by the embedding loop, rather than the NQS variational optimisation, directly highlighting the critical need for more efficient inference techniques.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.12431v1</guid>
-      <category>cond-mat.str-el</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Yinzhanghao Zhou, Tsung-Han Lee, Ao Chen, Nicola Lanat\`a, Hong Guo</dc:creator>
-    </item>
-    <item>
-      <title>Large Language Model Scaling Laws for Neural Quantum States in Quantum Chemistry</title>
-      <link>https://arxiv.org/abs/2509.12679</link>
-      <description>arXiv:2509.12679v1 Announce Type: cross 
-Abstract: Scaling laws have been used to describe how large language model (LLM) performance scales with model size, training data size, or amount of computational resources. Motivated by the fact that neural quantum states (NQS) has increasingly adopted LLM-based components, we seek to understand NQS scaling laws, thereby shedding light on the scalability and optimal performance--resource trade-offs of NQS ansatze. In particular, we identify scaling laws that predict the performance, as measured by absolute error and V-score, for transformer-based NQS as a function of problem size in second-quantized quantum chemistry applications. By performing analogous compute-constrained optimization of the obtained parametric curves, we find that the relationship between model size and training time is highly dependent on loss metric and ansatz, and does not follow the approximately linear relationship found for language models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.12679v1</guid>
-      <category>cs.LG</category>
-      <category>cs.CE</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Oliver Knitter, Dan Zhao, Stefan Leichenauer, Shravan Veerapaneni</dc:creator>
-    </item>
-    <item>
-      <title>QDFlow: A Python package for physics simulations of quantum dot devices</title>
-      <link>https://arxiv.org/abs/2509.13298</link>
-      <description>arXiv:2509.13298v1 Announce Type: cross 
-Abstract: Recent advances in machine learning (ML) have accelerated progress in calibrating and operating quantum dot (QD) devices. However, most ML approaches rely on access to large, high-quality labeled datasets for training, benchmarking, and validation, with labels capturing key features in the data. Obtaining such datasets experimentally is challenging due to limited data availability and the labor-intensive nature of labeling. QDFlow is an open-source physics simulator for multi-QD arrays that generates realistic synthetic data with ground-truth labels. QDFlow combines a self-consistent Thomas-Fermi solver, a dynamic capacitance model, and flexible noise modules to produce charge stability diagrams and ray-based data closely resembling experiments. With extensive tunable parameters and customizable noise models, QDFlow supports the creation of large, diverse datasets for ML development, benchmarking, and quantum device research.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13298v1</guid>
-      <category>cond-mat.mes-hall</category>
-      <category>cs.CV</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Donovan L. Buterakos, Sandesh S. Kalantre, Joshua Ziegler, Jacob M Taylor, Justyna P. Zwolak</dc:creator>
+      <dc:creator>Zheng-an Wang, Yanbo J. Wang, Jiachi Zhang, Qi Xu, Yilun Zhao, Jintao Li, Yipeng Zhang, Bo Yang, Xinkai Gao, Xiaofeng Cao, Kai Xu, Pengpeng Hao, Xuan Yang, Heng Fan</dc:creator>
     </item>
   </channel>
 </rss>

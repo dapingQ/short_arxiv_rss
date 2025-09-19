@@ -7,108 +7,82 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Sep 2025 04:00:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 04:00:13 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Computational complexity of Berry phase estimation in topological phases of matter</title>
-      <link>https://arxiv.org/abs/2509.13423</link>
-      <description>arXiv:2509.13423v1 Announce Type: new 
-Abstract: The Berry phase is a fundamental quantity in the classification of topological phases of matter. In this paper, we present a new quantum algorithm and several complexity-theoretical results for the Berry phase estimation (BPE) problems. Our new quantum algorithm achieves BPE in a more general setting than previously known quantum algorithms, with a theoretical guarantee. For the complexity-theoretic results, we consider three cases. First, we prove $\mathsf{BQP}$-completeness when we are given a guiding state that has a large overlap with the ground state. This result establishes an exponential quantum speedup for estimating the Berry phase. Second, we prove $\mathsf{dUQMA}$-completeness when we have \textit{a priori} bound for ground state energy. Here, $\mathsf{dUQMA}$ is a variant of the unique witness version of $\mathsf{QMA}$ (i.e., $\mathsf{UQMA}$), which we introduce in this paper, and this class precisely captures the complexity of BPE without the known guiding state. Remarkably, this problem turned out to be the first natural problem contained in both $\mathsf{UQMA}$ and $\mathsf{co}$-$\mathsf{UQMA}$. Third, we show $\mathsf{P}^{\mathsf{dUQMA[log]}}$-hardness and containment in $\mathsf{P}^{\mathsf{PGQMA[log]}}$ when we have no additional assumption. These results advance the role of quantum computing in the study of topological phases of matter and provide a pathway for clarifying the connection between topological phases of matter and computational complexity.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13423v1</guid>
+      <title>On the Complexity of Decoded Quantum Interferometry</title>
+      <link>https://arxiv.org/abs/2509.14443</link>
+      <description>arXiv:2509.14443v1 Announce Type: new 
+Abstract: We study the complexity of Decoded Quantum Interferometry (DQI), a recently proposed quantum algorithm for approximate optimization. We argue that DQI is hard to classically simulate, and that the hardness comes from locating an exponentially large hidden subset. This type of hardness is shared by Shor's algorithm, but the hidden subset here has no apparent group structure. We first prove that DQI can be simulated in a low level of the polynomial hierarchy, ruling out hardness arguments related to quantum supremacy. Instead, we show that DQI implements an existential coding theory bound based on the MacWilliams identity, and that it prepares a state within an obfuscated quantum harmonic oscillator. Both viewpoints require a coherent application of a discrete Hermite transform, which has no natural classical analog.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.14443v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.str-el</category>
       <category>cs.CC</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Kunal Marwaha, Bill Fefferman, Alexandru Gheorghiu, Vojtech Havlicek</dc:creator>
+    </item>
+    <item>
+      <title>Efficiently learning depth-3 circuits via quantum agnostic boosting</title>
+      <link>https://arxiv.org/abs/2509.14461</link>
+      <description>arXiv:2509.14461v1 Announce Type: new 
+Abstract: We initiate the study of quantum agnostic learning of phase states with respect to a function class $\mathsf{C}\subseteq \{c:\{0,1\}^n\rightarrow \{0,1\}\}$: given copies of an unknown $n$-qubit state $|\psi\rangle$ which has fidelity $\textsf{opt}$ with a phase state $|\phi_c\rangle=\frac{1}{\sqrt{2^n}}\sum_{x\in \{0,1\}^n}(-1)^{c(x)}|x\rangle$ for some $c\in \mathsf{C}$, output $|\phi\rangle$ which has fidelity $|\langle \phi | \psi \rangle|^2 \geq \textsf{opt}-\varepsilon$. To this end, we give agnostic learning protocols for the following classes: (i) Size-$t$ decision trees which runs in time $\textsf{poly}(n,t,1/\varepsilon)$. This also implies $k$-juntas can be agnostically learned in time $\textsf{poly}(n,2^k,1/\varepsilon)$. (ii) $s$-term DNF formulas in near-polynomial time $\textsf{poly}(n,(s/\varepsilon)^{\log \log s/\varepsilon})$.
+  Our main technical contribution is a quantum agnostic boosting protocol which converts a weak agnostic learner, which outputs a parity state $|\phi\rangle$ such that $|\langle \phi|\psi\rangle|^2\geq \textsf{opt}/\textsf{poly}(n)$, into a strong learner which outputs a superposition of parity states $|\phi'\rangle$ such that $|\langle \phi'|\psi\rangle|^2\geq \textsf{opt} - \varepsilon$.
+  Using quantum agnostic boosting, we obtain the first near-polynomial time $n^{O(\log \log n)}$ algorithm for learning $\textsf{poly}(n)$-sized depth-$3$ circuits (consisting of $\textsf{AND}$, $\textsf{OR}$, $\textsf{NOT}$ gates) in the uniform quantum $\textsf{PAC}$ model using quantum examples. Classically, the analogue of efficient learning depth-$3$ circuits (and even depth-$2$ circuits) in the uniform $\textsf{PAC}$ model has been a longstanding open question in computational learning theory. Our work nearly settles this question, when the learner is given quantum examples.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.14461v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ryu Hayakawa, Kazuki Sakamoto, Chusei Kiumi</dc:creator>
+      <dc:creator>Srinivasan Arunachalam, Arkopal Dutt, Alexandru Gheorghiu, Michael de Oliveira</dc:creator>
     </item>
     <item>
-      <title>Learning quantum many-body data locally: A provably scalable framework</title>
-      <link>https://arxiv.org/abs/2509.13705</link>
-      <description>arXiv:2509.13705v1 Announce Type: new 
-Abstract: Machine learning (ML) holds great promise for extracting insights from complex quantum many-body data obtained in quantum experiments. This approach can efficiently solve certain quantum problems that are classically intractable, suggesting potential advantages of harnessing quantum data. However, addressing large-scale problems still requires significant amounts of data beyond the limited computational resources of near-term quantum devices. We propose a scalable ML framework called Geometrically Local Quantum Kernel (GLQK), designed to efficiently learn quantum many-body experimental data by leveraging the exponential decay of correlations, a phenomenon prevalent in noncritical systems. In the task of learning an unknown polynomial of quantum expectation values, we rigorously prove that GLQK substantially improves polynomial sample complexity in the number of qubits $n$, compared to the existing shadow kernel, by constructing a feature space from local quantum information at the correlation length scale. This improvement is particularly notable when each term of the target polynomial involves few local subsystems. Remarkably, for translationally symmetric data, GLQK achieves constant sample complexity, independent of $n$. We numerically demonstrate its high scalability in two learning tasks on quantum many-body phenomena. These results establish new avenues for utilizing experimental data to advance the understanding of quantum many-body physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13705v1</guid>
+      <title>TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE</title>
+      <link>https://arxiv.org/abs/2509.15193</link>
+      <description>arXiv:2509.15193v1 Announce Type: new 
+Abstract: Variational quantum Eigensolver (VQE) is a leading candidate for harnessing quantum computers to advance quantum chemistry and materials simulations, yet its training efficiency deteriorates rapidly for large Hamiltonians. Two issues underlie this bottleneck: (i) the no-cloning theorem imposes a linear growth in circuit evaluations with the number of parameters per gradient step; and (ii) deeper circuits encounter barren plateaus (BPs), leading to exponentially increasing measurement overheads. To address these challenges, here we propose a deep learning framework, dubbed Titan, which identifies and freezes inactive parameters of a given ansatze at initialization for a specific class of Hamiltonians, reducing the optimization overhead without sacrificing accuracy. The motivation of Titan starts with our empirical findings that a subset of parameters consistently has a negligible influence on training dynamics. Its design combines a theoretically grounded data construction strategy, ensuring each training example is informative and BP-resilient, with an adaptive neural architecture that generalizes across ansatze of varying sizes. Across benchmark transverse-field Ising models, Heisenberg models, and multiple molecule systems up to 30 qubits, Titan achieves up to 3 times faster convergence and 40% to 60% fewer circuit evaluations than state-of-the-art baselines, while matching or surpassing their estimation accuracy. By proactively trimming parameter space, Titan lowers hardware demands and offers a scalable path toward utilizing VQE to advance practical quantum chemistry and materials science.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.15193v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Koki Chinzei, Quoc Hoan Tran, Norifumi Matsumoto, Yasuhiro Endo, Hirotaka Oshima</dc:creator>
+      <dc:creator>Yifeng Peng, Xinyi Li, Samuel Yen-Chi Chen, Kaining Zhang, Zhiding Liang, Ying Wang, Yuxuan Du</dc:creator>
     </item>
     <item>
-      <title>Learning Minimal Representations of Many-Body Physics from Snapshots of a Quantum Simulator</title>
-      <link>https://arxiv.org/abs/2509.13821</link>
-      <description>arXiv:2509.13821v1 Announce Type: new 
-Abstract: Analog quantum simulators provide access to many-body dynamics beyond the reach of classical computation. However, extracting physical insights from experimental data is often hindered by measurement noise, limited observables, and incomplete knowledge of the underlying microscopic model. Here, we develop a machine learning approach based on a variational autoencoder (VAE) to analyze interference measurements of tunnel-coupled one-dimensional Bose gases, which realize the sine-Gordon quantum field theory. Trained in an unsupervised manner, the VAE learns a minimal latent representation that strongly correlates with the equilibrium control parameter of the system. Applied to non-equilibrium protocols, the latent space uncovers signatures of frozen-in solitons following rapid cooling, and reveals anomalous post-quench dynamics not captured by conventional correlation-based methods. These results demonstrate that generative models can extract physically interpretable variables directly from noisy and sparse experimental data, providing complementary probes of equilibrium and non-equilibrium physics in quantum simulators. More broadly, our work highlights how machine learning can supplement established field-theoretical techniques, paving the way for scalable, data-driven discovery in quantum many-body systems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13821v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Frederik M{\o}ller, Gabriel Fern\'andez-Fern\'andez, Thomas Schweigler, Paulin de Schoulepnikoff, J\"org Schmiedmayer, Gorka Mu\~noz-Gil</dc:creator>
-    </item>
-    <item>
-      <title>A Tight Quantum Algorithm for Multiple Collision Search</title>
-      <link>https://arxiv.org/abs/2509.13909</link>
-      <description>arXiv:2509.13909v1 Announce Type: new 
-Abstract: Searching for collisions in random functions is a fundamental computational problem, with many applications in symmetric and asymmetric cryptanalysis. When one searches for a single collision, the known quantum algorithms match the query lower bound. This is not the case for the problem of finding multiple collisions, despite its regular appearance as a sub-component in sieving-type algorithms.
-  At EUROCRYPT 2019, Liu and Zhandry gave a query lower bound $\Omega(2^{m/3 + 2k/3})$ for finding $2^k$ collisions in a random function with m-bit output. At EUROCRYPT 2023, Bonnetain et al. gave a quantum algorithm matching this bound for a large range of $m$ and $k$, but not all admissible values. Like many previous collision-finding algorithms, theirs is based on the MNRS quantum walk framework, but it chains the walks by reusing the state after outputting a collision.
-  In this paper, we give a new algorithm that tackles the remaining non-optimal range, closing the problem. Our algorithm is tight (up to a polynomial factor) in queries, and also in time under a quantum RAM assumption. The idea is to extend the chained walk to a regime in which several collisions are returned at each step, and the ``walks'' themselves only perform a single diffusion layer.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13909v1</guid>
+      <title>Strong converse exponent of channel interconversion</title>
+      <link>https://arxiv.org/abs/2509.15200</link>
+      <description>arXiv:2509.15200v1 Announce Type: new 
+Abstract: In their seminal work, Bennett et al. [IEEE Trans. Inf. Theory (2002)] showed that, with sufficient shared randomness, one noisy channel can simulate another at a rate equal to the ratio of their capacities. We establish that when coding above this channel interconversion capacity, the exact strong converse exponent is characterized by a simple optimization involving the difference of the corresponding R\'enyi channel capacities with H\"older dual parameters. We further extend this result to the entanglement-assisted interconversion of classical-quantum channels, showing that the strong converse exponent is likewise determined by differences of sandwiched R\'enyi channel capacities. The converse bound is obtained by relaxing to non-signaling assisted codes and applying H\"older duality together with the data processing inequality for R\'enyi divergences. Achievability is proven by concatenating refined channel coding and simulation protocols that go beyond first-order capacities, attaining an exponentially small conversion error, remaining robust under small variations in the input distribution, and tolerating a sublinear gap between the conversion rates.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.15200v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Xavier Bonnetain, Johanna Loyer, Andr\'e Schrottenloher, Yixin Shen</dc:creator>
+      <dc:creator>Aadil Oufkir, Yongsheng Yao, Mario Berta</dc:creator>
     </item>
     <item>
-      <title>Quantum Variational Activation Functions Empower Kolmogorov-Arnold Networks</title>
-      <link>https://arxiv.org/abs/2509.14026</link>
-      <description>arXiv:2509.14026v1 Announce Type: new 
-Abstract: Variational quantum circuits (VQCs) are central to quantum machine learning, while recent progress in Kolmogorov-Arnold networks (KANs) highlights the power of learnable activation functions. We unify these directions by introducing quantum variational activation functions (QVAFs), realized through single-qubit data re-uploading circuits called DatA Re-Uploading ActivatioNs (DARUANs). We show that DARUAN with trainable weights in data pre-processing possesses an exponentially growing frequency spectrum with data repetitions, enabling an exponential reduction in parameter size compared with Fourier-based activations without loss of expressivity. Embedding DARUAN into KANs yields quantum-inspired KANs (QKANs), which retain the interpretability of KANs while improving their parameter efficiency, expressivity, and generalization. We further introduce two novel techniques to enhance scalability, feasibility and computational efficiency, such as layer extension and hybrid QKANs (HQKANs) as drop-in replacements of multi-layer perceptrons (MLPs) for feed-forward networks in large-scale models. We provide theoretical analysis and extensive experiments on function regression, image classification, and autoregressive generative language modeling, demonstrating the efficiency and scalability of QKANs. DARUANs and QKANs offer a promising direction for advancing quantum machine learning on both noisy intermediate-scale quantum (NISQ) hardware and classical quantum simulators.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.14026v1</guid>
+      <title>On Finite-Blocklength Noisy Classical-Quantum Channel Coding With Amplitude Damping Errors</title>
+      <link>https://arxiv.org/abs/2509.14852</link>
+      <description>arXiv:2509.14852v1 Announce Type: cross 
+Abstract: We investigate practical finite-blocklength classical-quantum channel coding over the quantum amplitude damping channel (ADC), aiming to transmit classical information reliably through quantum outputs. Our findings indicate that for any finite blocklength, a naive (uncoded) approach fails to offer any advantage over the ADC. Instead, sophisticated encoding strategies that leverage both classical error-correcting codes and quantum input states are crucial for realizing quantum performance gains at finite blocklengths.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.14852v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jiun-Cheng Jiang, Morris Yu-Chao Huang, Tianlong Chen, Hsi-Sheng Goan</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Reinforcement Learning-Guided Diffusion Model for Image Synthesis via Hybrid Quantum-Classical Generative Model Architectures</title>
-      <link>https://arxiv.org/abs/2509.14163</link>
-      <description>arXiv:2509.14163v1 Announce Type: new 
-Abstract: Diffusion models typically employ static or heuristic classifier-free guidance (CFG) schedules, which often fail to adapt across timesteps and noise conditions. In this work, we introduce a quantum reinforcement learning (QRL) controller that dynamically adjusts CFG at each denoising step. The controller adopts a hybrid quantum--classical actor--critic architecture: a shallow variational quantum circuit (VQC) with ring entanglement generates policy features, which are mapped by a compact multilayer perceptron (MLP) into Gaussian actions over $\Delta$CFG, while a classical critic estimates value functions. The policy is optimized using Proximal Policy Optimization (PPO) with Generalized Advantage Estimation (GAE), guided by a reward that balances classification confidence, perceptual improvement, and action regularization. Experiments on CIFAR-10 demonstrate that our QRL policy improves perceptual quality (LPIPS, PSNR, SSIM) while reducing parameter count compared to classical RL actors and fixed schedules. Ablation studies on qubit number and circuit depth reveal trade-offs between accuracy and efficiency, and extended evaluations confirm robust generation under long diffusion schedules.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.14163v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Chi-Sheng Chen, En-Jui Kuo</dc:creator>
-    </item>
-    <item>
-      <title>Hybrid Quantum-Classical Neural Networks for Few-Shot Credit Risk Assessment</title>
-      <link>https://arxiv.org/abs/2509.13818</link>
-      <description>arXiv:2509.13818v1 Announce Type: cross 
-Abstract: Quantum Machine Learning (QML) offers a new paradigm for addressing complex financial problems intractable for classical methods. This work specifically tackles the challenge of few-shot credit risk assessment, a critical issue in inclusive finance where data scarcity and imbalance limit the effectiveness of conventional models. To address this, we design and implement a novel hybrid quantum-classical workflow. The methodology first employs an ensemble of classical machine learning models (Logistic Regression, Random Forest, XGBoost) for intelligent feature engineering and dimensionality reduction. Subsequently, a Quantum Neural Network (QNN), trained via the parameter-shift rule, serves as the core classifier. This framework was evaluated through numerical simulations and deployed on the Quafu Quantum Cloud Platform's ScQ-P21 superconducting processor. On a real-world credit dataset of 279 samples, our QNN achieved a robust average AUC of 0.852 +/- 0.027 in simulations and yielded an impressive AUC of 0.88 in the hardware experiment. This performance surpasses a suite of classical benchmarks, with a particularly strong result on the recall metric. This study provides a pragmatic blueprint for applying quantum computing to data-constrained financial scenarios in the NISQ era and offers valuable empirical evidence supporting its potential in high-stakes applications like inclusive finance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.13818v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Zheng-an Wang, Yanbo J. Wang, Jiachi Zhang, Qi Xu, Yilun Zhao, Jintao Li, Yipeng Zhang, Bo Yang, Xinkai Gao, Xiaofeng Cao, Kai Xu, Pengpeng Hao, Xuan Yang, Heng Fan</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Tam\'as Havas, Hsuan-Yin Lin, Eirik Rosnes, Ching-Yi Lai</dc:creator>
     </item>
   </channel>
 </rss>

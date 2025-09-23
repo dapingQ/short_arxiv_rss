@@ -7,134 +7,168 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Sep 2025 04:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Sep 2025 04:00:07 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Unentanglement and Post-Measurement Branching in Quantum Interactive Proofs</title>
-      <link>https://arxiv.org/abs/2509.15319</link>
-      <description>arXiv:2509.15319v1 Announce Type: new 
-Abstract: We investigate two resources whose effects on quantum interactive proofs remain poorly understood: the promise of unentanglement, and the verifier's ability to condition on an intermediate measurement, which we call post-measurement branching. We first show that unentanglement can dramatically increase computational power: three-round unentangled quantum interactive proofs equal NEXP, even if only the first message is quantum. By contrast, we prove that if the verifier uses no post-measurement branching, then the same type of unentangled proof system has at most the power of QAM. Finally, we investigate post-measurement branching in two-round quantum-classical proof systems. Unlike the equivalence between public-coin and private-coin classical interactive proofs, we give evidence of a separation in the quantum setting that arises from post-measurement branching.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15319v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Sabee Grewal, William Kretschmer</dc:creator>
-    </item>
-    <item>
-      <title>Neural Architecture Search Algorithms for Quantum Autoencoders</title>
-      <link>https://arxiv.org/abs/2509.15451</link>
-      <description>arXiv:2509.15451v1 Announce Type: new 
-Abstract: The design of quantum circuits is currently driven by the specific objectives of the quantum algorithm in question. This approach thus relies on a significant manual effort by the quantum algorithm designer to design an appropriate circuit for the task. However this approach cannot scale to more complex quantum algorithms in the future without exponentially increasing the circuit design effort and introducing unwanted inductive biases. Motivated by this observation, we propose to automate the process of cicuit design by drawing inspiration from Neural Architecture Search (NAS). In this work, we propose two Quantum-NAS algorithms that aim to find efficient circuits given a particular quantum task. We choose quantum data compression as our driver quantum task and demonstrate the performance of our algorithms by finding efficient autoencoder designs that outperform baselines on three different tasks - quantum data denoising, classical data compression and pure quantum data compression. Our results indicate that quantum NAS algorithms can significantly alleviate the manual effort while delivering performant quantum circuits for any given task.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15451v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ankit Kulshrestha, Xiaoyuan Liu, Hayato Ushijima-Mwesigwa, Ilya Safro</dc:creator>
-    </item>
-    <item>
-      <title>Triplet Loss Based Quantum Encoding for Class Separability</title>
-      <link>https://arxiv.org/abs/2509.15705</link>
-      <description>arXiv:2509.15705v1 Announce Type: new 
-Abstract: An efficient and data-driven encoding scheme is proposed to enhance the performance of variational quantum classifiers. This encoding is specially designed for complex datasets like images and seeks to help the classification task by producing input states that form well-separated clusters in the Hilbert space according to their classification labels. The encoding circuit is trained using a triplet loss function inspired by classical facial recognition algorithms, and class separability is measured via average trace distances between the encoded density matrices. Benchmark tests performed on various binary classification tasks on MNIST and MedMNIST datasets demonstrate considerable improvement over amplitude encoding with the same VQC structure while requiring a much lower circuit depth.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15705v1</guid>
+      <title>Machine Learning for Quantum Noise Reduction</title>
+      <link>https://arxiv.org/abs/2509.16242</link>
+      <description>arXiv:2509.16242v1 Announce Type: new 
+Abstract: Quantum noise fundamentally limits the utility of near-term quantum devices, making error mitigation essential for practical quantum computation. While traditional quantum error correction codes require substantial qubit overhead and complex syndrome decoding, we propose a machine learning approach that directly reconstructs clean quantum states from noisy density matrices without additional qubits. We formulate quantum noise reduction as a supervised learning problem using a convolutional neural network (CNN) autoencoder architecture with a novel fidelity-aware composite loss function. Our method is trained and evaluated on a comprehensive synthetic dataset of 10,000 density matrices derived from random 5-qubit quantum circuits, encompassing five noise types (depolarizing, amplitude damping, phase damping, bit-flip, and mixed noise) across four intensity levels (0.05-0.20). The CNN successfully reconstructs quantum states across all noise conditions, achieving an average fidelity improvement from 0.298 to 0.774 ({\Delta} = 0.476). Notably, the model demonstrates superior performance on complex mixed noise scenarios and higher noise intensities, with mixed noise showing the highest corrected fidelity (0.807) and improvement (0.567). The approach effectively preserves both diagonal elements (populations) and off-diagonal elements (quantum coherences), making it suitable for entanglement-dependent quantum algorithms. While phase damping presents fundamental information-theoretic limitations, our results suggest that CNN-based density matrix reconstruction offers a promising, resource-efficient alternative to traditional quantum error correction for NISQ-era devices. This data-driven approach could enable practical quantum advantage with fewer physical qubits than conventional error correction schemes require.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16242v1</guid>
       <category>quant-ph</category>
       <category>cs.ET</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Marco Mordacci, Mahul Pandey, Paolo Santini, Michele Amoretti</dc:creator>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <dc:creator>Karan Kendre</dc:creator>
     </item>
     <item>
-      <title>Impact of Single Rotations and Entanglement Topologies in Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2509.15722</link>
-      <description>arXiv:2509.15722v1 Announce Type: new 
-Abstract: In this work, an analysis of the performance of different Variational Quantum Circuits is presented, investigating how it changes with respect to entanglement topology, adopted gates, and Quantum Machine Learning tasks to be performed. The objective of the analysis is to identify the optimal way to construct circuits for Quantum Neural Networks. In the presented experiments, two types of circuits are used: one with alternating layers of rotations and entanglement, and the other, similar to the first one, but with an additional final layer of rotations. As rotation layers, all combinations of one and two rotation sequences are considered. Four different entanglement topologies are compared: linear, circular, pairwise, and full. Different tasks are considered, namely the generation of probability distributions and images, and image classification. Achieved results are correlated with the expressibility and entanglement capability of the different circuits to understand how these features affect performance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15722v1</guid>
+      <title>How Can Quantum Deep Learning Improve Large Language Models?</title>
+      <link>https://arxiv.org/abs/2509.16244</link>
+      <description>arXiv:2509.16244v1 Announce Type: new 
+Abstract: The rapid progress of large language models (LLMs) has transformed natural language processing, yet the challenge of efficient adaptation remains unresolved. Full fine-tuning achieves strong performance but imposes prohibitive computational and memory costs. Parameter-efficient fine-tuning (PEFT) strategies, such as low-rank adaptation (LoRA), Prefix tuning, and sparse low-rank adaptation (SoRA), address this issue by reducing trainable parameters while maintaining competitive accuracy. However, these methods often encounter limitations in scalability, stability, and generalization across diverse tasks. Recent advances in quantum deep learning introduce novel opportunities through quantum-inspired encoding and parameterized quantum circuits (PQCs). In particular, the quantum-amplitude embedded adaptation (QAA) framework demonstrates expressive model updates with minimal overhead. This paper presents a systematic survey and comparative analysis of conventional PEFT methods and QAA. The analysis demonstrates trade-offs in convergence, efficiency, and representational capacity, while providing insight into the potential of quantum approaches for future LLM adaptation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16244v1</guid>
       <category>quant-ph</category>
-      <category>cs.ET</category>
+      <category>cs.CL</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Marco Mordacci, Michele Amoretti</dc:creator>
+      <dc:creator>Emily Jimin Roh, Hyojun Ahn, Samuel Yen-Chi Chen, Soohyun Park, Joongheon Kim</dc:creator>
     </item>
     <item>
-      <title>Training Variational Quantum Circuits Using Particle Swarm Optimization</title>
-      <link>https://arxiv.org/abs/2509.15726</link>
-      <description>arXiv:2509.15726v1 Announce Type: new 
-Abstract: In this work, the Particle Swarm Optimization (PSO) algorithm has been used to train various Variational Quantum Circuits (VQCs). This approach is motivated by the fact that commonly used gradient-based optimization methods can suffer from the barren plateaus problem. PSO is a stochastic optimization technique inspired by the collective behavior of a swarm of birds. The dimension of the swarm, the number of iterations of the algorithm, and the number of trainable parameters can be set. In this study, PSO has been used to train the entire structure of VQCs, allowing it to select which quantum gates to apply, the target qubits, and the rotation angle, in case a rotation is chosen. The algorithm is restricted to choosing from four types of gates: Rx, Ry, Rz, and CNOT. The proposed optimization approach has been tested on various datasets of the MedMNIST, which is a collection of biomedical image datasets designed for image classification tasks. Performance has been compared with the results achieved by classical stochastic gradient descent applied to a predefined VQC. The results show that the PSO can achieve comparable or even better classification accuracy across multiple datasets, despite the PSO using a lower number of quantum gates than the VQC used with gradient descent optimization.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15726v1</guid>
+      <title>Classical Feedback in a Quantum Network</title>
+      <link>https://arxiv.org/abs/2509.16333</link>
+      <description>arXiv:2509.16333v1 Announce Type: new 
+Abstract: Classical communication over a quantum multiple access channel (MAC) is considered. Since the no-cloning prohibits universal copying of arbitrary quantum states, classical feedback is generated through measurement. An achievable rate region is derived using superposition block Markov coding and a quantum multiparty lemma for the analysis. Our region generalizes both the classical Cover-Leung region and the generalized feedback region. As an example, we show that the quantum binary adder MAC can benefit from feedback.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16333v1</guid>
       <category>quant-ph</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Marco Mordacci, Michele Amoretti</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Enhanced Anomaly Detection for ADS-B Data using Hybrid Deep Learning</title>
-      <link>https://arxiv.org/abs/2509.15991</link>
-      <description>arXiv:2509.15991v1 Announce Type: new 
-Abstract: The emerging field of Quantum Machine Learning (QML) has shown promising advantages in accelerating processing speed and effectively handling the high dimensionality associated with complex datasets. Quantum Computing (QC) enables more efficient data manipulation through the quantum properties of superposition and entanglement. In this paper, we present a novel approach combining quantum and classical machine learning techniques to explore the impact of quantum properties for anomaly detection in Automatic Dependent Surveillance-Broadcast (ADS-B) data. We compare the performance of a Hybrid-Fully Connected Quantum Neural Network (H-FQNN) with different loss functions and use a publicly available ADS-B dataset to evaluate the performance. The results demonstrate competitive performance in detecting anomalies, with accuracies ranging from 90.17% to 94.05%, comparable to the performance of a traditional Fully Connected Neural Network (FNN) model, which achieved accuracies between 91.50% and 93.37%.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.15991v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Rani Naaman, Felipe Gohring de Magalhaes, Jean-Yves Ouattara, Gabriela Nicolescu</dc:creator>
+      <dc:creator>Elina Levi, Uzi Pereg</dc:creator>
     </item>
     <item>
-      <title>Quantum Reinforcement Learning with Dynamic-Circuit Qubit Reuse and Grover-Based Trajectory Optimization</title>
-      <link>https://arxiv.org/abs/2509.16002</link>
-      <description>arXiv:2509.16002v1 Announce Type: new 
-Abstract: A fully quantum reinforcement learning framework is developed that integrates a quantum Markov decision process, dynamic circuit-based qubit reuse, and Grover's algorithm for trajectory optimization. The framework encodes states, actions, rewards, and transitions entirely within the quantum domain, enabling parallel exploration of state-action sequences through superposition and eliminating classical subroutines. Dynamic circuit operations, including mid-circuit measurement and reset, allow reuse of the same physical qubits across multiple agent-environment interactions, reducing qubit requirements from 7*T to 7 for T time steps while preserving logical continuity. Quantum arithmetic computes trajectory returns, and Grover's search is applied to the superposition of these evaluated trajectories to amplify the probability of measuring those with the highest return, thereby accelerating the identification of the optimal policy. Simulations demonstrate that the dynamic-circuit-based implementation preserves trajectory fidelity while reducing qubit usage by 66 percent relative to the static design. Experimental deployment on IBM Heron-class quantum hardware confirms that the framework operates within the constraints of current quantum processors and validates the feasibility of fully quantum multi-step reinforcement learning under noisy intermediate-scale quantum conditions. This framework advances the scalability and practical application of quantum reinforcement learning for large-scale sequential decision-making tasks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.16002v1</guid>
+      <title>Knowledge Distillation for Variational Quantum Convolutional Neural Networks on Heterogeneous Data</title>
+      <link>https://arxiv.org/abs/2509.16699</link>
+      <description>arXiv:2509.16699v1 Announce Type: new 
+Abstract: Distributed quantum machine learning faces significant challenges due to heterogeneous client data and variations in local model structures, which hinder global model aggregation. To address these challenges, we propose a knowledge distillation framework for variational quantum convolutional neural networks on heterogeneous data. The framework features a quantum gate number estimation mechanism based on client data, which guides the construction of resource-adaptive VQCNN circuits. Particle swarm optimization is employed to efficiently generate personalized quantum models tailored to local data characteristics. During aggregation, a knowledge distillation strategy integrating both soft-label and hard-label supervision consolidates knowledge from heterogeneous clients using a public dataset, forming a global model while avoiding parameter exposure and privacy leakage. Theoretical analysis shows that proposed framework benefits from quantum high-dimensional representation, offering advantages over classical approaches, and minimizes communication by exchanging only model indices and test outputs. Extensive simulations on the PennyLane platform validate the effectiveness of the gate number estimation and distillation-based aggregation. Experimental results demonstrate that the aggregated global model achieves accuracy close to fully supervised centralized training. These results shown that proposed methods can effectively handle heterogeneity, reduce resource consumption, and maintain performance, highlighting its potential for scalable and privacy-preserving distributed quantum learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16699v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Thet Htar Su, Shaswot Shresthamali, Masaaki Kondo</dc:creator>
-    </item>
-    <item>
-      <title>AI Methods for Permutation Circuit Synthesis Across Generic Topologies</title>
-      <link>https://arxiv.org/abs/2509.16020</link>
-      <description>arXiv:2509.16020v1 Announce Type: new 
-Abstract: This paper investigates artificial intelligence (AI) methodologies for the synthesis and transpilation of permutation circuits across generic topologies. Our approach uses Reinforcement Learning (RL) techniques to achieve near-optimal synthesis of permutation circuits up to 25 qubits. Rather than developing specialized models for individual topologies, we train a foundational model on a generic rectangular lattice, and employ masking mechanisms to dynamically select subsets of topologies during the synthesis. This enables the synthesis of permutation circuits on any topology that can be embedded within the rectangular lattice, without the need to re-train the model. In this paper we show results for 5x5 lattice and compare them to previous AI topology-oriented models and classical methods, showing that they outperform classical heuristics, and match previous specialized AI models, and performs synthesis even for topologies that were not seen during training. We further show that the model can be fine tuned to strengthen the performance for selected topologies of interest. This methodology allows a single trained model to efficiently synthesize circuits across diverse topologies, allowing its practical integration into transpilation workflows.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.16020v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Victor Villar, Juan Cruz-Benito, Ismael Faro, David Kremer</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Generative Adversarial Autoencoders: Learning latent representations for quantum data generation</title>
-      <link>https://arxiv.org/abs/2509.16186</link>
-      <description>arXiv:2509.16186v1 Announce Type: new 
-Abstract: In this work, we introduce the Quantum Generative Adversarial Autoencoder (QGAA), a quantum model for generation of quantum data. The QGAA consists of two components: (a) Quantum Autoencoder (QAE) to compress quantum states, and (b) Quantum Generative Adversarial Network (QGAN) to learn the latent space of the trained QAE. This approach imparts the QAE with generative capabilities. The utility of QGAA is demonstrated in two representative scenarios: (a) generation of pure entangled states, and (b) generation of parameterized molecular ground states for H$_2$ and LiH. The average errors in the energies estimated by the trained QGAA are 0.02 Ha for H$_2$ and 0.06 Ha for LiH in simulations upto 6 qubits. These results illustrate the potential of QGAA for quantum state generation, quantum chemistry, and near-term quantum machine learning applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.16186v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Naipunnya Raj, Rajiv Sangle, Avinash Singh, Krishna Kumar Sabapathy</dc:creator>
+      <dc:creator>Kai Yu, Binbin Cai, Song Lin</dc:creator>
+    </item>
+    <item>
+      <title>A Study on Stabilizer R\'enyi Entropy Estimation using Machine Learning</title>
+      <link>https://arxiv.org/abs/2509.16799</link>
+      <description>arXiv:2509.16799v1 Announce Type: new 
+Abstract: Nonstabilizerness is a fundamental resource for quantum advantage, as it quantifies the extent to which a quantum state diverges from those states that can be efficiently simulated on a classical computer, the stabilizer states. The stabilizer R\'enyi entropy (SRE) is one of the most investigated measures of nonstabilizerness because of its computational properties and suitability for experimental measurements on quantum processors. Because computing the SRE for arbitrary quantum states is a computationally hard problem, we propose a supervised machine-learning approach to estimate it. In this work, we frame SRE estimation as a regression task and train a Random Forest Regressor and a Support Vector Regressor (SVR) on a comprehensive dataset, including both unstructured random quantum circuits and structured circuits derived from the physics-motivated one-dimensional transverse Ising model (TIM). We compare the machine-learning models using two different quantum circuit representations: one based on classical shadows and the other on circuit-level features. Furthermore, we assess the generalization capabilities of the models on out-of-distribution instances. Experimental results show that an SVR trained on circuit-level features achieves the best overall performance. On the random circuits dataset, our approach converges to accurate SRE estimations, but struggles to generalize out of distribution. In contrast, it generalizes well on the structured TIM dataset, even to deeper and larger circuits. In line with previous work, our experiments suggest that machine learning offers a viable path for efficient nonstabilizerness estimation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16799v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Vincenzo Lipardi, Domenica Dibenedetto, Georgios Stamoulis, Mark H. M. Winands</dc:creator>
+    </item>
+    <item>
+      <title>Quantum State Tomography for Tensor Networks in Two Dimensions</title>
+      <link>https://arxiv.org/abs/2509.16852</link>
+      <description>arXiv:2509.16852v1 Announce Type: new 
+Abstract: Recent work has shown that for one-dimensional quantum states that can be effectively approximated by matrix product operators (MPOs), a polynomial number of copies of the state suffices for reconstruction. Compared to MPOs in one dimension, projected entangled-pair states (PEPSs) and projected entangled-pair operators (PEPOs), which represent typical low-dimensional structures in two dimensions, are more prevalent as a looped tensor network. However, a formal analysis of the sample complexity required for estimating PEPS or PEPO has yet to be established. In this paper, we aim to address this gap by providing theoretical guarantees for the stable recovery of PEPS and PEPO. Our analysis primarily focuses on two quantum measurement schemes: $(i)$ informationally complete positive operator valued measures (IC-POVMs), specifically the spherical $t$-designs ($t \geq 3$), and $(ii)$ projective rank-one measurements, in particular Haar random projective measurements. We first establish stable embeddings for PEPSs (or PEPOs) to ensure that the information contained in the states can be preserved under these two measurement schemes. We then show that a constrained least-squares estimator achieves stable recovery for PEPSs (or PEPOs), with the recovery error bounded when the number of state copies scales linearly under spherical $t$-designs and polynomially under Haar-random projective measurements with respect to the number of qudits. These results provide theoretical support for the reliable use of PEPS and PEPO in practical quantum information processing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16852v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>eess.SP</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Zhen Qin, Zhihui Zhu</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Adaptive Self-Attention for Financial Rebalancing: An Empirical Study on Automated Market Makers in Decentralized Finance</title>
+      <link>https://arxiv.org/abs/2509.16955</link>
+      <description>arXiv:2509.16955v1 Announce Type: new 
+Abstract: We formulate automated market maker (AMM) \emph{rebalancing} as a binary detection problem and study a hybrid quantum--classical self-attention block, \textbf{Quantum Adaptive Self-Attention (QASA)}. QASA constructs quantum queries/keys/values via variational quantum circuits (VQCs) and applies standard softmax attention over Pauli-$Z$ expectation vectors, yielding a drop-in attention module for financial time-series decision making. Using daily data for \textbf{BTCUSDC} over \textbf{Jan-2024--Jan-2025} with a 70/15/15 time-series split, we compare QASA against classical ensembles, a transformer, and pure quantum baselines under Return, Sharpe, and Max Drawdown. The \textbf{QASA-Sequence} variant attains the \emph{best single-model risk-adjusted performance} (\textbf{13.99\%} return; \textbf{Sharpe 1.76}), while hybrid models average \textbf{11.2\%} return (vs.\ 9.8\% classical; 4.4\% pure quantum), indicating a favorable performance--stability--cost trade-off.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16955v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>q-fin.CP</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Chi-Sheng Chen, Aidan Hung-Wen Tsai</dc:creator>
+    </item>
+    <item>
+      <title>Similarity as Thermodynamic Work: Between Depth and Diversity -- from Information Distance to Ugly Duckling</title>
+      <link>https://arxiv.org/abs/2509.16236</link>
+      <description>arXiv:2509.16236v1 Announce Type: cross 
+Abstract: Defining similarity is a fundamental challenge in information science. Watanabe's Ugly Duckling Theorem highlights diversity, while algorithmic information theory emphasizes depth through Information Distance. We propose a statistical-mechanical framework that treats program length as energy, with a temperature parameter unifying these two aspects: in the low-temperature limit, similarity approaches Information Distance; in the high-temperature limit, it recovers the indiscriminability of the Ugly Duckling theorem; and at the critical point, it coincides with the Solomonoff prior. We refine the statistical-mechanical framework by introducing regular universal machines and effective degeneracy ratios, allowing us to separate redundant from core diversity. This refinement yields new tools for analyzing similarity and opens perspectives for information distance, model selection, and non-equilibrium extensions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16236v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Kentaro Imafuku</dc:creator>
+    </item>
+    <item>
+      <title>Sublinear Time Quantum Sensitivity Sampling</title>
+      <link>https://arxiv.org/abs/2509.16801</link>
+      <description>arXiv:2509.16801v1 Announce Type: cross 
+Abstract: We present a unified framework for quantum sensitivity sampling, extending the advantages of quantum computing to a broad class of classical approximation problems. Our unified framework provides a streamlined approach for constructing coresets and offers significant runtime improvements in applications such as clustering, regression, and low-rank approximation. Our contributions include:
+  * $k$-median and $k$-means clustering: For $n$ points in $d$-dimensional Euclidean space, we give an algorithm that constructs an $\epsilon$-coreset in time $\widetilde O(n^{0.5}dk^{2.5}~\mathrm{poly}(\epsilon^{-1}))$ for $k$-median and $k$-means clustering. Our approach achieves a better dependence on $d$ and constructs smaller coresets that only consist of points in the dataset, compared to recent results of [Xue, Chen, Li and Jiang, ICML'23].
+  * $\ell_p$ regression: For $\ell_p$ regression problems, we construct an $\epsilon$-coreset of size $\widetilde O_p(d^{\max\{1, p/2\}}\epsilon^{-2})$ in time $\widetilde O_p(n^{0.5}d^{\max\{0.5, p/4\}+1}(\epsilon^{-3}+d^{0.5}))$, improving upon the prior best quantum sampling approach of [Apers and Gribling, QIP'24] for all $p\in (0, 2)\cup (2, 22]$, including the widely studied least absolute deviation regression ($\ell_1$ regression).
+  * Low-rank approximation with Frobenius norm error: We introduce the first quantum sublinear-time algorithm for low-rank approximation that does not rely on data-dependent parameters, and runs in $\widetilde O(nd^{0.5}k^{0.5}\epsilon^{-1})$ time. Additionally, we present quantum sublinear algorithms for kernel low-rank approximation and tensor low-rank approximation, broadening the range of achievable sublinear time algorithms in randomized numerical linear algebra.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.16801v1</guid>
+      <category>cs.DS</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Zhao Song, David P. Woodruff, Lichen Zhang</dc:creator>
+    </item>
+    <item>
+      <title>VQEzy: An Open-Source Dataset for Parameter Initialize in Variational Quantum Eigensolvers</title>
+      <link>https://arxiv.org/abs/2509.17322</link>
+      <description>arXiv:2509.17322v1 Announce Type: cross 
+Abstract: Variational Quantum Eigensolvers (VQEs) are a leading class of noisy intermediate-scale quantum (NISQ) algorithms, whose performance is highly sensitive to parameter initialization. Although recent machine learning-based initialization methods have achieved state-of-the-art performance, their progress has been limited by the lack of comprehensive datasets. Existing resources are typically restricted to a single domain, contain only a few hundred instances, and lack complete coverage of Hamiltonians, ansatz circuits, and optimization trajectories. To overcome these limitations, we introduce VQEzy, the first large-scale dataset for VQE parameter initialization. VQEzy spans three major domains and seven representative tasks, comprising 12,110 instances with full VQE specifications and complete optimization trajectories. The dataset is available online, and will be continuously refined and expanded to support future research in VQE optimization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.17322v1</guid>
+      <category>cs.LG</category>
+      <category>cs.ET</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chi Zhang, Mengxin Zheng, Qian Lou, Hui Min Leung, Fan Chen</dc:creator>
+    </item>
+    <item>
+      <title>DiffQ: Unified Parameter Initialization for Variational Quantum Algorithms via Diffusion Models</title>
+      <link>https://arxiv.org/abs/2509.17324</link>
+      <description>arXiv:2509.17324v1 Announce Type: cross 
+Abstract: Variational Quantum Algorithms (VQAs) are widely used in the noisy intermediate-scale quantum (NISQ) era, but their trainability and performance depend critically on initialization parameters that shape the optimization landscape. Existing machine learning-based initializers achieve state-of-the-art results yet remain constrained to single-task domains and small datasets of only hundreds of samples. We address these limitations by reformulating VQA parameter initialization as a generative modeling problem and introducing DiffQ, a parameter initializer based on the Denoising Diffusion Probabilistic Model (DDPM). To support robust training and evaluation, we construct a dataset of 15,085 instances spanning three domains and five representative tasks. Experiments demonstrate that DiffQ surpasses baselines, reducing initial loss by up to 8.95 and convergence steps by up to 23.4%.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.17324v1</guid>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chi Zhang, Mengxin Zheng, Qian Lou, Fan Chen</dc:creator>
     </item>
   </channel>
 </rss>

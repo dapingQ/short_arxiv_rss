@@ -7,68 +7,54 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Sep 2025 04:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 04:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Optimizing the non-Clifford-count in unitary synthesis using Reinforcement Learning</title>
-      <link>https://arxiv.org/abs/2509.21709</link>
-      <description>arXiv:2509.21709v1 Announce Type: new 
-Abstract: An efficient implementation of unitary operators is important in order to practically realize the computational advantages claimed by quantum algorithms over their classical counterparts. In this paper we study the potential of using reinforcement learning (RL) in order to synthesize quantum circuits, while optimizing the T-count and CS-count, of unitaries that are exactly implementable by the Clifford+T and Clifford+CS gate sets, respectively. In general, the complexity of existing algorithms depend exponentially on the number of qubits and the non-Clifford-count of unitaries. We have designed our RL framework to work with channel representation of unitaries, that enables us to perform matrix operations efficiently, using integers only. We have also incorporated pruning heuristics and a canonicalization of operators, in order to reduce the search complexity. As a result, compared to previous works, we are able to implement significantly larger unitaries, in less time, with much better success rate and improvement factor. Our results for Clifford+T synthesis on two qubits achieve close-to-optimal decompositions for up to 100 T gates, 5 times more than previous RL algorithms and to the best of our knowledge, the largest instances achieved with any method to date. Our RL algorithm is able to recover previously-known optimal linear complexity algorithm for T-count-optimal decomposition of 1 qubit unitaries. For 2-qubit Clifford+CS unitaries, our algorithm achieves a linear complexity, something that could only be accomplished by a previous algorithm using $SO(6)$ representation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.21709v1</guid>
+      <title>Two bases suffice for QMA1-completeness</title>
+      <link>https://arxiv.org/abs/2509.24390</link>
+      <description>arXiv:2509.24390v1 Announce Type: new 
+Abstract: We introduce a basis-restricted variant of the Quantum-k-SAT problem, in which each term in the input Hamiltonian is required to be diagonal in either the standard or Hadamard basis. Our main result is that the Quantum-6-SAT problem with this basis restriction is already QMA1-complete, defined with respect to a natural gateset. Our construction is based on the Feynman-Kitaev circuit-to-Hamiltonian construction, with a modified clock encoding that interleaves two clocks in the standard and Hadamard bases. In light of the central role played by CSS codes and the uncertainty principle in the proof of the NLTS theorem of Anshu, Breuckmann, and Nirkhe (STOC '23), we hope that the CSS-like structure of our Hamiltonians will make them useful for progress towards a quantum PCP theorem.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.24390v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Henry Ma, Anand Natarajan</dc:creator>
+    </item>
+    <item>
+      <title>Bandits roaming Hilbert space</title>
+      <link>https://arxiv.org/abs/2509.24569</link>
+      <description>arXiv:2509.24569v1 Announce Type: new 
+Abstract: This thesis studies the exploration and exploitation trade-off in online learning of properties of quantum states using multi-armed bandits. Given streaming access to an unknown quantum state, in each round we select an observable from a set of actions to maximize its expectation value. Using past information, we refine actions to minimize regret; the cumulative gap between current reward and the maximum possible. We derive information-theoretic lower bounds and optimal strategies with matching upper bounds, showing regret typically scales as the square root of rounds. As an application, we reframe quantum state tomography to both learn the state efficiently and minimize measurement disturbance. For pure states and continuous actions, we achieve polylogarithmic regret using a sample-optimal algorithm based on a weighted online least squares estimator. The algorithm relies on the optimistic principle and controls the eigenvalues of the design matrix. We also apply our framework to quantum recommender systems and thermodynamic work extraction from unknown states. In this last setting, our results demonstrate an exponential advantage in work dissipation over tomography-based protocols.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.24569v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <category>stat.ML</category>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>David Kremer, Ali Javadi-Abhari, Priyanka Mukhopadhyay</dc:creator>
+      <dc:creator>Josep Lumbreras</dc:creator>
     </item>
     <item>
-      <title>Multi-channel convolutional neural quantum embedding</title>
-      <link>https://arxiv.org/abs/2509.22355</link>
-      <description>arXiv:2509.22355v1 Announce Type: new 
-Abstract: Classification using variational quantum circuits is a promising frontier in quantum machine learning. Quantum supervised learning (QSL) applied to classical data using variational quantum circuits involves embedding the data into a quantum Hilbert space and optimizing the circuit parameters to train the measurement process. In this context, the efficacy of QSL is inherently influenced by the selection of quantum embedding. In this study, we introduce a classical-quantum hybrid approach for optimizing quantum embedding beyond the limitations of the standard circuit model of quantum computation (i.e., completely positive and trace-preserving maps) for general multi-channel data. We benchmark the performance of various models in our framework using the CIFAR-10 and Tiny ImageNet datasets and provide theoretical analyses that guide model design and optimization.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.22355v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yujin Kim, Changjae Im, Taehyun Kim, Tak Hur, Daniel K. Park</dc:creator>
-    </item>
-    <item>
-      <title>ConQuER: Modular Architectures for Control and Bias Mitigation in IQP Quantum Generative Models</title>
-      <link>https://arxiv.org/abs/2509.22551</link>
-      <description>arXiv:2509.22551v1 Announce Type: new 
-Abstract: Quantum generative models based on instantaneous quantum polynomial (IQP) circuits show great promise in learning complex distributions while maintaining classical trainability. However, current implementations suffer from two key limitations: lack of controllability over generated outputs and severe generation bias towards certain expected patterns. We present a Controllable Quantum Generative Framework, ConQuER, which addresses both challenges through a modular circuit architecture. ConQuER embeds a lightweight controller circuit that can be directly combined with pre-trained IQP circuits to precisely control the output distribution without full retraining. Leveraging the advantages of IQP, our scheme enables precise control over properties such as the Hamming Weight distribution with minimal parameter and gate overhead. In addition, inspired by the controller design, we extend this modular approach through data-driven optimization to embed implicit control paths in the underlying IQP architecture, significantly reducing generation bias on structured datasets. ConQuER retains efficient classical training properties and high scalability. We experimentally validate ConQuER on multiple quantum state datasets, demonstrating its superior control accuracy and balanced generation performance, only with very low overhead cost over original IQP circuits. Our framework bridges the gap between the advantages of quantum computing and the practical needs of controllable generation modeling.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.22551v1</guid>
-      <category>quant-ph</category>
+      <title>Agentic Exploration of Physics Models</title>
+      <link>https://arxiv.org/abs/2509.24978</link>
+      <description>arXiv:2509.24978v1 Announce Type: cross 
+Abstract: The process of scientific discovery relies on an interplay of observations, analysis, and hypothesis generation. Machine learning is increasingly being adopted to address individual aspects of this process. However, it remains an open challenge to fully automate the open-ended, heuristic, iterative loop required to discover the laws of an unknown system by exploring it through experiments and analysis, without tailoring the approach to the specifics of a given task. Here, we introduce SciExplorer, an agent that leverages large language model tool-use capabilities to enable free-form exploration of systems without any domain-specific blueprints, and apply it to the exploration of physical systems that are initially unknown to the agent. We test SciExplorer on a broad set of models spanning mechanical dynamical systems, wave evolution, and quantum many-body physics. Despite using a minimal set of tools, primarily based on code execution, we observe impressive performance on tasks such as recovering equations of motion from observed dynamics and inferring Hamiltonians from expectation values. The demonstrated effectiveness of this setup opens the door towards similar scientific exploration in other domains, without the need for finetuning or task-specific instructions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2509.24978v1</guid>
       <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Xiaocheng Zou, Shijin Duan, Charles Fleming, Gaowen Liu, Ramana Rao Kompella, Shaolei Ren, Xiaolin Xu</dc:creator>
-    </item>
-    <item>
-      <title>Average relative entropy of random states</title>
-      <link>https://arxiv.org/abs/2509.21846</link>
-      <description>arXiv:2509.21846v1 Announce Type: cross 
-Abstract: Relative entropy serves as a cornerstone concept in quantum information theory. In this work, we study relative entropy of random states from major generic state models of Hilbert-Schmidt and Bures-Hall ensembles. In particular, we derive exact yet explicit formulas of average relative entropy of two independent states of arbitrary dimensions from the same ensemble as well as from two different ensembles. One ingredient in obtaining the results is the observed factorization of ensemble averages after evaluating the required unitary integral. The derived exact formula in the case of Hilbert-Schmidt ensemble complements the work by Kudler-Flam (2021 Phys Rev Lett 126 171603), where the corresponding asymptotic formula for states of equal dimensions was obtained based on the replica method.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2509.21846v1</guid>
-      <category>math-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
+      <category>cond-mat.quant-gas</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 29 Sep 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Lu Wei</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Maximilian N\"agele, Florian Marquardt</dc:creator>
     </item>
   </channel>
 </rss>

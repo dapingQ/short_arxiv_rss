@@ -7,85 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 04:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Oct 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 04 Oct 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>Derandomised tensor product gap amplification for quantum Hamiltonians</title>
-      <link>https://arxiv.org/abs/2510.01333</link>
-      <description>arXiv:2510.01333v1 Announce Type: new 
-Abstract: The quantum PCP conjecture asks whether it is QMA-hard to distinguish between high- and low-energy Hamiltonians even when the gap between "high" and "low" energy is large (constant). A natural proof strategy is gap amplification: start from the fact that high- and low-energy Hamiltonians are hard to distinguish if the gap is small (inverse polynomial) and amplify the Hamiltonians to increase the energy gap while preserving hardness. Such a gap amplification procedure is at the heart of Dinur's proof of the classical PCP theorem. In this work, following Dinur's model, we introduce a new quantum gap amplification procedure for Hamiltonians which uses random walks on expander graphs to derandomise (subsample the terms of) the tensor product amplification of a Hamiltonian. Curiously, our analysis relies on a new technique inspired by quantum de Finetti theorems, which have previously been used to rule out certain approaches to the quantum PCP conjecture.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.01333v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Thiago Bergamaschi, Tony Metger, Thomas Vidick, Tina Zhang</dc:creator>
-    </item>
-    <item>
-      <title>Isogeny Graphs in Superposition and Quantum Onion Routing</title>
-      <link>https://arxiv.org/abs/2510.01464</link>
-      <description>arXiv:2510.01464v1 Announce Type: new 
-Abstract: Onion routing provides anonymity by layering encryption so that no relay can link sender to destination. A quantum analogue faces a core obstacle: layered quantum encryption generally requires symmetric encryption schemes, whereas classically one would rely on public-key encryption. We propose a symmetric-encryption-based quantum onion routing (QOR) scheme by instantiating each layer with the abelian ideal class group action from the Theory of Complex Multiplication. Session keys are established locally via a Diffie-Hellman key exchange between neighbors in the chain of communication. Furthermore, we propose a novel ''non-local'' key exchange between the sender and receiver. The underlying problem remains hard even for quantum adversaries and underpins the security of current post-quantum schemes. We connect our construction to isogeny graphs and their association schemes, using the Bose-Mesner algebra to formalize commutativity and guide implementation. We give two implementation paths: (i) a universal quantum oracle evaluating the class group action with polynomially many quantum resources, and (ii) an intrinsically quantum approach via continuous-time quantum walks (CTQWs), outlined here and developed in a companion paper. A small Qiskit example illustrates the mechanics (by design, not the efficiency) of the QOR.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.01464v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Eleni Agathocleous, Tobias Hartung, Karl Jansen, Lukas Mansour</dc:creator>
-    </item>
-    <item>
-      <title>Formal Framework for Quantum Advantage</title>
-      <link>https://arxiv.org/abs/2510.01953</link>
-      <description>arXiv:2510.01953v1 Announce Type: new 
-Abstract: Motivated by notions of quantum heuristics and by average-case rather than worst-case algorithmic analysis, we define quantum computational advantage in terms of individual problem instances. Inspired by the classical notions of Kolmogorov complexity and instance complexity, we define their quantum versions. This allows us to define queasy instances of computational problems, like e.g. Satisfiability and Factoring, as those whose quantum instance complexity is significantly smaller than their classical instance complexity. These instances indicate quantum advantage: they are easy to solve on a quantum computer, but classical algorithms struggle (they feel queasy). Via a reduction from Factoring, we prove the existence of queasy Satisfiability instances; specifically, these instances are maximally queasy (under reasonable complexity-theoretic assumptions). Further, we show that there is exponential algorithmic utility in the queasiness of a quantum algorithm. This formal framework serves as a beacon that guides the hunt for quantum advantage in practice, and moreover, because its focus lies on single instances, it can lead to new ways of designing quantum algorithms.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.01953v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Harry Buhrman, Niklas Galke, Konstantinos Meichanetzidis</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Fisher information matrices from R\'enyi relative entropies</title>
-      <link>https://arxiv.org/abs/2510.02218</link>
-      <description>arXiv:2510.02218v1 Announce Type: new 
-Abstract: Quantum generalizations of the Fisher information are important in quantum information science, with applications in high energy and condensed matter physics and in quantum estimation theory, machine learning, and optimization. One can derive a quantum generalization of the Fisher information matrix in a natural way as the Hessian matrix arising in a Taylor expansion of a smooth divergence. Such an approach is appealing for quantum information theorists, given the ubiquity of divergences in quantum information theory. In contrast to the classical case, there is not a unique quantum generalization of the Fisher information matrix, similar to how there is not a unique quantum generalization of the relative entropy or the R\'enyi relative entropy. In this paper, I derive information matrices arising from the log-Euclidean, $\alpha$-$z$, and geometric R\'enyi relative entropies, with the main technical tool for doing so being the method of divided differences for calculating matrix derivatives. Interestingly, for all non-negative values of the R\'enyi parameter $\alpha$, the log-Euclidean R\'enyi relative entropy leads to the Kubo-Mori information matrix, and the geometric R\'enyi relative entropy leads to the right-logarithmic derivative Fisher information matrix. Thus, the resulting information matrices obey the data-processing inequality for all non-negative values of the R\'enyi parameter $\alpha$ even though the original quantities do not. Additionally, I derive and establish basic properties of $\alpha$-$z$ information matrices resulting from the $\alpha$-$z$ R\'enyi relative entropies. For parameterized thermal states, I establish formulas for their $\alpha$-$z$ information matrices and hybrid quantum-classical algorithms for estimating them, with applications in quantum Boltzmann machine learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.02218v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>hep-th</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Mark M. Wilde</dc:creator>
-    </item>
-    <item>
-      <title>Quantum-inspired Benchmark for Estimating Intrinsic Dimension</title>
-      <link>https://arxiv.org/abs/2510.01335</link>
-      <description>arXiv:2510.01335v1 Announce Type: cross 
-Abstract: Machine learning models can generalize well on real-world datasets. According to the manifold hypothesis, this is possible because datasets lie on a latent manifold with small intrinsic dimension (ID). There exist many methods for ID estimation (IDE), but their estimates vary substantially. This warrants benchmarking IDE methods on manifolds that are more complex than those in existing benchmarks. We propose a Quantum-Inspired Intrinsic-dimension Estimation (QuIIEst) benchmark consisting of infinite families of topologically non-trivial manifolds with known ID. Our benchmark stems from a quantum-optical method of embedding arbitrary homogeneous spaces while allowing for curvature modification and additive noise. The IDE methods tested were generally less accurate on QuIIEst manifolds than on existing benchmarks under identical resource allocation. We also observe minimal performance degradation with increasingly non-uniform curvature, underscoring the benchmark's inherent difficulty. As a result of independent interest, we perform IDE on the fractal Hofstadter's butterfly and identify which methods are capable of extracting the effective dimension of a space that is not a manifold.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.01335v1</guid>
-      <category>cs.LG</category>
-      <category>cond-mat.dis-nn</category>
-      <category>math.MG</category>
-      <category>physics.data-an</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Aritra Das, Joseph T. Iosue, Victor V. Albert</dc:creator>
-    </item>
   </channel>
 </rss>

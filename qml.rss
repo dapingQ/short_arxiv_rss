@@ -7,86 +7,210 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Oct 2025 04:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 04:00:14 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Probability distributions over CSS codes: two-universality, QKD hashing, collision bounds, security</title>
-      <link>https://arxiv.org/abs/2510.02402</link>
-      <description>arXiv:2510.02402v1 Announce Type: new 
-Abstract: We characterize novel probability distributions for CSS codes. Such classes of error correcting codes, originally introduced by Calderbank, Shor, and Steane, are of great significance in advancing the fidelity of Quantum computation, with implications for future near term applications. Within the context of Quantum key distribution, such codes, as examined by Ostrev in arXiv: 2109.06709 along with two-universal hashing protocols, have greatly simplified Quantum phases of computation for unconditional security. To further examine novel applications of two-universal hashing protocols, particularly through the structure of parity check matrices, we demonstrate how being able to efficiently compute functions of the parity check matrices relates to marginals of a suitably defined probability measure supported over random matrices. The security of the two-universal QKD hashing protocol will be shown to depend upon the computation of purified states of random matrices, which relates to probabilistic collision bounds between two hashing functions. Central to our approach are the introduction of novel real, simulator, and ideal, isometries, hence allowing for efficient computations of functions of the two parity check matrices. As a result of being able to perform such computations involving parity check matrices, the security of the two-universal hashing protocol is a factor of $2^{ \frac{5}{2} ( 5 - \frac{3}{2} ) + \mathrm{log}_2 \sqrt{C}}$ less secure, for some strictly positive constant $C$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.02402v1</guid>
+      <title>Quantum feature-map learning with reduced resource overhead</title>
+      <link>https://arxiv.org/abs/2510.03389</link>
+      <description>arXiv:2510.03389v1 Announce Type: new 
+Abstract: Current quantum computers require algorithms that use limited resources economically. In quantum machine learning, success hinges on quantum feature maps, which embed classical data into the state space of qubits. We introduce Quantum Feature-Map Learning via Analytic Iterative Reconstructions (Q-FLAIR), an algorithm that reduces quantum resource overhead in iterative feature-map circuit construction. It shifts workloads to a classical computer via partial analytic reconstructions of the quantum model, using only a few evaluations. For each probed gate addition to the ansatz, the simultaneous selection and optimization of the data feature and weight parameter is then entirely classical. Integrated into quantum neural network and quantum kernel support vector classifiers, Q-FLAIR shows state-of-the-art benchmark performance. Since resource overhead decouples from feature dimension, we train a quantum model on a real IBM device in only four hours, surpassing 90% accuracy on the full-resolution MNIST dataset (784 features, digits 3 vs 5). Such results were previously unattainable, as the feature dimension prohibitively drives hardware demands for fixed and search costs for adaptive ans\"atze. By rethinking feature-map learning beyond black-box optimization, this work takes a concrete step toward enabling quantum machine learning for real-world problems and near-term quantum computers.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.03389v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>math.PR</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Pete Rigas</dc:creator>
+      <dc:creator>Jonas J\"ager, Philipp Els\"asser, Elham Torabian</dc:creator>
     </item>
     <item>
-      <title>Universal classical-quantum channel resolvability and private channel coding</title>
-      <link>https://arxiv.org/abs/2510.02883</link>
-      <description>arXiv:2510.02883v1 Announce Type: new 
-Abstract: We address the problem of constructing fully universal private channel coding protocols for classical-quantum (c-q) channels. Previous work constructed universal decoding strategies, but the encoder relied on random coding, which prevents fully universal code construction. In this work, we resolve this gap by identifying an explicit structural property of codebooks -- namely, the spectral expansion of an associated Schreier graph -- that guarantees universal channel resolvability. Our analysis reveals how this property can be related to channel resolvability through the theory of induced representation. Our main technical result shows that when the transition matrix of a graph associated with a codebook has a large spectral gap, the channel output induced by uniformly sampled codewords is asymptotically indistinguishable from the target output distribution, independently of the channel. This establishes the first deterministic, channel-independent construction of resolvability codebooks.
-  Building on this, we construct a fully universal private channel coding protocol by combining it with universal c-q channel coding based on the Schur-Weyl duality. With appropriate modifications to the requirements on codebooks of universal c-q channel coding, we show that our fully universal private channel coding achieves the known optimal rate. This work thus sheds new light on the expander property of a graph in the context of secure communication.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.02883v1</guid>
+      <title>The power of quantum circuits in sampling</title>
+      <link>https://arxiv.org/abs/2510.03645</link>
+      <description>arXiv:2510.03645v1 Announce Type: new 
+Abstract: We give new evidence that quantum circuits are substantially more powerful than classical circuits. We show, relative to a random oracle, that polynomial-size quantum circuits can sample distributions that subexponential-size classical circuits cannot approximate even to TV distance $1-o(1)$. Prior work of Aaronson and Arkhipov (2011) showed such a separation for the case of exact sampling (i.e. TV distance $0$), but separations for approximate sampling were only known for uniform algorithms.
+  A key ingredient in our proof is a new hardness amplification lemma for the classical query complexity of the Yamakawa-Zhandry (2022) search problem. We show that the probability that any family of query algorithms collectively finds $k$ distinct solutions decays exponentially in $k$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.03645v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Guy Blanc, Caleb Koch, Jane Lange, Carmen Strassle, Li-Yang Tan</dc:creator>
+    </item>
+    <item>
+      <title>Proofs of quantum memory</title>
+      <link>https://arxiv.org/abs/2510.04159</link>
+      <description>arXiv:2510.04159v1 Announce Type: new 
+Abstract: With the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory, it is becoming essential to classically verify that remote devices genuinely allocate the promised quantum memory with specified number of qubits and coherence time. In this paper, we introduce a new concept, proofs of quantum memory (PoQM). A PoQM is an interactive protocol between a classical probabilistic polynomial-time (PPT) verifier and a quantum polynomial-time (QPT) prover over a classical channel where the verifier can verify that the prover has possessed a quantum memory with a certain number of qubits during a specified period of time. PoQM generalize the notion of proofs of quantumness (PoQ) [Brakerski, Christiano, Mahadev, Vazirani, and Vidick, JACM 2021]. Our main contributions are a formal definition of PoQM and its constructions based on hardness of LWE. Specifically, we give two constructions of PoQM. The first is of a four-round and has negligible soundness error under subexponential-hardness of LWE. The second is of a polynomial-round and has inverse-polynomial soundness error under polynomial-hardness of LWE. As a lowerbound of PoQM, we also show that PoQM imply one-way puzzles. Moreover, a certain restricted version of PoQM implies quantum computation classical communication (QCCC) key exchange.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04159v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.CR</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Minki Hhan, Tomoyuki Morimae, Yasuaki Okinaka, Takashi Yamakawa</dc:creator>
+    </item>
+    <item>
+      <title>Quantum precomputation: parallelizing cascade circuits and the Moore-Nilsson conjecture is false</title>
+      <link>https://arxiv.org/abs/2510.04411</link>
+      <description>arXiv:2510.04411v1 Announce Type: new 
+Abstract: Parallelization is a major challenge in quantum algorithms due to physical constraints like no-cloning. This is vividly illustrated by the conjecture of Moore and Nilsson from their seminal work on quantum circuit complexity [MN01, announced 1998]: unitaries of a deceptively simple form--controlled-unitary "staircases"--require circuits of minimum depth $\Omega(n)$. If true, this lower bound would represent a major break from classical parallelism and prove a quantum-native analogue of the famous NC $\neq$ P conjecture.
+  In this work we settle the Moore-Nilsson conjecture in the negative by compressing all circuits in the class to depth $O(\log n)$, which is the best possible. The parallelizations are exact, ancilla-free, and can be computed in poly($n$) time. We also consider circuits restricted to 2D connectivity, for which we derive compressions of optimal depth $O(\sqrt{n})$.
+  More generally, we make progress on the project of quantum parallelization by introducing a quantum blockwise precomputation technique somewhat analogous to the method of Arlazarov, Dini\v{c}, Kronrod, and Farad\v{z}ev [Arl+70] in classical dynamic programming, often called the "Four-Russians method." We apply this technique to more-general "cascade" circuits as well, obtaining for example polynomial depth reductions for staircases of controlled $\log(n)$-qubit unitaries.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04411v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Adam Bene Watts, Charles R. Chen, J. William Helton, Joseph Slote</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Cryptography and Hardness of Non-Collapsing Measurements</title>
+      <link>https://arxiv.org/abs/2510.04448</link>
+      <description>arXiv:2510.04448v1 Announce Type: new 
+Abstract: One-way puzzles (OWPuzzs) introduced by Khurana and Tomer [STOC 2024] are a natural quantum analogue of one-way functions (OWFs), and one of the most fundamental primitives in ''Microcrypt'' where OWFs do not exist but quantum cryptography is possible. OWPuzzs are implied by almost all quantum cryptographic primitives, and imply several important applications such as non-interactive commitments and multi-party computations. A significant goal in the field of quantum cryptography is to base OWPuzzs on plausible assumptions that will not imply OWFs. In this paper, we base OWPuzzs on hardness of non-collapsing measurements. To that end, we introduce a new complexity class, $\mathbf{SampPDQP}$, which is a sampling version of the decision class $\mathbf{PDQP}$ introduced in [Aaronson, Bouland, Fitzsimons, and Lee, ITCS 2016]. We show that if $\mathbf{SampPDQP}$ is hard on average for quantum polynomial time, then OWPuzzs exist. $\mathbf{SampPDQP}$ is the class of sampling problems that can be solved by a classical polynomial-time algorithm that can make a single query to a non-collapsing measurement oracle, which is a ''magical'' oracle that can sample measurement results on quantum states without collapsing the states. Such non-collapsing measurements are highly unphysical operations that should be hard to realize in quantum polynomial-time. We also study upperbounds of the hardness of $\mathbf{SampPDQP}$. We introduce a new primitive, distributional collision-resistant puzzles (dCRPuzzs), which are a natural quantum analogue of distributional collision-resistant hashing [Dubrov and Ishai, STOC 2006]. We show that dCRPuzzs imply average-case hardness of $\mathbf{SampPDQP}$ (and therefore OWPuzzs as well). We also show that two-message honest-statistically-hiding commitments with classical communication and one-shot signatures [Amos, Georgiou, Kiayias, Zhandry, STOC 2020] imply dCRPuzzs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04448v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.CR</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Tomoyuki Morimae, Yuki Shirakawa, Takashi Yamakawa</dc:creator>
+    </item>
+    <item>
+      <title>Quantum generative model on bicycle-sharing system and an application</title>
+      <link>https://arxiv.org/abs/2510.04512</link>
+      <description>arXiv:2510.04512v1 Announce Type: new 
+Abstract: Recently, bicycle-sharing systems have been implemented in numerous cities, becoming integral to daily life. However, a prevalent issue arises when intensive commuting demand leads to bicycle shortages in specific areas and at particular times. To address this challenge, we employ a novel quantum machine learning model that analyzes time series data by fitting quantum time evolution to observed sequences. This model enables us to capture actual trends in bicycle counts at individual ports and identify correlations between different ports. Utilizing the trained model, we simulate the impact of proactively adding bicycles to high-demand ports on the overall rental number across the system. Given that the core of this method lies in a Monte Carlo simulation, it is anticipated to have a wide range of industrial applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04512v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Fumio Nemoto, Nobuyuki Koike, Daichi Sato, Yuuta Kawaai, Masayuki Ohzeki</dc:creator>
+    </item>
+    <item>
+      <title>Quantum capacity amplification via privacy</title>
+      <link>https://arxiv.org/abs/2510.04527</link>
+      <description>arXiv:2510.04527v1 Announce Type: new 
+Abstract: We investigate superadditivity of quantum capacity through private channels whose Choi-Jamiolkowski operators are private states. This perspective links the security structure of private states to quantum capacity and clarifies the role of the shield system: information encoded in the shield system that would otherwise leak to the environment can be recycled when paired with an assisting channel, thereby boosting capacity. Our main contributions are threefold: Firstly, we develop a general framework that provides a sufficient condition for capacity amplification, which is formulated in terms of the assisting channel's Holevo information. As examples, we give explicit, dimension and parameter dependent amplification thresholds for erasure and depolarizing channels. Secondly, assuming the Spin alignment conjecture, we derive a single-letter expression for the quantum capacity of a family of private channels that are neither degradable, anti-degradable, nor PPT; as an application, we construct channels with vanishing quantum capacity yet unbounded private capacity. Thirdly, we further analyze approximate private channels: we give an alternative proof of superactivation that extends its validity to a broader parameter regime, and, by combining amplification bounds with continuity estimates, we establish a metric separation showing that channels exhibiting capacity amplification have nonzero diamond distance from the set of anti-degradable channels, indicating that existing approximate (anti-)degradability bounds are not tight. We also revisit the computability of the regularized quantum capacity and modestly suggest that this fundamental question still remains open.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04527v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math-ph</category>
       <category>math.IT</category>
       <category>math.MP</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Takaya Matsuura, Masahito Hayashi, Min-Hsiu Hsieh</dc:creator>
+      <dc:creator>Peixue Wu, Yunkai Wang</dc:creator>
     </item>
     <item>
-      <title>Scalable Quantum Optimisation using HADOF: Hamiltonian Auto-Decomposition Optimisation Framework</title>
-      <link>https://arxiv.org/abs/2510.02926</link>
-      <description>arXiv:2510.02926v1 Announce Type: new 
-Abstract: Quantum Annealing (QA) and QAOA are promising quantum optimisation algorithms used for finding approximate solutions to combinatorial problems on near-term NISQ systems. Many NP-hard problems can be reformulated as Quadratic Unconstrained Binary Optimisation (QUBO), which maps naturally onto quantum Hamiltonians. However, the limited qubit counts of current NISQ devices restrict practical deployment of such algorithms. In this study, we present the Hamiltonian Auto-Decomposition Optimisation Framework (HADOF), which leverages an iterative strategy to automatically divide the Quadratic Unconstrained Binary Optimisation (QUBO) Hamiltonian into sub-Hamiltonians which can be optimised separately using Hamiltonian based optimisers such as QAOA, QA or Simulated Annealing (SA) and aggregated into a global solution. We compare HADOF with Simulated Annealing (SA) and the CPLEX exact solver, showing scalability to problem sizes far exceeding available qubits while maintaining competitive accuracy and runtime. Furthermore, we realise HADOF for a toy problem on an IBM quantum computer, showing promise for practical applications of quantum optimisation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.02926v1</guid>
+      <title>Quantum Reverse Shannon Theorem Simplified</title>
+      <link>https://arxiv.org/abs/2510.04552</link>
+      <description>arXiv:2510.04552v1 Announce Type: new 
+Abstract: We revisit the quantum reverse Shannon theorem, a central result in quantum information theory that characterizes the resources needed to simulate quantum channels when entanglement is freely available. We derive a universal additive upper bound on the smoothed max-information in terms of the sandwiched R\'enyi mutual information. This bound yields tighter single-shot results, eliminates the need for the post-selection technique, and leads to a conceptually simpler proof of the quantum reverse Shannon theorem. By consolidating and streamlining earlier approaches, our result provides a clearer and more direct understanding of the resource costs of simulating quantum channels.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04552v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Namasi G Sankar, Georgios Miliotis, Simon Caton</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Gilad Gour</dc:creator>
     </item>
     <item>
-      <title>String commitment from unstructured noise</title>
-      <link>https://arxiv.org/abs/2501.00281</link>
-      <description>arXiv:2501.00281v2 Announce Type: cross 
-Abstract: Noisy channels are a foundational resource for constructing cryptographic primitives such as string commitment and oblivious transfer. The noisy channel model has been extended to unfair noisy channels, where adversaries can influence the parameters of a memoryless channel. In this work, we introduce the unstructured noisy channel model as a generalization of the unfair noisy channel model to allow the adversary to manipulate the channel arbitrarily subject to certain entropic constraints. We present a string commitment protocol with established security and derive its achievable commitment rate, demonstrating the feasibility of commitment against this stronger class of adversaries. Furthermore, we show that the entropic constraints in the unstructured noisy channel model can be derived from physical assumptions such as noisy quantum storage. Our work thus connects two distinct approaches to commitment, i.e., the noisy channel and physical limitations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2501.00281v2</guid>
-      <category>cs.IT</category>
+      <title>Quantum Subgradient Estimation for Conditional Value-at-Risk Optimization</title>
+      <link>https://arxiv.org/abs/2510.04736</link>
+      <description>arXiv:2510.04736v1 Announce Type: new 
+Abstract: Conditional Value-at-Risk (CVaR) is a leading tail-risk measure in finance, central to both regulatory and portfolio optimization frameworks. Classical estimation of CVaR and its gradients relies on Monte Carlo simulation, incurring $O(1/\epsilon^2)$ sample complexity to achieve $\epsilon$-accuracy. In this work, we design and analyze a quantum subgradient oracle for CVaR minimization based on amplitude estimation. Via a tripartite proposition, we show that CVaR subgradients can be estimated with $O(1/\epsilon)$ quantum queries, even when the Value-at-Risk (VaR) threshold itself must be estimated. We further quantify the propagation of estimation error from the VaR stage to CVaR gradients and derive convergence rates of stochastic projected subgradient descent using this oracle. Our analysis establishes a near-quadratic improvement in query complexity over classical Monte Carlo. Numerical experiments with simulated quantum circuits confirm the theoretical rates and illustrate robustness to threshold estimation noise. This constitutes the first rigorous complexity analysis of quantum subgradient methods for tail-risk minimization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04736v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Vasilis Skarlatos, Nikos Konofaos</dc:creator>
+    </item>
+    <item>
+      <title>Efficient Quantum Hermite Transform</title>
+      <link>https://arxiv.org/abs/2510.04929</link>
+      <description>arXiv:2510.04929v1 Announce Type: new 
+Abstract: We present a new primitive for quantum algorithms that implements a discrete Hermite transform efficiently, in time that depends logarithmically in both the dimension and the inverse of the allowable error. This transform, which maps basis states to states whose amplitudes are proportional to the Hermite functions, can be interpreted as the Gaussian analogue of the Fourier transform. Our algorithm is based on a method to exponentially fast forward the evolution of the quantum harmonic oscillator, which significantly improves over prior art. We apply this Hermite transform to give examples of provable quantum query advantage in property testing and learning. In particular, we show how to efficiently test the property of being close to a low- degree in the Hermite basis when inputs are sampled from the Gaussian distribution, and how to solve a Gaussian analogue of the Goldreich-Levin learning task efficiently. We also comment on other potential uses of this transform to simulating time dynamics of quantum systems in the continuum.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04929v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Siddhartha Jain, Vishnu Iyer, Rolando D. Somma, Ning Bao, Stephen P. Jordan</dc:creator>
+    </item>
+    <item>
+      <title>The NPA hierarchy does not always attain the commuting operator value</title>
+      <link>https://arxiv.org/abs/2510.04943</link>
+      <description>arXiv:2510.04943v1 Announce Type: new 
+Abstract: We show that it is undecidable to determine whether the commuting operator value of a nonlocal game is strictly greater than 1/2. As a corollary, there is a boolean constraint system (BCS) game for which the value of the Navascu\'es-Pironio-Ac\'in (NPA) hierarchy does not attain the commuting operator value at any finite level. Our contribution involves establishing a computable mapping from Turing machines to BCS nonlocal games in which the halting property of the machine is encoded as a decision problem for the commuting operator value of the game. Our techniques are algebraic and distinct from those used to establish MIP*=RE.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04943v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Marco Fanizza, Larissa Kroell, Arthur Mehta, Connor Paddock, Denis Rochette, William Slofstra, Yuming Zhao</dc:creator>
+    </item>
+    <item>
+      <title>Quantum walks through generalized graph composition</title>
+      <link>https://arxiv.org/abs/2510.04973</link>
+      <description>arXiv:2510.04973v1 Announce Type: new 
+Abstract: In this work, we generalize the recently-introduced graph composition framework to the non-boolean setting. A quantum algorithm in this framework is represented by a hypergraph, where each hyperedge is adjacent to multiple vertices. The input and output to the quantum algorithm is represented by a set of boundary vertices, and the hyperedges act like switches, connecting the input vertex to the output that the algorithm computes.
+  Apart from generalizing the graph composition framework, our new proposed framework unifies the quantum divide and conquer framework, the decision-tree framework, and the unified quantum walk search framework. For the decision trees, we additionally construct a quantum algorithm from an improved weighting scheme in the non-boolean case. For quantum walk search, we show how our techniques naturally allow for amortization of the subroutines' costs. Previous work showed how one can speed up ``detection'' of marked vertices by amortizing the costs of the quantum walk. In this work, we extend these results to the setting of ``finding'' such marked vertices, albeit in some restricted settings.
+  Along the way, we provide a novel analysis of irreducible, reversible Markov processes, by linear-algebraically connecting its effective resistance to the random walk operator. This significantly simplifies the algorithmic implementation of the quantum walk search algorithm, achieves an amortization speed-up for quantum walks over Johnson graphs, avoids the need for quantum fast-forwarding, and removes the log-factors from the query complexity statements.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04973v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Arjan Cornelissen</dc:creator>
+    </item>
+    <item>
+      <title>On Cryptography and Distribution Verification, with Applications to Quantum Advantage</title>
+      <link>https://arxiv.org/abs/2510.05028</link>
+      <description>arXiv:2510.05028v1 Announce Type: new 
+Abstract: One of the most fundamental problems in the field of hypothesis testing is the identity testing problem: whether samples from some unknown distribution $\mathcal{G}$ are actually from some explicit distribution $\mathcal{D}$. It is known that when the distribution $\mathcal{D}$ has support $[N]$, the optimal sample complexity for the identity testing problem is roughly $O(\sqrt{N})$. However, many distributions of interest, including those which can be sampled efficiently, have exponential support size, and therefore the optimal identity tester also requires exponential samples. In this paper, we bypass this lower bound by considering restricted settings. The above $O(\sqrt{N})$ sample complexity identity tester is constructed so that it is not fooled by any (even inefficiently-sampled) distributions. However, in most applications, the distributions under consideration are efficiently sampleable, and therefore it is enough to consider only identity testers that are not fooled by efficiently-sampled distributions. In that case, we can focus on efficient verification with efficient identity testers. We investigate relations between efficient verifications of classical/quantum distributions and classical/quantum cryptography, and show the following results: (i) Every quantumly samplable distribution is verifiable with a $\mathbf{P^{PP}}$ algorithm. (ii) If one-way functions exist, then no sufficiently random classically samplable distribution is efficiently verifiable. (iii) If one-way functions do not exist, then every classically samplable distribution is efficiently verifiable. (iv) If QEFID pairs exist, then there exists a quantumly samplable distribution which is not efficiently verifiable. (v) If one-way puzzles do not exist, then it is possible to verify sampling-based quantum advantage with a efficient quantum computer.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.05028v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
       <category>cs.CR</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jiawei Wu, Masahito Hayashi, Marco Tomamichel</dc:creator>
+      <dc:creator>Bruno Cavalar, Eli Goldin, Matthew Gray, Taiga Hiroka, Tomoyuki Morimae</dc:creator>
     </item>
     <item>
-      <title>Tradeoffs on the volume of fault-tolerant circuits</title>
-      <link>https://arxiv.org/abs/2510.03057</link>
-      <description>arXiv:2510.03057v1 Announce Type: cross 
-Abstract: Dating back to the seminal work of von Neumann [von Neumann, Automata Studies, 1956], it is known that error correcting codes can overcome faulty circuit components to enable robust computation. Choosing an appropriate code is non-trivial as it must balance several requirements. Increasing the rate of the code reduces the relative number of redundant bits used in the fault-tolerant circuit, while increasing the distance of the code ensures robustness against faults. If the rate and distance were the only concerns, we could use asymptotically optimal codes as is done in communication settings. However, choosing a code for computation is challenging due to an additional requirement: The code needs to facilitate accessibility of encoded information to enable computation on encoded data. This seems to conflict with having large rate and distance. We prove that this is indeed the case, namely that a code family cannot simultaneously have constant rate, growing distance and short-depth gadgets to perform encoded CNOT gates. As a consequence, achieving good rate and distance may necessarily entail accepting very deep circuits, an undesirable trade-off in certain architectures and applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.03057v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
+      <title>Curved Boolean Logic: A Contextual Generalization of Propositional Logic with Algorithmic Consequences</title>
+      <link>https://arxiv.org/abs/2510.04716</link>
+      <description>arXiv:2510.04716v1 Announce Type: cross 
+Abstract: Curved Boolean Logic (CBL) generalizes propositional logic by allowing local truth assignments that do not extend to a single global valuation, analogous to curvature in geometry. We give equivalent sheaf and exclusivity-graph semantics and a context-aware proof calculus that is conservative in the flat limit. We formalize CBL-SAT and basic complexity (NP-complete in general) and present operational operators (CBL-AC and CBL-CONS) that prune contradictions earlier on classical hardware. We model noise with iid, AR(1)-correlated, and adversarial bounded perturbations and provide permutation-based significance with Benjamini-Hochberg FDR control. A Colab-ready notebook (ancillary files) regenerates all figures and statistics. We position CBL relative to KCBS, CSW, and sheaf frameworks and outline links to SAT/CSP and robustness/adapter stability in large language models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.04716v1</guid>
+      <category>cs.LO</category>
+      <category>cs.AI</category>
+      <category>cs.CC</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Anirudh Krishna, Gilles Z\'emor</dc:creator>
+      <dc:creator>Maximilian R. P. von Liechtenstein</dc:creator>
     </item>
   </channel>
 </rss>

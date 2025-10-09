@@ -7,105 +7,424 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Oct 2025 04:00:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 04:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Peaked quantum advantage using error correction</title>
-      <link>https://arxiv.org/abs/2510.05262</link>
-      <description>arXiv:2510.05262v1 Announce Type: new 
-Abstract: A key issue of current quantum advantage experiments is that their verification requires a full classical simulation of the ideal computation. This limits the regime in which the experiments can be verified to precisely the regime in which they are also simulatable. An important outstanding question is therefore to find quantum advantage schemes that are also classically verifiable. We make progress on this question by designing a new quantum advantage proposal--Hidden Code Sampling--whose output distribution is conditionally peaked. These peaks enable verification in far less time than it takes for full simulation. At the same time, we show that exactly sampling from the output distribution is classically hard unless the polynomial hierarchy collapses, and we propose a plausible conjecture regarding average-case hardness. Our scheme is based on ideas from quantum error correction. The required quantum computations are closely related to quantum fault-tolerant circuits and can potentially be implemented transversally. Our proposal may thus give rise to a next generation of quantum advantage experiments en route to full quantum fault tolerance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.05262v1</guid>
+      <title>Layerwise Federated Learning for Heterogeneous Quantum Clients using Quorus</title>
+      <link>https://arxiv.org/abs/2510.06228</link>
+      <description>arXiv:2510.06228v1 Announce Type: new 
+Abstract: Quantum machine learning (QML) holds the promise to solve classically intractable problems, but, as critical data can be fragmented across private clients, there is a need for distributed QML in a quantum federated learning (QFL) format. However, the quantum computers that different clients have access to can be error-prone and have heterogeneous error properties, requiring them to run circuits of different depths. We propose a novel solution to this QFL problem, Quorus, that utilizes a layerwise loss function for effective training of varying-depth quantum models, which allows clients to choose models for high-fidelity output based on their individual capacity. Quorus also presents various model designs based on client needs that optimize for shot budget, qubit count, midcircuit measurement, and optimization space. Our simulation and real-hardware results show the promise of Quorus: it increases the magnitude of gradients of higher depth clients and improves testing accuracy by 12.4% on average over the state-of-the-art.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06228v1</guid>
+      <category>quant-ph</category>
+      <category>cs.DC</category>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jason Han, Nicholas S. DiBrita, Daniel Leeds, Jianqiang Li, Jason Ludmir, Tirthak Patel</dc:creator>
+    </item>
+    <item>
+      <title>Toward Uncertainty-Aware and Generalizable Neural Decoding for Quantum LDPC Codes</title>
+      <link>https://arxiv.org/abs/2510.06257</link>
+      <description>arXiv:2510.06257v1 Announce Type: new 
+Abstract: Quantum error correction (QEC) is essential for scalable quantum computing, yet decoding errors via conventional algorithms result in limited accuracy (i.e., suppression of logical errors) and high overheads, both of which can be alleviated by inference-based decoders. To date, such machine-learning (ML) decoders lack two key properties crucial for practical fault tolerance: reliable uncertainty quantification and robust generalization to previously unseen codes. To address this gap, we propose \textbf{QuBA}, a Bayesian graph neural decoder that integrates attention to both dot-product and multi-head, enabling expressive error-pattern recognition alongside calibrated uncertainty estimates. Building on QuBA, we further develop \textbf{SAGU }\textbf{(Sequential Aggregate Generalization under Uncertainty)}, a multi-code training framework with enhanced cross-domain robustness enabling decoding beyond the training set. Experiments on bivariate bicycle (BB) codes and their coprime variants demonstrate that (i) both QuBA and SAGU consistently outperform the classical baseline belief propagation (BP), achieving a reduction of on average \emph{one order of magnitude} in logical error rate (LER), and up to \emph{two orders of magnitude} under confident-decision bounds on the coprime BB code $[[154, 6, 16]]$; (ii) QuBA also surpasses state-of-the-art neural decoders, providing an advantage of roughly \emph{one order of magnitude} (e.g., for the larger BB code $[[756, 16, \leq34]]$) even when considering conservative (safe) decision bounds; (iii) SAGU achieves decoding performance comparable to or even outperforming QuBA's domain-specific training approach.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06257v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xiangjun Mi, Frank Mueller</dc:creator>
+    </item>
+    <item>
+      <title>Quantum advantage from random geometrically-two-local Hamiltonian dynamics</title>
+      <link>https://arxiv.org/abs/2510.06321</link>
+      <description>arXiv:2510.06321v1 Announce Type: new 
+Abstract: Classical hardness-of-sampling results are largely established for random quantum circuits, whereas analog simulators natively realize time evolutions under geometrically local Hamiltonians. Does a typical such Hamiltonian already yield classically-intractable dynamics? We answer this question in the affirmative for the ensemble of geometrically-2-local Hamiltonians with Gaussian coefficients, evolved for constant time. This naturally leads to a quantum advantage scheme with clear prospects for experimental realization, necessitating only course-grained control.
+  We give strong evidence of hardness for this physically-relevant ensemble. We develop the first worst-to-average-case reduction for approximating output probabilities of (time-independent) geometrically-2-local Hamiltonian evolutions. Our reduction proceeds by nonstandard means: while we also leverage polynomial interpolation, unlike previous works, we reduce directly to an evaluator for the exact distribution over Hamiltonians, from which we are trying to prove that sampling is hard. Previous works instead sampled from various perturbations of the true distribution, introducing additional constraints meant to keep the perturbation, measured in total variation distance, under control. We dispense with this step.
+  Our reduction consists in a robust multivariate polynomial interpolation, reduced to sequential robust univariate interpolations via the symmetries of the Gaussian. We circumvent the fact that random Hamiltonians lack a hiding symmetry, a key property in previous proofs. We also contribute an algorithmic version of Berlekamp-Welch to deal with errored evaluations, solving an open problem from the RCS literature. We expect the machinery we develop to find use in average-case Hamiltonian complexity, filling in a gap in this literature which has thus far focussed on worst-case hardness results.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06321v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Abhinav Deshpande, Bill Fefferman, Soumik Ghosh, Michael Gullans, Dominik Hangleiter</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yihui Quek</dc:creator>
     </item>
     <item>
-      <title>Efficient learning of bosonic Gaussian unitaries</title>
-      <link>https://arxiv.org/abs/2510.05531</link>
-      <description>arXiv:2510.05531v1 Announce Type: new 
-Abstract: Bosonic Gaussian unitaries are fundamental building blocks of central continuous-variable quantum technologies such as quantum-optic interferometry and bosonic error-correction schemes. In this work, we present the first time-efficient algorithm for learning bosonic Gaussian unitaries with a rigorous analysis. Our algorithm produces an estimate of the unknown unitary that is accurate to small worst-case error, measured by the physically motivated energy-constrained diamond distance. Its runtime and query complexity scale polynomially with the number of modes, the inverse target accuracy, and natural energy parameters quantifying the allowed input energy and the unitary's output-energy growth.
-  The protocol uses only experimentally friendly photonic resources: coherent and squeezed probes, passive linear optics, and heterodyne/homodyne detection. We then employ an efficient classical post-processing routine that leverages a symplectic regularization step to project matrix estimates onto the symplectic group. In the limit of unbounded input energy, our procedure attains arbitrarily high precision using only $2m+2$ queries, where $m$ is the number of modes. To our knowledge, this is the first provably efficient learning algorithm for a multiparameter family of continuous-variable unitaries.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.05531v1</guid>
+      <title>Classically Sampling Noisy Quantum Circuits in Quasi-Polynomial Time under Approximate Markovianity</title>
+      <link>https://arxiv.org/abs/2510.06324</link>
+      <description>arXiv:2510.06324v1 Announce Type: new 
+Abstract: While quantum computing can accomplish tasks that are classically intractable, the presence of noise may destroy this advantage in the absence of fault tolerance. In this work, we present a classical algorithm that runs in $n^{\rm{polylog}(n)}$ time for simulating quantum circuits under local depolarizing noise, thereby ruling out their quantum advantage in these settings. Our algorithm leverages a property called approximate Markovianity to sequentially sample from the measurement outcome distribution of noisy circuits. We establish approximate Markovianity in a broad range of circuits: (1) we prove that it holds for any circuit when the noise rate exceeds a constant threshold, and (2) we provide strong analytical and numerical evidence that it holds for random quantum circuits subject to any constant noise rate. These regimes include previously known classically simulable cases as well as new ones, such as shallow random circuits without anticoncentration, where prior algorithms fail. Taken together, our results significantly extend the boundary of classical simulability and suggest that noise generically enforces approximate Markovianity and classical simulability, thereby highlighting the limitation of noisy quantum circuits in demonstrating quantum advantage.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06324v1</guid>
       <category>quant-ph</category>
-      <category>cs.DS</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Marco Fanizza, Vishnu Iyer, Junseo Lee, Antonio A. Mele, Francesco A. Mele</dc:creator>
-    </item>
-    <item>
-      <title>Learning stabilizer structure of quantum states</title>
-      <link>https://arxiv.org/abs/2510.05890</link>
-      <description>arXiv:2510.05890v1 Announce Type: new 
-Abstract: We consider the task of learning a structured stabilizer decomposition of an arbitrary $n$-qubit quantum state $|\psi\rangle$: for $\varepsilon &gt; 0$, output a state $|\phi\rangle$ with stabilizer-rank $\textsf{poly}(1/\varepsilon)$ such that $|\psi\rangle=|\phi\rangle+|\phi'\rangle$ where $|\phi'\rangle$ has stabilizer fidelity $&lt; \varepsilon$. We firstly show the existence of such decompositions using the recently established inverse theorem for the Gowers-$3$ norm of states [AD,STOC'25].
-  To learn this structure, we initiate the task of self-correction of a state $|\psi\rangle$ with respect to a class of states $\textsf{C}$: given copies of $|\psi\rangle$ which has fidelity $\geq \tau$ with a state in $\textsf{C}$, output $|\phi\rangle \in \textsf{C}$ with fidelity $|\langle \phi | \psi \rangle|^2 \geq \tau^C$ for a constant $C&gt;1$. Assuming the algorithmic polynomial Frieman-Rusza (APFR) conjecture (whose combinatorial version was recently resolved [GGMT,Annals of Math.'25], we give a polynomial-time algorithm for self-correction of stabilizer states. Given access to the state preparation unitary $U_\psi$ for $|\psi\rangle$ and its controlled version $cU_\psi$, we give a polynomial-time protocol that learns a structured decomposition of $|\psi\rangle$. Without assuming APFR, we give a quasipolynomial-time protocol for the same task.
-  As our main application, we give learning algorithms for states $|\psi\rangle$ promised to have stabilizer extent $\xi$, given access to $U_\psi$ and $cU_\psi$. We give a protocol that outputs $|\phi\rangle$ which is constant-close to $|\psi\rangle$ in time $\textsf{poly}(n,\xi^{\log \xi})$, which can be improved to polynomial-time assuming APFR. This gives an unconditional learning algorithm for stabilizer-rank $k$ states in time $\textsf{poly}(n,k^{k^2})$. As far as we know, learning arbitrary states with even stabilizer-rank $k \geq 2$ was unknown.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.05890v1</guid>
-      <category>quant-ph</category>
+      <category>cond-mat.stat-mech</category>
       <category>cs.CC</category>
-      <category>math.CO</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Srinivasan Arunachalam, Arkopal Dutt</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yifan F. Zhang, Su-un Lee, Liang Jiang, Sarang Gopalakrishnan</dc:creator>
     </item>
     <item>
-      <title>Hybrid Quantum-Classical Policy Gradient for Adaptive Control of Cyber-Physical Systems: A Comparative Study of VQC vs. MLP</title>
-      <link>https://arxiv.org/abs/2510.06010</link>
-      <description>arXiv:2510.06010v1 Announce Type: new 
-Abstract: The comparative evaluation between classical and quantum reinforcement learning (QRL) paradigms was conducted to investigate their convergence behavior, robustness under observational noise, and computational efficiency in a benchmark control environment. The study employed a multilayer perceptron (MLP) agent as a classical baseline and a parameterized variational quantum circuit (VQC) as a quantum counterpart, both trained on the CartPole-v1 environment over 500 episodes. Empirical results demonstrated that the classical MLP achieved near-optimal policy convergence with a mean return of 498.7 +/- 3.2, maintaining stable equilibrium throughout training. In contrast, the VQC exhibited limited learning capability, with an average return of 14.6 +/- 4.8, primarily constrained by circuit depth and qubit connectivity. Noise robustness analysis further revealed that the MLP policy deteriorated gracefully under Gaussian perturbations, while the VQC displayed higher sensitivity at equivalent noise levels. Despite the lower asymptotic performance, the VQC exhibited significantly lower parameter count and marginally increased training time, highlighting its potential scalability for low-resource quantum processors. The results suggest that while classical neural policies remain dominant in current control benchmarks, quantum-enhanced architectures could offer promising efficiency advantages once hardware noise and expressivity limitations are mitigated.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.06010v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <category>cs.RO</category>
-      <category>cs.SY</category>
-      <category>eess.SY</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Aueaphum Aueawatthanaphisut, Nyi Wunna Tun</dc:creator>
-    </item>
-    <item>
-      <title>Non-iid hypothesis testing: from classical to quantum</title>
-      <link>https://arxiv.org/abs/2510.06147</link>
-      <description>arXiv:2510.06147v1 Announce Type: new 
-Abstract: We study hypothesis testing (aka state certification) in the non-identically distributed setting. A recent work (Garg et al. 2023) considered the classical case, in which one is given (independent) samples from $T$ unknown probability distributions $p_1, \dots, p_T$ on $[d] = \{1, 2, \dots, d\}$, and one wishes to accept/reject the hypothesis that their average $p_{\mathrm{avg}}$ equals a known hypothesis distribution $q$. Garg et al. showed that if one has just $c = 2$ samples from each $p_i$, and provided $T \gg \frac{\sqrt{d}}{\epsilon^2} + \frac{1}{\epsilon^4}$, one can (whp) distinguish $p_{\mathrm{avg}} = q$ from $d_{\mathrm{TV}}(p_{\mathrm{avg}},q) &gt; \epsilon$. This nearly matches the optimal result for the classical iid setting (namely, $T \gg \frac{\sqrt{d}}{\epsilon^2}$). Besides optimally improving this result (and generalizing to tolerant testing with more stringent distance measures), we study the analogous problem of hypothesis testing for non-identical quantum states. Here we uncover an unexpected phenomenon: for any $d$-dimensional hypothesis state $\sigma$, and given just a single copy ($c = 1$) of each state $\rho_1, \dots, \rho_T$, one can distinguish $\rho_{\mathrm{avg}} = \sigma$ from $D_{\mathrm{tr}}(\rho_{\mathrm{avg}},\sigma) &gt; \epsilon$ provided $T \gg d/\epsilon^2$. (Again, we generalize to tolerant testing with more stringent distance measures.) This matches the optimal result for the iid case, which is surprising because doing this with $c = 1$ is provably impossible in the classical case. We also show that the analogous phenomenon happens for the non-iid extension of identity testing between unknown states. A technical tool we introduce may be of independent interest: an Efron-Stein inequality, and more generally an Efron-Stein decomposition, in the quantum setting.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.06147v1</guid>
-      <category>quant-ph</category>
-      <category>cs.DS</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Giacomo De Palma, Marco Fanizza, Connor Mowry, Ryan O'Donnell</dc:creator>
-    </item>
-    <item>
-      <title>Quantum $f$-divergences and Their Local Behaviour: An Analysis via Relative Expansion Coefficients</title>
-      <link>https://arxiv.org/abs/2510.06183</link>
-      <description>arXiv:2510.06183v1 Announce Type: new 
-Abstract: Any reasonable measure of distinguishability of quantum states must satisfy a data processing inequality, that is, it must not increase under the action of a quantum channel. We can ask about the proportion of information lost or preserved and this leads us to study contraction and expansion coefficients respectively, which can be combined into a single \emph{relative expansion coefficient} for study. We focus on two prominent families: (i) standard quantum $f$ divergences and (ii) their local (second-order) behaviour, which induces a monotone Riemannian semi-norm (that is linked to the $\chi^2$ divergence). Building on prior work, we identify new families of $f$ for which the global ($f$ divergence) and local (Riemannian) relative expansion coefficients coincide for every pair of channels, and we clarify how exceptional such exact coincidences are. Beyond equality, we introduce an \emph{equivalence} framework that transfers qualitative properties such as strict positivity uniformly across different relative expansion coefficients.
-  Leveraging the link between equality in the data processing inequality (DPI) and channel reversibility, we apply our framework of relative expansion coefficients to approximate recoverability of quantum information. Using our relative expansion results for primitive channels, we prove a reverse quantum Markov convergence theorem, converting positive expansion coefficients into quantitative lower bounds on the convergence rate.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.06183v1</guid>
+      <title>Generalised quantum Sanov theorem revisited</title>
+      <link>https://arxiv.org/abs/2510.06340</link>
+      <description>arXiv:2510.06340v1 Announce Type: new 
+Abstract: Given two families of quantum states $A$ and $B$, called the null and the alternative hypotheses, quantum hypothesis testing is the task of determining whether an unknown quantum state belongs to $A$ or $B$. Mistaking $A$ for $B$ is a type I error, and vice versa for the type II error. In quantum Shannon theory, a fundamental role is played by the Stein exponent, i.e. the asymptotic rate of decay of the type II error probability for a given threshold on the type I error probability. Stein exponents have been thoroughly investigated -- and, sometimes, calculated. However, most currently available solutions apply to settings where the hypotheses simple (i.e. composed of a single state), or else the families $A$ and $B$ need to satisfy stringent constraints that exclude physically important sets of states, such as separable states or stabiliser states. In this work, we establish a general formula for the Stein exponent where both hypotheses are allowed to be composite: the alternative hypothesis $B$ is assumed to be either composite i.i.d. or arbitrarily varying, with components taken from a known base set, while the null hypothesis $A$ is fully general, and required to satisfy only weak compatibility assumptions that are met in most physically relevant cases -- for instance, by the sets of separable or stabiliser states. Our result extends and subsumes the findings of [BBH, CMP 385:55, 2021] (that we also simplify), as well as the 'generalised quantum Sanov theorem' of [LBR, arXiv:2408.07067]. The proof relies on a careful quantum-to-classical reduction via measurements, followed by an application of the results on classical Stein exponents obtained in [Lami, arXiv:today]. We also devise new purely quantum techniques to analyse the resulting asymptotic expressions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06340v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math-ph</category>
-      <category>math.FA</category>
       <category>math.IT</category>
       <category>math.MP</category>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ludovico Lami</dc:creator>
+    </item>
+    <item>
+      <title>Fourier Spectrum of Noisy Quantum Algorithms</title>
+      <link>https://arxiv.org/abs/2510.06385</link>
+      <description>arXiv:2510.06385v1 Announce Type: new 
+Abstract: Quantum computing promises exponential speedups for certain problems, yet fully universal quantum computers remain out of reach and near-term devices are inherently noisy. Motivated by this, we study noisy quantum algorithms and the landscape between $\mathsf{BQP}$ and $\mathsf{BPP}$. We build on a powerful technique to differentiate quantum and classical algorithms called the level-$\ell$ Fourier growth (the sum of absolute values of Fourier coefficients of sets of size $\ell$) and show that it can also be used to differentiate quantum algorithms based on the types of resources used. We show that noise acting on a quantum algorithm dampens its Fourier growth in ways intricately linked to the type of noise.
+  Concretely, we study noisy models of quantum computation where highly mixed states are prevalent, namely: $\mathsf{DQC}_k$ algorithms, where $k$ qubits are clean and the rest are maximally mixed, and $\frac{1}{2}\mathsf {BQP}$ algorithms, where the initial state is maximally mixed, but the algorithm is given knowledge of the initial state at the end of the computation. We establish upper bounds on the Fourier growth of $\mathsf{DQC}_k$, $\frac{1}{2}\mathsf{BQP}$ and $\mathsf{BQP}$ algorithms and leverage the differences between these bounds to derive oracle separations between these models. In particular, we show that 2-Forrelation and 3-Forrelation require $N^{\Omega(1)}$ queries in the $\mathsf{DQC}_1$ and $\frac{1}{2}\mathsf{BQP}$ models respectively. Our results are proved using a new matrix decomposition lemma that might be of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06385v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Uma Girish</dc:creator>
+    </item>
+    <item>
+      <title>On the Pure Quantum Polynomial Hierarchy and Quantified Hamiltonian Complexity</title>
+      <link>https://arxiv.org/abs/2510.06522</link>
+      <description>arXiv:2510.06522v1 Announce Type: new 
+Abstract: We prove several new results concerning the pure quantum polynomial hierarchy (pureQPH). First, we show that QMA(2) is contained in pureQSigma2, that is, two unentangled existential provers can be simulated by competing existential and universal provers. We further prove that pureQSigma2 is contained in QSigma3, which in turn is contained in NEXP.
+  Second, we give an error reduction result for pureQPH, and, as a consequence, prove that pureQPH = QPH. A key ingredient in this result is an improved dimension-independent disentangler.
+  Finally, we initiate the study of quantified Hamiltonian complexity, the quantum analogue of quantified Boolean formulae. We prove that the quantified pure sparse Hamiltonian problem is pureQSigma-complete. By contrast, other natural variants (pure/local, mixed/local, and mixed/sparse) admit nontrivial containments but fail to be complete under known techniques. For example, we show that the exists-forall mixed local Hamiltonian problem lies in NP^QMA \cap coNP^QMA.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06522v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Sabee Grewal, Dorian Rudolph</dc:creator>
+    </item>
+    <item>
+      <title>CLAQS: Compact Learnable All-Quantum Token Mixer with Shared-ansatz for Text Classification</title>
+      <link>https://arxiv.org/abs/2510.06532</link>
+      <description>arXiv:2510.06532v1 Announce Type: new 
+Abstract: Quantum compute is scaling fast, from cloud QPUs to high throughput GPU simulators, making it timely to prototype quantum NLP beyond toy tasks. However, devices remain qubit limited and depth limited, training can be unstable, and classical attention is compute and memory heavy. This motivates compact, phase aware quantum token mixers that stabilize amplitudes and scale to long sequences. We present CLAQS, a compact, fully quantum token mixer for text classification that jointly learns complex-valued mixing and nonlinear transformations within a unified quantum circuit. To enable stable end-to-end optimization, we apply l1 normalization to regulate amplitude scaling and introduce a two-stage parameterized quantum architecture that decouples shared token embeddings from a window-level quantum feed-forward module. Operating under a sliding-window regime with document-level aggregation, CLAQS requires only eight data qubits and shallow circuits, yet achieves 91.64% accuracy on SST-2 and 87.08% on IMDB, outperforming both classical Transformer baselines and strong hybrid quantum-classical counterparts.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06532v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Paula Belzig, Shreyas Iyer, Graeme Smith, Peixue Wu</dc:creator>
+      <dc:creator>Junhao Chen, Yifan Zhou, Hanqi Jiang, Yi Pan, Yiwei Li, Huaqin Zhao, Wei Zhang, Yingfeng Wang, Tianming Liu</dc:creator>
+    </item>
+    <item>
+      <title>Adapting Quantum Machine Learning for Energy Dissociation of Bonds</title>
+      <link>https://arxiv.org/abs/2510.06563</link>
+      <description>arXiv:2510.06563v1 Announce Type: new 
+Abstract: Accurate prediction of bond dissociation energies (BDEs) underpins mechanistic insight and the rational design of molecules and materials. We present a systematic, reproducible benchmark comparing quantum and classical machine learning models for BDE prediction using a chemically curated feature set encompassing atomic properties (atomic numbers, hybridization), bond characteristics (bond order, type), and local environmental descriptors. Our quantum framework, implemented in Qiskit Aer on six qubits, employs ZZFeatureMap encodings with variational ansatz (RealAmplitudes) across multiple architectures Variational Quantum Regressors (VQR), Quantum Support Vector Regressors (QSVR), Quantum Neural Networks (QNN), Quantum Convolutional Neural Networks (QCNN), and Quantum Random Forests (QRF). These are rigorously benchmarked against strong classical baselines, including Support Vector Regression (SVR), Random Forests (RF), and Multi-Layer Perceptrons (MLP). Comprehensive evaluation spanning absolute and relative error metrics, threshold accuracies, and error distributions shows that top-performing quantum models (QCNN, QRF) match the predictive accuracy and robustness of classical ensembles and deep networks, particularly within the chemically prevalent mid-range BDE regime. These findings establish a transparent baseline for quantum-enhanced molecular property prediction and outline a practical foundation for advancing quantum computational chemistry toward near chemical accuracy.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06563v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Swathi Chandrasekhar, Shiva Raj Pokhrel, Navneet Singh</dc:creator>
+    </item>
+    <item>
+      <title>Constant-Overhead Addressable Gates via Single-Shot Code Switching</title>
+      <link>https://arxiv.org/abs/2510.06760</link>
+      <description>arXiv:2510.06760v1 Announce Type: new 
+Abstract: It is a major challenge to perform addressable and parallel logical operations on constant-rate quantum LDPC (qLDPC) codes. Indeed, the overhead of targeting specific logical qubits represents a crucial bottleneck in many quantum fault-tolerance schemes.
+  We introduce fault-tolerant protocols for performing various addressable as well as parallel logical operations with constant space-time overhead, on a family of constant-rate and polynomial-distance qLDPC codes. Specifically, we construct gadgets for a large class of permutations of logical qubits. We apply these logical permutations to construct gadgets for applying a targeted Hadamard (or $CNOT$) gate on any chosen logical qubit (pair). We also construct gadgets for preparing logical code states, and for applying Hadamard gates on all logical qubits in a codeblock. All of our gadgets use constant quantum space-time overhead along with polynomially bounded classical computation. Prior protocols for such operations required larger overhead, or else relied on codes with certain symmetries that lack known asymptotic constructions.
+  Our codes are given by tensor products of classical codes constructed from lossless expander graphs. Our core technical contribution is a constant-overhead code-switching procedure between 2- and 3-dimensional product codes, which generalizes Bombin's dimensional jump (arXiv:1412.5079). We prove that all of our gadgets exhibit a constant threshold under locally stochastic noise. Along the way, we develop a small-set flip decoder for high-dimensional product codes from lossless expanders. Our techniques yield additional interesting consequences, such as single-shot state preparation of 2-dimensional product codes with constant space-time overhead. We also propose a method for performing parallel non-Clifford gates by extending our techniques to codes supporting transversal application of such gates.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06760v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Louis Golowich, Kathleen Chang, Guanyu Zhu</dc:creator>
+    </item>
+    <item>
+      <title>On the complexity of estimating ground state entanglement and free energy</title>
+      <link>https://arxiv.org/abs/2510.06796</link>
+      <description>arXiv:2510.06796v1 Announce Type: new 
+Abstract: Understanding the entanglement structure of local Hamiltonian ground spaces is a physically motivated problem, with applications ranging from tensor network design to quantum error-correcting codes. To this end, we study the complexity of estimating ground state entanglement, and more generally entropy estimation for low energy states and Gibbs states. We find, in particular, that the classes qq-QAM [Kobayashi, le Gall, Nishimura, SICOMP 2019] (a quantum analogue of public-coin AM) and QMA(2) (QMA with unentangled proofs) play a crucial role for such problems, showing: (1) Detecting a high-entanglement ground state is qq-QAM-complete, (2) computing an additive error approximation to the Helmholtz free energy (equivalently, a multiplicative error approximation to the partition function) is in qq-QAM, (3) detecting a low-entanglement ground state is QMA(2)-hard, and (4) detecting low energy states which are close to product states can range from QMA-complete to QMA(2)-complete. Our results make progress on an open question of [Bravyi, Chowdhury, Gosset and Wocjan, Nature Physics 2022] on free energy, and yield the first QMA(2)-complete Hamiltonian problem using local Hamiltonians (cf. the sparse QMA(2)-complete Hamiltonian problem of [Chailloux, Sattath, CCC 2012]).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06796v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Sevag Gharibian, Jonas Kamminga</dc:creator>
+    </item>
+    <item>
+      <title>Near-Asymptotically-Good Quantum Codes with Transversal CCZ Gates and Sublinear-Weight Parity-Checks</title>
+      <link>https://arxiv.org/abs/2510.06798</link>
+      <description>arXiv:2510.06798v1 Announce Type: new 
+Abstract: It is a major challenge to construct good quantum codes supporting fault-tolerant (e.g. transversal) non-Clifford gates with low-weight parity-check measurements. In this paper, we construct the first known quantum codes with linear dimension and distance supporting transversal non-Clifford gates that have sublinear locality (i.e. parity-check weight). Specifically, we construct codes with transversal $CCZ$ gates that have dimension and distance $\Theta(N)$ and locality $O(\sqrt{N})$, where $N$ denotes the block length. We furthermore design an efficient decoding algorithm for these codes. The alphabet size of these codes is $q=\Theta(\sqrt{N})$, but it can be reduced to a constant (e.g. $q=2$) while incurring a polylogarithmic loss in other parameters. We also show how to decrease the locality to $O(N^{1/3})$, albeit with a larger alphabet size and slightly lower distance.
+  We construct these codes as products of classical codes with appropriate algebraic structure. While our quantum codes are subsystem codes with non-commuting gauge operators, we show they nevertheless permit error correction from noisy syndrome measurements.
+  As byproducts, we prove multiple technical results of independent interest. In particular, our efficient decoder can be viewed as a new multivariate generalization of Prony's method for reconstructing a function from partial access to its Fourier transform. Meanwhile, our distance analysis involves new connections to the classical study of maximally recoverable codes. Our results on product codes also resolve a conjecture of Bravyi &amp; Hastings (2014) in the large-alphabet regime, by providing a new construction of quantum codes with dimension and distance $\Theta(N)$ and locality $N^\epsilon$ for arbitrary $\epsilon&gt;0$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06798v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Louis Golowich, Venkatesan Guruswami</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Computing Methods for Malware Detection</title>
+      <link>https://arxiv.org/abs/2510.06803</link>
+      <description>arXiv:2510.06803v1 Announce Type: new 
+Abstract: In this paper, we explore the potential of quantum computing in enhancing malware detection through the application of Quantum Machine Learning (QML). Our main objective is to investigate the performance of the Quantum Support Vector Machine (QSVM) algorithm compared to SVM. A publicly available dataset containing raw binaries of Portable Executable (PE) files was used for the classification. The QSVM algorithm, incorporating quantum kernels through different feature maps, was implemented and evaluated on a local simulator within the Qiskit SDK and IBM quantum computers. Experimental results from simulators and quantum hardware provide insights into the behavior and performance of quantum computers, especially in handling large-scale computations for malware detection tasks. The work summarizes the practical experience with using quantum hardware via the Qiskit interfaces. We describe in detail the critical issues encountered, as well as the fixes that had to be developed and applied to the base code of the Qiskit Machine Learning library. These issues include missing transpilation of the circuits submitted to IBM Quantum systems and exceeding the maximum job size limit due to the submission of all the circuits in one job.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06803v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <arxiv:DOI>10.1007/978-3-031-83157-7_8</arxiv:DOI>
+      <dc:creator>Eli\v{s}ka Kr\'atk\'a, Aur\'el G\'abor G\'abris</dc:creator>
+    </item>
+    <item>
+      <title>Reconquering Bell sampling on qudits: stabilizer learning and testing, quantum pseudorandomness bounds, and more</title>
+      <link>https://arxiv.org/abs/2510.06848</link>
+      <description>arXiv:2510.06848v1 Announce Type: new 
+Abstract: Bell sampling is a simple yet powerful tool based on measuring two copies of a quantum state in the Bell basis, and has found applications in a plethora of problems related to stabiliser states and measures of magic. However, it was not known how to generalise the procedure from qubits to $d$-level systems -- qudits -- for all dimensions $d &gt; 2$ in a useful way. Indeed, a prior work of the authors (arXiv'24) showed that the natural extension of Bell sampling to arbitrary dimensions fails to provide meaningful information about the quantum states being measured. In this paper, we overcome the difficulties encountered in previous works and develop a useful generalisation of Bell sampling to qudits of all $d\geq 2$. At the heart of our primitive is a new unitary, based on Lagrange's four-square theorem, that maps four copies of any stabiliser state $|\mathcal{S}\rangle$ to four copies of its complex conjugate $|\mathcal{S}^\ast\rangle$ (up to some Pauli operator), which may be of independent interest. We then demonstrate the utility of our new Bell sampling technique by lifting several known results from qubits to qudits for any $d\geq 2$:
+  1. Learning stabiliser states in $O(n^3)$ time with $O(n)$ samples;
+  2. Solving the Hidden Stabiliser Group Problem in $\tilde{O}(n^3/\varepsilon)$ time with $\tilde{O}(n/\varepsilon)$ samples;
+  3. Testing whether $|\psi\rangle$ has stabiliser size at least $d^t$ or is $\varepsilon$-far from all such states in $\tilde{O}(n^3/\varepsilon)$ time with $\tilde{O}(n/\varepsilon)$ samples;
+  4. Clifford circuits with at most $n/2$ single-qudit non-Clifford gates cannot prepare pseudorandom states;
+  5. Testing whether $|\psi\rangle$ has stabiliser fidelity at least $1-\varepsilon_1$ or at most $1-\varepsilon_2$ with $O(d^2/\varepsilon_2)$ samples if $\varepsilon_1 = 0$ or $O(d^2/\varepsilon_2^2)$ samples if $\varepsilon_1 = O(d^{-2})$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06848v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jonathan Allcock, Joao F. Doriguello, G\'abor Ivanyos, Miklos Santha</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Sparse Recovery and Quantum Orthogonal Matching Pursuit</title>
+      <link>https://arxiv.org/abs/2510.06925</link>
+      <description>arXiv:2510.06925v1 Announce Type: new 
+Abstract: We study quantum sparse recovery in non-orthogonal, overcomplete dictionaries: given coherent quantum access to a state and a dictionary of vectors, the goal is to reconstruct the state up to $\ell_2$ error using as few vectors as possible. We first show that the general recovery problem is NP-hard, ruling out efficient exact algorithms in full generality. To overcome this, we introduce Quantum Orthogonal Matching Pursuit (QOMP), the first quantum analogue of the classical OMP greedy algorithm. QOMP combines quantum subroutines for inner product estimation, maximum finding, and block-encoded projections with an error-resetting design that avoids iteration-to-iteration error accumulation. Under standard mutual incoherence and well-conditioned sparsity assumptions, QOMP provably recovers the exact support of a $K$-sparse state in polynomial time. As an application, we give the first framework for sparse quantum tomography with non-orthogonal dictionaries in $\ell_2$ norm, achieving query complexity $\widetilde{O}(\sqrt{N}/\epsilon)$ in favorable regimes and reducing tomography to estimating only $K$ coefficients instead of $N$ amplitudes. In particular, for pure-state tomography with $m=O(N)$ dictionary vectors and sparsity $K=\widetilde{O}(1)$ on a well-conditioned subdictionary, this circumvents the $\widetilde{\Omega}(N/\epsilon)$ lower bound that holds in the dense, orthonormal-dictionary setting, without contradiction, by leveraging sparsity together with non-orthogonality. Beyond tomography, we analyze QOMP in the QRAM model, where it yields polynomial speedups over classical OMP implementations, and provide a quantum algorithm to estimate the mutual incoherence of a dictionary of $m$ vectors in $O(m/\epsilon)$ queries, improving over both deterministic and quantum-inspired classical methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06925v1</guid>
+      <category>quant-ph</category>
+      <category>cs.DS</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Armando Bellante, Stefano Vanerio, Stefano Zanero</dc:creator>
+    </item>
+    <item>
+      <title>Expressive and Scalable Quantum Fusion for Multimodal Learning</title>
+      <link>https://arxiv.org/abs/2510.06938</link>
+      <description>arXiv:2510.06938v1 Announce Type: new 
+Abstract: The aim of this paper is to introduce a quantum fusion mechanism for multimodal learning and to establish its theoretical and empirical potential. The proposed method, called the Quantum Fusion Layer (QFL), replaces classical fusion schemes with a hybrid quantum-classical procedure that uses parameterized quantum circuits to learn entangled feature interactions without requiring exponential parameter growth. Supported by quantum signal processing principles, the quantum component efficiently represents high-order polynomial interactions across modalities with linear parameter scaling, and we provide a separation example between QFL and low-rank tensor-based methods that highlights potential quantum query advantages. In simulation, QFL consistently outperforms strong classical baselines on small but diverse multimodal tasks, with particularly marked improvements in high-modality regimes. These results suggest that QFL offers a fundamentally new and scalable approach to multimodal fusion that merits deeper exploration on larger systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06938v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Tuyen Nguyen, Trong Nghia Hoang, Phi Le Nguyen, Hai L. Vu, Truong Cong Thang</dc:creator>
+    </item>
+    <item>
+      <title>Computational complexity of the homology problem with orientable filtration: MA-completeness</title>
+      <link>https://arxiv.org/abs/2510.07014</link>
+      <description>arXiv:2510.07014v1 Announce Type: new 
+Abstract: We show the existence of an MA-complete homology problem for a certain subclass of simplicial complexes. The problem is defined through a new concept of orientability of simplicial complexes that we call a "uniform orientable filtration", which is related to sign-problem freeness in homology. The containment in MA is achieved through the design of new, higher-order random walks on simplicial complexes associated with the filtration. For the MA-hardness, we design a new gadget with which we can reduce from an MA-hard stoquastic satisfiability problem. Therefore, our result provides the first natural MA-complete problem for higher-order random walks on simplicial complexes, combining the concepts of topology, persistent homology, and quantum computing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07014v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>math.AT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ryu Hayakawa, Casper Gyurik, Mahtab Yaghubi Rad, Vedran Dunjko</dc:creator>
+    </item>
+    <item>
+      <title>Haar random codes attain the quantum Hamming bound, approximately</title>
+      <link>https://arxiv.org/abs/2510.07158</link>
+      <description>arXiv:2510.07158v1 Announce Type: new 
+Abstract: We study the error correcting properties of Haar random codes, in which a $K$-dimensional code space $\boldsymbol{C} \subseteq \mathbb{C}^N$ is chosen at random from the Haar distribution. Our main result is that Haar random codes can approximately correct errors up to the quantum Hamming bound, meaning that a set of $m$ Pauli errors can be approximately corrected so long as $mK \ll N$. This is the strongest bound known for any family of quantum error correcting codes (QECs), and continues a line of work showing that approximate QECs can significantly outperform exact QECs [LNCY97, CGS05, BGG24]. Our proof relies on a recent matrix concentration result of Bandeira, Boedihardjo, and van Handel.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07158v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Fermi Ma, Xinyu Tan, John Wright</dc:creator>
+    </item>
+    <item>
+      <title>MIPco=coRE</title>
+      <link>https://arxiv.org/abs/2510.07162</link>
+      <description>arXiv:2510.07162v1 Announce Type: new 
+Abstract: In 2020, a landmark result by Ji, Natarajan, Vidick, Wright, and Yuen showed that MIP*, the class of languages that can be decided by a classical verifier interacting with multiple computationally unbounded provers sharing entanglement in the tensor product model, is equal to RE. We show that the class MIPco, a complexity class defined similarly to MIP* except with provers sharing the commuting operator model of entanglement, is equal to the class coRE. This shows that giving the provers two different models of entanglement leads to two completely different computational powers for interactive proof systems. Our proof builds upon the compression theorem used in the proof of MIP*=RE, and we use the tracially embeddable strategies framework to show that the same compression procedure in MIP* =RE also has the same desired property in the commuting operator setting. We also give a more streamlined proof of the compression theorem for non-local games by incorporating the synchronous framework used by Mousavi et al. [STOC 2022], as well as the improved Pauli basis test introduced by de la Salle [ArXiv:2204.07084].
+  We introduce a new equivalence condition for RE/coRE-complete problems, which we call the weakly compressible condition. We show that both MIP* and MIPco satisfy this condition through the compression theorem, and thereby establish that the uncomputability for MIP* and MIPco can be proved under a unified framework (despite these two complexity classes being different). Notably, this approach also gives an alternative proof of the MIP*=RE theorem, which does not rely on the preservation of the entanglement bound. In addition to non-local games, this new condition could also potentially be applicable to other decision problems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07162v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>math.OA</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Junqiao Lin</dc:creator>
+    </item>
+    <item>
+      <title>Clifford testing: algorithms and lower bounds</title>
+      <link>https://arxiv.org/abs/2510.07164</link>
+      <description>arXiv:2510.07164v1 Announce Type: new 
+Abstract: We consider the problem of Clifford testing, which asks whether a black-box $n$-qubit unitary is a Clifford unitary or at least $\varepsilon$-far from every Clifford unitary. We give the first 4-query Clifford tester, which decides this problem with probability $\mathrm{poly}(\varepsilon)$. This contrasts with the minimum of 6 copies required for the closely-related task of stabilizer testing. We show that our tester is tolerant, by adapting techniques from tolerant stabilizer testing to our setting. In doing so, we settle in the positive a conjecture of Bu, Gu and Jaffe, by proving a polynomial inverse theorem for a non-commutative Gowers 3-uniformity norm. We also consider the restricted setting of single-copy access, where we give an $O(n)$-query Clifford tester that requires no auxiliary memory qubits or adaptivity. We complement this with a lower bound, proving that any such, potentially adaptive, single-copy algorithm needs at least $\Omega(n^{1/4})$ queries. To obtain our results, we leverage the structure of the commutant of the Clifford group, obtaining several technical statements that may be of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07164v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Marcel Hinsche, Zongbo Bao, Philippe van Dordrecht, Jens Eisert, Jop Bri\"et, Jonas Helsen</dc:creator>
+    </item>
+    <item>
+      <title>Diffusion Codes: Self-Correction from Small(er)-Set Expansion with Tunable Non-locality</title>
+      <link>https://arxiv.org/abs/2510.07179</link>
+      <description>arXiv:2510.07179v1 Announce Type: new 
+Abstract: Optimal constructions of classical LDPC codes can be obtained by choosing the Tanner graph uniformly at random among biregular graphs. We introduce a class of codes that we call ``diffusion codes'', defined by placing each edge connecting bits and checks on some graph, and acting on that graph with a random SWAP network. By tuning the depth of the SWAP network, we can tune a tradeoff between the amount of randomness -- and hence the optimality of code parameters -- and locality with respect to the underlying graph. For diffusion codes defined on the cycle graph, if the SWAP network has depth $\sim Tn$ with $T&gt; n^{2\beta}$ for arbitrary $\beta&gt;0$, then we prove that almost surely the Tanner graph is a lossless ``smaller set'' vertex expander for small sets up size $\delta \sim \sqrt T \sim n^{\beta}$, with bounded bit and check degree. At the same time, the geometric size of the largest stabilizer is bounded by $\sqrt T$ in graph distance. We argue, based on physical intuition, that this result should hold more generally on arbitrary graphs. By taking hypergraph products of these classical codes we obtain quantum LDPC codes defined on the torus with smaller-set boundary and co-boundary expansion and the same expansion/locality tradeoffs as for the classical codes. These codes are self-correcting and admit single-shot decoding, while having the geometric size of the stabilizer growing as an arbitrarily small power law. Our proof technique establishes mixing of a random SWAP network on small subsystems at times scaling with only the subsystem size, which may be of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07179v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.dis-nn</category>
+      <category>cond-mat.stat-mech</category>
+      <category>cs.IT</category>
+      <category>math.CO</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Adithya Sriram, Vedika Khemani, Benedikt Placke</dc:creator>
+    </item>
+    <item>
+      <title>Covert Quantum Learning: Privately and Verifiably Learning from Quantum Data</title>
+      <link>https://arxiv.org/abs/2510.07193</link>
+      <description>arXiv:2510.07193v1 Announce Type: new 
+Abstract: Quantum learning from remotely accessed quantum compute and data must address two key challenges: verifying the correctness of data and ensuring the privacy of the learner's data-collection strategies and resulting conclusions. The covert (verifiable) learning model of Canetti and Karchmer (TCC 2021) provides a framework for endowing classical learning algorithms with such guarantees. In this work, we propose models of covert verifiable learning in quantum learning theory and realize them without computational hardness assumptions for remote data access scenarios motivated by established quantum data advantages. We consider two privacy notions: (i) strategy-covertness, where the eavesdropper does not gain information about the learner's strategy; and (ii) target-covertness, where the eavesdropper does not gain information about the unknown object being learned. We show: Strategy-covert algorithms for making quantum statistical queries via classical shadows; Target-covert algorithms for learning quadratic functions from public quantum examples and private quantum statistical queries, for Pauli shadow tomography and stabilizer state learning from public multi-copy and private single-copy quantum measurements, and for solving Forrelation and Simon's problem from public quantum queries and private classical queries, where the adversary is a unidirectional or i.i.d. ancilla-free eavesdropper. The lattermost results in particular establish that the exponential separation between classical and quantum queries for Forrelation and Simon's problem survives under covertness constraints. Along the way, we design covert verifiable protocols for quantum data acquisition from public quantum queries which may be of independent interest. Overall, our models and corresponding algorithms demonstrate that quantum advantages are privately and verifiably achievable even with untrusted, remote data.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07193v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CR</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Abhishek Anand, Matthias C. Caro, Ari Karchmer, Saachi Mutreja</dc:creator>
+    </item>
+    <item>
+      <title>Accelerating Inference for Multilayer Neural Networks with Quantum Computers</title>
+      <link>https://arxiv.org/abs/2510.07195</link>
+      <description>arXiv:2510.07195v1 Announce Type: new 
+Abstract: Fault-tolerant Quantum Processing Units (QPUs) promise to deliver exponential speed-ups in select computational tasks, yet their integration into modern deep learning pipelines remains unclear. In this work, we take a step towards bridging this gap by presenting the first fully-coherent quantum implementation of a multilayer neural network with non-linear activation functions. Our constructions mirror widely used deep learning architectures based on ResNet, and consist of residual blocks with multi-filter 2D convolutions, sigmoid activations, skip-connections, and layer normalizations. We analyse the complexity of inference for networks under three quantum data access regimes. Without any assumptions, we establish a quadratic speedup over classical methods for shallow bilinear-style networks. With efficient quantum access to the weights, we obtain a quartic speedup over classical methods. With efficient quantum access to both the inputs and the network weights, we prove that a network with an $N$-dimensional vectorized input, $k$ residual block layers, and a final residual-linear-pooling layer can be implemented with an error of $\epsilon$ with $O(\text{polylog}(N/\epsilon)^k)$ inference cost.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07195v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Arthur G. Rattew, Po-Wei Huang, Naixu Guo, Lirand\"e Pira, Patrick Rebentrost</dc:creator>
+    </item>
+    <item>
+      <title>Quantum-Kaniadakis entropy as a measure of quantum correlations through implicit bounds</title>
+      <link>https://arxiv.org/abs/2510.07241</link>
+      <description>arXiv:2510.07241v1 Announce Type: new 
+Abstract: In the present article, we examine the relationship of negative conditional quantum Kaniadakis entropy ($\alpha-$CQKE) with the fully entangled fraction (FEF) which is a substantial yardstick for quantum information processing protocols including teleportation, and quantum steerability, executed over four vital quantum states with maximally mixed marginals, the 2-qubit Werner state, the 2-qubit Weyl state, the 2-qudit Werner state and the isotropic state. We initiate our analysis in 2$\otimes$2 systems where we derive implicit bounds on FEF when the $\alpha-$CQKE takes negative values, i.e. when $\alpha-$CQKE $\in$ $R^{-}$ for 2-qubit Werner state. Consequently, we derive the sufficient implicit bounds for a definitive claim on the non-usefulness of Werner state for quantum teleportation provided its visibility parameter succeeds to elude a critical region, the exception region 1, where the situation becomes inconclusive. Subsequently, we replicate the same for the 2-qubit Weyl state with some constraints augmented by an analogous exception region 2 and the correlation tensor matrix elements. Furthermore, we extend our investigation to d $\otimes$ d states, commencing our analysis with the Isotropic state. We derive implicit bounds on FEF of the Isotropic state and the 2-qudit Werner state resembling the ones in the 2$\otimes$2 analysis. Additionally, we utilize the convoluted relationship between the FEF and quantum steerability to formulate propositions linking negative $\alpha-$CQKE to the k-copy steerability of isotropic states for projective measurements, thereby reducing the intricacy of the study of k-copy steerability directly via FEF. In the appendix section of the article, we provide corroborative calculations and supplementary materials to the theorems presented in the main sections.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07241v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Narayan S Iyer, Shraddha Sharma</dc:creator>
+    </item>
+    <item>
+      <title>Magic and communication complexity</title>
+      <link>https://arxiv.org/abs/2510.07246</link>
+      <description>arXiv:2510.07246v1 Announce Type: new 
+Abstract: We establish novel connections between magic in quantum circuits and communication complexity. In particular, we show that functions computable with low magic have low communication cost.
+  Our first result shows that the $\mathsf{D}\|$ (deterministic simultaneous message passing) cost of a Boolean function $f$ is at most the number of single-qubit magic gates in a quantum circuit computing $f$ with any quantum advice state. If we allow mid-circuit measurements and adaptive circuits, we obtain an upper bound on the two-way communication complexity of $f$ in terms of the magic + measurement cost of the circuit for $f$. As an application, we obtain magic-count lower bounds of $\Omega(n)$ for the $n$-qubit generalized Toffoli gate as well as the $n$-qubit quantum multiplexer.
+  Our second result gives a general method to transform $\mathsf{Q}\|^*$ protocols (simultaneous quantum messages with shared entanglement) into $\mathsf{R}\|^*$ protocols (simultaneous classical messages with shared entanglement) which incurs only a polynomial blowup in the communication and entanglement complexity, provided the referee's action in the $\mathsf{Q}\|^*$ protocol is implementable in constant $T$-depth. The resulting $\mathsf{R}\|^*$ protocols satisfy strong privacy constraints and are $\mathsf{PSM}^*$ protocols (private simultaneous message passing with shared entanglement), where the referee learns almost nothing about the inputs other than the function value. As an application, we demonstrate $n$-bit partial Boolean functions whose $\mathsf{R}\|^*$ complexity is $\mathrm{polylog}(n)$ and whose $\mathsf{R}$ (interactive randomized) complexity is $n^{\Omega(1)}$, establishing the first exponential separations between $\mathsf{R}\|^*$ and $\mathsf{R}$ for Boolean functions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07246v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Uma Girish, Alex May, Natalie Parham, Henry Yuen</dc:creator>
+    </item>
+    <item>
+      <title>When quantum resources backfire: Non-gaussianity and symplectic coherence in noisy bosonic circuits</title>
+      <link>https://arxiv.org/abs/2510.07264</link>
+      <description>arXiv:2510.07264v1 Announce Type: new 
+Abstract: Analyzing the impact of noise is of fundamental importance to understand the advantages provided by quantum systems. While the classical simulability of noisy discrete-variable systems is increasingly well understood, noisy bosonic circuits are more challenging to simulate and analyze. Here, we address this gap by introducing the $\textit{displacement propagation}$ algorithm, a continuous-variable analogue of Pauli propagation for simulating noisy bosonic circuits. By exploring the interplay of noise and quantum resources, we identify several computational phase transitions, revealing regimes where even modest noise levels render bosonic circuits efficiently classically simulable. In particular, our analysis reveals a surprising phenomenon: computational resources usually associated with bosonic quantum advantage, namely non-Gaussianity and symplectic coherence, can make the system easier to classically simulate in presence of noise.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.07264v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Varun Upreti, Ulysse Chabaud, Zo\"e Holmes, Armando Angrisani</dc:creator>
+    </item>
+    <item>
+      <title>A doubly composite Chernoff-Stein lemma and its applications</title>
+      <link>https://arxiv.org/abs/2510.06342</link>
+      <description>arXiv:2510.06342v1 Announce Type: cross 
+Abstract: Given a sequence of random variables $X^n=X_1,\ldots, X_n$, discriminating between two hypotheses on the underlying probability distribution is a key task in statistics and information theory. Of interest here is the Stein exponent, i.e. the largest rate of decay (in $n$) of the type II error probability for a vanishingly small type I error probability. When the hypotheses are simple and i.i.d., the Chernoff-Stein lemma states that this is given by the relative entropy between the single-copy probability distributions. Generalisations of this result exist in the case of composite hypotheses, but mostly to settings where the probability distribution of $X^n$ is not genuinely correlated, but rather, e.g., a convex combination of product distributions with components taken from a base set. Here, we establish a general Chernoff-Stein lemma that applies to the setting where both hypotheses are composite and genuinely correlated, satisfying only generic assumptions such as convexity (on both hypotheses) and some weak form of permutational symmetry (on either hypothesis). Our result, which strictly subsumes most prior work, is proved using a refinement of the blurring technique developed in the context of the generalised quantum Stein's lemma [Lami, IEEE Trans. Inf. Theory 2025]. In this refined form, blurring is applied symbol by symbol, which makes it both stronger and applicable also in the absence of permutational symmetry. The second part of the work is devoted to applications: we provide a single-letter formula for the Stein exponent characterising the discrimination of broad families of null hypotheses vs a composite i.i.d. or an arbitrarily varying alternative hypothesis, and establish a 'constrained de Finetti reduction' statement that covers a wide family of convex constraints. Applications to quantum hypothesis testing are explored in a related paper [Lami, arXiv:today].</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06342v1</guid>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ludovico Lami</dc:creator>
+    </item>
+    <item>
+      <title>Fisher Information, Training and Bias in Fourier Regression Models</title>
+      <link>https://arxiv.org/abs/2510.06945</link>
+      <description>arXiv:2510.06945v1 Announce Type: cross 
+Abstract: Motivated by the growing interest in quantum machine learning, in particular quantum neural networks (QNNs), we study how recently introduced evaluation metrics based on the Fisher information matrix (FIM) are effective for predicting their training and prediction performance. We exploit the equivalence between a broad class of QNNs and Fourier models, and study the interplay between the \emph{effective dimension} and the \emph{bias} of a model towards a given task, investigating how these affect the model's training and performance. We show that for a model that is completely agnostic, or unbiased, towards the function to be learned, a higher effective dimension likely results in a better trainability and performance. On the other hand, for models that are biased towards the function to be learned a lower effective dimension is likely beneficial during training. To obtain these results, we derive an analytical expression of the FIM for Fourier models and identify the features controlling a model's effective dimension. This allows us to construct models with tunable effective dimension and bias, and to compare their training. We furthermore introduce a tensor network representation of the considered Fourier models, which could be a tool of independent interest for the analysis of QNN models. Overall, these findings provide an explicit example of the interplay between geometrical properties, model-task alignment and training, which are relevant for the broader machine learning community.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.06945v1</guid>
+      <category>cs.LG</category>
+      <category>cond-mat.dis-nn</category>
+      <category>physics.data-an</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Lorenzo Pastori, Veronika Eyring, Mierk Schwabe</dc:creator>
     </item>
   </channel>
 </rss>

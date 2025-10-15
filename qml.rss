@@ -7,82 +7,68 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Oct 2025 04:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 04:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Bounds in the Projective Unitary Group with Respect to Global Phase Invariant Metric</title>
-      <link>https://arxiv.org/abs/2510.09765</link>
-      <description>arXiv:2510.09765v1 Announce Type: new 
-Abstract: We consider a global phase-invariant metric in the projective unitary group PUn, relevant for universal quantum computing. We obtain the volume and measure of small metric ball in PUn and derive the Gilbert-Varshamov and Hamming bounds in PUn. In addition, we provide upper and lower bounds for the kissing radius of the codebooks in PUn as a function of the minimum distance. Using the lower bound of the kissing radius, we find a tight Hamming bound. Also, we establish bounds on the distortion-rate function for quantizing a source uniformly distributed over PUn. As example codebooks in PUn, we consider the projective Pauli and Clifford groups, as well as the projective group of diagonal gates in the Clifford hierarchy, and find their minimum distances. For any code in PUn with given cardinality we provide a lower bound of covering radius. Also, we provide expected value of the covering radius of randomly distributed points on PUn, when cardinality of code is sufficiently large. We discuss codebooks at various stages of the projective Clifford + T and projective Clifford + S constructions in PU2, and obtain their minimum distance, distortion, and covering radius. Finally, we verify the analytical results by simulation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.09765v1</guid>
+      <title>Quantum Kernel Methods: Convergence Theory, Separation Bounds and Applications to Marketing Analytics</title>
+      <link>https://arxiv.org/abs/2510.11744</link>
+      <description>arXiv:2510.11744v1 Announce Type: new 
+Abstract: This work studies the feasibility of applying quantum kernel methods to a real consumer classification task in the NISQ regime. We present a hybrid pipeline that combines a quantum-kernel Support Vector Machine (Q-SVM) with a quantum feature extraction module (QFE), and benchmark it against classical and quantum baselines in simulation and with limited shallow-depth hardware runs. With fixed hyperparameters, the proposed Q-SVM attains 0.7790 accuracy, 0.7647 precision, 0.8609 recall, 0.8100 F1, and 0.83 ROC AUC, exhibiting higher sensitivity while maintaining competitive precision relative to classical SVM. We interpret these results as an initial indicator and a concrete starting point for NISQ-era workflows and hardware integration, rather than a definitive benchmark. Methodologically, our design aligns with recent work that formalizes quantum-classical separations and verifies resources via XEB-style approaches, motivating shallow yet expressive quantum embeddings to achieve robust separability despite hardware noise constraints.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.11744v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Bhanu Pratap Yadav, Mahdi Bayanifar, Olav Tirkkonen</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Laura S\'aez-Ortu\~no, Santiago Forgas-Coll, Massimiliano Ferrara</dc:creator>
     </item>
     <item>
-      <title>Bounds on Eventually Universal Quantum Gate Sets</title>
-      <link>https://arxiv.org/abs/2510.09931</link>
-      <description>arXiv:2510.09931v1 Announce Type: new 
-Abstract: Say a collection of $n$-qu$d$it gates $\Gamma$ is eventually universal if and only if there exists $N_0 \geq n$ such that for all $N \geq N_0$, one can approximate any $N$-qu$d$it unitary to arbitrary precision by a circuit over $\Gamma$. In this work, we improve the best known upper bound on the smallest $N_0$ with the above property. Our new bound is roughly $d^4n$, where $d$ is the local dimension (the `$d$' in qu$d$it), whereas the previous bound was roughly $d^8n$. For qubits ($d = 2$), our result implies that if an $n$-qubit gate set is eventually universal, then it will exhibit universality when acting on a $16n$ qubit system, as opposed to the previous bound of a $256n$ qubit system. In other words, if adding just $15n$ ancillary qubits to a quantum system (as opposed to the previous bound of $255 n$ ancillary qubits) does not boost a gate set to universality, then no number of ancillary qubits ever will. Our proof relies on the invariants of finite linear groups as well as a classification result for all finite groups that are unitary $2$-designs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.09931v1</guid>
+      <title>Neural Guided Sampling for Quantum Circuit Optimization</title>
+      <link>https://arxiv.org/abs/2510.12430</link>
+      <description>arXiv:2510.12430v1 Announce Type: new 
+Abstract: Translating a general quantum circuit on a specific hardware topology with a reduced set of available gates, also known as transpilation, comes with a substantial increase in the length of the equivalent circuit. Due to decoherence, the quality of the computational outcome can degrade seriously with increasing circuit length. Thus, there is major interest to reduce a quantum circuit to an equivalent circuit which is in its gate count as short as possible. One method to address efficient transpilation is based on approaches known from stochastic optimization, e.g. by using random sampling and token replacement strategies. Here, a core challenge is that these methods can suffer from sampling efficiency, causing long and energy consuming optimization time. As a remedy, we propose in this work 2D neural guided sampling. Thus, given a 2D representation of a quantum circuit, a neural network predicts groups of gates in the quantum circuit, which are likely reducible. Thus, it leads to a sampling prior which can heavily reduce the compute time for quantum circuit reduction. In several experiments, we demonstrate that our method is superior to results obtained from different qiskit or BQSKit optimization levels.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.12430v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bodo Rosenhahn, Tobias J. Osborne, Christoph Hirche</dc:creator>
+    </item>
+    <item>
+      <title>Performance of Gaussian Boson Sampling on Planted Bipartite Clique Detection</title>
+      <link>https://arxiv.org/abs/2510.12774</link>
+      <description>arXiv:2510.12774v1 Announce Type: new 
+Abstract: We investigate whether Gaussian Boson Sampling (GBS) can provide a computational advantage for solving the planted biclique problem, which is a graph problem widely believed to be classically hard when the planted structure is small. Although GBS has been heuristically and experimentally observed to favor sampling dense subgraphs, its theoretical performance on this classically hard problem remains largely unexplored. We focus on a natural statistic derived from GBS output: the frequency with which a node appears in GBS samples, referred to as the node weight. We rigorously analyze whether this signal is strong enough to distinguish planted biclique nodes from background nodes. Our analysis characterizes the distribution of node weights under GBS and quantifies the bias introduced by the planted structure. The results reveal a sharp limitation: when the planted biclique size falls within the conjectured hard regime, the natural fluctuations in node weights dominate the bias signal, making detection unreliable using simple ranking strategies. These findings provide the first rigorous evidence that planted biclique detection may remain computationally hard even under GBS-based quantum computing, and they motivate further investigation into more advanced GBS-based algorithms or other quantum approaches for this problem.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.12774v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+      <category>cs.DS</category>
+      <category>math.CO</category>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Chaitanya Karamchedu, Matthew Fox, Daniel Gottesman</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Yu-Zhen Janice Chen, Laurent Massouli\'e, Don Towsley</dc:creator>
     </item>
     <item>
-      <title>Hierarchical Qubit-Merging Transformer for Quantum Error Correction</title>
-      <link>https://arxiv.org/abs/2510.11593</link>
-      <description>arXiv:2510.11593v1 Announce Type: new 
-Abstract: For reliable large-scale quantum computation, a quantum error correction (QEC) scheme must effectively resolve physical errors to protect logical information. Leveraging recent advances in deep learning, neural network-based decoders have emerged as a promising approach to enhance the reliability of QEC. We propose the Hierarchical Qubit-Merging Transformer (HQMT), a novel and general decoding framework that explicitly leverages the structural graph of stabilizer codes to learn error correlations across multiple scales. Our architecture first computes attention locally on structurally related groups of stabilizers and then systematically merges these qubit-centric representations to build a global view of the error syndrome. The proposed HQMT achieves substantially lower logical error rates for surface codes by integrating a dedicated qubit-merging layer within the transformer architecture. Across various code distances, HQMT significantly outperforms previous neural network-based QEC decoders as well as a powerful belief propagation with ordered statistics decoding (BP+OSD) baseline. This hierarchical approach provides a scalable and effective framework for surface code decoding, advancing the realization of reliable quantum computing.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.11593v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Seong-Joon Park, Hee-Youl Kwak, Yongjune Kim</dc:creator>
-    </item>
-    <item>
-      <title>Neural PDE Solvers with Physics Constraints: A Comparative Study of PINNs, DRM, and WANs</title>
-      <link>https://arxiv.org/abs/2510.09693</link>
-      <description>arXiv:2510.09693v1 Announce Type: cross 
-Abstract: Partial differential equations (PDEs) underpin models across science and engineering, yet analytical solutions are atypical and classical mesh-based solvers can be costly in high dimensions. This dissertation presents a unified comparison of three mesh-free neural PDE solvers, physics-informed neural networks (PINNs), the deep Ritz method (DRM), and weak adversarial networks (WANs), on Poisson problems (up to 5D) and the time-independent Schr\"odinger equation in 1D/2D (infinite well and harmonic oscillator), and extends the study to a laser-driven case of Schr\"odinger's equation via the Kramers-Henneberger (KH) transformation.
-  Under a common protocol, all methods achieve low $L_2$ errors ($10^{-6}$-$10^{-9}$) when paired with forced boundary conditions (FBCs), forced nodes (FNs), and orthogonality regularization (OG). Across tasks, PINNs are the most reliable for accuracy and recovery of excited spectra; DRM offers the best accuracy-runtime trade-off on stationary problems; WAN is more sensitive but competitive when weak-form constraints and FN/OG are used effectively. Sensitivity analyses show that FBC removes boundary-loss tuning, network width matters more than depth for single-network solvers, and most gains occur within 5000-10,000 epochs. The same toolkit solves the KH case, indicating transfer beyond canonical benchmarks.
-  We provide practical guidelines for method selection and outline the following extensions: time-dependent formulations for DRM and WAN, adaptive residual-driven sampling, parallel multi-state training, and neural domain decomposition. These results support physics-guided neural solvers as credible, scalable tools for solving complex PDEs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.09693v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jiakang Chen</dc:creator>
-    </item>
-    <item>
-      <title>On the Capacity of Distributed Quantum Storage</title>
-      <link>https://arxiv.org/abs/2510.10568</link>
-      <description>arXiv:2510.10568v1 Announce Type: cross 
-Abstract: A distributed quantum storage code maps a quantum message to N storage nodes, of arbitrary specified sizes, such that the stored message is robust to an arbitrary specified set of erasure patterns. The sizes of the storage nodes, and erasure patterns may not be homogeneous. The capacity of distributed quantum storage is the maximum feasible size of the quantum message (relative to the sizes of the storage nodes), when the scaling of the size of the message and all storage nodes by the same scaling factor is allowed. Representing the decoding sets as hyperedges in a storage graph, the capacity is characterized for various graphs, including MDS graph, wheel graph, Fano graph, and intersection graph. The achievability is related via quantum CSS codes to a classical secure storage problem. Remarkably, our coding schemes utilize non-trivial alignment structures to ensure recovery and security in the corresponding classical secure storage problem, which leads to similarly non-trivial quantum codes. The converse is based on quantum information inequalities, e.g., strong sub-additivity and weak monotonicity of quantum entropy, tailored to the topology of the storage graphs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.10568v1</guid>
+      <title>Algorithmic Temperature Induced by Adopted Regular Universal Turing Machine</title>
+      <link>https://arxiv.org/abs/2510.11737</link>
+      <description>arXiv:2510.11737v1 Announce Type: cross 
+Abstract: We prove that an effective temperature naturally emerges from the algorithmic structure of a regular universal Turing machine (UTM), without introducing any external physical parameter. In particular, the redundancy growth of the machine's wrapper language induces a Boltzmann--like exponential weighting over program lengths, yielding a canonical ensemble interpretation of algorithmic probability. This establishes a formal bridge between algorithmic information theory and statistical mechanics, in which the adopted UTM determines the intrinsic ``algorithmic temperature.'' We further show that this temperature approaches its maximal limit under the universal mixture (Solomonoff distribution), and discuss its epistemic meaning as the resolution level of an observer.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2510.11737v1</guid>
+      <category>cond-mat.stat-mech</category>
       <category>cs.IT</category>
       <category>math.IT</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hua Sun, Syed A. Jafar</dc:creator>
+      <dc:creator>Kentaro Imafuku</dc:creator>
     </item>
   </channel>
 </rss>

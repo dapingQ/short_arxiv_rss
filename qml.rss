@@ -7,68 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 04:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 04:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 16 Oct 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
-    <item>
-      <title>Quantum Kernel Methods: Convergence Theory, Separation Bounds and Applications to Marketing Analytics</title>
-      <link>https://arxiv.org/abs/2510.11744</link>
-      <description>arXiv:2510.11744v1 Announce Type: new 
-Abstract: This work studies the feasibility of applying quantum kernel methods to a real consumer classification task in the NISQ regime. We present a hybrid pipeline that combines a quantum-kernel Support Vector Machine (Q-SVM) with a quantum feature extraction module (QFE), and benchmark it against classical and quantum baselines in simulation and with limited shallow-depth hardware runs. With fixed hyperparameters, the proposed Q-SVM attains 0.7790 accuracy, 0.7647 precision, 0.8609 recall, 0.8100 F1, and 0.83 ROC AUC, exhibiting higher sensitivity while maintaining competitive precision relative to classical SVM. We interpret these results as an initial indicator and a concrete starting point for NISQ-era workflows and hardware integration, rather than a definitive benchmark. Methodologically, our design aligns with recent work that formalizes quantum-classical separations and verifies resources via XEB-style approaches, motivating shallow yet expressive quantum embeddings to achieve robust separability despite hardware noise constraints.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.11744v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Laura S\'aez-Ortu\~no, Santiago Forgas-Coll, Massimiliano Ferrara</dc:creator>
-    </item>
-    <item>
-      <title>Neural Guided Sampling for Quantum Circuit Optimization</title>
-      <link>https://arxiv.org/abs/2510.12430</link>
-      <description>arXiv:2510.12430v1 Announce Type: new 
-Abstract: Translating a general quantum circuit on a specific hardware topology with a reduced set of available gates, also known as transpilation, comes with a substantial increase in the length of the equivalent circuit. Due to decoherence, the quality of the computational outcome can degrade seriously with increasing circuit length. Thus, there is major interest to reduce a quantum circuit to an equivalent circuit which is in its gate count as short as possible. One method to address efficient transpilation is based on approaches known from stochastic optimization, e.g. by using random sampling and token replacement strategies. Here, a core challenge is that these methods can suffer from sampling efficiency, causing long and energy consuming optimization time. As a remedy, we propose in this work 2D neural guided sampling. Thus, given a 2D representation of a quantum circuit, a neural network predicts groups of gates in the quantum circuit, which are likely reducible. Thus, it leads to a sampling prior which can heavily reduce the compute time for quantum circuit reduction. In several experiments, we demonstrate that our method is superior to results obtained from different qiskit or BQSKit optimization levels.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.12430v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Bodo Rosenhahn, Tobias J. Osborne, Christoph Hirche</dc:creator>
-    </item>
-    <item>
-      <title>Performance of Gaussian Boson Sampling on Planted Bipartite Clique Detection</title>
-      <link>https://arxiv.org/abs/2510.12774</link>
-      <description>arXiv:2510.12774v1 Announce Type: new 
-Abstract: We investigate whether Gaussian Boson Sampling (GBS) can provide a computational advantage for solving the planted biclique problem, which is a graph problem widely believed to be classically hard when the planted structure is small. Although GBS has been heuristically and experimentally observed to favor sampling dense subgraphs, its theoretical performance on this classically hard problem remains largely unexplored. We focus on a natural statistic derived from GBS output: the frequency with which a node appears in GBS samples, referred to as the node weight. We rigorously analyze whether this signal is strong enough to distinguish planted biclique nodes from background nodes. Our analysis characterizes the distribution of node weights under GBS and quantifies the bias introduced by the planted structure. The results reveal a sharp limitation: when the planted biclique size falls within the conjectured hard regime, the natural fluctuations in node weights dominate the bias signal, making detection unreliable using simple ranking strategies. These findings provide the first rigorous evidence that planted biclique detection may remain computationally hard even under GBS-based quantum computing, and they motivate further investigation into more advanced GBS-based algorithms or other quantum approaches for this problem.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.12774v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.DS</category>
-      <category>math.CO</category>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Yu-Zhen Janice Chen, Laurent Massouli\'e, Don Towsley</dc:creator>
-    </item>
-    <item>
-      <title>Algorithmic Temperature Induced by Adopted Regular Universal Turing Machine</title>
-      <link>https://arxiv.org/abs/2510.11737</link>
-      <description>arXiv:2510.11737v1 Announce Type: cross 
-Abstract: We prove that an effective temperature naturally emerges from the algorithmic structure of a regular universal Turing machine (UTM), without introducing any external physical parameter. In particular, the redundancy growth of the machine's wrapper language induces a Boltzmann--like exponential weighting over program lengths, yielding a canonical ensemble interpretation of algorithmic probability. This establishes a formal bridge between algorithmic information theory and statistical mechanics, in which the adopted UTM determines the intrinsic ``algorithmic temperature.'' We further show that this temperature approaches its maximal limit under the universal mixture (Solomonoff distribution), and discuss its epistemic meaning as the resolution level of an observer.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.11737v1</guid>
-      <category>cond-mat.stat-mech</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kentaro Imafuku</dc:creator>
-    </item>
   </channel>
 </rss>

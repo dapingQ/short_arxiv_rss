@@ -7,66 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 04:00:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 04:00:03 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 31 Oct 2025 00:00:00 -0400</pubDate>
+    <pubDate>Sat, 01 Nov 2025 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
-    <item>
-      <title>Enabling Fast and Accurate Neutral Atom Readout through Image Denoising</title>
-      <link>https://arxiv.org/abs/2510.25982</link>
-      <description>arXiv:2510.25982v1 Announce Type: new 
-Abstract: Neutral atom quantum computers hold promise for scaling up to hundreds of thousands of qubits, but their progress is constrained by slow qubit readout. Measuring qubits currently takes milliseconds-much longer than the underlying quantum gate operations-making readout the primary bottleneck in deploying quantum error correction. Because each round of QEC depends on measurement, long readout times increase cycle duration and slow down program execution. Reducing the readout duration speeds up cycles and reduces decoherence errors that accumulate while qubits idle, but it also lowers the number of collected photons, making measurements noisier and more error-prone. This tradeoff leaves neutral atom systems stuck between slow but accurate readout and fast but unreliable readout.
-  We show that image denoising can resolve this tension. Our framework, GANDALF, uses explicit denoising using image translation to reconstruct clear signals from short, low-photon measurements, enabling reliable classification at up to 1.6x shorter readout times. Combined with lightweight classifiers and a pipelined readout design, our approach both reduces logical error rate by up to 35x and overall QEC cycle time up to 1.77x compared to state-of-the-art CNN-based readout for Cesium (Cs) Neutral Atom arrays.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.25982v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Chaithanya Naik Mude, Linipun Phuttitarn, Satvik Maurya, Kunal Sinha, Mark Saffman, Swamit Tannu</dc:creator>
-    </item>
-    <item>
-      <title>Practical hybrid decoding scheme for parity-encoded spin systems</title>
-      <link>https://arxiv.org/abs/2510.26189</link>
-      <description>arXiv:2510.26189v1 Announce Type: new 
-Abstract: We propose a practical hybrid decoding scheme for the parity-encoding architecture. This architecture was first introduced by N. Sourlas as a computational technique for tackling hard optimization problems, especially those modeled by spin systems such as the Ising model and spin glasses, and reinvented by W. Lechner, P. Hauke, and P. Zoller to develop quantum annealing devices. We study the specific model, called the SLHZ model, aiming to achieve a near-term quantum annealing device implemented solely through geometrically local spin interactions. Taking account of the close connection between the SLHZ model and a classical low-density-parity-check code, two approaches can be chosen for the decoding: (1) finding the ground state of a spin Hamiltonian derived from the SLHZ model, which can be achieved via stochastic decoders such as quantum annealing or classical Monte Carlo samplers; (2) using deterministic decoding techniques for the classical LDPC code, such as belief propagation and bit-flip decoder. The proposed hybrid approach combines the two approaches by applying bit-flip decoding to the readout of the stochastic decoder based on the SLHZ model. We present simulations demonstrating that this approach can reveal the latent potential of the SLHZ model, realizing soft-annealing concept proposed by Sourlas.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.26189v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yoshihiro Nambu</dc:creator>
-    </item>
-    <item>
-      <title>Limitation of Quantum Walk Approach to the Maximum Matching Problem</title>
-      <link>https://arxiv.org/abs/2510.26246</link>
-      <description>arXiv:2510.26246v1 Announce Type: new 
-Abstract: The Maximum Matching problem has a quantum query complexity lower bound of $\Omega(n^{3/2})$ for graphs on $n$ vertices represented by an adjacency matrix. The current best quantum algorithm has the query complexity $O(n^{7/4})$, which is an improvement over the trivial bound $O(n^2)$. Constructing a quantum algorithm for this problem with a query complexity improving the upper bound $O(n^{7/4})$ is an open problem. The quantum walk technique is a general framework for constructing quantum algorithms by transforming a classical random walk search into a quantum search, and has been successfully applied to constructing an algorithm with a tight query complexity for another problem. In this work we show that the quantum walk technique fails to produce a fast algorithm improving the known (or even the trivial) upper bound on the query complexity. Specifically, if a quantum walk algorithm designed with the known technique solves the Maximum Matching problem using $O(n^{2-\epsilon})$ queries with any constant $\epsilon&gt;0$, and if the underlying classical random walk is independent of an input graph, then the guaranteed time complexity is larger than any polynomial of $n$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.26246v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Alcides Gomes Andrade J\'unior, Akira Matsubayashi</dc:creator>
-    </item>
-    <item>
-      <title>FlowQ-Net: A Generative Framework for Automated Quantum Circuit Design</title>
-      <link>https://arxiv.org/abs/2510.26688</link>
-      <description>arXiv:2510.26688v1 Announce Type: new 
-Abstract: Designing efficient quantum circuits is a central bottleneck to exploring the potential of quantum computing, particularly for noisy intermediate-scale quantum (NISQ) devices, where circuit efficiency and resilience to errors are paramount. The search space of gate sequences grows combinatorially, and handcrafted templates often waste scarce qubit and depth budgets. We introduce \textsc{FlowQ-Net} (Flow-based Quantum design Network), a generative framework for automated quantum circuit synthesis based on Generative Flow Networks (GFlowNets). This framework learns a stochastic policy to construct circuits sequentially, sampling them in proportion to a flexible, user-defined reward function that can encode multiple design objectives such as performance, depth, and gate count. This approach uniquely enables the generation of a diverse ensemble of high-quality circuits, moving beyond single-solution optimization. We demonstrate the efficacy of \textsc{FlowQ-Net} through an extensive set of simulations. We apply our method to Variational Quantum Algorithm (VQA) ansatz design for molecular ground state estimation, Max-Cut, and image classification, key challenges in near-term quantum computing. Circuits designed by \textsc{FlowQ-Net} achieve significant improvements, yielding circuits that are 10$\times$-30$\times$ more compact in terms of parameters, gates, and depth compared to commonly used unitary baselines, without compromising accuracy. This trend holds even when subjected to error profiles from real-world quantum devices. Our results underline the potential of generative models as a general-purpose methodology for automated quantum circuit design, offering a promising path towards more efficient quantum algorithms and accelerating scientific discovery in the quantum domain.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2510.26688v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jun Dai, Michael Rizvi-Martel, Guillaume Rabusseau</dc:creator>
-    </item>
   </channel>
 </rss>

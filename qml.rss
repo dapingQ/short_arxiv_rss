@@ -7,81 +7,38 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Nov 2025 05:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 05:00:10 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 06 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Stability of mixed-state phases under weak decoherence</title>
-      <link>https://arxiv.org/abs/2511.01976</link>
-      <description>arXiv:2511.01976v1 Announce Type: new 
-Abstract: We prove that the Gibbs states of classical, and commuting-Pauli, Hamiltonians are stable under weak local decoherence: i.e., we show that the effect of the decoherence can be locally reversed. In particular, our conclusions apply to finite-temperature equilibrium critical points and ordered low-temperature phases. In these systems the unconditional spatio-temporal correlations are long-range, and local (e.g., Metropolis) dynamics exhibits critical slowing down. Nevertheless, our results imply the existence of local "decoders" that undo the decoherence, when the decoherence strength is below a critical value. An implication of these results is that thermally stable quantum memories have a threshold against decoherence that remains nonzero as one approaches the critical temperature. Analogously, in diffusion models, stability of data distributions implies the existence of computationally-efficent local denoisers in the late-time generation dynamics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.01976v1</guid>
+      <title>Influence of Data Dimensionality Reduction Methods on the Effectiveness of Quantum Machine Learning Models</title>
+      <link>https://arxiv.org/abs/2511.03320</link>
+      <description>arXiv:2511.03320v1 Announce Type: new 
+Abstract: Data dimensionality reduction techniques are often utilized in the implementation of Quantum Machine Learning models to address two significant issues: the constraints of NISQ quantum devices, which are characterized by noise and a limited number of qubits, and the challenge of simulating a large number of qubits on classical devices. It also raises concerns over the scalability of these approaches, as dimensionality reduction methods are slow to adapt to large datasets. In this article, we analyze how data reduction methods affect different QML models. We conduct this experiment over several generated datasets, quantum machine algorithms, quantum data encoding methods, and data reduction methods. All these models were evaluated on the performance metrics like accuracy, precision, recall, and F1 score. Our findings have led us to conclude that the usage of data dimensionality reduction methods results in skewed performance metric values, which results in wrongly estimating the actual performance of quantum machine learning models. There are several factors, along with data dimensionality reduction methods, that worsen this problem, such as characteristics of the datasets, classical to quantum information embedding methods, percentage of feature reduction, classical components associated with quantum models, and structure of quantum machine learning models. We consistently observed the difference in the accuracy range of 14% to 48% amongst these models, using data reduction and not using it. Apart from this, our observations have shown that some data reduction methods tend to perform better for some specific data embedding methodologies and ansatz constructions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.03320v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.stat-mech</category>
       <category>cs.LG</category>
-      <category>math-ph</category>
-      <category>math.MP</category>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yifan F. Zhang, Sarang Gopalakrishnan</dc:creator>
+      <dc:creator>Aakash Ravindra Shinde, Jukka K. Nurminen</dc:creator>
     </item>
     <item>
-      <title>Trustworthy Quantum Machine Learning: A Roadmap for Reliability, Robustness, and Security in the NISQ Era</title>
-      <link>https://arxiv.org/abs/2511.02602</link>
-      <description>arXiv:2511.02602v1 Announce Type: new 
-Abstract: Quantum machine learning (QML) is a promising paradigm for tackling computational problems that challenge classical AI. Yet, the inherent probabilistic behavior of quantum mechanics, device noise in NISQ hardware, and hybrid quantum-classical execution pipelines introduce new risks that prevent reliable deployment of QML in real-world, safety-critical settings. This research offers a broad roadmap for Trustworthy Quantum Machine Learning (TQML), integrating three foundational pillars of reliability: (i) uncertainty quantification for calibrated and risk-aware decision making, (ii) adversarial robustness against classical and quantum-native threat models, and (iii) privacy preservation in distributed and delegated quantum learning scenarios. We formalize quantum-specific trust metrics grounded in quantum information theory, including a variance-based decomposition of predictive uncertainty, trace-distance-bounded robustness, and differential privacy for hybrid learning channels. To demonstrate feasibility on current NISQ devices, we validate a unified trust assessment pipeline on parameterized quantum classifiers, uncovering correlations between uncertainty and prediction risk, an asymmetry in attack vulnerability between classical and quantum state perturbations, and privacy-utility trade-offs driven by shot noise and quantum channel noise. This roadmap seeks to define trustworthiness as a first-class design objective for quantum AI.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.02602v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ferhat Ozgur Catak, Jungwon Seo, Umit Cali</dc:creator>
-    </item>
-    <item>
-      <title>Superpositional Gradient Descent: Harnessing Quantum Principles for Model Training</title>
-      <link>https://arxiv.org/abs/2511.01918</link>
-      <description>arXiv:2511.01918v1 Announce Type: cross 
-Abstract: Large language models (LLMs) are increasingly trained with classical optimization techniques like AdamW to improve convergence and generalization. However, the mechanisms by which quantum-inspired methods enhance classical training remain underexplored. We introduce Superpositional Gradient Descent (SGD), a novel optimizer linking gradient updates with quantum superposition by injecting quantum circuit perturbations. We present a mathematical framework and implement hybrid quantum-classical circuits in PyTorch and Qiskit. On synthetic sequence classification and large-scale LLM fine-tuning, SGD converges faster and yields lower final loss than AdamW. Despite promising results, scalability and hardware constraints limit adoption. Overall, this work provides new insights into the intersection of quantum computing and deep learning, suggesting practical pathways for leveraging quantum principles to control and enhance model behavior.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.01918v1</guid>
+      <title>Enhancing Federated Learning Privacy with QUBO</title>
+      <link>https://arxiv.org/abs/2511.02785</link>
+      <description>arXiv:2511.02785v1 Announce Type: cross 
+Abstract: Federated learning (FL) is a widely used method for training machine learning (ML) models in a scalable way while preserving privacy (i.e., without centralizing raw data). Prior research shows that the risk of exposing sensitive data increases cumulatively as the number of iterations where a client's updates are included in the aggregated model increase. Attackers can launch membership inference attacks (MIA; deciding whether a sample or client participated), property inference attacks (PIA; inferring attributes of a client's data), and model inversion attacks (MI; reconstructing inputs), thereby inferring client-specific attributes and, in some cases, reconstructing inputs. In this paper, we mitigate risk by substantially reducing per client exposure using a quantum computing-inspired quadratic unconstrained binary optimization (QUBO) formulation that selects a small subset of client updates most relevant for each training round. In this work, we focus on two threat vectors: (i) information leakage by clients during training and (ii) adversaries who can query or obtain the global model. We assume a trusted central server and do not model server compromise. This method also assumes that the server has access to a validation/test set with global data distribution. Experiments on the MNIST dataset with 300 clients in 20 rounds showed a 95.2% per-round and 49% cumulative privacy exposure reduction, with 147 clients' updates never being used during training while maintaining in general the full-aggregation accuracy or even better. The method proved to be efficient at lower scale and more complex model as well. A CINIC-10 dataset-based experiment with 30 clients resulted in 82% per-round privacy improvement and 33% cumulative privacy.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.02785v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ahmet Erdem Pamuk, Emir Kaan \"Ozdemir, \c{S}uayp Talha Kocabay</dc:creator>
-    </item>
-    <item>
-      <title>QuPCG: Quantum Convolutional Neural Network for Detecting Abnormal Patterns in PCG Signals</title>
-      <link>https://arxiv.org/abs/2511.02140</link>
-      <description>arXiv:2511.02140v1 Announce Type: cross 
-Abstract: Early identification of abnormal physiological patterns is essential for the timely detection of cardiac disease. This work introduces a hybrid quantum-classical convolutional neural network (QCNN) designed to classify S3 and murmur abnormalities in heart sound signals. The approach transforms one-dimensional phonocardiogram (PCG) signals into compact two-dimensional images through a combination of wavelet feature extraction and adaptive threshold compression methods. We compress the cardiac-sound patterns into an 8-pixel image so that only 8 qubits are needed for the quantum stage. Preliminary results on the HLS-CMDS dataset demonstrate 93.33% classification accuracy on the test set and 97.14% on the train set, suggesting that quantum models can efficiently capture temporal-spectral correlations in biomedical signals. To our knowledge, this is the first application of a QCNN algorithm for bioacoustic signal processing. The proposed method represents an early step toward quantum-enhanced diagnostic systems for resource-constrained healthcare environments.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.02140v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yasaman Torabi, Shahram Shirani, James P. Reilly</dc:creator>
-    </item>
-    <item>
-      <title>Federated Quantum Kernel Learning for Anomaly Detection in Multivariate IoT Time-Series</title>
-      <link>https://arxiv.org/abs/2511.02301</link>
-      <description>arXiv:2511.02301v1 Announce Type: cross 
-Abstract: The rapid growth of industrial Internet of Things (IIoT) systems has created new challenges for anomaly detection in high-dimensional, multivariate time-series, where privacy, scalability, and communication efficiency are critical. Classical federated learning approaches mitigate privacy concerns by enabling decentralized training, but they often struggle with highly non-linear decision boundaries and imbalanced anomaly distributions. To address this gap, we propose a Federated Quantum Kernel Learning (FQKL) framework that integrates quantum feature maps with federated aggregation to enable distributed, privacy-preserving anomaly detection across heterogeneous IoT networks. In our design, quantum edge nodes locally compute compressed kernel statistics using parameterized quantum circuits and share only these summaries with a central server, which constructs a global Gram matrix and trains a decision function (e.g., Fed-QSVM). Experimental results on synthetic IIoT benchmarks demonstrate that FQKL achieves superior generalization in capturing complex temporal correlations compared to classical federated baselines, while significantly reducing communication overhead. This work highlights the promise of quantum kernels in federated settings, advancing the path toward scalable, robust, and quantum-enhanced intelligence for next-generation IoT infrastructures.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.02301v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kuan-Cheng Chen, Samuel Yen-Chi Chen, Chen-Yu Liu, Kin K. Leung</dc:creator>
+      <dc:creator>Andras Ferenczi, Sutapa Samanta, Dagen Wang, Todd Hodges</dc:creator>
     </item>
   </channel>
 </rss>

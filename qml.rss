@@ -7,12 +7,67 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Nov 2025 05:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Nov 2025 05:00:07 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 09 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 10 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
+    <item>
+      <title>Optimization of Information Reconciliation for Decoy-State Quantum Key Distribution over a Satellite Downlink Channel</title>
+      <link>https://arxiv.org/abs/2511.05196</link>
+      <description>arXiv:2511.05196v1 Announce Type: new 
+Abstract: Quantum key distribution (QKD) is a cryptographic solution that leverages the properties of quantum mechanics to be resistant and secure even against an attacker with unlimited computational power. Satellite-based links are important in QKD because they can reach distances that the best fiber systems cannot. However, links between satellites in low Earth orbit (LEO) and ground stations have a duration of only a few minutes, resulting in the generation of a small amount of secure keys. In this context, we investigate the optimization of the information reconciliation step of the QKD post-processing in order to generate as much secure key as possible. As a first step, we build an accurate model of the downlink signal and quantum bit error rate (QBER) during a complete satellite pass, which are time-varying due to three effects: (i) the varying link geometry over time, (ii) the scintillation effect, and (iii) the different signal intensities adopted in the Decoy-State protocol. Leveraging the a-priori information on the instantaneous QBER, we improve the efficiency of information reconciliation (IR) (i.e., the error correction phase) in the Decoy-State BB84 protocol, resulting in a secure key that is almost 3\% longer for realistic scenarios.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.05196v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CR</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Thomas Scarinzi, Davide Orsucci, Marco Ferrari, Luca Barletta</dc:creator>
+    </item>
+    <item>
+      <title>A Gate-Based Quantum Genetic Algorithm for Real-Valued Global Optimization</title>
+      <link>https://arxiv.org/abs/2511.05254</link>
+      <description>arXiv:2511.05254v1 Announce Type: new 
+Abstract: We propose a gate-based Quantum Genetic Algorithm (QGA) for real-valued global optimization. In this model, individuals are represented by quantum circuits whose measurement outcomes are decoded into real-valued vectors through binary discretization. Evolutionary operators act directly on circuit structures, allowing mutation and crossover to explore the space of gate-based encodings. Both fixed-depth and variable-depth variants are introduced, enabling either uniform circuit complexity or adaptive structural evolution. Fitness is evaluated through quantum sampling, using the mean decoded output of measurement outcomes as the argument of the objective function. To isolate the impact of quantum resources, we compare gate sets with and without the Hadamard gate, showing that superposition consistently improves convergence and robustness across benchmark functions such as the Rastrigin function. Furthermore, we demonstrate that introducing pairwise inter-individual entanglement in the population accelerates early convergence, revealing that quantum correlations among individuals provide an additional optimization advantage. Together, these results show that both superposition and entanglement enhance the search dynamics of evolutionary quantum algorithms, establishing gate-based QGAs as a promising framework for quantum-enhanced global optimization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.05254v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.NE</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Leandro C. Souza, Laurent E. Dardenne, Renato Portugal</dc:creator>
+    </item>
+    <item>
+      <title>Quantum advantage from effective $200$-qubit holographic random circuit sampling</title>
+      <link>https://arxiv.org/abs/2511.05433</link>
+      <description>arXiv:2511.05433v1 Announce Type: new 
+Abstract: Quantum computers hold the promise of outperforming classical computers in solving certain problems. While large-scale quantum algorithms will require fault-tolerant devices, near-term demonstrations of quantum advantage on existing devices can provide important milestones. Random circuit sampling has emerged as a leading candidate for such demonstrations. However, existing implementations often underutilize circuit depth, limiting the achievable advantage. We introduce a holographic random circuit sampling algorithm that substantially increases the sampling complexity by leveraging repeated interactions and mid-circuit measurements. This approach scales the effective sampling dimension with the circuit depth, ultimately leading to an exponential growth in sampling complexity. With merely 20 physical qubits on IBM quantum devices, we experimentally demonstrate the effective sampling of up to 200 qubits, with a cross-entropy benchmark fidelity of $0.0593$, establishing a new route to scalable quantum advantage through the combined use of spatial and temporal quantum resources.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.05433v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bingzhi Zhang, Quntao Zhuang</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Boltzmann Machines for Sample-Efficient Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2511.04856</link>
+      <description>arXiv:2511.04856v1 Announce Type: cross 
+Abstract: We introduce theoretically grounded Continuous Semi-Quantum Boltzmann Machines (CSQBMs) that supports continuous-action reinforcement learning. By combining exponential-family priors over visible units with quantum Boltzmann distributions over hidden units, CSQBMs yield a hybrid quantum-classical model that reduces qubit requirements while retaining strong expressiveness. Crucially, gradients with respect to continuous variables can be computed analytically, enabling direct integration into Actor-Critic algorithms. Building on this, we propose a continuous Q-learning framework that replaces global maximization by efficient sampling from the CSQBM distribution, thereby overcoming instability issues in continuous control.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.04856v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Thore Gerlach, Michael Schenk, Verena Kain</dc:creator>
+    </item>
   </channel>
 </rss>

@@ -7,26 +7,68 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 05:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 05:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 11 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Sample-efficient quantum error mitigation via classical learning surrogates</title>
-      <link>https://arxiv.org/abs/2511.07092</link>
-      <description>arXiv:2511.07092v1 Announce Type: new 
-Abstract: The pursuit of practical quantum utility on near-term quantum processors is critically challenged by their inherent noise. Quantum error mitigation (QEM) techniques are leading solutions to improve computation fidelity with relatively low qubit-overhead, while full-scale quantum error correction remains a distant goal. However, QEM techniques incur substantial measurement overheads, especially when applied to families of quantum circuits parameterized by classical inputs. Focusing on zero-noise extrapolation (ZNE), a widely adopted QEM technique, here we devise the surrogate-enabled ZNE (S-ZNE), which leverages classical learning surrogates to perform ZNE entirely on the classical side. Unlike conventional ZNE, whose measurement cost scales linearly with the number of circuits, S-ZNE requires only constant measurement overhead for an entire family of quantum circuits, offering superior scalability. Theoretical analysis indicates that S-ZNE achieves accuracy comparable to conventional ZNE in many practical scenarios, and numerical experiments on up to 100-qubit ground-state energy and quantum metrology tasks confirm its effectiveness. Our approach provides a template that can be effectively extended to other quantum error mitigation protocols, opening a promising path toward scalable error mitigation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.07092v1</guid>
+      <title>From Classical to Hybrid: A Practical Framework for Quantum-Enhanced Learning</title>
+      <link>https://arxiv.org/abs/2511.08205</link>
+      <description>arXiv:2511.08205v1 Announce Type: new 
+Abstract: This work addresses the challenge of enabling practitioners without quantum expertise to transition from classical to hybrid quantum-classical machine learning workflows. We propose a three-stage framework: starting with a classical self-training model, then introducing a minimal hybrid quantum variant, and finally applying diagnostic feedback via QMetric to refine the hybrid architecture. In experiments on the Iris dataset, the refined hybrid model improved accuracy from 0.31 in the classical approach to 0.87 in the quantum approach. These results suggest that even modest quantum components, when guided by proper diagnostics, can enhance class separation and representation capacity in hybrid learning, offering a practical pathway for classical machine learning practitioners to leverage quantum-enhanced methods.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.08205v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Wei-You Liao, Ge Yan, Yujin Song, Tian-Ci Tian, Wei-Ming Zhu, De-Tao Jiang, Yuxuan Du, He-Liang Huang</dc:creator>
+      <dc:creator>Silvie Ill\'esov\'a, Tom\'a\v{s} Bezd\v{e}k, Vojt\v{e}ch Nov\'ak, Ivan Zelinka, Stefano Cacciatore, Martin Beseda</dc:creator>
+    </item>
+    <item>
+      <title>Hybrid Quantum-Classical Selective State Space Artificial Intelligence</title>
+      <link>https://arxiv.org/abs/2511.08349</link>
+      <description>arXiv:2511.08349v1 Announce Type: new 
+Abstract: Hybrid Quantum Classical (HQC) algorithms constitute one of the most effective paradigms for exploiting the computational advantages of quantum systems in large-scale numerical tasks. By operating in high-dimensional Hilbert spaces, quantum circuits enable exponential speed-ups and provide access to richer representations of cost landscapes compared to purely classical methods. These capabilities are particularly relevant for machine learning, where state-of-the-art models especially in Natural Language Processing (NLP) suffer from prohibitive time complexity due to massive matrix multiplications and high-dimensional optimization.
+  In this manuscript, we propose a Hybrid Quantum Classical selection mechanism for the Mamba architecture, designed specifically for temporal sequence classification problems. Our approach leverages Variational Quantum Circuits (VQCs) as quantum gating modules that both enhance feature extraction and improve suppression of irrelevant information. This integration directly addresses the computational bottlenecks of deep learning architectures by exploiting quantum resources for more efficient representation learning.
+  We analyze how introducing quantum subroutines into large language models (LLMs) impacts their generalization capability, expressivity, and parameter efficiency. The results highlight the potential of quantum-enhanced gating mechanisms as a path toward scalable, resource-efficient NLP models, in a limited simulation step. Within the first four epochs on a reshaped MNIST dataset with input format (batch, 784, d_model), our hybrid model achieved 24.6% accuracy while using one quantum layer and achieve higher expressivity, compared to 21.6% obtained by a purely classical selection mechanism. we state No founding</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.08349v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Amin Ebrahimi, Farzan Haddadi</dc:creator>
+    </item>
+    <item>
+      <title>An Information-Minimal Geometry for Qubit-Efficient Optimization</title>
+      <link>https://arxiv.org/abs/2511.08362</link>
+      <description>arXiv:2511.08362v1 Announce Type: new 
+Abstract: Qubit-efficient optimization seeks to represent an $N$-variable combinatorial problem within a Hilbert space smaller than $2^N$, using only as much quantum structure as the objective itself requires. Quadratic unconstrained binary optimization (QUBO) problems, for example, depend only on pairwise information -- expectations and correlations between binary variables -- yet standard quantum circuits explore exponentially large state spaces. We recast qubit-efficient optimization as a geometry problem: the minimal representation should match the $O(N^2)$ structure of quadratic objectives. The key insight is that the local-consistency problem -- ensuring that pairwise marginals correspond to a realizable global distribution -- coincides exactly with the Sherali-Adams level-2 polytope $\mathrm{SA}(2)$, the tightest convex relaxation expressible at the two-body level. Previous qubit-efficient approaches enforced this consistency only implicitly. Here we make it explicit: (a) anchoring learning to the $\mathrm{SA}(2)$ geometry, (b) projecting via a differentiable iterative-proportional-fitting (IPF) step, and (c) decoding through a maximum-entropy Gibbs sampler. This yields a logarithmic-width pipeline ($2\lceil\log_2 N\rceil + 2$ qubits) that is classically simulable yet achieves strong empirical performance. On Gset Max-Cut instances (N=800--2000), depth-2--3 circuits reach near-optimal ratios ($r^* \approx 0.99$), surpassing direct $\mathrm{SA}(2)$ baselines. The framework resolves the local-consistency gap by giving it a concrete convex geometry and a minimal differentiable projection, establishing a clean polyhedral baseline. Extending beyond $\mathrm{SA}(2)$ naturally leads to spectrahedral geometries, where curvature encodes global coherence and genuine quantum structure becomes necessary.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.08362v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Gordon Ma, Dimitris G. Angelakis</dc:creator>
+    </item>
+    <item>
+      <title>Towards Personalized Quantum Federated Learning for Anomaly Detection</title>
+      <link>https://arxiv.org/abs/2511.07471</link>
+      <description>arXiv:2511.07471v1 Announce Type: cross 
+Abstract: Anomaly detection has a significant impact on applications such as video surveillance, medical diagnostics, and industrial monitoring, where anomalies frequently depend on context and anomaly-labeled data are limited. Quantum federated learning (QFL) overcomes these concerns by distributing model training among several quantum clients, consequently eliminating the requirement for centralized quantum storage and processing. However, in real-life quantum networks, clients frequently differ in terms of hardware capabilities, circuit designs, noise levels, and how classical data is encoded or preprocessed into quantum states. These differences create inherent heterogeneity across clients - not just in their data distributions, but also in their quantum processing behaviors. As a result, training a single global model becomes ineffective, especially when clients handle imbalanced or non-identically distributed (non-IID) data. To address this, we propose a new framework called personalized quantum federated learning (PQFL) for anomaly detection. PQFL enhances local model training at quantum clients using parameterized quantum circuits and classical optimizers, while introducing a quantum-centric personalization strategy that adapts each client's model to its own hardware characteristics and data representation. Extensive experiments show that PQFL significantly improves anomaly detection accuracy under diverse and realistic conditions. Compared to state-of-the-art methods, PQFL reduces false errors by up to 23%, and achieves gains of 24.2% in AUROC and 20.5% in AUPR, highlighting its effectiveness and scalability in practical quantum federated settings.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.07471v1</guid>
+      <category>cs.LG</category>
+      <category>cs.CV</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <dc:creator>Ratun Rahman, Sina Shaham, Dinh C. Nguyen</dc:creator>
     </item>
   </channel>
 </rss>

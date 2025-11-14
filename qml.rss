@@ -7,68 +7,55 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Nov 2025 05:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 05:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 13 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Resource-Efficient Variational Quantum Classifier</title>
-      <link>https://arxiv.org/abs/2511.09204</link>
-      <description>arXiv:2511.09204v1 Announce Type: new 
-Abstract: Quantum computing promises a revolution in information processing, with significant potential for machine learning and classification tasks. However, achieving this potential requires overcoming several fundamental challenges. One key limitation arises at the prediction stage, where the intrinsic randomness of quantum model outputs necessitates repeated executions, resulting in substantial overhead. To overcome this, we propose a novel measurement strategy for a variational quantum classifier that allows us to define the unambiguous quantum classifier. This strategy achieves near-deterministic predictions while maintaining competitive classification accuracy in noisy environments, all with significantly fewer quantum circuit executions. Although this approach entails a slight reduction in performance, it represents a favorable trade-off for improved resource efficiency. We further validate our theoretical model with supporting experimental results.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.09204v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Petr Pt\'a\v{c}ek, Paulina Lewandowska, Ryszard Kukulski</dc:creator>
-    </item>
-    <item>
-      <title>Pure-State Quantum Tomography with Minimal Rank-One POVMs</title>
-      <link>https://arxiv.org/abs/2511.09505</link>
-      <description>arXiv:2511.09505v1 Announce Type: new 
-Abstract: Quantum state tomography seeks to reconstruct an unknown state from measurement statistics. A finite measurement (POVM) is \emph{pure-state informationally complete} (PSI-Complete) if the outcome probabilities determine any pure state up to a global phase. We study \emph{rank-one} POVMs that are minimally sufficient for this task. We call such a POVM \emph{vital} if it is PSI-Complete but every proper subcollection is not PSI-Complete.
-  We prove sharp upper bounds on the size of vital rank-one POVMs in dimension \(n\): the size is at most \(\binom{n+1}{2}\) over \(\mathbb{R}\) and at most \(n^{2}\) over \(\mathbb{C}\), and we give constructions that attain these bounds. In the real case, we further exhibit a connection to block designs: whenever \(w \mid n(n-1)\), an \((n,w,w-1)\) design produces a vital rank-one POVM with \(n + n(n-1)/w\) outcomes. We provide explicit constructions for \(w=2,n-1\), and \(n\).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.09505v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.CO</category>
-      <category>math.IT</category>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Dan Edidin, Ivan Gonzalez, Itzhak Tamo</dc:creator>
-    </item>
-    <item>
-      <title>Separating QMA from QCMA with a classical oracle</title>
-      <link>https://arxiv.org/abs/2511.09551</link>
-      <description>arXiv:2511.09551v1 Announce Type: new 
-Abstract: We construct a classical oracle proving that, in a relativized setting, the set of languages decidable by an efficient quantum verifier with a quantum witness (QMA) is strictly bigger than those decidable with access only to a classical witness (QCMA). The separating classical oracle we construct is for a decision problem we coin spectral Forrelation -- the oracle describes two subsets of the boolean hypercube, and the computational task is to decide if there exists a quantum state whose standard basis measurement distribution is well supported on one subset while its Fourier basis measurement distribution is well supported on the other subset. This is equivalent to estimating the spectral norm of a "Forrelation" matrix between two sets that are accessible through membership queries.
-  Our lower bound derives from a simple observation that a query algorithm with a classical witness can be run multiple times to generate many samples from a distribution, while a quantum witness is a "use once" object. This observation allows us to reduce proving a QCMA lower bound to proving a sampling hardness result which does not simultaneously prove a QMA lower bound. To prove said sampling hardness result for QCMA, we observe that quantum access to the oracle can be compressed by expressing the problem in terms of bosons -- a novel "second quantization" perspective on compressed oracle techniques, which may be of independent interest. Using this compressed perspective on the sampling problem, we prove the sampling hardness result, completing the proof.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.09551v1</guid>
+      <title>A measurement-driven quantum algorithm for SAT: Performance guarantees via spectral gaps and measurement parallelization</title>
+      <link>https://arxiv.org/abs/2511.09647</link>
+      <description>arXiv:2511.09647v1 Announce Type: new 
+Abstract: The Boolean satisfiability problem (SAT) is of central importance in both theory and practice. Yet, most provable guarantees for quantum algorithms rely exclusively on Grover-type methods that cap the possible advantage at only quadratic speed-ups, making the search for approaches that surpass this quadratic barrier a key challenge. In this light, this work presents a rigorous worst-case runtime analysis of a recently introduced measurement-driven quantum SAT solver. Importantly, this quantum algorithm does not exclusively rely on Grover-type methods and shows promising numerical performance. Our analysis establishes that the algorithm's runtime depends on an exponential trade-off between two key properties: the spectral gap of the associated Hamiltonian and the success probability of the driving measurements. We show that this trade-off can be systematically controlled by a tunable rotation angle. Beyond establishing a worst-case runtime expression, this work contributes significant algorithmic improvements. First, we develop a new readout routine that efficiently finds a solution even for instances with multiple satisfying assignments. Second, a measurement parallelization scheme, based on perfect hash families, is introduced. Third, we establish an amplitude-amplified version of the measurement-driven algorithm. Finally, we demonstrate the practical utility of our framework: By suitably scheduling the algorithm's parameters, we show that its runtime collapses from exponential to polynomial on a special class of SAT instances, consistent with their known classical tractability. A problem we leave open is to establish a non-trivial lower bound on the spectral gap as a function of the rotation angle. Resolving this directly translates into an improved worst-case runtime, potentially realizing a super-quadratic quantum advantage.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.09647v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>John Bostanci, Jonas Haferkamp, Chinmay Nirkhe, Mark Zhandry</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Franz J. Schreiber, Maximilian J. Kramer, Alexander Nietner, Jens Eisert</dc:creator>
     </item>
     <item>
-      <title>QIBONN: A Quantum-Inspired Bilevel Optimizer for Neural Networks on Tabular Classification</title>
-      <link>https://arxiv.org/abs/2511.08940</link>
-      <description>arXiv:2511.08940v1 Announce Type: cross 
-Abstract: Hyperparameter optimization (HPO) for neural networks on tabular data is critical to a wide range of applications, yet it remains challenging due to large, non-convex search spaces and the cost of exhaustive tuning. We introduce the Quantum-Inspired Bilevel Optimizer for Neural Networks (QIBONN), a bilevel framework that encodes feature selection, architectural hyperparameters, and regularization in a unified qubit-based representation. By combining deterministic quantum-inspired rotations with stochastic qubit mutations guided by a global attractor, QIBONN balances exploration and exploitation under a fixed evaluation budget. We conduct systematic experiments under single-qubit bit-flip noise (0.1\%--1\%) emulated by an IBM-Q backend. Results on 13 real-world datasets indicate that QIBONN is competitive with established methods, including classical tree-based methods and both classical/quantum-inspired HPO algorithms under the same tuning budget.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.08940v1</guid>
+      <title>Interaction as Interference: A Quantum-Inspired Aggregation Approach</title>
+      <link>https://arxiv.org/abs/2511.10018</link>
+      <description>arXiv:2511.10018v1 Announce Type: cross 
+Abstract: Classical approaches often treat interaction as engineered product terms or as emergent patterns in flexible models, offering little control over how synergy or antagonism arises. We take a quantum-inspired view: following the Born rule (probability as squared amplitude), \emph{coherent} aggregation sums complex amplitudes before squaring, creating an interference cross-term, whereas an \emph{incoherent} proxy sums squared magnitudes and removes it. In a minimal linear-amplitude model, this cross-term equals the standard potential-outcome interaction contrast \(\Delta_{\mathrm{INT}}\) in a \(2\times 2\) factorial design, giving relative phase a direct, mechanism-level control over synergy versus antagonism.
+  We instantiate this idea in a lightweight \emph{Interference Kernel Classifier} (IKC) and introduce two diagnostics: \emph{Coherent Gain} (log-likelihood gain of coherent over the incoherent proxy) and \emph{Interference Information} (the induced Kullback-Leibler gap). A controlled phase sweep recovers the identity. On a high-interaction synthetic task (XOR), IKC outperforms strong baselines under paired, budget-matched comparisons; on real tabular data (\emph{Adult} and \emph{Bank Marketing}) it is competitive overall but typically trails the most capacity-rich baseline in paired differences. Holding learned parameters fixed, toggling aggregation from incoherent to coherent consistently improves negative log-likelihood, Brier score, and expected calibration error, with positive Coherent Gain on both datasets.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.10018v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Pilsung Kang</dc:creator>
+    </item>
+    <item>
+      <title>Improved Offline Reinforcement Learning via Quantum Metric Encoding</title>
+      <link>https://arxiv.org/abs/2511.10187</link>
+      <description>arXiv:2511.10187v1 Announce Type: cross 
+Abstract: Reinforcement learning (RL) with limited samples is common in real-world applications. However, offline RL performance under this constraint is often suboptimal. We consider an alternative approach to dealing with limited samples by introducing the Quantum Metric Encoder (QME). In this methodology, instead of applying the RL framework directly on the original states and rewards, we embed the states into a more compact and meaningful representation, where the structure of the encoding is inspired by quantum circuits. For classical data, QME is a classically simulable, trainable unitary embedding and thus serves as a quantum-inspired module, on a classical device. For quantum data in the form of quantum states, QME can be implemented directly on quantum hardware, allowing for training without measurement or re-encoding.
+  We evaluated QME on three datasets, each limited to 100 samples. We use Soft-Actor-Critic (SAC) and Implicit-Q-Learning (IQL), two well-known RL algorithms, to demonstrate the effectiveness of our approach. From the experimental results, we find that training offline RL agents on QME-embedded states with decoded rewards yields significantly better performance than training on the original states and rewards. On average across the three datasets, for maximum reward performance, we achieve a 116.2% improvement for SAC and 117.6% for IQL.
+  We further investigate the $\Delta$-hyperbolicity of our framework, a geometric property of the state space known to be important for the RL training efficacy. The QME-embedded states exhibit low $\Delta$-hyperbolicity, suggesting that the improvement after embedding arises from the modified geometry of the state space induced by QME. Thus, the low $\Delta$-hyperbolicity and the corresponding effectiveness of QME could provide valuable information for developing efficient offline RL methods under limited-sample conditions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.10187v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Pedro Chumpitaz-Flores, My Duong, Ying Mao, Kaixun Hua</dc:creator>
+      <dc:creator>Outongyi Lv, Yewei Yuan, Nana Liu</dc:creator>
     </item>
   </channel>
 </rss>

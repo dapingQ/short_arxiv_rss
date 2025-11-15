@@ -7,55 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Nov 2025 05:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 05:00:01 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Sat, 15 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
-    <item>
-      <title>A measurement-driven quantum algorithm for SAT: Performance guarantees via spectral gaps and measurement parallelization</title>
-      <link>https://arxiv.org/abs/2511.09647</link>
-      <description>arXiv:2511.09647v1 Announce Type: new 
-Abstract: The Boolean satisfiability problem (SAT) is of central importance in both theory and practice. Yet, most provable guarantees for quantum algorithms rely exclusively on Grover-type methods that cap the possible advantage at only quadratic speed-ups, making the search for approaches that surpass this quadratic barrier a key challenge. In this light, this work presents a rigorous worst-case runtime analysis of a recently introduced measurement-driven quantum SAT solver. Importantly, this quantum algorithm does not exclusively rely on Grover-type methods and shows promising numerical performance. Our analysis establishes that the algorithm's runtime depends on an exponential trade-off between two key properties: the spectral gap of the associated Hamiltonian and the success probability of the driving measurements. We show that this trade-off can be systematically controlled by a tunable rotation angle. Beyond establishing a worst-case runtime expression, this work contributes significant algorithmic improvements. First, we develop a new readout routine that efficiently finds a solution even for instances with multiple satisfying assignments. Second, a measurement parallelization scheme, based on perfect hash families, is introduced. Third, we establish an amplitude-amplified version of the measurement-driven algorithm. Finally, we demonstrate the practical utility of our framework: By suitably scheduling the algorithm's parameters, we show that its runtime collapses from exponential to polynomial on a special class of SAT instances, consistent with their known classical tractability. A problem we leave open is to establish a non-trivial lower bound on the spectral gap as a function of the rotation angle. Resolving this directly translates into an improved worst-case runtime, potentially realizing a super-quadratic quantum advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.09647v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Franz J. Schreiber, Maximilian J. Kramer, Alexander Nietner, Jens Eisert</dc:creator>
-    </item>
-    <item>
-      <title>Interaction as Interference: A Quantum-Inspired Aggregation Approach</title>
-      <link>https://arxiv.org/abs/2511.10018</link>
-      <description>arXiv:2511.10018v1 Announce Type: cross 
-Abstract: Classical approaches often treat interaction as engineered product terms or as emergent patterns in flexible models, offering little control over how synergy or antagonism arises. We take a quantum-inspired view: following the Born rule (probability as squared amplitude), \emph{coherent} aggregation sums complex amplitudes before squaring, creating an interference cross-term, whereas an \emph{incoherent} proxy sums squared magnitudes and removes it. In a minimal linear-amplitude model, this cross-term equals the standard potential-outcome interaction contrast \(\Delta_{\mathrm{INT}}\) in a \(2\times 2\) factorial design, giving relative phase a direct, mechanism-level control over synergy versus antagonism.
-  We instantiate this idea in a lightweight \emph{Interference Kernel Classifier} (IKC) and introduce two diagnostics: \emph{Coherent Gain} (log-likelihood gain of coherent over the incoherent proxy) and \emph{Interference Information} (the induced Kullback-Leibler gap). A controlled phase sweep recovers the identity. On a high-interaction synthetic task (XOR), IKC outperforms strong baselines under paired, budget-matched comparisons; on real tabular data (\emph{Adult} and \emph{Bank Marketing}) it is competitive overall but typically trails the most capacity-rich baseline in paired differences. Holding learned parameters fixed, toggling aggregation from incoherent to coherent consistently improves negative log-likelihood, Brier score, and expected calibration error, with positive Coherent Gain on both datasets.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10018v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Pilsung Kang</dc:creator>
-    </item>
-    <item>
-      <title>Improved Offline Reinforcement Learning via Quantum Metric Encoding</title>
-      <link>https://arxiv.org/abs/2511.10187</link>
-      <description>arXiv:2511.10187v1 Announce Type: cross 
-Abstract: Reinforcement learning (RL) with limited samples is common in real-world applications. However, offline RL performance under this constraint is often suboptimal. We consider an alternative approach to dealing with limited samples by introducing the Quantum Metric Encoder (QME). In this methodology, instead of applying the RL framework directly on the original states and rewards, we embed the states into a more compact and meaningful representation, where the structure of the encoding is inspired by quantum circuits. For classical data, QME is a classically simulable, trainable unitary embedding and thus serves as a quantum-inspired module, on a classical device. For quantum data in the form of quantum states, QME can be implemented directly on quantum hardware, allowing for training without measurement or re-encoding.
-  We evaluated QME on three datasets, each limited to 100 samples. We use Soft-Actor-Critic (SAC) and Implicit-Q-Learning (IQL), two well-known RL algorithms, to demonstrate the effectiveness of our approach. From the experimental results, we find that training offline RL agents on QME-embedded states with decoded rewards yields significantly better performance than training on the original states and rewards. On average across the three datasets, for maximum reward performance, we achieve a 116.2% improvement for SAC and 117.6% for IQL.
-  We further investigate the $\Delta$-hyperbolicity of our framework, a geometric property of the state space known to be important for the RL training efficacy. The QME-embedded states exhibit low $\Delta$-hyperbolicity, suggesting that the improvement after embedding arises from the modified geometry of the state space induced by QME. Thus, the low $\Delta$-hyperbolicity and the corresponding effectiveness of QME could provide valuable information for developing efficient offline RL methods under limited-sample conditions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10187v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 14 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Outongyi Lv, Yewei Yuan, Nana Liu</dc:creator>
-    </item>
   </channel>
 </rss>

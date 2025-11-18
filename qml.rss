@@ -7,81 +7,154 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Nov 2025 05:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Nov 2025 05:00:22 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Understanding the Nature of Depth-1 Equivariant Quantum Circuit</title>
-      <link>https://arxiv.org/abs/2511.10756</link>
-      <description>arXiv:2511.10756v1 Announce Type: new 
-Abstract: The Equivariant Quantum Circuit (EQC) for the Travelling Salesman Problem (TSP) has been shown to achieve near-optimal performance in solving small TSP problems (up to 20 nodes) using only two parameters at depth 1. However, extending EQCs to larger TSP problem sizes remains challenging due to the exponential time and memory for quantum circuit simulation, as well as increasing noise and decoherence when running on actual quantum hardware. In this work, we propose the Size-Invariant Grid Search (SIGS), an efficient training optimization for Quantum Reinforcement Learning (QRL), and use it to simulate the outputs of a trained Depth-1 EQC up to 350-node TSP instances - well beyond previously tractable limits. At TSP with 100 nodes, we reduce total simulation times by 96.4%, when comparing to RL simulations with the analytical expression (151 minutes using RL to under 6 minutes using SIGS on TSP-100), while achieving a mean optimality gap within 0.005 of the RL trained model on the test set. SIGS provides a practical benchmarking tool for the QRL community, allowing us to efficiently analyze the performance of QRL algorithms on larger problem sizes. We provide a theoretical explanation for SIGS called the Size-Invariant Properties that goes beyond the concept of equivariance discussed in prior literature.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10756v1</guid>
+      <title>Reinforcement Learning for Charging Optimization of Inhomogeneous Dicke Quantum Batteries</title>
+      <link>https://arxiv.org/abs/2511.12176</link>
+      <description>arXiv:2511.12176v1 Announce Type: new 
+Abstract: Charging optimization is a key challenge to the implementation of quantum batteries, particularly under inhomogeneity and partial observability. This paper employs reinforcement learning to optimize piecewise-constant charging policies for an inhomogeneous Dicke battery. We systematically compare policies across four observability regimes, from full-state access to experimentally accessible observables (energies of individual two-level systems (TLSs), first-order averages, and second-order correlations). Simulation results demonstrate that full observability yields near-optimal ergotropy with low variability, while under partial observability, access to only single-TLS energies or energies plus first-order averages lags behind the fully observed baseline. However, augmenting partial observations with second-order correlations recovers most of the gap, reaching 94%-98% of the full-state baseline. The learned schedules are nonmyopic, trading temporary plateaus or declines for superior terminal outcomes. These findings highlight a practical route to effective fast-charging protocols under realistic information constraints.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.12176v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jonathan Teo (Singapore Management University), Lee Xin Wei (Singapore Management University), Hoong Chuin Lau (Singapore Management University)</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Xiaobin Song, Siyuan Bai, Da-Wei Wang, Hanxiao Tao, Xizhe Wang, Rebing Wu, Benben Jiang</dc:creator>
     </item>
     <item>
-      <title>Query complexities of quantum channel discrimination and estimation: A unified approach</title>
-      <link>https://arxiv.org/abs/2511.10832</link>
-      <description>arXiv:2511.10832v1 Announce Type: new 
-Abstract: The goal of quantum channel discrimination and estimation is to determine the identity of an unknown channel from a discrete or continuous set, respectively. The query complexity of these tasks is equal to the minimum number of times one must call an unknown channel to identify it within a desired threshold on the error probability. In this paper, we establish lower bounds on the query complexities of channel discrimination and estimation, in both the parallel and adaptive access models. We do so by establishing new or applying known upper bounds on the squared Bures distance and symmetric logarithmic derivative Fisher information of channels. Phrasing our statements and proofs in terms of isometric extensions of quantum channels allows us to give conceptually simple proofs for both novel and known bounds. We also provide alternative proofs for several established results in an effort to present a consistent and unified framework for quantum channel discrimination and estimation, which we believe will be helpful in addressing future questions in the field.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10832v1</guid>
+      <title>QMA Complete Quantum-Enhanced Kyber: Provable Security Through CHSH Nonlocality</title>
+      <link>https://arxiv.org/abs/2511.12318</link>
+      <description>arXiv:2511.12318v1 Announce Type: new 
+Abstract: Post-quantum cryptography (PQC) must secure large-scale communication systems against quantum adversaries where classical hardness alone is insufficient and purely quantum schemes remain impractical. Lattice-based key encapsulation mechanisms (KEMs) such as CRYSTALS-Kyber provide efficient quantum-resistant primitives but rely solely on computational hardness assumptions that are susceptible to hybrid classical-quantum attacks. To overcome this limitation, we introduce the first Clauser-Horne-Shimony-Holt (CHSH)-certified Kyber protocol, which embeds quantum non-locality verification directly within the key exchange phase. The proposed design integrates CHSH entanglement tests using Einstein-Podolsky-Rosen (EPR) pairs to yield measurable quantum advantage values exceeding classical correlation limits, thereby coupling information--theoretic quantum guarantees with lattice-based computational security. Formal reductions demonstrate that any polynomial-time adversary breaking the proposed KEM must either solve the Module Learning With Errors (Module-LWE) problem or a Quantum Merlin-Arthur (QMA)-complete instance of the 2-local Hamiltonian problem, under the standard complexity assumption QMA $\subset$ NP. The construction remains fully compatible with the Fujisaki-Okamoto (FO) transform, preserving chosen-ciphertext attack (CCA) security and Kyber's efficiency profile. The resulting CHSH-augmented Kyber scheme therefore establishes a mathematically rigorous, hybrid post-quantum framework that unifies lattice cryptography and quantum non-locality to achieve verifiable, composable, and forward-secure key agreement.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.12318v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
-      <category>math-ph</category>
       <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Zixin Huang, Johannes Jakob Meyer, Theshani Nuradha, Mark M. Wilde</dc:creator>
-    </item>
-    <item>
-      <title>Variational Quantum Algorithms for Particle Track Reconstruction</title>
-      <link>https://arxiv.org/abs/2511.11397</link>
-      <description>arXiv:2511.11397v1 Announce Type: new 
-Abstract: Quantum Computing is a rapidly developing field with the potential to tackle the increasing computational challenges faced in high-energy physics. In this work, we explore the potential and limitations of variational quantum algorithms in solving the particle track reconstruction problem. We present an analysis of two distinct formulations for identifying straight-line tracks in a multilayer detection system, inspired by the LHCb vertex detector. The first approach is formulated as a ground-state energy problem, while the second approach is formulated as a system of linear equations. This work addresses one of the main challenges when dealing with variational quantum algorithms on general problems, namely designing an expressive and efficient quantum ansatz working on tracking events with fixed detector geometry. For this purpose, we employed a quantum architecture search method based on Monte Carlo Tree Search to design the quantum circuits for different problem sizes. We provide experimental results to test our approach on both formulations for different problem sizes in terms of performance and computational cost.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.11397v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Vincenzo Lipardi, Xenofon Chiotopoulos, Jacco A. de Vries, Domenica Dibenedetto, Kurt Driessens, Marcel Merk, Mark H. M. Winands</dc:creator>
+      <dc:creator>Ilias Cherkaoui, Indrakshi Dey</dc:creator>
     </item>
     <item>
-      <title>Hybrid Quantum Transformer for Language Generation</title>
-      <link>https://arxiv.org/abs/2511.10653</link>
-      <description>arXiv:2511.10653v1 Announce Type: cross 
-Abstract: Although quantum computing has been increasingly applied to replace classical computation, most existing quantum or hybrid models remain confined to simple tasks, with no successful application to large-scale natural language generation to date. In this work, we present the first hybrid quantum-classical large language model (LLM) for natural language generation, HyQuT, capable of performing coherent and context-aware dialogue. The proposed architecture integrates variational quantum circuits (VQCs) into the Transformer framework at both 8M and 150M parameter scales. Experimental results show that a minimal number of qubits (10 qubits with 80 quantum gates) can replace about 10% of the classical parameters in the 150M-parameter model, while achieving comparable convergence stability and generation quality. This study provides an early demonstration of the feasibility of integrating quantum computing to large-scale generative language models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10653v1</guid>
-      <category>cs.CL</category>
-      <category>cs.AI</category>
+      <title>Quantum Optimization Algorithms</title>
+      <link>https://arxiv.org/abs/2511.12379</link>
+      <description>arXiv:2511.12379v1 Announce Type: new 
+Abstract: Quantum optimization allows for up to exponential quantum speedups for specific, possibly industrially relevant problems. As the key algorithm in this field, we motivate and discuss the Quantum Approximate Optimization Algorithm (QAOA), which can be understood as a slightly generalized version of Quantum Annealing for gate-based quantum computers. We delve into the quantum circuit implementation of the QAOA, including Hamiltonian simulation techniques for higher-order Ising models, and discuss parameter training using the parameter shift rule. An example implementation with Pennylane source code demonstrates practical application for the Maximum Cut problem. Further, we show how constraints can be incorporated into the QAOA using Grover mixers, allowing to restrict the search space to strictly valid solutions for specific problems. Finally, we outline the Variational Quantum Eigensolver (VQE) as a generalization of the QAOA, highlighting its potential in the NISQ era and addressing challenges such as barren plateaus and ansatz design.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.12379v1</guid>
       <category>quant-ph</category>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.AI</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Desheng Kong, Xiangshuo Cui, Jiaying Jin, Jing Xu, Donglin Wang</dc:creator>
+      <dc:creator>Jonas Stein, Maximilian Zorn, Leo S\"unkel, Thomas Gabor</dc:creator>
     </item>
     <item>
-      <title>Benchmarking Quantum Kernels Across Diverse and Complex Data</title>
-      <link>https://arxiv.org/abs/2511.10831</link>
-      <description>arXiv:2511.10831v1 Announce Type: cross 
-Abstract: Quantum kernel methods are a promising branch of quantum machine learning, yet their practical advantage on diverse, high-dimensional, real-world data remains unverified. Current research has largely been limited to low-dimensional or synthetic datasets, preventing a thorough evaluation of their potential. To address this gap, we developed a variational quantum kernel framework utilizing resource-efficient ans\"atze for complex classification tasks and introduced a parameter scaling technique to accelerate convergence. We conducted a comprehensive benchmark of this framework on eight challenging, real world and high-dimensional datasets covering tabular, image, time series, and graph data. Our classically simulated results show that the proposed quantum kernel demonstrated a clear performance advantage over standard classical kernels, such as the radial basis function (RBF) kernel. This work demonstrates that properly designed quantum kernels can function as versatile, high-performance tools, laying a foundation for quantum-enhanced applications in real-world machine learning. Further research is needed to fully assess the practical quantum advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2511.10831v1</guid>
+      <title>Discovering autonomous quantum error correction via deep reinforcement learning</title>
+      <link>https://arxiv.org/abs/2511.12482</link>
+      <description>arXiv:2511.12482v1 Announce Type: new 
+Abstract: Quantum error correction is essential for fault-tolerant quantum computing. However, standard methods relying on active measurements may introduce additional errors. Autonomous quantum error correction (AQEC) circumvents this by utilizing engineered dissipation and drives in bosonic systems, but identifying practical encoding remains challenging due to stringent Knill-Laflamme conditions. In this work, we utilize curriculum learning enabled deep reinforcement learning to discover Bosonic codes under approximate AQEC framework to resist both single-photon and double-photon losses. We present an analytical solution of solving the master equation under approximation conditions, which can significantly accelerate the training process of reinforcement learning. The agent first identifies an encoded subspace surpassing the breakeven point through rapid exploration within a constrained evolutionary time-frame, then strategically fine-tunes its policy to sustain this performance advantage over extended temporal horizons. We find that the two-phase trained agent can discover the optimal set of codewords, i.e., the Fock states $\ket{4}$ and $\ket{7}$ considering the effect of both single-photon and double-photon loss. We identify that the discovered code surpasses the breakeven threshold over a longer evolution time and achieve the state-of-art performance. We also analyze the robustness of the code against the phase damping and amplitude damping noise. Our work highlights the potential of curriculum learning enabled deep reinforcement learning in discovering the optimal quantum error correct code especially in early fault-tolerant quantum systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.12482v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <arxiv:DOI>10.1103/rgy3-z928</arxiv:DOI>
+      <dc:creator>Yue Yin, Tailong Xiao, Xiaoyang Deng, Ming He, Jianping Fan, Guihua Zeng</dc:creator>
+    </item>
+    <item>
+      <title>Approximate Message Passing for Quantum State Tomography</title>
+      <link>https://arxiv.org/abs/2511.12857</link>
+      <description>arXiv:2511.12857v1 Announce Type: new 
+Abstract: Quantum state tomography (QST) is an indispensable tool for characterizing many-body quantum systems. However, due to the exponential scaling cost of the protocol with system size, many approaches have been developed for quantum states with specific structure, such as low-rank states. In this paper, we show how approximate message passing (AMP), a compressed sensing technique, can be used to perform low-rank QST. AMP provides asymptotically optimal performance guarantees for large systems, which suggests its utility for QST. We discuss the design challenges that come with applying AMP to QST, and show that by properly designing the AMP algorithm, we can reduce the reconstruction infidelity by over an order of magnitude compared to existing approaches to low-rank QST. We also performed tomographic experiments on IBM Kingston and considered the effect of device noise on the reliability of the predicted fidelity of state preparation. Our work advances the state of low-rank QST and may be applicable to other quantum tomography protocols.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.12857v1</guid>
+      <category>quant-ph</category>
+      <category>cs.DS</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>math.OC</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Noah Siekierski, Kausthubh Chandramouli, Christian K\"ummerle, Bojko N. Bakalov, Dror Baron</dc:creator>
+    </item>
+    <item>
+      <title>The correlated matching decoder for the 4.8.8 color code</title>
+      <link>https://arxiv.org/abs/2511.13192</link>
+      <description>arXiv:2511.13192v1 Announce Type: new 
+Abstract: Color codes present distinct advantages for fault-tolerant quantum computing, such as high encoding rates and the transversal implementation of Clifford gates. However, existing matching-based decoders for the color codes such as the restricted decoder (Kubica and Delfosse, 2023), suffer from limited decoding performance. Inspired by the global decoding insight of the unified decoder (Benhemou et al., 2023), this paper introduces a correlated decoder for the 4.8.8 color code, which improves upon the conventional restricted decoder by leveraging correlations between restricted lattices, and is derived by mapping the correlated matching decoder for the surface code onto the color code lattice. Analytical and numerical results show that the correlated decoder achieves higher thresholds than the restricted and unified decoders, while matching the performance of the unified decoder at very low physical error rates. Under the code capacity and phenomenological noise models, the estimated thresholds for the color code against bit-flip error are 10.38% and 3.13%, respectively. Furthermore, by applying the surface-color code mapping, the thresholds of 16.62% and 3.52% are obtained for the surface code against depolarizing noise.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.13192v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>physics.data-an</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yantong Liu, Junjie Wu, Lingling Lao</dc:creator>
+    </item>
+    <item>
+      <title>Restart Belief: A General Quantum LDPC Decoder</title>
+      <link>https://arxiv.org/abs/2511.13281</link>
+      <description>arXiv:2511.13281v1 Announce Type: new 
+Abstract: Hardware-friendly quantum low-density parity-check (QLDPC) decoders are commonly built upon belief propagation (BP) processing. Yet, quantum degeneracy often prevents BP from achieving reliable convergence. To overcome this fundamental limitation, we propose the restart belief (RB) decoder, an iterative BP-based algorithm inspired by branch-and-bound optimization principles. From our analysis we find that the RB decoder represents both the fastest and most accurate decoding algorithm applicable to QLDPC codes to date, conceived with the explicit goal of approaching error correction up to the code distance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.13281v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Lorenzo Valentini, Diego Forlivesi, Andrea Talarico, Marco Chiani</dc:creator>
+    </item>
+    <item>
+      <title>Taming Barren Plateaus in Arbitrary Parameterized Quantum Circuits Without Sacrificing Expressibility</title>
+      <link>https://arxiv.org/abs/2511.13408</link>
+      <description>arXiv:2511.13408v1 Announce Type: new 
+Abstract: Quantum algorithms based on parameterized quantum circuits (PQCs) have enabled a wide range of applications on near-term quantum devices. However, existing PQC architectures face several challenges, among which the ``barren plateaus" phenomenon is particularly prominent. In such cases, the loss function concentrates exponentially with increasing system size, thereby hindering effective parameter optimization. To address this challenge, we propose a general and hardware-efficient method for eliminating barren plateaus in an arbitrary PQC. Specifically, our approach achieves this by inserting a layer of easily implementable quantum channels into the original PQC, each channel requiring only one ancilla qubit and four additional gates, yielding a modified PQC (MPQC) that is provably at least as expressive as the original PQC and, under mild assumptions, is guaranteed to be free from barren plateaus. Furthermore, by appropriately adjusting the structure of MPQCs, we rigorously prove that any parameter in the original PQC can be made trainable. Importantly, the absence of barren plateaus in MPQCs is robust against realistic noise, making our approach directly applicable to current noisy intermediate-scale quantum (NISQ) hardware. Numerically, we demonstrate the practicality of our method by modifying a commonly used PQC for thermal-state preparation. The results show that {barren plateaus are effectively eliminated} in this class of circuits with up to 100 qubits and 2400 layers, whereas the original ansatz suffers from severe gradient vanishing.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.13408v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Zhenyu Chen, Yuguo Shao, Zhengwei Liu, Zhaohui Wei</dc:creator>
+    </item>
+    <item>
+      <title>Towards autonomous quantum physics research using LLM agents with access to intelligent tools</title>
+      <link>https://arxiv.org/abs/2511.11752</link>
+      <description>arXiv:2511.11752v1 Announce Type: cross 
+Abstract: Artificial intelligence (AI) is used in numerous fields of science, yet the initial research questions and targets are still almost always provided by human researchers. AI-generated creative ideas in science are rare and often vague, so that it remains a human task to execute them. Automating idea generation and implementation in one coherent system would significantly shift the role of humans in the scientific process. Here we present AI-Mandel, an LLM agent that can generate and implement ideas in quantum physics. AI-Mandel formulates ideas from the literature and uses a domain-specific AI tool to turn them into concrete experiment designs that can readily be implemented in laboratories. The generated ideas by AI-Mandel are often scientifically interesting - for two of them we have already written independent scientific follow-up papers. The ideas include new variations of quantum teleportation, primitives of quantum networks in indefinite causal orders, and new concepts of geometric phases based on closed loops of quantum information transfer. AI-Mandel is a prototypical demonstration of an AI physicist that can generate and implement concrete, actionable ideas. Building such a system is not only useful to accelerate science, but it also reveals concrete open challenges on the path to human-level artificial scientists.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.11752v1</guid>
+      <category>cs.AI</category>
+      <category>cs.DL</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>S\"oren Arlt, Xuemei Gu, Mario Krenn</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Machine Learning via Contrastive Training</title>
+      <link>https://arxiv.org/abs/2511.13497</link>
+      <description>arXiv:2511.13497v1 Announce Type: cross 
+Abstract: Quantum machine learning (QML) has attracted growing interest with the rapid parallel advances in large-scale classical machine learning and quantum technologies. Similar to classical machine learning, QML models also face challenges arising from the scarcity of labeled data, particularly as their scale and complexity increase. Here, we introduce self-supervised pretraining of quantum representations that reduces reliance on labeled data by learning invariances from unlabeled examples. We implement this paradigm on a programmable trapped-ion quantum computer, encoding images as quantum states. In situ contrastive pretraining on hardware yields a representation that, when fine-tuned, classifies image families with higher mean test accuracy and lower run-to-run variability than models trained from random initialization. Performance improvement is especially significant in regimes with limited labeled training data. We show that the learned invariances generalize beyond the pretraining image samples. Unlike prior work, our pipeline derives similarity from measured quantum overlaps and executes all training and classification stages on hardware. These results establish a label-efficient route to quantum representation learning, with direct relevance to quantum-native datasets and a clear path to larger classical inputs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.13497v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 17 Nov 2025 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yuhan Jiang, Matthew Otten</dc:creator>
+      <dc:creator>Liudmila A. Zhukas, Vivian Ni Zhang, Qiang Miao, Qingfeng Wang, Marko Cetina, Jungsang Kim, Lawrence Carin, Christopher Monroe</dc:creator>
     </item>
   </channel>
 </rss>

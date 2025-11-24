@@ -7,12 +7,83 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 05:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 05:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 23 Nov 2025 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Dissecting Quantum Reinforcement Learning: A Systematic Evaluation of Key Components</title>
+      <link>https://arxiv.org/abs/2511.17112</link>
+      <description>arXiv:2511.17112v1 Announce Type: new 
+Abstract: Parameterised quantum circuit (PQC) based Quantum Reinforcement Learning (QRL) has emerged as a promising paradigm at the intersection of quantum computing and reinforcement learning (RL). By design, PQCs create hybrid quantum-classical models, but their practical applicability remains uncertain due to training instabilities, barren plateaus (BPs), and the difficulty of isolating the contribution of individual pipeline components. In this work, we dissect PQC based QRL architectures through a systematic experimental evaluation of three aspects recurrently identified as critical: (i) data embedding strategies, with Data Reuploading (DR) as an advanced approach; (ii) ansatz design, particularly the role of entanglement; and (iii) post-processing blocks after quantum measurement, with a focus on the underexplored Output Reuse (OR) technique. Using a unified PPO-CartPole framework, we perform controlled comparisons between hybrid and classical agents under identical conditions. Our results show that OR, though purely classical, exhibits distinct behaviour in hybrid pipelines, that DR improves trainability and stability, and that stronger entanglement can degrade optimisation, offsetting classical gains. Together, these findings provide controlled empirical evidence of the interplay between quantum and classical contributions, and establish a reproducible framework for systematic benchmarking and component-wise analysis in QRL.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.17112v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Javier Lazaro, Juan-Ignacio Vazquez, Pablo Garcia-Bringas</dc:creator>
+    </item>
+    <item>
+      <title>Intrinsic preservation of plasticity in continual quantum learning</title>
+      <link>https://arxiv.org/abs/2511.17228</link>
+      <description>arXiv:2511.17228v1 Announce Type: new 
+Abstract: Artificial intelligence in dynamic, real-world environments requires the capacity for continual learning. However, standard deep learning suffers from a fundamental issue: loss of plasticity, in which networks gradually lose their ability to learn from new data. Here we show that quantum learning models naturally overcome this limitation, preserving plasticity over long timescales. We demonstrate this advantage systematically across a broad spectrum of tasks from multiple learning paradigms, including supervised learning and reinforcement learning, and diverse data modalities, from classical high-dimensional images to quantum-native datasets. Although classical models exhibit performance degradation correlated with unbounded weight and gradient growth, quantum neural networks maintain consistent learning capabilities regardless of the data or task. We identify the origin of the advantage as the intrinsic physical constraints of quantum models. Unlike classical networks where unbounded weight growth leads to landscape ruggedness or saturation, the unitary constraints confine the optimization to a compact manifold. Our results suggest that the utility of quantum computing in machine learning extends beyond potential speedups, offering a robust pathway for building adaptive artificial intelligence and lifelong learners.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.17228v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yu-Qin Chen, Shi-Xin Zhang</dc:creator>
+    </item>
+    <item>
+      <title>Fundamental Limitations of QAOA on Constrained Problems and a Route to Exponential Enhancement</title>
+      <link>https://arxiv.org/abs/2511.17259</link>
+      <description>arXiv:2511.17259v1 Announce Type: new 
+Abstract: We study fundamental limitations of the generic Quantum Approximate Optimization Algorithm (QAOA) on constrained problems where valid solutions form a low dimensional manifold inside the Boolean hypercube, and we present a provable route to exponential improvements via constraint embedding. Focusing on permutation constrained objectives, we show that the standard generic QAOA ansatz, with a transverse field mixer and diagonal r local cost, faces an intrinsic feasibility bottleneck: even after angle optimization, circuits whose depth grows at most linearly with n cannot raise the total probability mass on the feasible manifold much above the uniform baseline suppressed by the size of the full Hilber space. Against this envelope we introduce a minimal constraint enhanced kernel (CE QAOA) that operates directly inside a product one hot subspace and mixes with a block local XY Hamiltonian. For permutation constrained problems, we prove an angle robust, depth matched exponential enhancement where the ratio between the feasible mass from CE QAOA and generic QAOA grows exponentially in $n^2$ for all depths up to a linear fraction of n, under a mild polynomial growth condition on the interaction hypergraph. Thanks to the problem algorithm co design in the kernel construction, the techniques and guarantees extend beyond permutations to a broad class of NP-Hard constrained optimization problems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.17259v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.CE</category>
+      <category>cs.DM</category>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chinonso Onah, Kristel Michielsen</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Masked Autoencoders for Vision Learning</title>
+      <link>https://arxiv.org/abs/2511.17372</link>
+      <description>arXiv:2511.17372v1 Announce Type: new 
+Abstract: Classical autoencoders are widely used to learn features of input data. To improve the feature learning, classical masked autoencoders extend classical autoencoders to learn the features of the original input sample in the presence of masked-out data. While quantum autoencoders exist, there is no design and implementation of quantum masked autoencoders that can leverage the benefits of quantum computing and quantum autoencoders. In this paper, we propose quantum masked autoencoders (QMAEs) that can effectively learn missing features of a data sample within quantum states instead of classical embeddings. We showcase that our QMAE architecture can learn the masked features of an image and can reconstruct the masked input image with improved visual fidelity in MNIST images. Experimental evaluation highlights that QMAE can significantly outperform (12.86% on average) in classification accuracy compared to state-of-the-art quantum autoencoders in the presence of masks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.17372v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Emma Andrews, Prabhat Mishra</dc:creator>
+    </item>
+    <item>
+      <title>A Lifting Theorem for Hybrid Classical-Quantum Communication Complexity</title>
+      <link>https://arxiv.org/abs/2511.17227</link>
+      <description>arXiv:2511.17227v1 Announce Type: cross 
+Abstract: We investigates a model of hybrid classical-quantum communication complexity, in which two parties first exchange classical messages and subsequently communicate using quantum messages. We study the trade-off between the classical and quantum communication for composed functions of the form $f\circ G^n$, where $f:\{0,1\}^n\to\{\pm1\}$ and $G$ is an inner product function of $\Theta(\log n)$ bits. To prove the trade-off, we establish a novel lifting theorem for hybrid communication complexity. This theorem unifies two previously separate lifting paradigms: the query-to-communication lifting framework for classical communication complexity and the approximate-degree-to-generalized-discrepancy lifting methods for quantum communication complexity. Our hybrid lifting theorem therefore offers a new framework for proving lower bounds in hybrid classical-quantum communication models.
+  As a corollary, we show that any hybrid protocol communicating $c$ classical bits followed by $q$ qubits to compute $f\circ G^n$ must satisfy $c+q^2=\Omega\big(\max\{\mathrm{deg}(f),\mathrm{bs}(f)\}\cdot\log n\big)$, where $\mathrm{deg}(f)$ is the degree of $f$ and $\mathrm{bs}(f)$ is the block sensitivity of $f$. For read-once formula $f$, this yields an almost tight trade-off: either they have to exchange $\Theta\big(n\cdot\log n\big)$ classical bits or $\widetilde\Theta\big(\sqrt n\cdot\log n\big)$ qubits, showing that classical pre-processing cannot significantly reduce the quantum communication required. To the best of our knowledge, this is the first non-trivial trade-off between classical and quantum communication in hybrid two-way communication complexity.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2511.17227v1</guid>
+      <category>cs.CC</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xudong Wu, Guangxu Yang, Penghui Yao</dc:creator>
+    </item>
   </channel>
 </rss>

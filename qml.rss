@@ -7,128 +7,124 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Dec 2025 05:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 05:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Non-Negative Matrix Factorization Using Non-Von Neumann Computers</title>
-      <link>https://arxiv.org/abs/2512.00675</link>
-      <description>arXiv:2512.00675v1 Announce Type: new 
-Abstract: Non-negative matrix factorization (NMF) is a matrix decomposition problem with applications in unsupervised learning. The general form of this problem (along with many of its variants) is NP-hard in nature. In our work, we explore how this problem could be solved with an energy-based optimization method suitable for certain machines with non-von Neumann architectures. We used the Dirac-3, a device based on the entropy computing paradigm and made by Quantum Computing Inc., to evaluate our approach. Our formulations consist of (i) a quadratic unconstrained binary optimization model (QUBO, suitable for Ising machines) and a quartic formulation that allows for real-valued and integer variables (suitable for machines like the Dirac-3). Although current devices cannot solve large NMF problems, the results of our preliminary experiments are promising enough to warrant further research. For non-negative real matrices, we observed that a fusion approach of first using Dirac-3 and then feeding its results as the initial factor matrices to Scikit-learn's NMF procedure outperforms Scikit-learn's NMF procedure on its own, with default parameters in terms of the error in the reconstructed matrices. For our experiments on non-negative integer matrices, we compared the Dirac-3 device to Google's CP-SAT solver (inside the Or-Tools package) and found that for serial processing, Dirac-3 outperforms CP-SAT in a majority of the cases. We believe that future work in this area might be able to identify domains and variants of the problem where entropy computing (and other non-von Neumann architectures) could offer a clear advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.00675v1</guid>
+      <title>Quantum Machine Learning for Secondary Frequency Control</title>
+      <link>https://arxiv.org/abs/2512.02065</link>
+      <description>arXiv:2512.02065v1 Announce Type: new 
+Abstract: Frequency control in power systems is critical to maintaining stability and preventing blackouts. Traditional methods like meta-heuristic algorithms and machine learning face limitations in real-time applicability and scalability. This paper introduces a novel approach using a pure variational quantum circuit (VQC) for real-time secondary frequency control in diesel generators. Unlike hybrid classical-quantum models, the proposed VQC operates independently during execution, eliminating latency from classical-quantum data exchange. The VQC is trained via supervised learning to map historical frequency deviations to optimal Proportional-Integral (PI) controller parameters using a pre-computed lookup table. Simulations demonstrate that the VQC achieves high prediction accuracy (over 90%) with sufficient quantum measurement shots and generalizes well across diverse test events. The quantum-optimized PI parameters significantly improve transient response, reducing frequency fluctuations and settling time.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02065v1</guid>
       <category>quant-ph</category>
-      <category>cs.ET</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ajinkya Borle, Charles Nicholas, Uchenna Chukwu, Mohammad-Ali Miri, Nicholas Chancellor</dc:creator>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <dc:creator>Younes Ghazagh Jahed, Alireza Khatiri</dc:creator>
     </item>
     <item>
-      <title>Information conservation relations for weak measurement and its reversal</title>
-      <link>https://arxiv.org/abs/2512.00746</link>
-      <description>arXiv:2512.00746v1 Announce Type: new 
-Abstract: We investigate the information distribution among different entities in the weak measurements protocol. Focusing on multilevel, decaying systems under continuous (no-click) monitoring, we derive exact, conservation-type information relations that hold for each outcome in the record. Analogous relations hold when an explicit reversal is applied, with the reversal success probability entering the relation.
-  We extend the framework to finite-count outcomes (arbitrary photon numbers) obtaining quantitative trade-offs that link information change in the weak measurement process to the entities to which the information is distributed. These results provide a unified, outcome-resolved account of information flow in monitored open quantum dynamics and provide insight into a deeper understanding of open-system dynamics and its control.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.00746v1</guid>
+      <title>Parallel Multi-Circuit Quantum Feature Fusion in Hybrid Quantum-Classical Convolutional Neural Networks for Breast Tumor Classification</title>
+      <link>https://arxiv.org/abs/2512.02066</link>
+      <description>arXiv:2512.02066v1 Announce Type: new 
+Abstract: Quantum machine learning has emerged as a promising approach to improve feature extraction and classification tasks in high-dimensional data domains such as medical imaging. In this work, we present a hybrid Quantum-Classical Convolutional Neural Network (QCNN) architecture designed for the binary classification of the BreastMNIST dataset, a standardized benchmark for distinguishing between benign and malignant breast tumors. Our architecture integrates classical convolutional feature extraction with two distinct quantum circuits: an amplitude-encoding variational quantum circuit (VQC) and an angle-encoding VQC circuit with circular entanglement, both implemented on four qubits. These circuits generate quantum feature embeddings that are fused with classical features to form a joint feature space, which is subsequently processed by a fully connected classifier. To ensure fairness, the hybrid QCNN is parameter-matched against a baseline classical CNN, allowing us to isolate the contribution of quantum layers. Both models are trained under identical conditions using the Adam optimizer and binary cross-entropy loss. Experimental evaluation in five independent runs demonstrates that the hybrid QCNN achieves statistically significant improvements in classification accuracy compared to the classical CNN, as validated by a one-sided Wilcoxon signed rank test (p = 0.03125) and supported by large effect size of Cohen's d = 2.14. Our results indicate that hybrid QCNN architectures can leverage entanglement and quantum feature fusion to enhance medical image classification tasks. This work establishes a statistical validation framework for assessing hybrid quantum models in biomedical applications and highlights pathways for scaling to larger datasets and deployment on near-term quantum hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02066v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>eess.IV</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Ece Yurtseven</dc:creator>
+    </item>
+    <item>
+      <title>From Betti Numbers to Persistence Diagrams: A Hybrid Quantum Algorithm for Topological Data Analysis</title>
+      <link>https://arxiv.org/abs/2512.02081</link>
+      <description>arXiv:2512.02081v1 Announce Type: new 
+Abstract: Persistence diagrams serve as a core tool in topological data analysis, playing a crucial role in pathological monitoring, drug discovery, and materials design. However, existing quantum topological algorithms, such as the LGZ algorithm, can only efficiently compute summary statistics like Betti numbers, failing to provide persistence diagram information that tracks the lifecycle of individual topological features, severely limiting their practical value. This paper proposes a novel quantum-classical hybrid algorithm that achieves, for the first time, the leap from "quantum computation of Betti numbers" to "quantum acquisition of practical persistence diagrams." The algorithm leverages the LGZ quantum algorithm as an efficient feature extractor, mining the harmonic form eigenvectors of the combinatorial Laplacian as well as Betti numbers, constructing specialized topological kernel functions to train a quantum support vector machine (QSVM), and learning the mapping from quantum topological features to persistence diagrams. The core contributions of this algorithm are: (1) elevating quantum topological computation from statistical summaries to pattern recognition, greatly expanding its application value; (2) obtaining more practical topological information in the form of persistence diagrams for real-world applications while maintaining the exponential speedup advantage of quantum computation; (3) proposing a novel hybrid paradigm of "classical precision guiding quantum efficiency." This method provides a feasible pathway for the practical implementation of quantum topological data analysis.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02081v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Dong Liu</dc:creator>
+    </item>
+    <item>
+      <title>Quantum feature encoding optimization</title>
+      <link>https://arxiv.org/abs/2512.02422</link>
+      <description>arXiv:2512.02422v1 Announce Type: new 
+Abstract: Quantum Machine Learning (QML) holds the promise of enhancing machine learning modeling in terms of both complexity and accuracy. A key challenge in this domain is the encoding of input data, which plays a pivotal role in determining the performance of QML models. In this work, we tackle a largely unaddressed aspect of encoding that is unique to QML modeling -- rather than adjusting the ansatz used for encoding, we consider adjusting how data is conveyed to the ansatz. We specifically implement QML pipelines that leverage classical data manipulation (i.e., ordering, selecting, and weighting features) as a preprocessing step, and evaluate if these aspects of encoding can have a significant impact on QML model performance, and if they can be effectively optimized to improve performance. Our experimental results, applied across a wide variety of data sets, ansatz, and circuit sizes, with a representative QML approach, demonstrate that by optimizing how features are encoded in an ansatz we can substantially and consistently improve the performance of QML models, making a compelling case for integrating these techniques in future QML applications. Finally we demonstrate the practical feasibility of this approach by running it using real quantum hardware with 100 qubit circuits and successfully achieving improved QML modeling performance in this case as well.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02422v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Tommaso Fioravanti, Brian Quanz, Gabriele Agliardi, Edgar Andres Ruiz Guzman, Gin\'es Carrascal, Jae-Eun Park</dc:creator>
+    </item>
+    <item>
+      <title>Qudits offer no advantages over dits for sending random messages</title>
+      <link>https://arxiv.org/abs/2512.02477</link>
+      <description>arXiv:2512.02477v1 Announce Type: new 
+Abstract: We consider the following simple scenario: Alice has one of many possible messages, drawn from a known distribution, and wants to maximize the probability that Bob guesses her message correctly. We prove that if Alice can send only a qudit to Bob, without preshared entanglement, there is never any advantage over sending him a classical dit. This result was previously known only for a uniform distribution.
+  We also prove a mixed-state generalization of this result in the form of an upper bound on the success probability of discriminating between mixed quantum states with a single measurement. This bound is based solely on the dimension, probability distribution, and eigenvalues of the states and is sharp among such bounds.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02477v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yusef Maleki, Luis D. Zambrano Palma, M. Suhail Zubairy</dc:creator>
-    </item>
-    <item>
-      <title>Fragmentation is Efficiently Learnable by Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2512.00751</link>
-      <description>arXiv:2512.00751v1 Announce Type: new 
-Abstract: Hilbert space fragmentation is a phenomenon in which the Hilbert space of a quantum system is dynamically decoupled into exponentially many Krylov subspaces. We can define the Schur transform as a unitary operation mapping some set of preferred bases of these Krylov subspaces to computational basis states labeling them. We prove that this transformation can be efficiently learned via gradient descent from a set of training data using quantum neural networks, provided that the fragmentation is sufficiently strong such that the summed dimension of the unique Krylov subspaces is polynomial in the system size. To demonstrate this, we analyze the loss landscapes of random quantum neural networks constructed out of Hilbert space fragmented systems. We prove that in this setting, it is possible to eliminate barren plateaus and poor local minima, suggesting efficient trainability when using gradient descent. Furthermore, as the algebra defining the fragmentation is not known a priori and not guaranteed to have sparse algebra elements, to the best of our knowledge there are no existing efficient classical algorithms generally capable of simulating expectation values in these networks. Our setting thus provides a rare example of a physically motivated quantum learning task with no known dequantization.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.00751v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Mikhail Mints, Eric Anschuetz</dc:creator>
+      <dc:creator>Ronit Shah</dc:creator>
     </item>
     <item>
-      <title>Data-Driven Learnability Transition of Measurement-Induced Entanglement</title>
-      <link>https://arxiv.org/abs/2512.01317</link>
-      <description>arXiv:2512.01317v1 Announce Type: new 
-Abstract: Measurement-induced entanglement (MIE) captures how local measurements generate long-range quantum correlations and drive dynamical phase transitions in many-body systems. Yet estimating MIE experimentally remains challenging: direct evaluation requires extensive post-selection over measurement outcomes, raising the question of whether MIE is accessible with only polynomial resources. We address this challenge by reframing MIE detection as a data-driven learning problem that assumes no prior knowledge of state preparation. Using measurement records alone, we train a neural network in a self-supervised manner to predict the uncertainty metric for MIE--the gap between upper and lower bounds of the average post-measurement bipartite entanglement. Applied to random circuits with one-dimensional all-to-all connectivity and two-dimensional nearest-neighbor coupling, our method reveals a learnability transition with increasing circuit depth: below a threshold, the uncertainty is small and decreases with polynomial measurement data and model parameters, while above it the uncertainty remains large despite increasing resources. We further verify this transition experimentally on current noisy quantum devices, demonstrating its robustness to realistic noise. These results highlight the power of data-driven approaches for learning MIE and delineate the practical limits of its classical learnability.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.01317v1</guid>
+      <title>Generative modeling using evolved quantum Boltzmann machines</title>
+      <link>https://arxiv.org/abs/2512.02721</link>
+      <description>arXiv:2512.02721v1 Announce Type: new 
+Abstract: Born-rule generative modeling, a central task in quantum machine learning, seeks to learn probability distributions that can be efficiently sampled by measuring complex quantum states. One hope is for quantum models to efficiently capture probability distributions that are difficult to learn and simulate by classical means alone. Quantum Boltzmann machines were proposed about one decade ago for this purpose, yet efficient training methods have remained elusive. In this paper, I overcome this obstacle by proposing a practical solution that trains quantum Boltzmann machines for Born-rule generative modeling. Two key ingredients in the proposal are the Donsker-Varadhan variational representation of the classical relative entropy and the quantum Boltzmann gradient estimator of [Patel et al., arXiv:2410.12935]. I present the main result for a more general ansatz known as an evolved quantum Boltzmann machine [Minervini et al., arXiv:2501.03367], which combines parameterized real- and imaginary-time evolution. I also show how to extend the findings to other distinguishability measures beyond relative entropy. Finally, I present four different hybrid quantum-classical algorithms for the minimax optimization underlying training, and I discuss their theoretical convergence guarantees.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02721v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.dis-nn</category>
-      <category>cs.AI</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <category>math.OC</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Dongheng Qian, Jing Wang</dc:creator>
+      <dc:creator>Mark M. Wilde</dc:creator>
     </item>
     <item>
-      <title>Modeling Wavelet Transformed Quantum Support Vector for Network Intrusion Detection</title>
-      <link>https://arxiv.org/abs/2512.01365</link>
-      <description>arXiv:2512.01365v1 Announce Type: new 
-Abstract: Network traffic anomaly detection is a critical cy- bersecurity challenge requiring robust solutions for complex Internet of Things (IoT) environments. We present a novel hybrid quantum-classical framework integrating an enhanced Quantum Support Vector Machine (QSVM) with the Quantum Haar Wavelet Packet Transform (QWPT) for superior anomaly classification under realistic noisy intermediate-scale Quantum conditions. Our methodology employs amplitude-encoded quan- tum state preparation, multi-level QWPT feature extraction, and behavioral analysis via Shannon Entropy profiling and Chi-square testing. Features are classified using QSVM with fidelity-based quantum kernels optimized through hybrid train- ing with simultaneous perturbation stochastic approximation (SPSA) optimizer. Evaluation under noiseless and depolarizing noise conditions demonstrates exceptional performance: 96.67% accuracy on BoT-IoT and 89.67% on IoT-23 datasets, surpassing quantum autoencoder approaches by over 7 percentage points.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.01365v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Swati Kumari, Shiva Raj Pokhrel, Swathi Chandrasekhar, Navneet Singh, Hridoy Sankar Dutta, Adnan Anwar, Sutharshan Rajasegarar, Robin Doss</dc:creator>
-    </item>
-    <item>
-      <title>Formal Verification of Noisy Quantum Reinforcement Learning Policies</title>
-      <link>https://arxiv.org/abs/2512.01502</link>
-      <description>arXiv:2512.01502v1 Announce Type: new 
-Abstract: Quantum reinforcement learning (QRL) aims to use quantum effects to create sequential decision-making policies that achieve tasks more effectively than their classical counterparts. However, QRL policies face uncertainty from quantum measurements and hardware noise, such as bit-flip, phase-flip, and depolarizing errors, which can lead to unsafe behavior. Existing work offers no systematic way to verify whether trained QRL policies meet safety requirements under specific noise conditions.
-  We introduce QVerifier, a formal verification method that applies probabilistic model checking to analyze trained QRL policies with and without modeled quantum noise. QVerifier builds a complete model of the policy-environment interaction, incorporates quantum uncertainty directly into the transition probabilities, and then checks safety properties using the Storm model checker.
-  Experiments across multiple QRL environments show that QVerifier precisely measures how different noise models influence safety, revealing both performance degradation and cases where noise can help. By enabling rigorous safety verification before deployment, QVerifier addresses a critical need: because access to quantum hardware is expensive, pre-deployment verification is essential for any safety-critical use of QRL. QVerifier targets a potential classical-quantum sweet spot: trained QRL policies that execute efficiently on quantum hardware, yet remain tractable for classical probabilistic model checking despite being too slow for real-time classical deployment.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.01502v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.FL</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Dennis Gross</dc:creator>
-    </item>
-    <item>
-      <title>Learning Reduced Representations for Quantum Classifiers</title>
-      <link>https://arxiv.org/abs/2512.01509</link>
-      <description>arXiv:2512.01509v1 Announce Type: new 
-Abstract: Data sets that are specified by a large number of features are currently outside the area of applicability for quantum machine learning algorithms. An immediate solution to this impasse is the application of dimensionality reduction methods before passing the data to the quantum algorithm. We investigate six conventional feature extraction algorithms and five autoencoder-based dimensionality reduction models to a particle physics data set with 67 features. The reduced representations generated by these models are then used to train a quantum support vector machine for solving a binary classification problem: whether a Higgs boson is produced in proton collisions at the LHC. We show that the autoencoder methods learn a better lower-dimensional representation of the data, with the method we design, the Sinkclass autoencoder, performing 40% better than the baseline. The methods developed here open up the applicability of quantum machine learning to a larger array of data sets. Moreover, we provide a recipe for effective dimensionality reduction in this context.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.01509v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>hep-ex</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <arxiv:DOI>10.1007/s42484-025-00331-y</arxiv:DOI>
-      <arxiv:journal_reference>Odagiu, P., Belis, V., Schulze, L. et al. Learning reduced representations for quantum classifiers. Quantum Mach. Intell. 7, 113 (2025)</arxiv:journal_reference>
-      <dc:creator>Patrick Odagiu, Vasilis Belis, Lennart Schulze, Panagiotis Barkoutsos, Michele Grossi, Florentin Reiter, G\"unther Dissertori, Ivano Tavernelli, Sofia Vallecorsa</dc:creator>
-    </item>
-    <item>
-      <title>A List of Complexity Bounds for Property Testing by Quantum Sample-to-Query Lifting</title>
-      <link>https://arxiv.org/abs/2512.01971</link>
-      <description>arXiv:2512.01971v1 Announce Type: new 
-Abstract: Quantum sample-to-query lifting, a relation between quantum sample complexity and quantum query complexity presented in Wang and Zhang (SIAM J. Comput. 2025), was significantly strengthened by Tang, Wright, and Zhandry (2025) to the case of state-preparation oracles. In this paper, we compile a list of quantum lower and upper bounds for property testing that are obtained by quantum sample-to-query lifting. The problems of interest include testing properties of probability distributions and quantum states, such as entropy and closeness. This collection contains new results, as well as new proofs of known bounds. In total, we present 49 complexity bounds, where 41 are new and 18 are (near-)optimal.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.01971v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
+      <title>Covert Communication Over a Quantum MAC with a Helper</title>
+      <link>https://arxiv.org/abs/2504.18747</link>
+      <description>arXiv:2504.18747v1 Announce Type: cross 
+Abstract: We study covert classical communication over a quantum multiple-access channel (MAC) with a helper. Specifically, we consider three transmitters, where one transmitter helps the other two transmitters communicate covertly with a receiver. We demonstrate the feasibility of achieving a positive covert rate over this channel and establish an achievable rate region. Our result recovers as a special case known results for classical communication over classical MACs with a degraded message set, classical communication over quantum MACs, and classical communication over MACs with a helper. To the best of our knowledge, our result is the first to achieve covert communication with positive rates over both classical and quantum MACs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2504.18747v1</guid>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Tue, 02 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
+      <category>quant-ph</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kean Chen, Qisheng Wang, Zhicheng Zhang</dc:creator>
+      <dc:creator>Hassan ZivariFard, R\'emi A. Chou, Xiaodong Wang</dc:creator>
+    </item>
+    <item>
+      <title>Unlocking the Power of Boltzmann Machines by Parallelizable Sampler and Efficient Temperature Estimation</title>
+      <link>https://arxiv.org/abs/2512.02323</link>
+      <description>arXiv:2512.02323v1 Announce Type: cross 
+Abstract: Boltzmann machines (BMs) are powerful energy-based generative models, but their heavy training cost has largely confined practical use to Restricted BMs (RBMs) trained with an efficient learning method called contrastive divergence. More accurate learning typically requires Markov chain Monte Carlo (MCMC) Boltzmann sampling, but it is time-consuming due to the difficulty of parallelization for more expressive models. To address this limitation, we first propose a new Boltzmann sampler inspired by a quantum-inspired combinatorial optimization called simulated bifurcation (SB). This SB-inspired approach, which we name Langevin SB (LSB), enables parallelized sampling while maintaining accuracy comparable to MCMC. Furthermore, this is applicable not only to RBMs but also to BMs with general couplings. However, LSB cannot control the inverse temperature of the output Boltzmann distribution, which hinders learning and degrades performance. To overcome this limitation, we also developed an efficient method for estimating the inverse temperature during the learning process, which we call conditional expectation matching (CEM). By combining LSB and CEM, we establish an efficient learning framework for BMs with greater expressive power than RBMs. We refer to this framework as sampler-adaptive learning (SAL). SAL opens new avenues for energy-based generative modeling beyond RBMs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.02323v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <category>stat.ML</category>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Kentaro Kubo, Hayato Goto</dc:creator>
     </item>
   </channel>
 </rss>

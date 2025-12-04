@@ -7,124 +7,114 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Dec 2025 05:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Dec 2025 05:00:16 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Quantum Machine Learning for Secondary Frequency Control</title>
-      <link>https://arxiv.org/abs/2512.02065</link>
-      <description>arXiv:2512.02065v1 Announce Type: new 
-Abstract: Frequency control in power systems is critical to maintaining stability and preventing blackouts. Traditional methods like meta-heuristic algorithms and machine learning face limitations in real-time applicability and scalability. This paper introduces a novel approach using a pure variational quantum circuit (VQC) for real-time secondary frequency control in diesel generators. Unlike hybrid classical-quantum models, the proposed VQC operates independently during execution, eliminating latency from classical-quantum data exchange. The VQC is trained via supervised learning to map historical frequency deviations to optimal Proportional-Integral (PI) controller parameters using a pre-computed lookup table. Simulations demonstrate that the VQC achieves high prediction accuracy (over 90%) with sufficient quantum measurement shots and generalizes well across diverse test events. The quantum-optimized PI parameters significantly improve transient response, reducing frequency fluctuations and settling time.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02065v1</guid>
+      <title>Performance Analysis of Quantum Support Vector Classifiers and Quantum Neural Networks</title>
+      <link>https://arxiv.org/abs/2512.03094</link>
+      <description>arXiv:2512.03094v1 Announce Type: new 
+Abstract: This study explores the performance of Quantum Support Vector Classifiers (QSVCs) and Quantum Neural Networks (QNNs) in comparison to classical models for machine learning tasks. By evaluating these models on the Iris and MNIST-PCA datasets, we find that quantum models tend to outperform classical approaches as the problem complexity increases. While QSVCs generally provide more consistent results, QNNs exhibit superior performance in higher-complexity tasks due to their increased quantum load. Additionally, we analyze the impact of hyperparameter tuning, showing that feature maps and ansatz configurations significantly influence model accuracy. We also compare the PennyLane and Qiskit frameworks, concluding that Qiskit provides better optimization and efficiency for our implementation. These findings highlight the potential of Quantum Machine Learning (QML) for complex classification problems and provide insights into model selection and optimization strategies</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.03094v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
-      <dc:creator>Younes Ghazagh Jahed, Alireza Khatiri</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <arxiv:journal_reference>2025 IEEE International Joint Conference on Neural Networks (IJCNN 2025) - poster track</arxiv:journal_reference>
+      <dc:creator>Tom\'as Villalba-Ferreiro, Eduardo Mosqueira-Rey, Diego Alvarez-Estevez</dc:creator>
     </item>
     <item>
-      <title>Parallel Multi-Circuit Quantum Feature Fusion in Hybrid Quantum-Classical Convolutional Neural Networks for Breast Tumor Classification</title>
-      <link>https://arxiv.org/abs/2512.02066</link>
-      <description>arXiv:2512.02066v1 Announce Type: new 
-Abstract: Quantum machine learning has emerged as a promising approach to improve feature extraction and classification tasks in high-dimensional data domains such as medical imaging. In this work, we present a hybrid Quantum-Classical Convolutional Neural Network (QCNN) architecture designed for the binary classification of the BreastMNIST dataset, a standardized benchmark for distinguishing between benign and malignant breast tumors. Our architecture integrates classical convolutional feature extraction with two distinct quantum circuits: an amplitude-encoding variational quantum circuit (VQC) and an angle-encoding VQC circuit with circular entanglement, both implemented on four qubits. These circuits generate quantum feature embeddings that are fused with classical features to form a joint feature space, which is subsequently processed by a fully connected classifier. To ensure fairness, the hybrid QCNN is parameter-matched against a baseline classical CNN, allowing us to isolate the contribution of quantum layers. Both models are trained under identical conditions using the Adam optimizer and binary cross-entropy loss. Experimental evaluation in five independent runs demonstrates that the hybrid QCNN achieves statistically significant improvements in classification accuracy compared to the classical CNN, as validated by a one-sided Wilcoxon signed rank test (p = 0.03125) and supported by large effect size of Cohen's d = 2.14. Our results indicate that hybrid QCNN architectures can leverage entanglement and quantum feature fusion to enhance medical image classification tasks. This work establishes a statistical validation framework for assessing hybrid quantum models in biomedical applications and highlights pathways for scaling to larger datasets and deployment on near-term quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02066v1</guid>
+      <title>QGShap: Quantum Acceleration for Faithful GNN Explanations</title>
+      <link>https://arxiv.org/abs/2512.03099</link>
+      <description>arXiv:2512.03099v1 Announce Type: new 
+Abstract: Graph Neural Networks (GNNs) have become indispensable in critical domains such as drug discovery, social network analysis, and recommendation systems, yet their black-box nature hinders deployment in scenarios requiring transparency and accountability. While Shapley value-based methods offer mathematically principled explanations by quantifying each component's contribution to predictions, computing exact values requires evaluating $2^n$ coalitions (or aggregating over $n!$ permutations), which is intractable for real-world graphs. Existing approximation strategies sacrifice either fidelity or efficiency, limiting their practical utility. We introduce QGShap, a quantum computing approach that leverages amplitude amplification to achieve quadratic speedups in coalition evaluation while maintaining exact Shapley computation. Unlike classical sampling or surrogate methods, our approach provides fully faithful explanations without approximation trade-offs for tractable graph sizes. We conduct empirical evaluations on synthetic graph datasets, demonstrating that QGShap achieves consistently high fidelity and explanation accuracy, matching or exceeding the performance of classical methods across all evaluation metrics. These results collectively demonstrate that QGShap not only preserves exact Shapley faithfulness but also delivers interpretable, stable, and structurally consistent explanations that align with the underlying graph reasoning of GNNs. The implementation of QGShap is available at https://github.com/smlab-niser/qgshap.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.03099v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
       <category>cs.LG</category>
-      <category>eess.IV</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ece Yurtseven</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Haribandhu Jena, Jyotirmaya Shivottam, Subhankar Mishra</dc:creator>
     </item>
     <item>
-      <title>From Betti Numbers to Persistence Diagrams: A Hybrid Quantum Algorithm for Topological Data Analysis</title>
-      <link>https://arxiv.org/abs/2512.02081</link>
-      <description>arXiv:2512.02081v1 Announce Type: new 
-Abstract: Persistence diagrams serve as a core tool in topological data analysis, playing a crucial role in pathological monitoring, drug discovery, and materials design. However, existing quantum topological algorithms, such as the LGZ algorithm, can only efficiently compute summary statistics like Betti numbers, failing to provide persistence diagram information that tracks the lifecycle of individual topological features, severely limiting their practical value. This paper proposes a novel quantum-classical hybrid algorithm that achieves, for the first time, the leap from "quantum computation of Betti numbers" to "quantum acquisition of practical persistence diagrams." The algorithm leverages the LGZ quantum algorithm as an efficient feature extractor, mining the harmonic form eigenvectors of the combinatorial Laplacian as well as Betti numbers, constructing specialized topological kernel functions to train a quantum support vector machine (QSVM), and learning the mapping from quantum topological features to persistence diagrams. The core contributions of this algorithm are: (1) elevating quantum topological computation from statistical summaries to pattern recognition, greatly expanding its application value; (2) obtaining more practical topological information in the form of persistence diagrams for real-world applications while maintaining the exponential speedup advantage of quantum computation; (3) proposing a novel hybrid paradigm of "classical precision guiding quantum efficiency." This method provides a feasible pathway for the practical implementation of quantum topological data analysis.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02081v1</guid>
+      <title>In Situ Quantum Analog Pulse Characterization via Structured Signal Processing</title>
+      <link>https://arxiv.org/abs/2512.03193</link>
+      <description>arXiv:2512.03193v1 Announce Type: new 
+Abstract: Analog quantum simulators can directly emulate time-dependent Hamiltonian dynamics, enabling the exploration of diverse physical phenomena such as phase transitions, quench dynamics, and non-equilibrium processes. Realizing accurate analog simulations requires high-fidelity time-dependent pulse control, yet existing calibration schemes are tailored to digital gate characterization and cannot be readily extended to learn continuous pulse trajectories. We present a characterization algorithm for in situ learning of pulse trajectories by extending the Quantum Signal Processing (QSP) framework to analyze time-dependent pulses. By combining QSP with a logical-level analog-digital mapping paradigm, our method reconstructs a smooth pulse directly from queries of the time-ordered propagator, without requiring mid-circuit measurements or additional evolution. Unlike conventional Trotterization-based methods, our approach avoids unscalable performance degradation arising from accumulated local truncation errors as the logical-level segmentation increases. Through rigorous theoretical analysis and extensive numerical simulations, we demonstrate that our method achieves high accuracy with strong efficiency and robustness against SPAM as well as depolarizing errors, providing a lightweight and optimal validation protocol for analog quantum simulators capable of detecting major hardware faults.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.03193v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Dong Liu</dc:creator>
-    </item>
-    <item>
-      <title>Quantum feature encoding optimization</title>
-      <link>https://arxiv.org/abs/2512.02422</link>
-      <description>arXiv:2512.02422v1 Announce Type: new 
-Abstract: Quantum Machine Learning (QML) holds the promise of enhancing machine learning modeling in terms of both complexity and accuracy. A key challenge in this domain is the encoding of input data, which plays a pivotal role in determining the performance of QML models. In this work, we tackle a largely unaddressed aspect of encoding that is unique to QML modeling -- rather than adjusting the ansatz used for encoding, we consider adjusting how data is conveyed to the ansatz. We specifically implement QML pipelines that leverage classical data manipulation (i.e., ordering, selecting, and weighting features) as a preprocessing step, and evaluate if these aspects of encoding can have a significant impact on QML model performance, and if they can be effectively optimized to improve performance. Our experimental results, applied across a wide variety of data sets, ansatz, and circuit sizes, with a representative QML approach, demonstrate that by optimizing how features are encoded in an ansatz we can substantially and consistently improve the performance of QML models, making a compelling case for integrating these techniques in future QML applications. Finally we demonstrate the practical feasibility of this approach by running it using real quantum hardware with 100 qubit circuits and successfully achieving improved QML modeling performance in this case as well.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02422v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.NA</category>
+      <category>math.NA</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Tommaso Fioravanti, Brian Quanz, Gabriele Agliardi, Edgar Andres Ruiz Guzman, Gin\'es Carrascal, Jae-Eun Park</dc:creator>
+      <dc:creator>Yulong Dong, Christopher Kang, Murphy Yuezhen Niu</dc:creator>
     </item>
     <item>
-      <title>Qudits offer no advantages over dits for sending random messages</title>
-      <link>https://arxiv.org/abs/2512.02477</link>
-      <description>arXiv:2512.02477v1 Announce Type: new 
-Abstract: We consider the following simple scenario: Alice has one of many possible messages, drawn from a known distribution, and wants to maximize the probability that Bob guesses her message correctly. We prove that if Alice can send only a qudit to Bob, without preshared entanglement, there is never any advantage over sending him a classical dit. This result was previously known only for a uniform distribution.
-  We also prove a mixed-state generalization of this result in the form of an upper bound on the success probability of discriminating between mixed quantum states with a single measurement. This bound is based solely on the dimension, probability distribution, and eigenvalues of the states and is sharp among such bounds.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02477v1</guid>
+      <title>Sketch Tomography: Hybridizing Classical Shadow and Matrix Product State</title>
+      <link>https://arxiv.org/abs/2512.03333</link>
+      <description>arXiv:2512.03333v1 Announce Type: new 
+Abstract: We introduce Sketch Tomography, an efficient procedure for quantum state tomography based on the classical shadow protocol used for quantum observable estimations. The procedure applies to the case where the ground truth quantum state is a matrix product state (MPS). The density matrix of the ground truth state admits a tensor train ansatz as a result of the MPS assumption, and we estimate the tensor components of the ansatz through a series of observable estimations, thus outputting an approximation of the density matrix. The procedure is provably convergent with a sample complexity that scales quadratically in the system size. We conduct extensive numerical experiments to show that the procedure outputs an accurate approximation to the quantum state. For observable estimation tasks involving moderately large subsystems, we show that our procedure gives rise to a more accurate estimation than the classical shadow protocol. We also show that sketch tomography is more accurate in observable estimation than quantum states trained from the maximum likelihood estimation formulation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.03333v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ronit Shah</dc:creator>
-    </item>
-    <item>
-      <title>Generative modeling using evolved quantum Boltzmann machines</title>
-      <link>https://arxiv.org/abs/2512.02721</link>
-      <description>arXiv:2512.02721v1 Announce Type: new 
-Abstract: Born-rule generative modeling, a central task in quantum machine learning, seeks to learn probability distributions that can be efficiently sampled by measuring complex quantum states. One hope is for quantum models to efficiently capture probability distributions that are difficult to learn and simulate by classical means alone. Quantum Boltzmann machines were proposed about one decade ago for this purpose, yet efficient training methods have remained elusive. In this paper, I overcome this obstacle by proposing a practical solution that trains quantum Boltzmann machines for Born-rule generative modeling. Two key ingredients in the proposal are the Donsker-Varadhan variational representation of the classical relative entropy and the quantum Boltzmann gradient estimator of [Patel et al., arXiv:2410.12935]. I present the main result for a more general ansatz known as an evolved quantum Boltzmann machine [Minervini et al., arXiv:2501.03367], which combines parameterized real- and imaginary-time evolution. I also show how to extend the findings to other distinguishability measures beyond relative entropy. Finally, I present four different hybrid quantum-classical algorithms for the minimax optimization underlying training, and I discuss their theoretical convergence guarantees.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02721v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>math.OC</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Mark M. Wilde</dc:creator>
-    </item>
-    <item>
-      <title>Covert Communication Over a Quantum MAC with a Helper</title>
-      <link>https://arxiv.org/abs/2504.18747</link>
-      <description>arXiv:2504.18747v1 Announce Type: cross 
-Abstract: We study covert classical communication over a quantum multiple-access channel (MAC) with a helper. Specifically, we consider three transmitters, where one transmitter helps the other two transmitters communicate covertly with a receiver. We demonstrate the feasibility of achieving a positive covert rate over this channel and establish an achievable rate region. Our result recovers as a special case known results for classical communication over classical MACs with a degraded message set, classical communication over quantum MACs, and classical communication over MACs with a helper. To the best of our knowledge, our result is the first to achieve covert communication with positive rates over both classical and quantum MACs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2504.18747v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hassan ZivariFard, R\'emi A. Chou, Xiaodong Wang</dc:creator>
-    </item>
-    <item>
-      <title>Unlocking the Power of Boltzmann Machines by Parallelizable Sampler and Efficient Temperature Estimation</title>
-      <link>https://arxiv.org/abs/2512.02323</link>
-      <description>arXiv:2512.02323v1 Announce Type: cross 
-Abstract: Boltzmann machines (BMs) are powerful energy-based generative models, but their heavy training cost has largely confined practical use to Restricted BMs (RBMs) trained with an efficient learning method called contrastive divergence. More accurate learning typically requires Markov chain Monte Carlo (MCMC) Boltzmann sampling, but it is time-consuming due to the difficulty of parallelization for more expressive models. To address this limitation, we first propose a new Boltzmann sampler inspired by a quantum-inspired combinatorial optimization called simulated bifurcation (SB). This SB-inspired approach, which we name Langevin SB (LSB), enables parallelized sampling while maintaining accuracy comparable to MCMC. Furthermore, this is applicable not only to RBMs but also to BMs with general couplings. However, LSB cannot control the inverse temperature of the output Boltzmann distribution, which hinders learning and degrades performance. To overcome this limitation, we also developed an efficient method for estimating the inverse temperature during the learning process, which we call conditional expectation matching (CEM). By combining LSB and CEM, we establish an efficient learning framework for BMs with greater expressive power than RBMs. We refer to this framework as sampler-adaptive learning (SAL). SAL opens new avenues for energy-based generative modeling beyond RBMs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.02323v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
+      <category>cs.NA</category>
+      <category>math.NA</category>
+      <category>math.ST</category>
+      <category>physics.comp-ph</category>
       <category>stat.ML</category>
-      <pubDate>Wed, 03 Dec 2025 00:00:00 -0500</pubDate>
+      <category>stat.TH</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xun Tang, Haoxuan Chen, Yuehaw Khoo, Lexing Ying</dc:creator>
+    </item>
+    <item>
+      <title>TARA Test-by-Adaptive-Ranks for Quantum Anomaly Detection with Conformal Prediction Guarantees</title>
+      <link>https://arxiv.org/abs/2512.04016</link>
+      <description>arXiv:2512.04016v1 Announce Type: new 
+Abstract: Quantum key distribution (QKD) security fundamentally relies on the ability to distinguish genuine quantum correlations from classical eavesdropper simulations, yet existing certification methods lack rigorous statistical guarantees under finite-sample conditions and adversarial scenarios. We introduce TARA (Test by Adaptive Ranks), a novel framework combining conformal prediction with sequential martingale testing for quantum anomaly detection that provides distribution-free validity guarantees. TARA offers two complementary approaches. TARA k, based on Kolmogorov Smirnov calibration against local hidden variable (LHV) null distributions, achieving ROC AUC = 0.96 for quantum-classical discrimination. And TARA-m, employing betting martingales for streaming detection with anytime valid type I error control that enables real time monitoring of quantum channels. We establish theoretical guarantees proving that under (context conditional) exchangeability, conformal p-values remain uniformly distributed even for strongly contextual quantum data, confirming that quantum contextuality does not break conformal prediction validity a result with implications beyond quantum certification to any application of distribution-free methods to nonclassical data. Extensive validation on both IBM Torino (superconducting, CHSH = 2.725) and IonQ Forte Enterprise (trapped ion, CHSH = 2.716) quantum processors demonstrates cross-platform robustness, achieving 36% security margins above the classical CHSH bound of 2. Critically, our framework reveals a methodological concern affecting quantum certification more broadly: same-distribution calibration can inflate detection performance by up to 44 percentage points compared to proper cross-distribution calibration, suggesting that prior quantum certification studies using standard train test splits may have systematically overestimated adversarial robustness.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.04016v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Davut Emre Tasar, Ceren Ocal Tasar</dc:creator>
+    </item>
+    <item>
+      <title>Closing the problem of which causal structures of up to six total nodes have a classical-quantum gap</title>
+      <link>https://arxiv.org/abs/2512.04058</link>
+      <description>arXiv:2512.04058v1 Announce Type: new 
+Abstract: The discovery of Bell that there exist quantum correlations that cannot be reproduced classically is one of the most important in the foundations of quantum mechanics, as well as having practical implications. Bell's result was originally proven in a simple bipartite causal structure, but analogous results have also been shown in further causal structures. Here we study the only causal structure with six or fewer nodes in which the question of whether or not there exist quantum correlations that cannot be achieved classically was open. In this causal structure we show that such quantum correlations exist using a method that involves imposing additional restrictions on the correlations. This hence completes the picture of which causal structures of up to six nodes support non-classical quantum correlations. We also provide further illustrations of our method using other causal structures.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.04058v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>math.ST</category>
+      <category>stat.TH</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Shashaank Khanna, Matthew Pusey, Roger Colbeck</dc:creator>
+    </item>
+    <item>
+      <title>A2G-QFL: Adaptive Aggregation with Two Gains in Quantum Federated learning</title>
+      <link>https://arxiv.org/abs/2512.03363</link>
+      <description>arXiv:2512.03363v1 Announce Type: cross 
+Abstract: Federated learning (FL) deployed over quantum enabled and heterogeneous classical networks faces significant performance degradation due to uneven client quality, stochastic teleportation fidelity, device instability, and geometric mismatch between local and global models. Classical aggregation rules assume euclidean topology and uniform communication reliability, limiting their suitability for emerging quantum federated systems. This paper introduces A2G (Adaptive Aggregation with Two Gains), a dual gain framework that jointly regulates geometric blending through a geometry gain and modulates client importance using a QoS gain derived from teleportation fidelity, latency, and instability. We develop the A2G update rule, establish convergence guarantees under smoothness and bounded variance assumptions, and show that A2G recovers FedAvg, QoS aware averaging, and manifold based aggregation as special cases. Experiments on a quantum classical hybrid testbed demonstrate improved stability and higher accuracy under heterogeneous and noisy conditions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.03363v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Kentaro Kubo, Hayato Goto</dc:creator>
+      <dc:creator>Shanika Iroshi Nanayakkara, Shiva Raj Pokhrel</dc:creator>
     </item>
   </channel>
 </rss>

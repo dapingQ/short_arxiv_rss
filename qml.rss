@@ -7,114 +7,99 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 05:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 05:00:18 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Performance Analysis of Quantum Support Vector Classifiers and Quantum Neural Networks</title>
-      <link>https://arxiv.org/abs/2512.03094</link>
-      <description>arXiv:2512.03094v1 Announce Type: new 
-Abstract: This study explores the performance of Quantum Support Vector Classifiers (QSVCs) and Quantum Neural Networks (QNNs) in comparison to classical models for machine learning tasks. By evaluating these models on the Iris and MNIST-PCA datasets, we find that quantum models tend to outperform classical approaches as the problem complexity increases. While QSVCs generally provide more consistent results, QNNs exhibit superior performance in higher-complexity tasks due to their increased quantum load. Additionally, we analyze the impact of hyperparameter tuning, showing that feature maps and ansatz configurations significantly influence model accuracy. We also compare the PennyLane and Qiskit frameworks, concluding that Qiskit provides better optimization and efficiency for our implementation. These findings highlight the potential of Quantum Machine Learning (QML) for complex classification problems and provide insights into model selection and optimization strategies</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.03094v1</guid>
+      <title>The operator layer cake theorem is equivalent to Frenkel's integral formula</title>
+      <link>https://arxiv.org/abs/2512.04345</link>
+      <description>arXiv:2512.04345v1 Announce Type: new 
+Abstract: The operator layer cake theorem provides an integral representation for the directional derivative of the operator logarithm in terms of a family of projections [arXiv:2507.06232]. Recently, the related work [arXiv:2507.07065] showed that the theorem gives an alternative proof to Frenkel's integral formula for Umegaki's relative entropy [Quantum, 7:1102 (2023)]. In this short note, we find a converse implication, demonstrating that the operator layer cake theorem is equivalent to Frenkel's integral formula.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.04345v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <arxiv:journal_reference>2025 IEEE International Joint Conference on Neural Networks (IJCNN 2025) - poster track</arxiv:journal_reference>
-      <dc:creator>Tom\'as Villalba-Ferreiro, Eduardo Mosqueira-Rey, Diego Alvarez-Estevez</dc:creator>
-    </item>
-    <item>
-      <title>QGShap: Quantum Acceleration for Faithful GNN Explanations</title>
-      <link>https://arxiv.org/abs/2512.03099</link>
-      <description>arXiv:2512.03099v1 Announce Type: new 
-Abstract: Graph Neural Networks (GNNs) have become indispensable in critical domains such as drug discovery, social network analysis, and recommendation systems, yet their black-box nature hinders deployment in scenarios requiring transparency and accountability. While Shapley value-based methods offer mathematically principled explanations by quantifying each component's contribution to predictions, computing exact values requires evaluating $2^n$ coalitions (or aggregating over $n!$ permutations), which is intractable for real-world graphs. Existing approximation strategies sacrifice either fidelity or efficiency, limiting their practical utility. We introduce QGShap, a quantum computing approach that leverages amplitude amplification to achieve quadratic speedups in coalition evaluation while maintaining exact Shapley computation. Unlike classical sampling or surrogate methods, our approach provides fully faithful explanations without approximation trade-offs for tractable graph sizes. We conduct empirical evaluations on synthetic graph datasets, demonstrating that QGShap achieves consistently high fidelity and explanation accuracy, matching or exceeding the performance of classical methods across all evaluation metrics. These results collectively demonstrate that QGShap not only preserves exact Shapley faithfulness but also delivers interpretable, stable, and structurally consistent explanations that align with the underlying graph reasoning of GNNs. The implementation of QGShap is available at https://github.com/smlab-niser/qgshap.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.03099v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Haribandhu Jena, Jyotirmaya Shivottam, Subhankar Mishra</dc:creator>
-    </item>
-    <item>
-      <title>In Situ Quantum Analog Pulse Characterization via Structured Signal Processing</title>
-      <link>https://arxiv.org/abs/2512.03193</link>
-      <description>arXiv:2512.03193v1 Announce Type: new 
-Abstract: Analog quantum simulators can directly emulate time-dependent Hamiltonian dynamics, enabling the exploration of diverse physical phenomena such as phase transitions, quench dynamics, and non-equilibrium processes. Realizing accurate analog simulations requires high-fidelity time-dependent pulse control, yet existing calibration schemes are tailored to digital gate characterization and cannot be readily extended to learn continuous pulse trajectories. We present a characterization algorithm for in situ learning of pulse trajectories by extending the Quantum Signal Processing (QSP) framework to analyze time-dependent pulses. By combining QSP with a logical-level analog-digital mapping paradigm, our method reconstructs a smooth pulse directly from queries of the time-ordered propagator, without requiring mid-circuit measurements or additional evolution. Unlike conventional Trotterization-based methods, our approach avoids unscalable performance degradation arising from accumulated local truncation errors as the logical-level segmentation increases. Through rigorous theoretical analysis and extensive numerical simulations, we demonstrate that our method achieves high accuracy with strong efficiency and robustness against SPAM as well as depolarizing errors, providing a lightweight and optimal validation protocol for analog quantum simulators capable of detecting major hardware faults.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.03193v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>cs.NA</category>
-      <category>math.NA</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.FA</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yulong Dong, Christopher Kang, Murphy Yuezhen Niu</dc:creator>
+      <dc:creator>Hao-Chung Cheng, Gilad Gour, Ludovico Lami, Po-Chieh Liu</dc:creator>
     </item>
     <item>
-      <title>Sketch Tomography: Hybridizing Classical Shadow and Matrix Product State</title>
-      <link>https://arxiv.org/abs/2512.03333</link>
-      <description>arXiv:2512.03333v1 Announce Type: new 
-Abstract: We introduce Sketch Tomography, an efficient procedure for quantum state tomography based on the classical shadow protocol used for quantum observable estimations. The procedure applies to the case where the ground truth quantum state is a matrix product state (MPS). The density matrix of the ground truth state admits a tensor train ansatz as a result of the MPS assumption, and we estimate the tensor components of the ansatz through a series of observable estimations, thus outputting an approximation of the density matrix. The procedure is provably convergent with a sample complexity that scales quadratically in the system size. We conduct extensive numerical experiments to show that the procedure outputs an accurate approximation to the quantum state. For observable estimation tasks involving moderately large subsystems, we show that our procedure gives rise to a more accurate estimation than the classical shadow protocol. We also show that sketch tomography is more accurate in observable estimation than quantum states trained from the maximum likelihood estimation formulation.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.03333v1</guid>
-      <category>quant-ph</category>
-      <category>cs.NA</category>
-      <category>math.NA</category>
-      <category>math.ST</category>
-      <category>physics.comp-ph</category>
-      <category>stat.ML</category>
-      <category>stat.TH</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Xun Tang, Haoxuan Chen, Yuehaw Khoo, Lexing Ying</dc:creator>
-    </item>
-    <item>
-      <title>TARA Test-by-Adaptive-Ranks for Quantum Anomaly Detection with Conformal Prediction Guarantees</title>
-      <link>https://arxiv.org/abs/2512.04016</link>
-      <description>arXiv:2512.04016v1 Announce Type: new 
-Abstract: Quantum key distribution (QKD) security fundamentally relies on the ability to distinguish genuine quantum correlations from classical eavesdropper simulations, yet existing certification methods lack rigorous statistical guarantees under finite-sample conditions and adversarial scenarios. We introduce TARA (Test by Adaptive Ranks), a novel framework combining conformal prediction with sequential martingale testing for quantum anomaly detection that provides distribution-free validity guarantees. TARA offers two complementary approaches. TARA k, based on Kolmogorov Smirnov calibration against local hidden variable (LHV) null distributions, achieving ROC AUC = 0.96 for quantum-classical discrimination. And TARA-m, employing betting martingales for streaming detection with anytime valid type I error control that enables real time monitoring of quantum channels. We establish theoretical guarantees proving that under (context conditional) exchangeability, conformal p-values remain uniformly distributed even for strongly contextual quantum data, confirming that quantum contextuality does not break conformal prediction validity a result with implications beyond quantum certification to any application of distribution-free methods to nonclassical data. Extensive validation on both IBM Torino (superconducting, CHSH = 2.725) and IonQ Forte Enterprise (trapped ion, CHSH = 2.716) quantum processors demonstrates cross-platform robustness, achieving 36% security margins above the classical CHSH bound of 2. Critically, our framework reveals a methodological concern affecting quantum certification more broadly: same-distribution calibration can inflate detection performance by up to 44 percentage points compared to proper cross-distribution calibration, suggesting that prior quantum certification studies using standard train test splits may have systematically overestimated adversarial robustness.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.04016v1</guid>
+      <title>Adversarial Limits of Quantum Certification: When Eve Defeats Detection</title>
+      <link>https://arxiv.org/abs/2512.04391</link>
+      <description>arXiv:2512.04391v1 Announce Type: new 
+Abstract: Security of quantum key distribution (QKD) relies on certifying that observed correlations arise from genuine quantum entanglement rather than eavesdropper manipulation. Theoretical security proofs assume idealized conditions, practical certification must contend with adaptive adversaries who optimize their attack strategies against detection systems. Established fundamental adversarial limits for quantum certification using Eve GAN, a generative adversarial network trained to produce classical correlations indistinguishable from quantum. Our central finding: when Eve interpolates her classical correlations with quantum data at mixing parameter, all tested detection methods achieve ROC AUC = 0.50, equivalent to random guessing. This means an eavesdropper needs only 5% classical admixture to completely evade detection. Critically, we discover that same distribution calibration a common practice in prior certification studies inflates detection performance by 44 percentage points compared to proper cross distribution evaluation, revealing a systematic flaw that may have led to overestimated security claims. Analysis of Popescu Rohrlich (PR Box) regime identifies a sharp phase transition at CHSH S = 2.05: below this value, no statistical method distinguishes classical from quantum correlations; above it, detection probability increases monotonically. Hardware validation on IBM Quantum demonstrates that Eve-GAN achieves CHSH = 2.736, remarkably exceeding real quantum hardware performance (CHSH = 2.691), illustrating that classical adversaries can outperform noisy quantum systems on standard certification metrics. These results have immediate implications for QKD security: adversaries maintaining 95% quantum fidelity evade all tested detection methods. We provide corrected methodology using cross-distribution calibration and recommend mandatory adversarial testing for quantum security claims.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.04391v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Davut Emre Tasar, Ceren Ocal Tasar</dc:creator>
+      <dc:creator>Davut Emre Tasar</dc:creator>
     </item>
     <item>
-      <title>Closing the problem of which causal structures of up to six total nodes have a classical-quantum gap</title>
-      <link>https://arxiv.org/abs/2512.04058</link>
-      <description>arXiv:2512.04058v1 Announce Type: new 
-Abstract: The discovery of Bell that there exist quantum correlations that cannot be reproduced classically is one of the most important in the foundations of quantum mechanics, as well as having practical implications. Bell's result was originally proven in a simple bipartite causal structure, but analogous results have also been shown in further causal structures. Here we study the only causal structure with six or fewer nodes in which the question of whether or not there exist quantum correlations that cannot be achieved classically was open. In this causal structure we show that such quantum correlations exist using a method that involves imposing additional restrictions on the correlations. This hence completes the picture of which causal structures of up to six nodes support non-classical quantum correlations. We also provide further illustrations of our method using other causal structures.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.04058v1</guid>
+      <title>Fermionic neural Gibbs states</title>
+      <link>https://arxiv.org/abs/2512.04663</link>
+      <description>arXiv:2512.04663v1 Announce Type: new 
+Abstract: We introduce fermionic neural Gibbs states (fNGS), a variational framework for modeling finite-temperature properties of strongly interacting fermions. fNGS starts from a reference mean-field thermofield-double state and uses neural-network transformations together with imaginary-time evolution to systematically build strong correlations. Applied to the doped Fermi-Hubbard model, a minimal lattice model capturing essential features of strong electronic correlations, fNGS accurately reproduces thermal energies over a broad range of temperatures, interaction strengths, even at large dopings, for system sizes beyond the reach of exact methods. These results demonstrate a scalable route to studying finite-temperature properties of strongly correlated fermionic systems beyond one dimension with neural-network representations of quantum states.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.04663v1</guid>
       <category>quant-ph</category>
+      <category>cond-mat.str-el</category>
       <category>cs.LG</category>
-      <category>math.ST</category>
-      <category>stat.TH</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <category>physics.comp-ph</category>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shashaank Khanna, Matthew Pusey, Roger Colbeck</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jannes Nys, Juan Carrasquilla</dc:creator>
     </item>
     <item>
-      <title>A2G-QFL: Adaptive Aggregation with Two Gains in Quantum Federated learning</title>
-      <link>https://arxiv.org/abs/2512.03363</link>
-      <description>arXiv:2512.03363v1 Announce Type: cross 
-Abstract: Federated learning (FL) deployed over quantum enabled and heterogeneous classical networks faces significant performance degradation due to uneven client quality, stochastic teleportation fidelity, device instability, and geometric mismatch between local and global models. Classical aggregation rules assume euclidean topology and uniform communication reliability, limiting their suitability for emerging quantum federated systems. This paper introduces A2G (Adaptive Aggregation with Two Gains), a dual gain framework that jointly regulates geometric blending through a geometry gain and modulates client importance using a QoS gain derived from teleportation fidelity, latency, and instability. We develop the A2G update rule, establish convergence guarantees under smoothness and bounded variance assumptions, and show that A2G recovers FedAvg, QoS aware averaging, and manifold based aggregation as special cases. Experiments on a quantum classical hybrid testbed demonstrate improved stability and higher accuracy under heterogeneous and noisy conditions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.03363v1</guid>
-      <category>cs.LG</category>
+      <title>QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</title>
+      <link>https://arxiv.org/abs/2512.05049</link>
+      <description>arXiv:2512.05049v1 Announce Type: new 
+Abstract: Long short-term memory (LSTM) models are a particular type of recurrent neural networks (RNNs) that are central to sequential modeling tasks in domains such as urban telecommunication forecasting, where temporal correlations and nonlinear dependencies dominate. However, conventional LSTMs suffer from high parameter redundancy and limited nonlinear expressivity. In this work, we propose the Quantum-inspired Kolmogorov-Arnold Long Short-Term Memory (QKAN-LSTM), which integrates Data Re-Uploading Activation (DARUAN) modules into the gating structure of LSTMs. Each DARUAN acts as a quantum variational activation function (QVAF), enhancing frequency adaptability and enabling an exponentially enriched spectral representation without multi-qubit entanglement. The resulting architecture preserves quantum-level expressivity while remaining fully executable on classical hardware. Empirical evaluations on three datasets, Damped Simple Harmonic Motion, Bessel Function, and Urban Telecommunication, demonstrate that QKAN-LSTM achieves superior predictive accuracy and generalization with a 79% reduction in trainable parameters compared to classical LSTMs. We extend the framework to the Jiang-Huang-Chen-Goan Network (JHCG Net), which generalizes KAN to encoder-decoder structures, and then further use QKAN to realize the latent KAN, thereby creating a Hybrid QKAN (HQKAN) for hierarchical representation learning. The proposed HQKAN-LSTM thus provides a scalable and interpretable pathway toward quantum-inspired sequential modeling in real-world data environments.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.05049v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 04 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Yu-Chao Hsu, Jiun-Cheng Jiang, Chun-Hua Lin, Kuo-Chung Peng, Nan-Yow Chen, Samuel Yen-Chi Chen, En-Jui Kuo, Hsi-Sheng Goan</dc:creator>
+    </item>
+    <item>
+      <title>Meta-Learning for Quantum Optimization via Quantum Sequence Model</title>
+      <link>https://arxiv.org/abs/2512.05058</link>
+      <description>arXiv:2512.05058v1 Announce Type: new 
+Abstract: The Quantum Approximate Optimization Algorithm (QAOA) is a leading approach for solving combinatorial optimization problems on near-term quantum processors. However, finding good variational parameters remains a significant challenge due to the non-convex energy landscape, often resulting in slow convergence and poor solution quality. In this work, we propose a quantum meta-learning framework that trains advanced quantum sequence models to generate effective parameter initialization policies. We investigate four classical or quantum sequence models, including the Quantum Kernel-based Long Short-Term Memory (QK-LSTM), as learned optimizers in a "learning to learn" paradigm. Our numerical experiments on the Max-Cut problem demonstrate that the QK-LSTM optimizer achieves superior performance, obtaining the highest approximation ratios and exhibiting the fastest convergence rate across all tested problem sizes (n=10 to 13). Crucially, the QK-LSTM model achieves perfect parameter transferability by synthesizing a single, fixed set of near-optimal parameters, leading to a remarkable sustained acceleration of convergence even when generalizing to larger problems. This capability, enabled by the compact and expressive power of the quantum kernel architecture, underscores its effectiveness. The QK-LSTM, with only 43 trainable parameters, substantially outperforms the classical LSTM (56 parameters) and other quantum sequence models, establishing a robust pathway toward highly efficient parameter initialization for variational quantum algorithms in the NISQ era.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.05058v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Yu-Cheng Lin, Yu-Chao Hsu, Samuel Yen-Chi Chen</dc:creator>
+    </item>
+    <item>
+      <title>Hybrid Quantum-Classical Autoencoders for Unsupervised Network Intrusion Detection</title>
+      <link>https://arxiv.org/abs/2512.05069</link>
+      <description>arXiv:2512.05069v1 Announce Type: cross 
+Abstract: Unsupervised anomaly-based intrusion detection requires models that can generalize to attack patterns not observed during training. This work presents the first large-scale evaluation of hybrid quantum-classical (HQC) autoencoders for this task. We construct a unified experimental framework that iterates over key quantum design choices, including quantum-layer placement, measurement approach, variational and non-variational formulations, and latent-space regularization. Experiments across three benchmark NIDS datasets show that HQC autoencoders can match or exceed classical performance in their best configurations, although they exhibit higher sensitivity to architectural decisions. Under zero-day evaluation, well-configured HQC models provide stronger and more stable generalization than classical and supervised baselines. Simulated gate-noise experiments reveal early performance degradation, indicating the need for noise-aware HQC designs. These results provide the first data-driven characterization of HQC autoencoder behavior for network intrusion detection and outline key factors that govern their practical viability. All experiment code and configurations are available at https://github.com/arasyi/hqcae-network-intrusion-detection.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.05069v1</guid>
+      <category>cs.LG</category>
+      <category>cs.CR</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Shanika Iroshi Nanayakkara, Shiva Raj Pokhrel</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Mohammad Arif Rasyidi, Omar Alhussein, Sami Muhaidat, Ernesto Damiani</dc:creator>
     </item>
   </channel>
 </rss>

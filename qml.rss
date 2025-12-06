@@ -7,99 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 05:00:18 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 05:00:02 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Sat, 06 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>The operator layer cake theorem is equivalent to Frenkel's integral formula</title>
-      <link>https://arxiv.org/abs/2512.04345</link>
-      <description>arXiv:2512.04345v1 Announce Type: new 
-Abstract: The operator layer cake theorem provides an integral representation for the directional derivative of the operator logarithm in terms of a family of projections [arXiv:2507.06232]. Recently, the related work [arXiv:2507.07065] showed that the theorem gives an alternative proof to Frenkel's integral formula for Umegaki's relative entropy [Quantum, 7:1102 (2023)]. In this short note, we find a converse implication, demonstrating that the operator layer cake theorem is equivalent to Frenkel's integral formula.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.04345v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math-ph</category>
-      <category>math.FA</category>
-      <category>math.IT</category>
-      <category>math.MP</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hao-Chung Cheng, Gilad Gour, Ludovico Lami, Po-Chieh Liu</dc:creator>
-    </item>
-    <item>
-      <title>Adversarial Limits of Quantum Certification: When Eve Defeats Detection</title>
-      <link>https://arxiv.org/abs/2512.04391</link>
-      <description>arXiv:2512.04391v1 Announce Type: new 
-Abstract: Security of quantum key distribution (QKD) relies on certifying that observed correlations arise from genuine quantum entanglement rather than eavesdropper manipulation. Theoretical security proofs assume idealized conditions, practical certification must contend with adaptive adversaries who optimize their attack strategies against detection systems. Established fundamental adversarial limits for quantum certification using Eve GAN, a generative adversarial network trained to produce classical correlations indistinguishable from quantum. Our central finding: when Eve interpolates her classical correlations with quantum data at mixing parameter, all tested detection methods achieve ROC AUC = 0.50, equivalent to random guessing. This means an eavesdropper needs only 5% classical admixture to completely evade detection. Critically, we discover that same distribution calibration a common practice in prior certification studies inflates detection performance by 44 percentage points compared to proper cross distribution evaluation, revealing a systematic flaw that may have led to overestimated security claims. Analysis of Popescu Rohrlich (PR Box) regime identifies a sharp phase transition at CHSH S = 2.05: below this value, no statistical method distinguishes classical from quantum correlations; above it, detection probability increases monotonically. Hardware validation on IBM Quantum demonstrates that Eve-GAN achieves CHSH = 2.736, remarkably exceeding real quantum hardware performance (CHSH = 2.691), illustrating that classical adversaries can outperform noisy quantum systems on standard certification metrics. These results have immediate implications for QKD security: adversaries maintaining 95% quantum fidelity evade all tested detection methods. We provide corrected methodology using cross-distribution calibration and recommend mandatory adversarial testing for quantum security claims.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.04391v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Davut Emre Tasar</dc:creator>
-    </item>
-    <item>
-      <title>Fermionic neural Gibbs states</title>
-      <link>https://arxiv.org/abs/2512.04663</link>
-      <description>arXiv:2512.04663v1 Announce Type: new 
-Abstract: We introduce fermionic neural Gibbs states (fNGS), a variational framework for modeling finite-temperature properties of strongly interacting fermions. fNGS starts from a reference mean-field thermofield-double state and uses neural-network transformations together with imaginary-time evolution to systematically build strong correlations. Applied to the doped Fermi-Hubbard model, a minimal lattice model capturing essential features of strong electronic correlations, fNGS accurately reproduces thermal energies over a broad range of temperatures, interaction strengths, even at large dopings, for system sizes beyond the reach of exact methods. These results demonstrate a scalable route to studying finite-temperature properties of strongly correlated fermionic systems beyond one dimension with neural-network representations of quantum states.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.04663v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.str-el</category>
-      <category>cs.LG</category>
-      <category>physics.comp-ph</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jannes Nys, Juan Carrasquilla</dc:creator>
-    </item>
-    <item>
-      <title>QKAN-LSTM: Quantum-inspired Kolmogorov-Arnold Long Short-term Memory</title>
-      <link>https://arxiv.org/abs/2512.05049</link>
-      <description>arXiv:2512.05049v1 Announce Type: new 
-Abstract: Long short-term memory (LSTM) models are a particular type of recurrent neural networks (RNNs) that are central to sequential modeling tasks in domains such as urban telecommunication forecasting, where temporal correlations and nonlinear dependencies dominate. However, conventional LSTMs suffer from high parameter redundancy and limited nonlinear expressivity. In this work, we propose the Quantum-inspired Kolmogorov-Arnold Long Short-Term Memory (QKAN-LSTM), which integrates Data Re-Uploading Activation (DARUAN) modules into the gating structure of LSTMs. Each DARUAN acts as a quantum variational activation function (QVAF), enhancing frequency adaptability and enabling an exponentially enriched spectral representation without multi-qubit entanglement. The resulting architecture preserves quantum-level expressivity while remaining fully executable on classical hardware. Empirical evaluations on three datasets, Damped Simple Harmonic Motion, Bessel Function, and Urban Telecommunication, demonstrate that QKAN-LSTM achieves superior predictive accuracy and generalization with a 79% reduction in trainable parameters compared to classical LSTMs. We extend the framework to the Jiang-Huang-Chen-Goan Network (JHCG Net), which generalizes KAN to encoder-decoder structures, and then further use QKAN to realize the latent KAN, thereby creating a Hybrid QKAN (HQKAN) for hierarchical representation learning. The proposed HQKAN-LSTM thus provides a scalable and interpretable pathway toward quantum-inspired sequential modeling in real-world data environments.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05049v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Yu-Chao Hsu, Jiun-Cheng Jiang, Chun-Hua Lin, Kuo-Chung Peng, Nan-Yow Chen, Samuel Yen-Chi Chen, En-Jui Kuo, Hsi-Sheng Goan</dc:creator>
-    </item>
-    <item>
-      <title>Meta-Learning for Quantum Optimization via Quantum Sequence Model</title>
-      <link>https://arxiv.org/abs/2512.05058</link>
-      <description>arXiv:2512.05058v1 Announce Type: new 
-Abstract: The Quantum Approximate Optimization Algorithm (QAOA) is a leading approach for solving combinatorial optimization problems on near-term quantum processors. However, finding good variational parameters remains a significant challenge due to the non-convex energy landscape, often resulting in slow convergence and poor solution quality. In this work, we propose a quantum meta-learning framework that trains advanced quantum sequence models to generate effective parameter initialization policies. We investigate four classical or quantum sequence models, including the Quantum Kernel-based Long Short-Term Memory (QK-LSTM), as learned optimizers in a "learning to learn" paradigm. Our numerical experiments on the Max-Cut problem demonstrate that the QK-LSTM optimizer achieves superior performance, obtaining the highest approximation ratios and exhibiting the fastest convergence rate across all tested problem sizes (n=10 to 13). Crucially, the QK-LSTM model achieves perfect parameter transferability by synthesizing a single, fixed set of near-optimal parameters, leading to a remarkable sustained acceleration of convergence even when generalizing to larger problems. This capability, enabled by the compact and expressive power of the quantum kernel architecture, underscores its effectiveness. The QK-LSTM, with only 43 trainable parameters, substantially outperforms the classical LSTM (56 parameters) and other quantum sequence models, establishing a robust pathway toward highly efficient parameter initialization for variational quantum algorithms in the NISQ era.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05058v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Yu-Cheng Lin, Yu-Chao Hsu, Samuel Yen-Chi Chen</dc:creator>
-    </item>
-    <item>
-      <title>Hybrid Quantum-Classical Autoencoders for Unsupervised Network Intrusion Detection</title>
-      <link>https://arxiv.org/abs/2512.05069</link>
-      <description>arXiv:2512.05069v1 Announce Type: cross 
-Abstract: Unsupervised anomaly-based intrusion detection requires models that can generalize to attack patterns not observed during training. This work presents the first large-scale evaluation of hybrid quantum-classical (HQC) autoencoders for this task. We construct a unified experimental framework that iterates over key quantum design choices, including quantum-layer placement, measurement approach, variational and non-variational formulations, and latent-space regularization. Experiments across three benchmark NIDS datasets show that HQC autoencoders can match or exceed classical performance in their best configurations, although they exhibit higher sensitivity to architectural decisions. Under zero-day evaluation, well-configured HQC models provide stronger and more stable generalization than classical and supervised baselines. Simulated gate-noise experiments reveal early performance degradation, indicating the need for noise-aware HQC designs. These results provide the first data-driven characterization of HQC autoencoder behavior for network intrusion detection and outline key factors that govern their practical viability. All experiment code and configurations are available at https://github.com/arasyi/hqcae-network-intrusion-detection.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05069v1</guid>
-      <category>cs.LG</category>
-      <category>cs.CR</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 05 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Mohammad Arif Rasyidi, Omar Alhussein, Sami Muhaidat, Ernesto Damiani</dc:creator>
-    </item>
   </channel>
 </rss>

@@ -7,52 +7,91 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Dec 2025 05:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 05:00:18 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 08 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Shadow Tomography Against Adversaries</title>
-      <link>https://arxiv.org/abs/2512.05451</link>
-      <description>arXiv:2512.05451v1 Announce Type: new 
-Abstract: We study single-copy shadow tomography in the adversarial robust setting, where the goal is to learn the expectation values of $M$ observables $O_1, \ldots, O_M$ with $\varepsilon$ accuracy, but $\gamma$-fraction of the outcomes can be arbitrarily corrupted by an adversary. We show that all non-adaptive shadow tomography algorithms must incur an error of $\varepsilon=\tilde{\Omega}(\gamma\min\{\sqrt{M}, \sqrt{d}\})$ for some choice of observables, even with unlimited copies. Unfortunately, the classical shadows algorithm by [HKP20] and naive algorithms that directly measure each observable suffer even more. We design an algorithm that achieves an error of $\varepsilon=\tilde{O}(\gamma\max_{i\in[M]}\|O_i\|_{HS})$, which nearly matches our worst-case error lower bound for $M\ge d$ and guarantees better accuracy when the observables have stronger structure. Remarkably, the algorithm only needs $n=\frac{1}{\gamma^2}\log(M/\delta)$ copies to achieve that error with probability at least $1-\delta$, matching the sample complexity of the classical shadows algorithm that achieves the same error without corrupted measurement outcomes. Our algorithm is conceptually simple and easy to implement. Classical simulation for fidelity estimation shows that our algorithm enjoys much stronger robustness than [HKP20] under adversarial noise. Finally, based on a reduction from full-state tomography to shadow tomography, we prove that for rank $r$ states, both the near-optimal asymptotic error of $\varepsilon=\tilde{O}(\gamma\sqrt{r})$ and copy complexity $\tilde{O}(dr^2/\varepsilon^2)=\tilde{O}(dr/\gamma^2)$ can be achieved for adversarially robust state tomography, closing the large gap in [ABCL25] where optimal error can only be achieved using pseudo-polynomial number of copies in $d$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05451v1</guid>
+      <title>Virtual Qudits for Simon's Problem: Dimension-Lifted Algorithms on Qubit Hardware</title>
+      <link>https://arxiv.org/abs/2512.06756</link>
+      <description>arXiv:2512.06756v1 Announce Type: new 
+Abstract: Simon's problem admits an exponential quantum speedup, but current quantum devices support only qubits. This work introduces a general construction for simulating qudit versions of Simon's algorithm on qubit hardware by defining virtual qudits implemented through controlled permutations and qudit phase operations. We build a dimension lifted oracle that encodes the hidden shift in dimension d and show how to realize its action using only qubit gates. We mathematically verify that the lifted circuit reproduces the correct measurement statistics, analyze the depth overhead tradeoffs as a function of d, and provide numerical simulations in QuTiP for example values. Our approach demonstrates how higher-dimensional structures can be embedded into qubit devices and provides a general method for extending qudit algorithms to current hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.06756v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Maryam Aliakbarpour, Vladimir Braverman, Nai-Hui Chia, Chia-Ying Lin, Yuhan Liu, Aadil Oufkir, Yu-Ching Shen</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Abed Semre (Computer Science Department, Technion - Israel Institute of Technology, Haifa, Israel), Steven Frankel (Faculty of Mechanical Engineering, Technion - Israel Institute of Technology, Haifa, Israel)</dc:creator>
     </item>
     <item>
-      <title>Bridging quantum and classical computing for partial differential equations through multifidelity machine learning</title>
-      <link>https://arxiv.org/abs/2512.05241</link>
-      <description>arXiv:2512.05241v1 Announce Type: cross 
-Abstract: Quantum algorithms for partial differential equations (PDEs) face severe practical constraints on near-term hardware: limited qubit counts restrict spatial resolution to coarse grids, while circuit depth limitations prevent accurate long-time integration. These hardware bottlenecks confine quantum PDE solvers to low-fidelity regimes despite their theoretical potential for computational speedup. We introduce a multifidelity learning framework that corrects coarse quantum solutions to high-fidelity accuracy using sparse classical training data, facilitating the path toward practical quantum utility for scientific computing. The approach trains a low-fidelity surrogate on abundant quantum solver outputs, then learns correction mappings through a multifidelity neural architecture that balances linear and nonlinear transformations. Demonstrated on benchmark nonlinear PDEs including viscous Burgers equation and incompressible Navier-Stokes flows via quantum lattice Boltzmann methods, the framework successfully corrects coarse quantum predictions and achieves temporal extrapolation well beyond the classical training window. This strategy illustrates how one can reduce expensive high-fidelity simulation requirements while producing predictions that are competitive with classical accuracy. By bridging the gap between hardware-limited quantum simulations and application requirements, this work establishes a pathway for extracting computational value from current quantum devices in real-world scientific applications, advancing both algorithm development and practical deployment of near-term quantum computing for computational physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05241v1</guid>
-      <category>cs.LG</category>
+      <title>Beam search decoder for quantum LDPC codes</title>
+      <link>https://arxiv.org/abs/2512.07057</link>
+      <description>arXiv:2512.07057v1 Announce Type: new 
+Abstract: We propose a decoder for quantum low density parity check (LDPC) codes based on a beam search heuristic guided by belief propagation (BP). Our beam search decoder applies to all quantum LDPC codes and achieves different speed-accuracy tradeoffs by tuning its parameters such as the beam width. We perform numerical simulations under circuit level noise for the $[[144, 12, 12]]$ bivariate bicycle (BB) code at noise rate $p=10^{-3}$ to estimate the logical error rate and the 99.9 percentile runtime and we compare with the BP-OSD decoder which has been the default quantum LDPC decoder for the past six years. A variant of our beam search decoder with a beam width of 64 achieves a $17\times$ reduction in logical error rate. With a beam width of 8, we reach the same logical error rate as BP-OSD with a $26.2\times$ reduction in the 99.9 percentile runtime. We identify the beam search decoder with beam width of 32 as a promising candidate for trapped ion architectures because it achieves a $5.6\times$ reduction in logical error rate with a 99.9 percentile runtime per syndrome extraction round below 1ms at $p=5 \times10^{-4}$. Remarkably, this is achieved in software on a single core, without any parallelization or specialized hardware (FPGA, ASIC), suggesting one might only need three 32-core CPUs to decode a trapped ion quantum computer with 1000 logical qubits.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.07057v1</guid>
       <category>quant-ph</category>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Bruno Jacob, Amanda A. Howard, Panos Stinis</dc:creator>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Min Ye, Dave Wecker, Nicolas Delfosse</dc:creator>
     </item>
     <item>
-      <title>PERM EQ x GRAPH EQ: Equivariant Neural Networks for Quantum Molecular Learning</title>
-      <link>https://arxiv.org/abs/2512.05475</link>
-      <description>arXiv:2512.05475v1 Announce Type: cross 
-Abstract: In hierarchal order of molecular geometry, we compare the performances of Geometric Quantum Machine Learning models. Two molecular datasets are considered: the simplistic linear shaped LiH-molecule and the trigonal pyramidal molecule NH3. Both accuracy and generalizability metrics are considered. A classical equivariant model is used as a baseline for the performance comparison. The comparative performance of Quantum Machine Learning models with no symmetry equivariance, rotational and permutational equivariance, and graph embedded permutational equivariance is investigated. The performance differentials and the molecular geometry in question reveals the criteria for choice of models for generalizability. Graph embedding of features is shown to be an effective pathway to greater trainability for geometric datasets. Permutational symmetric embedding is found to be the most generalizable quantum Machine Learning model for geometric learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.05475v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
+      <title>A scalable and real-time neural decoder for topological quantum codes</title>
+      <link>https://arxiv.org/abs/2512.07737</link>
+      <description>arXiv:2512.07737v1 Announce Type: new 
+Abstract: Fault-tolerant quantum computing will require error rates far below those achievable with physical qubits. Quantum error correction (QEC) bridges this gap, but depends on decoders being simultaneously fast, accurate, and scalable. This combination of requirements has not yet been met by a machine-learning decoder, nor by any decoder for promising resource-efficient codes such as the colour code. Here we introduce AlphaQubit 2, a neural-network decoder that achieves near-optimal logical error rates for both surface and colour codes at large scales under realistic noise. For the colour code, it is orders of magnitude faster than other high-accuracy decoders. For the surface code, we demonstrate real-time decoding faster than 1 microsecond per cycle up to distance 11 on current commercial accelerators with better accuracy than leading real-time decoders. These results support the practical application of a wider class of promising QEC codes, and establish a credible path towards high-accuracy, real-time neural decoding at the scales required for fault-tolerant quantum computation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.07737v1</guid>
       <category>quant-ph</category>
-      <pubDate>Mon, 08 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Andrew W. Senior, Thomas Edlich, Francisco J. H. Heras, Lei M. Zhang, Oscar Higgott, James S. Spencer, Taylor Applebaum, Sam Blackwell, Justin Ledford, Akvil\.e \v{Z}emgulyt\.e, Augustin \v{Z}\'idek, Noah Shutty, Andrew Cowie, Yin Li, George Holland, Peter Brooks, Charlie Beattie, Michael Newman, Alex Davies, Cody Jones, Sergio Boixo, Hartmut Neven, Pushmeet Kohli, Johannes Bausch</dc:creator>
+    </item>
+    <item>
+      <title>LUNA: LUT-Based Neural Architecture for Fast and Low-Cost Qubit Readout</title>
+      <link>https://arxiv.org/abs/2512.07808</link>
+      <description>arXiv:2512.07808v1 Announce Type: new 
+Abstract: Qubit readout is a critical operation in quantum computing systems, which maps the analog response of qubits into discrete classical states. Deep neural networks (DNNs) have recently emerged as a promising solution to improve readout accuracy . Prior hardware implementations of DNN-based readout are resource-intensive and suffer from high inference latency, limiting their practical use in low-latency decoding and quantum error correction (QEC) loops. This paper proposes LUNA, a fast and efficient superconducting qubit readout accelerator that combines low-cost integrator-based preprocessing with Look-Up Table (LUT) based neural networks for classification. The architecture uses simple integrators for dimensionality reduction with minimal hardware overhead, and employs LogicNets (DNNs synthesized into LUT logic) to drastically reduce resource usage while enabling ultra-low-latency inference. We integrate this with a differential evolution based exploration and optimization framework to identify high-quality design points. Our results show up to a 10.95x reduction in area and 30% lower latency with little to no loss in fidelity compared to the state-of-the-art. LUNA enables scalable, low-footprint, and high-speed qubit readout, supporting the development of larger and more reliable quantum computing systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.07808v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>M. A. Farooq, G. Di Guglielmo, A. Rajagopala, N. Tran, V. A. Chhabria, A. Arora</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Temporal Convolutional Neural Networks for Cross-Sectional Equity Return Prediction: A Comparative Benchmark Study</title>
+      <link>https://arxiv.org/abs/2512.06630</link>
+      <description>arXiv:2512.06630v1 Announce Type: cross 
+Abstract: Quantum machine learning offers a promising pathway for enhancing stock market prediction, particularly under complex, noisy, and highly dynamic financial environments. However, many classical forecasting models struggle with noisy input, regime shifts, and limited generalization capacity. To address these challenges, we propose a Quantum Temporal Convolutional Neural Network (QTCNN) that combines a classical temporal encoder with parameter-efficient quantum convolution circuits for cross-sectional equity return prediction. The temporal encoder extracts multi-scale patterns from sequential technical indicators, while the quantum processing leverages superposition and entanglement to enhance feature representation and suppress overfitting. We conduct a comprehensive benchmarking study on the JPX Tokyo Stock Exchange dataset and evaluate predictions through long-short portfolio construction using out-of-sample Sharpe ratio as the primary performance metric. QTCNN achieves a Sharpe ratio of 0.538, outperforming the best classical baseline by approximately 72\%. These results highlight the practical potential of quantum-enhanced forecasting model, QTCNN, for robust decision-making in quantitative finance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.06630v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Saumya Biswas, Jiten Oswal</dc:creator>
+      <dc:creator>Chi-Sheng Chen, Xinyu Zhang, Rong Fu, Qiuzhe Xie, Fan Zhang</dc:creator>
+    </item>
+    <item>
+      <title>Mitigating Barren plateaus in quantum denoising diffusion probabilistic models</title>
+      <link>https://arxiv.org/abs/2512.06695</link>
+      <description>arXiv:2512.06695v1 Announce Type: cross 
+Abstract: Quantum generative models leverage quantum superposition and entanglement to enhance learning efficiency for both classical and quantum data. The quantum denoising diffusion probabilistic model (QuDDPM), inspired by its classical counterpart, has been proposed as a promising framework for quantum generative learning. QuDDPM is capable of efficiently learning and generating quantum data, and it demonstrates excellent performance in learning correlated quantum noise models, quantum many-body phases, and the topological structure of quantum data. However, we show that barren plateaus emerge in QuDDPMs due to the use of 2-design states as the input for the denoising process, which severely undermines the performance of QuDDPM. Through theoretical analysis and experimental validation, we confirm the presence of barren plateaus in the original QuDDPM. To address this issue, we introduce an improved QuDDPM that utilizes a distribution maintaining a certain distance from the Haar distribution, ensuring better trainability. Experimental results demonstrate that our approach effectively mitigates the barren plateau problem and generates samples with higher quality, paving the way for scalable and efficient quantum generative learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.06695v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Haipeng Cao, Kaining Zhang, Dacheng Tao, Zhaofeng Su</dc:creator>
     </item>
   </channel>
 </rss>

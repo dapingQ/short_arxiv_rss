@@ -7,113 +7,98 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Dec 2025 05:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 05:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Quantum circuits for permutation matrices</title>
-      <link>https://arxiv.org/abs/2512.11938</link>
-      <description>arXiv:2512.11938v1 Announce Type: new 
-Abstract: Two different algorithms are presented for generating a quantum circuit realization of a matrix representing a permutation on $2^n$ letters. All circuits involve $n$ qubits and only use multi--controlled Toffoli gates. The first algorithm constructs a circuit from any decomposition of the permutation into a product of transpositions, but uses one ancilla line. The second, which uses no ancillae, constructs a circuit from a decomposition into a product of transpositions that have a Hamming distance of one. We show that any permutation admits such a decomposition, and we give a strategy for reducing the number of transpositions involved.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.11938v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jason Hanson</dc:creator>
-    </item>
-    <item>
-      <title>Scalable Quantum Error Mitigation with Neighbor-Informed Learning</title>
-      <link>https://arxiv.org/abs/2512.12578</link>
-      <description>arXiv:2512.12578v1 Announce Type: new 
-Abstract: Noise in quantum hardware is the primary obstacle to realizing the transformative potential of quantum computing. Quantum error mitigation (QEM) offers a promising pathway to enhance computational accuracy on near-term devices, yet existing methods face a difficult trade-off between performance, resource overhead, and theoretical guarantees. In this work, we introduce neighbor-informed learning (NIL), a versatile and scalable QEM framework that unifies and strengthens existing methods such as zero-noise extrapolation (ZNE) and probabilistic error cancellation (PEC), while offering improved flexibility, accuracy, efficiency, and robustness.
-  NIL learns to predict the ideal output of a target quantum circuit from the noisy outputs of its structurally related ``neighbor'' circuits. A key innovation is our 2-design training method, which generates training data for our machine learning model. In contrast to conventional learning-based QEM protocols that create training circuits by replacing non-Clifford gates with uniformly random Clifford gates, our approach achieves higher accuracy and efficiency, as demonstrated by both theoretical analysis and numerical simulation. Furthermore, we prove that the required size of the training set scales only \emph{logarithmically} with the total number of neighbor circuits, enabling NIL to be applied to problems involving large-scale quantum circuits. Our work establishes a theoretically grounded and practically efficient framework for QEM, paving a viable path toward achieving quantum advantage on noisy hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.12578v1</guid>
-      <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Zhenyu Chen, Bin Cheng, Minbo Gao, Xiaodie Lin, Ruiqi Zhang, Zhaohui Wei, Zhengfeng Ji</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Implicit Neural Representations for 3D Scene Reconstruction and Novel View Synthesis</title>
-      <link>https://arxiv.org/abs/2512.12683</link>
-      <description>arXiv:2512.12683v1 Announce Type: new 
-Abstract: Implicit neural representations (INRs) have become a powerful paradigm for continuous signal modeling and 3D scene reconstruction, yet classical networks suffer from a well-known spectral bias that limits their ability to capture high-frequency details. Quantum Implicit Representation Networks (QIREN) mitigate this limitation by employing parameterized quantum circuits with inherent Fourier structures, enabling compact and expressive frequency modeling beyond classical MLPs. In this paper, we present Quantum Neural Radiance Fields (Q-NeRF), the first hybrid quantum-classical framework for neural radiance field rendering. Q-NeRF integrates QIREN modules into the Nerfacto backbone, preserving its efficient sampling, pose refinement, and volumetric rendering strategies while replacing selected density and radiance prediction components with quantum-enhanced counterparts. We systematically evaluate three hybrid configurations on standard multi-view indoor datasets, comparing them to classical baselines using PSNR, SSIM, and LPIPS metrics. Results show that hybrid quantum-classical models achieve competitive reconstruction quality under limited computational resources, with quantum modules particularly effective in representing fine-scale, view-dependent appearance. Although current implementations rely on quantum circuit simulators constrained to few-qubit regimes, the results highlight the potential of quantum encodings to alleviate spectral bias in implicit representations. Q-NeRF provides a foundational step toward scalable quantum-enabled 3D scene reconstruction and a baseline for future quantum neural rendering research.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.12683v1</guid>
+      <title>A Spatio-Temporal Hybrid Quantum-Classical Graph Convolutional Neural Network Approach for Urban Taxi Destination Prediction</title>
+      <link>https://arxiv.org/abs/2512.13745</link>
+      <description>arXiv:2512.13745v1 Announce Type: new 
+Abstract: We propose a Hybrid Spatio-Temporal Quantum Graph Convolutional Network (H-STQGCN) algorithm by combining the strengths of quantum computing and classical deep learning to predict the taxi destination within urban road networks. Our algorithm consists of two branches: spatial processing and time evolution. Regarding the spatial processing, the classical module encodes the local topological features of the road network based on the GCN method, and the quantum module is designed to map graph features onto parameterized quantum circuits through a differentiable pooling layer. The time evolution is solved by integrating multi-source contextual information and capturing dynamic trip dependencies on the classical TCN theory. Finally, our experimental results demonstrate that the proposed algorithm outperforms the current methods in terms of prediction accuracy and stability, validating the unique advantages of the quantum-enhanced mechanism in capturing high-dimensional spatial dependencies.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.13745v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <category>cs.CV</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Yeray Cordero, Paula Garc\'ia-Molina, Fernando Vilari\~no</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Xiuying Zhang, Qinsheng Zhu, Xiaodong Xing</dc:creator>
     </item>
     <item>
-      <title>Practical Hybrid Quantum Language Models with Observable Readout on Real Hardware</title>
-      <link>https://arxiv.org/abs/2512.12710</link>
-      <description>arXiv:2512.12710v1 Announce Type: new 
-Abstract: Hybrid quantum-classical models represent a crucial step toward leveraging near-term quantum devices for sequential data processing. We present Quantum Recurrent Neural Networks (QRNNs) and Quantum Convolutional Neural Networks (QCNNs) as hybrid quantum language models, reporting the first empirical demonstration of generative language modeling trained and evaluated end-to-end on real quantum hardware. Our architecture combines hardware-optimized parametric quantum circuits with a lightweight classical projection layer, utilizing a multi-sample SPSA strategy to efficiently train quantum parameters despite hardware noise. To characterize the capabilities of these models, we introduce a synthetic dataset designed to isolate syntactic dependencies in a controlled, low-resource environment. Experiments on IBM Quantum processors reveal the critical trade-offs between circuit depth and trainability, demonstrating that while noise remains a significant factor, observable-based readout enables the successful learning of sequential patterns on NISQ devices. These results establish a rigorous engineering baseline for generative quantum natural language processing, validating the feasibility of training complex sequence models on current quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.12710v1</guid>
+      <title>Group-Theoretic Reinforcement Learning of Dynamical Decoupling Sequences</title>
+      <link>https://arxiv.org/abs/2512.13890</link>
+      <description>arXiv:2512.13890v1 Announce Type: new 
+Abstract: Dynamical decoupling seeks to mitigate phase decoherence in qubits by applying a carefully designed sequence of effectively instantaneous electromagnetic pulses. Although analytic solutions exist for pulse timings that are optimal under specific noise regimes, identifying the optimal timings for a realistic noise spectrum remains challenging. We propose a reinforcement learning (RL)-based method for designing pulse sequences on qubits. Our novel action set enables the RL agent to efficiently navigate this inherently non-convex optimization landscape. The action set, derived from Thompson's group $F$, is applicable to a broad class of sequential decision problems whose states can be represented as bounded sequences. We demonstrate that our RL agent can learn pulse sequences that minimize dephasing without requiring explicit knowledge of the underlying noise spectrum. This work opens the possibility for real-time learning of optimal dynamical decoupling sequences on qubits which are dephasing-limited. The model-free nature of our algorithm suggests that the agent may ultimately learn optimal pulse sequences even in the presence of unmodeled physical effects, such as pulse errors or non-Gaussian noise.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.13890v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Stefan Balauca, Ada-Astrid Balauca, Adrian Iftene</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Charles Marrder, Shuo Sun, Murray J. Holland</dc:creator>
     </item>
     <item>
-      <title>Quantum channel tomography and estimation by local test</title>
-      <link>https://arxiv.org/abs/2512.13614</link>
-      <description>arXiv:2512.13614v1 Announce Type: new 
-Abstract: We study the estimation of an unknown quantum channel $\mathcal{E}$ with input dimension $d_1$, output dimension $d_2$ and Kraus rank at most $r$. We establish a connection between the query complexities in two models: (i) access to $\mathcal{E}$, and (ii) access to a random dilation of $\mathcal{E}$. Specifically, we show that for parallel (possibly coherent) testers, access to dilations does not help. This is proved by constructing a local tester that uses $n$ queries to $\mathcal{E}$ yet faithfully simulates the tester with $n$ queries to a random dilation. As application, we show that:
-  - $O(rd_1d_2/\varepsilon^2)$ queries to $\mathcal{E}$ suffice for channel tomography to within diamond norm error $\varepsilon$.
-  Moreover, when $rd_2=d_1$, we show that the Heisenberg scaling $O(1/\varepsilon)$ can be achieved, even if $\mathcal{E}$ is not a unitary channel:
-  - $O(\min\{d_1^{2.5}/\varepsilon,d_1^2/\varepsilon^2\})$ queries to $\mathcal{E}$ suffice for channel tomography to within diamond norm error $\varepsilon$, and $O(d_1^2/\varepsilon)$ queries suffice for the case of Choi state trace norm error $\varepsilon$.
-  - $O(\min\{d_1^{1.5}/\varepsilon,d_1/\varepsilon^2\})$ queries to $\mathcal{E}$ suffice for tomography of the mixed state $\mathcal{E}(|0\rangle\langle 0|)$ to within trace norm error $\varepsilon$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.13614v1</guid>
+      <title>Quantum Anticodes</title>
+      <link>https://arxiv.org/abs/2512.13891</link>
+      <description>arXiv:2512.13891v1 Announce Type: new 
+Abstract: This work introduces a symplectic framework for quantum error correcting codes in which local structure is analyzed through an anticode perspective. In this setting, a code is treated as a symplectic space, and anticodes arise as maximal symplectic subspaces whose elements vanish on a prescribed set of components, providing a natural quantum analogue of their classical counterparts. This framework encompasses several families of quantum codes, including stabilizer and subsystem codes, provides a natural extension of generalized distances in quantum codes, and yields new invariants that capture local algebraic and combinatorial features. The notion of anticodes also naturally leads to operations such as puncturing and shortening for symplectic codes, which in turn provide algebraic interpretations of key phenomena in quantum error correction, such as the cleaning lemma and complementary recovery and yield new descriptions of weight enumerators.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.13891v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kean Chen, Nengkun Yu, Zhicheng Zhang</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>ChunJun Cao, Giuseppe Cotardo, Brad Lackey</dc:creator>
     </item>
     <item>
-      <title>Quantum oracles give an advantage for identifying classical counterfactuals</title>
-      <link>https://arxiv.org/abs/2512.13692</link>
-      <description>arXiv:2512.13692v1 Announce Type: new 
-Abstract: We show that quantum oracles provide an advantage over classical oracles for answering classical counterfactual questions in causal models, or equivalently, for identifying unknown causal parameters such as distributions over functional dependences. In structural causal models with discrete classical variables, observational data and even ideal interventions generally fail to answer all counterfactual questions, since different causal parameters can reproduce the same observational and interventional data while disagreeing on counterfactuals. Using a simple binary example, we demonstrate that if the classical variables of interest are encoded in quantum systems and the causal dependence among them is encoded in a quantum oracle, coherently querying the oracle enables the identification of all causal parameters -- hence all classical counterfactuals. We generalize this to arbitrary finite cardinalities and prove that coherent probing 1) allows the identification of all two-way joint counterfactuals p(Y_x=y, Y_{x'}=y'), which is not possible with any number of queries to a classical oracle, and 2) provides tighter bounds on higher-order multi-way counterfactuals than with a classical oracle. This work can also be viewed as an extension to traditional quantum oracle problems such as Deutsch--Jozsa to identifying more causal parameters beyond just, e.g., whether a function is constant or balanced. Finally, we raise the question of whether this quantum advantage relies on uniquely non-classical features like contextuality. We provide some evidence against this by showing that in the binary case, oracles in some classically-explainable theories like Spekkens' toy theory also give rise to a counterfactual identifiability advantage over strictly classical oracles.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2512.13692v1</guid>
+      <title>Towards Explainable Quantum AI: Informing the Encoder Selection of Quantum Neural Networks via Visualization</title>
+      <link>https://arxiv.org/abs/2512.14181</link>
+      <description>arXiv:2512.14181v1 Announce Type: new 
+Abstract: Quantum Neural Networks (QNNs) represent a promising fusion of quantum computing and neural network architectures, offering speed-ups and efficient processing of high-dimensional, entangled data. A crucial component of QNNs is the encoder, which maps classical input data into quantum states. However, choosing suitable encoders remains a significant challenge, largely due to the lack of systematic guidance and the trial-and-error nature of current approaches. This process is further impeded by two key challenges: (1) the difficulty in evaluating encoded quantum states prior to training, and (2) the lack of intuitive methods for analyzing an encoder's ability to effectively distinguish data features. To address these issues, we introduce a novel visualization tool, XQAI-Eyes, which enables QNN developers to compare classical data features with their corresponding encoded quantum states and to examine the mixed quantum states across different classes. By bridging classical and quantum perspectives, XQAI-Eyes facilitates a deeper understanding of how encoders influence QNN performance. Evaluations across diverse datasets and encoder designs demonstrate XQAI-Eyes's potential to support the exploration of the relationship between encoder design and QNN effectiveness, offering a holistic and transparent approach to optimizing quantum encoders. Moreover, domain experts used XQAI-Eyes to derive two key practices for quantum encoder selection, grounded in the principles of pattern preservation and feature mapping.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.14181v1</guid>
       <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+      <category>cs.AI</category>
+      <category>cs.HC</category>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ciar\'an M. Gilligan-Lee, Y\`il\`e Y\=ing, Jonathan Richens, David Schmid</dc:creator>
+      <dc:creator>Shaolun Ruan, Feng Liang, Rohan Ramakrishna, Chao Ren, Rudai Yan, Qiang Guan, Jiannan Li, Yong Wang</dc:creator>
     </item>
     <item>
-      <title>Comparing concepts of quantum and classical neural network models for image classification task</title>
-      <link>https://arxiv.org/abs/2108.08875</link>
-      <description>arXiv:2108.08875v2 Announce Type: cross 
-Abstract: While quantum architectures are still under development, when available, they will only be able to process quantum data when machine learning algorithms can only process numerical data. Therefore, in the issues of classification or regression, it is necessary to simulate and study quantum systems that will transfer the numerical input data to a quantum form and enable quantum computers to use the available methods of machine learning. This material includes the results of experiments on training and performance of a hybrid quantum-classical neural network developed for the problem of classification of handwritten digits from the MNIST data set. The comparative results of two models: classical and quantum neural networks of a similar number of training parameters, indicate that the quantum network, although its simulation is time-consuming, overcomes the classical network (it has better convergence and achieves higher training and testing accuracy).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2108.08875v2</guid>
+      <title>Improved Lower Bounds for QAC0</title>
+      <link>https://arxiv.org/abs/2512.14643</link>
+      <description>arXiv:2512.14643v1 Announce Type: new 
+Abstract: In this work, we establish the strongest known lower bounds against QAC$^0$, while allowing its full power of polynomially many ancillae and gates. Our two main results show that:
+  (1) Depth 3 QAC$^0$ circuits cannot compute PARITY regardless of size, and require at least $\Omega(\exp(\sqrt{n}))$ many gates to compute MAJORITY.
+  (2) Depth 2 circuits cannot approximate high-influence Boolean functions (e.g., PARITY) with non-negligible advantage in depth $2$, regardless of size.
+  We present new techniques for simulating certain QAC$^0$ circuits classically in AC$^0$ to obtain our depth $3$ lower bounds. In these results, we relax the output requirement of the quantum circuit to a single bit (i.e., no restrictions on input preservation/reversible computation), making our depth $2$ approximation bound stronger than the previous best bound of Rosenthal (2021). This also enables us to draw natural comparisons with classical AC$^0$ circuits, which can compute PARITY exactly in depth $2$ using exponential size. Our proof techniques further suggest that, for inherently classical decision problems, constant-depth quantum circuits do not necessarily provide more power than their classical counterparts. Our third result shows that depth $2$ QAC$^0$ circuits, regardless of size, cannot exactly synthesize an $n$-target nekomata state (a state whose synthesis is directly related to the computation of PARITY). This complements the depth $2$ exponential size upper bound of Rosenthal (2021) for approximating nekomatas (which is used as a sub-circuit in the only known constant depth PARITY upper bound).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.14643v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Malvika Raj Joshi, Avishay Tal, Francisca Vasconcelos, John Wright</dc:creator>
+    </item>
+    <item>
+      <title>Capturing reduced-order quantum many-body dynamics out of equilibrium via neural ordinary differential equations</title>
+      <link>https://arxiv.org/abs/2512.13913</link>
+      <description>arXiv:2512.13913v1 Announce Type: cross 
+Abstract: Out-of-equilibrium quantum many-body systems exhibit rapid correlation buildup that underlies many emerging phenomena. Exact wave-function methods to describe this scale exponentially with particle number; simpler mean-field approaches neglect essential two-particle correlations. The time-dependent two-particle reduced density matrix (TD2RDM) formalism offers a middle ground by propagating the two-particle reduced density matrix (2RDM) and closing the BBGKY hierarchy with a reconstruction of the three-particle cumulant. But the validity and existence of time-local reconstruction functionals ignoring memory effects remain unclear across different dynamical regimes. We show that a neural ODE model trained on exact 2RDM data (no dimensionality reduction) can reproduce its dynamics without any explicit three-particle information -- but only in parameter regions where the Pearson correlation between the two- and three-particle cumulants is large. In the anti-correlated or uncorrelated regime, the neural ODE fails, indicating that no simple time-local functional of the instantaneous two-particle cumulant can capture the evolution. The magnitude of the time-averaged three-particle-correlation buildup appears to be the primary predictor of success: For a moderate correlation buildup, both neural ODE predictions and existing TD2RDM reconstructions are accurate, whereas stronger values lead to systematic breakdowns. These findings pinpoint the need for memory-dependent kernels in the three-particle cumulant reconstruction for the latter regime. Our results place the neural ODE as a model-agnostic diagnostic tool that maps the regime of applicability of cumulant expansion methods and guides the development of non-local closure schemes. More broadly, the ability to learn high-dimensional RDM dynamics from limited data opens a pathway to fast, data-driven simulation of correlated quantum matter.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.13913v1</guid>
       <category>cs.LG</category>
+      <category>cond-mat.stat-mech</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 16 Dec 2025 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <arxiv:DOI>10.1007/978-3-030-81523-3_6</arxiv:DOI>
-      <arxiv:journal_reference>In: Choras M., Choras R.S., Kurzynski M., Trajdos P., Pejas J., Hyla T. (eds) Progress in Image Processing, Pattern Recognition and Communication Systems. CORES 2021, IP&amp;C 2021, ACS 2021. LNNS, 255. Springer, Cham</arxiv:journal_reference>
-      <dc:creator>Rafal Potempa, Sebastian Porebski</dc:creator>
+      <dc:creator>Patrick Egenlauf, Iva B\v{r}ezinov\'a, Sabine Andergassen, Miriam Klopotek</dc:creator>
     </item>
   </channel>
 </rss>

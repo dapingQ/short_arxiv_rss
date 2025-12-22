@@ -7,12 +7,64 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Dec 2025 05:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 05:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 21 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 22 Dec 2025 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Fraud detection in credit card transactions using Quantum-Assisted Restricted Boltzmann Machines</title>
+      <link>https://arxiv.org/abs/2512.17660</link>
+      <description>arXiv:2512.17660v1 Announce Type: new 
+Abstract: Use cases for emerging quantum computing platforms become economically relevant as the efficiency of processing and availability of quantum computers increase. We assess the performance of Restricted Boltzmann Machines (RBM) assisted by quantum computing, running on real quantum hardware and simulators, using a real dataset containing 145 million transactions provided by Stone, a leading Brazilian fintech, for credit card fraud detection. The results suggest that the quantum-assisted RBM method is able to achieve superior performance in most figures of merit in comparison to classical approaches, even using current noisy quantum annealers. Our study paves the way for implementing quantum-assisted RBMs for general fault detection in financial systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.17660v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jo\~ao Marcos Cavalcanti de Albuquerque Neto, Gustavo Castro do Amaral, Guilherme Penello Tempor\~ao</dc:creator>
+    </item>
+    <item>
+      <title>Domain-Aware Quantum Circuit for QML</title>
+      <link>https://arxiv.org/abs/2512.17800</link>
+      <description>arXiv:2512.17800v1 Announce Type: new 
+Abstract: Designing parameterized quantum circuits (PQCs) that are expressive, trainable, and robust to hardware noise is a central challenge for quantum machine learning (QML) on noisy intermediate-scale quantum (NISQ) devices. We present a Domain-Aware Quantum Circuit (DAQC) that leverages image priors to guide locality-preserving encoding and entanglement via non-overlapping DCT-style zigzag windows. The design employs interleaved encode-entangle-train cycles, where entanglement is applied among qubits hosting neighboring pixels, aligned to device connectivity. This staged, locality-preserving information flow expands the effective receptive field without deep global mixing, enabling efficient use of limited depth and qubits. The design concentrates representational capacity on short-range correlations, reduces long-range two-qubit operations, and encourages stable optimization, thereby mitigating depth-induced and globally entangled barren-plateau effects. We evaluate DAQC on MNIST, FashionMNIST, and PneumoniaMNIST datasets. On quantum hardware, DAQC achieves performance competitive with strong classical baselines (e.g., ResNet-18/50, DenseNet-121, EfficientNet-B0) and substantially outperforming Quantum Circuit Search (QCS) baselines. To the best of our knowledge, DAQC, which uses a quantum feature extractor with only a linear classical readout (no deep classical backbone), currently achieves the best reported performance on real quantum hardware for QML-based image classification tasks. Code and pretrained models are available at: https://github.com/gurinder-hub/DAQC.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.17800v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Gurinder Singh, Thaddeus Pellegrini, Kenneth M. Merz, Jr</dc:creator>
+    </item>
+    <item>
+      <title>Exploring the Effect of Basis Rotation on NQS Performance</title>
+      <link>https://arxiv.org/abs/2512.17893</link>
+      <description>arXiv:2512.17893v1 Announce Type: new 
+Abstract: Neural Quantum States (NQS) use neural networks to represent wavefunctions of quantum many-body systems, but their performance depends on the choice of basis, yet the underlying mechanism remains poorly understood. We use a fully solvable one-dimensional Ising model to show that local basis rotations leave the loss landscape unchanged while relocating the exact wavefunction in parameter space, effectively increasing its geometric distance from typical initializations. By sweeping a rotation angle, we compute quantum Fisher information and Fubini-Study distances to quantify how the rotated wavefunction moves within the loss landscape. Shallow architectures (with focus on Restricted Boltzmann Machines (RBMs)) trained with quantum natural gradient are more likely to fall into saddle-point regions depending on the rotation angle: they achieve low energy error but fail to reproduce correct coefficient distributions. In the ferromagnetic case, near-degenerate eigenstates create high-curvature barriers that trap optimization at intermediate fidelities. We introduce a framework based on an analytically solvable rotated Ising model to investigate how relocating the target wavefunction within a fixed loss landscape exposes information-geometric barriers,such as saddle points and high-curvature regions,that hinder shallow NQS optimization, underscoring the need for landscape-aware model design in variational training.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.17893v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Sven Benjamin Ko\v{z}i\'c, Vinko Zlati\'c, Fabio Franchini, Salvatore Marco Giampaolo</dc:creator>
+    </item>
+    <item>
+      <title>QSMOTE-PGM/kPGM: QSMOTE Based PGM and kPGM for Imbalanced Dataset Classification</title>
+      <link>https://arxiv.org/abs/2512.16960</link>
+      <description>arXiv:2512.16960v1 Announce Type: cross 
+Abstract: Quantum-inspired machine learning (QiML) leverages mathematical frameworks from quantum theory to enhance classical algorithms, with particular emphasis on inner product structures in high-dimensional feature spaces. Among the prominent approaches, the Kernel Trick, widely used in support vector machines, provides efficient similarity computation, while the Pretty Good Measurement (PGM), originating from quantum state discrimination, enables classification grounded in Hilbert space geometry. Building on recent developments in kernelized PGM (KPGM) and direct PGM-based classifiers, this work presents a unified theoretical and empirical comparison of these paradigms. We analyze their performance across synthetic oversampling scenarios using Quantum SMOTE (QSMOTE) variants. Experimental results show that both PGM and KPGM classifiers consistently outperform a classical random forest baseline, particularly when multiple quantum copies are employed. Notably, PGM with stereo encoding and n_copies=2 achieves the highest overall accuracy (0.8512) and F1-score (0.8234), while KPGM demonstrates competitive and more stable behavior across QSMOTE variants, with top scores of 0.8511 (stereo) and 0.8483 (amplitude). These findings highlight that quantum-inspired classifiers not only provide tangible gains in recall and balanced performance but also offer complementary strengths: PGM benefits from encoding-specific enhancements, whereas KPGM ensures robustness across sampling strategies. Our results advance the understanding of kernel-based and measurement-based QiML methods, offering practical guidance on their applicability under varying data characteristics and computational constraints.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.16960v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Bikash K. Behera, Giuseppe Sergioli, Robert Giuntini</dc:creator>
+    </item>
   </channel>
 </rss>

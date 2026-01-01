@@ -7,12 +7,112 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Dec 2025 05:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jan 2026 05:00:12 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 31 Dec 2025 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
+    <item>
+      <title>Syndrome aware mitigation of logical errors</title>
+      <link>https://arxiv.org/abs/2512.23810</link>
+      <description>arXiv:2512.23810v1 Announce Type: new 
+Abstract: Broad applications of quantum computers will require error correction (EC). However, quantum hardware roadmaps indicate that physical qubit numbers will remain limited in the foreseeable future, leading to residual logical errors that limit the size and accuracy of achievable computations. Recent work suggested logical error mitigation (LEM), which applies known error mitigation (EM) methods to logical errors, eliminating their effect at the cost of a runtime overhead. Improving the efficiency of LEM is crucial for increasing the logical circuit volumes it enables to execute.
+  We introduce syndrome-aware logical error mitigation (SALEM), which makes use of the syndrome data measured during error correction, when mitigating the logical errors. The runtime overhead of SALEM is exponentially lower than that of previously proposed LEM schemes, resulting in significantly increased circuit volumes that can be executed accurately. Notably, relative to the routinely used combination of error correction and syndrome rejection (post-selection), SALEM increases the size of reliably executable computations by orders of magnitude. In this practical setting in which space and time are both resources that need to be optimized, our work reveals a surprising phenomenon: SALEM, which tightly combines EC with EM, can outperform physical EM even above the standard fault-tolerance threshold. Thus, SALEM can make use of EC in regimes of physical error rates at which EC is commonly deemed useless.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.23810v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Dorit Aharonov, Yosi Atia, Eyal Bairey, Zvika Brakerski, Itsik Cohen, Omri Golan, Ilya Gurwich, Netanel H. Lindner, Maor Shutman</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Error Mitigation with Attention Graph Transformers for Burgers Equation Solvers on NISQ Hardware</title>
+      <link>https://arxiv.org/abs/2512.23817</link>
+      <description>arXiv:2512.23817v1 Announce Type: new 
+Abstract: We present a hybrid quantum-classical framework augmented with learned error mitigation for solving the viscous Burgers equation on noisy intermediate-scale quantum (NISQ) hardware. Using the Cole-Hopf transformation, the nonlinear Burgers equation is mapped to a diffusion equation, discretized on uniform grids, and encoded into a quantum state whose time evolution is approximated via Trotterized nearest-neighbor circuits implemented in Qiskit. Quantum simulations are executed on noisy Aer backends and IBM superconducting quantum devices and are benchmarked against high-accuracy classical solutions obtained using a Krylov-based solver applied to the corresponding discretized Hamiltonian. From measured quantum amplitudes, we reconstruct the velocity field and evaluate physical and numerical diagnostics, including the L2 error, shock location, and dissipation rate, both with and without zero-noise extrapolation (ZNE). To enable data-driven error mitigation, we construct a large parametric dataset by sweeping viscosity, time step, grid resolution, and boundary conditions, producing matched tuples of noisy, ZNE-corrected, hardware, and classical solutions together with detailed circuit metadata. Leveraging this dataset, we train an attention-based graph neural network that incorporates circuit structure, light-cone information, global circuit parameters, and noisy quantum outputs to predict error-mitigated solutions. Across a wide range of parameters, the learned model consistently reduces the discrepancy between quantum and classical solutions beyond what is achieved by ZNE alone. We discuss extensions of this approach to higher-dimensional Burgers systems and more general quantum partial differential equation solvers, highlighting learned error mitigation as a promising complement to physics-based noise reduction techniques on NISQ devices.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.23817v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Seyed Mohamad Ali Tousi, Adib Bazgir, Yuwen Zhang, G. N. DeSouza</dc:creator>
+    </item>
+    <item>
+      <title>Tensor Computing Interface: An Application-Oriented, Lightweight Interface for Portable High-Performance Tensor Network Applications</title>
+      <link>https://arxiv.org/abs/2512.23917</link>
+      <description>arXiv:2512.23917v1 Announce Type: new 
+Abstract: Tensor networks (TNs) are a central computational tool in quantum science and artificial intelligence. However, the lack of unified software interface across tensor-computing frameworks severely limits the portability of TN applications, coupling algorithmic development to specific hardware and software back ends. To address this challenge, we introduce the Tensor Computing Interface (TCI) -- an application-oriented, lightweight application programming interface designed to enable framework-independent, high-performance TN applications. TCI provides a well-defined type system that abstracts tensor objects together with a minimal yet expressive set of core functions covering essential tensor manipulations and tensor linear-algebra operations. Through numerical demonstrations on representative tensor-network applications, we show that codes written against TCI can be migrated seamlessly across heterogeneous hardware and software platforms while achieving performance comparable to native framework implementations. We further release an open-source implementation of TCI based on \textit{Cytnx}, demonstrating its practicality and ease of integration with existing tensor-computing frameworks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.23917v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.str-el</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Rong-Yang Sun, Tomonori Shirakawa, Hidehiko Kohshiro, D. N. Sheng, Seiji Yunoki</dc:creator>
+    </item>
+    <item>
+      <title>Variational Quantum Brushes</title>
+      <link>https://arxiv.org/abs/2512.24173</link>
+      <description>arXiv:2512.24173v1 Announce Type: new 
+Abstract: Quantum brushes are computational arts software introduced by Ferreira et al (2025) that leverage quantum behavior to generate novel artistic effects. In this outreach paper, we introduce the mathematical framework and describe the implementation of two quantum brushes based on variational quantum algorithms, Steerable and Chemical. While Steerable uses quantum geometric control theory to merge two works of art, Chemical mimics variational eigensolvers for estimating molecular ground energies to evolve colors on an underlying canvas. The implementation of both brushes is available open-source at https://github.com/moth-quantum/QuantumBrush and is fully compatible with the original quantum brushes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.24173v1</guid>
+      <category>quant-ph</category>
+      <category>cs.GR</category>
+      <category>cs.LG</category>
+      <category>math.OC</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jui-Ting Lu, Henrique Ennes, Chih-Kang Huang, Ali Abbassi</dc:creator>
+    </item>
+    <item>
+      <title>Probabilistic Computers for Neural Quantum States</title>
+      <link>https://arxiv.org/abs/2512.24558</link>
+      <description>arXiv:2512.24558v1 Announce Type: new 
+Abstract: Neural quantum states efficiently represent many-body wavefunctions with neural networks, but the cost of Monte Carlo sampling limits their scaling to large system sizes. Here we address this challenge by combining sparse Boltzmann machine architectures with probabilistic computing hardware. We implement a probabilistic computer on field programmable gate arrays (FPGAs) and use it as a fast sampler for energy-based neural quantum states. For the two-dimensional transverse-field Ising model at criticality, we obtain accurate ground-state energies for lattices up to 80 $\times$ 80 (6400 spins) using a custom multi-FPGA cluster. Furthermore, we introduce a dual-sampling algorithm to train deep Boltzmann machines, replacing intractable marginalization with conditional sampling over auxiliary layers. This enables the training of sparse deep models and improves parameter efficiency relative to shallow networks. Using this algorithm, we train deep Boltzmann machines for a system with 35 $\times$ 35 (1225 spins). Together, these results demonstrate that probabilistic hardware can overcome the sampling bottleneck in variational simulation of quantum many-body systems, opening a path to larger system sizes and deeper variational architectures.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.24558v1</guid>
+      <category>quant-ph</category>
+      <category>cond-mat.dis-nn</category>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Shuvro Chowdhury, Jasper Pieterse, Navid Anjum Aadit, Johan H. Mentink, Kerem Y. Camsari</dc:creator>
+    </item>
+    <item>
+      <title>Limits of quantum generative models with classical sampling hardness</title>
+      <link>https://arxiv.org/abs/2512.24801</link>
+      <description>arXiv:2512.24801v1 Announce Type: new 
+Abstract: Sampling tasks have been successful in establishing quantum advantages both in theory and experiments. This has fueled the use of quantum computers for generative modeling to create samples following the probability distribution underlying a given dataset. In particular, the potential to build generative models on classically hard distributions would immediately preclude classical simulability, due to theoretical separations. In this work, we study quantum generative models from the perspective of output distributions, showing that models that anticoncentrate are not trainable on average, including those exhibiting quantum advantage. In contrast, models outputting data from sparse distributions can be trained. We consider special cases to enhance trainability, and observe that this opens the path for classical algorithms for surrogate sampling. This observed trade-off is linked to verification of quantum processes. We conclude that quantum advantage can still be found in generative models, although its source must be distinct from anticoncentration.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.24801v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Sabrina Herbst, Ivona Brandi\'c, Adri\'an P\'erez-Salinas</dc:creator>
+    </item>
+    <item>
+      <title>The Wigner-Ville Transform as an Information Theoretic Tool in Radio-frequency Signal Analysis</title>
+      <link>https://arxiv.org/abs/2512.24488</link>
+      <description>arXiv:2512.24488v1 Announce Type: cross 
+Abstract: This paper presents novel interpretations to the field of classical signal processing of the Wigner-Ville transform as an information measurement tool. The transform's utility in detecting and localizing information-laden signals amidst noisy and cluttered backgrounds, and further providing measure of their information volumes, are detailed herein using Tsallis' entropy and information and related functionals. Example use cases in radio frequency communications are given, where Wigner-Ville-based detection measures can be seen to provide significant sensitivity advantage, for some shown contexts greater than 15~dB advantage, over energy-based measures and without extensive training routines. Such an advantage is particularly significant for applications which have limitations on observation resources including time/space integration pressures and transient and/or feeble signals, where Wigner-Ville-based methods would improve sensing effectiveness by multiple orders of magnitude. The potential for advancement of several such applications is discussed.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2512.24488v1</guid>
+      <category>eess.SP</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Erik Lentz, Emily Ellwein, Bill Kay, Audun Myers, Cameron Mackenzie</dc:creator>
+    </item>
   </channel>
 </rss>

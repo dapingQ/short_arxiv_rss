@@ -7,74 +7,113 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jan 2026 05:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 05:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 05 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Neural Minimum Weight Perfect Matching for Quantum Error Codes</title>
-      <link>https://arxiv.org/abs/2601.00242</link>
-      <description>arXiv:2601.00242v1 Announce Type: new 
-Abstract: Realizing the full potential of quantum computation requires Quantum Error Correction (QEC). QEC reduces error rates by encoding logical information across redundant physical qubits, enabling errors to be detected and corrected. A common decoder used for this task is Minimum Weight Perfect Matching (MWPM) a graph-based algorithm that relies on edge weights to identify the most likely error chains. In this work, we propose a data-driven decoder named Neural Minimum Weight Perfect Matching (NMWPM). Our decoder utilizes a hybrid architecture that integrates Graph Neural Networks (GNNs) to extract local syndrome features and Transformers to capture long-range global dependencies, which are then used to predict dynamic edge weights for the MWPM decoder. To facilitate training through the non-differentiable MWPM algorithm, we formulate a novel proxy loss function that enables end-to-end optimization. Our findings demonstrate significant performance reduction in the Logical Error Rate (LER) over standard baselines, highlighting the advantage of hybrid decoders that combine the predictive capabilities of neural networks with the algorithmic structure of classical matching.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.00242v1</guid>
+      <title>Learning Relationship between Quantum Walks and Underdamped Langevin Dynamics</title>
+      <link>https://arxiv.org/abs/2601.01589</link>
+      <description>arXiv:2601.01589v1 Announce Type: new 
+Abstract: Fast computational algorithms are in constant demand, and their development has been driven by advances such as quantum speedup and classical acceleration. This paper intends to study search algorithms based on quantum walks in quantum computation and sampling algorithms based on Langevin dynamics in classical computation. On the quantum side, quantum walk-based search algorithms can achieve quadratic speedups over their classical counterparts. In classical computation, a substantial body of work has focused on gradient acceleration, with gradient-adjusted algorithms derived from underdamped Langevin dynamics providing quadratic acceleration over conventional Langevin algorithms.
+  Since both search and sampling algorithms are designed to address learning tasks, we study learning relationship between coined quantum walks and underdamped Langevin dynamics. Specifically, we show that, in terms of the Le Cam deficiency distance, a quantum walk with randomization is asymptotically equivalent to underdamped Langevin dynamics, whereas the quantum walk without randomization is not asymptotically equivalent due to its high-frequency oscillatory behavior. We further discuss the implications of these equivalence and nonequivalence results for the computational and inferential properties of the associated algorithms in machine learning tasks. Our findings offer new insight into the relationship between quantum walks and underdamped Langevin dynamics, as well as the intrinsic mechanisms underlying quantum speedup and classical gradient acceleration.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.01589v1</guid>
       <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Yazhen Wang</dc:creator>
+    </item>
+    <item>
+      <title>Random-Matrix-Induced Simplicity Bias in Over-parameterized Variational Quantum Circuits</title>
+      <link>https://arxiv.org/abs/2601.01877</link>
+      <description>arXiv:2601.01877v1 Announce Type: new 
+Abstract: Over-parameterization is commonly used to increase the expressivity of variational quantum circuits (VQCs), yet deeper and more highly parameterized circuits often exhibit poor trainability and limited generalization. In this work, we provide a theoretical explanation for this phenomenon from a function-class perspective. We show that sufficiently expressive, unstructured variational ansatze enter a Haar-like universality class in which both observable expectation values and parameter gradients concentrate exponentially with system size. As a consequence, the hypothesis class induced by such circuits collapses with high probability to a narrow family of near-constant functions, a phenomenon we term simplicity bias, with barren plateaus arising as a consequence rather than the root cause. Using tools from random matrix theory and concentration of measure, we rigorously characterize this universality class and establish uniform hypothesis-class collapse over finite datasets. We further show that this collapse is not unavoidable: tensor-structured VQCs, including tensor-network-based and tensor-hypernetwork parameterizations, lie outside the Haar-like universality class. By restricting the accessible unitary ensemble through bounded tensor rank or bond dimension, these architectures prevent concentration of measure, preserve output variability for local observables, and retain non-degenerate gradient signals even in over-parameterized regimes. Together, our results unify barren plateaus, expressivity limits, and generalization collapse under a single structural mechanism rooted in random-matrix universality, highlighting the central role of architectural inductive bias in variational quantum algorithms.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.01877v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jun Qi, Chao-Han Huck Yang, Pin-Yu Chen, Min-Hsiu Hsieh</dc:creator>
+    </item>
+    <item>
+      <title>Schwarz maps with symmetry</title>
+      <link>https://arxiv.org/abs/2601.02282</link>
+      <description>arXiv:2601.02282v1 Announce Type: new 
+Abstract: The theory of symmetry of quantum mechanical systems is applied to study the structure and properties of several classes of relevant maps in quantum information theory: CPTP, PPT and Schwarz maps. First, we develop the general structure that equivariant maps $\Phi:\mathcal A \to \mathcal B$ between $C^\ast$-algebras satisfy. Then, we undertake a systematic study of unital, Hermiticity-preserving maps that are equivariant under natural unitary group actions. Schwarz maps satisfy Kadison's inequality $\Phi(X^\ast X) \geq \Phi(X)^\ast \Phi(X)$ and form an intermediate class between positive and completely positive maps. We completely classify $U(n)$-equivariant on $M_n(\mathbb C)$ and determine those that are completely positive and Schwarz. Partial classifications are then obtained for the weaker $DU(n)$-equivariance (diagonal unitary symmetry) and for tensor-product symmetries $U(n_1) \otimes U(n_2)$. In each case, the parameter regions where $\Phi$ is Schwarz or completely positive are described by explicit algebraic inequalities, and their geometry is illustrated. Finally, we further show that the $U(n)$-equivariant family satisfies $\mathrm{PPT} \iff \mathrm{EB}$, while the $DU(2)$, symmetric $DU(3)$, $U(2) \otimes U(2)$ and $U(2) \otimes U(3)$, families obey the $\mathrm{PPT}^2$ conjecture through a direct symmetry argument. These results reveal how group symmetry controls the structure of non-completely positive maps and provide new concrete examples where the $\mathrm{PPT}^2$ property holds.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.02282v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Alfonso Garc\'ia-Velo, Alberto Ibort</dc:creator>
+    </item>
+    <item>
+      <title>Path Integral Solution for Dissipative Generative Dynamics</title>
+      <link>https://arxiv.org/abs/2601.00860</link>
+      <description>arXiv:2601.00860v1 Announce Type: cross 
+Abstract: Can purely mechanical systems generate intelligent language? We prove that dissipative quantum dynamics with analytically tractable non-local context aggregation produce coherent text generation, while conservation laws cause fundamental failure. Employing Koopman operators with closed-form path integral propagators, we show irreversible computation fundamentally requires both controlled information dissipation and causal context aggregation. Spectral analysis reveals emergent eigenvalue structure, separating into decay modes (forgetting), growth modes (amplification), and neutral modes (preservation) -- the essential ingredients for directed information flow. Hamiltonian constraints force the elimination of these dissipative modes and degrading performance despite unchanged model capacity. This establishes language generation as dissipative quantum field theory, proving mechanical systems acquire intelligence through the combination of dissipation and non-locality, not through conservation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.00860v1</guid>
+      <category>cs.LG</category>
       <category>cs.AI</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
+      <category>physics.app-ph</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yotam Peled, David Zenati, Eliya Nachmani</dc:creator>
+      <dc:creator>Xidi Wang</dc:creator>
     </item>
     <item>
-      <title>When Does Quantum Differential Privacy Compose?</title>
-      <link>https://arxiv.org/abs/2601.00337</link>
-      <description>arXiv:2601.00337v1 Announce Type: new 
-Abstract: Composition is a cornerstone of classical differential privacy, enabling strong end-to-end guarantees for complex algorithms through composition theorems (e.g., basic and advanced). In the quantum setting, however, privacy is defined operationally against arbitrary measurements, and classical composition arguments based on scalar privacy-loss random variables no longer apply. As a result, it has remained unclear when meaningful composition guarantees can be obtained for quantum differential privacy (QDP).
-  In this work, we clarify both the limitations and possibilities of composition in the quantum setting. We first show that classical-style composition fails in full generality for POVM-based approximate QDP: even quantum channels that are individually perfectly private can completely lose privacy when combined through correlated joint implementations. We then identify a setting in which clean composition guarantees can be restored. For tensor-product channels acting on product neighboring inputs, we introduce a quantum moments accountant based on an operator-valued notion of privacy loss and a matrix moment-generating function. Although the resulting R\'enyi-type divergence does not satisfy a data-processing inequality, we prove that controlling its moments suffices to bound measured R\'enyi divergence, yielding operational privacy guarantees against arbitrary measurements. This leads to advanced-composition-style bounds with the same leading-order behavior as in the classical theory.
-  Our results demonstrate that meaningful composition theorems for quantum differential privacy require carefully articulated structural assumptions on channels, inputs, and adversarial measurements, and provide a principled framework for understanding which classical ideas do and do not extend to the quantum setting.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.00337v1</guid>
+      <title>Practical Geometric and Quantum Kernel Methods for Predicting Skeletal Muscle Outcomes in chronic obstructive pulmonary disease</title>
+      <link>https://arxiv.org/abs/2601.00921</link>
+      <description>arXiv:2601.00921v1 Announce Type: cross 
+Abstract: Skeletal muscle dysfunction is a clinically relevant extra-pulmonary manifestation of chronic obstructive pulmonary disease (COPD) and is closely linked to systemic and airway inflammation. This motivates predictive modelling of muscle outcomes from minimally invasive biomarkers that can be acquired longitudinally. We study a small-sample preclinical dataset comprising 213 animals across two conditions (Sham versus cigarette-smoke exposure), with blood and bronchoalveolar lavage fluid measurements and three continuous targets: tibialis anterior muscle weight (milligram: mg), specific force (millinewton: mN), and a derived muscle quality index (mN per mg). We benchmark tuned classical baselines, geometry-aware symmetric positive definite (SPD) descriptors with Stein divergence, and quantum kernel models designed for low-dimensional tabular data. In the muscle-weight setting, quantum kernel ridge regression using four interpretable inputs (blood C-reactive protein, neutrophil count, bronchoalveolar lavage cellularity, and condition) attains a test root mean squared error of 4.41 mg and coefficient of determination of 0.605, improving over a matched ridge baseline on the same feature set (4.70 mg and 0.553). Geometry-informed Stein-divergence prototype distances yield a smaller but consistent gain in the biomarker-only setting (4.55 mg versus 4.79 mg). Screening-style evaluation, obtained by thresholding the continuous outcome at 0.8 times the training Sham mean, achieves an area under the receiver operating characteristic curve (ROC-AUC) of up to 0.90 for detecting low muscle weight. These results indicate that geometric and quantum kernel lifts can provide measurable benefits in low-data, low-feature biomedical prediction problems, while preserving interpretability and transparent model selection.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.00921v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
       <category>quant-ph</category>
-      <category>cs.CR</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Daniel Alabi, Theshani Nuradha</dc:creator>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Azadeh Alavi, Hamidreza Khalili, Stanley H. Chan, Fatemeh Kouchmeshki, Ross Vlahos</dc:creator>
     </item>
     <item>
-      <title>Automated electrostatic characterization of quantum dot devices in single- and bilayer heterostructures</title>
-      <link>https://arxiv.org/abs/2601.00067</link>
-      <description>arXiv:2601.00067v1 Announce Type: cross 
-Abstract: As quantum dot (QD)-based spin qubits advance toward larger, more complex device architectures, rapid, automated device characterization and data analysis tools become critical. The orientation and spacing of transition lines in a charge stability diagram (CSD) contain a fingerprint of a QD device's capacitive environment, making these measurements useful tools for device characterization. However, manually interpreting these features is time-consuming, error-prone, and impractical at scale. Here, we present an automated protocol for extracting underlying capacitive properties from CSDs. Our method integrates machine learning, image processing, and object detection to identify and track charge transitions across large datasets without manual labeling. We demonstrate this method using experimentally measured data from a strained-germanium single-quantum-well (planar) and a strained-germanium double-quantum-well (bilayer) QD device. Unlike for planar QD devices, CSDs in bilayer germanium heterostructure exhibit a larger set of transitions, including interlayer tunneling and distinct loading lines for the vertically stacked QDs, making them a powerful testbed for automation methods. By analyzing the properties of many CSDs, we can statistically estimate physically relevant quantities, like relative lever arms and capacitive couplings. Thus, our protocol enables rapid extraction of useful, nontrivial information about QD devices.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.00067v1</guid>
-      <category>cond-mat.mes-hall</category>
-      <category>cs.CV</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
+      <title>Improved decoding algorithms for surface codes under independent bit-flip and phase-flip errors</title>
+      <link>https://arxiv.org/abs/2601.00972</link>
+      <description>arXiv:2601.00972v1 Announce Type: cross 
+Abstract: We study exact decoding for the toric code and for planar and rotated surface codes under the standard independent \(X/Z\) noise model, focusing on Separate Minimum Weight (SMW) decoding and Separate Most Likely Coset (SMLC) decoding. For the SMW decoding problem, we show that an \(O(n^{3/2}\log n)\)-time decoder is achievable for surface and toric codes, improving over the \(O(n^{3}\log n)\) worst-case time of the standard approach based on complete decoding graphs. Our approach is based on a local reduction of SMW decoding to the minimum weight perfect matching problem using Fisher gadgets, which preserves planarity for planar and rotated surface codes and genus~\(1\) for the toric code. This reduction enables the use of Lipton--Tarjan planar separator methods and implies that SMW decoding lies in \(\mathrm{NC}\). For SMLC decoding, we show that the planar surface code admits an exact decoder with \(O(n^{3/2})\) algebraic complexity and that the problem lies in \(\mathrm{NC}\), improving over the \(O(n^{2})\) algebraic complexity of Bravyi \emph{et al.} Our approach proceeds via a dual-cycle formulation of coset probabilities and an explicit reduction to planar Pfaffian evaluation using Fisher--Kasteleyn--Temperley constructions. The same complexity measures apply to SMLC decoding of the rotated surface code. For the toric code, we obtain an exact polynomial-time SMLC decoder with \(O(n^{3})\) algebraic complexity. In addition, while the SMLC formulation is motivated by connections to statistical mechanics, we provide a purely algebraic derivation of the underlying duality based on MacWilliams duality and Fourier analysis. Finally, we discuss extensions of the framework to the depolarizing noise model and identify resulting open problems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.00972v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Merritt P. R. Losert, Dario Denora, Barnaby van Straaten, Michael Chan, Stefan D. Oosterhout, Lucas Stehouwer, Giordano Scappucci, Menno Veldhorst, Justyna P. Zwolak</dc:creator>
+      <dc:creator>Louay Bazzi</dc:creator>
     </item>
     <item>
-      <title>Quantum King-Ring Domination in Chess: A QAOA Approach</title>
-      <link>https://arxiv.org/abs/2601.00318</link>
-      <description>arXiv:2601.00318v1 Announce Type: cross 
-Abstract: The Quantum Approximate Optimization Algorithm (QAOA) is extensively benchmarked on synthetic random instances such as MaxCut, TSP, and SAT problems, but these lack semantic structure and human interpretability, offering limited insight into performance on real-world problems with meaningful constraints. We introduce Quantum King-Ring Domination (QKRD), a NISQ-scale benchmark derived from chess tactical positions that provides 5,000 structured instances with one-hot constraints, spatial locality, and 10--40 qubit scale. The benchmark pairs human-interpretable coverage metrics with intrinsic validation against classical heuristics, enabling algorithmic conclusions without external oracles. Using QKRD, we systematically evaluate QAOA design choices and find that constraint-preserving mixers (XY, domain-wall) converge approximately 13 steps faster than standard mixers (p&lt;10^{-7}, d\approx0.5) while eliminating penalty tuning, warm-start strategies reduce convergence by 45 steps (p&lt;10^{-127}, d=3.35) with energy improvements exceeding d=8, and Conditional Value-at-Risk (CVaR) optimization yields an informative negative result with worse energy (p&lt;10^{-40}, d=1.21) and no coverage benefit. Intrinsic validation shows QAOA outperforms greedy heuristics by 12.6\% and random selection by 80.1\%. Our results demonstrate that structured benchmarks reveal advantages of problem-informed QAOA techniques obscured in random instances. We release all code, data, and experimental artifacts for reproducible NISQ algorithm research.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.00318v1</guid>
+      <title>High-Order Epistasis Detection Using Factorization Machine with Quadratic Optimization Annealing and MDR-Based Evaluation</title>
+      <link>https://arxiv.org/abs/2601.01860</link>
+      <description>arXiv:2601.01860v1 Announce Type: cross 
+Abstract: Detecting high-order epistasis is a fundamental challenge in genetic association studies due to the combinatorial explosion of candidate locus combinations. Although multifactor dimensionality reduction (MDR) is a widely used method for evaluating epistasis, exhaustive MDR-based searches become computationally infeasible as the number of loci or the interaction order increases. In this paper, we define the epistasis detection problem as a black-box optimization problem and solve it with a factorization machine with quadratic optimization annealing (FMQA). We propose an efficient epistasis detection method based on FMQA, in which the classification error rate (CER) computed by MDR is used as a black-box objective function. Experimental evaluations were conducted using simulated case-control datasets with predefined high-order epistasis. The results demonstrate that the proposed method successfully identified ground-truth epistasis across various interaction orders and the numbers of genetic loci within a limited number of iterations. These results indicate that the proposed method is effective and computationally efficient for high-order epistasis detection.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.01860v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Gerhard Stenzel, Michael K\"olle, Tobias Rohe, Julian Hager, Leo S\"unkel, Maximilian Zorn, Claudia Linnhoff-Popien</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Shuta Kikuchi, Shu Tanaka</dc:creator>
     </item>
   </channel>
 </rss>

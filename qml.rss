@@ -7,96 +7,73 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 05:00:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 05:00:18 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 08 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Compressed Qubit Noise Spectroscopy: Piecewise-Linear Modeling and Rademacher Measurements</title>
-      <link>https://arxiv.org/abs/2601.02516</link>
-      <description>arXiv:2601.02516v1 Announce Type: new 
-Abstract: Random pulse sequences are a powerful method for qubit noise spectroscopy, enabling efficient reconstruction of sparse noise spectra. Here, we advance this method in two complementary directions. First, we extend the method using a regularizer based on the total generalized variation (TGV) norm, in order to reconstruct a larger class of noise spectra, namely piecewise-linear noise spectra, which more realistically model many physical systems. We show through numerical simulations that the new method resolves finer spectral features, while maintaining an order-of-magnitude speedup over conventional approaches to noise spectroscopy. Second, we simplify the experimental implementation of the method, by introducing Rademacher measurements for reconstructing sparse noise spectra. These measurements use pseudorandom pulse sequences that can be generated in real time from a short random seed, reducing experimental complexity without compromising reconstruction accuracy. Together, these developments broaden the reach of random pulse sequences for accurate and efficient noise characterization in realistic quantum systems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.02516v1</guid>
+      <title>Strip-Symmetric Quantum Codes for Biased Noise: Z-Decoupling in Stabilizer and Floquet Codes</title>
+      <link>https://arxiv.org/abs/2601.03623</link>
+      <description>arXiv:2601.03623v1 Announce Type: new 
+Abstract: Bias-tailored codes such as the XZZX surface code and the domain wall color code achieve high dephasing-biased thresholds because, in the infinite-bias limit, their $Z$ syndromes decouple into one-dimensional repetition-like chains; the $X^3Z^3$ Floquet code shows an analogous strip-wise structure for detector events in spacetime. We capture this common mechanism by defining strip-symmetric biased codes, a class of static stabilizer and dynamical (Floquet) codes for which, under pure dephasing and perfect measurements, each elementary $Z$ fault is confined to a strip and the Z-detector--fault incidence matrix is block diagonal. For such codes the Z-detector hypergraph decomposes into independent strip components and maximum-likelihood $Z$ decoding factorizes across strips, yielding complexity savings for matching-based decoders. We characterize strip symmetry via per-strip stabilizer products, viewed as a $\mathbb{Z}_2$ 1-form symmetry, place XZZX, the domain wall color code, and $X^3Z^3$ in this framework, and introduce synthetic strip-symmetric detector models and domain-wise Clifford constructions that serve as design tools for new bias-tailored Floquet codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.03623v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Kaixin Huang, Demitry Farfurnik, Dror Baron, Yi-Kai Liu</dc:creator>
-    </item>
-    <item>
-      <title>Gradient descent reliably finds depth- and gate-optimal circuits for generic unitaries</title>
-      <link>https://arxiv.org/abs/2601.03123</link>
-      <description>arXiv:2601.03123v1 Announce Type: new 
-Abstract: When the gate set has continuous parameters, synthesizing a unitary operator as a quantum circuit is always possible using exact methods, but finding minimal circuits efficiently remains a challenging problem. The landscape is very different for compiled unitaries, which arise from programming and typically have short circuits, as compared with generic unitaries, which use all parameters and typically require circuits of maximal size. We show that simple gradient descent reliably finds depth- and gate-optimal circuits for generic unitaries, including in the presence of restricted chip connectivity. This runs counter to earlier evidence that optimal synthesis required combinatorial search, and we show that this discrepancy can be explained by avoiding the random selection of certain parameter-deficient circuit skeletons.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.03123v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Janani Gomathi, Alex Meiburg</dc:creator>
-    </item>
-    <item>
-      <title>Shallow-circuit Supervised Learning on a Quantum Processor</title>
-      <link>https://arxiv.org/abs/2601.03235</link>
-      <description>arXiv:2601.03235v1 Announce Type: new 
-Abstract: Quantum computing has long promised transformative advances in data analysis, yet practical quantum machine learning has remained elusive due to fundamental obstacles such as a steep quantum cost for the loading of classical data and poor trainability of many quantum machine learning algorithms designed for near-term quantum hardware. In this work, we show that one can overcome these obstacles by using a linear Hamiltonian-based machine learning method which provides a compact quantum representation of classical data via ground state problems for k-local Hamiltonians. We use the recent sample-based Krylov quantum diagonalization method to compute low-energy states of the data Hamiltonians, whose parameters are trained to express classical datasets through local gradients. We demonstrate the efficacy and scalability of the methods by performing experiments on benchmark datasets using up to 50 qubits of an IBM Heron quantum processor.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.03235v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Luca Candelori, Swarnadeep Majumder, Antonio Mezzacapo, Javier Robledo Moreno, Kharen Musaelian, Santhanam Nagarajan, Sunil Pinnamaneni, Kunal Sharma, Dario Villani</dc:creator>
-    </item>
-    <item>
-      <title>Quantum-enhanced long short-term memory with attention for spatial permeability prediction in oilfield reservoirs</title>
-      <link>https://arxiv.org/abs/2601.02818</link>
-      <description>arXiv:2601.02818v1 Announce Type: cross 
-Abstract: Spatial prediction of reservoir parameters, especially permeability, is crucial for oil and gas exploration and development. However, the wide range and high variability of permeability prevent existing methods from providing reliable predictions. For the first time in subsurface spatial prediction, this study presents a quantum-enhanced long short-term memory with attention (QLSTMA) model that incorporates variational quantum circuits (VQCs) into the recurrent cell. Using quantum entanglement and superposition principles, the QLSTMA significantly improves the ability to predict complex geological parameters such as permeability. Two quantization structures, QLSTMA with Shared Gates (QLSTMA-SG) and with Independent Gates (QLSTMA-IG), are designed to investigate and evaluate the effects of quantum structure configurations and the number of qubits on model performance. Experimental results demonstrate that the 8-qubit QLSTMA-IG model significantly outperforms the traditional long short-term memory with attention (LSTMA), reducing Mean Absolute Error (MAE) by 19% and Root Mean Squared Error (RMSE) by 20%, with particularly strong performance in regions featuring complex well-logging data. These findings validate the potential of quantum-classical hybrid neural networks for reservoir prediction, indicating that increasing the number of qubits yields further accuracy gains despite the reliance on classical simulations. This study establishes a foundational framework for the eventual deployment of such models on real quantum hardware and their extension to broader applications in petroleum engineering and geoscience.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.02818v1</guid>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Muzhen Zhang, Yujie Cheng, Zhanxiang Lei</dc:creator>
-    </item>
-    <item>
-      <title>Quantum-Enhanced Neural Contextual Bandit Algorithms</title>
-      <link>https://arxiv.org/abs/2601.02870</link>
-      <description>arXiv:2601.02870v1 Announce Type: cross 
-Abstract: Stochastic contextual bandits are fundamental for sequential decision-making but pose significant challenges for existing neural network-based algorithms, particularly when scaling to quantum neural networks (QNNs) due to issues such as massive over-parameterization, computational instability, and the barren plateau phenomenon. This paper introduces the Quantum Neural Tangent Kernel-Upper Confidence Bound (QNTK-UCB) algorithm, a novel algorithm that leverages the Quantum Neural Tangent Kernel (QNTK) to address these limitations.
-  By freezing the QNN at a random initialization and utilizing its static QNTK as a kernel for ridge regression, QNTK-UCB bypasses the unstable training dynamics inherent in explicit parameterized quantum circuit training while fully exploiting the unique quantum inductive bias. For a time horizon $T$ and $K$ actions, our theoretical analysis reveals a significantly improved parameter scaling of $\Omega((TK)^3)$ for QNTK-UCB, a substantial reduction compared to $\Omega((TK)^8)$ required by classical NeuralUCB algorithms for similar regret guarantees. Empirical evaluations on non-linear synthetic benchmarks and quantum-native variational quantum eigensolver tasks demonstrate QNTK-UCB's superior sample efficiency in low-data regimes. This work highlights how the inherent properties of QNTK provide implicit regularization and a sharper spectral decay, paving the way for achieving ``quantum advantage'' in online learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.02870v1</guid>
-      <category>cs.LG</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yuqi Huang, Vincent Y. F Tan, Sharu Theresa Jose</dc:creator>
+      <dc:creator>Mohammad Rowshan</dc:creator>
     </item>
     <item>
-      <title>$\mathsf{QAC}^0$ Contains $\mathsf{TC}^0$ (with Many Copies of the Input)</title>
-      <link>https://arxiv.org/abs/2601.03243</link>
-      <description>arXiv:2601.03243v1 Announce Type: cross 
-Abstract: $\mathsf{QAC}^0$ is the class of constant-depth polynomial-size quantum circuits constructed from arbitrary single-qubit gates and generalized Toffoli gates. It is arguably the smallest natural class of constant-depth quantum computation which has not been shown useful for computing any non-trivial Boolean function. Despite this, many attempts to port classical $\mathsf{AC}^0$ lower bounds to $\mathsf{QAC}^0$ have failed.
-  We give one possible explanation of this: $\mathsf{QAC}^0$ circuits are significantly more powerful than their classical counterparts. We show the unconditional separation $\mathsf{QAC}^0\not\subset\mathsf{AC}^0[p]$ for decision problems, which also resolves for the first time whether $\mathsf{AC}^0$ could be more powerful than $\mathsf{QAC}^0$. Moreover, we prove that $\mathsf{QAC}^0$ circuits can compute a wide range of Boolean functions if given multiple copies of the input: $\mathsf{TC}^0 \subseteq \mathsf{QAC}^0 \circ \mathsf{NC}^0$. Along the way, we introduce an amplitude amplification technique that makes several approximate constant-depth constructions exact.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.03243v1</guid>
+      <title>Computational hardness of estimating quantum entropies via binary entropy bounds</title>
+      <link>https://arxiv.org/abs/2601.03734</link>
+      <description>arXiv:2601.03734v1 Announce Type: new 
+Abstract: We investigate the computational hardness of estimating the quantum $\alpha$-R\'enyi entropy ${\rm S}^{\tt R}_{\alpha}(\rho) = \frac{\ln {\rm Tr}(\rho^\alpha)}{1-\alpha}$ and the quantum $q$-Tsallis entropy ${\rm S}^{\tt T}_q(\rho) = \frac{1-{\rm Tr}(\rho^q)}{q-1}$, both converging to the von Neumann entropy as the order approaches $1$. The promise problems Quantum $\alpha$-R\'enyi Entropy Approximation (R\'enyiQEA$_\alpha$) and Quantum $q$-Tsallis Entropy Approximation (TsallisQEA$_q$) ask whether $ {\rm S}^ {\tt R}_{\alpha}(\rho)$ or ${\rm S}^{\tt T}_q(\rho)$, respectively, is at least $\tau_{\tt Y}$ or at most $\tau_{\tt N}$, where $\tau_{\tt Y} - \tau_{\tt N}$ is typically a positive constant. Previous hardness results cover only the von Neumann entropy (order $1$) and some cases of the quantum $q$-Tsallis entropy, while existing approaches do not readily extend to other orders.
+  We establish that for all positive real orders, the rank-$2$ variants Rank2R\'enyiQEA$_\alpha$ and Rank2TsallisQEA$_q$ are ${\sf BQP}$-hard. Combined with prior (rank-dependent) quantum query algorithms in Wang, Guan, Liu, Zhang, and Ying (TIT 2024), Wang, Zhang, and Li (TIT 2024), and Liu and Wang (SODA 2025), our results imply:
+  - For all real orders $\alpha &gt; 0$ and $0 &lt; q \leq 1$, LowRankR\'enyiQEA$_\alpha$ and LowRankTsallisQEA$_q$ are ${\sf BQP}$-complete, where both are restricted versions of R\'enyiQEA$_\alpha$ and TsallisQEA$_q$ with $\rho$ of polynomial rank.
+  - For all real order $q&gt;1$, TsallisQEA$_q$ is ${\sf BQP}$-complete.
+  Our hardness results stem from reductions based on new inequalities relating the $\alpha$-R\'{e}nyi or $q$-Tsallis binary entropies of different orders, where the reductions differ substantially from previous approaches, and the inequalities are also of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.03734v1</guid>
+      <category>quant-ph</category>
       <category>cs.CC</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Yupan Liu</dc:creator>
+    </item>
+    <item>
+      <title>Enhancing Small Dataset Classification Using Projected Quantum Kernels with Convolutional Neural Networks</title>
+      <link>https://arxiv.org/abs/2601.03375</link>
+      <description>arXiv:2601.03375v1 Announce Type: cross 
+Abstract: Convolutional Neural Networks (CNNs) have shown promising results in efficiency and accuracy in image classification. However, their efficacy often relies on large, labeled datasets, posing challenges for applications with limited data availability. Our research addresses these challenges by introducing an innovative approach that leverages projected quantum kernels (PQK) to enhance feature extraction for CNNs, specifically tailored for small datasets. Projected quantum kernels, derived from quantum computing principles, offer a promising avenue for capturing complex patterns and intricate data structures that traditional CNNs might miss. By incorporating these kernels into the feature extraction process, we improved the representational ability of CNNs. Our experiments demonstrated that, with 1000 training samples, the PQK-enhanced CNN achieved 95% accuracy on the MNIST dataset and 90% on the CIFAR-10 dataset, significantly outperforming the classical CNN, which achieved only 60% and 12% accuracy on the respective datasets. This research reveals the potential of quantum computing in overcoming data scarcity issues in machine learning and paves the way for future exploration of quantum-assisted neural networks, suggesting that projected quantum kernels can serve as a powerful approach for enhancing CNN-based classification in data-constrained environments.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.03375v1</guid>
+      <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <arxiv:DOI>10.1109/SLAAI-ICAI63667.2024.10844961</arxiv:DOI>
+      <arxiv:journal_reference>Proceedings of the 2024 8th SLAAI International Conference on Artificial Intelligence (SLAAI-ICAI), pp. 1-6, 2024</arxiv:journal_reference>
+      <dc:creator>A. M. A. S. D. Alagiyawanna, Asoka Karunananda, A. Mahasinghe, Thushari Silva</dc:creator>
+    </item>
+    <item>
+      <title>Quantum vs. Classical Machine Learning: A Benchmark Study for Financial Prediction</title>
+      <link>https://arxiv.org/abs/2601.03802</link>
+      <description>arXiv:2601.03802v1 Announce Type: cross 
+Abstract: In this paper, we present a reproducible benchmarking framework that systematically compares QML models with architecture-matched classical counterparts across three financial tasks: (i) directional return prediction on U.S. and Turkish equities, (ii) live-trading simulation with Quantum LSTMs versus classical LSTMs on the S\&amp;P 500, and (iii) realized volatility forecasting using Quantum Support Vector Regression. By standardizing data splits, features, and evaluation metrics, our study provides a fair assessment of when current-generation QML models can match or exceed classical methods. Our results reveal that quantum approaches show performance gains when data structure and circuit design are well aligned. In directional classification, hybrid quantum neural networks surpass the parameter-matched ANN by \textbf{+3.8 AUC} and \textbf{+3.4 accuracy points} on \texttt{AAPL} stock and by \textbf{+4.9 AUC} and \textbf{+3.6 accuracy points} on Turkish stock \texttt{KCHOL}. In live trading, the QLSTM achieves higher risk-adjusted returns in \textbf{two of four} S\&amp;P~500 regimes. For volatility forecasting, an angle-encoded QSVR attains the \textbf{lowest QLIKE} on \texttt{KCHOL} and remains within $\sim$0.02-0.04 QLIKE of the best classical kernels on \texttt{S\&amp;P~500} and \texttt{AAPL}. Our benchmarking framework clearly identifies the scenarios where current QML architectures offer tangible improvements and where established classical methods continue to dominate.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.03802v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Daniel Grier, Jackson Morris, Kewen Wu</dc:creator>
+      <dc:creator>Rehan Ahmad, Muhammad Kashif, Nouhaila Innan, Muhammad Shafique</dc:creator>
     </item>
   </channel>
 </rss>

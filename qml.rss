@@ -7,53 +7,12 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jan 2026 05:00:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 05:00:06 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Fri, 09 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Sat, 10 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
-    <item>
-      <title>The Role of Quantum in Hybrid Quantum-Classical Neural Networks: A Realistic Assessment</title>
-      <link>https://arxiv.org/abs/2601.04732</link>
-      <description>arXiv:2601.04732v1 Announce Type: new 
-Abstract: Quantum machine learning has emerged as a promising application domain for near-term quantum hardware, particularly through hybrid quantum-classical models that leverage both classical and quantum processing. Although numerous hybrid architectures have been proposed and demonstrated successfully on benchmark tasks, a significant open question remains regarding the specific contribution of quantum components to the overall performance of these models. In this work, we aim to shed light on the impact of quantum processing within hybrid quantum-classical neural network architectures through a rigorous statistical study. We systematically assess common hybrid models on medical signal data as well as planar and volumetric images, examining the influence attributable to classical and quantum aspects such as encoding schemes, entanglement, and circuit size. We find that in best-case scenarios, hybrid models show performance comparable to their classical counterparts, however, in most cases, performance metrics deteriorate under the influence of quantum components. Our multi-modal analysis provides realistic insights into the contributions of quantum components and advocates for cautious claims and design choices for hybrid models in near-term applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.04732v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Dominik Freinberger, Philipp Moser</dc:creator>
-    </item>
-    <item>
-      <title>Exponential capacity scaling of classical GANs compared to hybrid latent style-based quantum GANs</title>
-      <link>https://arxiv.org/abs/2601.05036</link>
-      <description>arXiv:2601.05036v1 Announce Type: new 
-Abstract: Quantum generative modeling is a very active area of research in looking for practical advantage in data analysis. Quantum generative adversarial networks (QGANs) are leading candidates for quantum generative modeling and have been applied to diverse areas, from high-energy physics to image generation. The latent style-based QGAN, relying on a classical variational autoencoder to encode the input data into a latent space and then using a style-based QGAN for data generation has been proven to be efficient for image generation or drug design, hinting at the use of far less trainable parameters than their classical counterpart to achieve comparable performance, however this advantage has never been systematically studied. We present in this work the first comprehensive experimental analysis of this advantage of QGANS applied to SAT4 image generation, obtaining an exponential advantage in capacity scaling for a quantum generator in the hybrid latent style-based QGAN architecture. Careful tuning of the autoencoder is crucial to obtain stable, reliable results. Once this tuning is performed and defining training optimality as when the training is stable and the FID score is low and stable as well, the optimal capacity (or number of trainable parameters) of the classical discriminator scales exponentially with respect to the capacity of the quantum generator, and the same is true for the capacity of the classical generator. This hints toward a type of quantum advantage for quantum generative modeling.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.05036v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Milan Liepelt, Julien Baglio</dc:creator>
-    </item>
-    <item>
-      <title>Distribution-Guided and Constrained Quantum Machine Unlearning</title>
-      <link>https://arxiv.org/abs/2601.04413</link>
-      <description>arXiv:2601.04413v1 Announce Type: cross 
-Abstract: Machine unlearning aims to remove the influence of specific training data from a learned model without full retraining. While recent work has begun to explore unlearning in quantum machine learning, existing approaches largely rely on fixed, uniform target distributions and do not explicitly control the trade-off between forgetting and retained model behaviour. In this work, we propose a distribution-guided framework for class-level quantum machine unlearning that treats unlearning as a constrained optimization problem. Our method introduces a tunable target distribution derived from model similarity statistics, decoupling the suppression of forgotten-class confidence from assumptions about redistribution among retained classes. We further incorporate an anchor-based preservation constraint that explicitly maintains predictive behaviour on selected retained data, yielding a controlled optimization trajectory that limits deviation from the original model. We evaluate the approach on variational quantum classifiers trained on the Iris and Covertype datasets. Results demonstrate sharp suppression of forgotten-class confidence, minimal degradation of retained-class performance, and closer alignment with the gold retrained model baselines compared to uniform-target unlearning. These findings highlight the importance of target design and constraint-based formulations for reliable and interpretable quantum machine unlearning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.04413v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Fri, 09 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Nausherwan Malik, Zubair Khalid, Muhammad Faryad</dc:creator>
-    </item>
   </channel>
 </rss>

@@ -7,40 +7,172 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 05:00:12 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 05:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 15 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Single-Shot and Few-Shot Decoding via Stabilizer Redundancy in Bivariate Bicycle Codes</title>
-      <link>https://arxiv.org/abs/2601.01137</link>
-      <description>arXiv:2601.01137v1 Announce Type: cross 
-Abstract: Bivariate bicycle (BB) codes are a prominent class of quantum LDPC codes constructed from group algebras. While the logical dimension and quantum distance of \emph{coprime} BB codes are known to be determined by a greatest common divisor polynomial $g(z)$, the properties governing their fault tolerance under noisy measurement have remained implicit. In this work, we prove that this same polynomial $g(z)$ dictates the code's stabilizer redundancy and the structure of the classical \emph{syndrome codes} required for single-shot decoding. We derive a strict equality between the quantum rate and the stabilizer redundancy density, and we provide BCH-like bounds on the achievable single-shot measurement error tolerance. Guided by this framework, we construct small coprime BB codes with significantly improved syndrome distance ($d_S$) and evaluate them using BP+OSD. Our analysis reveals a structural bottleneck: within the coprime BB ansatz, high quantum rate imposes an upper bound on syndrome distance, limiting single-shot performance. These results provide concrete algebraic design rules for next-generation 2BGA codes in measurement-limited architectures.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.01137v1</guid>
+      <title>Limits of Rank Recovery in Bilinear Observation Problems</title>
+      <link>https://arxiv.org/abs/2601.09754</link>
+      <description>arXiv:2601.09754v1 Announce Type: new 
+Abstract: Bilinear observation problems arise in many physical and information-theoretic settings, where observables and states enter multiplicatively. Rank-based diagnostics are commonly used in such problems to assess the effective dimensionality accessible to observation, often under the implicit assumption that rank deficiency can be resolved through numerical refinement. Here we examine this assumption by analyzing the rank and nullity of a bilinear observation operator under systematic tolerance variation. Rather than focusing on a specific reconstruction algorithm, we study the operator directly and identify extended rank plateaus that persist across broad tolerance ranges. These plateaus indicate stable dimensional deficits that are not removed by refinement procedures applied within a fixed problem definition. To investigate the origin of this behavior, we resolve the nullspace into algebraic sectors defined by the block structure of the variables. The nullspace exhibits a pronounced but nonexclusive concentration in specific sectors, revealing an organized internal structure rather than uniform dimensional loss. Comparing refinement with explicit modification of the problem formulation further shows that rank recovery in the reported setting requires a change in the structure of the observation problem itself. Here, "problem modification" refers to changes that alter the bilinear observation structure (e.g., admissible operator/state families or coupling constraints), in contrast to refinements that preserve the original formulation such as tolerance adjustment and numerical reparameterizations. Together, these results delineate limits of rank recovery in bilinear observation problems and clarify the distinction between numerical refinement and problem modification in accessing effective dimensional structure.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.09754v1</guid>
+      <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mohammad Rowshan</dc:creator>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Seungbeom Choi</dc:creator>
     </item>
     <item>
-      <title>Bias-Aware BP Decoding of Quantum Codes via Directional Degeneracy</title>
-      <link>https://arxiv.org/abs/2601.07240</link>
-      <description>arXiv:2601.07240v1 Announce Type: cross 
-Abstract: We study directionally informed belief propagation (BP) decoding for quantum CSS codes, where anisotropic Tanner-graph structure and biased noise concentrate degeneracy along preferred directions. We formalize this by placing orientation weights on Tanner-graph edges, aggregating them into per-qubit directional weights, and defining a \emph{directional degeneracy enumerator} that summarizes how degeneracy concentrates along those directions. A single bias parameter~$\beta$ maps these weights into site-dependent log-likelihood ratios (LLRs), yielding anisotropic priors that plug directly into standard BP$\rightarrow$OSD decoders without changing the code construction. We derive bounds relating directional and Hamming distances, upper bound the number of degenerate error classes per syndrome as a function of distance, rate, and directional bias, and give a MacWilliams-type expression for the directional enumerator. Finite-length simulations under code-capacity noise show significant logical error-rate reductions -- often an order of magnitude at moderate physical error rates -- confirming that modest anisotropy is a simple and effective route to hardware-aware decoding gains.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.07240v1</guid>
+      <title>Zero-Error List Decoding for Classical-Quantum Channels</title>
+      <link>https://arxiv.org/abs/2601.09786</link>
+      <description>arXiv:2601.09786v1 Announce Type: new 
+Abstract: The aim of this work is to study the zero-error capacity of pure-state classical-quantum channels in the setting of list decoding. We provide an achievability bound for list-size two and a converse bound holding for every fixed list size. The two bounds coincide for channels whose pairwise absolute state overlaps form a positive semi-definite matrix. Finally, we discuss a remarkable peculiarity of the classical-quantum case: differently from the fully classical setting, the rate at which the sphere-packing bound diverges might not be achievable by zero-error list codes, even when we take the limit of fixed but arbitrarily large list size.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.09786v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Marco Dalai, Filippo Girardi, Ludovico Lami</dc:creator>
+    </item>
+    <item>
+      <title>Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction</title>
+      <link>https://arxiv.org/abs/2601.09921</link>
+      <description>arXiv:2601.09921v1 Announce Type: new 
+Abstract: Fast, reliable decoders are pivotal components for enabling fault-tolerant quantum computation (FTQC). Neural network decoders like AlphaQubit have demonstrated potential, achieving higher accuracy than traditional human-designed decoding algorithms. However, existing implementations of neural network decoders lack the parallelism required to decode the syndrome stream generated by a superconducting logical qubit in real time. Moreover, integrating AlphaQubit with sliding window-based parallel decoding schemes presents non-trivial challenges: AlphaQubit is trained solely to output a single bit corresponding to the global logical correction for an entire memory experiment, rather than local physical corrections that can be easily integrated. We address this issue by training a recurrent, transformer-based neural network specifically tailored for parallel window decoding. While it still outputs a single bit, we derive training labels from a consistent set of local corrections and train on various types of decoding windows simultaneously. This approach enables the network to self-coordinate across neighboring windows, facilitating high-accuracy parallel decoding of arbitrarily long memory experiments.
+  As a result, we overcome the throughput bottleneck that previously precluded the use of AlphaQubit-type decoders in FTQC. Our work presents the first scalable, neural-network-based parallel decoding framework that simultaneously achieves SOTA accuracy and the stringent throughput required for real-time quantum error correction. Using an end-to-end experimental workflow, we benchmark our decoder on the Zuchongzhi 3.2 superconducting quantum processor on surface codes with distances up to 7, demonstrating its superior accuracy. Moreover, we demonstrate that, using our approach, a single TPU v6e is capable of decoding surface codes with distances up to 25 within 1us per decoding round.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.09921v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Kai Zhang, Zhengzhong Yi, Shaojun Guo, Linghang Kong, Situ Wang, Xiaoyu Zhan, Tan He, Weiping Lin, Tao Jiang, Dongxin Gao, Yiming Zhang, Fangming Liu, Fang Zhang, Zhengfeng Ji, Fusheng Chen, Jianxin Chen</dc:creator>
+    </item>
+    <item>
+      <title>Adversarial Hypothesis Testing for Quantum Channels</title>
+      <link>https://arxiv.org/abs/2601.10243</link>
+      <description>arXiv:2601.10243v1 Announce Type: new 
+Abstract: This paper presents a systematic study of adversarial hypothesis testing for both quantum-quantum (QQ) and classical-quantum (CQ) channels. Unlike conventional channel discrimination, we consider a framework where the sender, Alice, selects the channel input adversarially to minimize Bob's distinguishability. We analyze this problem across four settings based on whether Alice employs i.i.d. or general inputs and whether the receiver, Bob, is informed of the specific input choice (allowing his measurement to depend on the input). We characterize the Stein exponents for each setting and reveal a striking distinction in behavior: for QQ channels with i.i.d. inputs, Bob's knowledge of the input significantly enhances distinguishability, yet this advantage vanishes when general inputs are permitted. In contrast, for CQ channels, Bob being informed provides a consistent advantage over the corresponding entanglement-breaking channels for both i.i.d. and general inputs. These results demonstrate a unique phenomenon in adversarial hypothesis testing where the CQ channel does not merely behave as a special case of the QQ channel.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10243v1</guid>
+      <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Masahito Hayashi, Hao-Chung Cheng, Li Gao</dc:creator>
+    </item>
+    <item>
+      <title>H-EFT-VA: An Effective-Field-Theory Variational Ansatz with Provable Barren Plateau Avoidance</title>
+      <link>https://arxiv.org/abs/2601.10479</link>
+      <description>arXiv:2601.10479v1 Announce Type: new 
+Abstract: Variational Quantum Algorithms (VQAs) are critically threatened by the Barren Plateau (BP) phenomenon. In this work, we introduce the H-EFT Variational Ansatz (H-EFT-VA), an architecture inspired by Effective Field Theory (EFT). By enforcing a hierarchical "UV-cutoff" on initialization, we theoretically restrict the circuit's state exploration, preventing the formation of approximate unitary 2-designs. We provide a rigorous proof that this localization guarantees an inverse-polynomial lower bound on the gradient variance: $Var[\partial \theta] \in \Omega(1/poly(N))$. Crucially, unlike approaches that avoid BPs by limiting entanglement, we demonstrate that H-EFT-VA maintains volume-law entanglement and near-Haar purity, ensuring sufficient expressibility for complex quantum states. Extensive benchmarking across 16 experiments -- including Transverse Field Ising and Heisenberg XXZ models -- confirms a 109x improvement in energy convergence and a 10.7x increase in ground-state fidelity over standard Hardware-Efficient Ansatze (HEA), with a statistical significance of $p &lt; 10^{-88}$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10479v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.LG</category>
+      <category>math-ph</category>
+      <category>math.MP</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mohammad Rowshan</dc:creator>
+      <dc:creator>Eyad I. B Hamid</dc:creator>
+    </item>
+    <item>
+      <title>A Mirror-Descent Algorithm for Computing the Petz-R\'enyi Capacity of Classical-Quantum Channels</title>
+      <link>https://arxiv.org/abs/2601.10558</link>
+      <description>arXiv:2601.10558v1 Announce Type: new 
+Abstract: We study the computation of the $\alpha$-R\'enyi capacity of a classical-quantum (c-q) channel for $\alpha\in(0,1)$. We propose an exponentiated-gradient (mirror descent) iteration that generalizes the Blahut-Arimoto algorithm. Our analysis establishes relative smoothness with respect to the entropy geometry, guaranteeing a global sublinear convergence of the objective values. Furthermore, under a natural tangent-space nondegeneracy condition (and a mild spectral lower bound in one regime), we prove local linear (geometric) convergence in Kullback-Leibler divergence on a truncated probability simplex, with an explicit contraction factor once the local curvature constants are bounded.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10558v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>math.OC</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yu-Hong Lai, Hao-Chung Cheng</dc:creator>
+    </item>
+    <item>
+      <title>Searching for Quantum Effects in the Brain: A Bell-Type Test for Nonclassical Latent Representations in Autoencoders</title>
+      <link>https://arxiv.org/abs/2601.10588</link>
+      <description>arXiv:2601.10588v1 Announce Type: new 
+Abstract: Whether neural information processing is entirely classical or involves quantum-mechanical elements remains an open question. Here we propose a model-agnostic, information-theoretic test of nonclassicality that bypasses microscopic assumptions and instead probes the structure of neural representations themselves. Using autoencoders as a transparent model system, we introduce a Bell-type consistency test in latent space, and ask whether decoding statistics obtained under multiple readout contexts can be jointly explained by a single positive latent-variable distribution. By shifting the search for quantum-like signatures in neural systems from microscopic dynamics to experimentally testable constraints on information processing, this work opens a new route for probing the fundamental physics of neural computation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10588v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>physics.bio-ph</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>I. K. Kominis, C. Xie, S. Li, M. Skotiniotis, G. P. Tsironis</dc:creator>
+    </item>
+    <item>
+      <title>Optimal lower bound for quantum channel tomography in away-from-boundary regime</title>
+      <link>https://arxiv.org/abs/2601.10683</link>
+      <description>arXiv:2601.10683v1 Announce Type: new 
+Abstract: Consider quantum channels with input dimension $d_1$, output dimension $d_2$ and Kraus rank at most $r$. Any such channel must satisfy the constraint $rd_2\geq d_1$, and the parameter regime $rd_2=d_1$ is called the boundary regime. In this paper, we show an optimal query lower bound $\Omega(rd_1d_2/\varepsilon^2)$ for quantum channel tomography to within diamond norm error $\varepsilon$ in the away-from-boundary regime $rd_2\geq 2d_1$, matching the existing upper bound $O(rd_1d_2/\varepsilon^2)$. In particular, this lower bound fully settles the query complexity for the commonly studied case of equal input and output dimensions $d_1=d_2=d$ with $r\geq 2$, in sharp contrast to the unitary case $r=1$ where Heisenberg scaling $\Theta(d^2/\varepsilon)$ is achievable.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10683v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Kean Chen, Zhicheng Zhang, Nengkun Yu</dc:creator>
+    </item>
+    <item>
+      <title>Constant-Depth Unitary Preparation of Dicke States</title>
+      <link>https://arxiv.org/abs/2601.10693</link>
+      <description>arXiv:2601.10693v1 Announce Type: new 
+Abstract: Dicke states serve as a critical resource in quantum metrology, communication, and computation. However, unitary preparation of Dicke states is limited to logarithmic depth in standard circuit models and existing constant-depth protocols require measurement and feed-forward. In this work, we present the first unitary, constant-depth protocols for exact Dicke state preparation. We overcome the logarithmic-depth barrier by moving beyond the standard circuit model and leveraging global interactions (native to architectures such as neutral atoms and trapped ions). Specifically, utilizing unbounded CZ gates (i.e. within the QAC$^0$ circuit class), we offer circuits for exact computation of constant-weight Dicke states, using polynomial ancillae, and approximation of weight-1 Dicke states (i.e. $W$ states), using only constant ancillae. Granted additional access to the quantum FAN-OUT operation (i.e. upgrading to the QAC$_f^0$ circuit class), we also achieve exact preparation of arbitrary-weight Dicke states, with polynomial ancillae. These protocols distinguish the constant-depth capabilities of quantum architectures based on connectivity and offer a novel path toward resolving a long-standing quantum complexity conjecture.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10693v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Francisca Vasconcelos, Malvika Raj Joshi</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Maxwell Erasure Decoder for qLDPC codes</title>
+      <link>https://arxiv.org/abs/2601.10713</link>
+      <description>arXiv:2601.10713v1 Announce Type: new 
+Abstract: We introduce a quantum Maxwell erasure decoder for CSS quantum low-density parity-check (qLDPC) codes that extends peeling with bounded guessing. Guesses are tracked symbolically and can be eliminated by restrictive checks, giving a tunable tradeoff between complexity and performance via a guessing budget: an unconstrained budget recovers Maximum-Likelihood (ML) performance, while a constant budget yields linear-time decoding and approximates ML. We provide theoretical guarantees on asymptotic performance and demonstrate strong performance on bivariate bicycle and quantum Tanner codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10713v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bruno Costa Alves Freire, Fran\c{c}ois-Marie Le R\'egent, Anthony Leverrier</dc:creator>
+    </item>
+    <item>
+      <title>Breaking the Storage-Bandwidth Tradeoff in Distributed Storage with Quantum Entanglement</title>
+      <link>https://arxiv.org/abs/2601.10676</link>
+      <description>arXiv:2601.10676v1 Announce Type: cross 
+Abstract: This work investigates the use of quantum resources in distributed storage systems. Consider an $(n,k,d)$ distributed storage system in which a file is stored across $n$ nodes such that any $k$ nodes suffice to reconstruct the file. When a node fails, any $d$ helper nodes transmit information to a newcomer to rebuild the system. In contrast to the classical repair, where helper nodes transmit classical bits, we allow them to send classical information over quantum channels to the newcomer. The newcomer then generates its storage by performing appropriate measurements on the received quantum states. In this setting, we fully characterize the fundamental tradeoff between storage and repair bandwidth (total communication cost). Compared to classical systems, the optimal storage--bandwidth tradeoff can be significantly improved with the enhancement of quantum entanglement shared only among the surviving nodes, particularly at the minimum-storage regenerating point. Remarkably, we show that when $d \geq 2k-2$, there exists an operating point at which \textit{both storage and repair bandwidth are simultaneously minimized}. This phenomenon breaks the tradeoff in the classical setting and reveals a fundamentally new regime enabled by quantum communication.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.10676v1</guid>
+      <category>cs.IT</category>
+      <category>cs.DC</category>
+      <category>cs.NI</category>
+      <category>eess.SP</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 16 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Lei Hu, Mohamed Nomeir, Alptug Aytekin, Sennur Ulukus</dc:creator>
     </item>
   </channel>
 </rss>

@@ -7,155 +7,57 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jan 2026 05:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 05:00:13 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Impact of Circuit Depth versus Qubit Count on Variational Quantum Classifiers for Higgs Boson Signal Detection</title>
-      <link>https://arxiv.org/abs/2601.11937</link>
-      <description>arXiv:2601.11937v1 Announce Type: new 
-Abstract: High-Energy Physics (HEP) experiments, such as those at the Large Hadron Collider (LHC), generate massive datasets that challenge classical computational limits. Quantum Machine Learning (QML) offers a potential advantage in processing high-dimensional data; however, finding the optimal architecture for current Noisy Intermediate-Scale Quantum (NISQ) devices remains an open challenge. This study investigates the performance of Variational Quantum Classifiers (VQC) in detecting Higgs Boson signals using the ATLAS Higgs Boson Machine Learning Challenge 2014 experiment dataset. We implemented a dimensionality reduction pipeline using Principal Component Analysis (PCA) to map 30 physical features into 4-qubit and 8-qubit latent spaces. We benchmarked three configurations: (A) a shallow 4-qubit circuit, (B) a deep 4-qubit circuit with increased entanglement layers, and (C) an expanded 8-qubit circuit. Experimental results demonstrate that increasing circuit depth significantly improves performance, yielding the highest accuracy of 56.2% (Configuration B), compared to a baseline of 51.9%. Conversely, simply scaling to 8 qubits resulted in a performance degradation to 50.6% due to optimization challenges associated with Barren Plateaus in the larger Hilbert space. These findings suggest that for near-term quantum hardware, prioritizing circuit depth and entanglement capability is more critical than increasing qubit count for effective anomaly detection in HEP data.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.11937v1</guid>
+      <title>Quantum Super-resolution by Adaptive Non-local Observables</title>
+      <link>https://arxiv.org/abs/2601.14433</link>
+      <description>arXiv:2601.14433v1 Announce Type: new 
+Abstract: Super-resolution (SR) seeks to reconstruct high-resolution (HR) data from low-resolution (LR) observations. Classical deep learning methods have advanced SR substantially, but require increasingly deeper networks, large datasets, and heavy computation to capture fine-grained correlations. In this work, we present the \emph{first study} to investigate quantum circuits for SR. We propose a framework based on Variational Quantum Circuits (VQCs) with \emph{Adaptive Non-Local Observable} (ANO) measurements. Unlike conventional VQCs with fixed Pauli readouts, ANO introduces trainable multi-qubit Hermitian observables, allowing the measurement process to adapt during training. This design leverages the high-dimensional Hilbert space of quantum systems and the representational structure provided by entanglement and superposition. Experiments demonstrate that ANO-VQCs achieve up to five-fold higher resolution with a relatively small model size, suggesting a promising new direction at the intersection of quantum machine learning and super-resolution.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.14433v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>hep-ex</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <arxiv:DOI>10.5281/zenodo.18096724</arxiv:DOI>
-      <dc:creator>Fatih Maulana</dc:creator>
-    </item>
-    <item>
-      <title>A Mixture of Experts Vision Transformer for High-Fidelity Surface Code Decoding</title>
-      <link>https://arxiv.org/abs/2601.12483</link>
-      <description>arXiv:2601.12483v1 Announce Type: new 
-Abstract: Quantum error correction is a key ingredient for large scale quantum computation, protecting logical information from physical noise by encoding it into many physical qubits. Topological stabilizer codes are particularly appealing due to their geometric locality and practical relevance. In these codes, stabilizer measurements yield a syndrome that must be decoded into a recovery operation, making decoding a central bottleneck for scalable real time operation. Existing decoders are commonly classified into two categories. Classical algorithmic decoders provide strong and well established baselines, but may incur substantial computational overhead at large code distances or under stringent latency constraints. Machine learning based decoders offer fast GPU inference and flexible function approximation, yet many approaches do not explicitly exploit the lattice geometry and local structure of topological codes, which can limit performance. In this work, we propose QuantumSMoE, a quantum vision transformer based decoder that incorporates code structure through plus shaped embeddings and adaptive masking to capture local interactions and lattice connectivity, and improves scalability via a mixture of experts layer with a novel auxiliary loss. Experiments on the toric code demonstrate that QuantumSMoE outperforms state-of-the-art machine learning decoders as well as widely used classical baselines.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.12483v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hoang Viet Nguyen, Manh Hung Nguyen, Hoang Ta, Van Khu Vu, Yeow Meng Chee</dc:creator>
-    </item>
-    <item>
-      <title>Generative Adversarial Networks for Resource State Generation</title>
-      <link>https://arxiv.org/abs/2601.13708</link>
-      <description>arXiv:2601.13708v1 Announce Type: new 
-Abstract: We introduce a physics-informed Generative Adversarial Network framework that recasts quantum resource-state generation as an inverse-design task. By embedding task-specific utility functions into training, the model learns to generate valid two-qubit states optimized for teleportation and entanglement broadcasting. Comparing decomposition-based and direct-generation architectures reveals that structural enforcement of Hermiticity, trace-one, and positivity yields higher fidelity and training stability than loss-only approaches. The framework reproduces theoretical resource boundaries for Werner-like and Bell-diagonal states with fidelities exceeding ~98%, establishing adversarial learning as a lightweight yet effective method for constraint-driven quantum-state discovery. This approach provides a scalable foundation for automated design of tailored quantum resources for information-processing applications, exemplified with teleportation and broadcasting of entanglement, and it opens up the possibility of using such states in efficient quantum network design.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.13708v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shahbaz Shaik, Sourav Chatterjee, Sayantan Pramanik, Indranil Chakrabarty</dc:creator>
-    </item>
-    <item>
-      <title>Deep Learning Approaches to Quantum Error Mitigation</title>
-      <link>https://arxiv.org/abs/2601.14226</link>
-      <description>arXiv:2601.14226v1 Announce Type: new 
-Abstract: We present a systematic investigation of deep learning methods applied to quantum error mitigation of noisy output probability distributions from measured quantum circuits. We compare different architectures, from fully connected neural networks to transformers, and we test different design/training modalities, identifying sequence-to-sequence, attention-based models as the most effective on our datasets. These models consistently produce mitigated distributions that are closer to the ideal outputs when tested on both simulated and real device data obtained from IBM superconducting quantum processing units (QPU) up to five qubits. Across several different circuit depths, our approach outperforms other baseline error mitigation techniques. We perform a series of ablation studies to examine: how different input features (circuit, device properties, noisy output statistics) affect performance; cross-dataset generalization across circuit families; and transfer learning to a different IBM QPU. We observe that generalization performance across similar devices with the same architecture works effectively, without needing to fully retrain models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.14226v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Leonardo Placidi, Ifan Williams, Enrico Rinaldi, Daniel Mills, Cristina C\^irstoiu, Vanya Eccles, Ross Duncan</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Kernel Machine Learning for Autonomous Materials Science</title>
-      <link>https://arxiv.org/abs/2601.11775</link>
-      <description>arXiv:2601.11775v1 Announce Type: cross 
-Abstract: Autonomous materials science, where active learning is used to navigate large compositional phase space, has emerged as a powerful vehicle to rapidly explore new materials. A crucial aspect of autonomous materials science is exploring new materials using as little data as possible. Gaussian process-based active learning allows effective charting of multi-dimensional parameter space with a limited number of training data, and thus is a common algorithmic choice for autonomous materials science. An integral part of the autonomous workflow is the application of kernel functions for quantifying similarities among measured data points. A recent theoretical breakthrough has shown that quantum kernel models can achieve similar performance with less training data than classical models. This signals the possible advantage of applying quantum kernel machine learning to autonomous materials discovery. In this work, we compare quantum and classical kernels for their utility in sequential phase space navigation for autonomous materials science. Specifically, we compute a quantum kernel and several classical kernels for x-ray diffraction patterns taken from an Fe-Ga-Pd ternary composition spread library. We conduct our study on both IonQ's Aria trapped ion quantum computer hardware and the corresponding classical noisy simulator. We experimentally verify that a quantum kernel model can outperform some classical kernel models. The results highlight the potential of quantum kernel machine learning methods for accelerating materials discovery and suggest complex x-ray diffraction data is a candidate for robust quantum kernel model advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.11775v1</guid>
-      <category>cond-mat.mtrl-sci</category>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Felix Adams (University of Maryland College Park), Daiwei Zhu (IonQ), David W. Steuerman (IonQ), A. Gilad Kusne (University of Maryland College Park, National Institute for Standards and Technology), Ichiro Takeuchi (University of Maryland College Park, University of Maryland Quantum Materials Center)</dc:creator>
-    </item>
-    <item>
-      <title>Trainability-Oriented Hybrid Quantum Regression via Geometric Preconditioning and Curriculum Optimization</title>
-      <link>https://arxiv.org/abs/2601.11942</link>
-      <description>arXiv:2601.11942v1 Announce Type: cross 
-Abstract: Quantum neural networks (QNNs) have attracted growing interest for scientific machine learning, yet in regression settings they often suffer from limited trainability under noisy gradients and ill-conditioned optimization. We propose a hybrid quantum-classical regression framework designed to mitigate these bottlenecks. Our model prepends a lightweight classical embedding that acts as a learnable geometric preconditioner, reshaping the input representation to better condition a downstream variational quantum circuit. Building on this architecture, we introduce a curriculum optimization protocol that progressively increases circuit depth and transitions from SPSA-based stochastic exploration to Adam-based gradient fine-tuning. We evaluate the approach on PDE-informed regression benchmarks and standard regression datasets under a fixed training budget in a simulator setting. Empirically, the proposed framework consistently improves over pure QNN baselines and yields more stable convergence in data-limited regimes. We further observe reduced structured errors that are visually correlated with oscillatory components on several scientific benchmarks, suggesting that geometric preconditioning combined with curriculum training is a practical approach for stabilizing quantum regression.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.11942v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
-      <dc:creator>Qingyu Meng, Yangshuai Wang</dc:creator>
-    </item>
-    <item>
-      <title>Classical-Quantum Channel Resolvability Using Matrix Multiplicative Weight Update Algorithm</title>
-      <link>https://arxiv.org/abs/2601.12230</link>
-      <description>arXiv:2601.12230v1 Announce Type: cross 
-Abstract: We study classical-quantum (C-Q) channel resolvability. C-Q channel resolvability has been proved by only random coding in the literature. In our previous study, we proved channel resolvability by deterministic coding, using multiplicative weight update algorithm. We extend this approach to C-Q channels and prove C-Q channel resolvability by deterministic coding, using the matrix multiplicative weight update algorithm. This is the first approach to C-Q channel resolvability using deterministic coding.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.12230v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Koki Takahashi, Shun Watanabe</dc:creator>
-    </item>
-    <item>
-      <title>Semidefinite Programming for Quantum Channel Learning</title>
-      <link>https://arxiv.org/abs/2601.12502</link>
-      <description>arXiv:2601.12502v1 Announce Type: cross 
-Abstract: The problem of reconstructing a quantum channel from a sample of classical data is considered. When the total fidelity can be represented as a ratio of two quadratic forms (e.g., in the case of mapping a mixed state to a pure state, projective operators, unitary learning, and others), Semidefinite Programming (SDP) can be applied to solve the fidelity optimization problem with respect to the Choi matrix. A remarkable feature of SDP is that the optimization is convex, which allows the problem to be efficiently solved by a variety of numerical algorithms. We have tested several commercially available SDP solvers, all of which allowed for the reconstruction of quantum channels of different forms. A notable feature is that the Kraus rank of the obtained quantum channel typically comprises less than a few percent of its maximal possible value. This suggests that a relatively small Kraus rank quantum channel is typically sufficient to describe experimentally observed classical data. The theory was also applied to the problem of reconstructing projective operators from data. Finally, we discuss a classical computational model based on quantum channel transformation, performed and calculated on a classical computer, possibly hardware-optimized.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.12502v1</guid>
-      <category>cs.LG</category>
-      <category>cs.NA</category>
-      <category>math.NA</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mikhail Gennadievich Belov, Victor Victorovich Dubov, Vadim Konstantinovich Ivanov, Alexander Yurievich Maslov, Olga Vladimirovna Proshina, Vladislav Gennadievich Malyshkin</dc:creator>
-    </item>
-    <item>
-      <title>Artificial Intelligence in Materials Science and Engineering: Current Landscape, Key Challenges, and Future Trajectorie</title>
-      <link>https://arxiv.org/abs/2601.12554</link>
-      <description>arXiv:2601.12554v1 Announce Type: cross 
-Abstract: Artificial Intelligence is rapidly transforming materials science and engineering, offering powerful tools to navigate complexity, accelerate discovery, and optimize material design in ways previously unattainable. Driven by the accelerating pace of algorithmic advancements and increasing data availability, AI is becoming an essential competency for materials researchers. This review provides a comprehensive and structured overview of the current landscape, synthesizing recent advancements and methodologies for materials scientists seeking to effectively leverage these data-driven techniques. We survey the spectrum of machine learning approaches, from traditional algorithms to advanced deep learning architectures, including CNNs, GNNs, and Transformers, alongside emerging generative AI and probabilistic models such as Gaussian Processes for uncertainty quantification. The review also examines the pivotal role of data in this field, emphasizing how effective representation and featurization strategies, spanning compositional, structural, image-based, and language-inspired approaches, combined with appropriate preprocessing, fundamentally underpin the performance of machine learning models in materials research. Persistent challenges related to data quality, quantity, and standardization, which critically impact model development and application in materials science and engineering, are also addressed.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.12554v1</guid>
-      <category>cond-mat.mtrl-sci</category>
       <category>cs.AI</category>
-      <category>physics.comp-ph</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <arxiv:DOI>10.1016/j.compstruct.2025.119419</arxiv:DOI>
-      <dc:creator>Iman Peivaste, Salim Belouettar, Francesco Mercuri, Nicholas Fantuzzi, Hamidreza Dehghani, Razieh Izadi, Halliru Ibrahim, Jakub Lengiewicz, Ma\"el Belouettar-Mathis, Kouider Bendine, Ahmed Makradi, Martin H\"orsch, Peter Klein, Mohamed El Hachemi, Heinz A. Preisig, Yacine Rezgui, Natalia Konchakova, Ali Daouadji</dc:creator>
+      <category>cs.LG</category>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Hsin-Yi Lin, Huan-Hsin Tseng, Samuel Yen-Chi Chen, Shinjae Yoo</dc:creator>
     </item>
     <item>
-      <title>Quantum Qualifiers for Neural Network Model Selection in Hadronic Physics</title>
-      <link>https://arxiv.org/abs/2601.13463</link>
-      <description>arXiv:2601.13463v1 Announce Type: cross 
-Abstract: As quantum machine-learning architectures mature, a central challenge is no longer their construction, but identifying the regimes in which they offer practical advantages over classical approaches. In this work, we introduce a framework for addressing this question in data-driven hadronic physics problems by developing diagnostic tools - centered on a quantitative quantum qualifier - that guide model selection between classical and quantum deep neural networks based on intrinsic properties of the data. Using controlled classification and regression studies, we show how relative model performance follows systematic trends in complexity, noise, and dimensionality, and how these trends can be distilled into a predictive criterion. We then demonstrate the utility of this approach through an application to Compton form factor extraction from deeply virtual Compton scattering, where the quantum qualifier identifies kinematic regimes favorable to quantum models. Together, these results establish a principled framework for deploying quantum machine-learning tools in precision hadronic physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.13463v1</guid>
-      <category>cs.LG</category>
-      <category>hep-ph</category>
-      <category>nucl-th</category>
+      <title>Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness</title>
+      <link>https://arxiv.org/abs/2601.14713</link>
+      <description>arXiv:2601.14713v1 Announce Type: new 
+Abstract: Fidelity estimation is a critical yet resource-intensive step in testing quantum programs on noisy intermediate-scale quantum (NISQ) devices, where the required number of measurements is difficult to predefine due to hardware noise, device heterogeneity, and transpilation-induced circuit transformations. We present QuFid, an adaptive and noise-aware framework that determines measurement budgets online by leveraging circuit structure and runtime statistical feedback. QuFid models a quantum program as a directed acyclic graph (DAG) and employs a control-flow-aware random walk to characterize noise propagation along gate dependencies. Backend-specific effects are captured via transpilation-induced structural deformation metrics, which are integrated into the random-walk formulation to induce a noise-propagation operator. Circuit complexity is then quantified through the spectral characteristics of this operator, providing a principled and lightweight basis for adaptive measurement planning. Experiments on 18 quantum benchmarks executed on IBM Quantum backends show that QuFid significantly reduces measurement cost compared to fixed-shot and learning-based baselines, while consistently maintaining acceptable fidelity bias.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.14713v1</guid>
       <category>quant-ph</category>
-      <pubDate>Wed, 21 Jan 2026 00:00:00 -0500</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Tingting Li, Ziming Zhao, Jianwei Yin</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Interactive Oracle Proofs</title>
+      <link>https://arxiv.org/abs/2601.12874</link>
+      <description>arXiv:2601.12874v1 Announce Type: cross 
+Abstract: We initiate the study of quantum Interactive Oracle Proofs (qIOPs), a generalization of both quantum Probabilistically Checkable Proofs and quantum Interactive Proofs, as well as a quantum analogue of classical Interactive Oracle Proofs.
+  In the model of quantum Interactive Oracle Proofs, we allow multiple rounds of quantum interaction between the quantum prover and the quantum verifier, but the verifier has limited access to quantum resources. This includes both queries to the prover's messages and the complexity of the quantum circuits applied by the verifier. The question of whether QMA admits a quantum interactive oracle proof system is a relaxation of the quantum PCP Conjecture.
+  We show the following two main constructions of qIOPs, both of which are unconditional:
+  - We construct a qIOP for QMA in which the verifier shares polynomially many EPR pairs with the prover at the start of the protocol and reads only a constant number of qubits from the prover's messages.
+  - We provide a stronger construction of qIOP for QMA in which the verifier not only reads a constant number of qubits but also operates on a constant number of qubits overall, including those in their private registers. However, in this stronger setting, the communication complexity becomes exponential. This leaves open the question of whether strong qIOPs for QMA, with polynomial communication complexity, exist.
+  As a key component of our construction, we introduce a novel single prover many-qubits test, which may be of independent interest.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.12874v1</guid>
+      <category>cs.CC</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Brandon B. Le, D. Keller</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Baocheng Sun, Thomas Vidick</dc:creator>
     </item>
   </channel>
 </rss>

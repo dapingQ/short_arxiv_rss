@@ -7,57 +7,82 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jan 2026 05:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 05:00:04 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Quantum Super-resolution by Adaptive Non-local Observables</title>
-      <link>https://arxiv.org/abs/2601.14433</link>
-      <description>arXiv:2601.14433v1 Announce Type: new 
-Abstract: Super-resolution (SR) seeks to reconstruct high-resolution (HR) data from low-resolution (LR) observations. Classical deep learning methods have advanced SR substantially, but require increasingly deeper networks, large datasets, and heavy computation to capture fine-grained correlations. In this work, we present the \emph{first study} to investigate quantum circuits for SR. We propose a framework based on Variational Quantum Circuits (VQCs) with \emph{Adaptive Non-Local Observable} (ANO) measurements. Unlike conventional VQCs with fixed Pauli readouts, ANO introduces trainable multi-qubit Hermitian observables, allowing the measurement process to adapt during training. This design leverages the high-dimensional Hilbert space of quantum systems and the representational structure provided by entanglement and superposition. Experiments demonstrate that ANO-VQCs achieve up to five-fold higher resolution with a relatively small model size, suggesting a promising new direction at the intersection of quantum machine learning and super-resolution.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.14433v1</guid>
+      <title>USDs: A universal stabilizer decoder framework using symmetry</title>
+      <link>https://arxiv.org/abs/2601.15361</link>
+      <description>arXiv:2601.15361v1 Announce Type: new 
+Abstract: Quantum error correction is indispensable to achieving reliable quantum computation. When quantum information is encoded redundantly, a larger Hilbert space is constructed using multiple physical qubits, and the computation is performed within a designated subspace. When applying deep learning to the decoding of quantum error-correcting codes, a key challenge arises from the non-uniqueness between the syndrome measurements provided to the decoder and the corresponding error patterns that constitute the ground-truth labels. Building upon prior work that addressed this issue for the toric code by re-optimizing the decoder with respect to the symmetry inherent in the parity-check structure, we generalize this approach to arbitrary stabilizer codes. In our experiments, we employed multilayer perceptrons to approximate continuous functions that complement the syndrome measurements of the Color code and the Golay code. Using these models, we performed decoder re-optimization for each code. For the Color code, we achieved an improvement of approximately 0.8% in decoding accuracy at a physical error rate of 5%, while for the Golay code the accuracy increased by about 0.1%. Furthermore, from the evaluation of the geometric and algebraic structures in the continuous function approximation for each code, we showed that the design of generalized continuous functions is advantageous for learning the geometric structure inherent in the code. Our results also indicate that approximations that faithfully reproduce the code structure can have a significant impact on the effectiveness of reoptimization. This study demonstrates that the re-optimization technique previously shown to be effective for the Toric code can be generalized to address the challenge of label degeneracy that arises when applying deep learning to the decoding of stabilizer codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.15361v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Hsin-Yi Lin, Huan-Hsin Tseng, Samuel Yen-Chi Chen, Shinjae Yoo</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Hoshitaro Ohnishi, Hideo Mukai</dc:creator>
     </item>
     <item>
-      <title>Adaptive Fidelity Estimation for Quantum Programs with Graph-Guided Noise Awareness</title>
-      <link>https://arxiv.org/abs/2601.14713</link>
-      <description>arXiv:2601.14713v1 Announce Type: new 
-Abstract: Fidelity estimation is a critical yet resource-intensive step in testing quantum programs on noisy intermediate-scale quantum (NISQ) devices, where the required number of measurements is difficult to predefine due to hardware noise, device heterogeneity, and transpilation-induced circuit transformations. We present QuFid, an adaptive and noise-aware framework that determines measurement budgets online by leveraging circuit structure and runtime statistical feedback. QuFid models a quantum program as a directed acyclic graph (DAG) and employs a control-flow-aware random walk to characterize noise propagation along gate dependencies. Backend-specific effects are captured via transpilation-induced structural deformation metrics, which are integrated into the random-walk formulation to induce a noise-propagation operator. Circuit complexity is then quantified through the spectral characteristics of this operator, providing a principled and lightweight basis for adaptive measurement planning. Experiments on 18 quantum benchmarks executed on IBM Quantum backends show that QuFid significantly reduces measurement cost compared to fixed-shot and learning-based baselines, while consistently maintaining acceptable fidelity bias.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.14713v1</guid>
+      <title>The computational two-way quantum capacity</title>
+      <link>https://arxiv.org/abs/2601.15393</link>
+      <description>arXiv:2601.15393v1 Announce Type: new 
+Abstract: Quantum channel capacities are fundamental to quantum information theory. Their definition, however, does not limit the computational resources of sender and receiver. In this work, we initiate the study of computational quantum capacities. These quantify how much information can be reliably transmitted when imposing the natural requirement that en- and decoding have to be computationally efficient. We focus on the computational two-way quantum capacity and showcase that it is closely related to the computational distillable entanglement of the Choi state of the channel. This connection allows us to show a stark computational capacity separation. Under standard cryptographic assumptions, there exists a quantum channel of polynomial complexity whose computational two-way quantum capacity vanishes while its unbounded counterpart is nearly maximal. More so, we show that there exists a sharp transition in computational quantum capacity from nearly maximal to zero when the channel complexity leaves the polynomial realm. Our results demonstrate that the natural requirement of computational efficiency can radically alter the limits of quantum communication.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.15393v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Tingting Li, Ziming Zhao, Jianwei Yin</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Interactive Oracle Proofs</title>
-      <link>https://arxiv.org/abs/2601.12874</link>
-      <description>arXiv:2601.12874v1 Announce Type: cross 
-Abstract: We initiate the study of quantum Interactive Oracle Proofs (qIOPs), a generalization of both quantum Probabilistically Checkable Proofs and quantum Interactive Proofs, as well as a quantum analogue of classical Interactive Oracle Proofs.
-  In the model of quantum Interactive Oracle Proofs, we allow multiple rounds of quantum interaction between the quantum prover and the quantum verifier, but the verifier has limited access to quantum resources. This includes both queries to the prover's messages and the complexity of the quantum circuits applied by the verifier. The question of whether QMA admits a quantum interactive oracle proof system is a relaxation of the quantum PCP Conjecture.
-  We show the following two main constructions of qIOPs, both of which are unconditional:
-  - We construct a qIOP for QMA in which the verifier shares polynomially many EPR pairs with the prover at the start of the protocol and reads only a constant number of qubits from the prover's messages.
-  - We provide a stronger construction of qIOP for QMA in which the verifier not only reads a constant number of qubits but also operates on a constant number of qubits overall, including those in their private registers. However, in this stronger setting, the communication complexity becomes exponential. This leaves open the question of whether strong qIOPs for QMA, with polynomial communication complexity, exist.
-  As a key component of our construction, we introduce a novel single prover many-qubits test, which may be of independent interest.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.12874v1</guid>
       <category>cs.CC</category>
+      <category>cs.CR</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Johannes Jakob Meyer, Jacopo Rizzo, Asad Raza, Lorenzo Leone, Sofiene Jerbi, Jens Eisert</dc:creator>
+    </item>
+    <item>
+      <title>Machine Failure Detection Based on Projected Quantum Models</title>
+      <link>https://arxiv.org/abs/2601.15641</link>
+      <description>arXiv:2601.15641v1 Announce Type: new 
+Abstract: Detecting machine failures promptly is of utmost importance in industry for maintaining efficiency and minimizing downtime. This paper introduces a failure detection algorithm based on quantum computing and a statistical change-point detection approach. Our method leverages the potential of projected quantum feature maps to enhance the precision of anomaly detection in machine monitoring systems. We empirically validate our approach on benchmark multi-dimensional time series datasets as well as on a real-world dataset comprising IoT sensor readings from operational machines, ensuring the practical relevance of our study. The algorithm was executed on IBM's 133-qubit Heron quantum processor, demonstrating the feasibility of integrating quantum computing into industrial maintenance procedures. The presented results underscore the effectiveness of our quantum-based failure detection system, showcasing its capability to accurately identify anomalies in noisy time series data. This work not only highlights the potential of quantum computing in industrial diagnostics but also paves the way for more sophisticated quantum algorithms in the realm of predictive maintenance.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.15641v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 22 Jan 2026 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Larry Bowden, Qi Chu, Bernard Cena, Kentaro Ohno, Bob Parney, Deepak Sharma, Mitsuharu Takeori</dc:creator>
+    </item>
+    <item>
+      <title>Beyond the Einstein-Bohr Debate: Cognitive Complementarity and the Emergence of Quantum Intuition</title>
+      <link>https://arxiv.org/abs/2601.15314</link>
+      <description>arXiv:2601.15314v1 Announce Type: cross 
+Abstract: Recent high-precision experimental confirmations of quantum complementarity have revitalized foundational debates about measurement, description, and realism. This article argues that complementarity is most productively interpreted as an epistemic principle--constraining what can be simultaneously accessed and represented--rather than as an ontological claim about quantum reality. Reexamining the Einstein-Bohr debate through this lens reveals a persistent tension between descriptive completeness and contextual meaning, a tension experiments clarify but do not dissolve. Building on this analysis, we introduce cognitive complementarity as a structural principle governing reasoning under non-classical uncertainty, where mutually constraining representations cannot be jointly optimized. Within this framework, we propose quantum intuition as a testable cognitive capacity: the ability to sustain representational plurality, regulate commitment timing, and resolve perspective-incompatibilities in a context-sensitive manner. Formulated as a naturalistic construct grounded in shared informational constraints, quantum intuition offers a principled bridge between quantum measurement theory and cognition. This work reframes the historical debate, extends epistemic lessons from quantum foundations into cognitive science, and outlines empirical pathways for studying decision-making in contexts of irreducible uncertainty.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.15314v1</guid>
+      <category>q-bio.NC</category>
+      <category>cs.AI</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Lalit Kumar Shukla</dc:creator>
+    </item>
+    <item>
+      <title>Stabilizer-Code Channel Transforms Beyond Repetition Codes for Improved Hashing Bounds</title>
+      <link>https://arxiv.org/abs/2601.15505</link>
+      <description>arXiv:2601.15505v1 Announce Type: cross 
+Abstract: The quantum hashing bound guarantees that rates up to $1-H(p_I, p_X, p_Y, p_Z)$ are achievable for memoryless Pauli channels, but it is not generally tight. A known way to improve achievable rates for certain asymmetric Pauli channels is to apply a small inner stabilizer code to a few channel uses, decode, and treat the resulting logical noise as an induced Pauli channel; reapplying the hashing argument to this induced channel can beat the baseline hashing bound. We generalize this induced-channel viewpoint to arbitrary stabilizer codes used purely as channel transforms. Given any $ [\![ n, k ]\!] $ stabilizer generator set, we construct a full symplectic tableau, compute the induced joint distribution of logical Pauli errors and syndromes under the physical Pauli channel, and obtain an achievable rate via a hashing bound with decoder side information. We perform a structured search over small transforms and report instances that improve the baseline hashing bound for a family of Pauli channels with skewed and independent errors studied in prior work.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.15505v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Baocheng Sun, Thomas Vidick</dc:creator>
+      <dc:creator>Tyler Kann, Matthieu R. Bloch, Shrinivas Kudekar, Ruediger Urbanke</dc:creator>
     </item>
   </channel>
 </rss>

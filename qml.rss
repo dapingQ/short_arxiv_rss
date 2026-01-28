@@ -7,157 +7,130 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 05:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 05:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Bayesian quantum sensing using graybox machine learning</title>
-      <link>https://arxiv.org/abs/2601.17465</link>
-      <description>arXiv:2601.17465v1 Announce Type: new 
-Abstract: Quantum sensors offer significant advantages over classical devices in spatial resolution and sensitivity, enabling transformative applications across materials science, healthcare, and beyond. Their practical performance, however, is often constrained by unmodelled effects, including noise, imperfect state preparation, and non-ideal control fields.
-  In this work, we report the first experimental implementation of a graybox modelling strategy for a solid-state open quantum system. The graybox framework integrates a physics-based system model with a data-driven description of experimental imperfections, achieving higher fidelity than purely analytical (whitebox) approaches while requiring fewer training resources than fully deep-learning models. We experimentally validate the method on the task of estimating a static magnetic field using a single-spin quantum sensor, performing Bayesian inference with a graybox model trained on prior experimental data. Using roughly 10,000 training datapoints, the graybox model yields several orders of magnitude improvement in mean squared error over the corresponding physics-only model. These results are broadly applicable to a wide range of quantum sensing platforms, not limited to single-spin systems, and are particularly valuable for real-time adaptive protocols, where model inaccuracies can otherwise lead to suboptimal control and degraded performance.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.17465v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>eess.SP</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Akram Youssry, Stefan Todd, Patrick Murton, Muhammad Junaid Arshad, Alberto Peruzzo, Cristian Bonato</dc:creator>
-    </item>
-    <item>
-      <title>The hyperlink representation of entanglement and the inclusion-exclusion principle</title>
-      <link>https://arxiv.org/abs/2601.17926</link>
-      <description>arXiv:2601.17926v1 Announce Type: new 
-Abstract: The entanglement entropy (EE) of any bipartition of a pure state can be approximately expressed as a sum of entanglement links (ELs). In this work, we introduce their exact extension, i.e. the entanglement hyperlinks (EHLs), a type of generalized mutual informations defined through the inclusion-exclusion principle, each of which captures contributions to the multipartite entanglement that are not reducible to lower-order terms. We show that any EHL crossing a factorized partition must vanish, and that the EHLs between any set of blocks can be expressed as a sum of all the EHLs that join all of them. This last result allows us to provide an exact representation of the EE of any block of a pure state, from the sum of the EHLs which cross its boundary. In order to illustrate their rich structure, we discuss some explicit numerical examples using ground states of local Hamiltonians. The EHLs thus provide a remarkable tool to characterize multipartite entanglement in quantum information theory and quantum many-body physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.17926v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Silvia N. Santalla, Sudipto Singha Roy, Germ\'an Sierra, Javier Rodr\'iguez-Laguna</dc:creator>
-    </item>
-    <item>
-      <title>Overcoming Barren Plateaus in Variational Quantum Circuits using a Two-Step Least Squares Approach</title>
-      <link>https://arxiv.org/abs/2601.18060</link>
-      <description>arXiv:2601.18060v1 Announce Type: new 
-Abstract: Variational Quantum Algorithms are a vital part of quantum computing. It is a blend of quantum and classical methods for tackling tough problems in machine learning, chemistry, and combinatorial optimization. Yet as these algorithms scale up, they cannot escape the barren-plateau phenomenon. As systems grow, gradients can vanish so quickly that training deep or randomly initialized circuits becomes nearly impossible. To overcome the barren plateau problem, we introduce a two-stage optimization framework. First comes the convex initialization stage. Here, we shape the quantum energy landscape, the Hilmaton landscape, into a smooth, low-energy basin. This step makes gradients easier to spot and keeps noise from derailing the process. Once we have gotten a stable gradient flow, we move to the second stage: nonconvex refinement. In this phase, we allow the algorithm to explore different energy minima, thereby making the model more expressive. Finally, we used our two-stage solution to perform quantum cryptanalysis of the quantum key distribution protocol (i.e., BB84) to determine the optimal cloning strategies. The simulation results showed that our proposed two-stage solution outperforms its random initialization counterpart.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18060v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Francis Boabang, Samuel Asante Gyamerah</dc:creator>
-    </item>
-    <item>
-      <title>Emergent Cooperation in Quantum Multi-Agent Reinforcement Learning Using Communication</title>
-      <link>https://arxiv.org/abs/2601.18419</link>
-      <description>arXiv:2601.18419v1 Announce Type: new 
-Abstract: Emergent cooperation in classical Multi-Agent Reinforcement Learning has gained significant attention, particularly in the context of Sequential Social Dilemmas (SSDs). While classical reinforcement learning approaches have demonstrated capability for emergent cooperation, research on extending these methods to Quantum Multi-Agent Reinforcement Learning remains limited, particularly through communication. In this paper, we apply communication approaches to quantum Q-Learning agents: the Mutual Acknowledgment Token Exchange (MATE) protocol, its extension Mutually Endorsed Distributed Incentive Acknowledgment Token Exchange (MEDIATE), the peer rewarding mechanism Gifting, and Reinforced Inter-Agent Learning (RIAL). We evaluate these approaches in three SSDs: the Iterated Prisoner's Dilemma, Iterated Stag Hunt, and Iterated Game of Chicken. Our experimental results show that approaches using MATE with temporal-difference measure (MATE\textsubscript{TD}), AutoMATE, MEDIATE-I, and MEDIATE-S achieved high cooperation levels across all dilemmas, demonstrating that communication is a viable mechanism for fostering emergent cooperation in Quantum Multi-Agent Reinforcement Learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18419v1</guid>
+      <title>Lightweight Quantum-Enhanced ResNet for Coronary Angiography Classification: A Hybrid Quantum-Classical Feature Enhancement Framework</title>
+      <link>https://arxiv.org/abs/2601.18814</link>
+      <description>arXiv:2601.18814v1 Announce Type: new 
+Abstract: Background: Coronary angiography (CAG) is the cornerstone imaging modality for evaluating coronary artery stenosis and guiding interventional decision-making. However, interpretation based on single-frame angiographic images remains highly operator-dependent, and conventional deep learning models still face challenges in modeling complex vascular morphology and fine-grained texture patterns.Methods: We propose a Lightweight Quantum-Enhanced ResNet (LQER) for binary classification of coronary angiography images. A pretrained ResNet18 is employed as a classical feature extractor, while a parameterized quantum circuit (PQC) is introduced at the high-level semantic feature space for quantum feature enhancement. The quantum module utilizes data re-uploading and entanglement structures, followed by residual fusion with classical features, enabling end-to-end hybrid optimization with a strictly controlled number of qubits.Results: On an independent test set, the proposed LQER outperformed the classical ResNet18 baseline in accuracy, AUC, and F1-score, achieving a test accuracy exceeding 90%. The results demonstrate that lightweight quantum feature enhancement improves discrimination of positive lesions, particularly under class-imbalanced conditions.Conclusion: This study validates a practical hybrid quantum--classical learning paradigm for coronary angiography analysis, providing a feasible pathway for deploying quantum machine learning in medical imaging applications.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.18814v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
       <category>cs.LG</category>
-      <category>cs.MA</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Michael K\"olle, Christian Reff, Leo S\"unkel, Julian Hager, Gerhard Stenzel, Claudia Linnhoff-Popien</dc:creator>
+      <dc:creator>Jingsong Xia</dc:creator>
     </item>
     <item>
-      <title>A Theory of Single-Antenna Atomic Beamforming</title>
-      <link>https://arxiv.org/abs/2601.18426</link>
-      <description>arXiv:2601.18426v1 Announce Type: new 
-Abstract: Leveraging the quantum advantages of highly excited atoms, Rydberg atomic receivers (RAREs) represent a paradigm shift in radio wave detection, offering high sensitivity and broadband reception. However, existing studies largely model RAREs as isotropic point receivers and overlook the spatial variations of atomic quantum states within vapor cells, thus inaccurately characterizing their reception patterns. To address this issue, we present a theoretical analysis of the aforementioned spatial responses of a standard local-oscillator (LO)- dressed RARE. Our results reveal that increasing the vapor-cell length produces a receive beam aligned with the LO field, with a beamwidth inversely proportional to the cell length. This finding enables atomic beamforming to enhance received signal-to-noise ratio using only a single-antenna RARE. Furthermore, we derive the achievable beamforming gain by characterizing and balancing the fundamental tradeoff between the effects of increasing the vapor cell length and the exponential power decay of laser propagating through the cell. To overcome the limitation imposed by exponential decay, we propose a novel RARE architecture termed segmental vapor cell. This architecture consists of vapor-cell segments separated by clear-air gaps, allowing the total cell length (and hence propagation loss) to remain fixed while the effective cell length increases. As a result, this segmented design expands the effective atom-field interaction area without increasing the total vapor cell length, yielding a narrower beamwidth and thus higher beamforming gain as compared with a traditional continuous vapor cell.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18426v1</guid>
+      <title>Multivariate Multicycle Codes for Complete Single-Shot Decoding</title>
+      <link>https://arxiv.org/abs/2601.18879</link>
+      <description>arXiv:2601.18879v1 Announce Type: new 
+Abstract: We introduce multivariate multicycle (MM) codes, a new family of quantum error correcting codes that unifies and generalizes bivariate bicycle codes, multivariate bicycle codes, abelian two-block group algebra codes, generalized bicycle codes, trivariate tricycle codes, and n-dimensional toric codes. MM codes are Calderbank-Shor-Steane (CSS) codes defined from length-t chain complexes with $t \ge 4$. The chief advantage of these codes is that they possess metachecks and high confinement that permit complete single-shot decoding, while also having additional algebraic structure that might enable logical non-Clifford gates. We offer a framework that facilitates the construction of long-length chain complexes through the use of Koszul complex. In particular, obtaining explicit boundary maps (parity check and metacheck matrices) is particularly straightforward in our approach. This simple but very general parameterization of codes permitted us to efficiently perform a numerical search, where we identify several MM code candidates that demonstrate these capabilities at high rates and high code distances. Examples of new codes with parameters $[[n,k,d]]$ include $[[96, 12, 8]]$, $[[96, 44, 4]]$ $[[144, 40, 4]]$, $[[216, 12, 12]]$, $[[360, 30, 6]]$, $[[384, 80, 4]]$, $[[486, 24, 12]]$, $[[486, 66, 9]]$ and $[[648, 60, 9]]$. Notably, our codes achieve confinement profiles that surpass all known single-shot decodable quantum CSS codes of practical blocksize.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.18879v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
       <category>math.IT</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
-      <dc:creator>Mingyao Cui, Qunsong Zeng, Kaibin Huang</dc:creator>
-    </item>
-    <item>
-      <title>Universality of Many-body Projected Ensemble for Learning Quantum Data Distribution</title>
-      <link>https://arxiv.org/abs/2601.18637</link>
-      <description>arXiv:2601.18637v1 Announce Type: new 
-Abstract: Generating quantum data by learning the underlying quantum distribution poses challenges in both theoretical and practical scenarios, yet it is a critical task for understanding quantum systems. A fundamental question in quantum machine learning (QML) is the universality of approximation: whether a parameterized QML model can approximate any quantum distribution. We address this question by proving a universality theorem for the Many-body Projected Ensemble (MPE) framework, a method for quantum state design that uses a single many-body wave function to prepare random states. This demonstrates that MPE can approximate any distribution of pure states within a 1-Wasserstein distance error. This theorem provides a rigorous guarantee of universal expressivity, addressing key theoretical gaps in QML. For practicality, we propose an Incremental MPE variant with layer-wise training to improve the trainability. Numerical experiments on clustered quantum states and quantum chemistry datasets validate MPE's efficacy in learning complex quantum data distributions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18637v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <category>stat.ML</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Quoc Hoan Tran, Koki Chinzei, Yasuhiro Endo, Hirotaka Oshima</dc:creator>
-    </item>
-    <item>
-      <title>Data-Driven Qubit Characterization and Optimal Control using Deep Learning</title>
-      <link>https://arxiv.org/abs/2601.18704</link>
-      <description>arXiv:2601.18704v1 Announce Type: new 
-Abstract: Quantum computing requires the optimization of control pulses to achieve high-fidelity quantum gates. We propose a machine learning-based protocol to address the challenges of evaluating gradients and modeling complex system dynamics. By training a recurrent neural network (RNN) to predict qubit behavior, our approach enables efficient gradient-based pulse optimization without the need for a detailed system model. First, we sample qubit dynamics using random control pulses with weak prior assumptions. We then train the RNN on the system's observed responses, and use the trained model to optimize high-fidelity control pulses. We demonstrate the effectiveness of this approach through simulations on a single $ST_0$ qubit.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18704v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Paul Surrey, Julian D. Teske, Tobias Hangleiter, Hendrik Bluhm, Pascal Cerfontaine</dc:creator>
+      <dc:creator>Feroz Ahmed Mian, Owen Gwilliam, Stefan Krastanov</dc:creator>
     </item>
     <item>
-      <title>Complex-Valued-Matrix Permanents: SPA-based Approximations and Double-Cover Analysis</title>
-      <link>https://arxiv.org/abs/2601.18232</link>
-      <description>arXiv:2601.18232v1 Announce Type: cross 
-Abstract: Approximating the permanent of a complex-valued matrix is a fundamental problem with applications in Boson sampling and probabilistic inference. In this paper, we extend factor-graph-based methods for approximating the permanent of non-negative-real-valued matrices that are based on running the sum-product algorithm (SPA) on standard normal factor graphs, to factor-graph-based methods for approximating the permanent of complex-valued matrices that are based on running the SPA on double-edge normal factor graphs.
-  On the algorithmic side, we investigate the behavior of the SPA, in particular how the SPA fixed points change when transitioning from real-valued to complex-valued matrix ensembles. On the analytical side, we use graph covers to analyze the Bethe approximation of the permanent, i.e., the approximation of the permanent that is obtained with the help of the SPA.
-  This combined algorithmic and analytical perspective provides new insight into the structure of Bethe approximations in complex-valued problems and clarifies when such approximations remain meaningful beyond the non-negative-real-valued settings.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18232v1</guid>
-      <category>cs.IT</category>
-      <category>math.CO</category>
-      <category>math.IT</category>
+      <title>Reinforcement Learning for Quantum Technology</title>
+      <link>https://arxiv.org/abs/2601.18953</link>
+      <description>arXiv:2601.18953v1 Announce Type: new 
+Abstract: Many challenges arising in Quantum Technology can be successfully addressed using a set of machine learning algorithms collectively known as reinforcement learning (RL), based on adaptive decision-making through interaction with the quantum device. After a concise and intuitive introduction to RL aimed at a broad physics readership, we discuss the key ideas and core concepts in reinforcement learning with a particular focus on quantum systems. We then survey recent progress in RL in all relevant areas. We discuss state preparation in few- and many-body quantum systems, the design and optimization of high-fidelity quantum gates, and the automated construction of quantum circuits, including applications to variational quantum eigensolvers and architecture search. We further highlight the interactive capabilities of RL agents, emphasizing recent progress in quantum feedback control and quantum error correction, and briefly discuss quantum reinforcement learning as well as applications to quantum metrology. The review concludes with a discussion of open challenges -- such as scalability, interpretability, and integration with experimental platforms -- and outlines promising directions for future research. Throughout, we highlight experimental implementations that exemplify the increasing role of reinforcement learning in shaping the development of quantum technologies.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.18953v1</guid>
       <category>quant-ph</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
+      <category>cond-mat.quant-gas</category>
+      <category>cond-mat.stat-mech</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Marin Bukov, Florian Marquardt</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
+      <link>https://arxiv.org/abs/2601.19738</link>
+      <description>arXiv:2601.19738v1 Announce Type: new 
+Abstract: Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number of qubits, local synthesis approaches are commonly used to compile large circuits by decomposing them into substructures. However, composing local methods leads to suboptimal compilations in key metrics such as $T$-count or circuit depth, and their performance strongly depends on circuit representation. In this work, we address this challenge by proposing \textsc{Q-PreSyn}, a strategy that, given a set of local edits preserving circuit equivalence, uses a RL agent to identify effective sequences of such actions and thereby obtain circuit representations that yield a reduced $T$-count upon synthesis. Experimental results of our proposed strategy, applied on top of well-known synthesis algorithms, show up to a $20\%$ reduction in $T$-count on circuits with up to 25 qubits, without introducing any additional approximation error prior to synthesis.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.19738v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Daniele Lizzio Bosco, Lukasz Cincio, Giuseppe Serra, M. Cerezo</dc:creator>
+    </item>
+    <item>
+      <title>Variational Quantum Circuit-Based Reinforcement Learning for Dynamic Portfolio Optimization</title>
+      <link>https://arxiv.org/abs/2601.18811</link>
+      <description>arXiv:2601.18811v1 Announce Type: cross 
+Abstract: This paper presents a Quantum Reinforcement Learning (QRL) solution to the dynamic portfolio optimization problem based on Variational Quantum Circuits. The implemented QRL approaches are quantum analogues of the classical neural-network-based Deep Deterministic Policy Gradient and Deep Q-Network algorithms. Through an empirical evaluation on real-world financial data, we show that our quantum agents achieve risk-adjusted performance comparable to, and in some cases exceeding, that of classical Deep RL models with several orders of magnitude more parameters. In addition to improved parameter efficiency, quantum agents exhibit reduced variability across market regimes, indicating robust behaviour under changing conditions. However, while quantum circuit execution is inherently fast at the hardware level, practical deployment on cloud-based quantum systems introduces substantial latency, making end-to-end runtime currently dominated by infrastructural overhead and limiting practical applicability. Taken together, our results suggest that QRL is theoretically competitive with state-of-the-art classical reinforcement learning and may become practically advantageous as deployment overheads diminish. This positions QRL as a promising paradigm for dynamic decision-making in complex, high-dimensional, and non-stationary environments such as financial markets. The complete codebase is released as open source at: https://github.com/VincentGurgul/qrl-dpo-public</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.18811v1</guid>
+      <category>cs.LG</category>
+      <category>q-fin.CP</category>
+      <category>q-fin.PM</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+      <dc:creator>Vincent Gurgul, Ying Chen, Stefan Lessmann</dc:creator>
+    </item>
+    <item>
+      <title>When Does Adaptation Win? Scaling Laws for Meta-Learning in Quantum Control</title>
+      <link>https://arxiv.org/abs/2601.18973</link>
+      <description>arXiv:2601.18973v1 Announce Type: cross 
+Abstract: Quantum hardware suffers from intrinsic device heterogeneity and environmental drift, forcing practitioners to choose between suboptimal non-adaptive controllers or costly per-device recalibration. We derive a scaling law lower bound for meta-learning showing that the adaptation gain (expected fidelity improvement from task-specific gradient steps) saturates exponentially with gradient steps and scales linearly with task variance, providing a quantitative criterion for when adaptation justifies its overhead. Validation on quantum gate calibration shows negligible benefits for low-variance tasks but $&gt;40\%$ fidelity gains on two-qubit gates under extreme out-of-distribution conditions (10$\times$ the training noise), with implications for reducing per-device calibration time on cloud quantum processors. Further validation on classical linear-quadratic control confirms these laws emerge from general optimization geometry rather than quantum-specific physics. Together, these results offer a transferable framework for decision-making in adaptive control.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.18973v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Junda Zhou, Pascal O. Vontobel</dc:creator>
+      <dc:creator>Nima Leclerc, Chris Miller, Nicholas Brawand</dc:creator>
     </item>
     <item>
-      <title>Quantum Rotation Diversity in Displaced Squeezed Binary Phase-Shift Keying</title>
-      <link>https://arxiv.org/abs/2601.18655</link>
-      <description>arXiv:2601.18655v1 Announce Type: cross 
-Abstract: We propose a quantum rotation diversity (QRD) scheme for optical quantum communication using binary phase-shift-keying displaced squeezed states and homodyne detection over Gamma-Gamma turbulence channels. Consecutive temporal modes are coupled by a passive orthogonal rotation that redistributes the displacement amplitude between slots, yielding a diversity order of two under independent fading and joint maximum-likelihood detection. Analytical expressions for the symbol-error rate performance, along with asymptotic results for the diversity and coding gains, are derived. The optimal rotation angle and energy allocation between displacement and squeezing are obtained in closed form. Furthermore, we show that when both the displacement amplitude and the squeezing strength scale with the total photon number, an effective diversity order of four is achieved. Numerical results validate the analysis and demonstrate the super-diversity behaviour of the proposed QRD scheme.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18655v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ioannis Krikidis</dc:creator>
-    </item>
-    <item>
-      <title>Analyzing Images of Blood Cells with Quantum Machine Learning Methods: Equilibrium Propagation and Variational Quantum Circuits to Detect Acute Myeloid Leukemia</title>
-      <link>https://arxiv.org/abs/2601.18710</link>
-      <description>arXiv:2601.18710v1 Announce Type: cross 
-Abstract: This paper presents a feasibility study demonstrating that quantum machine learning (QML) algorithms achieve competitive performance on real-world medical imaging despite operating under severe constraints. We evaluate Equilibrium Propagation (EP), an energy-based learning method that does not use backpropagation (incompatible with quantum systems due to state-collapsing measurements) and Variational Quantum Circuits (VQCs) for automated detection of Acute Myeloid Leukemia (AML) from blood cell microscopy images using binary classification (2 classes: AML vs. Healthy).
-  Key Result: Using limited subsets (50-250 samples per class) of the AML-Cytomorphology dataset (18,365 expert-annotated images), quantum methods achieve performance only 12-15% below classical CNNs despite reduced image resolution (64x64 pixels), engineered features (20D), and classical simulation via Qiskit. EP reaches 86.4% accuracy (only 12% below CNN) without backpropagation, while the 4-qubit VQC attains 83.0% accuracy with consistent data efficiency: VQC maintains stable 83% performance with only 50 samples per class, whereas CNN requires 250 samples (5x more data) to reach 98%. These results establish reproducible baselines for QML in healthcare, validating NISQ-era feasibility.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18710v1</guid>
-      <category>cs.ET</category>
+      <title>C2NP: A Benchmark for Learning Scale-Dependent Geometric Invariances in 3D Materials Generation</title>
+      <link>https://arxiv.org/abs/2601.19076</link>
+      <description>arXiv:2601.19076v1 Announce Type: cross 
+Abstract: Generative models for materials have achieved strong performance on periodic bulk crystals, yet their ability to generalize across scale transitions to finite nanostructures remains largely untested. We introduce Crystal-to-Nanoparticle (C2NP), a systematic benchmark for evaluating generative models when moving between infinite crystalline unit cells and finite nanoparticles, where surface effects and size-dependent distortions dominate. C2NP defines two complementary tasks: (i) generating nanoparticles of specified radii from periodic unit cells, testing whether models capture surface truncation and geometric constraints; and (ii) recovering bulk lattice parameters and space-group symmetry from finite particle configurations, assessing whether models can infer underlying crystallographic order despite surface perturbations. Using diverse materials as a structurally consistent testbed, we construct over 170,000 nanoparticle configurations by carving particles from supercells derived from DFT-relaxed crystal unit cells, and introduce size-based splits that separate interpolation from extrapolation regimes. Experiments with state-of-the-art approaches, including diffusion, flow-matching, and variational models, show that even when losses are low, models often fail geometrically under distribution shift, yielding large lattice-recovery errors and near-zero joint accuracy on structure and symmetry. Overall, our results suggest that current methods rely on template memorization rather than scalable physical generalization. C2NP offers a controlled, reproducible framework for diagnosing these failures, with immediate applications to nanoparticle catalyst design, nanostructured hydrides for hydrogen storage, and materials discovery. Dataset and code are available at https://github.com/KurbanIntelligenceLab/C2NP.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.19076v1</guid>
+      <category>cond-mat.mtrl-sci</category>
+      <category>cond-mat.mes-hall</category>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>A. Bano (Rutgers University), L. Liebovitch (Columbia University)</dc:creator>
+      <dc:creator>Can Polat, Erchin Serpedin, Mustafa Kurban, Hasan Kurban</dc:creator>
+    </item>
+    <item>
+      <title>How Entanglement Reshapes the Geometry of Quantum Differential Privacy</title>
+      <link>https://arxiv.org/abs/2601.19126</link>
+      <description>arXiv:2601.19126v1 Announce Type: cross 
+Abstract: Quantum differential privacy provides a rigorous framework for quantifying privacy guarantees in quantum information processing. While classical correlations are typically regarded as adversarial to privacy, the role of their quantum analogue, entanglement, is not well understood. In this work, we investigate how quantum entanglement fundamentally shapes quantum local differential privacy (QLDP). We consider a bipartite quantum system whose input state has a prescribed level of entanglement, characterized by a lower bound on the entanglement entropy. Each subsystem is then processed by a local quantum mechanism and measured using local operations only, ensuring that no additional entanglement is generated during the process. Our main result reveals a sharp phase-transition phenomenon in the relation between entanglement and QLDP: below a mechanism-dependent entropy threshold, the optimal privacy leakage level mirrors that of unentangled inputs; beyond this threshold, the privacy leakage level decreases with the entropy, which strictly improves privacy guarantees and can even turn some non-private mechanisms into private ones. The phase-transition phenomenon gives rise to a nonlinear dependence of the privacy leakage level on the entanglement entropy, even though the underlying quantum mechanisms and measurements are linear. We show that the transition is governed by the intrinsic non-convex geometry of the set of entanglement-constrained quantum states, which we parametrize as a smooth manifold and analyze via Riemannian optimization. Our findings demonstrate that entanglement serves as a genuine privacy-enhancing resource, offering a geometric and operational foundation for designing robust privacy-preserving quantum protocols.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.19126v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Xi Wang, Parastoo Sadeghi, Guodong Shi</dc:creator>
     </item>
   </channel>
 </rss>

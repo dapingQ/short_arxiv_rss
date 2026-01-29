@@ -7,130 +7,40 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jan 2026 05:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 05:00:06 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Lightweight Quantum-Enhanced ResNet for Coronary Angiography Classification: A Hybrid Quantum-Classical Feature Enhancement Framework</title>
-      <link>https://arxiv.org/abs/2601.18814</link>
-      <description>arXiv:2601.18814v1 Announce Type: new 
-Abstract: Background: Coronary angiography (CAG) is the cornerstone imaging modality for evaluating coronary artery stenosis and guiding interventional decision-making. However, interpretation based on single-frame angiographic images remains highly operator-dependent, and conventional deep learning models still face challenges in modeling complex vascular morphology and fine-grained texture patterns.Methods: We propose a Lightweight Quantum-Enhanced ResNet (LQER) for binary classification of coronary angiography images. A pretrained ResNet18 is employed as a classical feature extractor, while a parameterized quantum circuit (PQC) is introduced at the high-level semantic feature space for quantum feature enhancement. The quantum module utilizes data re-uploading and entanglement structures, followed by residual fusion with classical features, enabling end-to-end hybrid optimization with a strictly controlled number of qubits.Results: On an independent test set, the proposed LQER outperformed the classical ResNet18 baseline in accuracy, AUC, and F1-score, achieving a test accuracy exceeding 90%. The results demonstrate that lightweight quantum feature enhancement improves discrimination of positive lesions, particularly under class-imbalanced conditions.Conclusion: This study validates a practical hybrid quantum--classical learning paradigm for coronary angiography analysis, providing a feasible pathway for deploying quantum machine learning in medical imaging applications.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18814v1</guid>
+      <title>Neural Quantum States in Mixed Precision</title>
+      <link>https://arxiv.org/abs/2601.20782</link>
+      <description>arXiv:2601.20782v1 Announce Type: new 
+Abstract: Scientific computing has long relied on double precision (64-bit floating point) arithmetic to guarantee accuracy in simulations of real-world phenomena. However, the growing availability of hardware accelerators such as Graphics Processing Units (GPUs) has made low-precision formats attractive due to their superior performance, reduced memory footprint, and improved energy efficiency. In this work, we investigate the role of mixed-precision arithmetic in neural-network based Variational Monte Carlo (VMC), a widely used method for solving computationally otherwise intractable quantum many-body systems. We first derive general analytical bounds on the error introduced by reduced precision on Metropolis-Hastings MCMC, and then empirically validate these bounds on the use-case of VMC. We demonstrate that significant portions of the algorithm, in particular, sampling the quantum state, can be executed in half precision without loss of accuracy. More broadly, this work provides a theoretical framework to assess the applicability of mixed-precision arithmetic in machine-learning approaches that rely on MCMC sampling. In the context of VMC, we additionally demonstrate the practical effectiveness of mixed-precision strategies, enabling more scalable and energy-efficient simulations of quantum many-body systems.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.20782v1</guid>
       <category>quant-ph</category>
-      <category>cs.AI</category>
+      <category>cond-mat.str-el</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Jingsong Xia</dc:creator>
-    </item>
-    <item>
-      <title>Multivariate Multicycle Codes for Complete Single-Shot Decoding</title>
-      <link>https://arxiv.org/abs/2601.18879</link>
-      <description>arXiv:2601.18879v1 Announce Type: new 
-Abstract: We introduce multivariate multicycle (MM) codes, a new family of quantum error correcting codes that unifies and generalizes bivariate bicycle codes, multivariate bicycle codes, abelian two-block group algebra codes, generalized bicycle codes, trivariate tricycle codes, and n-dimensional toric codes. MM codes are Calderbank-Shor-Steane (CSS) codes defined from length-t chain complexes with $t \ge 4$. The chief advantage of these codes is that they possess metachecks and high confinement that permit complete single-shot decoding, while also having additional algebraic structure that might enable logical non-Clifford gates. We offer a framework that facilitates the construction of long-length chain complexes through the use of Koszul complex. In particular, obtaining explicit boundary maps (parity check and metacheck matrices) is particularly straightforward in our approach. This simple but very general parameterization of codes permitted us to efficiently perform a numerical search, where we identify several MM code candidates that demonstrate these capabilities at high rates and high code distances. Examples of new codes with parameters $[[n,k,d]]$ include $[[96, 12, 8]]$, $[[96, 44, 4]]$ $[[144, 40, 4]]$, $[[216, 12, 12]]$, $[[360, 30, 6]]$, $[[384, 80, 4]]$, $[[486, 24, 12]]$, $[[486, 66, 9]]$ and $[[648, 60, 9]]$. Notably, our codes achieve confinement profiles that surpass all known single-shot decodable quantum CSS codes of practical blocksize.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18879v1</guid>
-      <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Feroz Ahmed Mian, Owen Gwilliam, Stefan Krastanov</dc:creator>
-    </item>
-    <item>
-      <title>Reinforcement Learning for Quantum Technology</title>
-      <link>https://arxiv.org/abs/2601.18953</link>
-      <description>arXiv:2601.18953v1 Announce Type: new 
-Abstract: Many challenges arising in Quantum Technology can be successfully addressed using a set of machine learning algorithms collectively known as reinforcement learning (RL), based on adaptive decision-making through interaction with the quantum device. After a concise and intuitive introduction to RL aimed at a broad physics readership, we discuss the key ideas and core concepts in reinforcement learning with a particular focus on quantum systems. We then survey recent progress in RL in all relevant areas. We discuss state preparation in few- and many-body quantum systems, the design and optimization of high-fidelity quantum gates, and the automated construction of quantum circuits, including applications to variational quantum eigensolvers and architecture search. We further highlight the interactive capabilities of RL agents, emphasizing recent progress in quantum feedback control and quantum error correction, and briefly discuss quantum reinforcement learning as well as applications to quantum metrology. The review concludes with a discussion of open challenges -- such as scalability, interpretability, and integration with experimental platforms -- and outlines promising directions for future research. Throughout, we highlight experimental implementations that exemplify the increasing role of reinforcement learning in shaping the development of quantum technologies.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18953v1</guid>
-      <category>quant-ph</category>
-      <category>cond-mat.quant-gas</category>
-      <category>cond-mat.stat-mech</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Marin Bukov, Florian Marquardt</dc:creator>
-    </item>
-    <item>
-      <title>Quantum Circuit Pre-Synthesis: Learning Local Edits to Reduce $T$-count</title>
-      <link>https://arxiv.org/abs/2601.19738</link>
-      <description>arXiv:2601.19738v1 Announce Type: new 
-Abstract: Compiling quantum circuits into Clifford+$T$ gates is a central task for fault-tolerant quantum computing using stabilizer codes. In the near term, $T$ gates will dominate the cost of fault tolerant implementations, and any reduction in the number of such expensive gates could mean the difference between being able to run a circuit or not. While exact synthesis is exponentially hard in the number of qubits, local synthesis approaches are commonly used to compile large circuits by decomposing them into substructures. However, composing local methods leads to suboptimal compilations in key metrics such as $T$-count or circuit depth, and their performance strongly depends on circuit representation. In this work, we address this challenge by proposing \textsc{Q-PreSyn}, a strategy that, given a set of local edits preserving circuit equivalence, uses a RL agent to identify effective sequences of such actions and thereby obtain circuit representations that yield a reduced $T$-count upon synthesis. Experimental results of our proposed strategy, applied on top of well-known synthesis algorithms, show up to a $20\%$ reduction in $T$-count on circuits with up to 25 qubits, without introducing any additional approximation error prior to synthesis.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.19738v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <category>cs.LG</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Daniele Lizzio Bosco, Lukasz Cincio, Giuseppe Serra, M. Cerezo</dc:creator>
+      <dc:creator>Massimo Solinas, Agnes Valenti, Nawaf Bou-Rabee, Roeland Wiersema</dc:creator>
     </item>
     <item>
-      <title>Variational Quantum Circuit-Based Reinforcement Learning for Dynamic Portfolio Optimization</title>
-      <link>https://arxiv.org/abs/2601.18811</link>
-      <description>arXiv:2601.18811v1 Announce Type: cross 
-Abstract: This paper presents a Quantum Reinforcement Learning (QRL) solution to the dynamic portfolio optimization problem based on Variational Quantum Circuits. The implemented QRL approaches are quantum analogues of the classical neural-network-based Deep Deterministic Policy Gradient and Deep Q-Network algorithms. Through an empirical evaluation on real-world financial data, we show that our quantum agents achieve risk-adjusted performance comparable to, and in some cases exceeding, that of classical Deep RL models with several orders of magnitude more parameters. In addition to improved parameter efficiency, quantum agents exhibit reduced variability across market regimes, indicating robust behaviour under changing conditions. However, while quantum circuit execution is inherently fast at the hardware level, practical deployment on cloud-based quantum systems introduces substantial latency, making end-to-end runtime currently dominated by infrastructural overhead and limiting practical applicability. Taken together, our results suggest that QRL is theoretically competitive with state-of-the-art classical reinforcement learning and may become practically advantageous as deployment overheads diminish. This positions QRL as a promising paradigm for dynamic decision-making in complex, high-dimensional, and non-stationary environments such as financial markets. The complete codebase is released as open source at: https://github.com/VincentGurgul/qrl-dpo-public</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18811v1</guid>
-      <category>cs.LG</category>
-      <category>q-fin.CP</category>
-      <category>q-fin.PM</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
-      <dc:creator>Vincent Gurgul, Ying Chen, Stefan Lessmann</dc:creator>
-    </item>
-    <item>
-      <title>When Does Adaptation Win? Scaling Laws for Meta-Learning in Quantum Control</title>
-      <link>https://arxiv.org/abs/2601.18973</link>
-      <description>arXiv:2601.18973v1 Announce Type: cross 
-Abstract: Quantum hardware suffers from intrinsic device heterogeneity and environmental drift, forcing practitioners to choose between suboptimal non-adaptive controllers or costly per-device recalibration. We derive a scaling law lower bound for meta-learning showing that the adaptation gain (expected fidelity improvement from task-specific gradient steps) saturates exponentially with gradient steps and scales linearly with task variance, providing a quantitative criterion for when adaptation justifies its overhead. Validation on quantum gate calibration shows negligible benefits for low-variance tasks but $&gt;40\%$ fidelity gains on two-qubit gates under extreme out-of-distribution conditions (10$\times$ the training noise), with implications for reducing per-device calibration time on cloud quantum processors. Further validation on classical linear-quadratic control confirms these laws emerge from general optimization geometry rather than quantum-specific physics. Together, these results offer a transferable framework for decision-making in adaptive control.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.18973v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>cs.SY</category>
-      <category>eess.SY</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Nima Leclerc, Chris Miller, Nicholas Brawand</dc:creator>
-    </item>
-    <item>
-      <title>C2NP: A Benchmark for Learning Scale-Dependent Geometric Invariances in 3D Materials Generation</title>
-      <link>https://arxiv.org/abs/2601.19076</link>
-      <description>arXiv:2601.19076v1 Announce Type: cross 
-Abstract: Generative models for materials have achieved strong performance on periodic bulk crystals, yet their ability to generalize across scale transitions to finite nanostructures remains largely untested. We introduce Crystal-to-Nanoparticle (C2NP), a systematic benchmark for evaluating generative models when moving between infinite crystalline unit cells and finite nanoparticles, where surface effects and size-dependent distortions dominate. C2NP defines two complementary tasks: (i) generating nanoparticles of specified radii from periodic unit cells, testing whether models capture surface truncation and geometric constraints; and (ii) recovering bulk lattice parameters and space-group symmetry from finite particle configurations, assessing whether models can infer underlying crystallographic order despite surface perturbations. Using diverse materials as a structurally consistent testbed, we construct over 170,000 nanoparticle configurations by carving particles from supercells derived from DFT-relaxed crystal unit cells, and introduce size-based splits that separate interpolation from extrapolation regimes. Experiments with state-of-the-art approaches, including diffusion, flow-matching, and variational models, show that even when losses are low, models often fail geometrically under distribution shift, yielding large lattice-recovery errors and near-zero joint accuracy on structure and symmetry. Overall, our results suggest that current methods rely on template memorization rather than scalable physical generalization. C2NP offers a controlled, reproducible framework for diagnosing these failures, with immediate applications to nanoparticle catalyst design, nanostructured hydrides for hydrogen storage, and materials discovery. Dataset and code are available at https://github.com/KurbanIntelligenceLab/C2NP.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.19076v1</guid>
-      <category>cond-mat.mtrl-sci</category>
-      <category>cond-mat.mes-hall</category>
+      <title>Exploring the holographic entropy cone via reinforcement learning</title>
+      <link>https://arxiv.org/abs/2601.19979</link>
+      <description>arXiv:2601.19979v1 Announce Type: cross 
+Abstract: We develop a reinforcement learning algorithm to study the holographic entropy cone. Given a target entropy vector, our algorithm searches for a graph realization whose min-cut entropies match the target vector. If the target vector does not admit such a graph realization, it must lie outside the cone, in which case the algorithm finds a graph whose corresponding entropy vector most nearly approximates the target and allows us to probe the location of the facets. For the $\sf N=3$ cone, we confirm that our algorithm successfully rediscovers monogamy of mutual information beginning with a target vector outside the holographic entropy cone. We then apply the algorithm to the $\sf N=6$ cone, analyzing the 6 "mystery" extreme rays of the subadditivity cone from arXiv:2412.15364 that satisfy all known holographic entropy inequalities yet lacked graph realizations. We found realizations for 3 of them, proving they are genuine extreme rays of the holographic entropy cone, while providing evidence that the remaining 3 are not realizable, implying unknown holographic inequalities exist for $\sf N=6$.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.19979v1</guid>
+      <category>hep-th</category>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Can Polat, Erchin Serpedin, Mustafa Kurban, Hasan Kurban</dc:creator>
-    </item>
-    <item>
-      <title>How Entanglement Reshapes the Geometry of Quantum Differential Privacy</title>
-      <link>https://arxiv.org/abs/2601.19126</link>
-      <description>arXiv:2601.19126v1 Announce Type: cross 
-Abstract: Quantum differential privacy provides a rigorous framework for quantifying privacy guarantees in quantum information processing. While classical correlations are typically regarded as adversarial to privacy, the role of their quantum analogue, entanglement, is not well understood. In this work, we investigate how quantum entanglement fundamentally shapes quantum local differential privacy (QLDP). We consider a bipartite quantum system whose input state has a prescribed level of entanglement, characterized by a lower bound on the entanglement entropy. Each subsystem is then processed by a local quantum mechanism and measured using local operations only, ensuring that no additional entanglement is generated during the process. Our main result reveals a sharp phase-transition phenomenon in the relation between entanglement and QLDP: below a mechanism-dependent entropy threshold, the optimal privacy leakage level mirrors that of unentangled inputs; beyond this threshold, the privacy leakage level decreases with the entropy, which strictly improves privacy guarantees and can even turn some non-private mechanisms into private ones. The phase-transition phenomenon gives rise to a nonlinear dependence of the privacy leakage level on the entanglement entropy, even though the underlying quantum mechanisms and measurements are linear. We show that the transition is governed by the intrinsic non-convex geometry of the set of entanglement-constrained quantum states, which we parametrize as a smooth manifold and analyze via Riemannian optimization. Our findings demonstrate that entanglement serves as a genuine privacy-enhancing resource, offering a geometric and operational foundation for designing robust privacy-preserving quantum protocols.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.19126v1</guid>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 28 Jan 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Xi Wang, Parastoo Sadeghi, Guodong Shi</dc:creator>
+      <dc:creator>Temple He, Jaeha Lee, Hirosi Ooguri</dc:creator>
     </item>
   </channel>
 </rss>

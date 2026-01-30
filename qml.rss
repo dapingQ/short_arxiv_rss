@@ -7,40 +7,138 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jan 2026 05:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 05:00:16 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Neural Quantum States in Mixed Precision</title>
-      <link>https://arxiv.org/abs/2601.20782</link>
-      <description>arXiv:2601.20782v1 Announce Type: new 
-Abstract: Scientific computing has long relied on double precision (64-bit floating point) arithmetic to guarantee accuracy in simulations of real-world phenomena. However, the growing availability of hardware accelerators such as Graphics Processing Units (GPUs) has made low-precision formats attractive due to their superior performance, reduced memory footprint, and improved energy efficiency. In this work, we investigate the role of mixed-precision arithmetic in neural-network based Variational Monte Carlo (VMC), a widely used method for solving computationally otherwise intractable quantum many-body systems. We first derive general analytical bounds on the error introduced by reduced precision on Metropolis-Hastings MCMC, and then empirically validate these bounds on the use-case of VMC. We demonstrate that significant portions of the algorithm, in particular, sampling the quantum state, can be executed in half precision without loss of accuracy. More broadly, this work provides a theoretical framework to assess the applicability of mixed-precision arithmetic in machine-learning approaches that rely on MCMC sampling. In the context of VMC, we additionally demonstrate the practical effectiveness of mixed-precision strategies, enabling more scalable and energy-efficient simulations of quantum many-body systems.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.20782v1</guid>
+      <title>Parametric Quantum State Tomography with HyperRBMs</title>
+      <link>https://arxiv.org/abs/2601.20950</link>
+      <description>arXiv:2601.20950v1 Announce Type: new 
+Abstract: Quantum state tomography (QST) is essential for validating quantum devices but suffers from exponential scaling in system size. Neural-network quantum states, such as Restricted Boltzmann Machines (RBMs), can efficiently parameterize individual many-body quantum states and have been successfully used for QST. However, existing approaches are point-wise and require retraining at every parameter value in a phase diagram. We introduce a parametric QST framework based on a hypernetwork that conditions an RBM on Hamiltonian control parameters, enabling a single model to represent an entire family of quantum ground states. Applied to the transverse-field Ising model, our HyperRBM achieves high-fidelity reconstructions from local Pauli measurements on 1D and 2D lattices across both phases and through the critical region. Crucially, the model accurately reproduces the fidelity susceptibility and identifies the quantum phase transition without prior knowledge of the critical point. These results demonstrate that hypernetwork-modulated neural quantum states provide an efficient and scalable route to tomographic reconstruction across full phase diagrams.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.20950v1</guid>
       <category>quant-ph</category>
-      <category>cond-mat.str-el</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Massimo Solinas, Agnes Valenti, Nawaf Bou-Rabee, Roeland Wiersema</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Simon Tonner, Viet T. Tran, Richard Kueng</dc:creator>
     </item>
     <item>
-      <title>Exploring the holographic entropy cone via reinforcement learning</title>
-      <link>https://arxiv.org/abs/2601.19979</link>
-      <description>arXiv:2601.19979v1 Announce Type: cross 
-Abstract: We develop a reinforcement learning algorithm to study the holographic entropy cone. Given a target entropy vector, our algorithm searches for a graph realization whose min-cut entropies match the target vector. If the target vector does not admit such a graph realization, it must lie outside the cone, in which case the algorithm finds a graph whose corresponding entropy vector most nearly approximates the target and allows us to probe the location of the facets. For the $\sf N=3$ cone, we confirm that our algorithm successfully rediscovers monogamy of mutual information beginning with a target vector outside the holographic entropy cone. We then apply the algorithm to the $\sf N=6$ cone, analyzing the 6 "mystery" extreme rays of the subadditivity cone from arXiv:2412.15364 that satisfy all known holographic entropy inequalities yet lacked graph realizations. We found realizations for 3 of them, proving they are genuine extreme rays of the holographic entropy cone, while providing evidence that the remaining 3 are not realizable, implying unknown holographic inequalities exist for $\sf N=6$.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2601.19979v1</guid>
-      <category>hep-th</category>
-      <category>cs.LG</category>
+      <title>Efficient Algorithms for Weakly-Interacting Quantum Spin Systems</title>
+      <link>https://arxiv.org/abs/2601.21140</link>
+      <description>arXiv:2601.21140v1 Announce Type: new 
+Abstract: We establish efficient algorithms for weakly-interacting quantum spin systems at arbitrary temperature. In particular, we obtain a fully polynomial-time approximation scheme for the partition function and an efficient approximate sampling scheme for the thermal distribution over a classical spin space. Our approach is based on the cluster expansion method and a standard reduction from approximate sampling to approximate counting.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21140v1</guid>
       <category>quant-ph</category>
-      <pubDate>Thu, 29 Jan 2026 00:00:00 -0500</pubDate>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <category>math.CO</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ryan L. Mann, Gabriel Waite</dc:creator>
+    </item>
+    <item>
+      <title>Reinforcement Learning for Adaptive Composition of Quantum Circuit Optimisation Passes</title>
+      <link>https://arxiv.org/abs/2601.21629</link>
+      <description>arXiv:2601.21629v1 Announce Type: new 
+Abstract: Many quantum software development kits provide a suite of circuit optimisation passes. These passes have been highly optimised and tested in isolation. However, the order in which they are applied is left to the user, or else defined in general-purpose default pass sequences. While general-purpose sequences miss opportunities for optimisation which are particular to individual circuits, designing pass sequences bespoke to particular circuits requires exceptional knowledge about quantum circuit design and optimisation. Here we propose and demonstrate training a reinforcement learning agent to compose optimisation-pass sequences. In particular the agent's action space consists of passes for two-qubit gate count reduction used in default PyTKET pass sequences. For the circuits in our diverse test set, the (mean, median) fraction of two-qubit gates removed by the agent is $(57.7\%, \ 56.7 \%)$, compared to $(41.8 \%, \ 50.0 \%)$ for the next best default pass sequence.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21629v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Daniel Mills, Ifan Williams, Jacob Swain, Gabriel Matos, Enrico Rinaldi, Alexander Koziell-Pipe</dc:creator>
+    </item>
+    <item>
+      <title>Entanglement-Assisted Bosonic MAC: Achievable Rates and Covert Communication</title>
+      <link>https://arxiv.org/abs/2601.21869</link>
+      <description>arXiv:2601.21869v1 Announce Type: new 
+Abstract: We consider the problem of covert communication over the entanglement-assisted (EA) bosonic multiple access channel (MAC). We derive a closed-form achievable rate region for the general EA bosonic MAC using high-order phase-shift keying (PSK) modulation. Specifically, we demonstrate that in the low-photon regime the capacity region collapses into a rectangle, asymptotically matching the point-to-point capacity as multi-user interference vanishes. We also characterize an achievable covert throughput region, showing that entanglement assistance enables an aggregate throughput scaling of \(O(\sqrt{n} \log n)\) covert bits with the block length $n$ for both senders, surpassing the square-root law as in the point-to-point case. Our analysis reveals that the joint covertness constraint imposes a linear trade-off between the senders throughput.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21869v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yu-Chen Shen, Matthieu R. Bloch</dc:creator>
+    </item>
+    <item>
+      <title>Hierarchy of discriminative power and complexity in learning quantum ensembles</title>
+      <link>https://arxiv.org/abs/2601.22005</link>
+      <description>arXiv:2601.22005v1 Announce Type: new 
+Abstract: Distance metrics are central to machine learning, yet distances between ensembles of quantum states remain poorly understood due to fundamental quantum measurement constraints. We introduce a hierarchy of integral probability metrics, termed MMD-$k$, which generalizes the maximum mean discrepancy to quantum ensembles and exhibit a strict trade-off between discriminative power and statistical efficiency as the moment order $k$ increases. For pure-state ensembles of size $N$, estimating MMD-$k$ using experimentally feasible SWAP-test-based estimators requires $\Theta(N^{2-2/k})$ samples for constant $k$, and $\Theta(N^3)$ samples to achieve full discriminative power at $k = N$. In contrast, the quantum Wasserstein distance attains full discriminative power with $\Theta(N^2 \log N)$ samples. These results provide principled guidance for the design of loss functions in quantum machine learning, which we illustrate in the training quantum denoising diffusion probabilistic models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22005v1</guid>
+      <category>quant-ph</category>
+      <category>math.ST</category>
+      <category>stat.ML</category>
+      <category>stat.TH</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jian Yao, Pengtao Li, Xiaohui Chen, Quntao Zhuang</dc:creator>
+    </item>
+    <item>
+      <title>Belief Propagation with Quantum Messages for Symmetric Q-ary Pure-State Channels</title>
+      <link>https://arxiv.org/abs/2601.21330</link>
+      <description>arXiv:2601.21330v1 Announce Type: cross 
+Abstract: Belief propagation with quantum messages (BPQM) provides a low-complexity alternative to collective measurements for communication over classical--quantum channels. Prior BPQM constructions and density-evolution (DE) analyses have focused on binary alphabets. Here, we generalize BPQM to symmetric q-ary pure-state channels (PSCs) whose output Gram matrix is circulant. For this class, we show that bit-node and check-node combining can be tracked efficiently via closed-form recursions on the Gram-matrix eigenvalues, independent of the particular physical realization of the output states. These recursions yield explicit BPQM unitaries and analytic bounds on the fidelities of the combined channels in terms of the input-channel fidelities. This provides a DE framework for symmetric q-ary PSCs that allows one to estimate BPQM decoding thresholds for LDPC codes and to construct polar codes on these channels.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21330v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Temple He, Jaeha Lee, Hirosi Ooguri</dc:creator>
+      <dc:creator>Avijit Mandal, Henry D. Pfister</dc:creator>
+    </item>
+    <item>
+      <title>Transversal gates for quantum CSS codes</title>
+      <link>https://arxiv.org/abs/2601.21514</link>
+      <description>arXiv:2601.21514v1 Announce Type: cross 
+Abstract: In this paper, we focus on the problem of computing the set of diagonal transversal gates fixing a CSS code. We determine the logical actions of the gates as well as the groups of transversal gates that induce non-trivial logical gates and logical identities. We explicitly declare the set of equations defining the groups, a key advantage and differentiator of our approach. We compute the complete set of transversal stabilizers and transversal gates for any CSS code arising from monomial codes, a family that includes decreasing monomial codes and polar codes. As a consequence, we recover and extend some results in the literature on CSS-T codes, triorthogonal codes, and divisible codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21514v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Eduardo Camps-Moreno, Hiram H. L\'opez, Gretchen L. Matthews, Narayanan Rengaswamy, Rodrigo San-Jos\'e</dc:creator>
+    </item>
+    <item>
+      <title>Strassen's support functionals coincide with the quantum functionals</title>
+      <link>https://arxiv.org/abs/2601.21553</link>
+      <description>arXiv:2601.21553v1 Announce Type: cross 
+Abstract: Strassen's asymptotic spectrum offers a framework for analyzing the complexity of tensors. It has found applications in diverse areas, from computer science to additive combinatorics and quantum information. A long-standing open problem, dating back to 1991, asks whether Strassen's support functionals are universal spectral points, that is, points in the asymptotic spectrum of tensors.
+  In this paper, we answer this question in the affirmative by proving that the support functionals coincide with the quantum functionals - universal spectral points that are defined via entropy optimization on entanglement polytopes. We obtain this result as a special case of a general minimax formula for convex optimization on entanglement polytopes (and other moment polytopes) that has further applications to other tensor parameters, including the asymptotic slice rank. Our proof is based on a recent Fenchel-type duality theorem on Hadamard manifolds due to Hirai.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21553v1</guid>
+      <category>cs.CC</category>
+      <category>math.OC</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Keiya Sakabe, Mahmut Levent Do\u{g}an, Michael Walter</dc:creator>
+    </item>
+    <item>
+      <title>Quantum LEGO Learning: A Modular Design Principle for Hybrid Artificial Intelligence</title>
+      <link>https://arxiv.org/abs/2601.21780</link>
+      <description>arXiv:2601.21780v1 Announce Type: cross 
+Abstract: Hybrid quantum-classical learning models increasingly integrate neural networks with variational quantum circuits (VQCs) to exploit complementary inductive biases. However, many existing approaches rely on tightly coupled architectures or task-specific encoders, limiting conceptual clarity, generality, and transferability across learning settings. In this work, we introduce Quantum LEGO Learning, a modular and architecture-agnostic learning framework that treats classical and quantum components as reusable, composable learning blocks with well-defined roles. Within this framework, a pre-trained classical neural network serves as a frozen feature block, while a VQC acts as a trainable adaptive module that operates on structured representations rather than raw inputs. This separation enables efficient learning under constrained quantum resources and provides a principled abstraction for analyzing hybrid models. We develop a block-wise generalization theory that decomposes learning error into approximation and estimation components, explicitly characterizing how the complexity and training status of each block influence overall performance. Our analysis generalizes prior tensor-network-specific results and identifies conditions under which quantum modules provide representational advantages over comparably sized classical heads. Empirically, we validate the framework through systematic block-swap experiments across frozen feature extractors and both quantum and classical adaptive heads. Experiments on quantum dot classification demonstrate stable optimization, reduced sensitivity to qubit count, and robustness to realistic noise.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.21780v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Fri, 30 Jan 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jun Qi, Chao-Han Huck Yang, Pin-Yu Chen, Min-Hsiu Hsieh, Hector Zenil, Jesper Tegner</dc:creator>
     </item>
   </channel>
 </rss>

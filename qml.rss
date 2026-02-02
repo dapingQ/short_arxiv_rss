@@ -7,12 +7,114 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Feb 2026 05:00:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 05:00:11 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 01 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
+    <item>
+      <title>Practical Evaluation of Quantum Kernel Methods for Radar Micro-Doppler Classification on Noisy Intermediate-Scale Quantum (NISQ) Hardware</title>
+      <link>https://arxiv.org/abs/2601.22194</link>
+      <description>arXiv:2601.22194v1 Announce Type: new 
+Abstract: This paper examines the application of a Quantum Support Vector Machine (QSVM) for radarbased aerial target classification using micro-Doppler signatures. Classical features are extracted and reduced via Principal Component Analysis (PCA) to enable efficient quantum encoding. The reduced feature vectors are embedded into a quantum kernel-induced feature space using a fully entangled ZZFeatureMap and classified using a kernel based QSVM. Performance is first evaluated on a quantum simulator and subsequently validated on NISQ-era superconducting quantum hardware, specifically the IBM Torino (133-qubit) and IBM Fez (156-qubit) processors. Experimental results demonstrate that the QSVM achieves competitive classification performance relative to classical SVM baselines while operating on substantially reduced feature dimensionality. Hardware experiments reveal the impact of noise and decoherence and measurement shot count on quantum kernel estimation, and further show improved stability and fidelity on newer Heron r2 architecture. This study provides a systematic comparison between simulator-based and hardware-based QSVM implementations and highlights both the feasibility and current limitations of deploying quantum kernel methods for practical radar signal classification tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22194v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Vikas Agnihotri, Jasleen Kaur, Sarvagya Kaushik</dc:creator>
+    </item>
+    <item>
+      <title>Spectral Filtering for Learning Quantum Dynamics</title>
+      <link>https://arxiv.org/abs/2601.22400</link>
+      <description>arXiv:2601.22400v1 Announce Type: new 
+Abstract: Learning high-dimensional quantum systems is a fundamental challenge that notoriously suffers from the curse of dimensionality. We formulate the task of predicting quantum evolution in the linear response regime as a specific instance of learning a Complex-Valued Linear Dynamical System (CLDS) with sector-bounded eigenvalues -- a setting that also encompasses modern Structured State Space Models (SSMs). While traditional system identification attempts to reconstruct full system matrices (incurring exponential cost in the Hilbert dimension), we propose Quantum Spectral Filtering, a method that shifts the goal to improper dynamic learning. Leveraging the optimal concentration properties of the Slepian basis, we prove that the learnability of such systems is governed strictly by an effective quantum dimension $k^*$, determined by the spectral bandwidth and memory horizon. This result establishes that complex-valued LDSs can be learned with sample and computational complexity independent of the ambient state dimension, provided their spectrum is bounded.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22400v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Elad Hazan, Annie Marsden</dc:creator>
+    </item>
+    <item>
+      <title>On the undecidability of quantum channel capacities</title>
+      <link>https://arxiv.org/abs/2601.22471</link>
+      <description>arXiv:2601.22471v1 Announce Type: new 
+Abstract: An important distinction in our understanding of capacities of classical versus quantum channels is marked by the following question: is there an algorithm which can compute (or even efficiently compute) the capacity? While there is overwhelming evidence suggesting that quantum channel capacities may be uncomputable, a formal proof of any such statement is elusive. We initiate the study of the hardness of computing quantum channel capacities. We show that, for a general quantum channel, it is QMA-hard to compute its quantum capacity, and that the maximal-entanglement-assisted zero-error one-shot classical capacity is uncomputable.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22471v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Archishna Bhattacharyya, Arthur Mehta, Yuming Zhao</dc:creator>
+    </item>
+    <item>
+      <title>Structural Conditions for Native CCZ Magic-State Fountains in qLDPC Codes</title>
+      <link>https://arxiv.org/abs/2601.22489</link>
+      <description>arXiv:2601.22489v1 Announce Type: new 
+Abstract: Quantum low-density parity-check (qLDPC) codes promise constant-rate, linear-distance families with bounded-weight checks, and recent work has realized transversal or constant-depth non-Clifford gates on various (often non-LDPC) codes. However, no explicit \emph{qubit} qLDPC family is known that simultaneously has constant rate, linear distance, bounded stabilizer weight, and a native \emph{magic-state fountain} that prepares many non-Clifford resource states in constant depth.
+  We take a structural approach and identify coding-theoretic conditions under which a CSS qLDPC family necessarily supports a constant-depth $\CCZ$ magic-state fountain. The key ingredients are: (i) an algebraic notion of \emph{magic-friendly triples} of $X$-type logical operators, defined by pairwise orthogonality and a triple-overlap form controlling diagonal $\CCZ$ phases, and (ii) a 3-uniform hypergraph model of physical $\CCZ$ circuits combined with a packing lemma that turns large collections of such triples with bounded overlaps into bounded-degree hypergraphs.
+  Our main theorem shows that if a CSS code family on $n$ qubits admits $\Omega(n^{1+\gamma})$ magic-friendly triples whose supports have bounded per-qubit participation, then there exists a constant-depth circuit of physical $\CCZ$ gates implementing $\Omega(n^{\gamma})$ logical $\CCZ$ gates in parallel while preserving distance up to a constant factor. For asymptotically good qLDPC families such as quantum Tanner codes, this reduces the existence of a native $\CCZ$ magic-state fountain to a concrete combinatorial problem about counting and distributing magic-friendly triples in the logical $X$ space.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22489v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Mohammad Rowshan</dc:creator>
+    </item>
+    <item>
+      <title>Quaternionic Perfect Sequences and Hadamard Matrices</title>
+      <link>https://arxiv.org/abs/2601.22337</link>
+      <description>arXiv:2601.22337v1 Announce Type: cross 
+Abstract: A finite sequence of numbers is perfect if it has zero periodic autocorrelation after a nontrivial cyclic shift. In this work, we study quaternionic perfect sequences having a one-to-one correspondence with the binary sequences arising in Williamson's construction of quaternion-type Hadamard matrices. Using this correspondence, we devise an enumeration algorithm that is significantly faster than previously used algorithms and does not require the sequences to be symmetric. We implement our algorithm and use it to enumerate all circulant and possibly non-symmetric Williamson-type matrices of orders up to 21; previously, the largest order exhaustively enumerated was 13. We prove that when the blocks of a quaternion-type Hadamard matrix are circulant, the blocks are necessarily pairwise amicable. This dramatically improves the filtering power of our algorithm: in order 20, the number of block pairs needing consideration is reduced by a factor of over 25,000. We use our results to construct quaternionic Hadamard matrices of interest in quantum communication and prove they are not equivalent to those constructed by other means. We also study the properties of quaternionic Hadamard matrices analytically, and demonstrate the feasibility of characterizing quaternionic Hadamard matrices with a fixed pattern of entries. These results indicate a richer set of properties and suggest an abundance of quaternionic Hadamard matrices for sufficiently large orders.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22337v1</guid>
+      <category>math.CO</category>
+      <category>cs.DM</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Aidan Bennett, Curtis Bright, Paul Colinot, Ashwin Nayak</dc:creator>
+    </item>
+    <item>
+      <title>Quantum-Inspired Reinforcement Learning for Secure and Sustainable AIoT-Driven Supply Chain Systems</title>
+      <link>https://arxiv.org/abs/2601.22339</link>
+      <description>arXiv:2601.22339v1 Announce Type: cross 
+Abstract: Modern supply chains must balance high-speed logistics with environmental impact and security constraints, prompting a surge of interest in AI-enabled Internet of Things (AIoT) solutions for global commerce. However, conventional supply chain optimization models often overlook crucial sustainability goals and cyber vulnerabilities, leaving systems susceptible to both ecological harm and malicious attacks. To tackle these challenges simultaneously, this work integrates a quantum-inspired reinforcement learning framework that unifies carbon footprint reduction, inventory management, and cryptographic-like security measures. We design a quantum-inspired reinforcement learning framework that couples a controllable spin-chain analogy with real-time AIoT signals and optimizes a multi-objective reward unifying fidelity, security, and carbon costs. The approach learns robust policies with stabilized training via value-based and ensemble updates, supported by window-normalized reward components to ensure commensurate scaling. In simulation, the method exhibits smooth convergence, strong late-episode performance, and graceful degradation under representative noise channels, outperforming standard learned and model-based references, highlighting its robust handling of real-time sustainability and risk demands. These findings reinforce the potential for quantum-inspired AIoT frameworks to drive secure, eco-conscious supply chain operations at scale, laying the groundwork for globally connected infrastructures that responsibly meet both consumer and environmental needs.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22339v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <arxiv:DOI>10.1109/JIOT.2025.3637911</arxiv:DOI>
+      <dc:creator>Muhammad Bilal Akram Dastagir, Omer Tariq, Shahid Mumtaz, Saif Al-Kuwari, Ahmed Farouk</dc:creator>
+    </item>
+    <item>
+      <title>Quantum $(r,\delta)$-Locally Recoverable BCH and Homothetic-BCH Codes</title>
+      <link>https://arxiv.org/abs/2601.22567</link>
+      <description>arXiv:2601.22567v1 Announce Type: cross 
+Abstract: Quantum $(r,\delta)$-locally recoverable codes ($(r,\delta)$-LRCs) are the quantum version of classical $(r,\delta)$-LRCs designed to recover multiple failures in large-scale distributed and cloud storage systems. A quantum $(r,\delta)$-LRC, $Q(C)$, can be constructed from an $(r,\delta)$-LRC, $C$, which is Euclidean or Hermitian dual-containing.
+  This article is devoted to studying how to get quantum $(r,\delta)$-LRCs from BCH and homothetic-BCH codes. As a consequence, we give pure quantum $(r,\delta)$-LRCs which are optimal for the Singleton-like bound.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2601.22567v1</guid>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Carlos Galindo, Fernando Hernando, Ryutaroh Matsumoto</dc:creator>
+    </item>
   </channel>
 </rss>

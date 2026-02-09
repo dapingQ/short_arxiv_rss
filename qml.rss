@@ -7,12 +7,94 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Feb 2026 05:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 05:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 08 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Sunday</day>
       <day>Saturday</day>
     </skipDays>
+    <item>
+      <title>Warm Starts, Cold States: Exploiting Adiabaticity for Variational Ground-States</title>
+      <link>https://arxiv.org/abs/2602.06137</link>
+      <description>arXiv:2602.06137v1 Announce Type: new 
+Abstract: Reliable preparation of many-body ground states is an essential task in quantum computing, with applications spanning areas from chemistry and materials modeling to quantum optimization and benchmarking. A variety of approaches have been proposed to tackle this problem, including variational methods. However, variational training often struggle to navigate complex energy landscapes, frequently encountering suboptimal local minima or suffering from barren plateaus. In this work, we introduce an iterative strategy for ground-state preparation based on a stepwise (discretized) Hamiltonian deformation. By complementing the Variational Quantum Eigensolver (VQE) with adiabatic principles, we demonstrate that solving a sequence of intermediate problems facilitates tracking the ground-state manifold toward the target system, even as we scale the system size. We provide a rigorous theoretical foundation for this approach, proving a lower bound on the loss variance that suggests trainability throughout the deformation, provided the system remains away from gap closings. Numerical simulations, including the effects of shot noise, confirm that this path-dependent tracking consistently converges to the target ground state.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06137v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <category>stat.ML</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ricard Puig, Berta Casas, Alba Cervera-Lierta, Zo\"e Holmes, Adri\'an P\'erez-Salinas</dc:creator>
+    </item>
+    <item>
+      <title>HyQuRP: Hybrid quantum-classical neural network with rotational and permutational equivariance for 3D point clouds</title>
+      <link>https://arxiv.org/abs/2602.06381</link>
+      <description>arXiv:2602.06381v1 Announce Type: new 
+Abstract: We introduce HyQuRP, a hybrid quantum-classical neural network equivariant to rotational and permutational symmetries. While existing equivariant quantum machine learning models often rely on ad hoc constructions, HyQuRP is built upon the formal foundations of group representation theory. In the sparse-point regime, HyQuRP consistently outperforms strong classical and quantum baselines across multiple benchmarks. For example, when six subsampled points are used, HyQuRP ($\sim$1.5K parameters) achieves 76.13% accuracy on the 5-class ModelNet benchmark, compared to approximately 71% for PointNet, PointMamba, and PointTransformer with similar parameter counts. These results highlight HyQuRP's exceptional data efficiency and suggest the potential of quantum machine learning models for processing 3D point cloud data.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06381v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Semin Park, Chae-Yeun Park</dc:creator>
+    </item>
+    <item>
+      <title>Quantum Attention by Overlap Interference: Predicting Sequences from Classical and Many-Body Quantum Data</title>
+      <link>https://arxiv.org/abs/2602.06699</link>
+      <description>arXiv:2602.06699v1 Announce Type: new 
+Abstract: We propose a variational quantum implementation of self-attention (QSA), the core operation in transformers and large language models, which predicts future elements of a sequence by forming overlap-weighted combinations of past data. At variance with previous approaches, our QSA realizes the required nonlinearity through interference of state overlaps and returns a Renyi-1/2 cross-entropy loss directly as the expectation value of an observable, avoiding the need to decode amplitude-encoded predictions into classical logits. Furthermore, QSA naturally accommodates a constrained, trainable data-embedding that ties quantum state overlaps to data-level similarities. We find a gate complexity dominant scaling O(T d^2) for QSA, versus O(T^2 d) classically, suggesting an advantage in the practical regime where the sequence length T dominates the embedding size d. In simulations, we show that our QSA-based quantum transformer learns sequence prediction on classical data and on many-body transverse-field Ising quantum trajectories, establishing trainable attention as a practical primitive for quantum dynamical modeling.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06699v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Alessio Pecilli, Matteo Rosati</dc:creator>
+    </item>
+    <item>
+      <title>The Quantum Sieve Tracer: A Hybrid Framework for Layer-Wise Activation Tracing in Large Language Models</title>
+      <link>https://arxiv.org/abs/2602.06852</link>
+      <description>arXiv:2602.06852v1 Announce Type: new 
+Abstract: Mechanistic interpretability aims to reverse-engineer the internal computations of Large Language Models (LLMs), yet separating sparse semantic signals from high-dimensional polysemantic noise remains a significant challenge. This paper introduces the Quantum Sieve Tracer, a hybrid quantum-classical framework designed to characterize factual recall circuits. We implement a modular pipeline that first localizes critical layers using classical causal tracing, then maps specific attention head activations into an exponentially large quantum Hilbert space. Using open-weight models (Meta Llama-3.2-1B and Alibaba Qwen2.5-1.5B-Instruct), we perform a two-stage analysis that reveals a fundamental architectural divergence. While Qwen's layer 7 circuit functions as a classic Recall Hub, we discover that Llama's layer 9 acts as an Interference Suppression circuit, where ablating the identified heads paradoxically improves factual recall. Our results demonstrate that quantum kernels can distinguish between these constructive (recall) and reductive (suppression) mechanisms, offering a high-resolution tool for analyzing the fine-grained topology of attention.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06852v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Jonathan Pan</dc:creator>
+    </item>
+    <item>
+      <title>Private and interpretable clinical prediction with quantum-inspired tensor train models</title>
+      <link>https://arxiv.org/abs/2602.06110</link>
+      <description>arXiv:2602.06110v1 Announce Type: cross 
+Abstract: Machine learning in clinical settings must balance predictive accuracy, interpretability, and privacy. Models such as logistic regression (LR) offer transparency, while neural networks (NNs) provide greater predictive power; yet both remain vulnerable to privacy attacks. We empirically assess these risks by designing attacks that identify which public datasets were used to train a model under varying levels of adversarial access, applying them to LORIS, a publicly available LR model for immunotherapy response prediction, as well as to additional shallow NN models trained for the same task. Our results show that both models leak significant training-set information, with LRs proving particularly vulnerable in white-box scenarios. Moreover, we observe that common practices such as cross-validation in LRs exacerbate these risks. To mitigate these vulnerabilities, we propose a quantum-inspired defense based on tensorizing discretized models into tensor trains (TTs), which fully obfuscates parameters while preserving accuracy, reducing white-box attacks to random guessing and degrading black-box attacks comparably to Differential Privacy. TT models retain LR interpretability and extend it through efficient computation of marginal and conditional distributions, while also enabling this higher level of interpretability for NNs. Our results demonstrate that tensorization is widely applicable and establishes a practical foundation for private, interpretable, and effective clinical prediction.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06110v1</guid>
+      <category>cs.LG</category>
+      <category>cs.CR</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Jos\'e Ram\'on Pareja Monturiol, Juliette Sinnott, Roger G. Melko, Mohammad Kohandel</dc:creator>
+    </item>
+    <item>
+      <title>Disentanglement by means of action-induced representations</title>
+      <link>https://arxiv.org/abs/2602.06741</link>
+      <description>arXiv:2602.06741v1 Announce Type: cross 
+Abstract: Learning interpretable representations with variational autoencoders (VAEs) is a major goal of representation learning. The main challenge lies in obtaining disentangled representations, where each latent dimension corresponds to a distinct generative factor. This difficulty is fundamentally tied to the inability to perform nonlinear independent component analysis. Here, we introduce the framework of action-induced representations (AIRs) which models representations of physical systems given experiments (or actions) that can be performed on them. We show that, in this framework, we can provably disentangle degrees of freedom w.r.t. their action dependence. We further introduce a variational AIR architecture (VAIR) that can extract AIRs and therefore achieve provable disentanglement where standard VAEs fail. Beyond state representation, VAIR also captures the action dependence of the underlying generative factors, directly linking experiments to the degrees of freedom they influence.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.06741v1</guid>
+      <category>cs.LG</category>
+      <category>physics.data-an</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>Gorka Mu\~noz-Gil, Hendrik Poulsen Nautrup, Arunava Majumder, Paulin de Schoulepnikoff, Florian F\"urrutter, Marius Krumm, Hans J. Briegel</dc:creator>
+    </item>
   </channel>
 </rss>

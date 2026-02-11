@@ -7,68 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Feb 2026 05:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 05:00:10 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Plethysm is in #BQP</title>
-      <link>https://arxiv.org/abs/2602.08441</link>
-      <description>arXiv:2602.08441v1 Announce Type: new 
-Abstract: Some representation-theoretic multiplicities, such as the Kostka and the Littlewood-Richardson coefficients, admit a combinatorial interpretation that places their computation in the complexity class #P. Whether this holds more generally is considered an important open problem in mathematics and computer science, with relevance for geometric complexity theory and quantum information. Recent work has investigated the quantum complexity of particular multiplicities, such as the Kronecker coefficients and certain special cases of the plethysm coefficients.
-  Here, we show that a broad class of representation-theoretic multiplicities is in #BQP. In particular, our result implies that the plethysm coefficients are in #BQP, which was only known in special cases. It also implies all known results on the quantum complexity of previously studied coefficients as special cases, unifying, simplifying, and extending prior work. We obtain our result by multiple applications of the Schur transform. Recent work has improved its dependence on the local dimension, which is crucial for our work. We further describe a general approach for showing that representation-theoretic multiplicities are in #BQP that captures our approach as well as the approaches of prior work. We complement the above by showing that the same multiplicities are also naturally in GapP and obtain polynomial-time classical algorithms when certain parameters are fixed.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.08441v1</guid>
+      <title>Surrogate-Guided Quantum Discovery in Black-Box Landscapes with Latent-Quadratic Interaction Embedding Transformers</title>
+      <link>https://arxiv.org/abs/2602.09374</link>
+      <description>arXiv:2602.09374v1 Announce Type: new 
+Abstract: Discovering configurations that are both high-utility and structurally diverse under expensive black-box evaluation and strict query budgets remains a central challenge in data-driven discovery. Many classical optimizers concentrate on dominant modes, while quality-diversity methods require large evaluation budgets to populate high-dimensional archives. Quantum Approximate Optimization Algorithm (QAOA) provides distributional sampling but requires an explicit problem Hamiltonian, which is unavailable in black-box settings. Practical quantum circuits favor quadratic Hamiltonians since higher-order interaction terms are costly to realize. Learned quadratic surrogates such as Factorization Machines (FM) have been used as proxies, but are limited to pairwise structure. We extend this surrogate-to-Hamiltonian approach by modelling higher-order variable dependencies via self-attention and projects them into a valid Positive Semi-Definite quadratic form compatible with QAOA. This enables diversity-oriented quantum sampling from learned energy landscapes while capturing interaction structure beyond pairwise terms. We evaluate on risk discovery for enterprise document processing systems against diverse classical optimizers. Quantum-guided samplers achieve competitive utility while consistently improving structural diversity and exclusive discovery. FM surrogates provide stronger early coverage, whereas ours yields higher-fidelity surrogate landscapes and better extreme-case discovery. Our method recovers roughly twice as many structurally tail-risk outliers as most classical baselines and identify an exclusive non-overlapping fraction of high-utility configurations not found by competing methods, highlighting that an effective mechanism for learning higher-order interaction structure and projecting it into quadratic surrogate Hamiltonians for quantum-assisted black-box discovery.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.09374v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Saisubramaniam Gopalakrishnan, Dagnachew Birru</dc:creator>
+    </item>
+    <item>
+      <title>Separating Quantum and Classical Advice with Good Codes</title>
+      <link>https://arxiv.org/abs/2602.09385</link>
+      <description>arXiv:2602.09385v1 Announce Type: new 
+Abstract: We show an unconditional classical oracle separation between the class of languages that can be verified using a quantum proof ($\mathsf{QMA}$) and the class of languages that can be verified with a classical proof ($\mathsf{QCMA}$). Compared to the recent work of Bostanci, Haferkamp, Nirkhe, and Zhandry (STOC 2026), our proof is conceptually and technically simpler, and readily extends to other oracle separations. In particular, our techniques yield the first unconditional classical oracle separation between the class of languages that can be decided with quantum advice ($\mathsf{BQP}/\mathsf{qpoly}$) and the class of languages that can be decided with classical advice ($\mathsf{BQP}/\mathsf{poly}$), improving on the quantum oracle separation of Aaronson and Kuperberg (CCC 2007) and the classically-accessible classical oracle separation of Li, Liu, Pelecanos and Yamakawa (ITCS 2024).
+  Our oracles are based on the code intersection problem introduced by Yamakawa and Zhandry (FOCS 2022), combined with codes that have extremely good list-recovery properties.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.09385v1</guid>
       <category>quant-ph</category>
       <category>cs.CC</category>
-      <category>math.CO</category>
-      <category>math.RT</category>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Matthias Christandl, Aram W. Harrow, Greta Panova, Pietro M. Posta, Michael Walter</dc:creator>
+      <dc:creator>John Bostanci, Andrew Huang, Vinod Vaikuntanathan</dc:creator>
     </item>
     <item>
-      <title>Empirical Study of Observable Sets in Multiclass Quantum Classification</title>
-      <link>https://arxiv.org/abs/2602.08485</link>
-      <description>arXiv:2602.08485v1 Announce Type: new 
-Abstract: Variational quantum algorithms have gained attention as early applications of quantum computers for learning tasks. In the context of supervised learning, most of the works that tackle classification problems with parameterized quantum circuits constrain their scope to the setting of binary classification or perform multiclass classification via ensembles of binary classifiers (strategies such as one versus rest). Those few works that propose native multiclass models, however, do not justify the choice of observables that perform the classification. This work studies two main classification criteria in multiclass quantum machine learning: maximizing the expected value of an observable representing a class or maximizing the fidelity of the encoded quantum state with a reference state representing a class. To compare both approaches, sets of Pauli strings and sets of projectors into the computational basis are chosen as observables in the quantum machine learning models. Observing the empirical behavior of each model type, the effect of different observable set choices on the performance of quantum machine learning models is analyzed in the context of Barren Plateaus and Neural Collapse. The results provide insights that may guide the design of future multiclass quantum machine learning models.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.08485v1</guid>
+      <title>SAQNN: Spectral Adaptive Quantum Neural Network as a Universal Approximator</title>
+      <link>https://arxiv.org/abs/2602.09718</link>
+      <description>arXiv:2602.09718v1 Announce Type: new 
+Abstract: Quantum machine learning (QML), as an interdisciplinary field bridging quantum computing and machine learning, has garnered significant attention in recent years. Currently, the field as a whole faces challenges due to incomplete theoretical foundations for the expressivity of quantum neural networks (QNNs). In this paper we propose a constructive QNN model and demonstrate that it possesses the universal approximation property (UAP), which means it can approximate any square-integrable function up to arbitrary accuracy. Furthermore, it supports switching function bases, thus adaptable to various scenarios in numerical approximation and machine learning. Our model has asymptotic advantages over the best classical feed-forward neural networks in terms of circuit size and achieves optimal parameter complexity when approximating Sobolev functions under $L_2$ norm.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.09718v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Paul San Sebastian, Mikel Ca\~nizo, Roman Orus</dc:creator>
+      <dc:creator>Jialiang Tang, Jialin Zhang, Xiaoming Sun</dc:creator>
     </item>
     <item>
-      <title>Differentiable Logical Programming for Quantum Circuit Discovery and Optimization</title>
-      <link>https://arxiv.org/abs/2602.08880</link>
-      <description>arXiv:2602.08880v1 Announce Type: new 
-Abstract: Designing high-fidelity quantum circuits remains challenging, and current paradigms often depend on heuristic, fixed-ansatz structures or rule-based compilers that can be suboptimal or lack generality. We introduce a neuro-symbolic framework that reframes quantum circuit design as a differentiable logic programming problem. Our model represents a scaffold of potential quantum gates and parameterized operations as a set of learnable, continuous ``truth values'' or ``switches,'' $s \in [0, 1]^N$. These switches are optimized via standard gradient descent to satisfy a user-defined set of differentiable, logical axioms (e.g., correctness, simplicity, robustness). We provide a theoretical formulation bridging continuous logic (via T-norms) and unitary evolution (via geodesic interpolation), while addressing the barren plateau problem through biased initialization. We illustrate the approach on tasks including discovery of a 4-qubit Quantum Fourier Transform (QFT) from a scaffold of 21 candidate gates. We also report a hardware-aware adaptation experiment on the 133-qubit IBM Torino processor, where the method improved fidelity by 59.3 percentage points in a localized routing task while adapting to hardware failures.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.08880v1</guid>
-      <category>quant-ph</category>
+      <title>Effectiveness of Binary Autoencoders for QUBO-Based Optimization Problems</title>
+      <link>https://arxiv.org/abs/2602.10037</link>
+      <description>arXiv:2602.10037v1 Announce Type: cross 
+Abstract: In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutations, the choice of binary encoding strongly affects search efficiency. If the encoding fails to reflect the original neighborhood structure, small Hamming moves may not correspond to meaningful modifications in the original solution space, and constrained problems can yield many infeasible candidates that waste evaluations. Recent work combines FMQA with a binary autoencoder (bAE) that learns a compact binary latent code from feasible solutions, yet the mechanism behind its performance gains is unclear. Using a small traveling salesman problem as an interpretable testbed, we show that the bAE reconstructs feasible tours accurately and, compared with manually designed encodings at similar compression, better aligns tour distances with latent Hamming distances, yields smoother neighborhoods under small bit flips, and produces fewer local optima. These geometric properties explain why bAE+FMQA improves the approximation ratio faster while maintaining feasibility throughout optimization, and they provide guidance for designing latent representations for black-box optimization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.10037v1</guid>
       <category>cs.LG</category>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Antonin Sulc</dc:creator>
-    </item>
-    <item>
-      <title>Roadmap to Quantum Aesthetics</title>
-      <link>https://arxiv.org/abs/2602.08363</link>
-      <description>arXiv:2602.08363v1 Announce Type: cross 
-Abstract: Quantum mechanics occupies a central position in contemporary science while remaining largely inaccessible to direct sensory experience. This paper proposes a roadmap to quantum aesthetics that examines how quantum concepts become aesthetic phenomena through artistic mediation rather than direct representation. Two complementary and orthogonal approaches are articulated. The first, a pioneering top-down approach, employs text-prompt-based generative AI to probe quantum aesthetics as a collective cultural construct embedded in large-scale training data. By systematically modulating the linguistic weight of the term "quantum," generative models are used as experimental environments to reveal how quantum imaginaries circulate within contemporary visual culture. The second, a bottom-up approach, derives aesthetic form directly from quantum-mechanical structures through the visualization of quantum-generated data, exemplified here by hydrogen atomic orbitals calculated from the Schr\"odinger equation. These approaches are framed not as competing methods but as intersecting paths within a navigable field of artistic research. They position quantum aesthetics as an emergent field of artistic research shaped by cultural imagination, computational mediation, and physical law, opening new directions for artistic practice and pedagogy at the intersection of art, data, artificial intelligence and quantum science.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.08363v1</guid>
-      <category>physics.pop-ph</category>
-      <category>cs.AI</category>
+      <category>cond-mat.stat-mech</category>
       <category>quant-ph</category>
-      <pubDate>Tue, 10 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ivan C. H. Liu, Hsiao-Yuan Chen</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Tetsuro Abe, Masashi Yamashita, Shu Tanaka</dc:creator>
     </item>
   </channel>
 </rss>

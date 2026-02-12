@@ -7,66 +7,71 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 05:00:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 05:00:14 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 12 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Surrogate-Guided Quantum Discovery in Black-Box Landscapes with Latent-Quadratic Interaction Embedding Transformers</title>
-      <link>https://arxiv.org/abs/2602.09374</link>
-      <description>arXiv:2602.09374v1 Announce Type: new 
-Abstract: Discovering configurations that are both high-utility and structurally diverse under expensive black-box evaluation and strict query budgets remains a central challenge in data-driven discovery. Many classical optimizers concentrate on dominant modes, while quality-diversity methods require large evaluation budgets to populate high-dimensional archives. Quantum Approximate Optimization Algorithm (QAOA) provides distributional sampling but requires an explicit problem Hamiltonian, which is unavailable in black-box settings. Practical quantum circuits favor quadratic Hamiltonians since higher-order interaction terms are costly to realize. Learned quadratic surrogates such as Factorization Machines (FM) have been used as proxies, but are limited to pairwise structure. We extend this surrogate-to-Hamiltonian approach by modelling higher-order variable dependencies via self-attention and projects them into a valid Positive Semi-Definite quadratic form compatible with QAOA. This enables diversity-oriented quantum sampling from learned energy landscapes while capturing interaction structure beyond pairwise terms. We evaluate on risk discovery for enterprise document processing systems against diverse classical optimizers. Quantum-guided samplers achieve competitive utility while consistently improving structural diversity and exclusive discovery. FM surrogates provide stronger early coverage, whereas ours yields higher-fidelity surrogate landscapes and better extreme-case discovery. Our method recovers roughly twice as many structurally tail-risk outliers as most classical baselines and identify an exclusive non-overlapping fraction of high-utility configurations not found by competing methods, highlighting that an effective mechanism for learning higher-order interaction structure and projecting it into quadratic surrogate Hamiltonians for quantum-assisted black-box discovery.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.09374v1</guid>
+      <title>Quantum Integrated Sensing and Computation with Indefinite Causal Order</title>
+      <link>https://arxiv.org/abs/2602.10225</link>
+      <description>arXiv:2602.10225v1 Announce Type: new 
+Abstract: Quantum operations with indefinite causal order (ICO) represent a framework in quantum information processing where the relative order between two events can be indefinite. In this paper, we investigate whether sensing and computation, two canonical tasks in quantum information processing, can be carried out within the ICO framework. We propose a scheme for integrated sensing and computation that uses the same quantum state for both tasks. The quantum state is represented as an agent that performs state observation and learns a function of the state to make predictions via a parametric model. Under an ICO operation, the agent experiences a superposition of orders, one in which it performs state observation and then executes the required computation steps, and another in which the agent carries out the computation first and then performs state observation. This is distinct from prevailing information processing and machine intelligence paradigms where information acquisition and learning follow a strict causal order, with the former always preceding the latter. We provide experimental results and we show that the proposed scheme can achieve small training and testing losses on a representative task in magnetic navigation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.10225v1</guid>
       <category>quant-ph</category>
       <category>cs.AI</category>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.IT</category>
+      <category>eess.SP</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Saisubramaniam Gopalakrishnan, Dagnachew Birru</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ivana Nikoloska</dc:creator>
     </item>
     <item>
-      <title>Separating Quantum and Classical Advice with Good Codes</title>
-      <link>https://arxiv.org/abs/2602.09385</link>
-      <description>arXiv:2602.09385v1 Announce Type: new 
-Abstract: We show an unconditional classical oracle separation between the class of languages that can be verified using a quantum proof ($\mathsf{QMA}$) and the class of languages that can be verified with a classical proof ($\mathsf{QCMA}$). Compared to the recent work of Bostanci, Haferkamp, Nirkhe, and Zhandry (STOC 2026), our proof is conceptually and technically simpler, and readily extends to other oracle separations. In particular, our techniques yield the first unconditional classical oracle separation between the class of languages that can be decided with quantum advice ($\mathsf{BQP}/\mathsf{qpoly}$) and the class of languages that can be decided with classical advice ($\mathsf{BQP}/\mathsf{poly}$), improving on the quantum oracle separation of Aaronson and Kuperberg (CCC 2007) and the classically-accessible classical oracle separation of Li, Liu, Pelecanos and Yamakawa (ITCS 2024).
-  Our oracles are based on the code intersection problem introduced by Yamakawa and Zhandry (FOCS 2022), combined with codes that have extremely good list-recovery properties.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.09385v1</guid>
+      <title>Privacy-Utility Tradeoffs in Quantum Information Processing</title>
+      <link>https://arxiv.org/abs/2602.10510</link>
+      <description>arXiv:2602.10510v1 Announce Type: new 
+Abstract: When sensitive information is encoded in data, it is important to ensure the privacy of information when attempting to learn useful information from the data. There is a natural tradeoff whereby increasing privacy requirements may decrease the utility of a learning protocol. In the quantum setting of differential privacy, such tradeoffs between privacy and utility have so far remained largely unexplored. In this work, we study optimal privacy-utility tradeoffs for both generic and application-specific utility metrics when privacy is quantified by $(\varepsilon,\delta)$-quantum local differential privacy. In the generic setting, we focus on optimizing fidelity and trace distance between the original state and the privatized state. We show that the depolarizing mechanism achieves the optimal utility for given privacy requirements. We then study the specific application of learning the expectation of an observable with respect to an input state when only given access to privatized states. We derive a lower bound on the number of samples of privatized data required to achieve a fixed accuracy guarantee with high probability. To prove this result, we employ existing lower bounds on private quantum hypothesis testing, thus showcasing the first operational use of them. We also devise private mechanisms that achieve optimal sample complexity with respect to the privacy parameters and accuracy parameters, demonstrating that utility can be significantly improved for specific tasks in contrast to the generic setting. In addition, we show that the number of samples required to privately learn observable expectation values scales as $\Theta((\varepsilon \beta)^{-2})$, where $\varepsilon \in (0,1)$ is the privacy parameter and $\beta$ is the accuracy tolerance. We conclude by initiating the study of private classical shadows, which promise useful applications for private learning tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.10510v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.CR</category>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>John Bostanci, Andrew Huang, Vinod Vaikuntanathan</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Theshani Nuradha, Sujeet Bhalerao, Felix Leditzky</dc:creator>
     </item>
     <item>
-      <title>SAQNN: Spectral Adaptive Quantum Neural Network as a Universal Approximator</title>
-      <link>https://arxiv.org/abs/2602.09718</link>
-      <description>arXiv:2602.09718v1 Announce Type: new 
-Abstract: Quantum machine learning (QML), as an interdisciplinary field bridging quantum computing and machine learning, has garnered significant attention in recent years. Currently, the field as a whole faces challenges due to incomplete theoretical foundations for the expressivity of quantum neural networks (QNNs). In this paper we propose a constructive QNN model and demonstrate that it possesses the universal approximation property (UAP), which means it can approximate any square-integrable function up to arbitrary accuracy. Furthermore, it supports switching function bases, thus adaptable to various scenarios in numerical approximation and machine learning. Our model has asymptotic advantages over the best classical feed-forward neural networks in terms of circuit size and achieves optimal parameter complexity when approximating Sobolev functions under $L_2$ norm.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.09718v1</guid>
+      <title>Characterizing Trainability of Instantaneous Quantum Polynomial Circuit Born Machines</title>
+      <link>https://arxiv.org/abs/2602.11042</link>
+      <description>arXiv:2602.11042v1 Announce Type: new 
+Abstract: Instantaneous quantum polynomial quantum circuit Born machines (IQP-QCBMs) have been proposed as quantum generative models with a classically tractable training objective based on the maximum mean discrepancy (MMD) and a potential quantum advantage motivated by sampling-complexity arguments, making them an exciting model worth deeper investigation. While recent works have further proven the universality of a (slightly generalized) model, the next immediate question pertains to its trainability, i.e., whether it suffers from the exponentially vanishing loss gradients, known as the barren plateau issue, preventing effective use, and how regimes of trainability overlap with regimes of possible quantum advantage. Here, we provide significant strides in these directions. To study the trainability at initialization, we analytically derive closed-form expressions for the variances of the partial derivatives of the MMD loss function and provide general upper and lower bounds. With uniform initialization, we show that barren plateaus depend on the generator set and the spectrum of the chosen kernel. We identify regimes in which low-weight-biased kernels avoid exponential gradient suppression in structured topologies. Also, we prove that a small-variance Gaussian initialization ensures polynomial scaling for the gradient under mild conditions. As for the potential quantum advantage, we further argue, based on previous complexity-theoretic arguments, that sparse IQP families can output a probability distribution family that is classically intractable, and that this distribution remains trainable at initialization at least at lower-weight frequencies.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.11042v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Jialiang Tang, Jialin Zhang, Xiaoming Sun</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Kevin Shen, Susanne Pielawa, Vedran Dunjko, Hao Wang</dc:creator>
     </item>
     <item>
-      <title>Effectiveness of Binary Autoencoders for QUBO-Based Optimization Problems</title>
-      <link>https://arxiv.org/abs/2602.10037</link>
-      <description>arXiv:2602.10037v1 Announce Type: cross 
-Abstract: In black-box combinatorial optimization, objective evaluations are often expensive, so high quality solutions must be found under a limited budget. Factorization machine with quantum annealing (FMQA) builds a quadratic surrogate model from evaluated samples and optimizes it on an Ising machine. However, FMQA requires binary decision variables, and for nonbinary structures such as integer permutations, the choice of binary encoding strongly affects search efficiency. If the encoding fails to reflect the original neighborhood structure, small Hamming moves may not correspond to meaningful modifications in the original solution space, and constrained problems can yield many infeasible candidates that waste evaluations. Recent work combines FMQA with a binary autoencoder (bAE) that learns a compact binary latent code from feasible solutions, yet the mechanism behind its performance gains is unclear. Using a small traveling salesman problem as an interpretable testbed, we show that the bAE reconstructs feasible tours accurately and, compared with manually designed encodings at similar compression, better aligns tour distances with latent Hamming distances, yields smoother neighborhoods under small bit flips, and produces fewer local optima. These geometric properties explain why bAE+FMQA improves the approximation ratio faster while maintaining feasibility throughout optimization, and they provide guidance for designing latent representations for black-box optimization.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.10037v1</guid>
+      <title>MerLin: A Discovery Engine for Photonic and Hybrid Quantum Machine Learning</title>
+      <link>https://arxiv.org/abs/2602.11092</link>
+      <description>arXiv:2602.11092v1 Announce Type: cross 
+Abstract: Identifying where quantum models may offer practical benefits in near term quantum machine learning (QML) requires moving beyond isolated algorithmic proposals toward systematic and empirical exploration across models, datasets, and hardware constraints. We introduce MerLin, an open source framework designed as a discovery engine for photonic and hybrid quantum machine learning. MerLin integrates optimized strong simulation of linear optical circuits into standard PyTorch and scikit learn workflows, enabling end to end differentiable training of quantum layers. MerLin is designed around systematic benchmarking and reproducibility. As an initial contribution, we reproduce eighteen state of the art photonic and hybrid QML works spanning kernel methods, reservoir computing, convolutional and recurrent architectures, generative models, and modern training paradigms. These reproductions are released as reusable, modular experiments that can be directly extended and adapted, establishing a shared experimental baseline consistent with empirical benchmarking methodologies widely adopted in modern artificial intelligence. By embedding photonic quantum models within established machine learning ecosystems, MerLin allows practitioners to leverage existing tooling for ablation studies, cross modality comparisons, and hybrid classical quantum workflows. The framework already implements hardware aware features, allowing tests on available quantum hardware while enabling exploration beyond its current capabilities, positioning MerLin as a future proof co design tool linking algorithms, benchmarks, and hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.11092v1</guid>
       <category>cs.LG</category>
-      <category>cond-mat.stat-mech</category>
+      <category>cs.PL</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Tetsuro Abe, Masashi Yamashita, Shu Tanaka</dc:creator>
+      <dc:creator>Cassandre Notton, Benjamin Stott, Philippe Schoeb, Anthony Walsh, Gr\'egoire Leboucher, Vincent Espitalier, Vassilis Apostolou, Louis-F\'elix Vigneux, Alexia Salavrakos, Jean Senellart</dc:creator>
     </item>
   </channel>
 </rss>

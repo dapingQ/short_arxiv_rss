@@ -7,12 +7,66 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Feb 2026 05:00:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 05:00:08 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 15 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework</title>
+      <link>https://arxiv.org/abs/2602.12309</link>
+      <description>arXiv:2602.12309v1 Announce Type: new 
+Abstract: Quantum teleportation is a foundational protocol for sending quantum information through entanglement distribution and classical communication. Assuming ideal classical communication, the reliability of quantum teleportation is limited by the fidelity of the shared EPR pairs. This reliability can be improved through two mechanisms: entanglement purification and quantum error correction (QEC). Using both techniques in concert requires flexible QEC rates, since purification alters the structure of errors induced by imperfect-EPR teleportation, and fixed-rate codes cannot be uniformly effective across purification regimes or reliability targets. In this work, we supplement purification with punctured QEC codes, providing a family of code variants that can be adapted to error-channel characteristics and reliability targets. Punctured codes improve teleportation reliability across a broader range of purification regimes, enabling target reliability to be met without hardware-level code switching. This is corroborated by numerical results, showing that different punctured codes achieve the lowest logical error probability in different operating regimes, and that selecting among them reduces logical error relative to fixed-rate encoded teleportation. This reduction relaxes the requirement on the initial EPR fidelity or purification needed to achieve a target reliability. Overall, puncturing enables adaptation to varying entanglement conditions and reliability requirements while reusing a single stabilizer structure.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.12309v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>cs.NI</category>
+      <category>math.IT</category>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Mahmoud Saad Abouamer, Jaron Skovsted Gundersen, S{\o}ren Pilegaard Rasmussen, Petar Popovski</dc:creator>
+    </item>
+    <item>
+      <title>Accelerating Feedback-based Algorithms for Quantum Optimization Using Gradient Descent</title>
+      <link>https://arxiv.org/abs/2602.12387</link>
+      <description>arXiv:2602.12387v1 Announce Type: new 
+Abstract: Feedback-based methods have gained significant attention as an alternative training paradigm for the Quantum Approximate Optimization Algorithm (QAOA) in solving combinatorial optimization problems such as MAX-CUT. In particular, Quantum Lyapunov Control (QLC) employs feedback-driven control laws that guarantee monotonic non-decreasing objective values, can substantially reduce the training overhead of QAOA, and mitigate barren plateaus. However, these methods might require long control sequences, leading to sub-optimal convergence rates. In this work, we propose a hybrid method that incorporates per-layer gradient estimation to accelerate the convergence of QLC while preserving its low training overhead and stability guarantees. By leveraging layer-wise gradient information, the proposed approach selects near-optimal control parameters, resulting in significantly faster convergence and improved robustness. We validate the effectiveness of the method through extensive numerical experiments across a range of problem instances and optimization settings.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.12387v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Masih Mozakka, Mohsen Heidari</dc:creator>
+    </item>
+    <item>
+      <title>Probabilistic Design of Parametrized Quantum Circuits through Local Gate Modifications</title>
+      <link>https://arxiv.org/abs/2602.12465</link>
+      <description>arXiv:2602.12465v1 Announce Type: new 
+Abstract: Within quantum machine learning, parametrized quantum circuits provide flexible quantum models, but their performance is often highly task-dependent, making manual circuit design challenging. Alternatively, quantum architecture search algorithms have been proposed to automate the discovery of task-specific parametrized quantum circuits using systematic frameworks. In this work, we propose an evolution-inspired heuristic quantum architecture search algorithm, which we refer to as the local quantum architecture search. The goal of the local quantum architecture search algorithm is to optimize parametrized quantum circuit architectures through a local, probabilistic search over a fixed set of gate-level actions applied to existing circuits. We evaluate the local quantum architecture search algorithm on two synthetic function-fitting regression tasks and two quantum chemistry regression datasets, including the BSE49 dataset of bond separation energies for first- and second-row elements and a dataset of water conformers generated using the data-driven coupled-cluster approach. Using state-vector simulation, our results highlight the applicability of local quantum architecture search algorithm for identifying competitive circuit architectures with desirable performance metrics. Lastly, we analyze the properties of the discovered circuits and demonstrate the deployment of the best-performing model on state-of-the-art quantum hardware.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.12465v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Grier M. Jones, Aviraj Newatia, Alexander Lao, Aditya K. Rao, Viki Kumar Prasad, Hans-Arno Jacobsen</dc:creator>
+    </item>
+    <item>
+      <title>QTabGAN: A Hybrid Quantum-Classical GAN for Tabular Data Synthesis</title>
+      <link>https://arxiv.org/abs/2602.12704</link>
+      <description>arXiv:2602.12704v1 Announce Type: cross 
+Abstract: Synthesizing realistic tabular data is challenging due to heterogeneous feature types and high dimensionality. We introduce QTabGAN, a hybrid quantum-classical generative adversarial framework for tabular data synthesis. QTabGAN is especially designed for settings where real data are scarce or restricted by privacy constraints. The model exploits the expressive power of quantum circuits to learn complex data distributions, which are then mapped to tabular features using classical neural networks. We evaluate QTabGAN on multiple classification and regression datasets and benchmark it against leading state-of-the-art generative models. Experiments show that QTabGAN achieves up to 54.07% improvement across various classification datasets and evaluation metrics, thus establishing a scalable quantum approach to tabular data synthesis and highlighting its potential for quantum-assisted generative modelling.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.12704v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Subhangi Kumari, Rakesh Achutha, Vignesh Sivaraman</dc:creator>
+    </item>
   </channel>
 </rss>

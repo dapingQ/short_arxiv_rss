@@ -7,66 +7,95 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Feb 2026 05:00:08 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 05:00:30 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Resource-Adaptive Teleportation Under Imperfect Entanglement: A Code-Puncturing Framework</title>
-      <link>https://arxiv.org/abs/2602.12309</link>
-      <description>arXiv:2602.12309v1 Announce Type: new 
-Abstract: Quantum teleportation is a foundational protocol for sending quantum information through entanglement distribution and classical communication. Assuming ideal classical communication, the reliability of quantum teleportation is limited by the fidelity of the shared EPR pairs. This reliability can be improved through two mechanisms: entanglement purification and quantum error correction (QEC). Using both techniques in concert requires flexible QEC rates, since purification alters the structure of errors induced by imperfect-EPR teleportation, and fixed-rate codes cannot be uniformly effective across purification regimes or reliability targets. In this work, we supplement purification with punctured QEC codes, providing a family of code variants that can be adapted to error-channel characteristics and reliability targets. Punctured codes improve teleportation reliability across a broader range of purification regimes, enabling target reliability to be met without hardware-level code switching. This is corroborated by numerical results, showing that different punctured codes achieve the lowest logical error probability in different operating regimes, and that selecting among them reduces logical error relative to fixed-rate encoded teleportation. This reduction relaxes the requirement on the initial EPR fidelity or purification needed to achieve a target reliability. Overall, puncturing enables adaptation to varying entanglement conditions and reliability requirements while reusing a single stabilizer structure.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.12309v1</guid>
+      <title>Wideband Quantum Transduction for Rydberg Atomic Receivers Using Six-Wave Mixing</title>
+      <link>https://arxiv.org/abs/2602.13955</link>
+      <description>arXiv:2602.13955v1 Announce Type: new 
+Abstract: Rydberg atomic receivers hold extremely high sensitivity to electric fields, yet their effective 3-dB baseband bandwidth under conventional electromagnetically induced transparency (EIT) is typically constrained to tens to a few hundreds of kilohertz, which hinders wideband wireless applications. To relax this bottleneck, we investigate a six-wave mixing (SWM)-based Rydberg atomic receiver as a wideband radio frequency (RF)-to-optical quantum transducer. Specifically, we develop an explicit baseband input-output model spanning from the probe input to the output light field. Based upon this model, a closed-form 3-dB bandwidth expression is derived to expose its dependence on key optical and RF parameters. We further quantify the linear dynamic range by employing the 1-dB compression point (P1dB) and the input-referred third-order intercept point (IIP3), unveiling a communication-compatible characterization of the bandwidth-linearity trade-off. Finally, our numerical results demonstrate that, given identical optical driving conditions, the SWM configuration increases the 3-dB baseband bandwidth by more than an order of magnitude compared to the EIT-based counterpart, while retaining comparable electric-field sensitivity and revealing a broad, tunable linear operating region.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.13955v1</guid>
       <category>quant-ph</category>
       <category>cs.IT</category>
-      <category>cs.NI</category>
+      <category>eess.SP</category>
       <category>math.IT</category>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Mahmoud Saad Abouamer, Jaron Skovsted Gundersen, S{\o}ren Pilegaard Rasmussen, Petar Popovski</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Yuanbin Chen, Chau Yuen, Chong Meng Samson See</dc:creator>
     </item>
     <item>
-      <title>Accelerating Feedback-based Algorithms for Quantum Optimization Using Gradient Descent</title>
-      <link>https://arxiv.org/abs/2602.12387</link>
-      <description>arXiv:2602.12387v1 Announce Type: new 
-Abstract: Feedback-based methods have gained significant attention as an alternative training paradigm for the Quantum Approximate Optimization Algorithm (QAOA) in solving combinatorial optimization problems such as MAX-CUT. In particular, Quantum Lyapunov Control (QLC) employs feedback-driven control laws that guarantee monotonic non-decreasing objective values, can substantially reduce the training overhead of QAOA, and mitigate barren plateaus. However, these methods might require long control sequences, leading to sub-optimal convergence rates. In this work, we propose a hybrid method that incorporates per-layer gradient estimation to accelerate the convergence of QLC while preserving its low training overhead and stability guarantees. By leveraging layer-wise gradient information, the proposed approach selects near-optimal control parameters, resulting in significantly faster convergence and improved robustness. We validate the effectiveness of the method through extensive numerical experiments across a range of problem instances and optimization settings.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.12387v1</guid>
+      <title>Fine-Grained Complexity for Quantum Problems from Size-Preserving Circuit-to-Hamiltonian Constructions</title>
+      <link>https://arxiv.org/abs/2602.14379</link>
+      <description>arXiv:2602.14379v1 Announce Type: new 
+Abstract: The local Hamiltonian (LH) problem is the canonical $\mathsf{QMA}$-complete problem introduced by Kitaev. In this paper, we show its hardness in a very strong sense: we show that the 3-local Hamiltonian problem on $n$ qubits cannot be solved classically in time $O(2^{(1-\varepsilon)n})$ for any $\varepsilon&gt;0$ under the Strong Exponential-Time Hypothesis (SETH), and cannot be solved quantumly in time $O(2^{(1-\varepsilon)n/2})$ for any $\varepsilon&gt;0$ under the Quantum Strong Exponential-Time Hypothesis (QSETH). These lower bounds give evidence that the currently known classical and quantum algorithms for LH cannot be significantly improved.
+  Furthermore, we are able to demonstrate fine-grained complexity lower bounds for approximating the quantum partition function (QPF) with an arbitrary constant relative error. Approximating QPF with relative error is known to be equivalent to approximately counting the dimension of the solution subspace of $\mathsf{QMA}$ problems. We show the SETH and QSETH hardness to estimate QPF with constant relative error. We then provide a quantum algorithm that runs in $O(\sqrt{2^n})$ time for an arbitrary $1/\mathrm{poly}(n)$ relative error, matching our lower bounds and improving the state-of-the-art algorithm by Bravyi, Chowdhury, Gosset, and Wocjan (Nature Physics 2022) in the low-temperature regime.
+  To prove our fine-grained lower bounds, we introduce the first size-preserving circuit-to-Hamiltonian construction that encodes the computation of a $T$-time quantum circuit acting on $N$ qubits into a $(d+1)$-local Hamiltonian acting on $N+O(T^{1/d})$ qubits. This improves the standard construction based on the unary clock, which uses $N+O(T)$ qubits.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.14379v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.CC</category>
+      <category>cs.DS</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Masih Mozakka, Mohsen Heidari</dc:creator>
+      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+      <dc:creator>Nai-Hui Chia, Atsuya Hasegawa, Fran\c{c}ois Le Gall, Yu-Ching Shen</dc:creator>
     </item>
     <item>
-      <title>Probabilistic Design of Parametrized Quantum Circuits through Local Gate Modifications</title>
-      <link>https://arxiv.org/abs/2602.12465</link>
-      <description>arXiv:2602.12465v1 Announce Type: new 
-Abstract: Within quantum machine learning, parametrized quantum circuits provide flexible quantum models, but their performance is often highly task-dependent, making manual circuit design challenging. Alternatively, quantum architecture search algorithms have been proposed to automate the discovery of task-specific parametrized quantum circuits using systematic frameworks. In this work, we propose an evolution-inspired heuristic quantum architecture search algorithm, which we refer to as the local quantum architecture search. The goal of the local quantum architecture search algorithm is to optimize parametrized quantum circuit architectures through a local, probabilistic search over a fixed set of gate-level actions applied to existing circuits. We evaluate the local quantum architecture search algorithm on two synthetic function-fitting regression tasks and two quantum chemistry regression datasets, including the BSE49 dataset of bond separation energies for first- and second-row elements and a dataset of water conformers generated using the data-driven coupled-cluster approach. Using state-vector simulation, our results highlight the applicability of local quantum architecture search algorithm for identifying competitive circuit architectures with desirable performance metrics. Lastly, we analyze the properties of the discovered circuits and demonstrate the deployment of the best-performing model on state-of-the-art quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.12465v1</guid>
+      <title>Quantum Reservoir Computing with Neutral Atoms on a Small, Complex, Medical Dataset</title>
+      <link>https://arxiv.org/abs/2602.14641</link>
+      <description>arXiv:2602.14641v1 Announce Type: new 
+Abstract: Biomarker-based prediction of clinical outcomes is challenging due to nonlinear relationships, correlated features, and the limited size of many medical datasets. Classical machine-learning methods can struggle under these conditions, motivating the search for alternatives. In this work, we investigate quantum reservoir computing (QRC), using both noiseless emulation and hardware execution on the neutral-atom Rydberg processor \textit{Aquila}. We evaluate performance with six classical machine-learning models and use SHAP to generate feature subsets. We find that models trained on emulated quantum features achieve mean test accuracies comparable to those trained on classical features, but have higher training accuracies and greater variability over data splits, consistent with overfitting. When comparing hardware execution of QRC to noiseless emulation, the models are more robust over different data splits and often exhibit statistically significant improvements in mean test accuracy. This combination of improved accuracy and increased stability is suggestive of a regularising effect induced by hardware execution. To investigate the origin of this behaviour, we examine the statistical differences between hardware and emulated quantum feature distributions. We find that hardware execution applies a structured, time-dependent transformation characterised by compression toward the mean and a progressive reduction in mutual information relative to emulation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.14641v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Grier M. Jones, Aviraj Newatia, Alexander Lao, Aditya K. Rao, Viki Kumar Prasad, Hans-Arno Jacobsen</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Luke Antoncich, Yuben Moodley, Ugo Varetto, Jingbo Wang, Jonathan Wurtz, Jing Chen, Pascal Jahan Elahi, Casey R. Myers</dc:creator>
     </item>
     <item>
-      <title>QTabGAN: A Hybrid Quantum-Classical GAN for Tabular Data Synthesis</title>
-      <link>https://arxiv.org/abs/2602.12704</link>
-      <description>arXiv:2602.12704v1 Announce Type: cross 
-Abstract: Synthesizing realistic tabular data is challenging due to heterogeneous feature types and high dimensionality. We introduce QTabGAN, a hybrid quantum-classical generative adversarial framework for tabular data synthesis. QTabGAN is especially designed for settings where real data are scarce or restricted by privacy constraints. The model exploits the expressive power of quantum circuits to learn complex data distributions, which are then mapped to tabular features using classical neural networks. We evaluate QTabGAN on multiple classification and regression datasets and benchmark it against leading state-of-the-art generative models. Experiments show that QTabGAN achieves up to 54.07% improvement across various classification datasets and evaluation metrics, thus establishing a scalable quantum approach to tabular data synthesis and highlighting its potential for quantum-assisted generative modelling.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.12704v1</guid>
+      <title>Kernel-based optimization of measurement operators for quantum reservoir computers</title>
+      <link>https://arxiv.org/abs/2602.14677</link>
+      <description>arXiv:2602.14677v1 Announce Type: new 
+Abstract: Finding optimal measurement operators is crucial for the performance of quantum reservoir computers (QRCs), since they employ a fixed quantum feature map. We formulate the training of both stateless (quantum extreme learning machines, QELMs) and stateful (memory dependent) QRCs in the framework of kernel ridge regression. This approach renders an optimal measurement operator that minimizes prediction error for a given reservoir and training dataset. For large qubit numbers, this method is more efficient than the conventional training of QRCs. We discuss efficiency and practical implementation strategies, including Pauli basis decomposition and operator diagonalization, to adapt the optimal observable to hardware constraints. Numerical experiments on image classification and time series prediction tasks demonstrate the effectiveness of this approach, which can also be applied to other quantum ML models.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.14677v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Markus Gross, Hans-Martin Rieser</dc:creator>
+    </item>
+    <item>
+      <title>The Signal Horizon: Local Blindness and the Contraction of Pauli-Weight Spectra in Noisy Quantum Encodings</title>
+      <link>https://arxiv.org/abs/2602.14735</link>
+      <description>arXiv:2602.14735v1 Announce Type: new 
+Abstract: The performance of quantum classifiers is typically analyzed through global state distinguishability or the trainability of variational models. This study investigates how much class information remains accessible under locality-constrained measurements in the presence of noise. The authors formulate binary quantum classification as constrained quantum state discrimination and introduce a locality-restricted distinguishability measure quantifying the maximum bias achievable by observables acting on at most $k$ subsystems. For $n$-qubit systems subject to independent depolarizing noise, the locally accessible signal is governed by a Pauli-weight-dependent contraction mechanism. This motivates a computable predictor, the $k$-local Pauli-accessible amplitude $A_{k}(p)$, which lower bounds the optimal $k$-local classification advantage. Numerical experiments on four-qubit encodings demonstrate quantitative agreement between empirical accuracy and the prediction across noise levels. The research identifies an operational breakdown threshold where $k$-local classifiers become indistinguishable from random guessing despite persistent global distinguishability.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.14735v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Ait Haddou Marwan</dc:creator>
+    </item>
+    <item>
+      <title>QuaRK: A Quantum Reservoir Kernel for Time Series Learning</title>
+      <link>https://arxiv.org/abs/2602.13531</link>
+      <description>arXiv:2602.13531v1 Announce Type: cross 
+Abstract: Quantum reservoir computing offers a promising route for time series learning by modelling sequential data via rich quantum dynamics while the only training required happens at the level of a lightweight classical readout. However, studies featuring efficient and implementable quantum reservoir architectures along with model learning guarantees remain scarce in the literature. To close this gap, we introduce QuaRK, an end-to-end framework that couples a hardware-realistic quantum reservoir featurizer with a kernel-based readout scheme. Given a sequence of sample points, the reservoir injects the points one after the other to yield a compact feature vector from efficiently measured k-local observables using classical shadow tomography, after which a classical kernel-based readout learns the target mapping with explicit regularization and fast optimization. The resulting pipeline exposes clear computational knobs -- circuit width and depth as well as the measurement budget -- while preserving the flexibility of kernel methods to model nonlinear temporal functionals and being scalable to high-dimensional data. We further provide learning-theoretic generalization guarantees for dependent temporal data, linking design and resource choices to finite-sample performance, thereby offering principled guidance for building reliable temporal learners. Empirical experiments validate QuaRK and illustrate the predicted interpolation and generalization behaviours on synthetic beta-mixing time series tasks.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.13531v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Subhangi Kumari, Rakesh Achutha, Vignesh Sivaraman</dc:creator>
+      <dc:creator>Abdallah Aaraba, Soumaya Cherkaoui, Ola Ahmad, Shengrui Wang</dc:creator>
     </item>
   </channel>
 </rss>

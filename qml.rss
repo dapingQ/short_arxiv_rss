@@ -7,109 +7,104 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 05:00:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 05:00:15 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Edge-Local and Qubit-Efficient Quantum Graph Learning for the NISQ Era</title>
-      <link>https://arxiv.org/abs/2602.16018</link>
-      <description>arXiv:2602.16018v1 Announce Type: new 
-Abstract: Graph neural networks (GNNs) are a powerful framework for learning representations from graph-structured data, but their direct implementation on near-term quantum hardware remains challenging due to circuit depth, multi-qubit interactions, and qubit scalability constraints. In this work, we introduce a fully quantum graph convolutional architecture designed explicitly for unsupervised learning in the noisy intermediate-scale quantum (NISQ) regime. Our approach combines a variational quantum feature extraction layer with an edge-local and qubit-efficient quantum message-passing mechanism inspired by the Quantum Alternating Operator Ansatz (QAOA) framework. Unlike prior models that rely on global operations or multi-controlled unitaries, our model decomposes message passing into pairwise interactions along graph edges using only hardware-native single- and two-qubit gates. This design reduces the qubit requirement from $O(Nn)$ to $O(n)$ for a graph with $N$ nodes and $n$-qubit feature registers, enabling implementation on current quantum devices regardless of graph size. We train the model using the Deep Graph Infomax objective to perform unsupervised node representation learning. Experiments on the Cora citation network and a large-scale genomic SNP dataset demonstrate that our model remains competitive with prior quantum and hybrid approaches.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16018v1</guid>
+      <title>Quantum-Channel Matrix Optimization for Holevo Bound Enhancement</title>
+      <link>https://arxiv.org/abs/2602.17065</link>
+      <description>arXiv:2602.17065v1 Announce Type: new 
+Abstract: Quantum communication holds the potential to revolutionize information transmission by enabling secure data exchange that exceeds the limits of classical systems. One of the key performance metrics in quantum information theory, namely the Holevo bound, quantifies the amount of classical information that can be transmitted reliably over a quantum channel. However, computing and optimizing the Holevo bound remains a challenging task due to its dependence on both the quantum input ensemble and the quantum channel. In order to maximize the Holevo bound, we propose a unified projected gradient ascent algorithm to optimize the quantum channel given a fixed input ensemble. We provide a detailed complexity analysis for the proposed algorithm. Simulation results demonstrate that the proposed quantum channel optimization yields higher Holevo bounds than input ensemble optimization.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.17065v1</guid>
       <category>quant-ph</category>
-      <category>cs.ET</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Armin Ahmadkhaniha, Jake Doliskani</dc:creator>
+      <dc:creator>Hong Niu, Chau Yuen, Alexei Ashikhmin, Lajos Hanzo</dc:creator>
     </item>
     <item>
-      <title>Structured Unitary Tensor Network Representations for Circuit-Efficient Quantum Data Encoding</title>
-      <link>https://arxiv.org/abs/2602.16266</link>
-      <description>arXiv:2602.16266v1 Announce Type: new 
-Abstract: Encoding classical data into quantum states is a central bottleneck in quantum machine learning: many widely used encodings are circuit-inefficient, requiring deep circuits and substantial quantum resources, which limits scalability on quantum hardware. In this work, we propose TNQE, a circuit-efficient quantum data encoding framework built on structured unitary tensor network (TN) representations. TNQE first represents each classical input via a TN decomposition and then compiles the resulting tensor cores into an encoding circuit through two complementary core-to-circuit strategies. To make this compilation trainable while respecting the unitary nature of quantum operations, we introduce a unitary-aware constraint that parameterizes TN cores as learnable block unitaries, enabling them to be directly optimized and directly encoded as quantum operators. The proposed TNQE framework enables explicit control over circuit depth and qubit resources, allowing the construction of shallow, resource-efficient circuits. Across a range of benchmarks, TNQE achieves encoding circuits as shallow as $0.04\times$ the depth of amplitude encoding, while naturally scaling to high-resolution images ($256 \times 256$) and demonstrating practical feasibility on real quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16266v1</guid>
+      <title>Extending quantum theory with AI-assisted deterministic game theory</title>
+      <link>https://arxiv.org/abs/2602.17213</link>
+      <description>arXiv:2602.17213v1 Announce Type: new 
+Abstract: We present an AI-assisted framework for predicting individual runs of complex quantum experiments, including contextuality and causality (adaptive measurements), within our long-term programme of discovering a local hidden-variable theory that extends quantum theory. In order to circumvent impossibility theorems, we replace the assumption of free choice (measurement independence and parameter independence) with a weaker, compatibilistic version called contingent free choice.
+  Our framework is based on interpreting complex quantum experiments as a Chess-like game between observers and the universe, which is seen as an economic agent minimizing action. The game structures corresponding to generic experiments such as fixed-causal-order process matrices or causal contextuality scenarios, together with a deterministic non-Nashian resolution algorithm that abandons unilateral deviation assumptions (free choice) and assumes Perfect Prediction instead, were described in previous work.
+  In this new research, we learn the reward functions of the game, which contain a hidden variable, using neural networks. The cost function is the Kullback-Leibler divergence between the frequency histograms obtained through many deterministic runs of the game and the predictions of the extended Born rule.
+  Using our framework on the specific case of the EPR 2-2-2 experiment acts as a proof-of-concept and a toy local-realist hidden-variable model that non-Nashian quantum theory is a promising avenue towards a local hidden-variable theory. Our framework constitutes a solid foundation, which can be further expanded in order to fully discover a complete quantum theory.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.17213v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.AI</category>
+      <category>cs.GT</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
-      <dc:creator>Guang Lin, Toshihisa Tanaka, Qibin Zhao</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Florian Pauschitz, Ben Moseley, Ghislain Fourny</dc:creator>
     </item>
     <item>
-      <title>DistributedEstimator: Distributed Training of Quantum Neural Networks via Circuit Cutting</title>
-      <link>https://arxiv.org/abs/2602.16233</link>
-      <description>arXiv:2602.16233v1 Announce Type: cross 
-Abstract: Circuit cutting decomposes a large quantum circuit into a collection of smaller subcircuits. The outputs of these subcircuits are then classically reconstructed to recover the original expectation values. While prior work characterises cutting overhead largely in terms of subcircuit counts and sampling complexity, its end-to-end impact on iterative, estimator-driven training pipelines remains insufficiently measured from a systems perspective. In this paper, we propose a cut-aware estimator execution pipeline that treats circuit cutting as a staged distributed workload and instruments each estimator query into partitioning, subexperiment generation, parallel execution, and classical reconstruction phases. Using logged runtime traces and learning outcomes on two binary classification workloads (Iris and MNIST), we quantify cutting overheads, scaling limits, and sensitivity to injected stragglers, and we evaluate whether accuracy and robustness are preserved under matched training budgets. Our measurements show that cutting introduces substantial end-to-end overheads that grow with the number of cuts, and that reconstruction constitutes a dominant fraction of per-query time, bounding achievable speed-up under increased parallelism. Despite these systems costs, test accuracy and robustness are preserved in the measured regimes, with configuration-dependent improvements observed in some cut settings. These results indicate that practical scaling of circuit cutting for learning workloads hinges on reducing and overlapping reconstruction and on scheduling policies that account for barrier-dominated critical paths.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16233v1</guid>
-      <category>cs.DC</category>
+      <title>Quantum Scrambling Born Machine</title>
+      <link>https://arxiv.org/abs/2602.17281</link>
+      <description>arXiv:2602.17281v1 Announce Type: new 
+Abstract: Quantum generative modeling, where the Born rule naturally defines probability distributions through measurement of parameterized quantum states, is a promising near-term application of quantum computing. We propose a Quantum Scrambling Born Machine in which a fixed entangling unitary -- acting as a scrambling reservoir -- provides multi-qubit entanglement, while only single-qubit rotations are optimized. We consider three entangling unitaries -- a Haar random unitary and two physically realizable approximations, a finite-depth brickwork random circuit and analog time evolution under nearest-neighbor spin-chain Hamiltonians -- and show that, for the benchmark distributions and system sizes considered, once the entangler produces near-Haar-typical entanglement the model learns the target distribution with weak sensitivity to the scrambler's microscopic origin. Finally, promoting the Hamiltonian couplings to trainable parameters casts the generative task as a variational Hamiltonian problem, with performance competitive with representative classical generative models at matched parameter count.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.17281v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Marcin P{\l}odzie\'n</dc:creator>
+    </item>
+    <item>
+      <title>Tight any-shot quantum decoupling</title>
+      <link>https://arxiv.org/abs/2602.17430</link>
+      <description>arXiv:2602.17430v1 Announce Type: new 
+Abstract: Quantum information decoupling is a fundamental primitive in quantum information theory, underlying various applications in quantum physics. We prove a novel one-shot decoupling theorem formulated in terms of quantum relative entropy distance, with the decoupling error bounded by two sandwiched R\'enyi conditional entropies. In the asymptotic i.i.d. setting of standard information decoupling via partial trace, we show that this bound is ensemble-tight in quantum relative entropy distance and thereby yields a characterization of the associated decoupling error exponent in the low-cost-rate regime.
+  Leveraging this framework, we derive several operational applications formulated in terms of purified distance: (i) a single-letter expression for the exact error exponent of quantum state merging in terms of Petz-R\'enyi conditional entropies, and (ii) regularized expressions for the achievable error exponent of entanglement distillation and quantum channel coding in terms of Petz-R\'enyi coherent informations. We further prove that these achievable bounds are tight for maximally correlated states and generalized dephasing channels, respectively, for the high distillation-rate/coding-rate regimes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.17430v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Mario Berta, Hao-Chung Cheng, Yongsheng Yao</dc:creator>
+    </item>
+    <item>
+      <title>Pseudo-deterministic Quantum Algorithms</title>
+      <link>https://arxiv.org/abs/2602.17647</link>
+      <description>arXiv:2602.17647v1 Announce Type: new 
+Abstract: We initiate a systematic study of pseudo-deterministic quantum algorithms. These are quantum algorithms that, for any input, output a canonical solution with high probability. Focusing on the query complexity model, our main contributions include the following complexity separations, which require new lower bound techniques specifically tailored to pseudo-determinism:
+  - We exhibit a problem, Avoid One Encrypted String (AOES), whose classical randomized query complexity is $O(1)$ but is maximally hard for pseudo-deterministic quantum algorithms ($\Omega(N)$ query complexity).
+  - We exhibit a problem, Quantum-Locked Estimation (QL-Estimation), for which pseudo-deterministic quantum algorithms admit an exponential speed-up over classical pseudo-deterministic algorithms ($O(\log(N))$ vs. $\Theta(\sqrt{N})$), while the randomized query complexity is $O(1)$.
+  Complementing these separations, we show that for any total problem $R$, pseudo-deterministic quantum algorithms admit at most a quintic advantage over deterministic algorithms, i.e., $D(R) = \tilde O(psQ(R)^5)$.
+  On the algorithmic side, we identify a class of quantum search problems that can be made pseudo-deterministic with small overhead, including Grover search, element distinctness, triangle finding, $k$-sum, and graph collision.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.17647v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Hugo Aaronson, Tom Gur, Jiawei Li</dc:creator>
+    </item>
+    <item>
+      <title>Multi-objective optimization and quantum hybridization of equivariant deep learning interatomic potentials on organic and inorganic compounds</title>
+      <link>https://arxiv.org/abs/2602.16908</link>
+      <description>arXiv:2602.16908v1 Announce Type: cross 
+Abstract: Allegro is a machine learning interatomic potential (MLIP) model designed to predict atomic properties in molecules using E(3) equivariant neural networks. When training this model, there tends to be a trade-off between accuracy and inference time. For this reason we apply multi-objective hyperparameter optimization to the two objectives. Additionally, we experiment with modified architectures by making variants of Allegro some by adding strictly classical multi-layer perceptron (MLP) layers and some by adding quantum-classical hybrid layers. We compare the results from QM9, rMD17-aspirin, rMD17-benzene and our own proprietary dataset consisting of copper and lithium atoms. As results, we have a list of variants that surpass the Allegro in accuracy and also results which demonstrate the trade-off with inference times.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.16908v1</guid>
+      <category>cond-mat.mtrl-sci</category>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Prabhjot Singh, Adel N. Toosi, Rajkumar Buyya</dc:creator>
-    </item>
-    <item>
-      <title>Reinforcement Learning for Parameterized Quantum State Preparation: A Comparative Study</title>
-      <link>https://arxiv.org/abs/2602.16523</link>
-      <description>arXiv:2602.16523v1 Announce Type: cross 
-Abstract: We extend directed quantum circuit synthesis (DQCS) with reinforcement learning from purely discrete gate selection to parameterized quantum state preparation with continuous single-qubit rotations \(R_x\), \(R_y\), and \(R_z\). We compare two training regimes: a one-stage agent that jointly selects the gate type, the affected qubit(s), and the rotation angle; and a two-stage variant that first proposes a discrete circuit and subsequently optimizes the rotation angles with Adam using parameter-shift gradients. Using Gymnasium and PennyLane, we evaluate Proximal Policy Optimization (PPO) and Advantage Actor--Critic (A2C) on systems comprising two to ten qubits and on targets of increasing complexity with \(\lambda\) ranging from one to five. Whereas A2C does not learn effective policies in this setting, PPO succeeds under stable hyperparameters (one-stage: learning rate approximately \(5\times10^{-4}\) with a self-fidelity-error threshold of 0.01; two-stage: learning rate approximately \(10^{-4}\)). Both approaches reliably reconstruct computational basis states (between 83\% and 99\% success) and Bell states (between 61\% and 77\% success). However, scalability saturates for \(\lambda\) of approximately three to four and does not extend to ten-qubit targets even at \(\lambda=2\). The two-stage method offers only marginal accuracy gains while requiring around three times the runtime. For practicality under a fixed compute budget, we therefore recommend the one-stage PPO policy, provide explicit synthesized circuits, and contrast with a classical variational baseline to outline avenues for improved scalability.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16523v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Gerhard Stenzel, Isabella Debelic, Michael K\"olle, Tobias Rohe, Leo S\"unkel, Julian Hager, Claudia Linnhoff-Popien</dc:creator>
-    </item>
-    <item>
-      <title>MerLean: An Agentic Framework for Autoformalization in Quantum Computation</title>
-      <link>https://arxiv.org/abs/2602.16554</link>
-      <description>arXiv:2602.16554v1 Announce Type: cross 
-Abstract: We introduce MerLean, a fully automated agentic framework for autoformalization in quantum computation. MerLean extracts mathematical statements from \LaTeX{} source files, formalizes them into verified Lean~4 code built on Mathlib, and translates the result back into human-readable \LaTeX{} for semantic review. We evaluate MerLean on three theoretical quantum computing papers producing 2,050 Lean declarations from 114 statements in total. MerLean achieves end-to-end formalization on all three papers, reducing the verification burden to only the newly introduced definitions and axioms. Our results demonstrate that agentic autoformalization can scale to frontier research, offering both a practical tool for machine-verified peer review and a scalable engine for mining high-quality synthetic data to train future reasoning models. Our approach can also be generalized to any other rigorous research in mathematics and theoretical physics.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16554v1</guid>
-      <category>cs.LO</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Yuanjie Ren, Jinzheng Li, Yidi Qi</dc:creator>
-    </item>
-    <item>
-      <title>Illustration of Barren Plateaus in Quantum Computing</title>
-      <link>https://arxiv.org/abs/2602.16558</link>
-      <description>arXiv:2602.16558v1 Announce Type: cross 
-Abstract: Variational Quantum Circuits (VQCs) have emerged as a promising paradigm for quantum machine learning in the NISQ era. While parameter sharing in VQCs can reduce the parameter space dimensionality and potentially mitigate the barren plateau phenomenon, it introduces a complex trade-off that has been largely overlooked. This paper investigates how parameter sharing, despite creating better global optima with fewer parameters, fundamentally alters the optimization landscape through deceptive gradients -- regions where gradient information exists but systematically misleads optimizers away from global optima. Through systematic experimental analysis, we demonstrate that increasing degrees of parameter sharing generate more complex solution landscapes with heightened gradient magnitudes and measurably higher deceptiveness ratios. Our findings reveal that traditional gradient-based optimizers (Adam, SGD) show progressively degraded convergence as parameter sharing increases, with performance heavily dependent on hyperparameter selection. We introduce a novel gradient deceptiveness detection algorithm and a quantitative framework for measuring optimization difficulty in quantum circuits, establishing that while parameter sharing can improve circuit expressivity by orders of magnitude, this comes at the cost of significantly increased landscape deceptiveness. These insights provide important considerations for quantum circuit design in practical applications, highlighting the fundamental mismatch between classical optimization strategies and quantum parameter landscapes shaped by parameter sharing.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16558v1</guid>
-      <category>cs.LG</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
-      <dc:creator>Gerhard Stenzel, Tobias Rohe, Michael K\"olle, Leo S\"unkel, Jonas Stein, Claudia Linnhoff-Popien</dc:creator>
-    </item>
-    <item>
-      <title>Causal and Compositional Abstraction</title>
-      <link>https://arxiv.org/abs/2602.16612</link>
-      <description>arXiv:2602.16612v1 Announce Type: cross 
-Abstract: Abstracting from a low level to a more explanatory high level of description, and ideally while preserving causal structure, is fundamental to scientific practice, to causal inference problems, and to robust, efficient and interpretable AI. We present a general account of abstractions between low and high level models as natural transformations, focusing on the case of causal models. This provides a new formalisation of causal abstraction, unifying several notions in the literature, including constructive causal abstraction, Q-$\tau$ consistency, abstractions based on interchange interventions, and `distributed' causal abstractions. Our approach is formalised in terms of category theory, and uses the general notion of a compositional model with a given set of queries and semantics in a monoidal, cd- or Markov category; causal models and their queries such as interventions being special cases. We identify two basic notions of abstraction: downward abstractions mapping queries from high to low level; and upward abstractions, mapping concrete queries such as Do-interventions from low to high. Although usually presented as the latter, we show how common causal abstractions may, more fundamentally, be understood in terms of the former. Our approach also leads us to consider a new stronger notion of `component-level' abstraction, applying to the individual components of a model. In particular, this yields a novel, strengthened form of constructive causal abstraction at the mechanism-level, for which we prove characterisation results. Finally, we show that abstraction can be generalised to further compositional models, including those with a quantum semantics implemented by quantum circuits, and we take first steps in exploring abstractions between quantum compositional circuit models and high-level classical causal models as a means to explainable quantum AI.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16612v1</guid>
-      <category>cs.LO</category>
-      <category>cs.AI</category>
-      <category>math.CT</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 19 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Robin Lorenz, Sean Tull</dc:creator>
+      <dc:creator>G. Laskaris, D. Morozov, D. Tarpanov, A. Seth, J. Procelewska, G. Sai Gautam, A. Sagingalieva, R. Brasher, A. Melnikov</dc:creator>
     </item>
   </channel>
 </rss>

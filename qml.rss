@@ -7,55 +7,79 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Feb 2026 05:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 05:00:14 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 23 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Quantum-enhanced satellite image classification</title>
-      <link>https://arxiv.org/abs/2602.18350</link>
-      <description>arXiv:2602.18350v1 Announce Type: new 
-Abstract: We demonstrate the application of a quantum feature extraction method to enhance multi-class image classification for space applications. By harnessing the dynamics of many-body spin Hamiltonians, the method generates expressive quantum features that, when combined with classical processing, lead to quantum-enhanced classification accuracy. Using a strong and well-established ResNet50 baseline, we achieved a maximum classical accuracy of 83%, which can be improved to 84% with a transfer learning approach. In contrast, applying our quantum-classical method the performance is increased to 87% accuracy, demonstrating a clear and reproducible improvement over robust classical approaches. Implemented on several of IBM's quantum processors, our hybrid quantum-classical approach delivers consistent gains of 2-3% in absolute accuracy. These results highlight the practical potential of current and near-term quantum processors in high-stakes, data-driven domains such as satellite imaging and remote sensing, while suggesting broader applicability in real-world machine learning tasks.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.18350v1</guid>
+      <title>Auto Quantum Machine Learning for Multisource Classification</title>
+      <link>https://arxiv.org/abs/2602.18642</link>
+      <description>arXiv:2602.18642v1 Announce Type: new 
+Abstract: With fault-tolerant quantum computing on the horizon, there is growing interest in applying quantum computational methods to data-intensive scientific fields like remote sensing. Quantum machine learning (QML) has already demonstrated potential for such demanding tasks. One area of particular focus is quantum data fusion -- a complex data analysis problem that has attracted significant recent attention. In this work, we introduce an automated QML (AQML) approach for addressing data fusion challenges. We evaluate how AQML-generated quantum circuits perform compared to classical multilayer perceptrons (MLPs) and manually designed QML models when processing multisource inputs. Furthermore, we apply our method to change detection using the multispectral ONERA dataset, achieving improved accuracy over previously reported QML-based change detection results.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.18642v1</guid>
       <category>quant-ph</category>
       <category>cs.CV</category>
       <category>cs.LG</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Tomasz Rybotycki, Sebastian Dziura, Piotr Gawron</dc:creator>
+    </item>
+    <item>
+      <title>Structural Analysis of Directional qLDPC Codes</title>
+      <link>https://arxiv.org/abs/2602.19057</link>
+      <description>arXiv:2602.19057v1 Announce Type: new 
+Abstract: Directional codes, recently introduced by Geh\'er--Byfield--Ruban \cite{Geher2025Directional}, constitute a hardware-motivated family of quantum low-density parity-check (qLDPC) codes. These codes are defined by stabilizers measured by ancilla qubits executing a fixed \emph{direction word} (route) on square- or hex-grid connectivity. In this work, we develop a comprehensive \emph{word-first} analysis framework for route-generated, translation-invariant CSS codes on rectangular tori. Under this framework, a direction word $W$ deterministically induces a finite support pattern $P(W)$, from which we analytically derive: (i)~a closed-form route-to-support map; (ii)~the odd-multiplicity difference lattice $L(W)$ that classifies commutation-compatible $X/Z$ layouts; and (iii)~conservative finite-torus admissibility criteria. Furthermore, we provide: (iv)~a rigorous word equivalence and canonicalization theory (incorporating dihedral lattice symmetries, reversal/inversion, and cyclic shifts) to enable symmetry-quotiented searches; (v)~an ``inverse problem'' criterion to determine when a translation-invariant support pattern is realizable by a single route, including reconstruction and non-realizability certificates; and (vi)~a quasi-cyclic (group-algebra) reduction for row-periodic layouts that explains the sensitivity of code dimension $k$ to boundary conditions. As a case study, we analyze the word $W=\texttt{NE$^2$NE$^2$N}$ end-to-end. We provide explicit stabilizer dependencies, commuting-operator motifs, and an exact criterion for dimension collapse on thin rectangles: for $(L_x, L_y) = (2d, d)$ with row alternation, we find $k=4$ if $6 \mid d$, and $k=0$ otherwise.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.19057v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Qi Zhang, Anton Simen, Carlos Flores-Garrig\'os, Gabriel Alvarado Barrios, Paolo A. Erdman, Enrique Solano, Aaron C. Kemp, Vincent Beltrani, Vedangi Pathak, Hamed Mohammadbagherpoor</dc:creator>
+      <dc:creator>Mohammad Rowshan</dc:creator>
     </item>
     <item>
-      <title>Theory and interpretability of Quantum Extreme Learning Machines: a Pauli-transfer matrix approach</title>
-      <link>https://arxiv.org/abs/2602.18377</link>
-      <description>arXiv:2602.18377v1 Announce Type: new 
-Abstract: Quantum reservoir computers (QRCs) have emerged as a promising approach to quantum machine learning, since they utilize the natural dynamics of quantum systems for data processing and are simple to train. Here, we consider n-qubit quantum extreme learning machines (QELMs) with continuous-time reservoir dynamics. QELMs are memoryless QRCs capable of various ML tasks, including image classification and time series forecasting. We apply the Pauli transfer matrix (PTM) formalism to theoretically analyze the influence of encoding, reservoir dynamics, and measurement operations, including temporal multiplexing, on the QELM performance. This formalism makes explicit that the encoding determines the complete set of (nonlinear) features available to the QELM, while the quantum channels linearly transform these features before they are probed by the chosen measurement operators. Optimizing a QELM can therefore be cast as a decoding problem in which one shapes the channel-induced transformations such that task-relevant features become available to the regressor. The PTM formalism allows one to identify the classical representation of a QELM and thereby guide its design towards a given training objective. As a specific application, we focus on learning nonlinear dynamical systems and show that a QELM trained on such trajectories learns a surrogate-approximation to the underlying flow map.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.18377v1</guid>
+      <title>Kaiwu-PyTorch-Plugin: Bridging Deep Learning and Photonic Quantum Computing for Energy-Based Models and Active Sample Selection</title>
+      <link>https://arxiv.org/abs/2602.19114</link>
+      <description>arXiv:2602.19114v1 Announce Type: new 
+Abstract: This paper introduces the Kaiwu-PyTorch-Plugin (KPP) to bridge Deep Learning and Photonic Quantum Computing across multiple dimensions. KPP integrates the Coherent Ising Machine into the PyTorch ecosystem, addressing classical inefficiencies in Energy-Based Models. The framework facilitates quantum integration in three key aspects: accelerating Boltzmann sampling, optimizing training data via Active Sampling, and constructing hybrid architectures like QBM-VAE and Q-Diffusion. Empirical results on single-cell and OpenWebText datasets demonstrate KPPs ability to achieve SOTA performance, validating a comprehensive quantum-classical paradigm.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.19114v1</guid>
       <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.AI</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Markus Gross, Hans-Martin Rieser</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Hongdong Zhu, Qi Gao, Yin Ma, Shaobo Chen, Haixu Liu, Fengao Wang, Tinglan Wang, Chang Wu, Kai Wen</dc:creator>
     </item>
     <item>
-      <title>Quantum Maximum Likelihood Prediction via Hilbert Space Embeddings</title>
-      <link>https://arxiv.org/abs/2602.18364</link>
-      <description>arXiv:2602.18364v1 Announce Type: cross 
-Abstract: Recent works have proposed various explanations for the ability of modern large language models (LLMs) to perform in-context prediction. We propose an alternative conceptual viewpoint from an information-geometric and statistical perspective. Motivated by Bach[2023], we model training as learning an embedding of probability distributions into the space of quantum density operators, and in-context learning as maximum-likelihood prediction over a specified class of quantum models. We provide an interpretation of this predictor in terms of quantum reverse information projection and quantum Pythagorean theorem when the class of quantum models is sufficiently expressive. We further derive non-asymptotic performance guarantees in terms of convergence rates and concentration inequalities, both in trace norm and quantum relative entropy. Our approach provides a unified framework to handle both classical and quantum LLMs.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.18364v1</guid>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
+      <title>Evaluating Large Language Models on Quantum Mechanics: A Comparative Study Across Diverse Models and Tasks</title>
+      <link>https://arxiv.org/abs/2602.19006</link>
+      <description>arXiv:2602.19006v1 Announce Type: cross 
+Abstract: We present a systematic evaluation of large language models on quantum mechanics problem-solving. Our study evaluates 15 models from five providers (OpenAI, Anthropic, Google, Alibaba, DeepSeek) spanning three capability tiers on 20 tasks covering derivations, creative problems, non-standard concepts, and numerical computation, comprising 900 baseline and 75 tool-augmented assessments. Results reveal clear tier stratification: flagship models achieve 81\% average accuracy, outperforming mid-tier (77\%) and fast models (67\%) by 4pp and 14pp respectively. Task difficulty patterns emerge distinctly: derivations show highest performance (92\% average, 100\% for flagship models), while numerical computation remains most challenging (42\%). Tool augmentation on numerical tasks yields task-dependent effects: modest overall improvement (+4.4pp) at 3x token cost masks dramatic heterogeneity ranging from +29pp gains to -16pp degradation. Reproducibility analysis across three runs quantifies 6.3pp average variance, with flagship models demonstrating exceptional stability (GPT-5 achieves zero variance) while specialized models require multi-run evaluation. This work contributes: (i) a benchmark for quantum mechanics with automatic verification, (ii) systematic evaluation quantifying tier-based performance hierarchies, (iii) empirical analysis of tool augmentation trade-offs, and (iv) reproducibility characterization. All tasks, verifiers, and results are publicly released.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.19006v1</guid>
+      <category>cs.AI</category>
       <category>quant-ph</category>
-      <category>stat.ML</category>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+      <dc:creator>S. K. Rithvik</dc:creator>
+    </item>
+    <item>
+      <title>Spectral Phase Encoding for Quantum Kernel Methods</title>
+      <link>https://arxiv.org/abs/2602.19644</link>
+      <description>arXiv:2602.19644v1 Announce Type: cross 
+Abstract: Quantum kernel methods are promising for near-term quantum ma- chine learning, yet their behavior under data corruption remains insuf- ficiently understood. We analyze how quantum feature constructions degrade under controlled additive noise. We introduce Spectral Phase Encoding (SPE), a hybrid construc- tion combining a discrete Fourier transform (DFT) front-end with a diagonal phase-only embedding aligned with the geometry of diagonal quantum maps. Within a unified framework, we compare QK-DFT against alternative quantum variants (QK-PCA, QK-RP) and classi- cal SVM baselines under identical clean-data hyperparameter selection, quantifying robustness via dataset fixed-effects regression with wild cluster bootstrap inference across heterogeneous real-world datasets. Across the quantum family, DFT-based preprocessing yields the smallest degradation rate as noise increases, with statistically sup- ported slope differences relative to PCA and RP. Compared to classical baselines, QK-DFT shows degradation comparable to linear SVM and more stable than RBF SVM under matched tuning. Hardware exper- iments confirm that SPE remains executable and numerically stable for overlap estimation. These results indicate that robustness in quan- tum kernels depends critically on structure-aligned preprocessing and its interaction with diagonal embeddings, supporting a robustness-first perspective for NISQ-era quantum machine learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.19644v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Sreejith Sreekumar, Nir Weinberger</dc:creator>
+      <dc:creator>Pablo Herrero G\'omez, Antonio Jimeno Morenilla, David Mu\~noz-Hern\'andez, Higinio Mora Mora</dc:creator>
     </item>
   </channel>
 </rss>

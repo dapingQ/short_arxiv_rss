@@ -7,40 +7,56 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 05:00:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 05:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 25 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>A Symplectic Proof of the Quantum Singleton Bound</title>
-      <link>https://arxiv.org/abs/2602.20186</link>
-      <description>arXiv:2602.20186v1 Announce Type: new 
-Abstract: We present a symplectic linear-algebraic proof of the Quantum Singleton Bound for stabiliser quantum error-correcting codes together with a Lean4 formalisation of the linear-algebraic argument. The proof is formulated in the language of finite-dimensional symplectic vector spaces modelling Pauli operators and relies on distance-based erasure correctability and the cleaning lemma. Using a dimension-counting argument within the symplectic stabiliser framework, we derive the bound \( k + 2(d - 1) \le n \) for any [[n, k, d]] stabiliser code. This approach isolates the algebraic structure underlying the bound and avoids the heavier analytic machinery that appears in entropy-based proofs, while remaining well-suited to formal verification.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.20186v1</guid>
+      <title>Learning Quantum Data Distribution via Chaotic Quantum Diffusion Model</title>
+      <link>https://arxiv.org/abs/2602.22061</link>
+      <description>arXiv:2602.22061v1 Announce Type: new 
+Abstract: Generative models for quantum data pose significant challenges but hold immense potential in fields such as chemoinformatics and quantum physics. Quantum denoising diffusion probabilistic models (QuDDPMs) enable efficient learning of quantum data distributions by progressively scrambling and denoising quantum states; however, existing implementations typically rely on circuit-based random unitary dynamics that can be costly to realize and sensitive to control imperfections, particularly on analog quantum hardware. We propose the chaotic quantum diffusion model, a framework that generates projected ensembles via chaotic Hamiltonian time evolution, providing a flexible and hardware-compatible diffusion mechanism. Requiring only global, time-independent control, our approach substantially reduces implementation overhead across diverse analog quantum platforms while achieving accuracy comparable to QuDDPMs. This method improves trainability and robustness, broadening the applicability of quantum generative modeling.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.22061v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 -0500</pubDate>
+      <category>cs.LG</category>
+      <category>nlin.CD</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Frederick Dehmel, Shilun Li</dc:creator>
+      <dc:creator>Quoc Hoan Tran, Koki Chinzei, Yasuhiro Endo, Hirotaka Oshima</dc:creator>
     </item>
     <item>
-      <title>Tensor Network Generator-Enhanced Optimization for Traveling Salesman Problem</title>
-      <link>https://arxiv.org/abs/2602.20175</link>
-      <description>arXiv:2602.20175v1 Announce Type: cross 
-Abstract: We present an application of the tensor network generator-enhanced optimization (TN-GEO) framework to address the traveling salesman problem (TSP), a fundamental combinatorial optimization challenge. Our approach employs a tensor network Born machine based on automatically differentiable matrix product states (MPS) as the generative model, using the Born rule to define probability distributions over candidate solutions. Unlike approaches based on binary encoding, which require $N^2$ variables and penalty terms to enforce valid tour constraints, we adopt a permutation-based formulation with integer variables and use autoregressive sampling with masking to guarantee that every generated sample is a valid tour by construction. We also introduce a $k$-site MPS variant that learns distributions over $k$-grams (consecutive city subsequences) using a sliding window approach, enabling parameter-efficient modeling for larger instances. Experimental validation on TSPLIB benchmark instances with up to 52 cities demonstrates that TN-GEO can outperform classical heuristics including swap and 2-opt hill-climbing. The $k$-site variants, which put more focus on local correlations, show better results compared to the full-MPS case.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.20175v1</guid>
+      <title>Exploiting Low-Rank Structure in Max-K-Cut Problems</title>
+      <link>https://arxiv.org/abs/2602.20376</link>
+      <description>arXiv:2602.20376v1 Announce Type: cross 
+Abstract: We approach the Max-3-Cut problem through the lens of maximizing complex-valued quadratic forms and demonstrate that low-rank structure in the objective matrix can be exploited, leading to alternative algorithms to classical semidefinite programming (SDP) relaxations and heuristic techniques. We propose an algorithm for maximizing these quadratic forms over a domain of size $K$ that enumerates and evaluates a set of $O\left(n^{2r-1}\right)$ candidate solutions, where $n$ is the dimension of the matrix and $r$ represents the rank of an approximation of the objective. We prove that this candidate set is guaranteed to include the exact maximizer when $K=3$ (corresponding to Max-3-Cut) and the objective is low-rank, and provide approximation guarantees when the objective is a perturbation of a low-rank matrix. This construction results in a family of novel, inherently parallelizable and theoretically-motivated algorithms for Max-3-Cut. Extensive experimental results demonstrate that our approach achieves performance comparable to existing algorithms across a wide range of graphs, while being highly scalable.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.20376v1</guid>
+      <category>cs.DS</category>
       <category>cs.LG</category>
       <category>math.OC</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 25 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ryo Sakai, Chen-Yu Liu</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Ria Stevens, Fangshuo Liao, Barbara Su, Jianqiang Li, Anastasios Kyrillidis</dc:creator>
+    </item>
+    <item>
+      <title>Unsupervised Discovery of Intermediate Phase Order in the Frustrated $J_1$-$J_2$ Heisenberg Model via Prometheus Framework</title>
+      <link>https://arxiv.org/abs/2602.21468</link>
+      <description>arXiv:2602.21468v1 Announce Type: cross 
+Abstract: The spin-$1/2$ $J_1$-$J_2$ Heisenberg model on the square lattice exhibits a debated intermediate phase between N\'eel antiferromagnetic and stripe ordered regimes, with competing theories proposing plaquette valence bond, nematic, and quantum spin liquid ground states. We apply the Prometheus variational autoencoder framework -- previously validated on classical (2D, 3D Ising) and quantum (disordered transverse field Ising) phase transitions -- to systematically explore the $J_1$-$J_2$ phase diagram via unsupervised analysis of exact diagonalization ground states for a $4 \times 4$ lattice. Through dense parameter scans of $J_2/J_1 \in [0.3, 0.7]$ with step size 0.01 and comprehensive latent space analysis, we investigate the nature of the intermediate regime using unsupervised order parameter discovery and critical point detection via multiple independent methods. This work demonstrates the application of rigorously validated machine learning methods to open questions in frustrated quantum magnetism, where traditional order parameter identification is challenged by competing interactions and limited accessible system sizes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.21468v1</guid>
+      <category>cond-mat.str-el</category>
+      <category>cond-mat.dis-nn</category>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Brandon Yee, Wilson Collins, Maximilian Rutkowski</dc:creator>
     </item>
   </channel>
 </rss>

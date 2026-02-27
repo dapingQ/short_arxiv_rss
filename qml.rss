@@ -7,56 +7,67 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 05:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 05:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
+    <pubDate>Fri, 27 Feb 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Learning Quantum Data Distribution via Chaotic Quantum Diffusion Model</title>
-      <link>https://arxiv.org/abs/2602.22061</link>
-      <description>arXiv:2602.22061v1 Announce Type: new 
-Abstract: Generative models for quantum data pose significant challenges but hold immense potential in fields such as chemoinformatics and quantum physics. Quantum denoising diffusion probabilistic models (QuDDPMs) enable efficient learning of quantum data distributions by progressively scrambling and denoising quantum states; however, existing implementations typically rely on circuit-based random unitary dynamics that can be costly to realize and sensitive to control imperfections, particularly on analog quantum hardware. We propose the chaotic quantum diffusion model, a framework that generates projected ensembles via chaotic Hamiltonian time evolution, providing a flexible and hardware-compatible diffusion mechanism. Requiring only global, time-independent control, our approach substantially reduces implementation overhead across diverse analog quantum platforms while achieving accuracy comparable to QuDDPMs. This method improves trainability and robustness, broadening the applicability of quantum generative modeling.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.22061v1</guid>
+      <title>Stochastic Neural Networks for Quantum Devices</title>
+      <link>https://arxiv.org/abs/2602.22241</link>
+      <description>arXiv:2602.22241v1 Announce Type: new 
+Abstract: This work presents a formulation to express and optimize stochastic neural networks as quantum circuits in gate-based quantum computing. Motivated by a classical perceptron, stochastic neurons are introduced and combined into a quantum neural network. The Kiefer-Wolfowitz algorithm in combination with simulated annealing is used for training the network weights. Several topologies and models are presented, including shallow fully connected networks, Hopfield Networks, Restricted Boltzmann Machines, Autoencoders and convolutional neural networks. We also demonstrate the combination of our optimized neural networks as an oracle for the Grover algorithm to realize a quantum generative AI model.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.22241v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <category>nlin.CD</category>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Quoc Hoan Tran, Koki Chinzei, Yasuhiro Endo, Hirotaka Oshima</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bodo Rosenhahn, Tobias J. Osborne, Christoph Hirche</dc:creator>
     </item>
     <item>
-      <title>Exploiting Low-Rank Structure in Max-K-Cut Problems</title>
-      <link>https://arxiv.org/abs/2602.20376</link>
-      <description>arXiv:2602.20376v1 Announce Type: cross 
-Abstract: We approach the Max-3-Cut problem through the lens of maximizing complex-valued quadratic forms and demonstrate that low-rank structure in the objective matrix can be exploited, leading to alternative algorithms to classical semidefinite programming (SDP) relaxations and heuristic techniques. We propose an algorithm for maximizing these quadratic forms over a domain of size $K$ that enumerates and evaluates a set of $O\left(n^{2r-1}\right)$ candidate solutions, where $n$ is the dimension of the matrix and $r$ represents the rank of an approximation of the objective. We prove that this candidate set is guaranteed to include the exact maximizer when $K=3$ (corresponding to Max-3-Cut) and the objective is low-rank, and provide approximation guarantees when the objective is a perturbation of a low-rank matrix. This construction results in a family of novel, inherently parallelizable and theoretically-motivated algorithms for Max-3-Cut. Extensive experimental results demonstrate that our approach achieves performance comparable to existing algorithms across a wide range of graphs, while being highly scalable.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.20376v1</guid>
+      <title>Q-Tag: Watermarking Quantum Circuit Generative Models</title>
+      <link>https://arxiv.org/abs/2602.23085</link>
+      <description>arXiv:2602.23085v1 Announce Type: new 
+Abstract: Quantum cloud platforms have become the most widely adopted and mainstream approach for accessing quantum computing resources, due to the scarcity and operational complexity of quantum hardware. In this service-oriented paradigm, quantum circuits, which constitute high-value intellectual property, are exposed to risks of unauthorized access, reuse, and misuse. Digital watermarking has been explored as a promising mechanism for protecting quantum circuits by embedding ownership information for tracing and verification. However, driven by recent advances in generative artificial intelligence, the paradigm of quantum circuit design is shifting from individually and manually constructed circuits to automated synthesis based on quantum circuit generative models (QCGMs). In such generative settings, protecting only individual output circuits is insufficient, and existing post hoc, circuit-centric watermarking methods are not designed to integrate with the generative process, often failing to simultaneously ensure stealthiness, functional correctness, and robustness at scale. These limitations highlight the need for a new watermarking paradigm that is natively integrated with quantum circuit generative models. In this work, we present the first watermarking framework for QCGMs, which embeds ownership signals into the generation process while preserving circuit fidelity. We introduce a symmetric sampling strategy that aligns watermark encoding with the model's Gaussian prior, and a synchronization mechanism that counteracts adversarial watermark attack through latent drift correction. Empirical results confirm that our method achieves high-fidelity circuit generation and robust watermark detection across a range of perturbations, paving the way for scalable, secure copyright protection in AI-powered quantum design.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.23085v1</guid>
+      <category>quant-ph</category>
+      <category>cs.LG</category>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yang Yang, Yuzhu Long, Han Fang, Zhaoyun Chen, Zhonghui Li, Weiming Zhang, Guoping Guo</dc:creator>
+    </item>
+    <item>
+      <title>Dequantization Barriers for Guided Stoquastic Hamiltonians</title>
+      <link>https://arxiv.org/abs/2602.23183</link>
+      <description>arXiv:2602.23183v1 Announce Type: new 
+Abstract: We construct a probability distribution, induced by the Perron--Frobenius eigenvector of an exponentially large graph, which cannot be efficiently sampled by any classical algorithm, even when provided with the best-possible warm-start distribution. In the quantum setting, this problem can be viewed as preparing the ground state of a stoquastic Hamiltonian given a guiding state as input, and is known to be efficiently solvable on a quantum computer. Our result suggests that no efficient classical algorithm can solve a broad class of stoquastic ground-state problems.
+  Our graph is constructed from a class of high-degree, high-girth spectral expanders to which self-similar trees are attached. This builds on and extends prior work of Gily\'en, Hastings, and Vazirani [Quantum 2021, STOC 2021], which ruled out dequantization for a specific stoquastic adiabatic path algorithm. We strengthen their result by ruling out any classical algorithm for guided ground-state preparation.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.23183v1</guid>
+      <category>quant-ph</category>
+      <category>cs.CC</category>
       <category>cs.DS</category>
-      <category>cs.LG</category>
-      <category>math.OC</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Ria Stevens, Fangshuo Liao, Barbara Su, Jianqiang Li, Anastasios Kyrillidis</dc:creator>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Yassine Hamoudi, Yvan Le Borgne, Shrinidhi Teganahally Sridhara</dc:creator>
     </item>
     <item>
-      <title>Unsupervised Discovery of Intermediate Phase Order in the Frustrated $J_1$-$J_2$ Heisenberg Model via Prometheus Framework</title>
-      <link>https://arxiv.org/abs/2602.21468</link>
-      <description>arXiv:2602.21468v1 Announce Type: cross 
-Abstract: The spin-$1/2$ $J_1$-$J_2$ Heisenberg model on the square lattice exhibits a debated intermediate phase between N\'eel antiferromagnetic and stripe ordered regimes, with competing theories proposing plaquette valence bond, nematic, and quantum spin liquid ground states. We apply the Prometheus variational autoencoder framework -- previously validated on classical (2D, 3D Ising) and quantum (disordered transverse field Ising) phase transitions -- to systematically explore the $J_1$-$J_2$ phase diagram via unsupervised analysis of exact diagonalization ground states for a $4 \times 4$ lattice. Through dense parameter scans of $J_2/J_1 \in [0.3, 0.7]$ with step size 0.01 and comprehensive latent space analysis, we investigate the nature of the intermediate regime using unsupervised order parameter discovery and critical point detection via multiple independent methods. This work demonstrates the application of rigorously validated machine learning methods to open questions in frustrated quantum magnetism, where traditional order parameter identification is challenged by competing interactions and limited accessible system sizes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.21468v1</guid>
-      <category>cond-mat.str-el</category>
-      <category>cond-mat.dis-nn</category>
+      <title>Deep Sequence Modeling with Quantum Dynamics: Language as a Wave Function</title>
+      <link>https://arxiv.org/abs/2602.22255</link>
+      <description>arXiv:2602.22255v1 Announce Type: cross 
+Abstract: We introduce a sequence modeling framework in which the latent state is a complex-valued wave function evolving on a finite-dimensional Hilbert space under a learned, time-dependent Hamiltonian. Unlike standard recurrent architectures that rely on gating mechanisms to suppress competing hypotheses, our framework utilizes quantum interference: the Hamiltonian steers the phases of complex amplitudes so that conflicting interpretations cancel while compatible ones reinforce. The dynamics are strictly unitary, ensuring that the state norm is preserved exactly at every time step via a Cayley (Crank--Nicolson) discretization. Token probabilities are extracted using the Born rule, a quadratic measurement operator that couples magnitudes and relative phases. Our primary theoretical contribution is a separation theorem characterizing the representational advantage of this readout: we define a family of disambiguation tasks that a complex unitary model of dimension $N$ solves exactly, but which requires a state dimension of $\Omega(N^2)$ for any real-valued orthogonal model equipped with a standard affine-softmax readout. This quadratic gap arises because the Born rule implicitly lifts the $N$-dimensional state into the space of rank-one Hermitian matrices, accessing pairwise phase correlations that are inaccessible to linear projections. Finally, we derive a continuity equation for the latent probability mass, yielding conserved pairwise currents that serve as a built-in diagnostic for tracing information flow between dimensions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.22255v1</guid>
       <category>cs.LG</category>
+      <category>cs.AI</category>
       <category>quant-ph</category>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 -0500</pubDate>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Brandon Yee, Wilson Collins, Maximilian Rutkowski</dc:creator>
+      <dc:creator>Ahmed Nebli, Hadi Saadatdoorabi, Kevin Yam</dc:creator>
     </item>
   </channel>
 </rss>

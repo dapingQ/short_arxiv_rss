@@ -7,12 +7,41 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2026 05:00:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 05:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Sun, 01 Mar 2026 00:00:00 -0500</pubDate>
+    <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
+    <item>
+      <title>Long Range Frequency Tuning for QML</title>
+      <link>https://arxiv.org/abs/2602.23409</link>
+      <description>arXiv:2602.23409v1 Announce Type: cross 
+Abstract: Quantum machine learning models using angle encoding naturally represent truncated Fourier series, providing universal function approximation capabilities with sufficient circuit depth. For unary fixed-frequency encodings, circuit depth scales as O(omega_max * (omega_max + epsilon^{-2})) with target frequency magnitude omega_max and precision epsilon. Trainable-frequency approaches theoretically reduce this to match the target spectrum size, requiring only as many encoding gates as frequencies in the target spectrum. Despite this compelling efficiency, their practical effectiveness hinges on a key assumption: that gradient-based optimization can drive prefactors to arbitrary target values. We demonstrate through systematic experiments that frequency prefactors exhibit limited trainability: movement is constrained to approximately +/-1 units with typical learning rates. When target frequencies lie outside this reachable range, optimization frequently fails. To overcome this frequency reachability limitation, we propose grid-based initialization using ternary encodings, which generate dense integer frequency spectra. While this approach requires O(log_3(omega_max)) encoding gates -- more than the theoretical optimum but exponentially fewer than fixed-frequency methods -- it ensures target frequencies lie within the locally reachable range. On synthetic targets with three shifted high frequencies, ternary grid initialization achieves a median R^2 score of 0.9969, compared to 0.1841 for the trainable-frequency baseline. For the real-world Flight Passengers dataset, ternary grid initialization achieves a median R^2 score of 0.9671, representing a 22.8% improvement over trainable-frequency initialization (median R^2 = 0.7876).</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.23409v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.ET</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Michael Poppel, Jonas Stein, Sebastian W\"olckert, Markus Baumann, Claudia Linnhoff-Popien</dc:creator>
+    </item>
+    <item>
+      <title>Comparing Classical and Quantum Variational Classifiers on the XOR Problem</title>
+      <link>https://arxiv.org/abs/2602.24220</link>
+      <description>arXiv:2602.24220v1 Announce Type: cross 
+Abstract: Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer perceptron, and a two-qubit variational quantum classifier with circuit depths 1 and 2 are evaluated on synthetic XOR datasets with varying Gaussian noise and sample sizes using accuracy and binary cross-entropy.
+  Performance is determined primarily by model expressivity. Logistic regression and the depth-1 quantum circuit fail to represent XOR reliably, whereas the multilayer perceptron and the depth-2 quantum circuit achieve perfect test accuracy under representative conditions. Robustness analyses across noise levels, dataset sizes, and random seeds confirm that circuit depth is decisive for quantum performance on this task. Despite matching accuracy, the multilayer perceptron achieves lower binary cross-entropy and substantially shorter training time. Hardware execution preserves the global XOR structure but introduces structured deviations in the decision function. Overall, deeper variational quantum classifiers can match classical neural networks in accuracy on low-dimensional XOR benchmarks, but no clear empirical advantage in robustness or efficiency is observed in the examined settings.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2602.24220v1</guid>
+      <category>cs.LG</category>
+      <category>quant-ph</category>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Miras Seilkhan, Adilbek Taizhanov</dc:creator>
+    </item>
   </channel>
 </rss>

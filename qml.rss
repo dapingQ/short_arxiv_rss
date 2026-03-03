@@ -7,41 +7,99 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Mar 2026 05:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 05:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
+    <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
     <skipDays>
-      <day>Saturday</day>
       <day>Sunday</day>
+      <day>Saturday</day>
     </skipDays>
     <item>
-      <title>Long Range Frequency Tuning for QML</title>
-      <link>https://arxiv.org/abs/2602.23409</link>
-      <description>arXiv:2602.23409v1 Announce Type: cross 
-Abstract: Quantum machine learning models using angle encoding naturally represent truncated Fourier series, providing universal function approximation capabilities with sufficient circuit depth. For unary fixed-frequency encodings, circuit depth scales as O(omega_max * (omega_max + epsilon^{-2})) with target frequency magnitude omega_max and precision epsilon. Trainable-frequency approaches theoretically reduce this to match the target spectrum size, requiring only as many encoding gates as frequencies in the target spectrum. Despite this compelling efficiency, their practical effectiveness hinges on a key assumption: that gradient-based optimization can drive prefactors to arbitrary target values. We demonstrate through systematic experiments that frequency prefactors exhibit limited trainability: movement is constrained to approximately +/-1 units with typical learning rates. When target frequencies lie outside this reachable range, optimization frequently fails. To overcome this frequency reachability limitation, we propose grid-based initialization using ternary encodings, which generate dense integer frequency spectra. While this approach requires O(log_3(omega_max)) encoding gates -- more than the theoretical optimum but exponentially fewer than fixed-frequency methods -- it ensures target frequencies lie within the locally reachable range. On synthetic targets with three shifted high frequencies, ternary grid initialization achieves a median R^2 score of 0.9969, compared to 0.1841 for the trainable-frequency baseline. For the real-world Flight Passengers dataset, ternary grid initialization achieves a median R^2 score of 0.9671, representing a 22.8% improvement over trainable-frequency initialization (median R^2 = 0.7876).</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.23409v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>cs.ET</category>
+      <title>Scaling Quantum Machine Learning without Tricks: High-Resolution and Diverse Image Generation</title>
+      <link>https://arxiv.org/abs/2603.00233</link>
+      <description>arXiv:2603.00233v1 Announce Type: new 
+Abstract: Quantum generative modeling is a rapidly evolving discipline at the intersection of quantum computing and machine learning. Contemporary quantum machine learning is generally limited to toy examples or heavily restricted datasets with few elements. This is not only due to the current limitations of available quantum hardware but also due to the absence of inductive biases arising from application-agnostic designs. Current quantum solutions must resort to tricks to scale down high-resolution images, such as relying heavily on dimensionality reduction or utilizing multiple quantum models for low-resolution image patches. Building on recent developments in classical image loading to quantum computers, we circumvent these limitations and train quantum Wasserstein GANs on the established classical MNIST and Fashion-MNIST datasets. Using the complete datasets, our system generates full-resolution images across all ten classes and establishes a new state-of-the-art performance with a single end-to-end quantum generator without tricks. As a proof-of-principle, we also demonstrate that our approach can be extended to color images, exemplified on the Street View House Numbers dataset. We analyze how the choice of variational circuit architecture introduces inductive biases, which crucially unlock this performance. Furthermore, enhanced noise input techniques enable highly diverse image generation while maintaining quality. Finally, we show promising results even under quantum shot noise conditions.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.00233v1</guid>
       <category>quant-ph</category>
-      <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
+      <category>cs.CV</category>
+      <category>cs.LG</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Michael Poppel, Jonas Stein, Sebastian W\"olckert, Markus Baumann, Claudia Linnhoff-Popien</dc:creator>
+      <dc:creator>Jonas J\"ager, Florian J. Kiwit, Carlos A. Riofr\'io</dc:creator>
     </item>
     <item>
-      <title>Comparing Classical and Quantum Variational Classifiers on the XOR Problem</title>
-      <link>https://arxiv.org/abs/2602.24220</link>
-      <description>arXiv:2602.24220v1 Announce Type: cross 
-Abstract: Quantum machine learning applies principles such as superposition and entanglement to data processing and optimization. Variational quantum models operate on qubits in high-dimensional Hilbert spaces and provide an alternative approach to model expressivity. We compare classical models and a variational quantum classifier on the XOR problem. Logistic regression, a one-hidden-layer multilayer perceptron, and a two-qubit variational quantum classifier with circuit depths 1 and 2 are evaluated on synthetic XOR datasets with varying Gaussian noise and sample sizes using accuracy and binary cross-entropy.
-  Performance is determined primarily by model expressivity. Logistic regression and the depth-1 quantum circuit fail to represent XOR reliably, whereas the multilayer perceptron and the depth-2 quantum circuit achieve perfect test accuracy under representative conditions. Robustness analyses across noise levels, dataset sizes, and random seeds confirm that circuit depth is decisive for quantum performance on this task. Despite matching accuracy, the multilayer perceptron achieves lower binary cross-entropy and substantially shorter training time. Hardware execution preserves the global XOR structure but introduces structured deviations in the decision function. Overall, deeper variational quantum classifiers can match classical neural networks in accuracy on low-dimensional XOR benchmarks, but no clear empirical advantage in robustness or efficiency is observed in the examined settings.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.24220v1</guid>
+      <title>QANTIS: A Hardware-Validated Quantum Platform for POMDP Planning and Multi-Target Data Association</title>
+      <link>https://arxiv.org/abs/2603.00785</link>
+      <description>arXiv:2603.00785v1 Announce Type: new 
+Abstract: Autonomous navigation under uncertainty requires solving partially observable Markov decision processes (POMDPs) for planning and assigning sensor measurements to tracked targets--a task known as multi-target data association (MTDA). Both problems become computationally demanding at scale: belief conditioning costs $\mathcal{O}(P(e)^{-1})$ per node under rare evidence, while MTDA is NP-hard. Quantum amplitude amplification can quadratically reduce the belief-update query cost to $\mathcal{O}(P(e)^{-1/2})$, while QUBO reformulations expose MTDA to quantum and quantum-inspired optimisation heuristics. We present QANTIS, a modular platform that integrates quantum belief update (Grover amplitude amplification and BIQAE), QUBO-based data association via FPC-QAOA, and composable error mitigation, and we report a 45-experiment hardware study on three IBM Heron backends. On hardware, a single Grover iterate applied to a Tiger belief oracle amplifies a rare observation probability from $0.179$ to $0.907$ ($5.1\times$; ISA 18) while preserving the Bayesian posterior (Hellinger $0.0015$), increasing usable-shot yield from 1,463 to 7,429. We interpret this as a hardware validation of the quadratic query-complexity mechanism at $k=1$ with posterior preservation, rather than a wall-clock advantage claim. We further demonstrate, to our knowledge, the first closed-loop hybrid quantum-classical Tiger POMDP on superconducting hardware ($T=8$, max Hellinger below $0.015$), and empirically characterise NISQ feasibility boundaries: ZNE-based error mitigation is beneficial below ISA $\approx 100$ and harmful above ISA $\gtrsim 1{,}000$; FPC-QAOA is meaningful at $\leq 15$ QUBO variables (ISA $\lesssim 450$). These results characterise practical operating regimes on current superconducting hardware rather than wall-clock quantum advantage at today's problem scales.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.00785v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Bayram Y\"uksel Eker, Suayb S. Arslan, \"Ozg\"ur Nazl{\i}, Mustafa Serhat Demirgil, Furkan Delig\"oz</dc:creator>
+    </item>
+    <item>
+      <title>Finite-Depth, Finite-Shot Guarantees for Constrained Quantum Optimization via Fej\'er Filtering</title>
+      <link>https://arxiv.org/abs/2603.01809</link>
+      <description>arXiv:2603.01809v1 Announce Type: new 
+Abstract: We study finite-layer alternations of the \emph{Constraint--Enhanced Quantum Approximate Optimization Algorithm} (CE--QAOA), a constraint-aware ansatz that operates natively on block one-hot manifolds. Our focus is on feasibility and optimality guarantees. We show that restricting cost angles to a harmonic lattice exposes a positive Fej\'er filter acting on the cost-phase unitary $U_C(\gamma)=e^{-i\gamma H_C}$ \emph{in a cost-dephased reference model (used only for analysis)}. Under a wrapped phase-separation condition, this yields \emph{dimension-free} finite-depth and finite-shot lower bounds on the success probability of sampling an optimal solution. In particular, we obtain a ratio-form guarantee \[ q_0 \;\ge\; \frac{x}{1+x}, \qquad x \;=\; (p{+}1)^2 \sin^2(\delta/2)\,C_\beta, \] where $q_0$ is the single-shot success probability, $C_\beta$ is the mixer-envelope mass on the optimal set, $\delta$ is a phase-gap proxy, and $p$ is the number of layers. Riemann--Lebesgue averaging extends the discussion beyond exact lattice normalization. We conclude by outlining coherent realizations of hardware-efficient positive spectral filters as a main open direction.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.01809v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>cs.NA</category>
+      <category>math-ph</category>
+      <category>math.IT</category>
+      <category>math.MP</category>
+      <category>math.NA</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Chinonso Onah, Kristel Michielsen</dc:creator>
+    </item>
+    <item>
+      <title>Transmitting Correlation for Data Transmission over the Bosonic Arbitrarily Varying Channel</title>
+      <link>https://arxiv.org/abs/2603.02078</link>
+      <description>arXiv:2603.02078v1 Announce Type: new 
+Abstract: Shared randomness is the central ingredient for stabilizing symmetrizable communication systems against arbitrarily varying jammers. Given the presence of the jammer, however, the question arises how this precious resource could have been distributed. Several works discuss the use of external sources for this task. In this work, we show, based on the most standard optical communication model, how the sender and receiver can employ either classically correlated thermal light or entangled two-mode squeezed states created at and transmitted by the sender to counter the jamming attack of an energy-limited jammer during the distribution phase. Both sender and receiver are only allowed to use homodyne detection in our model, and the sender has to obey a power limit as well.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.02078v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Janis N\"otzel, Florian Seitz</dc:creator>
+    </item>
+    <item>
+      <title>Exact and Asymptotically Complete Robust Verifications of Neural Networks via Quantum Optimization</title>
+      <link>https://arxiv.org/abs/2603.00408</link>
+      <description>arXiv:2603.00408v1 Announce Type: cross 
+Abstract: Deep neural networks (DNNs) enable high performance across domains but remain vulnerable to adversarial perturbations, limiting their use in safety-critical settings. Here, we introduce two quantum-optimization-based models for robust verification that reduce the combinatorial burden of certification under bounded input perturbations. For piecewise-linear activations (e.g., ReLU and hardtanh), our first model yields an exact formulation that is sound and complete, enabling precise identification of adversarial examples. For general activations (including sigmoid and tanh), our second model constructs scalable over-approximations via piecewise-constant bounds and is asymptotically complete, with approximation error vanishing as the segmentation is refined. We further integrate Quantum Benders Decomposition with interval arithmetic to accelerate solving, and propose certificate-transfer bounds that relate robustness guarantees of pruned networks to those of the original model. Finally, a layerwise partitioning strategy supports a quantum--classical hybrid workflow by coupling subproblems across depth. Experiments on robustness benchmarks show high certification accuracy, indicating that quantum optimization can serve as a principled primitive for robustness guarantees in neural networks with complex activations.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.00408v1</guid>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>physics.optics</category>
+      <category>quant-ph</category>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
+      <arxiv:announce_type>cross</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Wenxin Li, Wenchao Liu, Chuan Wang, Qi Gao, Yin Ma, Hai Wei, Kai Wen</dc:creator>
+    </item>
+    <item>
+      <title>Physics-Aware Learnability: From Set-Theoretic Independence to Operational Constraints</title>
+      <link>https://arxiv.org/abs/2603.00417</link>
+      <description>arXiv:2603.00417v1 Announce Type: cross 
+Abstract: Beyond binary classification, learnability can become a logically fragile notion: in EMX, even the class of all finite subsets of $[0,1]$ is learnable in some models of ZFC and not in others. We argue the paradox is operational. The standard definitions quantify over arbitrary set-theoretic learners that implicitly assume non-operational resources (infinite precision, unphysical data access, and non-representable outputs). We introduce physics-aware learnability (PL), which defines the learnability relative to an explicit access model -- a family of admissible physical protocols. Finite-precision coarse-graining reduces continuum EMX to a countable problem, via an exact pushforward/pullback reduction that preserves the EMX objective, making the independence example provably learnable with explicit $(\epsilon,\delta)$ sample complexity. For quantum data, admissible learners are exactly POVMs on $d$ copies, turning sample size into copy complexity and yielding Helstrom(-type) lower bounds. For finite no-signaling and quantum models, PL feasibility becomes linear or semidefinite and is therefore decidable.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.00417v1</guid>
       <category>cs.LG</category>
       <category>quant-ph</category>
-      <pubDate>Mon, 02 Mar 2026 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 -0500</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Miras Seilkhan, Adilbek Taizhanov</dc:creator>
+      <dc:rights>http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+      <dc:creator>Jeongho Bang, Kyoungho Cho</dc:creator>
     </item>
   </channel>
 </rss>

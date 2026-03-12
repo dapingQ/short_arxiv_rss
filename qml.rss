@@ -7,95 +7,85 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Mar 2026 04:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2026 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
+    <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
     <skipDays>
-      <day>Sunday</day>
       <day>Saturday</day>
+      <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Large Language Model-Assisted Superconducting Qubit Experiments</title>
-      <link>https://arxiv.org/abs/2603.08801</link>
-      <description>arXiv:2603.08801v1 Announce Type: new 
-Abstract: Superconducting circuits have demonstrated significant potential in quantum information processing and quantum sensing. Implementing novel control and measurement sequences for superconducting qubits is often a complex and time-consuming process, requiring extensive expertise in both the underlying physics and the specific hardware and software. In this work, we introduce a framework that leverages a large language model (LLM) to automate qubit control and measurement. Specifically, our framework conducts experiments by generating and invoking schema-less tools on demand via a knowledge base on instrumental usage and experimental procedures. We showcase this framework with two experiments: an autonomous resonator characterization and a direct reproduction of a quantum non-demolition (QND) characterization of a superconducting qubit from literature. This framework enables rapid deployment of standard control-and-measurement protocols and facilitates implementation of novel experimental procedures, offering a more flexible and user-friendly paradigm for controlling complex quantum hardware.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.08801v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Shiheng Li, Jacob M. Miller, Phoebe J. Lee, Gustav Andersson, Christopher R. Conner, Yash J. Joshi, Bayan Karimi, Amber M. King, Howard L. Malc, Harsh Mishra, Hong Qiao, Minseok Ryu, Xuntao Wu, Siyuan Xing, Haoxiong Yan, Jian Shi, Andrew N. Cleland</dc:creator>
-    </item>
-    <item>
-      <title>Evolution of Photonic Quantum Machine Learning under Noise</title>
-      <link>https://arxiv.org/abs/2603.09645</link>
-      <description>arXiv:2603.09645v1 Announce Type: new 
-Abstract: Photonic Quantum Machine Learning (PQML) is an emerging approach that integrates photonic quantum computing technologies with machine learning techniques to enable scalable and energy-efficient quantum information processing. Photonic systems offer advantages such as room-temperature operation, high-speed signal processing, and the ability to represent information in high-dimensional Hilbert spaces. However, noise remains a major challenge affecting the performance, reliability, and scalability of PQML implementations. This review provides a systematic analysis of noise sources in photonic quantum machine learning systems. We discuss photonic quantum computing architectures and examine key quantum machine learning algorithms implemented on photonic platforms, including Variational Quantum Circuits, Quantum Neural Networks, and Quantum Support Vector Machines. The paper categorizes major noise mechanisms and analyzes their impact on learning performance, training stability, and convergence behavior. Furthermore, we review both traditional and advanced noise characterization techniques and survey recent strategies for noise mitigation in photonic quantum systems. Finally, we highlight recent experimental advances and discuss future research directions for developing robust and scalable PQML systems under realistic noise conditions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.09645v1</guid>
+      <title>Mitigating Frequency Learning Bias in Quantum Models via Multi-Stage Residual Learning</title>
+      <link>https://arxiv.org/abs/2603.10083</link>
+      <description>arXiv:2603.10083v1 Announce Type: new 
+Abstract: Quantum machine learning models based on parameterized circuits can be viewed as Fourier series approximators. However, they often struggle to learn functions with multiple frequency components, particularly high-frequency or non-dominant ones; a phenomenon we term the quantum Fourier parameterization bias. Inspired by recent advances in classical Fourier neural operators (FNOs), we adapt the multi-stage residual learning idea to the quantum domain, iteratively training additional quantum modules on the residuals of previous stages. We evaluate our method on a synthetic benchmark composed of spatially localized frequency components with diverse envelope shapes (Gaussian, Lorentzian, triangular). Systematic experiments show that the number of qubits, the encoding scheme, and residual learning are all crucial for resolving multiple frequencies; residual learning alone can improve test MSE significantly over a single-stage baseline trained for the same total number of epochs. Our work provides a practical framework for enhancing the spectral expressivity of quantum models and offers new insights into their frequency-learning behavior.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.10083v1</guid>
       <category>quant-ph</category>
       <category>cs.LG</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
       <arxiv:announce_type>new</arxiv:announce_type>
       <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>A. M. A. S. D. Alagiyawanna, Asoka Karunananda</dc:creator>
+      <dc:creator>Ammar Daskin</dc:creator>
     </item>
     <item>
-      <title>Has quantum advantage been achieved?</title>
-      <link>https://arxiv.org/abs/2603.09901</link>
-      <description>arXiv:2603.09901v1 Announce Type: new 
-Abstract: Quantum computational advantage was claimed for the first time in 2019 and several experiments since then have reinforced the claim. And yet, there is no consensus whether or not quantum advantage has actually been achieved. In this article, I address this question and argue that, in fact, it has. I also outline next steps for theory and experiments in quantum advantage.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.09901v1</guid>
+      <title>Learning from Radio using Variational Quantum RF Sensing</title>
+      <link>https://arxiv.org/abs/2603.10239</link>
+      <description>arXiv:2603.10239v1 Announce Type: new 
+Abstract: In modern wireless networks, radio channels serve a dual role. Whilst their primary function is to carry bits of information from a transmitter to a receiver, the intrinsic sensitivity of transmitted signals to the physical structure of the environment makes the channel a powerful source of knowledge about the world. In this paper, we consider an agent that learns about its environment using a quantum sensing probe, optimised using a quantum circuit, which interacts with the radio-frequency (RF) electromagnetic field. We use data obtained from a ray-tracer to train the quantum circuit and learning model and we provide extensive experiments under realistic conditions on a localisation task. We show that using quantum sensors to learn from radio signals can enable intelligent systems that require no channel measurements at deployment, remain sensitive to weak and obstructed RF signals, and can learn about the world despite operating with strictly less information than classical baselines.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.10239v1</guid>
       <category>quant-ph</category>
-      <category>cs.CC</category>
-      <category>physics.hist-ph</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
-      <dc:creator>Dominik Hangleiter</dc:creator>
-    </item>
-    <item>
-      <title>Contextuality from Single-State Ontological Models: An Information-Theoretic No-Go Theorem</title>
-      <link>https://arxiv.org/abs/2602.16716</link>
-      <description>arXiv:2602.16716v2 Announce Type: cross 
-Abstract: Contextuality is a central feature of quantum theory, traditionally understood as the impossibility of reproducing quantum measurement statistics using noncontextual ontological models. We consider classical ontological models constrained to reuse a single ontic state space across multiple interventions. We prove an information-theoretic no-go theorem showing that such models must incur an irreducible contextual information cost: contextual dependence cannot be fully mediated through the ontic state alone and requires additional contextual information beyond it. We provide a constructive example illustrating this obstruction and show that it arises solely from the requirement of ontic state reuse within a classical probability space. We further explain how quantum theory avoids this obstruction by relaxing the assumption that all measurement statistics arise from a single underlying classical ontic variable. These results identify contextuality as a fundamental information-theoretic constraint on classical ontological models and clarify its origin as a limitation on classical representations.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2602.16716v2</guid>
       <category>cs.AI</category>
       <category>cs.IT</category>
+      <category>eess.SP</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Ivana Nikoloska</dc:creator>
+    </item>
+    <item>
+      <title>Quantum entanglement provides a competitive advantage in adversarial games</title>
+      <link>https://arxiv.org/abs/2603.10289</link>
+      <description>arXiv:2603.10289v1 Announce Type: new 
+Abstract: Whether uniquely quantum resources confer advantages in fully classical, competitive environments remains an open question. Competitive zero-sum reinforcement learning is particularly challenging, as success requires modelling dynamic interactions between opposing agents rather than static state-action mappings. Here, we conduct a controlled study isolating the role of quantum entanglement in a quantum-classical hybrid agent trained on Pong, a competitive Markov game. An 8-qubit parameterised quantum circuit serves as a feature extractor within a proximal policy optimisation framework, allowing direct comparison between separable circuits and architectures incorporating fixed (CZ) or trainable (IsingZZ) entangling gates. Entangled circuits consistently outperform separable counterparts with comparable parameter counts and, in low-capacity regimes, match or exceed classical multilayer perceptron baselines. Representation similarity analysis further shows that entangled circuits learn structurally distinct features, consistent with improved modelling of interacting state variables. These findings establish entanglement as a function resource for representation learning in competitive reinforcement learning.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.10289v1</guid>
+      <category>quant-ph</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
+      <dc:creator>Peiyong Wang, Kieran Hymas, James Quach</dc:creator>
+    </item>
+    <item>
+      <title>Permutation-invariant codes: a numerical study and qudit constructions</title>
+      <link>https://arxiv.org/abs/2603.10981</link>
+      <description>arXiv:2603.10981v1 Announce Type: new 
+Abstract: We investigate Permutation-Invariant (PI) quantum error-correcting codes encoding a logical qudit of dimension $\mathrm{d}_\mathrm{L}$ in PI states using physical qudits of dimension $\mathrm{d}_\mathrm{P}$. We extend the Knill--Laflamme (KL) conditions for $d-1$ deletion errors from qubits to qudits and investigate numerically both qubit ($\mathrm{d}_\mathrm{L} = \mathrm{d}_\mathrm{P} = 2$) and qudit ($\mathrm{d}_\mathrm{L} &gt; 2$ or $\mathrm{d}_\mathrm{P} &gt; 2$) PI codes. We analyze the scaling of the block length $n$ in terms of the code distance $d$, and compare to existing families of PI codes due to Ouyang, Aydin--Alekseyev--Barg (AAB) and Pollatsek--Ruskai (PR). Our three main findings are: (i) We conjecture that qubit PI codes correcting up to $d-1$ deletion errors have block length $n(d) \geq (3d^2 + 1) / 4$, which implies an upper bound $d \leq \sqrt{12n-3}/3$ on their code distance, and that PR codes can saturate this bound. (ii) For qudit PI codes encoding a single qudit we numerically observe that increasing $\mathrm{d}_\mathrm{P}$ results in $n$ monotonically decreasing and approaching the quantum Singleton bound $n(d) \geq 2d-1$. (iii) We propose a semi-analytic extension of the qubit AAB construction to qudits that finds explicit solutions by solving a linear program. Our results therefore provide key insights into lower bounds on the block length scaling of both qubit and qudit PI codes, and demonstrate the benefit of increased physical local dimension in the context of PI codes.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.10981v1</guid>
+      <category>quant-ph</category>
+      <category>cs.IT</category>
+      <category>math.IT</category>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
+      <arxiv:announce_type>new</arxiv:announce_type>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Liam J. Bond, Ji\v{r}\'i Min\'a\v{r}, M\=aris Ozols, Arghavan Safavi-Naini, Vladyslav Visnevskyi</dc:creator>
+    </item>
+    <item>
+      <title>Quantization of Ricci Curvature in Information Geometry</title>
+      <link>https://arxiv.org/abs/2603.10054</link>
+      <description>arXiv:2603.10054v1 Announce Type: cross 
+Abstract: In 2004, while studying the information geometry of binary Bayesian networks (bitnets), the author conjectured that the volume-averaged Ricci scalar &lt;R&gt; computed with respect to the Fisher information metric is universally quantized to positive half-integers: &lt;R&gt; in (1/2)Z. This paper resolves the conjecture after 20 years. We prove it for tree-structured and complete-graph bitnets via a universal Beta function cancellation mechanism, and disprove it in general by exhibiting explicit loop counterexamples.
+  We extend the program to Gaussian DAG networks, where a sign dichotomy holds: discrete bitnets have positive curvature, while Gaussian networks form solvable Lie groups with negative curvature.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.10054v1</guid>
+      <category>cs.IT</category>
+      <category>cs.LG</category>
       <category>math.IT</category>
       <category>quant-ph</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Song-Ju Kim</dc:creator>
-    </item>
-    <item>
-      <title>Measurement-Free Ancilla Recycling via Blind Reset: A Cross-Platform Study on Superconducting and Trapped-Ion Processors</title>
-      <link>https://arxiv.org/abs/2603.08733</link>
-      <description>arXiv:2603.08733v1 Announce Type: cross 
-Abstract: Ancilla reuse in repeated syndrome extraction couples reset quality to logical-cycle latency. We evaluate blind reset -- unitary-only recycling via scaled sequence replay -- on IQM Garnet, Rigetti Ankaa-3, and IonQ under matched seeds, sequence lengths, and shot budgets. Using ancilla cleanliness F_clean=P(|0&gt;), per-cycle latency, and a distance-3 repetition-code logical-error proxy, platform-calibrated simulation identifies candidate regions where blind reset cuts cycle latency by up to 38x under NVQLink-class feedback overhead while maintaining F_clean &gt;= 0.86 for L &lt;= 6. Hardware experiments on IQM Garnet confirm blind-reset cleanliness &gt;= 0.84 at L=8 (1024 shots, seed 42); platform-calibrated simulation for Rigetti Ankaa-3 predicts comparable performance. Architecture-dependent crossover lengths are L* ~ 12 (IQM), ~ 11 (Rigetti), ~ 1 (IonQ), and ~ 78 with GPU-linked external feedback. Two added analyses tighten deployment boundaries: a T1/T2 sensitivity map identifies coherence-ratio regimes, and error-bound validation confirms measured cleanliness remains consistent with the predicted diagnostic envelope. A deployment decision matrix translates these results into backend-specific policy selection.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.08733v1</guid>
-      <category>cs.AR</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
       <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Sangkeum Lee</dc:creator>
-    </item>
-    <item>
-      <title>A Hybrid Quantum-Classical Framework for Financial Volatility Forecasting Based on Quantum Circuit Born Machines</title>
-      <link>https://arxiv.org/abs/2603.09789</link>
-      <description>arXiv:2603.09789v1 Announce Type: cross 
-Abstract: Accurate forecasting of financial market volatility is crucial for risk management, option pricing, and portfolio optimization. Traditional econometric models and classical machine learning methods face challenges in handling the inherent non-linear and non-stationary characteristics of financial time series. In recent years, the rapid development of quantum computing has provided a new paradigm for solving complex optimization and sampling problems. This paper proposes a novel hybrid quantum-classical computing framework aimed at combining the powerful representation capabilities of classical neural networks with the unique advantages of quantum models. For the specific task of financial market volatility forecasting, we designed and implemented a hybrid model based on this framework, which combines a Long Short-Term Memory (LSTM) network with a Quantum Circuit Born Machine (QCBM). The LSTM is responsible for extracting complex dynamic features from historical time series data, while the QCBM serves as a learnable prior module, providing the model with a high-quality prior distribution to guide the forecasting process. We evaluated the model on two real financial datasets consisting of 5-minute high-frequency data from the Shanghai Stock Exchange (SSE) Composite Index and CSI 300 Index. Experimental results show that, compared to a purely classical LSTM baseline model, our hybrid quantum-classical model demonstrates significant advantages across multiple key metrics, including Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and QLIKE loss, proving the great potential of quantum computing in enhancing the capabilities of financial forecasting models. More broadly, the proposed hybrid framework offers a flexible architecture that may be adapted to other machine learning tasks involving high-dimensional, complex, or non-linear data distributions.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.09789v1</guid>
-      <category>cs.LG</category>
-      <category>cs.AI</category>
-      <category>quant-ph</category>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Yixiong Chen</dc:creator>
+      <dc:creator>Carlos C. Rodriguez</dc:creator>
     </item>
   </channel>
 </rss>

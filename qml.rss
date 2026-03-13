@@ -7,85 +7,29 @@
     <atom:link href="http://rss.arxiv.org/rss/quant-ph" rel="self" type="application/rss+xml"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Mar 2026 04:00:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 04:00:05 +0000</lastBuildDate>
     <managingEditor>rss-help@arxiv.org</managingEditor>
-    <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
+    <pubDate>Fri, 13 Mar 2026 00:00:00 -0400</pubDate>
     <skipDays>
       <day>Saturday</day>
       <day>Sunday</day>
     </skipDays>
     <item>
-      <title>Mitigating Frequency Learning Bias in Quantum Models via Multi-Stage Residual Learning</title>
-      <link>https://arxiv.org/abs/2603.10083</link>
-      <description>arXiv:2603.10083v1 Announce Type: new 
-Abstract: Quantum machine learning models based on parameterized circuits can be viewed as Fourier series approximators. However, they often struggle to learn functions with multiple frequency components, particularly high-frequency or non-dominant ones; a phenomenon we term the quantum Fourier parameterization bias. Inspired by recent advances in classical Fourier neural operators (FNOs), we adapt the multi-stage residual learning idea to the quantum domain, iteratively training additional quantum modules on the residuals of previous stages. We evaluate our method on a synthetic benchmark composed of spatially localized frequency components with diverse envelope shapes (Gaussian, Lorentzian, triangular). Systematic experiments show that the number of qubits, the encoding scheme, and residual learning are all crucial for resolving multiple frequencies; residual learning alone can improve test MSE significantly over a single-stage baseline trained for the same total number of epochs. Our work provides a practical framework for enhancing the spectral expressivity of quantum models and offers new insights into their frequency-learning behavior.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.10083v1</guid>
-      <category>quant-ph</category>
-      <category>cs.LG</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ammar Daskin</dc:creator>
-    </item>
-    <item>
-      <title>Learning from Radio using Variational Quantum RF Sensing</title>
-      <link>https://arxiv.org/abs/2603.10239</link>
-      <description>arXiv:2603.10239v1 Announce Type: new 
-Abstract: In modern wireless networks, radio channels serve a dual role. Whilst their primary function is to carry bits of information from a transmitter to a receiver, the intrinsic sensitivity of transmitted signals to the physical structure of the environment makes the channel a powerful source of knowledge about the world. In this paper, we consider an agent that learns about its environment using a quantum sensing probe, optimised using a quantum circuit, which interacts with the radio-frequency (RF) electromagnetic field. We use data obtained from a ray-tracer to train the quantum circuit and learning model and we provide extensive experiments under realistic conditions on a localisation task. We show that using quantum sensors to learn from radio signals can enable intelligent systems that require no channel measurements at deployment, remain sensitive to weak and obstructed RF signals, and can learn about the world despite operating with strictly less information than classical baselines.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.10239v1</guid>
-      <category>quant-ph</category>
+      <title>Detecting Intrinsic and Instrumental Self-Preservation in Autonomous Agents: The Unified Continuation-Interest Protocol</title>
+      <link>https://arxiv.org/abs/2603.11382</link>
+      <description>arXiv:2603.11382v1 Announce Type: cross 
+Abstract: Autonomous agents, especially delegated systems with memory, persistent context, and multi-step planning, pose a measurement problem not present in stateless models: an agent that preserves continued operation as a terminal objective and one that does so merely instrumentally can produce observationally similar trajectories. External behavioral monitoring cannot reliably distinguish between them. We introduce the Unified Continuation-Interest Protocol (UCIP), a multi-criterion detection framework that moves this distinction from behavior to the latent structure of agent trajectories. UCIP encodes trajectories with a Quantum Boltzmann Machine (QBM), a classical algorithm based on the density-matrix formalism of quantum statistical mechanics, and measures the von Neumann entropy of the reduced density matrix induced by a bipartition of hidden units.
+  We test whether agents with terminal continuation objectives (Type A) produce latent states with higher entanglement entropy than agents whose continuation is merely instrumental (Type B). Higher entanglement reflects stronger cross-partition statistical coupling.
+  On gridworld agents with known ground-truth objectives, UCIP achieves 100% detection accuracy and 1.0 AUC-ROC on held-out non-adversarial evaluation under the frozen Phase I gate. The entanglement gap between Type A and Type B agents is Delta = 0.381 (p &lt; 0.001, permutation test). Pearson r = 0.934 across an 11-point interpolation sweep indicates that, within this synthetic family, UCIP tracks graded changes in continuation weighting rather than merely a binary label. Among the tested models, only the QBM achieves positive Delta. All computations are classical; "quantum" refers only to the mathematical formalism. UCIP does not detect consciousness or subjective experience; it detects statistical structure in latent representations that correlates with known objectives.</description>
+      <guid isPermaLink="false">oai:arXiv.org:2603.11382v1</guid>
       <category>cs.AI</category>
-      <category>cs.IT</category>
-      <category>eess.SP</category>
-      <category>math.IT</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Ivana Nikoloska</dc:creator>
-    </item>
-    <item>
-      <title>Quantum entanglement provides a competitive advantage in adversarial games</title>
-      <link>https://arxiv.org/abs/2603.10289</link>
-      <description>arXiv:2603.10289v1 Announce Type: new 
-Abstract: Whether uniquely quantum resources confer advantages in fully classical, competitive environments remains an open question. Competitive zero-sum reinforcement learning is particularly challenging, as success requires modelling dynamic interactions between opposing agents rather than static state-action mappings. Here, we conduct a controlled study isolating the role of quantum entanglement in a quantum-classical hybrid agent trained on Pong, a competitive Markov game. An 8-qubit parameterised quantum circuit serves as a feature extractor within a proximal policy optimisation framework, allowing direct comparison between separable circuits and architectures incorporating fixed (CZ) or trainable (IsingZZ) entangling gates. Entangled circuits consistently outperform separable counterparts with comparable parameter counts and, in low-capacity regimes, match or exceed classical multilayer perceptron baselines. Representation similarity analysis further shows that entangled circuits learn structurally distinct features, consistent with improved modelling of interacting state variables. These findings establish entanglement as a function resource for representation learning in competitive reinforcement learning.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.10289v1</guid>
-      <category>quant-ph</category>
-      <category>cs.AI</category>
+      <category>cs.ET</category>
       <category>cs.LG</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Peiyong Wang, Kieran Hymas, James Quach</dc:creator>
-    </item>
-    <item>
-      <title>Permutation-invariant codes: a numerical study and qudit constructions</title>
-      <link>https://arxiv.org/abs/2603.10981</link>
-      <description>arXiv:2603.10981v1 Announce Type: new 
-Abstract: We investigate Permutation-Invariant (PI) quantum error-correcting codes encoding a logical qudit of dimension $\mathrm{d}_\mathrm{L}$ in PI states using physical qudits of dimension $\mathrm{d}_\mathrm{P}$. We extend the Knill--Laflamme (KL) conditions for $d-1$ deletion errors from qubits to qudits and investigate numerically both qubit ($\mathrm{d}_\mathrm{L} = \mathrm{d}_\mathrm{P} = 2$) and qudit ($\mathrm{d}_\mathrm{L} &gt; 2$ or $\mathrm{d}_\mathrm{P} &gt; 2$) PI codes. We analyze the scaling of the block length $n$ in terms of the code distance $d$, and compare to existing families of PI codes due to Ouyang, Aydin--Alekseyev--Barg (AAB) and Pollatsek--Ruskai (PR). Our three main findings are: (i) We conjecture that qubit PI codes correcting up to $d-1$ deletion errors have block length $n(d) \geq (3d^2 + 1) / 4$, which implies an upper bound $d \leq \sqrt{12n-3}/3$ on their code distance, and that PR codes can saturate this bound. (ii) For qudit PI codes encoding a single qudit we numerically observe that increasing $\mathrm{d}_\mathrm{P}$ results in $n$ monotonically decreasing and approaching the quantum Singleton bound $n(d) \geq 2d-1$. (iii) We propose a semi-analytic extension of the qubit AAB construction to qudits that finds explicit solutions by solving a linear program. Our results therefore provide key insights into lower bounds on the block length scaling of both qubit and qudit PI codes, and demonstrate the benefit of increased physical local dimension in the context of PI codes.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.10981v1</guid>
       <category>quant-ph</category>
-      <category>cs.IT</category>
-      <category>math.IT</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
-      <arxiv:announce_type>new</arxiv:announce_type>
-      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
-      <dc:creator>Liam J. Bond, Ji\v{r}\'i Min\'a\v{r}, M\=aris Ozols, Arghavan Safavi-Naini, Vladyslav Visnevskyi</dc:creator>
-    </item>
-    <item>
-      <title>Quantization of Ricci Curvature in Information Geometry</title>
-      <link>https://arxiv.org/abs/2603.10054</link>
-      <description>arXiv:2603.10054v1 Announce Type: cross 
-Abstract: In 2004, while studying the information geometry of binary Bayesian networks (bitnets), the author conjectured that the volume-averaged Ricci scalar &lt;R&gt; computed with respect to the Fisher information metric is universally quantized to positive half-integers: &lt;R&gt; in (1/2)Z. This paper resolves the conjecture after 20 years. We prove it for tree-structured and complete-graph bitnets via a universal Beta function cancellation mechanism, and disprove it in general by exhibiting explicit loop counterexamples.
-  We extend the program to Gaussian DAG networks, where a sign dichotomy holds: discrete bitnets have positive curvature, while Gaussian networks form solvable Lie groups with negative curvature.</description>
-      <guid isPermaLink="false">oai:arXiv.org:2603.10054v1</guid>
-      <category>cs.IT</category>
-      <category>cs.LG</category>
-      <category>math.IT</category>
-      <category>quant-ph</category>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 -0400</pubDate>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 -0400</pubDate>
       <arxiv:announce_type>cross</arxiv:announce_type>
-      <dc:rights>http://creativecommons.org/licenses/by/4.0/</dc:rights>
-      <dc:creator>Carlos C. Rodriguez</dc:creator>
+      <dc:rights>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</dc:rights>
+      <dc:creator>Christopher Altman</dc:creator>
     </item>
   </channel>
 </rss>
